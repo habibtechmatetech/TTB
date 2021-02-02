@@ -1,0 +1,75 @@
+version: 2.1
+jobs:
+  build-job:
+    docker:
+      # specify the version you desire here
+      - image: circleci/node:10.13.0
+
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/mongo:3.4.4
+
+    working_directory: ~/mobile1
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          key: yarn-v1-{{ checksum "yarn.lock" }}
+
+      - restore_cache:
+          key: node-v1-{{ checksum "package.json" }}
+
+      - run: yarn install
+      
+      
+      
+
+      - save_cache:
+          key: yarn-v1-{{ checksum "yarn.lock" }}-{{ arch }}
+          paths:
+            - ~/.cache/yarn
+
+      - save_cache:
+          key: node-v1-{{ checksum "package.json" }}-{{ arch }}
+          paths:
+            - node_modules
+
+      # run tests!
+      #- run: yarn run test:unit 
+
+  deploy-job:
+       docker:
+         - image: circleci/node:10.13.0
+       working_directory: ~/mobile1 
+       steps:
+         - restore_cache:
+             keys:
+              - v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }} 
+         - run:
+             name: show directory 
+             command: pwd
+         - run:
+             name: Install Firebase
+             command: npm install --save-dev firebase-tools
+         - run:
+             name: look in directory
+             command: ls -ltr
+         - run:
+             name: Deploy main to Firebase
+             command: npm run firebase deploy -- --token=$FIREBASE_DEPLOY_TOKEN    
+
+workflows:
+  version: 2.1
+
+  -deploy:
+    jobs:
+      - build-job
+      - deploy-job:
+          requires:
+            - build-job
+          filters:
+            branches:
+              only: main
+
