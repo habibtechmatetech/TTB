@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "તમારી વર્તમાન ભાષા પસંદ કરો", "mainAction": "ભાષા પસંદ કરો" },
+  "menu": {
+    "anonymousTitle": "તમારું ખાતું",
+    "anonymousAction": "પ્રવેશ કરો",
+    "editProfileAction": "પ્રોફાઇલ સંપાદિત કરો",
+    "verifyProfileAction": "પ્રોફાઇલ ચકાસો",
+    "bibleSection": "બાઇબલ",
+    "teachingsSection": "ઉપદેશો",
+    "librarySection": "મારી લાઇબ્રેરી",
+    "groupsSection": "જૂથો",
+    "donateSection": "દાન કરો",
+    "settingsSection": "સેટિંગ્સ",
+    "signOut": "સાઇન આઉટ",
+    "modals": {
+      "verifyProfile": {
+        "title": "તમે ચકાસાયેલ નથી",
+        "message": "તમારી યાદીઓ સમન્વયિત થશે નહીં અને તમે જૂથો બનાવી શકતા નથી. કૃપા કરીને નોંધણી પૂર્ણ કરવા માટે તમારું ઇમેઇલ તપાસો.",
+        "firstButton": "ચાલુ રાખો",
+        "secondButton": "નવી પ્રોફાઇલ નોંધણી કરો"
+      }
+    }
+  },
+  "signIn": {
+    "header": "સાઇન ઇન",
+    "emailPlaceholder": "તમારા ઇમેઇલ",
+    "passwordPlaceholder": "તમારો ખાનગી શબ્દ",
+    "forgotAction": "પાસવર્ડ ભૂલી ગયા છો?",
+    "callToAction": "સાઇન ઇન કરો",
+    "signInAlternatives": "અથવા ઉપયોગ કરીને સાઇન ઇન કરો",
+    "noAccountAction": "ખાતું નથી? એક બનાવો",
+    "notifications": {
+      "invalidCredentials": "અમાન્ય ઓળખાણપત્ર",
+      "inProgress": "સાઇન ઇન પહેલેથી પ્રગતિમાં છે",
+      "notAvailable": "પ્લે સેવાઓ ઉપલબ્ધ નથી"
+    }
+  },
+  "signUp": {
+    "header": "ખાતું બનાવો",
+    "emailPlaceholder": "તમારા ઇમેઇલ",
+    "passwordPlaceholder": "તમારો ખાનગી શબ્દ",
+    "privateAction": "એકાઉન્ટને ખાનગી બનાવો",
+    "termsDisclaimer": {
+      "pre": "સાઇનઅપ ક્લિક કરીને તમે સૂચવે છે કે તમે વાંચ્યું છે અને સંમત છો",
+      "terms": "શરતો",
+      "post": "."
+    },
+    "callToAction": "સાઇન અપ કરો",
+    "signUpAlternatives": "અથવા સાઇન અપ કરીને",
+    "haveAnAccountAction": "ખાતું છે?",
+    "notifications": {
+      "invalidUsername": "વપરાશકર્તાનામો 20 આલ્ફાન્યુમેરિક અક્ષરો (સંખ્યાઓ અને નિયમિત અક્ષરો) સુધી મર્યાદિત છે",
+      "invalidPassword": "પાસવર્ડમાં ઓછામાં ઓછા 3 અક્ષરો હોવા જોઈએ અને ઓછામાં ઓછા એક નંબર અથવા વિશેષ પાત્ર સાથેના ઉપલા અને નીચેના અક્ષરોનું સંયોજન હોવું જોઈએ"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "ખાતું બનાવવામાં અસમર્થ",
+        "message": "આ ઇમેઇલ સરનામું પહેલેથી જ અસ્તિત્વમાં છે.",
+        "firstButton": "સાઇન ઇન",
+        "secondButton": "બંધ"
+      },
+      "privateAccount": {
+        "title": "ખાનગી ખાતું",
+        "message": "તમારું એકાઉન્ટ ખાનગી બનાવીને, તમે તેને અન્ય લોકો દ્વારા શોધવામાંથી છુપાવી રહ્યાં છો.",
+        "firstButton": "સ્વીકારો",
+        "secondButton": "ઘટી"
+      },
+      "success": {
+        "title": "ખાતું બનાવ્યું!",
+        "message": "તમારું એકાઉન્ટ સફળતાપૂર્વક બનાવવામાં આવ્યું હતું. તમારા એકાઉન્ટની પુષ્ટિ કરવા અને સાઇન ઇન કરવા માટે તમારા ઇનબોક્સને તપાસો.",
+        "firstButton": "સાઇન ઇન"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "પાસવર્ડ ફરીથી સેટ કરો",
+    "emailPlaceholder": "તમારા ઇમેઇલ",
+    "message": "કૃપા કરીને તમારા એકાઉન્ટ માટે તમારો પાસવર્ડ ફરીથી સેટ કરવા માટે તમારું ઇમેઇલ દાખલ કરો.",
+    "callToAction": "પાસવર્ડ ફરીથી સેટ કરો",
+    "notifications": {
+      "success": "અમે હમણાં જ તમારા ઇનબોક્સ પર એક ઇમેઇલ મોકલ્યો છે",
+      "emailNotFoundError": "ઇમેઇલ મળ્યો નથી",
+      "invalidEmailError": "અમાન્ય ઇમેઇલ ફોર્મેટ"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "સેટઅપ સમાપ્ત કરો",
+    "message": "તમે દાખલ કરેલા ઇમેઇલ સરનામાં પર એક ઇમેઇલ મોકલવામાં આવ્યો છે. કૃપા કરીને નોંધણી પૂર્ણ કરવા માટે ઇમેઇલ વિગતો જુઓ.",
+    "callToAction": "હવે માટે અવગણો"
+  },
+  "teachings": {
+    "dailyText": "આજનું પ્રસારણ",
+    "journeyTitle": "તમારી જર્ની શરૂ કરો",
+    "journeySubtitle": "શરૂઆતથી બધી ઉપદેશો",
+    "journeyCardTitle": "બાઇબલ દ્વારા 215 અઠવાડિયું જર્ની",
+    "journeyCardSubtitle": "તમારા સમય પર સાંભળો",
+    "tracksLabel": "ટ્રેક્સ"
+  },
+  "teaching": {
+    "header": "ઉપદેશો",
+    "loading": "લોડ કરી રહ્યું છે ...",
+    "player": {
+      "audioSpeed": "Audioડિઓ ગતિ",
+      "loading": "લોડ કરી રહ્યું છે",
+      "castingError": "કોઈ ઉપકરણો ઉપલબ્ધ નથી"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "સાંભળવાનું ચાલુ રાખો", "secondButton": "તમારી યાત્રા શરૂ કરો" }
+    }
+  },
+  "journey": {
+    "byDate": "તારીખ દ્વારા",
+    "bySeries": "સિરીઝ દ્વારા",
+    "sections": { "tracksLabel": "ટ્રેક્સ" }
+  },
+  "library": {
+    "header": "મારી લાઇબ્રેરી",
+    "tabs": { "downloads": "ડાઉનલોડ્સ", "favorites": "મનપસંદ", "playlists": "પ્લેલિસ્ટ્સ" }
+  },
+  "groups": {
+    "header": "જૂથો",
+    "createGroup": {
+      "title": "નવું જૂથ બનાવો",
+      "groupNameLabel": "ગ્રુપ નામ",
+      "groupNameInputPlaceHolder": "નામ",
+      "descriptionLabel": "વર્ણન",
+      "descriptionInputPlaceHolder": "વર્ણન ઉમેરો",
+      "inviteLabel": "વપરાશકર્તાઓને આમંત્રિત કરો",
+      "inviteButton": "નવા વપરાશકર્તાઓને આમંત્રણ આપો",
+      "button": "જૂથ બનાવો",
+      "invalidGroupName": "માન્ય નામ દાખલ કરો",
+      "groupNameTooLong": "જૂથના નામમાં 25 થી વધુ અક્ષરો હોવા જોઈએ નહીં"
+    },
+    "devotionNotStartAlert": "આ જૂથ માટે ભક્તિ શરૂ થઈ નથી",
+    "membersLabel": "સભ્યો",
+    "chatModalMemberSubtitleLabel": "સભ્ય",
+    "chatModalMembersSubtitleLabel": "સભ્યો",
+    "chat": {
+      "listeningToLabel": "ને સાંભળવું",
+      "loadingTrackLabel": "ટ્રેક લોડ કરી રહ્યું છે ...",
+      "inputPlaceHolder": "સંદેશ લખો",
+      "deletePost": "પોસ્ટ કા Deleteી નાખો",
+      "deleteMessage": "એક સંદેશ કા .ી નાખ્યો છે"
+    },
+    "groupSettings": {
+      "participantsSection": "સહભાગીઓ",
+      "viewAll": "બધુજ જુઓ",
+      "invite": "નવા વપરાશકર્તાઓને આમંત્રણ આપો",
+      "endDevotion": "અંત જૂથ ભક્તિ",
+      "deleteGroup": "જૂથ કા .ી નાખો",
+      "leaveGroup": "સમૂહ છોડી દો"
+    },
+    "userDirectory": {
+      "header": "વપરાશકર્તા ડિરેક્ટરી",
+      "remove": "દૂર કરો",
+      "anonymous": "અનામિક",
+      "send": "મોકલો"
+    },
+    "inviteUser": { "placeHolder": "શોધો", "send": "મોકલો" }
+  },
+  "chat": {
+    "header": "ગ્રુપ ચેનલ",
+    "settings": {
+      "header": "જૂથ સેટિંગ્સ",
+      "endDevotion": {
+        "alertTitle": "અંત ભક્તિ",
+        "alertMessage": "શું તમે ખરેખર આ ભક્તિનો અંત લાવવા માંગો છો?",
+        "alertCancel": "રદ કરો",
+        "alertConfirm": "હા",
+        "endDevotionLabel": "આ ભક્તિ અંત.",
+        "hasEnded": "આ ભક્તિનો અંત આવ્યો છે"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "ભક્તિ શરૂ કરો",
+    "alertMessage": "શું તમે ખરેખર% {નામ} જૂથથી ભક્તિ શરૂ કરવા માંગો છો?",
+    "alertCancel": "રદ કરો",
+    "alertConfirm": "હા",
+    "devotionStartedLabel": "એક ભક્તિ શરૂ કરી છે."
+  },
+  "settings": {
+    "header": "સેટિંગ્સ",
+    "tabs": { "profile": "પ્રોફાઇલ", "media": "મીડિયા", "notifications": "સૂચનાઓ" },
+    "profile": {
+      "account": "ખાતું",
+      "username": "વપરાશકર્તા નામ",
+      "email": "ઇ-મેઇલ",
+      "editButton": "સંપાદિત કરો",
+      "edit": {
+        "save": "સાચવો",
+        "username": {
+          "header": "વપરાશકર્તા નામ",
+          "successAlert": "તમારો ફેરફાર સાચવવામાં આવ્યો છે.",
+          "failedAlert": "ફેરફાર સાચવવામાં નિષ્ફળ."
+        },
+        "email": {
+          "header": "ઇમેઇલ",
+          "successAlert": "તમારો ફેરફાર સાચવવામાં આવ્યો છે.",
+          "failedAlert": "ફેરફાર સાચવવામાં નિષ્ફળ."
+        }
+      },
+      "languages": "ભાષાઓ",
+      "signIn": "સાઇન ઇન",
+      "signOut": "એકાઉન્ટમાંથી સાઇન આઉટ કરો",
+      "legal": "કાયદેસર",
+      "termsConditions": "શરતો અને નિયમો",
+      "privacyPolicy": "ગોપનીયતા નીતિ",
+      "support": "આધાર",
+      "reportAProblem": "સમસ્યાનો અહેવાલ આપો",
+      "tutorial": "ટ્યુટોરિયલ",
+      "reportBug": {
+        "header": "સમસ્યાનો અહેવાલ આપો",
+        "send": "મોકલો",
+        "subject": "વિષય",
+        "subjectPlaceHolder": "વિષય",
+        "description": "વર્ણન",
+        "descriptionPlaceHolder": "વર્ણન",
+        "successAlert": "આભાર, અમને તમારો સંદેશ મળ્યો છે.",
+        "failedAlert": "સંદેશ મોકલવામાં નિષ્ફળ."
+      },
+      "version": "સંસ્કરણ"
+    },
+    "media": {
+      "audio": "Audioડિઓ",
+      "autoplay": "Opટોપ્લે .ડિઓ",
+      "storage": "સંગ્રહ",
+      "downloadWifi": "ફક્ત Wi-Fi પર ડાઉનલોડ કરો",
+      "deleteCache": "કેશ કા Deleteી નાખો"
+    },
+    "notifications": {
+      "notifications": "સૂચનાઓ",
+      "groupInvitation": "જૂથ આમંત્રણ",
+      "devotions": "ભક્તિમાં આમંત્રણ આપો",
+      "file": "ફાઇલ સ્થાનાંતરણની પુષ્ટિ"
+    }
+  },
+  "inviteUsers": { "header": "વપરાશકર્તાઓને આમંત્રિત કરો" },
+  "playlist": {
+    "header": "પ્લેલિસ્ટ",
+    "audioFileLabel": "Audioડિઓ ફાઇલ",
+    "audioFilesLabel": "Audioડિઓ ફાઇલો"
+  },
+  "collection": { "header": "સંગ્રહ", "audioFilesLabel": "Audioડિઓ ફાઇલો" },
+  "modal": {
+    "close": "બંધ",
+    "addToPlaylist": { "title": "પ્લેલિસ્ટમાં ઉમેરો", "button": "પ્લેલિસ્ટ બનાવો" },
+    "startDevotion": { "title": "ભક્તિ શરૂ કરો" },
+    "createPlaylist": {
+      "title": "નવી પ્લેલિસ્ટ બનાવો",
+      "button": "પ્લેલિસ્ટ બનાવો",
+      "inputPlaceholder": "પ્લેલિસ્ટ નામ દાખલ કરો",
+      "success": "પ્લેલિસ્ટમાં ઉમેર્યું"
+    },
+    "login": "ભક્તિ શરૂ કરવા માટે તમારે લ loginગિન કરવાની જરૂર છે"
+  },
+  "options": {
+    "shared": {
+      "share": "શેર કરો",
+      "report": "સામગ્રીની જાણ કરો",
+      "shareOthers": "અન્ય લોકો સાથે શેર કરો",
+      "copy": "લિંક ક .પિ કરો",
+      "more": "વધુ"
+    },
+    "audio": {
+      "download": "ડાઉનલોડ કરો",
+      "addFavorite": "મનપસંદમાં ઉમેરો",
+      "addPlaylist": "પ્લેલિસ્ટમાં ઉમેરો",
+      "removeFavorite": "મનપસંદમાંથી દૂર કરો",
+      "removePlaylist": "પ્લેલિસ્ટમાંથી દૂર કરો",
+      "removeDownload": "ડાઉનલોડ્સમાંથી દૂર કરો"
+    },
+    "playlist": { "edit": "સંપાદિત કરો", "delete": "પ્લેલિસ્ટ કા Deleteી નાખો" },
+    "startDevotion": "ભક્તિ શરૂ કરો"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "પ્લેલિસ્ટમાં ઉમેર્યું",
+      "delete": "પ્લેલિસ્ટમાંથી દૂર કર્યું",
+      "create": "પ્લેલિસ્ટ બનાવેલ",
+      "destroy": "કા Playી નાખેલી પ્લેલિસ્ટ"
+    },
+    "favorites": { "add": "મનપસંદમાં ઉમેર્યું", "remove": "મનપસંદમાંથી દૂર કર્યું" },
+    "downloads": { "remove": "ડાઉનલોડ્સથી દૂર કર્યું" }
+  },
+  "buttons": { "loop": "લૂપ", "shuffle": "શફલ" },
+  "uiControls": {
+    "searchBox": { "placeholder": "શોધો ..." },
+    "notification": { "success": "સફળતા! તમારા એકાઉન્ટ પર એક ઇમેઇલ મોકલવામાં આવશે." },
+    "button": { "sending": "મોકલી રહ્યું છે ..." },
+    "modalSelector": { "cancel": "રદ કરો" },
+    "loading": "લોડ કરી રહ્યું છે"
+  },
+  "bible": {
+    "header": "બાઇબલ",
+    "oldTestament": "ઓલ્ડ ટેસ્ટામેન્ટ",
+    "newTestament": "નવો કરાર",
+    "popularBooks": "લોકપ્રિય પુસ્તકો"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "શોધો",
+    "cancelButton": "રદ કરો",
+    "searchResults": "શોધ પરિણામો",
+    "filterButton": "ફિલ્ટર કરો",
+    "teachings": { "title": "ઉપદેશો" },
+    "bible": { "title": "બાઇબલ" }
+  },
+  "addToPlaylistsModal": { "title": "પ્લેલિસ્ટમાં ઉમેરો", "button": "પ્લેલિસ્ટ બનાવો" },
+  "createPlaylistModal": {
+    "title": "નવી પ્લેલિસ્ટ બનાવો",
+    "button": "પ્લેલિસ્ટ બનાવો",
+    "inputPlaceholder": "પ્લેલિસ્ટ નામ દાખલ કરો"
+  },
+  "alert": {
+    "playlists": {
+      "add": "પ્લેલિસ્ટમાં ઉમેર્યું",
+      "remove": "પ્લેલિસ્ટમાંથી દૂર કર્યું",
+      "create": "પ્લેલિસ્ટ બનાવેલ",
+      "delete": "કા Playી નાખેલી પ્લેલિસ્ટ"
+    },
+    "favorites": { "add": "મનપસંદમાં ઉમેર્યું", "remove": "મનપસંદમાંથી દૂર કર્યું" },
+    "downloads": { "remove": "ડાઉનલોડ્સથી દૂર કર્યું" },
+    "facebook": { "loginError": "લ Loginગિન ભૂલ સાથે નિષ્ફળ" },
+    "google": { "loginError": "લ Loginગિન ભૂલ સાથે નિષ્ફળ" }
+  },
+  "playlists": { "trackLabel": "ટ્રેક", "tracksLabel": "ટ્રેક્સ" },
+  "mediaList": { "tracksLabel": "ટ્રેક્સ", "remove": "દૂર કરો" },
+  "tutorialPage": { "done": "થઈ ગયું", "skip": "અવગણો" },
+  "loginModal": { "login": "પ્રવેશ કરો" },
+  "shareModal": { "facebook": "ફેસબુક", "twitter": "Twitter", "whatsapp": "વોટ્સેપ" },
+  "downloadModal": { "downloading": "ડાઉનલોડ કરી રહ્યું છે", "complete": "ડાઉનલોડ પૂર્ણ" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "બાઇબલનું અન્વેષણ કરો",
+      "subtitle1": "અમારી સાથે આખું બાઇબલ મુસાફરી કરો, અથવા તમારી પોતાની યાત્રા શરૂ કરો.",
+      "title2": "સાંભળો અને જોડાઓ",
+      "subtitle2": "મીડિયા પ્લેયર તમને બાઈબલની સામગ્રીને સરળતા સાથે THRU માં ડાઇવ કરવાની મંજૂરી આપે છે.",
+      "title3": "શિક્ષણ શોધો",
+      "subtitle3": "બાઈબલ અને શિક્ષણ વિષયવસ્તુને ક્રોસ-રેફરન્સ કરીને પહેલાંની જેમ બાઇબલમાં રોકાયેલા રહો",
+      "title4": "બાઇબલની ચર્ચા કરો",
+      "subtitle4": "THRU બાઇબલના ઉપદેશો અને અન્ય લોકો સાથેના મુદ્દાઓનો અભ્યાસ કરવા જૂથમાં જોડાઓ.",
+      "title5": "ડાઉનલોડ કરો અને શેર કરો",
+      "subtitle5": "જતાં-જતાં ભગવાનનો શબ્દ સાંભળવાનો આનંદ લો અને તેને તમારા મિત્રો સાથે શેર કરો.",
+      "title6": "સાચવો અને બનાવો",
+      "subtitle6": "તમારી પસંદની ઉપદેશો અને બાઇબલની કલમો સાચવો અથવા કસ્ટમ પ્લેલિસ્ટ બનાવો.",
+      "title7": "જૂથ ભક્તિઓ",
+      "subtitle7": "દૈનિક જૂથ ભક્તિથી અન્ય લોકો દ્વારા પ્રોત્સાહિત અને પ્રેરિત બનો."
+    },
+    "registerPage": {
+      "noThanks": "ના આભાર",
+      "haveAccount": "ખાતું છે?",
+      "createAccount": "મારું એકાઉન્ટ બનાવો",
+      "title1": "અન્ય લોકો સાથે ચર્ચા કરો",
+      "subtitle1": "તમારા મનપસંદ વિષયો અને અન્ય લોકો સાથે બાઇબલની છંદોની ચર્ચા કરો.",
+      "title2": "પ્લેલિસ્ટ્સ સ્ટોર અને સિંક કરો",
+      "subtitle2": "તમારી મનપસંદ સામગ્રીની સૂચિ એક જગ્યાએ બનાવો.",
+      "title3": "તમારા મનપસંદ જુઓ",
+      "subtitle3": "સ્ટોર કરો અને પાછા આવો અને પછીના સમયે તમારી પસંદની મુલાકાત લો.",
+      "title4": "સ્વાગત પાછા",
+      "subtitle4": "એક એકાઉન્ટ બનાવો અને અમારી બધી સુવિધાઓની .ક્સેસ મેળવો."
+    }
+  },
+  "app": {
+    "close": "બંધ",
+    "accept": "સ્વીકારો",
+    "reject": "અસ્વીકાર",
+    "constructionInProgress": "પ્રગતિમાં નિર્માણ",
+    "downloadComplete": "ડાઉનલોડ પૂર્ણ",
+    "downloading": "ડાઉનલોડ કરી રહ્યું છે",
+    "downloadFailed": "ડાઉનલોડ નિષ્ફળ થયું",
+    "sendAFile": "કોઈ તમને ફાઇલ મોકલવા માંગે છે"
+  },
+  "transferring": { "tryAgain": "ફરીથી પ્રયત્ન કરો", "close": "બંધ" },
+  "checkDevice": {
+    "check": "તમારું ડિવાઇસ તપાસો",
+    "makeSure": "કૃપા કરીને ખાતરી કરો કે તમારા મિત્રના ઉપકરણ પર વાઇફાઇ-ડાયરેક્ટ ચાલુ છે અને તે શ્રેણીમાં છે.",
+    "continue": "ચાલુ રાખો"
+  },
+  "connectToDevice": { "connect": "કોઈ ડિવાઇસથી કનેક્ટ કરો" },
+  "pairing": {
+    "connect": "કોઈ ડિવાઇસથી કનેક્ટ કરો",
+    "pairing": "જોડી",
+    "success": "સફળતાપૂર્વક જોડી",
+    "failed": "ડિવાઇસ જોડી નિષ્ફળ",
+    "makeSure": "કૃપા કરીને ખાતરી કરો કે (વાઇફાઇ-ડાયરેક્ટ) તમારા મિત્રનાં ઉપકરણ પર ચાલુ છે અને તે શ્રેણીમાં છે.",
+    "continue": "ચાલુ રાખો",
+    "tryAgain": "ફરીથી પ્રયત્ન કરો"
+  },
+  "selectNetworkType": {
+    "connect": "ડિવાઇસથી કનેક્ટ કરો",
+    "share": "વાઇફાઇ ડાયરેક્ટ સાથે શેર કરો",
+    "send": "ડાયરેક્ટ વાઇફાઇ પર ફાઇલ મોકલો?",
+    "continue": "ચાલુ રાખો"
+  }
+}

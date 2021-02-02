@@ -1,0 +1,398 @@
+{
+  "selectLanguage": { "heading": "ਆਪਣੀ ਮੌਜੂਦਾ ਭਾਸ਼ਾ ਦੀ ਚੋਣ ਕਰੋ", "mainAction": "ਭਾਸ਼ਾ ਚੁਣੋ" },
+  "menu": {
+    "anonymousTitle": "ਤੁਹਾਡਾ ਖਾਤਾ",
+    "anonymousAction": "ਲਾਗਿਨ",
+    "editProfileAction": "ਸੋਧ ਪ੍ਰੋਫ਼ਾਈਲ",
+    "verifyProfileAction": "ਪਰੋਫਾਈਲ ਦੀ ਪੜਤਾਲ ਕਰੋ",
+    "bibleSection": "ਬਾਈਬਲ",
+    "teachingsSection": "ਸਿੱਖਿਆਵਾਂ",
+    "librarySection": "ਮੇਰੀ ਲਾਇਬ੍ਰੇਰੀ",
+    "groupsSection": "ਸਮੂਹ",
+    "donateSection": "ਦਾਨ ਕਰੋ",
+    "settingsSection": "ਸੈਟਿੰਗਜ਼",
+    "signOut": "ਸਾਇਨ ਆਉਟ",
+    "modals": {
+      "verifyProfile": {
+        "title": "ਤੁਸੀਂ ਤਸਦੀਕ ਨਹੀਂ ਹੋ",
+        "message": "ਤੁਹਾਡੀਆਂ ਸੂਚੀਆਂ ਨੂੰ ਸਿੰਕ ਨਹੀਂ ਕੀਤਾ ਜਾਵੇਗਾ ਅਤੇ ਤੁਸੀਂ ਸਮੂਹ ਨਹੀਂ ਬਣਾ ਸਕਦੇ. ਕਿਰਪਾ ਕਰਕੇ ਰਜਿਸਟਰੀਕਰਣ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਆਪਣੇ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ.",
+        "firstButton": "ਜਾਰੀ ਰੱਖੋ",
+        "secondButton": "ਇੱਕ ਨਵਾਂ ਪ੍ਰੋਫਾਈਲ ਰਜਿਸਟਰ ਕਰੋ"
+      }
+    }
+  },
+  "signIn": {
+    "header": "ਸਾਈਨ - ਇਨ",
+    "emailPlaceholder": "ਤੁਹਾਡਾ ਈਮੇਲ",
+    "passwordPlaceholder": "ਤੁਹਾਡਾ ਪਾਸਵਰਡ",
+    "forgotAction": "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ?",
+    "callToAction": "ਸਾਈਨ - ਇਨ",
+    "signInAlternatives": "ਜਾਂ ਸਾਈਨ ਇਨ ਦੀ ਵਰਤੋਂ ਕਰਕੇ",
+    "noAccountAction": "ਕੋਈ ਖਾਤਾ ਨਹੀਂ? ਇੱਕ ਬਣਾਓ",
+    "notifications": {
+      "invalidCredentials": "ਅਵੈਧ ਪ੍ਰਮਾਣ ਪੱਤਰ",
+      "inProgress": "ਸਾਈਨ ਇਨ ਪਹਿਲਾਂ ਹੀ ਜਾਰੀ ਹੈ",
+      "notAvailable": "ਪਲੇ ਸਰਵਿਸਿਜ਼ ਅਣਉਪਲਬਧ"
+    }
+  },
+  "signUp": {
+    "header": "ਖਾਤਾ ਬਣਾਉ",
+    "emailPlaceholder": "ਤੁਹਾਡਾ ਈਮੇਲ",
+    "passwordPlaceholder": "ਤੁਹਾਡਾ ਪਾਸਵਰਡ",
+    "privateAction": "ਖਾਤਾ ਨਿੱਜੀ ਬਣਾਓ",
+    "termsDisclaimer": {
+      "pre": "ਸਾਈਨਅਪ ਤੇ ਕਲਿਕ ਕਰਕੇ ਤੁਸੀਂ ਸੰਕੇਤ ਦਿੰਦੇ ਹੋ ਕਿ ਤੁਸੀਂ ਪੜ੍ਹ ਲਿਆ ਹੈ ਅਤੇ ਸਹਿਮਤ ਹੋ",
+      "terms": "ਸ਼ਰਤਾਂ",
+      "post": "."
+    },
+    "callToAction": "ਸਾਇਨ ਅਪ",
+    "signUpAlternatives": "ਜਾਂ ਵਰਤ ਕੇ ਸਾਈਨ ਅਪ ਕਰੋ",
+    "haveAnAccountAction": "ਕੋਈ ਖਾਤਾ ਹੈ?",
+    "notifications": {
+      "invalidUsername": "ਉਪਯੋਗਕਰਤਾ ਨਾਮ 20 ਅੱਖਰ ਅੱਖਰ (ਨੰਬਰ ਅਤੇ ਨਿਯਮਤ ਅੱਖਰ) ਤੱਕ ਸੀਮਿਤ ਹਨ",
+      "invalidPassword": "ਪਾਸਵਰਡ ਵਿੱਚ ਘੱਟੋ ਘੱਟ 3 ਅੱਖਰ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ ਅਤੇ ਘੱਟ ਅਤੇ ਘੱਟ ਅੱਖਰਾਂ ਦੇ ਨਾਲ ਵੱਡੇ ਅਤੇ ਛੋਟੇ ਅੱਖਰਾਂ ਦਾ ਮੇਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "ਖਾਤਾ ਨਹੀਂ ਬਣਾ ਸਕਿਆ",
+        "message": "ਇਹ ਈਮੇਲ ਪਤਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ.",
+        "firstButton": "ਸਾਈਨ - ਇਨ",
+        "secondButton": "ਬੰਦ ਕਰੋ"
+      },
+      "privateAccount": {
+        "title": "ਨਿਜੀ ਖਾਤਾ",
+        "message": "ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਨਿਜੀ ਬਣਾ ਕੇ, ਤੁਸੀਂ ਇਸਨੂੰ ਦੂਜਿਆਂ ਦੁਆਰਾ ਲੱਭਣ ਤੋਂ ਲੁਕਾ ਰਹੇ ਹੋ.",
+        "firstButton": "ਸਵੀਕਾਰ ਕਰੋ",
+        "secondButton": "ਅਸਵੀਕਾਰ"
+      },
+      "success": {
+        "title": "ਖਾਤਾ ਬਣਾਇਆ ਗਿਆ!",
+        "message": "ਤੁਹਾਡਾ ਖਾਤਾ ਸਫਲਤਾਪੂਰਵਕ ਬਣਾਇਆ ਗਿਆ ਸੀ. ਆਪਣੇ ਖਾਤੇ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਅਤੇ ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਆਪਣੇ ਇਨਬਾਕਸ ਦੀ ਜਾਂਚ ਕਰੋ.",
+        "firstButton": "ਸਾਈਨ - ਇਨ"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "ਪਾਸਵਰਡ ਰੀਸੈਟ ਕਰੋ",
+    "emailPlaceholder": "ਤੁਹਾਡਾ ਈਮੇਲ",
+    "message": "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਖਾਤੇ ਲਈ ਆਪਣਾ ਪਾਸਵਰਡ ਰੀਸੈਟ ਕਰਨ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦਰਜ ਕਰੋ.",
+    "callToAction": "ਪਾਸਵਰਡ ਰੀਸੈਟ ਕਰੋ",
+    "notifications": {
+      "success": "ਅਸੀਂ ਹੁਣੇ ਤੁਹਾਡੇ ਇਨਬਾਕਸ ਨੂੰ ਇੱਕ ਈਮੇਲ ਭੇਜਿਆ ਹੈ",
+      "emailNotFoundError": "ਈਮੇਲ ਨਹੀਂ ਮਿਲਿਆ",
+      "invalidEmailError": "ਗਲਤ ਈਮੇਲ ਫਾਰਮੈਟ"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "ਸੈਟਅਪ ਪੂਰਾ ਕਰੋ",
+    "message": "ਤੁਹਾਡੇ ਦੁਆਰਾ ਦਾਖਲ ਕੀਤੇ ਗਏ ਈਮੇਲ ਪਤੇ ਤੇ ਇੱਕ ਈਮੇਲ ਭੇਜਿਆ ਗਿਆ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਰਜਿਸਟਰੀਕਰਣ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਈਮੇਲ ਵੇਰਵੇ ਵੇਖੋ.",
+    "callToAction": "ਹੁਣੇ ਛੱਡੋ"
+  },
+  "teachings": {
+    "dailyText": "ਅੱਜ ਦਾ ਪ੍ਰਸਾਰਣ",
+    "journeyTitle": "ਆਪਣੀ ਯਾਤਰਾ ਸ਼ੁਰੂ ਕਰੋ",
+    "journeySubtitle": "ਅਰੰਭ ਤੋਂ ਲੈ ਕੇ ਸਾਰੀਆਂ ਸਿਖਿਆਵਾਂ",
+    "journeyCardTitle": "ਬਾਈਬਲ ਦੁਆਰਾ 215 ਹਫ਼ਤੇ ਦੀ ਯਾਤਰਾ",
+    "journeyCardSubtitle": "ਆਪਣੇ ਸਮੇਂ ਤੇ ਸੁਣੋ",
+    "tracksLabel": "ਟਰੈਕ"
+  },
+  "teaching": {
+    "header": "ਸਿੱਖਿਆਵਾਂ",
+    "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ ...",
+    "player": {
+      "audioSpeed": "ਆਡੀਓ ਗਤੀ",
+      "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ",
+      "castingError": "ਕੋਈ ਜੰਤਰ ਉਪਲਬਧ ਨਹੀਂ"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "ਸੁਣਨਾ ਜਾਰੀ ਰੱਖੋ", "secondButton": "ਆਪਣੀ ਯਾਤਰਾ ਸ਼ੁਰੂ ਕਰੋ" }
+    }
+  },
+  "journey": {
+    "byDate": "ਮਿਤੀ ਦੁਆਰਾ",
+    "bySeries": "ਸੀਰੀਜ਼ ਦੁਆਰਾ",
+    "sections": { "tracksLabel": "ਟਰੈਕ" }
+  },
+  "library": {
+    "header": "ਮੇਰੀ ਲਾਇਬ੍ਰੇਰੀ",
+    "tabs": { "downloads": "ਡਾਉਨਲੋਡਸ", "favorites": "ਮਨਪਸੰਦ", "playlists": "ਪਲੇਲਿਸਟਸ" }
+  },
+  "groups": {
+    "header": "ਸਮੂਹ",
+    "createGroup": {
+      "title": "ਨਵਾਂ ਸਮੂਹ ਬਣਾਓ",
+      "groupNameLabel": "ਸਮੂਹ ਨਾਮ",
+      "groupNameInputPlaceHolder": "ਨਾਮ",
+      "descriptionLabel": "ਵੇਰਵਾ",
+      "descriptionInputPlaceHolder": "ਵੇਰਵਾ ਸ਼ਾਮਲ ਕਰੋ",
+      "inviteLabel": "ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਸੱਦਾ ਦਿਓ",
+      "inviteButton": "ਨਵੇਂ ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਸੱਦਾ ਦਿਓ",
+      "button": "ਸਮੂਹ ਬਣਾਓ",
+      "invalidGroupName": "ਇੱਕ ਪ੍ਰਮਾਣਿਕ ​​ਨਾਮ ਦਰਜ ਕਰੋ",
+      "groupNameTooLong": "ਸਮੂਹ ਦੇ ਨਾਮ ਵਿੱਚ 25 ਤੋਂ ਵੱਧ ਅੱਖਰ ਨਹੀਂ ਹੋਣੇ ਚਾਹੀਦੇ"
+    },
+    "devotionNotStartAlert": "ਇਸ ਸਮੂਹ ਲਈ ਸ਼ਰਧਾ ਸ਼ੁਰੂ ਨਹੀਂ ਹੋਈ",
+    "membersLabel": "ਸਦੱਸ",
+    "chatModalMemberSubtitleLabel": "ਸਦੱਸ",
+    "chatModalMembersSubtitleLabel": "ਸਦੱਸ",
+    "chat": {
+      "listeningToLabel": "ਸੁਣ ਰਿਹਾ ਹੈ",
+      "loadingTrackLabel": "ਟਰੈਕ ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ ...",
+      "inputPlaceHolder": "ਸੁਨੇਹਾ ਲਿਖੋ",
+      "deletePost": "ਪੋਸਟ ਮਿਟਾਓ",
+      "deleteMessage": "ਨੇ ਇੱਕ ਸੁਨੇਹਾ ਮਿਟਾ ਦਿੱਤਾ ਹੈ"
+    },
+    "groupSettings": {
+      "participantsSection": "ਭਾਗੀਦਾਰ",
+      "viewAll": "ਸਾਰੇ ਵੇਖੋ",
+      "invite": "ਨਵੇਂ ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਸੱਦਾ ਦਿਓ",
+      "endDevotion": "ਸਮੂਹ ਭਗਤ ਖਤਮ ਕਰੋ",
+      "deleteGroup": "ਸਮੂਹ ਹਟਾਓ",
+      "leaveGroup": "ਗਰੁੱਪ ਛੱਡੋ"
+    },
+    "userDirectory": {
+      "header": "ਯੂਜ਼ਰ ਡਾਇਰੈਕਟਰੀ",
+      "remove": "ਹਟਾਓ",
+      "anonymous": "ਅਗਿਆਤ",
+      "send": "ਭੇਜੋ"
+    },
+    "inviteUser": { "placeHolder": "ਖੋਜ", "send": "ਭੇਜੋ" }
+  },
+  "chat": {
+    "header": "ਸਮੂਹ ਚੈਨਲ",
+    "settings": {
+      "header": "ਸਮੂਹ ਸੈਟਿੰਗਾਂ",
+      "endDevotion": {
+        "alertTitle": "ਭੋਗ ਖਤਮ",
+        "alertMessage": "ਕੀ ਤੁਸੀਂ ਵਾਕਈ ਇਸ ਸ਼ਰਧਾ ਨੂੰ ਖਤਮ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?",
+        "alertCancel": "ਰੱਦ ਕਰੋ",
+        "alertConfirm": "ਹਾਂ",
+        "endDevotionLabel": "ਇਸ ਸ਼ਰਧਾ ਨੂੰ ਖਤਮ ਕੀਤਾ.",
+        "hasEnded": "ਇਹ ਸ਼ਰਧਾ ਖਤਮ ਹੋ ਗਈ ਹੈ"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "ਸ਼ਰਧਾ ਅਰੰਭ ਕਰੋ",
+    "alertMessage": "ਕੀ ਤੁਸੀਂ% {name} ਸਮੂਹ ਨਾਲ ਸ਼ਰਧਾ ਅਰੰਭ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?",
+    "alertCancel": "ਰੱਦ ਕਰੋ",
+    "alertConfirm": "ਹਾਂ",
+    "devotionStartedLabel": "ਇੱਕ ਸ਼ਰਧਾ ਸ਼ੁਰੂ ਕੀਤੀ ਹੈ."
+  },
+  "settings": {
+    "header": "ਸੈਟਿੰਗਜ਼",
+    "tabs": { "profile": "ਪ੍ਰੋਫਾਈਲ", "media": "ਮੀਡੀਆ", "notifications": "ਨੋਟੀਫਿਕੇਸ਼ਨ" },
+    "profile": {
+      "account": "ਖਾਤਾ",
+      "username": "ਉਪਯੋਗਕਰਤਾ ਨਾਮ",
+      "email": "ਈ - ਮੇਲ",
+      "editButton": "ਸੰਪਾਦਿਤ ਕਰੋ",
+      "edit": {
+        "save": "ਸੇਵ",
+        "username": {
+          "header": "ਉਪਯੋਗਕਰਤਾ ਨਾਮ",
+          "successAlert": "ਤੁਹਾਡੀ ਤਬਦੀਲੀ ਨੂੰ ਬਚਾ ਲਿਆ ਗਿਆ ਹੈ.",
+          "failedAlert": "ਤਬਦੀਲੀ ਨੂੰ ਬਚਾਉਣ ਵਿੱਚ ਅਸਫਲ."
+        },
+        "email": {
+          "header": "ਈ - ਮੇਲ",
+          "successAlert": "ਤੁਹਾਡੀ ਤਬਦੀਲੀ ਨੂੰ ਬਚਾ ਲਿਆ ਗਿਆ ਹੈ.",
+          "failedAlert": "ਤਬਦੀਲੀ ਨੂੰ ਬਚਾਉਣ ਵਿੱਚ ਅਸਫਲ."
+        }
+      },
+      "languages": "ਭਾਸ਼ਾਵਾਂ",
+      "signIn": "ਸਾਈਨ - ਇਨ",
+      "signOut": "ਸਾਈਨ ਆਉਟ ਅਕਾਉਂਟ",
+      "legal": "ਕਾਨੂੰਨੀ",
+      "termsConditions": "ਨਿਯਮ ਅਤੇ ਸ਼ਰਤਾਂ",
+      "privacyPolicy": "ਪਰਾਈਵੇਟ ਨੀਤੀ",
+      "support": "ਸਹਾਇਤਾ",
+      "reportAProblem": "ਇੱਕ ਸਮੱਸਿਆ ਦੀ ਰਿਪੋਰਟ ਕਰੋ",
+      "tutorial": "ਟਿutorialਟੋਰਿਅਲ",
+      "reportBug": {
+        "header": "ਇੱਕ ਸਮੱਸਿਆ ਦੀ ਰਿਪੋਰਟ ਕਰੋ",
+        "send": "ਭੇਜੋ",
+        "subject": "ਸਬਜੈਕਟ",
+        "subjectPlaceHolder": "ਵਿਸ਼ਾ",
+        "description": "ਵੇਰਵਾ",
+        "descriptionPlaceHolder": "ਵੇਰਵਾ",
+        "successAlert": "ਤੁਹਾਡਾ ਧੰਨਵਾਦ, ਸਾਨੂੰ ਤੁਹਾਡਾ ਸੰਦੇਸ਼ ਮਿਲਿਆ ਹੈ.",
+        "failedAlert": "ਸੁਨੇਹਾ ਭੇਜਣ ਵਿੱਚ ਅਸਫਲ।"
+      },
+      "version": "ਵਰਜਨ"
+    },
+    "media": {
+      "audio": "ਆਡੀਓ",
+      "autoplay": "ਆਟੋਪਲੇ ਆਡੀਓ",
+      "storage": "ਸਟੋਰੇਜ",
+      "downloadWifi": "ਸਿਰਫ ਵਾਈ-ਫਾਈ 'ਤੇ ਡਾਉਨਲੋਡ ਕਰੋ",
+      "deleteCache": "ਕੈਚੇ ਮਿਟਾਓ"
+    },
+    "notifications": {
+      "notifications": "ਨੋਟੀਫਿਕੇਸ਼ਨ",
+      "groupInvitation": "ਸਮੂਹ ਸੱਦਾ",
+      "devotions": "ਭਗਤਾਂ ਨੂੰ ਸੱਦਾ ਦਿਓ",
+      "file": "ਫਾਈਲ ਟ੍ਰਾਂਸਫਰ ਦੀ ਪੁਸ਼ਟੀ"
+    }
+  },
+  "inviteUsers": { "header": "ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਸੱਦਾ ਦਿਓ" },
+  "playlist": {
+    "header": "ਪਲੇਲਿਸਟ",
+    "audioFileLabel": "ਆਡੀਓ ਫਾਈਲ",
+    "audioFilesLabel": "ਆਡੀਓ ਫਾਈਲਾਂ"
+  },
+  "collection": { "header": "ਸੰਗ੍ਰਹਿ", "audioFilesLabel": "ਆਡੀਓ ਫਾਈਲਾਂ" },
+  "modal": {
+    "close": "ਨੇੜੇ",
+    "addToPlaylist": { "title": "ਪਲੇਲਿਸਟ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ", "button": "ਪਲੇਲਿਸਟ ਬਣਾਓ" },
+    "startDevotion": { "title": "ਸ਼ਰਧਾ ਅਰੰਭ ਕਰੋ" },
+    "createPlaylist": {
+      "title": "ਨਵੀਂ ਪਲੇਲਿਸਟ ਬਣਾਓ",
+      "button": "ਪਲੇਲਿਸਟ ਬਣਾਓ",
+      "inputPlaceholder": "ਪਲੇਲਿਸਟ ਦਾ ਨਾਮ ਦਰਜ ਕਰੋ",
+      "success": "ਪਲੇਲਿਸਟ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਗਿਆ"
+    },
+    "login": "ਸ਼ਰਧਾ ਅਰੰਭ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਲੌਗਇਨ ਕਰਨਾ ਪਏਗਾ"
+  },
+  "options": {
+    "shared": {
+      "share": "ਸਾਂਝਾ ਕਰੋ",
+      "report": "ਸਮੱਗਰੀ ਦੀ ਰਿਪੋਰਟ ਕਰੋ",
+      "shareOthers": "ਦੂਜਿਆਂ ਨਾਲ ਸਾਂਝਾ ਕਰੋ",
+      "copy": "ਲਿੰਕ ਕਾਪੀ ਕਰੋ",
+      "more": "ਹੋਰ"
+    },
+    "audio": {
+      "download": "ਡਾ .ਨਲੋਡ",
+      "addFavorite": "ਮਨਪਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ",
+      "addPlaylist": "ਪਲੇਲਿਸਟ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ",
+      "removeFavorite": "ਮਨਪਸੰਦ ਤੋਂ ਹਟਾਓ",
+      "removePlaylist": "ਪਲੇਲਿਸਟ ਤੋਂ ਹਟਾਓ",
+      "removeDownload": "ਡਾਉਨਲੋਡਸ ਤੋਂ ਹਟਾਓ"
+    },
+    "playlist": { "edit": "ਸੰਪਾਦਿਤ ਕਰੋ", "delete": "ਪਲੇਲਿਸਟ ਹਟਾਓ" },
+    "startDevotion": "ਸ਼ਰਧਾ ਅਰੰਭ ਕਰੋ"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "ਪਲੇਲਿਸਟ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਗਿਆ",
+      "delete": "ਪਲੇਲਿਸਟ ਤੋਂ ਹਟਾ ਦਿੱਤਾ ਗਿਆ",
+      "create": "ਪਲੇਲਿਸਟ ਬਣਾਈ ਗਈ",
+      "destroy": "ਹਟਾਈ ਗਈ ਪਲੇਲਿਸਟ"
+    },
+    "favorites": { "add": "ਮਨਪਸੰਦ ਵਿੱਚ ਜੋੜਿਆ ਗਿਆ", "remove": "ਮਨਪਸੰਦ ਤੋਂ ਹਟਾ ਦਿੱਤਾ ਗਿਆ" },
+    "downloads": { "remove": "ਡਾਉਨਲੋਡਸ ਤੋਂ ਹਟਾਏ ਗਏ" }
+  },
+  "buttons": { "loop": "ਪਾਸ਼", "shuffle": "ਸ਼ਫਲ" },
+  "uiControls": {
+    "searchBox": { "placeholder": "ਖੋਜੋ ..." },
+    "notification": { "success": "ਸਫਲਤਾ! ਤੁਹਾਡੇ ਖਾਤੇ ਤੇ ਇੱਕ ਈਮੇਲ ਭੇਜੀ ਜਾਏਗੀ." },
+    "button": { "sending": "ਭੇਜ ਰਿਹਾ ਹੈ ..." },
+    "modalSelector": { "cancel": "ਰੱਦ ਕਰੋ" },
+    "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ"
+  },
+  "bible": {
+    "header": "ਬਾਈਬਲ",
+    "oldTestament": "ਪੁਰਾਣਾ ਨੇਮ",
+    "newTestament": "ਨਵਾਂ ਨੇਮ",
+    "popularBooks": "ਪ੍ਰਸਿੱਧ ਕਿਤਾਬਾਂ"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "ਖੋਜ",
+    "cancelButton": "ਰੱਦ",
+    "searchResults": "ਖੋਜ ਨਤੀਜੇ",
+    "filterButton": "ਫਿਲਟਰ",
+    "teachings": { "title": "ਸਿੱਖਿਆਵਾਂ" },
+    "bible": { "title": "ਬਾਈਬਲ" }
+  },
+  "addToPlaylistsModal": { "title": "ਪਲੇਲਿਸਟ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ", "button": "ਪਲੇਲਿਸਟ ਬਣਾਓ" },
+  "createPlaylistModal": {
+    "title": "ਨਵੀਂ ਪਲੇਲਿਸਟ ਬਣਾਓ",
+    "button": "ਪਲੇਲਿਸਟ ਬਣਾਓ",
+    "inputPlaceholder": "ਪਲੇਲਿਸਟ ਦਾ ਨਾਮ ਦਰਜ ਕਰੋ"
+  },
+  "alert": {
+    "playlists": {
+      "add": "ਪਲੇਲਿਸਟ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਗਿਆ",
+      "remove": "ਪਲੇਲਿਸਟ ਤੋਂ ਹਟਾ ਦਿੱਤਾ ਗਿਆ",
+      "create": "ਪਲੇਲਿਸਟ ਬਣਾਈ ਗਈ",
+      "delete": "ਹਟਾਈ ਗਈ ਪਲੇਲਿਸਟ"
+    },
+    "favorites": { "add": "ਮਨਪਸੰਦ ਵਿੱਚ ਜੋੜਿਆ ਗਿਆ", "remove": "ਮਨਪਸੰਦ ਤੋਂ ਹਟਾ ਦਿੱਤਾ ਗਿਆ" },
+    "downloads": { "remove": "ਡਾਉਨਲੋਡਸ ਤੋਂ ਹਟਾਏ ਗਏ" },
+    "facebook": { "loginError": "ਲਾਗਇਨ ਗਲਤੀ ਨਾਲ ਫੇਲ੍ਹ ਹੋਇਆ" },
+    "google": { "loginError": "ਲਾਗਇਨ ਗਲਤੀ ਨਾਲ ਫੇਲ੍ਹ ਹੋਇਆ" }
+  },
+  "playlists": { "trackLabel": "ਟਰੈਕ", "tracksLabel": "ਟਰੈਕ" },
+  "mediaList": { "tracksLabel": "ਟਰੈਕ", "remove": "ਹਟਾਓ" },
+  "tutorialPage": { "done": "ਹੋ ਗਿਆ", "skip": "ਛੱਡੋ" },
+  "loginModal": { "login": "ਲਾਗਿਨ" },
+  "shareModal": { "facebook": "ਫੇਸਬੁੱਕ", "twitter": "ਟਵਿੱਟਰ", "whatsapp": "ਵਟਸਐਪ" },
+  "downloadModal": {
+    "downloading": "ਡਾ .ਨਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ",
+    "complete": "ਡਾ Downloadਨਲੋਡ ਮੁਕੰਮਲ"
+  },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "ਬਾਈਬਲ ਦੀ ਪੜਚੋਲ ਕਰੋ",
+      "subtitle1": "ਪੂਰੀ ਬਾਈਬਲ ਸਾਡੇ ਨਾਲ ਯਾਤਰਾ ਕਰੋ, ਜਾਂ ਆਪਣੀ ਖੁਦ ਦੀ ਯਾਤਰਾ ਸ਼ੁਰੂ ਕਰੋ.",
+      "title2": "ਸੁਣੋ ਅਤੇ ਸ਼ਮੂਲੀਅਤ ਕਰੋ",
+      "subtitle2": "ਮੀਡੀਆ ਪਲੇਅਰ ਤੁਹਾਨੂੰ ਆਸਾਨੀ ਨਾਲ ਬਾਈਬਲ ਸਮੱਗਰੀ ਨੂੰ THRU ਵਿੱਚ ਡੋਬਣ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ.",
+      "title3": "ਪੜ੍ਹਾਓ",
+      "subtitle3": "ਬਾਈਬਲ ਵਿਚ ਸ਼ਾਮਲ ਰਹੋ ਜਿਵੇਂ ਕਿ ਪਹਿਲਾਂ ਕਦੇ ਵੀ ਬਾਈਬਲ ਅਤੇ ਅਧਿਆਪਨ ਦੇ ਸੰਖੇਪ ਦਾ ਹਵਾਲਾ ਦੇ ਕੇ ਨਹੀਂ.",
+      "title4": "ਬਾਈਬਲ ਉੱਤੇ ਵਿਚਾਰ ਕਰੋ",
+      "subtitle4": "ਦੂਜਿਆਂ ਨਾਲ THRU ਬਾਈਬਲ ਦੀਆਂ ਸਿੱਖਿਆਵਾਂ ਅਤੇ ਵਿਸ਼ਿਆਂ ਦਾ ਅਧਿਐਨ ਕਰਨ ਲਈ ਇੱਕ ਸਮੂਹ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ.",
+      "title5": "ਡਾਉਨਲੋਡ ਅਤੇ ਸਾਂਝਾ ਕਰੋ",
+      "subtitle5": "ਜਾਂਦੇ-ਜਾਂਦੇ ਵਾਹਿਗੁਰੂ ਦੇ ਬਚਨ ਨੂੰ ਸੁਣੋ ਅਤੇ ਇਸ ਨੂੰ ਆਪਣੇ ਦੋਸਤਾਂ ਨਾਲ ਸਾਂਝਾ ਕਰੋ.",
+      "title6": "ਸੰਭਾਲੋ ਅਤੇ ਬਣਾਓ",
+      "subtitle6": "ਆਪਣੀਆਂ ਮਨਪਸੰਦ ਸਿੱਖਿਆਵਾਂ ਅਤੇ ਬਾਈਬਲ ਦੀਆਂ ਆਇਤਾਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ ਜਾਂ ਇੱਕ ਕਸਟਮ ਪਲੇਲਿਸਟ ਬਣਾਓ.",
+      "title7": "ਸਮੂਹ ਭਗਤ",
+      "subtitle7": "ਰੋਜ਼ਾਨਾ ਸਮੂਹ ਸ਼ਰਧਾ ਦੇ ਨਾਲ ਦੂਜਿਆਂ ਤੋਂ ਉਤਸ਼ਾਹ ਅਤੇ ਪ੍ਰੇਰਿਤ ਕਰੋ."
+    },
+    "registerPage": {
+      "noThanks": "ਨਹੀਂ ਧੰਨਵਾਦ",
+      "haveAccount": "ਕੋਈ ਖਾਤਾ ਹੈ?",
+      "createAccount": "ਮੇਰਾ ਖਾਤਾ ਬਣਾਓ",
+      "title1": "ਦੂਜਿਆਂ ਨਾਲ ਵਿਚਾਰ ਕਰੋ",
+      "subtitle1": "ਦੂਜਿਆਂ ਨਾਲ ਆਪਣੇ ਮਨਪਸੰਦ ਵਿਸ਼ੇ ਅਤੇ ਬਾਈਬਲ ਦੀਆਂ ਆਇਤਾਂ 'ਤੇ ਚਰਚਾ ਕਰੋ.",
+      "title2": "ਪਲੇਲਿਸਟਸ ਨੂੰ ਸਟੋਰ ਅਤੇ ਸਿੰਕ ਕਰੋ",
+      "subtitle2": "ਆਪਣੀ ਮਨਪਸੰਦ ਸਮੱਗਰੀ ਦੀਆਂ ਸੂਚੀਆਂ ਨੂੰ ਇਕ ਜਗ੍ਹਾ ਬਣਾਓ.",
+      "title3": "ਆਪਣੇ ਮਨਪਸੰਦ ਵੇਖੋ",
+      "subtitle3": "ਸਟੋਰ ਕਰੋ ਅਤੇ ਵਾਪਸ ਆਓ ਅਤੇ ਬਾਅਦ ਵਿੱਚ ਆਪਣੇ ਮਨਪਸੰਦ 'ਤੇ ਜਾਓ.",
+      "title4": "ਵਾਪਸ ਸਵਾਗਤ",
+      "subtitle4": "ਇੱਕ ਖਾਤਾ ਬਣਾਓ ਅਤੇ ਸਾਡੀਆਂ ਸਾਰੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਤੱਕ ਪਹੁੰਚ ਪ੍ਰਾਪਤ ਕਰੋ."
+    }
+  },
+  "app": {
+    "close": "ਨੇੜੇ",
+    "accept": "ਸਵੀਕਾਰ ਕਰੋ",
+    "reject": "ਰੱਦ ਕਰੋ",
+    "constructionInProgress": "ਤਰੱਕੀ ਵਿੱਚ ਨਿਰਮਾਣ",
+    "downloadComplete": "ਡਾ Downloadਨਲੋਡ ਮੁਕੰਮਲ",
+    "downloading": "ਡਾ .ਨਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ",
+    "downloadFailed": "ਡਾ Downloadਨਲੋਡ ਅਸਫਲ",
+    "sendAFile": "ਕੋਈ ਤੁਹਾਨੂੰ ਇੱਕ ਫਾਈਲ ਭੇਜਣਾ ਚਾਹੁੰਦਾ ਹੈ"
+  },
+  "transferring": { "tryAgain": "ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ", "close": "ਨੇੜੇ" },
+  "checkDevice": {
+    "check": "ਆਪਣੇ ਜੰਤਰ ਦੀ ਜਾਂਚ ਕਰੋ",
+    "makeSure": "ਕਿਰਪਾ ਕਰਕੇ ਇਹ ਸੁਨਿਸ਼ਚਿਤ ਕਰੋ ਕਿ ਫਾਈ-ਡਾਇਰੈਕਟ ਤੁਹਾਡੇ ਦੋਸਤ ਦੀ ਡਿਵਾਈਸ ਤੇ ਹੈ ਅਤੇ ਇਹ ਸੀਮਾ ਵਿੱਚ ਹੈ.",
+    "continue": "ਜਾਰੀ ਰੱਖੋ"
+  },
+  "connectToDevice": { "connect": "ਇੱਕ ਡਿਵਾਈਸ ਨਾਲ ਜੁੜੋ" },
+  "pairing": {
+    "connect": "ਇੱਕ ਡਿਵਾਈਸ ਨਾਲ ਜੁੜੋ",
+    "pairing": "ਪੇਅਰਿੰਗ",
+    "success": "ਸਫਲਤਾਪੂਰਵਕ ਪੇਅਰ ਕੀਤੀ ਗਈ",
+    "failed": "ਡਿਵਾਈਸ ਪੇਅਰਿੰਗ ਅਸਫਲ",
+    "makeSure": "ਕਿਰਪਾ ਕਰਕੇ ਇਹ ਸੁਨਿਸ਼ਚਿਤ ਕਰੋ ਕਿ (ਫਾਈ-ਡਾਇਰੈਕਟ) ਤੁਹਾਡੇ ਦੋਸਤ ਦੇ ਉਪਕਰਣ ਨੂੰ ਚਾਲੂ ਕੀਤਾ ਗਿਆ ਹੈ ਅਤੇ ਇਸ ਦੀ ਸੀਮਾ ਹੈ.",
+    "continue": "ਜਾਰੀ ਰੱਖੋ",
+    "tryAgain": "ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
+  },
+  "selectNetworkType": {
+    "connect": "ਇੱਕ ਡਿਵਾਈਸ ਨਾਲ ਕਨੈਕਟ ਕਰੋ",
+    "share": "ਫਾਈ ਡਾਇਰੈਕਟ ਨਾਲ ਸਾਂਝਾ ਕਰੋ",
+    "send": "ਸਿੱਧੇ ਫਾਈ ਉੱਤੇ ਫਾਈਲਾਂ ਭੇਜੋ?",
+    "continue": "ਜਾਰੀ ਰੱਖੋ"
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "selectLanguage": { "heading": "Chagua lugha yako ya sasa", "mainAction": "Chagua Lugha" },
+  "menu": {
+    "anonymousTitle": "Akaunti yako",
+    "anonymousAction": "Ingia",
+    "editProfileAction": "Hariri wasifu",
+    "verifyProfileAction": "Thibitisha wasifu",
+    "bibleSection": "Biblia",
+    "teachingsSection": "Mafundisho",
+    "librarySection": "Maktaba Yangu",
+    "groupsSection": "Vikundi",
+    "donateSection": "Changia",
+    "settingsSection": "Mipangilio",
+    "signOut": "Toka",
+    "modals": {
+      "verifyProfile": {
+        "title": "Hujathibitishwa",
+        "message": "Orodha zako hazitasawazishwa na huwezi kuunda vikundi. Tafadhali angalia barua pepe yako ili kukamilisha usajili.",
+        "firstButton": "Endelea",
+        "secondButton": "Sajili wasifu mpya"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Weka sahihi",
+    "emailPlaceholder": "Barua pepe yako",
+    "passwordPlaceholder": "Nenosiri lako",
+    "forgotAction": "Umesahau nywila?",
+    "callToAction": "Weka sahihi",
+    "signInAlternatives": "Au Ingia ukitumia",
+    "noAccountAction": "Hakuna akaunti? Unda moja",
+    "notifications": {
+      "invalidCredentials": "Kitambulisho batili",
+      "inProgress": "Ingia tayari inaendelea",
+      "notAvailable": "Huduma za kucheza hazipatikani"
+    }
+  },
+  "signUp": {
+    "header": "Tengeneza akaunti",
+    "emailPlaceholder": "Barua pepe yako",
+    "passwordPlaceholder": "Nenosiri lako",
+    "privateAction": "Fanya Akaunti Binafsi",
+    "termsDisclaimer": {
+      "pre": "Kwa kubonyeza Usajili unaonyesha kuwa umesoma na unakubali",
+      "terms": "masharti",
+      "post": "."
+    },
+    "callToAction": "Jisajili",
+    "signUpAlternatives": "Au Jisajili ukitumia",
+    "haveAnAccountAction": "Una akaunti?",
+    "notifications": {
+      "invalidUsername": "Majina ya watumiaji ni mdogo kwa herufi 20 za herufi (nambari na herufi za kawaida)",
+      "invalidPassword": "Nenosiri linapaswa kuwa na angalau herufi 3 na kuwa mchanganyiko wa herufi kubwa na ndogo zilizo na angalau nambari moja au herufi maalum"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Imeshindwa kuunda akaunti",
+        "message": "Anwani hii ya barua pepe tayari ipo.",
+        "firstButton": "Weka sahihi",
+        "secondButton": "Funga"
+      },
+      "privateAccount": {
+        "title": "Akaunti ya Kibinafsi",
+        "message": "Kwa kufanya akaunti yako kuwa ya faragha, unaificha isigundulike na wengine.",
+        "firstButton": "Kubali",
+        "secondButton": "Kushuka"
+      },
+      "success": {
+        "title": "Akaunti Imeundwa!",
+        "message": "Akaunti yako iliundwa vizuri. Angalia kikasha chako ili uthibitishe akaunti yako na uingie.",
+        "firstButton": "Weka sahihi"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Rudisha nenosiri",
+    "emailPlaceholder": "Barua pepe yako",
+    "message": "Tafadhali ingiza barua pepe yako kuweka upya nywila yako kwa akaunti yako.",
+    "callToAction": "Rudisha nenosiri",
+    "notifications": {
+      "success": "Tumetuma barua pepe kwa sanduku lako",
+      "emailNotFoundError": "Barua pepe haikupatikana",
+      "invalidEmailError": "Muundo wa barua pepe si sahihi"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Maliza Usanidi",
+    "message": "Barua pepe imetumwa kwa anwani ya barua pepe uliyoingiza. Tafadhali angalia maelezo ya barua pepe ili kukamilisha usajili.",
+    "callToAction": "Ruka kwa Sasa"
+  },
+  "teachings": {
+    "dailyText": "Matangazo ya Leo",
+    "journeyTitle": "Anza safari yako",
+    "journeySubtitle": "Mafundisho yote kutoka mwanzo hadi mwisho",
+    "journeyCardTitle": "Safari ya Wiki 215 Kupitia Bibilia",
+    "journeyCardSubtitle": "Sikiza kwa wakati wako",
+    "tracksLabel": "Nyimbo"
+  },
+  "teaching": {
+    "header": "Mafundisho",
+    "loading": "Inapakia ...",
+    "player": {
+      "audioSpeed": "Kasi ya Sauti",
+      "loading": "Inapakia",
+      "castingError": "Hakuna Vifaa Vinavyopatikana"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Endelea Kusikiliza", "secondButton": "Anza safari yako" }
+    }
+  },
+  "journey": {
+    "byDate": "Kufikia Tarehe",
+    "bySeries": "Kwa Mfululizo",
+    "sections": { "tracksLabel": "Nyimbo" }
+  },
+  "library": {
+    "header": "Maktaba Yangu",
+    "tabs": {
+      "downloads": "Vipakuzi",
+      "favorites": "Unayopendelea",
+      "playlists": "Orodha za kucheza"
+    }
+  },
+  "groups": {
+    "header": "Vikundi",
+    "createGroup": {
+      "title": "Unda Kikundi kipya",
+      "groupNameLabel": "JINA LA KIKUNDI",
+      "groupNameInputPlaceHolder": "Jina",
+      "descriptionLabel": "MAELEZO",
+      "descriptionInputPlaceHolder": "Ongeza Maelezo",
+      "inviteLabel": "Alika Watumiaji",
+      "inviteButton": "Alika Watumiaji Wapya",
+      "button": "Unda Kikundi",
+      "invalidGroupName": "Ingiza jina halali",
+      "groupNameTooLong": "Jina la kikundi haipaswi kuwa na zaidi ya herufi 25"
+    },
+    "devotionNotStartAlert": "Ibada haijaanza kwa kikundi hiki",
+    "membersLabel": "Wanachama",
+    "chatModalMemberSubtitleLabel": "mwanachama",
+    "chatModalMembersSubtitleLabel": "wanachama",
+    "chat": {
+      "listeningToLabel": "Kusikiliza",
+      "loadingTrackLabel": "Inapakia wimbo ...",
+      "inputPlaceHolder": "Andika Ujumbe",
+      "deletePost": "Futa Chapisho",
+      "deleteMessage": "imefuta ujumbe"
+    },
+    "groupSettings": {
+      "participantsSection": "Washiriki",
+      "viewAll": "Tazama zote",
+      "invite": "Alika Watumiaji Wapya",
+      "endDevotion": "Maliza Kujitolea kwa Kikundi",
+      "deleteGroup": "Futa Kikundi",
+      "leaveGroup": "Acha Kikundi"
+    },
+    "userDirectory": {
+      "header": "Saraka ya Mtumiaji",
+      "remove": "Ondoa",
+      "anonymous": "Haijulikani",
+      "send": "Tuma"
+    },
+    "inviteUser": { "placeHolder": "Tafuta", "send": "Tuma" }
+  },
+  "chat": {
+    "header": "Kituo cha Kikundi",
+    "settings": {
+      "header": "Mipangilio ya Kikundi",
+      "endDevotion": {
+        "alertTitle": "Kumaliza Ibada",
+        "alertMessage": "Je! Una uhakika unataka kumaliza ibada hii?",
+        "alertCancel": "Ghairi",
+        "alertConfirm": "Ndio",
+        "endDevotionLabel": "ilimaliza ibada hii.",
+        "hasEnded": "Ibada hii imeisha"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Anza Kujitolea",
+    "alertMessage": "Je! Una uhakika unataka kuanza kujitolea na kikundi cha% {name}?",
+    "alertCancel": "Ghairi",
+    "alertConfirm": "Ndio",
+    "devotionStartedLabel": "imeanza ibada."
+  },
+  "settings": {
+    "header": "Mipangilio",
+    "tabs": { "profile": "Profaili", "media": "Vyombo vya habari", "notifications": "Arifa" },
+    "profile": {
+      "account": "Akaunti",
+      "username": "Jina la mtumiaji",
+      "email": "Barua pepe",
+      "editButton": "Hariri",
+      "edit": {
+        "save": "Okoa",
+        "username": {
+          "header": "Jina la mtumiaji",
+          "successAlert": "Mabadiliko yako yamehifadhiwa.",
+          "failedAlert": "Imeshindwa kuhifadhi mabadiliko."
+        },
+        "email": {
+          "header": "Barua pepe",
+          "successAlert": "Mabadiliko yako yamehifadhiwa.",
+          "failedAlert": "Imeshindwa kuhifadhi mabadiliko."
+        }
+      },
+      "languages": "Lugha",
+      "signIn": "Weka sahihi",
+      "signOut": "Ingia Akaunti",
+      "legal": "Kisheria",
+      "termsConditions": "Sheria na Masharti",
+      "privacyPolicy": "Sera ya faragha",
+      "support": "Msaada",
+      "reportAProblem": "Ripoti Tatizo",
+      "tutorial": "Mafunzo",
+      "reportBug": {
+        "header": "Ripoti Tatizo",
+        "send": "Tuma",
+        "subject": "SOMO",
+        "subjectPlaceHolder": "Mada",
+        "description": "MAELEZO",
+        "descriptionPlaceHolder": "Maelezo",
+        "successAlert": "Asante, tumepokea ujumbe wako.",
+        "failedAlert": "Imeshindwa kutuma ujumbe."
+      },
+      "version": "Toleo"
+    },
+    "media": {
+      "audio": "Sauti",
+      "autoplay": "Cheza Sauti kiotomatiki",
+      "storage": "Uhifadhi",
+      "downloadWifi": "Pakua tu kwenye Wi-fi",
+      "deleteCache": "Futa Cache"
+    },
+    "notifications": {
+      "notifications": "Arifa",
+      "groupInvitation": "Mwaliko wa Kikundi",
+      "devotions": "Alika kwenye Ibada",
+      "file": "Uthibitisho wa Uhamisho wa Faili"
+    }
+  },
+  "inviteUsers": { "header": "Alika Watumiaji" },
+  "playlist": {
+    "header": "Orodha ya kucheza",
+    "audioFileLabel": "Faili ya Sauti",
+    "audioFilesLabel": "Faili za Sauti"
+  },
+  "collection": { "header": "Ukusanyaji", "audioFilesLabel": "Faili za Sauti" },
+  "modal": {
+    "close": "funga",
+    "addToPlaylist": {
+      "title": "Ongeza kwenye Orodha ya kucheza",
+      "button": "Unda Orodha ya kucheza"
+    },
+    "startDevotion": { "title": "Anza Kujitolea" },
+    "createPlaylist": {
+      "title": "Unda Orodha mpya ya kucheza",
+      "button": "Unda Orodha ya kucheza",
+      "inputPlaceholder": "Ingiza Jina la Orodha ya kucheza",
+      "success": "Imeongezwa kwenye Orodha ya kucheza"
+    },
+    "login": "Unahitaji kuingia ili kuanza ibada"
+  },
+  "options": {
+    "shared": {
+      "share": "Shiriki",
+      "report": "Ripoti Yaliyomo",
+      "shareOthers": "Shiriki na Wengine",
+      "copy": "Nakili Kiungo",
+      "more": "Zaidi"
+    },
+    "audio": {
+      "download": "Pakua",
+      "addFavorite": "Ongeza kwa Vipendwa",
+      "addPlaylist": "Ongeza kwenye Orodha ya kucheza",
+      "removeFavorite": "Ondoa kutoka kwa Vipendwa",
+      "removePlaylist": "Ondoa kwenye Orodha ya kucheza",
+      "removeDownload": "Ondoa kwenye Vipakuliwa"
+    },
+    "playlist": { "edit": "Hariri", "delete": "Futa Orodha ya kucheza" },
+    "startDevotion": "Anza Kujitolea"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Imeongezwa kwenye Orodha ya kucheza",
+      "delete": "Imeondolewa kwenye Orodha ya kucheza",
+      "create": "Orodha ya kucheza iliyoundwa",
+      "destroy": "Orodha ya kucheza iliyofutwa"
+    },
+    "favorites": { "add": "Imeongezwa kwa Vipendwa", "remove": "Imeondolewa kwenye Vipendwa" },
+    "downloads": { "remove": "Imeondolewa kwenye Vipakuliwa" }
+  },
+  "buttons": { "loop": "Kitanzi", "shuffle": "Changanya" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Tafuta ..." },
+    "notification": { "success": "Mafanikio! Barua pepe itatumwa kwa akaunti yako." },
+    "button": { "sending": "Inatuma ..." },
+    "modalSelector": { "cancel": "Ghairi" },
+    "loading": "Inapakia"
+  },
+  "bible": {
+    "header": "Biblia",
+    "oldTestament": "Agano la Kale",
+    "newTestament": "Agano Jipya",
+    "popularBooks": "Vitabu maarufu"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Tafuta",
+    "cancelButton": "GHAFU",
+    "searchResults": "Matokeo ya Utafutaji",
+    "filterButton": "Kichujio",
+    "teachings": { "title": "Mafundisho" },
+    "bible": { "title": "Biblia" }
+  },
+  "addToPlaylistsModal": {
+    "title": "Ongeza kwenye Orodha ya kucheza",
+    "button": "Unda Orodha ya kucheza"
+  },
+  "createPlaylistModal": {
+    "title": "Unda Orodha mpya ya kucheza",
+    "button": "Unda Orodha ya kucheza",
+    "inputPlaceholder": "Ingiza Jina la Orodha ya kucheza"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Imeongezwa kwenye Orodha ya kucheza",
+      "remove": "Imeondolewa kwenye Orodha ya kucheza",
+      "create": "Orodha ya kucheza iliyoundwa",
+      "delete": "Orodha ya kucheza iliyofutwa"
+    },
+    "favorites": { "add": "Imeongezwa kwa Vipendwa", "remove": "Imeondolewa kwenye Vipendwa" },
+    "downloads": { "remove": "Imeondolewa kwenye Vipakuliwa" },
+    "facebook": { "loginError": "Kuingia hushindwa na hitilafu" },
+    "google": { "loginError": "Kuingia hushindwa na hitilafu" }
+  },
+  "playlists": { "trackLabel": "Fuatilia", "tracksLabel": "Nyimbo" },
+  "mediaList": { "tracksLabel": "Nyimbo", "remove": "Ondoa" },
+  "tutorialPage": { "done": "Imefanywa", "skip": "Ruka" },
+  "loginModal": { "login": "Ingia" },
+  "shareModal": { "facebook": "Picha za", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Inapakua", "complete": "Upakuaji umekamilika" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Chunguza Biblia",
+      "subtitle1": "Kusafiri kupitia Biblia nzima pamoja nasi, au anza safari yako mwenyewe.",
+      "title2": "Sikiza na Ushiriki",
+      "subtitle2": "Kicheza media hukuruhusu kupiga mbizi kwenye THRU yaliyomo kwenye BIBLIA kwa urahisi.",
+      "title3": "Gundua Mafundisho",
+      "subtitle3": "Shiriki katika Biblia kama hapo awali kwa kurejelea sehemu ya Biblia na Kufundisha.",
+      "title4": "Jadili Biblia",
+      "subtitle4": "Jiunge na kikundi kusoma THRU mafundisho na mada za BIBLIA na wengine.",
+      "title5": "Pakua na Shiriki",
+      "subtitle5": "Furahiya kusikiliza Neno la Mungu popote na ushiriki na marafiki wako.",
+      "title6": "Hifadhi na Unda",
+      "subtitle6": "Hifadhi mafundisho yako unayopenda na mistari ya Biblia au tengeneza orodha ya kucheza ya kawaida.",
+      "title7": "Ibada za Kikundi",
+      "subtitle7": "Kuwa na moyo na kuhamasishwa na wengine na ibada ya kila siku ya kikundi."
+    },
+    "registerPage": {
+      "noThanks": "Hapana Asante",
+      "haveAccount": "Una akaunti?",
+      "createAccount": "Unda Akaunti Yangu",
+      "title1": "Jadili na Wengine",
+      "subtitle1": "Jadili mada unazopenda na mistari ya bibilia na wengine.",
+      "title2": "Hifadhi na Sawazisha Orodha za kucheza",
+      "subtitle2": "Jenga orodha ya yaliyomo unayopenda katika sehemu moja.",
+      "title3": "Tazama Unayopenda",
+      "subtitle3": "Hifadhi na urudi na utembelee unayopenda baadaye.",
+      "title4": "Karibu tena",
+      "subtitle4": "Unda akaunti na ufikie huduma zetu zote."
+    }
+  },
+  "app": {
+    "close": "funga",
+    "accept": "Kubali",
+    "reject": "Kataa",
+    "constructionInProgress": "UJENZI UNAENDELEA",
+    "downloadComplete": "Upakuaji umekamilika",
+    "downloading": "Inapakua",
+    "downloadFailed": "Upakuaji Umeshindwa",
+    "sendAFile": "Mtu Anataka Kukutumia Faili"
+  },
+  "transferring": { "tryAgain": "jaribu tena", "close": "funga" },
+  "checkDevice": {
+    "check": "Angalia Kifaa chako",
+    "makeSure": "Tafadhali hakikisha Wifi-Direct imewashwa kifaa cha rafiki yako na iko katika anuwai.",
+    "continue": "Endelea"
+  },
+  "connectToDevice": { "connect": "Unganisha kwenye Kifaa" },
+  "pairing": {
+    "connect": "Unganisha kwenye Kifaa",
+    "pairing": "Kuoanisha",
+    "success": "Imefaulu Kuoanishwa",
+    "failed": "Uoanishaji wa Kifaa Umeshindwa",
+    "makeSure": "Tafadhali hakikisha (Wifi-Direct) imewashwa kifaa cha rafiki yako na iko katika anuwai.",
+    "continue": "Endelea",
+    "tryAgain": "Jaribu tena"
+  },
+  "selectNetworkType": {
+    "connect": "Unganisha kwenye kifaa",
+    "share": "Shiriki na Wifi Direct",
+    "send": "Ungependa kutuma faili juu ya wifi moja kwa moja?",
+    "continue": "Endelea"
+  }
+}

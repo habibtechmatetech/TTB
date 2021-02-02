@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "پنهنجي موجوده ٻولي چونڊيو", "mainAction": "ٻولي چونڊيو" },
+  "menu": {
+    "anonymousTitle": "توهان جو کاتو",
+    "anonymousAction": "لاگ ان",
+    "editProfileAction": "پروفائل ۾ مٽ سٽ ڪيو",
+    "verifyProfileAction": "پروفائل جي تصديق ڪريو",
+    "bibleSection": "بائبل",
+    "teachingsSection": "سکيا",
+    "librarySection": "منهنجي لائبريري",
+    "groupsSection": "ميڙَ",
+    "donateSection": "عطيو ڏيو",
+    "settingsSection": "جوڙ",
+    "signOut": "سائن آئوٽ ڪريو",
+    "modals": {
+      "verifyProfile": {
+        "title": "توهان تصديق ٿيل ناهن",
+        "message": "توهان جون لسٽون هم وقت نه ڪيون وينديون ۽ توهان گروپ نه ٺاهي سگهندا. مهرباني ڪري پنهنجي اي ميل چيڪ ڪريو رجسٽريشن مڪمل ڪرڻ لاءِ",
+        "firstButton": "جاري رکو",
+        "secondButton": "نئين پروفائل کي رجسٽر ڪريو"
+      }
+    }
+  },
+  "signIn": {
+    "header": "سائن ان ڪريو",
+    "emailPlaceholder": "اوهانجو ايميل",
+    "passwordPlaceholder": "توهان جو پاسورڊ",
+    "forgotAction": "پاس ورڊ وسري ويو؟",
+    "callToAction": "سائن ان ڪريو",
+    "signInAlternatives": "يا استعمال ڪندي سائن ان ٿيو",
+    "noAccountAction": "ڪوبه کاتو ناهي؟ هڪ ٺاهيو",
+    "notifications": {
+      "invalidCredentials": "غلط سند",
+      "inProgress": "اڳ ئي جاري آهي",
+      "notAvailable": "رانديون سهولتون دستياب ناهن"
+    }
+  },
+  "signUp": {
+    "header": "کاتو ٺاهيو",
+    "emailPlaceholder": "اوهانجو ايميل",
+    "passwordPlaceholder": "توهان جو پاسورڊ",
+    "privateAction": "خانگي کاتو ٺاهيو",
+    "termsDisclaimer": {
+      "pre": "سائن اپ تي ڪلڪ ڪندي توهان اهو ظاهر ڪيو ته توهان پڙهي ۽ اتفاق ڪيو آهي",
+      "terms": "شرطن",
+      "post": "."
+    },
+    "callToAction": "سائن اپ ڪريو",
+    "signUpAlternatives": "يا استعمال ڪندي سائن اپ ٿيو",
+    "haveAnAccountAction": "اڪائونٽ آهي؟",
+    "notifications": {
+      "invalidUsername": "يوزر نالا 20 الفابيٽڪڪ اکرن تائين محدود آهن (انگ ۽ باقاعده اکر)",
+      "invalidPassword": "پاسورڊ ۾ گھٽ ۾ گھٽ 3 اکر هجڻ گھرجن ۽ نن upperن ۽ گھٽ اکر جا اکر ٺاھيا وڃن گھٽ ۾ گھٽ ھڪ خاص يا خاص اکر سان"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "اڪائونٽ ٺاهڻ کان قاصر",
+        "message": "هي ايم ميل پتو اڳ ئي موجود آهي.",
+        "firstButton": "سائن ان ڪريو",
+        "secondButton": "بند ڪريو"
+      },
+      "privateAccount": {
+        "title": "خانگي اڪائونٽ",
+        "message": "پنهنجو اڪائونٽ پرائيويٽ بڻائڻ سان ، توهان ان کي ٻين جي ڳولا ۾ لڪايو وڃي رهيا آهيو.",
+        "firstButton": "قبول ڪريو",
+        "secondButton": "رد ڪريو"
+      },
+      "success": {
+        "title": "اڪائونٽ ٺهيل!",
+        "message": "توهان جو اڪائونٽ ڪاميابي سان ٺاهيو ويو پنهنجو اڪائونٽ تصديق ڪرڻ ۽ سائن ان ڪرڻ جي لاءِ انباڪس چيڪ ڪريو.",
+        "firstButton": "سائن ان ڪريو"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "پاسورڊ ٻيھر ترتيب ڏيو",
+    "emailPlaceholder": "اوهانجو ايميل",
+    "message": "مهرباني ڪري پنهنجي اي ميل داخل ڪريو پنهنجو کاتو پاسورڊ لاءِ ري سيٽ ڪيو.",
+    "callToAction": "پاسورڊ ٻيھر ترتيب ڏيو",
+    "notifications": {
+      "success": "اسان صرف توهان جي انباڪس ڏانهن اي ميل موڪليو",
+      "emailNotFoundError": "ايميل نه ملي هئي",
+      "invalidEmailError": "غلط اي ميل فارميٽ"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "سيٽ ختم ڪريو",
+    "message": "توهان جي داخل ڪيل اي ميل ايڊريس ڏانهن هڪ اي ميل موڪليو ويو آهي. مهرباني ڪري رجسٽريشن مڪمل ڪرڻ لاءِ اي ميل جون تفصيلون ڏسو.",
+    "callToAction": "هينئر تائين ڇڏي ڏيو"
+  },
+  "teachings": {
+    "dailyText": "ا جي نشريات",
+    "journeyTitle": "پنهنجو سفر شروع ڪريو",
+    "journeySubtitle": "شروع کان آخر تائين سڀ سکيا",
+    "journeyCardTitle": "215 هفت جو سفر بائبل ذريعي",
+    "journeyCardSubtitle": "پنهنجي وقت تي ٻڌو",
+    "tracksLabel": "پيچرو"
+  },
+  "teaching": {
+    "header": "سکيا",
+    "loading": "لوڊنگ ٿي رهي آهي ...",
+    "player": {
+      "audioSpeed": "آڊيو اسپيڊ",
+      "loading": "لوڊ ڪري رهيو آهي",
+      "castingError": "اوزار موجود ناھن"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "ٻڌائڻ جاري رکو", "secondButton": "پنھنجو سفر شروع ڪريو" }
+    }
+  },
+  "journey": {
+    "byDate": "تاريخ تائين",
+    "bySeries": "سيريز جي لحاظ سان",
+    "sections": { "tracksLabel": "پيچرو" }
+  },
+  "library": {
+    "header": "منهنجي لائبريري",
+    "tabs": { "downloads": "ڊائون لوڊ", "favorites": "پسنديده", "playlists": "پلي لسٽون" }
+  },
+  "groups": {
+    "header": "ميڙَ",
+    "createGroup": {
+      "title": "نئون گروپ ٺاھيو",
+      "groupNameLabel": "گروپ جو نالو",
+      "groupNameInputPlaceHolder": "نالو",
+      "descriptionLabel": "وضاحت",
+      "descriptionInputPlaceHolder": "تفصيل شامل ڪريو",
+      "inviteLabel": "صارفين کي دعوت ڏيو",
+      "inviteButton": "نون استعمال ڪندڙن کي دعوت ڏيو",
+      "button": "گروپ ٺاھيو",
+      "invalidGroupName": "هڪ صحيح نالو داخل ڪريو",
+      "groupNameTooLong": "گروپ جو نالو 25 اکرن کان وڌيڪ نه هجڻ گھرجي"
+    },
+    "devotionNotStartAlert": "ھن گروپ جي لاءِ ھڪڙو عقيدو شروع نه ٿيو آھي",
+    "membersLabel": "ميمبر",
+    "chatModalMemberSubtitleLabel": "ميمبر",
+    "chatModalMembersSubtitleLabel": "ميمبر",
+    "chat": {
+      "listeningToLabel": "ٻڌي ڇڏيندڙ",
+      "loadingTrackLabel": "ٽريڪ لوڊ ڪري پيو ...",
+      "inputPlaceHolder": "پيغام لکو",
+      "deletePost": "پوسٽ ختم ڪريو",
+      "deleteMessage": "هڪ پيغام حذف ڪيو آهي"
+    },
+    "groupSettings": {
+      "participantsSection": "ڌرين",
+      "viewAll": "سڀ ڏسو",
+      "invite": "نون استعمال ڪندڙن کي دعوت ڏيو",
+      "endDevotion": "گروھ جي عقيدت ختم ڪريو",
+      "deleteGroup": "گروپ کي ختم ڪريو",
+      "leaveGroup": "گروپ ڇڏي ڏيو"
+    },
+    "userDirectory": {
+      "header": "يوزر ڊاريڪٽري",
+      "remove": "هٽايو",
+      "anonymous": "گمنام",
+      "send": "موڪليو"
+    },
+    "inviteUser": { "placeHolder": "ڳولا", "send": "موڪليو" }
+  },
+  "chat": {
+    "header": "گروپ چينل",
+    "settings": {
+      "header": "گروپ جوڙ",
+      "endDevotion": {
+        "alertTitle": "آخر ۾ نيڪالي",
+        "alertMessage": "ڇا توهان پڪ سان هن عقيدت ختم ڪرڻ چاهيندا آهيو؟",
+        "alertCancel": "رد ڪرڻ",
+        "alertConfirm": "ها",
+        "endDevotionLabel": "هن عقيدت ختم ڪري ڇڏي.",
+        "hasEnded": "هي وقف ختم ٿي ويو"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "شروع ڪريو",
+    "alertMessage": "ڇا توهان پڪ ڪيو ته توهان٪ {name} گروپ سان ڀٽائي شروع ڪرڻ چاهيو ٿا؟",
+    "alertCancel": "رد ڪرڻ",
+    "alertConfirm": "ها",
+    "devotionStartedLabel": "هڪ عقيدت شروع ڪيو آهي."
+  },
+  "settings": {
+    "header": "جوڙ",
+    "tabs": { "profile": "پروفائيل", "media": "ميڊيا", "notifications": "اطلاعن" },
+    "profile": {
+      "account": "کاتو",
+      "username": "کاتي جو نالو",
+      "email": "اِي ميل",
+      "editButton": "تبديلي آڻيو",
+      "edit": {
+        "save": "محفوظ ڪريو",
+        "username": {
+          "header": "کاتي جو نالو",
+          "successAlert": "توھان جي تبديلي محفوظ ٿي چڪي آھي",
+          "failedAlert": "تبديلي بچائڻ ۾ ناڪامياب ٿي."
+        },
+        "email": {
+          "header": "ايميل",
+          "successAlert": "توھان جي تبديلي محفوظ ٿي چڪي آھي",
+          "failedAlert": "تبديلي بچائڻ ۾ ناڪامياب ٿي."
+        }
+      },
+      "languages": "زبانون",
+      "signIn": "سائن ان ڪريو",
+      "signOut": "اڪائونٽ مان سائن آئوٽ ٿيو",
+      "legal": "قانوني",
+      "termsConditions": "شرط ۽ ضابطا",
+      "privacyPolicy": "پرائيويسي پاليسي",
+      "support": "سپورٽ",
+      "reportAProblem": "مسئلو ٻڌايو",
+      "tutorial": "سبق آموز",
+      "reportBug": {
+        "header": "مسئلو ٻڌايو",
+        "send": "موڪليو",
+        "subject": "عنوان",
+        "subjectPlaceHolder": "مضمون",
+        "description": "وضاحت",
+        "descriptionPlaceHolder": "تفصيل",
+        "successAlert": "توهان جي مهرباني ، اسان کي توهان جو پيغام ملي ويو.",
+        "failedAlert": "پيغام موڪلڻ ۾ ناڪام ٿي."
+      },
+      "version": "نسخو"
+    },
+    "media": {
+      "audio": "آڊيو",
+      "autoplay": "آٽوپلو آڊيو",
+      "storage": "اسٽوريج",
+      "downloadWifi": "صرف وائي فائي تي ڊائونلوڊ ڪريو",
+      "deleteCache": "ڪيش کي ختم ڪريو"
+    },
+    "notifications": {
+      "notifications": "اطلاعن",
+      "groupInvitation": "گروه جو دعوت نامو",
+      "devotions": "دعوتن ۾ دعوت ڏيو",
+      "file": "فائل منتقلي جي تصديق"
+    }
+  },
+  "inviteUsers": { "header": "صارفين کي دعوت ڏيو" },
+  "playlist": {
+    "header": "ٻڌلن جي فهرست",
+    "audioFileLabel": "آڊيو فائيل",
+    "audioFilesLabel": "آڊيو فائلون"
+  },
+  "collection": { "header": "جمع ڪرڻ", "audioFilesLabel": "آڊيو فائلون" },
+  "modal": {
+    "close": "ويجهو",
+    "addToPlaylist": { "title": "پلي لسٽ ۾ شامل ڪريو", "button": "پلي لسٽ ٺاهيو" },
+    "startDevotion": { "title": "شروع ڪريو" },
+    "createPlaylist": {
+      "title": "نئين ٺاھيندڙ فهرست ٺاھيو",
+      "button": "پلي لسٽ ٺاهيو",
+      "inputPlaceholder": "پلي لسٽ نالي داخل ڪريو",
+      "success": "پلي لسٽ ۾ شامل ڪيو ويو"
+    },
+    "login": "توهان کي وقف ڪرڻ لاءِ لاگ ان ٿيڻ جي ضرورت آهي"
+  },
+  "options": {
+    "shared": {
+      "share": "حصيداري ڪريو",
+      "report": "مواد کي رپورٽ ڪريو",
+      "shareOthers": "ٻين سان ونڊيو",
+      "copy": "ڪاپي لنڪ",
+      "more": "وڌيڪ"
+    },
+    "audio": {
+      "download": "ڊائون لوڊ ڪريو",
+      "addFavorite": "پسنديده ٺاھڻ ۾ شامل ڪريو",
+      "addPlaylist": "پلي لسٽ ۾ شامل ڪريو",
+      "removeFavorite": "پسنديده کان هٽايو",
+      "removePlaylist": "پلي لسٽ مان ڪ Removeيو وڃي",
+      "removeDownload": "ڊائون لوڊز تان هٽايو"
+    },
+    "playlist": { "edit": "تبديلي آڻيو", "delete": "پلي لسٽ کي ختم ڪريو" },
+    "startDevotion": "شروع ڪريو"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "پلي لسٽ ۾ شامل ڪيو ويو",
+      "delete": "پلي لسٽ مان ڪيو ويو",
+      "create": "پلي لسٽ ٺاهي وئي",
+      "destroy": "پلي لسٽ کي ختم ڪيو ويو"
+    },
+    "favorites": { "add": "فيوريٽس ۾ شامل ڪيل", "remove": "فيسٽيول مان هٽايو ويو" },
+    "downloads": { "remove": "ڊائون لوڊ ڪيلن کان هٽايو ويو" }
+  },
+  "buttons": { "loop": "لِپَ", "shuffle": "ٽڻ" },
+  "uiControls": {
+    "searchBox": { "placeholder": "ڳوليو ..." },
+    "notification": { "success": "ڪاميابي! هڪ اي ميل توهان جي اڪائونٽ ڏانهن موڪليو ويندو." },
+    "button": { "sending": "موڪلي رهيو آهي ..." },
+    "modalSelector": { "cancel": "رد ڪرڻ" },
+    "loading": "لوڊ ڪري رهيو آهي"
+  },
+  "bible": {
+    "header": "بائبل",
+    "oldTestament": "پراڻي عهد نامي",
+    "newTestament": "نئون عهدو",
+    "popularBooks": "مشهور ڪتاب"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "ڳولا",
+    "cancelButton": "ڪينسل",
+    "searchResults": "ڳولا جا نتيجا",
+    "filterButton": "فلٽر ڪريو",
+    "teachings": { "title": "سکيا" },
+    "bible": { "title": "بائبل" }
+  },
+  "addToPlaylistsModal": { "title": "پلي لسٽ ۾ شامل ڪريو", "button": "پلي لسٽ ٺاهيو" },
+  "createPlaylistModal": {
+    "title": "نئين ٺاھيندڙ فهرست ٺاھيو",
+    "button": "پلي لسٽ ٺاهيو",
+    "inputPlaceholder": "پلي لسٽ نالي داخل ڪريو"
+  },
+  "alert": {
+    "playlists": {
+      "add": "پلي لسٽ ۾ شامل ڪيو ويو",
+      "remove": "پلي لسٽ مان ڪيو ويو",
+      "create": "پلي لسٽ ٺاهي وئي",
+      "delete": "پلي لسٽ کي ختم ڪيو ويو"
+    },
+    "favorites": { "add": "فيوريٽس ۾ شامل ڪيل", "remove": "فيسٽيول مان هٽايو ويو" },
+    "downloads": { "remove": "ڊائون لوڊ ڪيلن کان هٽايو ويو" },
+    "facebook": { "loginError": "غلطي سان لاگ ان ٿيو" },
+    "google": { "loginError": "غلطي سان لاگ ان ٿيو" }
+  },
+  "playlists": { "trackLabel": "ٽريڪ", "tracksLabel": "پيچرو" },
+  "mediaList": { "tracksLabel": "پيچرو", "remove": "هٽايو" },
+  "tutorialPage": { "done": "ٿي ويو", "skip": "ڇڏي ڏيو" },
+  "loginModal": { "login": "لاگ ان" },
+  "shareModal": { "facebook": "ڪريو", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "ڊائونلوڊ ٿئي پئي", "complete": "ڊائون لوڊ مڪمل" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "بائبل ڳوليو",
+      "subtitle1": "اسان سان گڏ پوري بائبل جي ذريعي سفر ڪريو ، يا پنهنجو يا پنهنجو سفر شروع ڪيو.",
+      "title2": "ٻڌو ۽ مشغول ٿيو",
+      "subtitle2": "ميڊيا پليئر توهان کي آساني سان بائيبل جي مواد کي اندر وڃڻ جي اجازت ڏئي ٿو.",
+      "title3": "درس ڳوليو",
+      "subtitle3": "بائبل ۾ مشغول ٿيو جهڙوڪ بائيبل ۽ تدريسي مواد جي آرٽيڪل حوالا ڏيڻ کان اڳ ڪڏهن به نه.",
+      "title4": "بائبل تي بحث ڪيو",
+      "subtitle4": "هڪ گروپ ۾ شامل ٿيو ٻين سان گڏ BIBLE تعليم ۽ عنوانن جو مطالعو.",
+      "title5": "ڊائون لوڊ ۽ شيئر ڪريو",
+      "subtitle5": "خدا جو ڪلام ٻڌي رستي ۾ ٻُڌي لطف اندوز ٿيو ۽ پنهنجي دوستن سان شيئر ڪيو.",
+      "title6": "محفوظ ڪريو ۽ ٺاهيو",
+      "subtitle6": "پنهنجي پسنديده تعليم ۽ بائيبل آيتون محفوظ ڪريو يا ڪسٽم پلي لسٽ ٺاهيو.",
+      "title7": "گروهي عقيدت",
+      "subtitle7": "روزانه گروپ جي سوچ سان ٻين جي حوصلا افزائي ۽ حوصله افزائي ٿيڻ گهرجي."
+    },
+    "registerPage": {
+      "noThanks": "نه مهرباني",
+      "haveAccount": "اڪائونٽ آهي؟",
+      "createAccount": "منهنجو کاتو ٺاهيو",
+      "title1": "ٻين سان بحث ڪريو",
+      "subtitle1": "پنهنجي پسنديده موضوع ۽ بائبل جي آيتون ٻين سان بحث ڪريو.",
+      "title2": "اسٽور ۽ هم وقت ساز راند جي فهرست",
+      "subtitle2": "ھڪڙي جڳھ تي پنھنجي پسنديده مواد جي لسٽ ٺاھيو.",
+      "title3": "پنھنجو پسنديده ڏسو",
+      "subtitle3": "اسٽور ڪريو ۽ واپس اچو ۽ پوئين وقت تي پنھنجي پسنديده زيارت ڪريو.",
+      "title4": "واپسي تي ڀلي ڪار",
+      "subtitle4": "اڪائونٽ ٺاهي ۽ اسان جي سڀني فيچرن تائين رسائي حاصل ڪريو."
+    }
+  },
+  "app": {
+    "close": "ويجهو",
+    "accept": "قبول ڪريو",
+    "reject": "رد ڪريو",
+    "constructionInProgress": "پيش رفت ۾ تعمير",
+    "downloadComplete": "ڊائون لوڊ مڪمل",
+    "downloading": "ڊائونلوڊ ٿئي پئي",
+    "downloadFailed": "ڊائونلوڊ ناڪام ٿي",
+    "sendAFile": "ڪو توهان کي هڪ فائل موڪلڻ گھري ٿو"
+  },
+  "transferring": { "tryAgain": "ٻيهر ڪوشش ڪريو", "close": "ويجهو" },
+  "checkDevice": {
+    "check": "توهان جي ڊيوائس چيڪ ڪريو",
+    "makeSure": "مهرباني ڪري پڪ ڪريو ته وائي فائي-ڊائريڪٽ توهان جي دوست جي اوزار تي isهليل آهي ۽ اهو حد ۾ آهي",
+    "continue": "جاري رکو"
+  },
+  "connectToDevice": { "connect": "هڪ ڊوائيس سان رابطو ڪريو" },
+  "pairing": {
+    "connect": "هڪ ڊوائيس سان رابطو ڪريو",
+    "pairing": "پير ٺهڻ",
+    "success": "ڪاميابي سان پير سڏي ويو",
+    "failed": "ڊوائيس جوئر ڪرڻ ناڪام ٿيو",
+    "makeSure": "مهرباني ڪري پڪ ڪريو ته (وائي فائي-ڊائريڪٽ) توهان جي دوست جي ڊيوائس تي isهليل آهي ۽ انهي جي حد ۾ آهي.",
+    "continue": "جاري رکو",
+    "tryAgain": "ٻيهر ڪوشش ڪريو"
+  },
+  "selectNetworkType": {
+    "connect": "ڊوائيس تي رابطو ڪريو",
+    "share": "وائي فائي سڌو سان شيئر ڪريو",
+    "send": "وائي فائي مٿان فائل موڪلي ڏيو؟",
+    "continue": "جاري رکو"
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "selectLanguage": { "heading": "ជ្រើសរើសភាសាបច្ចុប្បន្នរបស់អ្នក", "mainAction": "ជ្រើសរើស​ភាសា" },
+  "menu": {
+    "anonymousTitle": "គណនី​របស់​អ្នក",
+    "anonymousAction": "ចូល",
+    "editProfileAction": "កែសម្រួលប្រវត្តិរូប",
+    "verifyProfileAction": "ផ្ទៀងផ្ទាត់ប្រវត្តិរូប",
+    "bibleSection": "ព្រះគម្ពីរ",
+    "teachingsSection": "ការបង្រៀន",
+    "librarySection": "បណ្ណាល័យរបស់ខ្ញុំ",
+    "groupsSection": "ក្រុម",
+    "donateSection": "បរិច្ចាគ",
+    "settingsSection": "ការកំណត់",
+    "signOut": "ចាកចេញ",
+    "modals": {
+      "verifyProfile": {
+        "title": "អ្នកមិនត្រូវបានផ្ទៀងផ្ទាត់ទេ",
+        "message": "បញ្ជីរបស់អ្នកនឹងមិនត្រូវបានធ្វើសមកាលកម្មហើយអ្នកមិនអាចបង្កើតក្រុមបានទេ។ សូមពិនិត្យមើលអ៊ីមែលរបស់អ្នកដើម្បីបញ្ចប់ការចុះឈ្មោះ។",
+        "firstButton": "បន្ត",
+        "secondButton": "ចុះឈ្មោះទម្រង់ថ្មី"
+      }
+    }
+  },
+  "signIn": {
+    "header": "ចូល",
+    "emailPlaceholder": "អ៊ីមែល​របស់​អ្នក",
+    "passwordPlaceholder": "លេខសំងាត់​របស់​អ្នក",
+    "forgotAction": "ភ្លេច​លេខសំងាត់​?",
+    "callToAction": "ចូល",
+    "signInAlternatives": "ឬចូលដោយប្រើ",
+    "noAccountAction": "គ្មានគណនី? បង្កើតមួយ",
+    "notifications": {
+      "invalidCredentials": "លិខិត​សម្គាល់​មិន​ត្រឹមត្រូវ",
+      "inProgress": "ចូលរួចហើយ",
+      "notAvailable": "សេវាកម្មលេងមិនមានទេ"
+    }
+  },
+  "signUp": {
+    "header": "បង្កើតគណនី",
+    "emailPlaceholder": "អ៊ីមែល​របស់​អ្នក",
+    "passwordPlaceholder": "លេខសំងាត់​របស់​អ្នក",
+    "privateAction": "ធ្វើឱ្យគណនីឯកជន",
+    "termsDisclaimer": {
+      "pre": "ដោយចុចលើការចុះឈ្មោះអ្នកបង្ហាញថាអ្នកបានអាននិងយល់ព្រម",
+      "terms": "លក្ខខណ្ឌ",
+      "post": "។"
+    },
+    "callToAction": "ចុះ​ឈ្មោះ",
+    "signUpAlternatives": "ឬចុះឈ្មោះដោយប្រើ",
+    "haveAnAccountAction": "មានគណនីទេ?",
+    "notifications": {
+      "invalidUsername": "ឈ្មោះអ្នកប្រើត្រូវបានកំណត់ត្រឹម ២០ តួអក្សរក្រមលេខ (លេខនិងអក្សរធម្មតា)",
+      "invalidPassword": "លេខសម្ងាត់គួរតែមានយ៉ាងហោចណាស់ ៣ តួអក្សរហើយជាបន្សំនៃអក្សរធំនិងអក្សរតូចដែលមានយ៉ាងហោចណាស់មួយលេខឬតួអក្សរពិសេស"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "មិនអាចបង្កើតគណនីបានទេ",
+        "message": "អាសយដ្ឋានអ៊ីមែលនេះមានរួចហើយ។",
+        "firstButton": "ចូល",
+        "secondButton": "បិទ"
+      },
+      "privateAccount": {
+        "title": "គណនីឯកជន",
+        "message": "ដោយធ្វើឱ្យគណនីរបស់អ្នកជាលក្ខណៈឯកជនអ្នកកំពុងលាក់វាពីការស្វែងរកដោយអ្នកដទៃ។",
+        "firstButton": "ព្រមទទួល",
+        "secondButton": "បដិសេធ"
+      },
+      "success": {
+        "title": "បានបង្កើតគណនី!",
+        "message": "គណនីរបស់អ្នកត្រូវបានបង្កើតដោយជោគជ័យ។ ពិនិត្យប្រអប់ទទួលរបស់អ្នកដើម្បីបញ្ជាក់គណនីរបស់អ្នកហើយចូល។",
+        "firstButton": "ចូល"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "កំណត់ពាក្យសម្ងាត់ឡើងវិញ",
+    "emailPlaceholder": "អ៊ីមែល​របស់​អ្នក",
+    "message": "សូមបញ្ចូលអ៊ីមែលរបស់អ្នកដើម្បីកំណត់ពាក្យសម្ងាត់របស់អ្នកឡើងវិញ។",
+    "callToAction": "កំណត់ពាក្យសម្ងាត់ឡើងវិញ",
+    "notifications": {
+      "success": "យើងទើបតែផ្ញើអ៊ីមែលទៅប្រអប់ទទួលរបស់អ្នក",
+      "emailNotFoundError": "អ៊ីមែលមិនត្រូវបានរកឃើញទេ",
+      "invalidEmailError": "ទ្រង់ទ្រាយអ៊ីមែលមិនត្រឹមត្រូវ"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "បញ្ចប់ការរៀបចំ",
+    "message": "អ៊ីមែលត្រូវបានផ្ញើទៅអាសយដ្ឋានអ៊ីមែលដែលអ្នកបានបញ្ចូល។ សូមមើលព័ត៌មានលម្អិតអ៊ីមែលដើម្បីបំពេញការចុះឈ្មោះ។",
+    "callToAction": "រំលងឥឡូវនេះ"
+  },
+  "teachings": {
+    "dailyText": "ការផ្សាយថ្ងៃនេះ",
+    "journeyTitle": "ចាប់ផ្តើមដំណើររបស់អ្នក",
+    "journeySubtitle": "រាល់ការបង្រៀនតាំងពីដំបូងរហូតដល់ចប់",
+    "journeyCardTitle": "ដំណើរ ២១៥ សប្តាហ៍តាមរយៈព្រះគម្ពីរ",
+    "journeyCardSubtitle": "ស្តាប់តាមពេលវេលារបស់អ្នក",
+    "tracksLabel": "បទ"
+  },
+  "teaching": {
+    "header": "ការបង្រៀន",
+    "loading": "កំពុងផ្ទុក ...",
+    "player": {
+      "audioSpeed": "ល្បឿនសំលេង",
+      "loading": "កំពុងផ្ទុក",
+      "castingError": "មិនមានឧបករណ៍ទេ"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "បន្តស្តាប់", "secondButton": "ចាប់ផ្តើមដំណើររបស់អ្នក" }
+    }
+  },
+  "journey": {
+    "byDate": "តាមកាលបរិច្ឆេទ",
+    "bySeries": "ដោយស៊េរី",
+    "sections": { "tracksLabel": "បទ" }
+  },
+  "library": {
+    "header": "បណ្ណាល័យរបស់ខ្ញុំ",
+    "tabs": { "downloads": "ការទាញយក", "favorites": "ចំណូលចិត្ត", "playlists": "បញ្ជីចាក់" }
+  },
+  "groups": {
+    "header": "ក្រុម",
+    "createGroup": {
+      "title": "បង្កើតក្រុមថ្មី",
+      "groupNameLabel": "ឈ្មោះ​ក្រុម",
+      "groupNameInputPlaceHolder": "ឈ្មោះ",
+      "descriptionLabel": "ការពិពណ៌នា",
+      "descriptionInputPlaceHolder": "បន្ថែមការពិពណ៌នា",
+      "inviteLabel": "អញ្ជើញអ្នកប្រើ",
+      "inviteButton": "អញ្ជើញអ្នកប្រើថ្មី",
+      "button": "បង្កើតក្រុម",
+      "invalidGroupName": "បញ្ចូលឈ្មោះត្រឹមត្រូវ",
+      "groupNameTooLong": "ឈ្មោះក្រុមមិនត្រូវមានច្រើនជាង ២៥ តួអក្សរ"
+    },
+    "devotionNotStartAlert": "ការលះបង់មួយមិនបានចាប់ផ្តើមសម្រាប់ក្រុមនេះទេ",
+    "membersLabel": "សមាជិក",
+    "chatModalMemberSubtitleLabel": "សមាជិក",
+    "chatModalMembersSubtitleLabel": "សមាជិក",
+    "chat": {
+      "listeningToLabel": "កំពុង​ស្តាប់",
+      "loadingTrackLabel": "កំពុងផ្ទុកបទ ...",
+      "inputPlaceHolder": "សរសេរសារ",
+      "deletePost": "លុបភ្នំពេញប៉ុស្តិ៍",
+      "deleteMessage": "បានលុបសារ"
+    },
+    "groupSettings": {
+      "participantsSection": "អ្នកចូលរួម",
+      "viewAll": "មើលទាំងអស់",
+      "invite": "អញ្ជើញអ្នកប្រើថ្មី",
+      "endDevotion": "ការលះបង់ក្រុមបញ្ចប់",
+      "deleteGroup": "លុបក្រុម",
+      "leaveGroup": "ចាកចេញពីក្រុម"
+    },
+    "userDirectory": {
+      "header": "ថតអ្នកប្រើប្រាស់",
+      "remove": "យកចេញ",
+      "anonymous": "អនាមិក",
+      "send": "ផ្ញើ"
+    },
+    "inviteUser": { "placeHolder": "ស្វែងរក", "send": "ផ្ញើ" }
+  },
+  "chat": {
+    "header": "ឆានែលក្រុម",
+    "settings": {
+      "header": "ការកំណត់ក្រុម",
+      "endDevotion": {
+        "alertTitle": "បញ្ចប់ការលះបង់",
+        "alertMessage": "តើអ្នកពិតជាចង់បញ្ចប់ការលះបង់នេះមែនទេ?",
+        "alertCancel": "បោះបង់",
+        "alertConfirm": "ត្រូវហើយ",
+        "endDevotionLabel": "បានបញ្ចប់ការលះបង់នេះ។",
+        "hasEnded": "ការលះបង់នេះបានបញ្ចប់"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "ចាប់ផ្តើមលះបង់",
+    "alertMessage": "តើអ្នកពិតជាចង់ចាប់ផ្តើមលះបង់ជាមួយក្រុម% {ឈ្មោះ} មែនទេ?",
+    "alertCancel": "បោះបង់",
+    "alertConfirm": "ត្រូវហើយ",
+    "devotionStartedLabel": "បានចាប់ផ្តើមលះបង់។"
+  },
+  "settings": {
+    "header": "ការកំណត់",
+    "tabs": {
+      "profile": "ប្រវត្តិរូប",
+      "media": "ប្រព័ន្ធផ្សព្វផ្សាយ",
+      "notifications": "ការជូនដំណឹង"
+    },
+    "profile": {
+      "account": "គណនី",
+      "username": "ឈ្មោះ​អ្នកប្រើប្រាស់",
+      "email": "អ៊ីមែល",
+      "editButton": "កែសម្រួល",
+      "edit": {
+        "save": "រក្សាទុក",
+        "username": {
+          "header": "ឈ្មោះ​អ្នកប្រើប្រាស់",
+          "successAlert": "ការផ្លាស់ប្តូររបស់អ្នកត្រូវបានរក្សាទុក។",
+          "failedAlert": "បានបរាជ័យក្នុងការរក្សាទុកការផ្លាស់ប្តូរ។"
+        },
+        "email": {
+          "header": "អ៊ីមែល",
+          "successAlert": "ការផ្លាស់ប្តូររបស់អ្នកត្រូវបានរក្សាទុក។",
+          "failedAlert": "បានបរាជ័យក្នុងការរក្សាទុកការផ្លាស់ប្តូរ។"
+        }
+      },
+      "languages": "ភាសា",
+      "signIn": "ចូល",
+      "signOut": "ចេញពីគណនី",
+      "legal": "ស្របច្បាប់",
+      "termsConditions": "ល័ក្ខខ័ណ្ឌ",
+      "privacyPolicy": "គោលការណ៍​ភាព​ឯកជន",
+      "support": "គាំទ្រ",
+      "reportAProblem": "រាយការណ៍បញ្ហា",
+      "tutorial": "ការបង្រៀន",
+      "reportBug": {
+        "header": "រាយការណ៍បញ្ហា",
+        "send": "ផ្ញើ",
+        "subject": "ប្រធានបទ",
+        "subjectPlaceHolder": "មុខវិជ្ជា",
+        "description": "ការពិពណ៌នា",
+        "descriptionPlaceHolder": "ការពិពណ៌នា",
+        "successAlert": "សូមអរគុណយើងបានទទួលសាររបស់អ្នកហើយ។",
+        "failedAlert": "បានបរាជ័យក្នុងការផ្ញើសារ។"
+      },
+      "version": "កំណែ"
+    },
+    "media": {
+      "audio": "សំលេង",
+      "autoplay": "អូឌីយ៉ូអូតូលីក",
+      "storage": "ការផ្ទុក",
+      "downloadWifi": "ទាញយកតែនៅលើវ៉ាយហ្វាយ",
+      "deleteCache": "លុបឃ្លាំងសម្ងាត់"
+    },
+    "notifications": {
+      "notifications": "ការជូនដំណឹង",
+      "groupInvitation": "ការអញ្ជើញជាក្រុម",
+      "devotions": "សូមអញ្ជើញទស្សនាការលះបង់",
+      "file": "ការបញ្ជាក់ផ្ទេរឯកសារ"
+    }
+  },
+  "inviteUsers": { "header": "អញ្ជើញអ្នកប្រើ" },
+  "playlist": {
+    "header": "បញ្ជីចាក់",
+    "audioFileLabel": "ឯកសារអូឌីយ៉ូ",
+    "audioFilesLabel": "ឯកសារអូឌីយ៉ូ"
+  },
+  "collection": { "header": "ការប្រមូល", "audioFilesLabel": "ឯកសារអូឌីយ៉ូ" },
+  "modal": {
+    "close": "បិទ",
+    "addToPlaylist": { "title": "បន្ថែមទៅបញ្ជីចាក់", "button": "បង្កើតបញ្ជីចាក់" },
+    "startDevotion": { "title": "ចាប់ផ្តើមលះបង់" },
+    "createPlaylist": {
+      "title": "បង្កើតបញ្ជីចាក់ថ្មី",
+      "button": "បង្កើតបញ្ជីចាក់",
+      "inputPlaceholder": "បញ្ចូលឈ្មោះបញ្ជីចាក់",
+      "success": "បានបន្ថែមទៅបញ្ជីចាក់"
+    },
+    "login": "អ្នកត្រូវចូលដើម្បីចាប់ផ្តើមលះបង់"
+  },
+  "options": {
+    "shared": {
+      "share": "ចែករំលែក",
+      "report": "ខ្លឹមសាររបាយការណ៍",
+      "shareOthers": "ចែករំលែកជាមួយអ្នកដទៃ",
+      "copy": "ចម្លងតំណ",
+      "more": "ច្រើនទៀត"
+    },
+    "audio": {
+      "download": "ទាញយក",
+      "addFavorite": "បន្ថែមទៅសំណព្វ",
+      "addPlaylist": "បន្ថែមទៅបញ្ជីចាក់",
+      "removeFavorite": "យកចេញពីសំណព្វ",
+      "removePlaylist": "យកចេញពីបញ្ជីលេង",
+      "removeDownload": "យកចេញពីការទាញយក"
+    },
+    "playlist": { "edit": "កែសម្រួល", "delete": "លុបបញ្ជីចាក់" },
+    "startDevotion": "ចាប់ផ្តើមលះបង់"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "បានបន្ថែមទៅបញ្ជីចាក់",
+      "delete": "បានយកចេញពីបញ្ជីលេង",
+      "create": "បានបង្កើតបញ្ជីចាក់",
+      "destroy": "បានលុបបញ្ជីលេង"
+    },
+    "favorites": { "add": "បន្ថែមទៅចំណូលចិត្ត", "remove": "បានយកចេញពីចំណូលចិត្ត" },
+    "downloads": { "remove": "បានយកចេញពីការទាញយក" }
+  },
+  "buttons": { "loop": "រង្វិលជុំ", "shuffle": "សាប់" },
+  "uiControls": {
+    "searchBox": { "placeholder": "ស្វែងរក" },
+    "notification": { "success": "ជោគជ័យ! អ៊ីមែលនឹងត្រូវបានផ្ញើទៅគណនីរបស់អ្នក។" },
+    "button": { "sending": "កំពុងផ្ញើ ..." },
+    "modalSelector": { "cancel": "បោះបង់" },
+    "loading": "កំពុងផ្ទុក"
+  },
+  "bible": {
+    "header": "ព្រះគម្ពីរ",
+    "oldTestament": "គម្ពីរសញ្ញាចាស់",
+    "newTestament": "គម្ពីរសញ្ញាថ្មី",
+    "popularBooks": "សៀវភៅពេញនិយម"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "ស្វែងរក",
+    "cancelButton": "CANCEL",
+    "searchResults": "លទ្ធផលស្វែងរក",
+    "filterButton": "ត្រង",
+    "teachings": { "title": "ការបង្រៀន" },
+    "bible": { "title": "ព្រះគម្ពីរ" }
+  },
+  "addToPlaylistsModal": { "title": "បន្ថែមទៅបញ្ជីចាក់", "button": "បង្កើតបញ្ជីចាក់" },
+  "createPlaylistModal": {
+    "title": "បង្កើតបញ្ជីចាក់ថ្មី",
+    "button": "បង្កើតបញ្ជីចាក់",
+    "inputPlaceholder": "បញ្ចូលឈ្មោះបញ្ជីចាក់"
+  },
+  "alert": {
+    "playlists": {
+      "add": "បានបន្ថែមទៅបញ្ជីចាក់",
+      "remove": "បានយកចេញពីបញ្ជីលេង",
+      "create": "បានបង្កើតបញ្ជីចាក់",
+      "delete": "បានលុបបញ្ជីលេង"
+    },
+    "favorites": { "add": "បន្ថែមទៅចំណូលចិត្ត", "remove": "បានយកចេញពីចំណូលចិត្ត" },
+    "downloads": { "remove": "បានយកចេញពីការទាញយក" },
+    "facebook": { "loginError": "ការចូលបរាជ័យដោយមានកំហុស" },
+    "google": { "loginError": "ការចូលបរាជ័យដោយមានកំហុស" }
+  },
+  "playlists": { "trackLabel": "បទ", "tracksLabel": "បទ" },
+  "mediaList": { "tracksLabel": "បទ", "remove": "យកចេញ" },
+  "tutorialPage": { "done": "ធ្វើរួច", "skip": "រំលង" },
+  "loginModal": { "login": "ចូល" },
+  "shareModal": { "facebook": "ហ្វេសប៊ុក", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "ទាញយក", "complete": "ការទាញយកបានបញ្ចប់" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "ស្វែងរកព្រះគម្ពីរ",
+      "subtitle1": "ធ្វើដំណើរឆ្លងកាត់ព្រះគម្ពីរទាំងមូលជាមួយយើងឬចាប់ផ្តើមដំណើរដោយខ្លួនឯង។",
+      "title2": "ស្តាប់និងចូលរួម",
+      "subtitle2": "កម្មវិធីចាក់មេឌៀអនុញ្ញាតឱ្យអ្នកលោតចូលទៅក្នុងមាតិកាព្រះគម្ពីរប៊ីដោយមានភាពងាយស្រួល។",
+      "title3": "ស្វែងយល់ពីការបង្រៀន",
+      "subtitle3": "ចូលរួមក្នុងព្រះគម្ពីរដូចជាមិនដែលពីមុនដោយការយោងខ្លឹមសារព្រះគម្ពីរនិងការបង្រៀន។",
+      "title4": "ពិភាក្សាព្រះគម្ពីរ",
+      "subtitle4": "ចូលរួមជាក្រុមដើម្បីសិក្សាអំពីការបង្រៀនព្រះគម្ពីរនិងប្រធានបទផ្សេងៗជាមួយ THRU ។",
+      "title5": "ទាញយកនិងចែករំលែក",
+      "subtitle5": "សូមរីករាយស្តាប់ព្រះបន្ទូលរបស់ព្រះនៅនឹងកន្លែងហើយចែកចាយវាជាមួយមិត្តរបស់អ្នក។",
+      "title6": "រក្សាទុកនិងបង្កើត",
+      "subtitle6": "រក្សាទុកការបង្រៀនដែលអ្នកចូលចិត្តនិងខព្រះគម្ពីរឬបង្កើតបញ្ជីចាក់ផ្ទាល់ខ្លួន។",
+      "title7": "ការលះបង់ជាក្រុម",
+      "subtitle7": "ត្រូវបានលើកទឹកចិត្តនិងលើកទឹកចិត្តពីអ្នកដទៃដោយការលះបង់ជាក្រុមប្រចាំថ្ងៃ។"
+    },
+    "registerPage": {
+      "noThanks": "អត់អី​ទេ​អរគុណ​ហើយ",
+      "haveAccount": "មានគណនីទេ?",
+      "createAccount": "បង្កើត​គណនី​របស់ខ្ញុំ",
+      "title1": "ពិភាក្សាជាមួយអ្នកដទៃ",
+      "subtitle1": "ពិភាក្សាប្រធានបទដែលអ្នកចូលចិត្តនិងខគម្ពីរប៊ីបជាមួយអ្នកដ៏ទៃ។",
+      "title2": "ផ្ទុកនិងធ្វើសមកាលកម្មបញ្ជីចាក់",
+      "subtitle2": "បង្កើតបញ្ជីមាតិកាដែលអ្នកចូលចិត្តនៅកន្លែងតែមួយ។",
+      "title3": "មើលសំណព្វរបស់អ្នក",
+      "subtitle3": "រក្សាទុកហើយត្រឡប់មកវិញនិងទស្សនាសំណព្វរបស់អ្នកនៅពេលក្រោយ។",
+      "title4": "ស្វា​គម​ន៏​ការ​ត្រ​លប់​មក​វិញ",
+      "subtitle4": "បង្កើតគណនីនិងចូលប្រើមុខងារទាំងអស់របស់យើង។"
+    }
+  },
+  "app": {
+    "close": "បិទ",
+    "accept": "ព្រមទទួល",
+    "reject": "បដិសេធ",
+    "constructionInProgress": "សំណង់នៅក្នុងគម្រោង",
+    "downloadComplete": "ការទាញយកបានបញ្ចប់",
+    "downloading": "ទាញយក",
+    "downloadFailed": "ការទាញយកបានបរាជ័យ",
+    "sendAFile": "នរណាម្នាក់ចង់ផ្ញើឯកសារទៅអ្នក"
+  },
+  "transferring": { "tryAgain": "ព្យាយាម​ម្តង​ទៀត", "close": "បិទ" },
+  "checkDevice": {
+    "check": "ពិនិត្យឧបករណ៍របស់អ្នក",
+    "makeSure": "សូមធ្វើឱ្យប្រាកដថាប្រព័ន្ធវ៉ាយហ្វាយ - ផ្ទាល់ត្រូវបានបើកនៅលើឧបករណ៍របស់មិត្តអ្នកហើយវាស្ថិតនៅក្នុងជួរ។",
+    "continue": "បន្ត"
+  },
+  "connectToDevice": { "connect": "ភ្ជាប់ទៅឧបករណ៍មួយ" },
+  "pairing": {
+    "connect": "ភ្ជាប់ទៅឧបករណ៍មួយ",
+    "pairing": "ដាក់គូ",
+    "success": "បានភ្ជាប់ដោយជោគជ័យ",
+    "failed": "ការភ្ជាប់ឧបករណ៍បានបរាជ័យ",
+    "makeSure": "សូមប្រាកដថា (វ៉ាយហ្វាយ - ផ្ទាល់) ត្រូវបានបើកនៅលើឧបករណ៍របស់មិត្តអ្នកហើយវាស្ថិតនៅក្នុងជួរ។",
+    "continue": "បន្ត",
+    "tryAgain": "ព្យាយាម​ម្តង​ទៀត"
+  },
+  "selectNetworkType": {
+    "connect": "ភ្ជាប់ទៅឧបករណ៍",
+    "share": "ចែករំលែកជាមួយវ៉ាយហ្វាយផ្ទាល់",
+    "send": "ផ្ញើឯកសារតាមវ៉ាយហ្វាយផ្ទាល់?",
+    "continue": "បន្ត"
+  }
+}

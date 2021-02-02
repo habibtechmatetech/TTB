@@ -1,0 +1,405 @@
+{
+  "selectLanguage": {
+    "heading": "Piliin ang iyong kasalukuyang wika",
+    "mainAction": "Piliin ang Wika"
+  },
+  "menu": {
+    "anonymousTitle": "Ang iyong akawnt",
+    "anonymousAction": "Mag log in",
+    "editProfileAction": "Ibahin ang profile",
+    "verifyProfileAction": "Patunayan ang profile",
+    "bibleSection": "Bibliya",
+    "teachingsSection": "Mga Aral",
+    "librarySection": "Aking Library",
+    "groupsSection": "Mga Grupo",
+    "donateSection": "Magbigay",
+    "settingsSection": "Mga setting",
+    "signOut": "Mag-sign Out",
+    "modals": {
+      "verifyProfile": {
+        "title": "Hindi ka nai-verify",
+        "message": "Ang iyong mga listahan ay hindi mai-sync at hindi ka makakalikha ng mga pangkat. Mangyaring suriin ang iyong email upang makumpleto ang pagpaparehistro.",
+        "firstButton": "Magpatuloy",
+        "secondButton": "Magrehistro ng isang bagong profile"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Mag-sign In",
+    "emailPlaceholder": "Ang email mo",
+    "passwordPlaceholder": "Ang iyong password",
+    "forgotAction": "Nakalimutan ang password?",
+    "callToAction": "Mag-sign in",
+    "signInAlternatives": "O Mag-sign In gamit ang",
+    "noAccountAction": "Walang account? Lumikha ng isa",
+    "notifications": {
+      "invalidCredentials": "Di-wastong mga kredensyal",
+      "inProgress": "Nagaganap na ang pag-sign in",
+      "notAvailable": "Hindi magagamit ang mga serbisyo sa pag-play"
+    }
+  },
+  "signUp": {
+    "header": "Lumikha ng Account",
+    "emailPlaceholder": "Ang email mo",
+    "passwordPlaceholder": "Ang iyong password",
+    "privateAction": "Gawing Pribado ang Account",
+    "termsDisclaimer": {
+      "pre": "Sa pamamagitan ng pag-click sa Pag-signup ipinapahiwatig mo na nabasa mo at sumasang-ayon ka",
+      "terms": "ang mga tuntunin",
+      "post": "."
+    },
+    "callToAction": "Mag-sign up",
+    "signUpAlternatives": "O Mag-sign Up gamit ang",
+    "haveAnAccountAction": "May isang account?",
+    "notifications": {
+      "invalidUsername": "Ang mga username ay limitado sa 20 mga alphanumeric character (mga numero at regular na mga titik)",
+      "invalidPassword": "Ang password ay dapat magkaroon ng hindi bababa sa 3 mga character at maging isang kumbinasyon ng mga pang-itaas at maliit na character na may hindi bababa sa isang numero o espesyal na character"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Hindi makalikha ng isang account",
+        "message": "Mayroon nang email address na ito.",
+        "firstButton": "Mag-sign In",
+        "secondButton": "Isara"
+      },
+      "privateAccount": {
+        "title": "Pribadong Account",
+        "message": "Sa pamamagitan ng gawing pribado ang iyong account, itinatago mo ito mula sa madiskubre ng iba.",
+        "firstButton": "Tanggapin",
+        "secondButton": "Tanggihan"
+      },
+      "success": {
+        "title": "Nakagawa na ng account!",
+        "message": "Ang iyong account ay matagumpay na nalikha. Suriin ang iyong inbox upang kumpirmahin ang iyong account at mag-sign in.",
+        "firstButton": "Mag-sign In"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "I-reset ang password",
+    "emailPlaceholder": "Ang email mo",
+    "message": "Mangyaring ipasok ang iyong email upang i-reset ang iyong password para sa iyong account.",
+    "callToAction": "I-reset ang password",
+    "notifications": {
+      "success": "Nagpadala lang kami ng isang email sa iyong inbox",
+      "emailNotFoundError": "Hindi nahanap ang email",
+      "invalidEmailError": "Di-wastong format ng email"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Tapusin ang Pag-set up",
+    "message": "Isang email ang naipadala sa email address na iyong ipinasok. Mangyaring tingnan ang mga detalye sa email upang makumpleto ang pagpaparehistro.",
+    "callToAction": "Laktawan sa ngayon"
+  },
+  "teachings": {
+    "dailyText": "Broadcast ngayon",
+    "journeyTitle": "Simulan ang Iyong Paglalakbay",
+    "journeySubtitle": "Lahat ng mga aral mula simula hanggang katapusan",
+    "journeyCardTitle": "215 Linggo na Paglalakbay Sa Pamamagitan ng Bibliya",
+    "journeyCardSubtitle": "Makinig sa iyong oras",
+    "tracksLabel": "Mga track"
+  },
+  "teaching": {
+    "header": "Mga Aral",
+    "loading": "Naglo-load ...",
+    "player": {
+      "audioSpeed": "Bilis ng Audio",
+      "loading": "Naglo-load",
+      "castingError": "Walang Magagamit na Mga Device"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Magpatuloy sa Pakikinig",
+        "secondButton": "Simulan ang iyong paglalakbay"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Sa pamamagitan ng petsa",
+    "bySeries": "Sa pamamagitan ng Serye",
+    "sections": { "tracksLabel": "Mga track" }
+  },
+  "library": {
+    "header": "Aking Library",
+    "tabs": {
+      "downloads": "Mga Pag-download",
+      "favorites": "Mga paborito",
+      "playlists": "Mga playlist"
+    }
+  },
+  "groups": {
+    "header": "Mga Grupo",
+    "createGroup": {
+      "title": "Lumikha ng Bagong Pangkat",
+      "groupNameLabel": "PANGALAN NG GRUPO",
+      "groupNameInputPlaceHolder": "Pangalan",
+      "descriptionLabel": "DESCRIPTION",
+      "descriptionInputPlaceHolder": "Lagyan ng deskripsyon",
+      "inviteLabel": "Mag-imbita ng Mga Gumagamit",
+      "inviteButton": "Mag-imbita ng Mga Bagong Gumagamit",
+      "button": "Gumawa ng grupo",
+      "invalidGroupName": "Maglagay ng wastong pangalan",
+      "groupNameTooLong": "Ang pangalan ng pangkat ay hindi dapat maglaman ng higit sa 25 mga character"
+    },
+    "devotionNotStartAlert": "Ang isang debosyon ay hindi nagsimula para sa pangkat na ito",
+    "membersLabel": "Mga myembro",
+    "chatModalMemberSubtitleLabel": "kasapi",
+    "chatModalMembersSubtitleLabel": "mga kasapi",
+    "chat": {
+      "listeningToLabel": "Nakikinig sa",
+      "loadingTrackLabel": "Nilo-load ang track ...",
+      "inputPlaceHolder": "Magsulat ng mensahe",
+      "deletePost": "Tanggalin ang I-post",
+      "deleteMessage": "tinanggal ang isang mensahe"
+    },
+    "groupSettings": {
+      "participantsSection": "Mga kalahok",
+      "viewAll": "Tingnan lahat",
+      "invite": "Mag-imbita ng Mga Bagong Gumagamit",
+      "endDevotion": "Tapusin ang Debosyong Grupo",
+      "deleteGroup": "Tanggalin ang Pangkat",
+      "leaveGroup": "Umalis sa grupo"
+    },
+    "userDirectory": {
+      "header": "Direktoryo ng Gumagamit",
+      "remove": "Tanggalin",
+      "anonymous": "Hindi nagpapakilala",
+      "send": "Ipadala"
+    },
+    "inviteUser": { "placeHolder": "Maghanap", "send": "Ipadala" }
+  },
+  "chat": {
+    "header": "Group Channel",
+    "settings": {
+      "header": "Mga setting ng pangkat",
+      "endDevotion": {
+        "alertTitle": "Tapusin ang Debosyon",
+        "alertMessage": "Sigurado ka bang nais mong wakasan ang debosyong ito?",
+        "alertCancel": "Kanselahin",
+        "alertConfirm": "Oo",
+        "endDevotionLabel": "natapos ang debosyong ito.",
+        "hasEnded": "Natapos na ang debosyong ito"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Simulan ang Debosyon",
+    "alertMessage": "Sigurado ka bang nais mong simulan ang debosyon sa% {pangalan} na pangkat?",
+    "alertCancel": "Kanselahin",
+    "alertConfirm": "Oo",
+    "devotionStartedLabel": "ay nagsimula ng isang debosyon."
+  },
+  "settings": {
+    "header": "Mga setting",
+    "tabs": { "profile": "Profile", "media": "Media", "notifications": "Mga Abiso" },
+    "profile": {
+      "account": "Account",
+      "username": "Username",
+      "email": "E-mail",
+      "editButton": "I-edit",
+      "edit": {
+        "save": "Magtipid",
+        "username": {
+          "header": "Username",
+          "successAlert": "Ang iyong pagbabago ay nai-save.",
+          "failedAlert": "Nabigong i-save ang pagbabago."
+        },
+        "email": {
+          "header": "Email",
+          "successAlert": "Ang iyong pagbabago ay nai-save.",
+          "failedAlert": "Nabigong i-save ang pagbabago."
+        }
+      },
+      "languages": "Mga Wika",
+      "signIn": "Mag-sign In",
+      "signOut": "Mag-sign Out sa Account",
+      "legal": "Ligal",
+      "termsConditions": "Mga Tuntunin at Kundisyon",
+      "privacyPolicy": "Patakaran sa Pagkapribado",
+      "support": "Suporta",
+      "reportAProblem": "Mag-ulat ng isang Suliranin",
+      "tutorial": "Pagtuturo",
+      "reportBug": {
+        "header": "Mag-ulat ng isang Suliranin",
+        "send": "Ipadala",
+        "subject": "PAKSA",
+        "subjectPlaceHolder": "Paksa",
+        "description": "DESCRIPTION",
+        "descriptionPlaceHolder": "Paglalarawan",
+        "successAlert": "Salamat, natanggap namin ang iyong mensahe.",
+        "failedAlert": "Nabigong maipadala ang mensahe."
+      },
+      "version": "Bersyon"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Autoplay Audio",
+      "storage": "Imbakan",
+      "downloadWifi": "Mag-download lamang sa Wi-fi",
+      "deleteCache": "Tanggalin ang Cache"
+    },
+    "notifications": {
+      "notifications": "Mga Abiso",
+      "groupInvitation": "Paanyaya sa Grupo",
+      "devotions": "Imbitahan sa Mga Debosyon",
+      "file": "Pagkumpirma ng Paglipat ng File"
+    }
+  },
+  "inviteUsers": { "header": "Mag-imbita ng Mga Gumagamit" },
+  "playlist": {
+    "header": "Playlist",
+    "audioFileLabel": "Audio File",
+    "audioFilesLabel": "Mga Audio File"
+  },
+  "collection": { "header": "Koleksyon", "audioFilesLabel": "Mga Audio File" },
+  "modal": {
+    "close": "malapit na",
+    "addToPlaylist": { "title": "Idagdag sa Playlist", "button": "Lumikha ng Playlist" },
+    "startDevotion": { "title": "Simulan ang Debosyon" },
+    "createPlaylist": {
+      "title": "Lumikha ng Bagong Playlist",
+      "button": "Lumikha ng Playlist",
+      "inputPlaceholder": "Ipasok ang Pangalan ng Playlist",
+      "success": "Idinagdag sa Playlist"
+    },
+    "login": "Kailangan mong mag-login upang makapagsimula ng isang debosyon"
+  },
+  "options": {
+    "shared": {
+      "share": "Magbahagi",
+      "report": "Iulat ang Nilalaman",
+      "shareOthers": "Ibahagi sa Iba",
+      "copy": "Kopyahin ang Link",
+      "more": "Dagdag pa"
+    },
+    "audio": {
+      "download": "Mag-download",
+      "addFavorite": "Idagdag sa mga Paborito",
+      "addPlaylist": "Idagdag sa Playlist",
+      "removeFavorite": "Alisin mula sa Mga Paborito",
+      "removePlaylist": "Alisin mula sa Playlist",
+      "removeDownload": "Alisin mula sa Mga Pag-download"
+    },
+    "playlist": { "edit": "I-edit", "delete": "Tanggalin ang Playlist" },
+    "startDevotion": "Simulan ang Debosyon"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Idinagdag sa Playlist",
+      "delete": "Inalis mula sa Playlist",
+      "create": "Nilikha ang Playlist",
+      "destroy": "Tinanggal ang Playlist"
+    },
+    "favorites": { "add": "Naidagdag sa Mga Paborito", "remove": "Inalis mula sa Mga Paborito" },
+    "downloads": { "remove": "Inalis mula sa Mga Pag-download" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Pag-shuffle" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Maghanap ..." },
+    "notification": { "success": "Tagumpay! Isang email ang ipapadala sa iyong account." },
+    "button": { "sending": "Nagpapadala ..." },
+    "modalSelector": { "cancel": "Kanselahin" },
+    "loading": "Naglo-load"
+  },
+  "bible": {
+    "header": "Bibliya",
+    "oldTestament": "Lumang Tipan",
+    "newTestament": "Bagong Tipan",
+    "popularBooks": "Mga sikat na libro"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Maghanap",
+    "cancelButton": "CANCEL",
+    "searchResults": "Mga Resulta ng Paghahanap",
+    "filterButton": "Salain",
+    "teachings": { "title": "Mga Aral" },
+    "bible": { "title": "Bibliya" }
+  },
+  "addToPlaylistsModal": { "title": "Idagdag sa Playlist", "button": "Lumikha ng Playlist" },
+  "createPlaylistModal": {
+    "title": "Lumikha ng Bagong Playlist",
+    "button": "Lumikha ng Playlist",
+    "inputPlaceholder": "Ipasok ang Pangalan ng Playlist"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Idinagdag sa Playlist",
+      "remove": "Inalis mula sa Playlist",
+      "create": "Nilikha ang Playlist",
+      "delete": "Tinanggal ang Playlist"
+    },
+    "favorites": { "add": "Naidagdag sa Mga Paborito", "remove": "Inalis mula sa Mga Paborito" },
+    "downloads": { "remove": "Inalis mula sa Mga Pag-download" },
+    "facebook": { "loginError": "Nabigo ang pag-login nang may error" },
+    "google": { "loginError": "Nabigo ang pag-login nang may error" }
+  },
+  "playlists": { "trackLabel": "Subaybayan", "tracksLabel": "Mga track" },
+  "mediaList": { "tracksLabel": "Mga track", "remove": "Tanggalin" },
+  "tutorialPage": { "done": "Tapos na", "skip": "Laktawan" },
+  "loginModal": { "login": "Mag log in" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Nagda-download", "complete": "Kumpleto na ang Pag-download" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Galugarin ang Bibliya",
+      "subtitle1": "Maglakbay sa buong Bibliya kasama namin, o magsimula ng sarili mong paglalakbay.",
+      "title2": "Makinig at Makisali",
+      "subtitle2": "Pinapayagan ka ng media player na sumisid sa THRU ng nilalaman sa BIBLIYA nang madali.",
+      "title3": "Tuklasin ang Mga Aral",
+      "subtitle3": "Sumali sa Bibliya tulad ng hindi pa dati sa pamamagitan ng cross-referencing ng nilalaman ng Bibliya at Pagtuturo.",
+      "title4": "Talakayin ang Bibliya",
+      "subtitle4": "Sumali sa isang pangkat upang pag-aralan ang THRU ng mga turo at paksa sa BIBLIYA sa iba.",
+      "title5": "Mag-download at Magbahagi",
+      "subtitle5": "Masiyahan sa pakikinig sa Salita ng Diyos nang on-the-go at ibahagi ito sa iyong mga kaibigan.",
+      "title6": "I-save at Lumikha",
+      "subtitle6": "I-save ang iyong mga paboritong aral at talata sa Bibliya o lumikha ng isang pasadyang playlist.",
+      "title7": "Mga Debosyon sa Grupo",
+      "subtitle7": "Hikayatin at inspirasyon ng iba na may pang-araw-araw na mga debosyonal sa pangkat."
+    },
+    "registerPage": {
+      "noThanks": "Salamat nalang",
+      "haveAccount": "May isang account?",
+      "createAccount": "Lumikha ng Aking Account",
+      "title1": "Talakayin sa Iba",
+      "subtitle1": "Talakayin ang iyong mga paboritong paksa at talata sa bibliya sa iba.",
+      "title2": "I-store at I-sync ang Mga Playlist",
+      "subtitle2": "Bumuo ng mga listahan ng iyong paboritong nilalaman sa isang lugar.",
+      "title3": "Tingnan ang Iyong Mga Paborito",
+      "subtitle3": "Mag-imbak at bumalik at bisitahin ang iyong mga paborito sa ibang pagkakataon.",
+      "title4": "Maligayang pagbabalik",
+      "subtitle4": "Lumikha ng isang account at makakuha ng access sa lahat ng aming mga tampok."
+    }
+  },
+  "app": {
+    "close": "malapit na",
+    "accept": "Tanggapin",
+    "reject": "Tanggihan",
+    "constructionInProgress": "KONSTRUKSYON SA PAG-unlad",
+    "downloadComplete": "Kumpleto na ang Pag-download",
+    "downloading": "Nagda-download",
+    "downloadFailed": "Nabigo ang Pag-download",
+    "sendAFile": "Mayroong Nais Na Magpadala sa Iyo ng Isang File"
+  },
+  "transferring": { "tryAgain": "subukang muli", "close": "malapit na" },
+  "checkDevice": {
+    "check": "Suriin ang Iyong Device",
+    "makeSure": "Mangyaring tiyaking naka-on ang Wifi-Direct sa aparato ng iyong kaibigan at nasa saklaw ito.",
+    "continue": "Magpatuloy"
+  },
+  "connectToDevice": { "connect": "Kumonekta sa isang Device" },
+  "pairing": {
+    "connect": "Kumonekta sa isang Device",
+    "pairing": "Pagpapares",
+    "success": "Matagumpay na ipinares",
+    "failed": "Nabigo ang Pagpares sa Device",
+    "makeSure": "Mangyaring tiyaking naka-on ang (Wifi-Direct) sa aparato ng iyong kaibigan at nasa saklaw ito.",
+    "continue": "Magpatuloy",
+    "tryAgain": "Subukang Muli"
+  },
+  "selectNetworkType": {
+    "connect": "Kumonekta sa isang aparato",
+    "share": "Ibahagi sa Wifi Direct",
+    "send": "Magpadala ng file nang direkta sa wifi?",
+    "continue": "Magpatuloy"
+  }
+}

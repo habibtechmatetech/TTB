@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "現在の言語を選択してください", "mainAction": "言語を選択する" },
+  "menu": {
+    "anonymousTitle": "貴方のアカウント",
+    "anonymousAction": "ログインする",
+    "editProfileAction": "プロファイル編集",
+    "verifyProfileAction": "プロファイルを確認する",
+    "bibleSection": "聖書",
+    "teachingsSection": "教え",
+    "librarySection": "私の図書館",
+    "groupsSection": "グループ",
+    "donateSection": "寄付",
+    "settingsSection": "設定",
+    "signOut": "サインアウト",
+    "modals": {
+      "verifyProfile": {
+        "title": "確認されていません",
+        "message": "リストは同期されず、グループを作成できません。 登録を完了するには、メールを確認してください。",
+        "firstButton": "継続する",
+        "secondButton": "新しいプロファイルを登録する"
+      }
+    }
+  },
+  "signIn": {
+    "header": "サインイン",
+    "emailPlaceholder": "あなたのメール",
+    "passwordPlaceholder": "あなたのパスワード",
+    "forgotAction": "パスワードをお忘れですか？",
+    "callToAction": "サインイン",
+    "signInAlternatives": "またはサインインして",
+    "noAccountAction": "アカウントがありませんか？ 一つ作る",
+    "notifications": {
+      "invalidCredentials": "無効な資格情報",
+      "inProgress": "すでにログインしています",
+      "notAvailable": "Play開発者サービスは利用できません"
+    }
+  },
+  "signUp": {
+    "header": "アカウントを作成する",
+    "emailPlaceholder": "あなたのメール",
+    "passwordPlaceholder": "あなたのパスワード",
+    "privateAction": "アカウントを非公開にする",
+    "termsDisclaimer": {
+      "pre": "[サインアップ]をクリックすると、読んで同意したことになります",
+      "terms": "用語",
+      "post": "。"
+    },
+    "callToAction": "サインアップ",
+    "signUpAlternatives": "またはを使用してサインアップ",
+    "haveAnAccountAction": "アカウントを持っています？",
+    "notifications": {
+      "invalidUsername": "ユーザー名は20文字の英数字（数字と通常の文字）に制限されています",
+      "invalidPassword": "パスワードは3文字以上で、大文字と小文字、および1つ以上の数字または特殊文字の組み合わせである必要があります。"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "アカウントを作成できません",
+        "message": "このメールアドレスはすでに存在します。",
+        "firstButton": "サインイン",
+        "secondButton": "閉じる"
+      },
+      "privateAccount": {
+        "title": "プライベートアカウント",
+        "message": "アカウントを非公開にすると、他の人に発見されるのを防ぐことができます。",
+        "firstButton": "受け入れる",
+        "secondButton": "低下"
+      },
+      "success": {
+        "title": "アカウントが作成されました！",
+        "message": "アカウントが正常に作成されました。 受信トレイをチェックしてアカウントを確認し、サインインします。",
+        "firstButton": "サインイン"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "パスワードを再設定する",
+    "emailPlaceholder": "あなたのメール",
+    "message": "アカウントのパスワードをリセットするには、メールアドレスを入力してください。",
+    "callToAction": "パスワードを再設定する",
+    "notifications": {
+      "success": "受信トレイにメールを送信しました",
+      "emailNotFoundError": "メールが見つかりませんでした",
+      "invalidEmailError": "無効なメール形式"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "セットアップを終了します",
+    "message": "入力したメールアドレスにメールが送信されました。 登録を完了するには、メールの詳細をご覧ください。",
+    "callToAction": "今はスキップ"
+  },
+  "teachings": {
+    "dailyText": "今日の放送",
+    "journeyTitle": "あなたの旅を始めましょう",
+    "journeySubtitle": "最初から最後までのすべての教え",
+    "journeyCardTitle": "聖書を巡る215週間の旅",
+    "journeyCardSubtitle": "あなたの時間を聞いてください",
+    "tracksLabel": "トラック"
+  },
+  "teaching": {
+    "header": "教え",
+    "loading": "読み込んでいます...",
+    "player": {
+      "audioSpeed": "オーディオ速度",
+      "loading": "読み込み中",
+      "castingError": "利用可能なデバイスがありません"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "聞き続ける", "secondButton": "あなたの旅を始めましょう" }
+    }
+  },
+  "journey": {
+    "byDate": "日付別",
+    "bySeries": "シリーズ別",
+    "sections": { "tracksLabel": "トラック" }
+  },
+  "library": {
+    "header": "私の図書館",
+    "tabs": { "downloads": "ダウンロード", "favorites": "お気に入り", "playlists": "プレイリスト" }
+  },
+  "groups": {
+    "header": "グループ",
+    "createGroup": {
+      "title": "新しいグループを作成する",
+      "groupNameLabel": "グループ名",
+      "groupNameInputPlaceHolder": "名前",
+      "descriptionLabel": "説明",
+      "descriptionInputPlaceHolder": "説明を追加",
+      "inviteLabel": "ユーザーを招待する",
+      "inviteButton": "新規ユーザーを招待する",
+      "button": "グループを作成します",
+      "invalidGroupName": "有効な名前を入力してください",
+      "groupNameTooLong": "グループの名前には25文字を超えてはなりません"
+    },
+    "devotionNotStartAlert": "このグループへの献身は始まっていません",
+    "membersLabel": "会員",
+    "chatModalMemberSubtitleLabel": "メンバー",
+    "chatModalMembersSubtitleLabel": "メンバー",
+    "chat": {
+      "listeningToLabel": "を聞いて",
+      "loadingTrackLabel": "トラックを読み込んでいます...",
+      "inputPlaceHolder": "メッセージを書く",
+      "deletePost": "投稿を削除",
+      "deleteMessage": "メッセージを削除しました"
+    },
+    "groupSettings": {
+      "participantsSection": "参加者",
+      "viewAll": "すべて表示",
+      "invite": "新規ユーザーを招待する",
+      "endDevotion": "グループの献身を終わらせる",
+      "deleteGroup": "グループを削除",
+      "leaveGroup": "グループを離れる"
+    },
+    "userDirectory": {
+      "header": "ユーザーディレクトリ",
+      "remove": "削除する",
+      "anonymous": "匿名の",
+      "send": "送信"
+    },
+    "inviteUser": { "placeHolder": "探す", "send": "送信" }
+  },
+  "chat": {
+    "header": "グループチャンネル",
+    "settings": {
+      "header": "グループ設定",
+      "endDevotion": {
+        "alertTitle": "献身を終わらせる",
+        "alertMessage": "この献身を終了してもよろしいですか？",
+        "alertCancel": "キャンセル",
+        "alertConfirm": "はい",
+        "endDevotionLabel": "この献身を終えた。",
+        "hasEnded": "この献身は終了しました"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "献身を始める",
+    "alertMessage": "％{name}グループで献身を開始してもよろしいですか？",
+    "alertCancel": "キャンセル",
+    "alertConfirm": "はい",
+    "devotionStartedLabel": "献身を始めました。"
+  },
+  "settings": {
+    "header": "設定",
+    "tabs": { "profile": "プロフィール", "media": "メディア", "notifications": "通知" },
+    "profile": {
+      "account": "アカウント",
+      "username": "ユーザー名",
+      "email": "Eメール",
+      "editButton": "編集",
+      "edit": {
+        "save": "保存する",
+        "username": {
+          "header": "ユーザー名",
+          "successAlert": "変更が保存されました。",
+          "failedAlert": "変更の保存に失敗しました。"
+        },
+        "email": {
+          "header": "Eメール",
+          "successAlert": "変更が保存されました。",
+          "failedAlert": "変更の保存に失敗しました。"
+        }
+      },
+      "languages": "言語",
+      "signIn": "サインイン",
+      "signOut": "アカウントからサインアウト",
+      "legal": "法的",
+      "termsConditions": "利用規約",
+      "privacyPolicy": "個人情報保護方針",
+      "support": "サポート",
+      "reportAProblem": "問題を報告します",
+      "tutorial": "チュートリアル",
+      "reportBug": {
+        "header": "問題を報告します",
+        "send": "送信",
+        "subject": "件名",
+        "subjectPlaceHolder": "件名",
+        "description": "説明",
+        "descriptionPlaceHolder": "説明",
+        "successAlert": "ありがとうございます。メッセージを受け取りました。",
+        "failedAlert": "メッセージの送信に失敗しました。"
+      },
+      "version": "バージョン"
+    },
+    "media": {
+      "audio": "オーディオ",
+      "autoplay": "オーディオの自動再生",
+      "storage": "ストレージ",
+      "downloadWifi": "Wi-fiでのみダウンロード",
+      "deleteCache": "キャッシュを削除する"
+    },
+    "notifications": {
+      "notifications": "通知",
+      "groupInvitation": "グループ招待",
+      "devotions": "献身への招待",
+      "file": "ファイル転送の確認"
+    }
+  },
+  "inviteUsers": { "header": "ユーザーを招待する" },
+  "playlist": {
+    "header": "プレイリスト",
+    "audioFileLabel": "音声ファイル",
+    "audioFilesLabel": "音声ファイル"
+  },
+  "collection": { "header": "コレクション", "audioFilesLabel": "音声ファイル" },
+  "modal": {
+    "close": "閉じる",
+    "addToPlaylist": { "title": "プレイリストに追加する", "button": "プレイリストを作成する" },
+    "startDevotion": { "title": "献身を始める" },
+    "createPlaylist": {
+      "title": "新しいプレイリストを作成",
+      "button": "プレイリストを作成する",
+      "inputPlaceholder": "プレイリスト名を入力してください",
+      "success": "プレイリストに追加"
+    },
+    "login": "献身を開始するにはログインする必要があります"
+  },
+  "options": {
+    "shared": {
+      "share": "シェア",
+      "report": "報告内容",
+      "shareOthers": "他の人と共有する",
+      "copy": "リンクをコピーする",
+      "more": "もっと"
+    },
+    "audio": {
+      "download": "ダウンロード",
+      "addFavorite": "お気に入りに追加",
+      "addPlaylist": "プレイリストに追加する",
+      "removeFavorite": "お気に入りから削除",
+      "removePlaylist": "プレイリストから削除",
+      "removeDownload": "ダウンロードから削除"
+    },
+    "playlist": { "edit": "編集", "delete": "プレイリストを削除する" },
+    "startDevotion": "献身を始める"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "プレイリストに追加",
+      "delete": "プレイリストから削除しました",
+      "create": "作成したプレイリスト",
+      "destroy": "削除されたプレイリスト"
+    },
+    "favorites": { "add": "お気に入りに追加", "remove": "お気に入りから削除" },
+    "downloads": { "remove": "ダウンロードから削除" }
+  },
+  "buttons": { "loop": "ループ", "shuffle": "シャッフル" },
+  "uiControls": {
+    "searchBox": { "placeholder": "探す..." },
+    "notification": { "success": "成功！ メールがアカウントに送信されます。" },
+    "button": { "sending": "送信..." },
+    "modalSelector": { "cancel": "キャンセル" },
+    "loading": "読み込み中"
+  },
+  "bible": {
+    "header": "聖書",
+    "oldTestament": "旧約聖書",
+    "newTestament": "新約",
+    "popularBooks": "人気の本"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "探す",
+    "cancelButton": "キャンセル",
+    "searchResults": "の検索結果",
+    "filterButton": "フィルタ",
+    "teachings": { "title": "教え" },
+    "bible": { "title": "聖書" }
+  },
+  "addToPlaylistsModal": { "title": "プレイリストに追加する", "button": "プレイリストを作成する" },
+  "createPlaylistModal": {
+    "title": "新しいプレイリストを作成",
+    "button": "プレイリストを作成する",
+    "inputPlaceholder": "プレイリスト名を入力してください"
+  },
+  "alert": {
+    "playlists": {
+      "add": "プレイリストに追加",
+      "remove": "プレイリストから削除しました",
+      "create": "作成したプレイリスト",
+      "delete": "削除されたプレイリスト"
+    },
+    "favorites": { "add": "お気に入りに追加", "remove": "お気に入りから削除" },
+    "downloads": { "remove": "ダウンロードから削除" },
+    "facebook": { "loginError": "エラーでログインが失敗する" },
+    "google": { "loginError": "エラーでログインが失敗する" }
+  },
+  "playlists": { "trackLabel": "追跡", "tracksLabel": "トラック" },
+  "mediaList": { "tracksLabel": "トラック", "remove": "削除する" },
+  "tutorialPage": { "done": "完了", "skip": "スキップ" },
+  "loginModal": { "login": "ログインする" },
+  "shareModal": { "facebook": "フェイスブック", "twitter": "ツイッター", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "ダウンロード", "complete": "ダウンロード完了" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "聖書を探る",
+      "subtitle1": "私たちと一緒に聖書全体を旅するか、あなた自身の旅を始めてください。",
+      "title2": "リッスン＆エンゲージ",
+      "subtitle2": "メディアプレーヤーを使用すると、聖書のコンテンツを簡単に調べることができます。",
+      "title3": "教えを発見する",
+      "subtitle3": "聖書と教えの内容を相互参照することにより、これまでにない方法で聖書に取り組みます。",
+      "title4": "聖書について話し合う",
+      "subtitle4": "グループに参加して、他の人たちと一緒に聖書の教えやトピックを学びましょう。",
+      "title5": "ダウンロード＆シェア",
+      "subtitle5": "外出先で神の言葉を聞いて楽しみ、それを友達と共有してください。",
+      "title6": "保存して作成",
+      "subtitle6": "お気に入りの教えや聖書の一節を保存するか、カスタムプレイリストを作成します。",
+      "title7": "グループの献身",
+      "subtitle7": "毎日グループで祈りを捧げる人々に励まされ、刺激を受けてください。"
+    },
+    "registerPage": {
+      "noThanks": "結構です",
+      "haveAccount": "アカウントを持っています？",
+      "createAccount": "アカウントを作る",
+      "title1": "他の人と話し合う",
+      "subtitle1": "お気に入りのトピックや聖書の一節について他の人と話し合ってください。",
+      "title2": "プレイリストの保存と同期",
+      "subtitle2": "お気に入りのコンテンツのリストを1か所で作成します。",
+      "title3": "お気に入りを見る",
+      "subtitle3": "保存して戻ってきて、後でお気に入りにアクセスしてください。",
+      "title4": "お帰りなさい",
+      "subtitle4": "アカウントを作成して、すべての機能にアクセスしてください。"
+    }
+  },
+  "app": {
+    "close": "閉じる",
+    "accept": "受け入れる",
+    "reject": "拒否する",
+    "constructionInProgress": "建設仮勘定",
+    "downloadComplete": "ダウンロード完了",
+    "downloading": "ダウンロード",
+    "downloadFailed": "ダウンロードに失敗しました",
+    "sendAFile": "誰かがあなたにファイルを送りたい"
+  },
+  "transferring": { "tryAgain": "再試行", "close": "閉じる" },
+  "checkDevice": {
+    "check": "デバイスを確認してください",
+    "makeSure": "友達のデバイスでWifi-Directがオンになっていて、範囲内にあることを確認してください。",
+    "continue": "継続する"
+  },
+  "connectToDevice": { "connect": "デバイスに接続する" },
+  "pairing": {
+    "connect": "デバイスに接続する",
+    "pairing": "ペアリング",
+    "success": "正常にペアリングされました",
+    "failed": "デバイスのペアリングに失敗しました",
+    "makeSure": "友達のデバイスで（Wifi-Direct）がオンになっていて、範囲内にあることを確認してください。",
+    "continue": "継続する",
+    "tryAgain": "再試行"
+  },
+  "selectNetworkType": {
+    "connect": "デバイスに接続する",
+    "share": "Wifi Directで共有",
+    "send": "Wi-Fiダイレクトでファイルを送信しますか？",
+    "continue": "継続する"
+  }
+}

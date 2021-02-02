@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "خپله روانه ژبه وټاکئ", "mainAction": "ژبه غوره کړئ" },
+  "menu": {
+    "anonymousTitle": "ستاسو حساب",
+    "anonymousAction": "د ننه کیدل",
+    "editProfileAction": "پېژندڅېره",
+    "verifyProfileAction": "پروفایل تایید کړئ",
+    "bibleSection": "بائبل",
+    "teachingsSection": "ښوونه",
+    "librarySection": "زما کتابتون",
+    "groupsSection": "ډلې",
+    "donateSection": "مرسته وکړئ",
+    "settingsSection": "امستنې",
+    "signOut": "وتون",
+    "modals": {
+      "verifyProfile": {
+        "title": "تاسو تصدیق شوی ندی",
+        "message": "ستاسو لیست به ترکیب نشي او تاسو نشئ کولی ډلې جوړې کړئ. مهرباني وکړئ د راجسټریشن بشپړولو لپاره خپل بریښنالیک وګورئ.",
+        "firstButton": "دوام ورکړئ",
+        "secondButton": "نوی پروفایل ثبت کړئ"
+      }
+    }
+  },
+  "signIn": {
+    "header": "ننوزئ",
+    "emailPlaceholder": "ستا برېښنالیک",
+    "passwordPlaceholder": "ستاسو رمز",
+    "forgotAction": "خپل پټ نوم درڅخه هیر دی؟",
+    "callToAction": "ننوزئ",
+    "signInAlternatives": "یا په کارولو سره ننوتل",
+    "noAccountAction": "حساب نشته؟ یو یې جوړ کړئ",
+    "notifications": {
+      "invalidCredentials": "ناباوره سندونه",
+      "inProgress": "ننوتل لا دمخه په پرمختګ کې دي",
+      "notAvailable": "د پلی خدمتونه شتون نلري"
+    }
+  },
+  "signUp": {
+    "header": "ګڼون جوړول",
+    "emailPlaceholder": "ستا برېښنالیک",
+    "passwordPlaceholder": "ستاسو رمز",
+    "privateAction": "ګ Privateون خصوصي کړئ",
+    "termsDisclaimer": {
+      "pre": "د لاسلیک په کلیک کولو سره تاسو په ګوته کوي چې تاسو لوستل او ورسره موافق یاست",
+      "terms": "شرطونه",
+      "post": "."
+    },
+    "callToAction": "ګډون کول",
+    "signUpAlternatives": "یا په کارولو سره لاسلیک وکړئ",
+    "haveAnAccountAction": "اکاونټ لری؟",
+    "notifications": {
+      "invalidUsername": "کارونکي نومونه په 20 حرفي شمیرو (شمیرونو او منظمو لیکونو) پورې محدود دي",
+      "invalidPassword": "رمز باید لږترلږه 3 حروف ولري او د لږترلږه یوه شمیره یا ځانګړي کرکټر سره د پورتنۍ او ټیټې قضیې ترکیب ولري"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "د ګ createون په جوړولو توان نلري",
+        "message": "دا بریښنالیک آدرس دمخه شتون لري.",
+        "firstButton": "ننوزئ",
+        "secondButton": "بندول"
+      },
+      "privateAccount": {
+        "title": "شخصي ګ .ون",
+        "message": "ستاسو حساب خصوصي کولو سره ، تاسو دا د نورو لخوا کشف کولو څخه پټ کوئ.",
+        "firstButton": "ومنه",
+        "secondButton": "ردول"
+      },
+      "success": {
+        "title": "ګ Accountون جوړ شو!",
+        "message": "ستاسو حساب په بریالیتوب سره جوړ شو د خپل حساب تصدیق کولو او ننوتلو لپاره خپل انباکس وګورئ.",
+        "firstButton": "ننوزئ"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "شفر بیا جوړ کړئ",
+    "emailPlaceholder": "ستا برېښنالیک",
+    "message": "مهرباني وکړئ خپل بریښنالیک د خپل حساب لپاره خپل رمز بیا تنظیم کړئ.",
+    "callToAction": "شفر بیا جوړ کړئ",
+    "notifications": {
+      "success": "موږ یوازې ستاسو ان باکس ته بریښنالیک استولی دی",
+      "emailNotFoundError": "بریښنالیک ونه موندل شو",
+      "invalidEmailError": "د بریښنالیک ناباوره ب .ه"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "بشپړول",
+    "message": "تاسو داخل شوي بریښنالیک ته بریښنالیک لیږل شوی. مهرباني وکړئ د راجسټریشن بشپړولو لپاره د بریښنالیک توضیحات وګورئ.",
+    "callToAction": "اوس ته لاړشئ"
+  },
+  "teachings": {
+    "dailyText": "د نن ورځې خپرونه",
+    "journeyTitle": "خپل سفر پیل کړئ",
+    "journeySubtitle": "له پیل څخه تر پای پورې ټولې ښوونې",
+    "journeyCardTitle": "د انجیل له لارې 215 اونۍ سفر",
+    "journeyCardSubtitle": "خپل وخت ته غوږ شه",
+    "tracksLabel": "ټرېکونه"
+  },
+  "teaching": {
+    "header": "ښوونه",
+    "loading": "بارول",
+    "player": {
+      "audioSpeed": "د آډیو سرعت",
+      "loading": "بارول",
+      "castingError": "وسیلې شتون نلري"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "اوریدو ته ادامه ورکړه", "secondButton": "خپل سفر پیل کړئ" }
+    }
+  },
+  "journey": {
+    "byDate": "په نیټه",
+    "bySeries": "د لړۍ لخوا",
+    "sections": { "tracksLabel": "ټرېکونه" }
+  },
+  "library": {
+    "header": "زما کتابتون",
+    "tabs": { "downloads": "کښته کوونې", "favorites": "خوښې", "playlists": "لیست لیستونه" }
+  },
+  "groups": {
+    "header": "ډلې",
+    "createGroup": {
+      "title": "نوې ډله جوړه کړئ",
+      "groupNameLabel": "ګروپ نوم",
+      "groupNameInputPlaceHolder": "نوم",
+      "descriptionLabel": "تشریح",
+      "descriptionInputPlaceHolder": "سپړنه اضافه کړئ",
+      "inviteLabel": "کارنان راوبلئ",
+      "inviteButton": "نوي کارونکي راوبلئ",
+      "button": "ډله جوړه کړئ",
+      "invalidGroupName": "یو معتبر نوم دننه کړئ",
+      "groupNameTooLong": "د ګروپ نوم باید له 25 حروف زیات نه وي"
+    },
+    "devotionNotStartAlert": "دې ډلې لپاره عقیدت نه دی پیل شوی",
+    "membersLabel": "غړي",
+    "chatModalMemberSubtitleLabel": "غړی",
+    "chatModalMembersSubtitleLabel": "غړي",
+    "chat": {
+      "listeningToLabel": "ته غوږ نیول",
+      "loadingTrackLabel": "ټریک لوستل کیږي ...",
+      "inputPlaceHolder": "پیغام ولیکئ",
+      "deletePost": "پوسټ ړنګ کړئ",
+      "deleteMessage": "یو پیغام ړنګ کړی"
+    },
+    "groupSettings": {
+      "participantsSection": "برخه اخیستونکي",
+      "viewAll": "ټول وګوری",
+      "invite": "نوي کارونکي راوبلئ",
+      "endDevotion": "د ګروپ بندول",
+      "deleteGroup": "ډله ړنګ کړئ",
+      "leaveGroup": "ګروپ پریږدئ"
+    },
+    "userDirectory": {
+      "header": "کارن نوملړ",
+      "remove": "لرې کړئ",
+      "anonymous": "بې نومه",
+      "send": "ولېږئ"
+    },
+    "inviteUser": { "placeHolder": "لټون", "send": "ولېږئ" }
+  },
+  "chat": {
+    "header": "ډلې چینل",
+    "settings": {
+      "header": "ډلې تنظیمات",
+      "endDevotion": {
+        "alertTitle": "ختمول",
+        "alertMessage": "ایا تاسو واقعیا غواړئ چې دا عقیدت پای ته ورسوئ؟",
+        "alertCancel": "لغوه کول",
+        "alertConfirm": "هو",
+        "endDevotionLabel": "دې عقیدت پای ته ورساوه.",
+        "hasEnded": "دا عقیدت پای ته رسیدلی"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "وقف پیل کړئ",
+    "alertMessage": "ایا تاسو باوري یاست چې د٪ {نوم} ډلې سره خپله عقیده پیل کوئ؟",
+    "alertCancel": "لغوه کول",
+    "alertConfirm": "هو",
+    "devotionStartedLabel": "عقیدت یې پیل کړی دی."
+  },
+  "settings": {
+    "header": "امستنې",
+    "tabs": { "profile": "پروفایل", "media": "رسنۍ", "notifications": "خبرتیاوې" },
+    "profile": {
+      "account": "ګ .ون",
+      "username": "کارن نوم",
+      "email": "بریښنالیک",
+      "editButton": "سمول",
+      "edit": {
+        "save": "خوندي کړئ",
+        "username": {
+          "header": "کارن نوم",
+          "successAlert": "ستاسو بدلون خوندي شو",
+          "failedAlert": "د بدلون خوندي کولو کې ناکام شو."
+        },
+        "email": {
+          "header": "بریښنالیک",
+          "successAlert": "ستاسو بدلون خوندي شو",
+          "failedAlert": "د بدلون خوندي کولو کې ناکام شو."
+        }
+      },
+      "languages": "ژبې",
+      "signIn": "ننوزئ",
+      "signOut": "ګ Accountون څخه لاسلیک کول",
+      "legal": "قانوني",
+      "termsConditions": "شرایط او مقررات",
+      "privacyPolicy": "د پټتیا تګلاره",
+      "support": "ملاتړ",
+      "reportAProblem": "ستونزه راپور کړئ",
+      "tutorial": "ښوونه",
+      "reportBug": {
+        "header": "ستونزه راپور کړئ",
+        "send": "ولېږئ",
+        "subject": "موضوع",
+        "subjectPlaceHolder": "موضوع",
+        "description": "تشریح",
+        "descriptionPlaceHolder": "توضيح",
+        "successAlert": "مننه ، موږ ستاسو پیغام ترلاسه کړ.",
+        "failedAlert": "د پیغام په لیږلو کې پاتې راغی"
+      },
+      "version": "نسخه"
+    },
+    "media": {
+      "audio": "آډیو",
+      "autoplay": "اوتپلی آډیو",
+      "storage": "زېرمه",
+      "downloadWifi": "یوازې په وائی فای کې ډاونلوډ کړئ",
+      "deleteCache": "کیچ ړنګ کړئ"
+    },
+    "notifications": {
+      "notifications": "خبرتیاوې",
+      "groupInvitation": "ډله بلنه",
+      "devotions": "عبادتونو ته بلنه ورکړئ",
+      "file": "د فایل لیږد تایید"
+    }
+  },
+  "inviteUsers": { "header": "کارنان راوبلئ" },
+  "playlist": {
+    "header": "غږیز لیست",
+    "audioFileLabel": "آډیو فایل",
+    "audioFilesLabel": "آډیو فایلونه"
+  },
+  "collection": { "header": "ټولګه", "audioFilesLabel": "آډیو فایلونه" },
+  "modal": {
+    "close": "نږدې",
+    "addToPlaylist": { "title": "په لیست لیست کې اضافه کړئ", "button": "پلی لیست جوړ کړئ" },
+    "startDevotion": { "title": "وقف پیل کړئ" },
+    "createPlaylist": {
+      "title": "نوی غږیز لیست جوړ کړئ",
+      "button": "پلی لیست جوړ کړئ",
+      "inputPlaceholder": "د پلی لیست نوم دننه کړئ",
+      "success": "په لیست لیست کې اضافه شوی"
+    },
+    "login": "تاسو اړتیا لرئ د وقف کولو پیل لپاره لاګ ان شئ"
+  },
+  "options": {
+    "shared": {
+      "share": "شریک کړئ",
+      "report": "منځپانګې راپور کړئ",
+      "shareOthers": "له نورو سره یې شریک کړئ",
+      "copy": "لینک کاپي کړئ",
+      "more": "نور"
+    },
+    "audio": {
+      "download": "ډاونلوډ",
+      "addFavorite": "په خوښیو کې اضافه کړئ",
+      "addPlaylist": "په لیست لیست کې اضافه کړئ",
+      "removeFavorite": "د خوښې څخه لرې کړئ",
+      "removePlaylist": "له پلی لیست څخه لرې کړئ",
+      "removeDownload": "د ډاونلوډونو څخه لرې کړئ"
+    },
+    "playlist": { "edit": "سمول", "delete": "پلی لیست ړنګ کړئ" },
+    "startDevotion": "وقف پیل کړئ"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "په لیست لیست کې اضافه شوی",
+      "delete": "له پلی لیست څخه حذف شوی",
+      "create": "جوړ شوی لیست",
+      "destroy": "ړنګ شوی لیست"
+    },
+    "favorites": { "add": "په خوښیو کې اضافه شوي", "remove": "د خوښیو څخه لرې شوی" },
+    "downloads": { "remove": "د ډاونلوډونو څخه لرې شوی" }
+  },
+  "buttons": { "loop": "لوپ", "shuffle": "ډډ کول" },
+  "uiControls": {
+    "searchBox": { "placeholder": "لټون ..." },
+    "notification": { "success": "بریا! ستاسو حساب ته به یو بریښنالیک واستول شي." },
+    "button": { "sending": "لیږل ..." },
+    "modalSelector": { "cancel": "لغوه کول" },
+    "loading": "بارول"
+  },
+  "bible": {
+    "header": "بائبل",
+    "oldTestament": "زوړ عهد نامی",
+    "newTestament": "نوی عهد نامی",
+    "popularBooks": "مشهور کتابونه"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "لټون",
+    "cancelButton": "کینسل",
+    "searchResults": "د لټون پایلې",
+    "filterButton": "چا.",
+    "teachings": { "title": "ښوونه" },
+    "bible": { "title": "بائبل" }
+  },
+  "addToPlaylistsModal": { "title": "په لیست لیست کې اضافه کړئ", "button": "پلی لیست جوړ کړئ" },
+  "createPlaylistModal": {
+    "title": "نوی غږیز لیست جوړ کړئ",
+    "button": "پلی لیست جوړ کړئ",
+    "inputPlaceholder": "د پلی لیست نوم دننه کړئ"
+  },
+  "alert": {
+    "playlists": {
+      "add": "په لیست لیست کې اضافه شوی",
+      "remove": "له پلی لیست څخه حذف شوی",
+      "create": "جوړ شوی لیست",
+      "delete": "ړنګ شوی لیست"
+    },
+    "favorites": { "add": "په خوښیو کې اضافه شوي", "remove": "د خوښیو څخه لرې شوی" },
+    "downloads": { "remove": "د ډاونلوډونو څخه لرې شوی" },
+    "facebook": { "loginError": "ننوتل په غلطۍ سره ناکام شول" },
+    "google": { "loginError": "ننوتل په غلطۍ سره ناکام شول" }
+  },
+  "playlists": { "trackLabel": "تعقیب کړئ", "tracksLabel": "ټرېکونه" },
+  "mediaList": { "tracksLabel": "ټرېکونه", "remove": "لرې کړئ" },
+  "tutorialPage": { "done": "وشو", "skip": "پرېښودل" },
+  "loginModal": { "login": "د ننه کیدل" },
+  "shareModal": { "facebook": "فېسبوک", "twitter": "ټویټر", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "کښته کول", "complete": "ډاونلوډ بشپړ" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "انجیل وپلټئ",
+      "subtitle1": "له موږ سره د ټولې انجیل له لارې سفر وکړئ ، یا خپل سفر پیل کړئ.",
+      "title2": "واورئ او ښکیل اوسئ",
+      "subtitle2": "د میډیا پلیر تاسو ته اجازه درکوي په اسانۍ سره د ببل مینځپانګې THRU کې غوړ کړئ.",
+      "title3": "درسونه کشف کړئ",
+      "subtitle3": "په بائبل کې ښکیل شئ لکه مخکې هیڅکله د انجیل او درسي مینځپانګې کراس ریفرسنس کولو سره.",
+      "title4": "په بائبل بحث وکړئ",
+      "subtitle4": "له ډلې سره د THRU د انجیل درسونه او موضوعات مطالعه کړئ.",
+      "title5": "ډاونلوډ او شریک کړئ",
+      "subtitle5": "د تګ پرمهال د خدای کلام اوریدو څخه خوند واخلئ او خپلو ملګرو سره یې شریک کړئ.",
+      "title6": "خوندي کول & جوړول",
+      "subtitle6": "خپل غوره لارښوونې او د بائبل آیتونه خوندي کړئ یا دودیز لیست جوړ کړئ.",
+      "title7": "ډله ډیوالی",
+      "subtitle7": "د ورځني ګروپ عبادتونو سره د نورو لخوا هڅول او هڅول اوسئ."
+    },
+    "registerPage": {
+      "noThanks": "نه مننه",
+      "haveAccount": "اکاونټ لری؟",
+      "createAccount": "زما ګ Createون جوړ کړئ",
+      "title1": "له نورو سره بحث وکړئ",
+      "subtitle1": "خپل د خوښې وړ موضوعاتو او د انجیل آیتونه له نورو سره بحث وکړئ.",
+      "title2": "لیست لیستونه او ترکیب",
+      "subtitle2": "په یو ځای کې د خپلې خوښې مینځپانګې لیستونه جوړ کړئ.",
+      "title3": "خپلې خوښې وګورئ",
+      "subtitle3": "ذخیره کړئ او بیرته راشئ او په یو وخت کې خپل غوره توبونه وګورئ.",
+      "title4": "بیا پخیر راغلاست",
+      "subtitle4": "یو حساب جوړ کړئ او زموږ ټولو ب toو ته لاسرسی ومومئ."
+    }
+  },
+  "app": {
+    "close": "نږدې",
+    "accept": "ومنه",
+    "reject": "رد کړئ",
+    "constructionInProgress": "پرمختګ په بیارغونه",
+    "downloadComplete": "ډاونلوډ بشپړ",
+    "downloading": "کښته کول",
+    "downloadFailed": "کښته کول ناکام شول",
+    "sendAFile": "یو څوک غواړي چې تاسو ته فایل ولیږي"
+  },
+  "transferring": { "tryAgain": "بیا هڅه وکړه", "close": "نږدې" },
+  "checkDevice": {
+    "check": "خپل وسیله وګوره",
+    "makeSure": "مهرباني وکړئ ډاډ ترلاسه کړئ چې وائی فای - مستقیم ستاسو د ملګري وسیله آن شوې او دا په حد کې ده.",
+    "continue": "دوام ورکړئ"
+  },
+  "connectToDevice": { "connect": "یوه وسیله وصل کړئ" },
+  "pairing": {
+    "connect": "یوه وسیله وصل کړئ",
+    "pairing": "جوړه کول",
+    "success": "په بریالیتوب جوړه",
+    "failed": "د وسیلې جوړېدل ونشول",
+    "makeSure": "مهرباني وکړئ ډاډ ترلاسه کړئ (وائی فائی - مستقیم) ستاسو د ملګري وسیله آن شوی او دا په حد کې دی.",
+    "continue": "دوام ورکړئ",
+    "tryAgain": "بیا هڅه وکړه"
+  },
+  "selectNetworkType": {
+    "connect": "وسیله سره وصل شئ",
+    "share": "د Wifi Direct سره شریک کړئ",
+    "send": "د فایل مستقیم له لارې فایل ولیږئ؟",
+    "continue": "دوام ورکړئ"
+  }
+}

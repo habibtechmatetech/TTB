@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "Select vestri current lingua", "mainAction": "Lego Language" },
+  "menu": {
+    "anonymousTitle": "Ob gratiam tui",
+    "anonymousAction": "login",
+    "editProfileAction": "Mutare imaginem",
+    "verifyProfileAction": "quin profile",
+    "bibleSection": "Latin Vulgate",
+    "teachingsSection": "habens lex bonorum",
+    "librarySection": "My",
+    "groupsSection": "Groups",
+    "donateSection": "Donate",
+    "settingsSection": "Optiones",
+    "signOut": "Exscribe",
+    "modals": {
+      "verifyProfile": {
+        "title": "Non verificatur",
+        "message": "Synced lists vestri non vos can creare coetibus. Email reprehendo perficere velit turpis.",
+        "firstButton": "continue",
+        "secondButton": "Novus subcriptio profile"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Inscribe",
+    "emailPlaceholder": "Tua epistula electronica",
+    "passwordPlaceholder": "your Password",
+    "forgotAction": "Forgot Password?",
+    "callToAction": "Inscribe",
+    "signInAlternatives": "Sign in Aut usura",
+    "noAccountAction": "Nulla ratio? creare",
+    "notifications": {
+      "invalidCredentials": "Nulli documentorum",
+      "inProgress": "Iam progressus in signum",
+      "notAvailable": "Ludere officia unavailable"
+    }
+  },
+  "signUp": {
+    "header": "Create Account",
+    "emailPlaceholder": "Tua epistula electronica",
+    "passwordPlaceholder": "your Password",
+    "privateAction": "Ratio fac Secretum",
+    "termsDisclaimer": {
+      "pre": "Signup per clicking indicant te legere et quae conveniunt ei",
+      "terms": "verba",
+      "post": "."
+    },
+    "callToAction": "subscribere sursum",
+    "signUpAlternatives": "Sign Up aut uti",
+    "haveAnAccountAction": "Habet rationem?",
+    "notifications": {
+      "invalidUsername": "Donec limitantur ad XX characteres alphanumeric (numeris et literis ordinarius)",
+      "invalidPassword": "III mores ignoro saltem habeat superiorem et inferiorem se mores et alias peculiares saltem numero"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "'Non partum an ratio",
+        "message": "Hoc etiam existit email oratio.",
+        "firstButton": "Inscribe",
+        "secondButton": "prope"
+      },
+      "privateAccount": {
+        "title": "Ratio private",
+        "message": "Per vos privatim, ex cognitis aliis occultari.",
+        "firstButton": "suscipe",
+        "secondButton": "declines"
+      },
+      "success": {
+        "title": "Conventum creatum?",
+        "message": "Ob gratiam tui est successfully creatum est. Signans in capsa vestra reprehendo tuum confirmet.",
+        "firstButton": "Inscribe"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Reset password",
+    "emailPlaceholder": "Tua epistula electronica",
+    "message": "PDF reset vestri email password vestra.",
+    "callToAction": "Reset password",
+    "notifications": {
+      "success": "Sicut misit ad nos an email tuam electronicarum",
+      "emailNotFoundError": "Email non inveni",
+      "invalidEmailError": "Aliquam forma inscriptio"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "consummavi Setup",
+    "message": "Ingressus est inscriptio electronica inscriptio missum est. Placere perficere in details videre adnotatione inscriptio.",
+    "callToAction": "Nunc quia Skip"
+  },
+  "teachings": {
+    "dailyText": "Hodie Iaci",
+    "journeyTitle": "Satus vestri iter",
+    "journeySubtitle": "Omnia a principio ad finem legis",
+    "journeyCardTitle": "Per quod iter CCXV Week Latin",
+    "journeyCardSubtitle": "Audi nunc in vestri",
+    "tracksLabel": "album"
+  },
+  "teaching": {
+    "header": "habens lex bonorum",
+    "loading": "... loading",
+    "player": {
+      "audioSpeed": "Volo audio",
+      "loading": "loading",
+      "castingError": "Nulla machinae Available"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "His auditis continue", "secondButton": "Satus vestri iter" }
+    }
+  },
+  "journey": {
+    "byDate": "per Date",
+    "bySeries": "Series a",
+    "sections": { "tracksLabel": "album" }
+  },
+  "library": {
+    "header": "My",
+    "tabs": { "downloads": "downloads", "favorites": "Favorites", "playlists": "Video" }
+  },
+  "groups": {
+    "header": "Groups",
+    "createGroup": {
+      "title": "Create New Group",
+      "groupNameLabel": "catervae nomen",
+      "groupNameInputPlaceHolder": "nomine",
+      "descriptionLabel": "DESCRIPTIO",
+      "descriptionInputPlaceHolder": "addendi Description",
+      "inviteLabel": "Users invitare",
+      "inviteButton": "Users invitare Novum",
+      "button": "Create Group",
+      "invalidGroupName": "Intra nomen validum",
+      "groupNameTooLong": "Nomen non est coetus habet magis quam XXV characteribus"
+    },
+    "devotionNotStartAlert": "A coetus devotionis, non propter hoc incepit",
+    "membersLabel": "membra",
+    "chatModalMemberSubtitleLabel": "socius",
+    "chatModalMembersSubtitleLabel": "membra",
+    "chat": {
+      "listeningToLabel": "Audire",
+      "loadingTrackLabel": "Semita Loading ...",
+      "inputPlaceHolder": "Aenean?",
+      "deletePost": "Post Delete",
+      "deleteMessage": "deletum est nuntius"
+    },
+    "groupSettings": {
+      "participantsSection": "participantium",
+      "viewAll": "Vide omnes",
+      "invite": "Users invitare Novum",
+      "endDevotion": "Quod devotio finem Group",
+      "deleteGroup": "Delete Group",
+      "leaveGroup": "discede Group"
+    },
+    "userDirectory": {
+      "header": "User Directory",
+      "remove": "Aufer",
+      "anonymous": "Sine nomine",
+      "send": "Mitte"
+    },
+    "inviteUser": { "placeHolder": "Quaerere", "send": "Mitte" }
+  },
+  "chat": {
+    "header": "Group Channel",
+    "settings": {
+      "header": "Group Occasus",
+      "endDevotion": {
+        "alertTitle": "devotio enim finis",
+        "alertMessage": "Tu es certus tibi cultus ad finem?",
+        "alertCancel": "Cancel",
+        "alertConfirm": "Ita",
+        "endDevotionLabel": "finivit hunc cultum.",
+        "hasEnded": "Trisagium finivit"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "satus quod devotio",
+    "alertMessage": "Es vos certus vos volo ut satus cultus nominis} {% catervam apellare vis?",
+    "alertCancel": "Cancel",
+    "alertConfirm": "Ita",
+    "devotionStartedLabel": "has coepi ad devotionem excitat."
+  },
+  "settings": {
+    "header": "Optiones",
+    "tabs": { "profile": "Profile", "media": "Media", "notifications": "Suspendisse" },
+    "profile": {
+      "account": "ratio",
+      "username": "nomen usoris",
+      "email": "E-mail",
+      "editButton": "recensere",
+      "edit": {
+        "save": "salvare",
+        "username": {
+          "header": "nomen usoris",
+          "successAlert": "Tua mutatio quae servatae sunt.",
+          "failedAlert": "Deficio est salvificem mutatio."
+        },
+        "email": {
+          "header": "Email",
+          "successAlert": "Tua mutatio quae servatae sunt.",
+          "failedAlert": "Deficio est salvificem mutatio."
+        }
+      },
+      "languages": "Linguae",
+      "signIn": "Inscribe",
+      "signOut": "Ratio signum de",
+      "legal": "Legal",
+      "termsConditions": "Terms and Conditions",
+      "privacyPolicy": "Privacy policy",
+      "support": "Support",
+      "reportAProblem": "Quick Links",
+      "tutorial": "doceo",
+      "reportBug": {
+        "header": "Quick Links",
+        "send": "Mitte",
+        "subject": "SUBJECT",
+        "subjectPlaceHolder": "subject",
+        "description": "DESCRIPTIO",
+        "descriptionPlaceHolder": "Description",
+        "successAlert": "Tibi gratias ago tibi, et suscepit te mihi nuntium.",
+        "failedAlert": "Mitte nequiuit."
+      },
+      "version": "Version"
+    },
+    "media": {
+      "audio": "audio",
+      "autoplay": "Autoplay Google",
+      "storage": "storage",
+      "downloadWifi": "Tantum in Wi-fi Download",
+      "deleteCache": "Delete Cache"
+    },
+    "notifications": {
+      "notifications": "Suspendisse",
+      "groupInvitation": "Group Invitatio",
+      "devotions": "Invitare ad Singularis Devotionis",
+      "file": "File serie Confirmationis"
+    }
+  },
+  "inviteUsers": { "header": "Users invitare" },
+  "playlist": {
+    "header": "playlist",
+    "audioFileLabel": "File audio",
+    "audioFilesLabel": "Audio Files"
+  },
+  "collection": { "header": "collectio", "audioFilesLabel": "Audio Files" },
+  "modal": {
+    "close": "prope",
+    "addToPlaylist": { "title": "Add to Playlist", "button": "Create Playlist" },
+    "startDevotion": { "title": "satus quod devotio" },
+    "createPlaylist": {
+      "title": "Create New Playlist",
+      "button": "Create Playlist",
+      "inputPlaceholder": "Intra nomen Playlist",
+      "success": "Added to Playlist"
+    },
+    "login": "Et login postulo ut satus concepta devotio"
+  },
+  "options": {
+    "shared": {
+      "share": "Share",
+      "report": "Content Report",
+      "shareOthers": "Alii communicet,",
+      "copy": "exemplum Link",
+      "more": "More"
+    },
+    "audio": {
+      "download": "download",
+      "addFavorite": "Add to Favorites",
+      "addPlaylist": "Add to Playlist",
+      "removeFavorite": "Remove a Favorites",
+      "removePlaylist": "Remove a Playlist",
+      "removeDownload": "Remove a Videos"
+    },
+    "playlist": { "edit": "recensere", "delete": "Delete Playlist" },
+    "startDevotion": "satus quod devotio"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Added to Playlist",
+      "delete": "Remota ab Playlist",
+      "create": "Playlist creata est",
+      "destroy": "deleted Playlist"
+    },
+    "favorites": { "add": "Additum Favorites", "remove": "Remota ab Favorites" },
+    "downloads": { "remove": "Remota ab Videos" }
+  },
+  "buttons": { "loop": "loop", "shuffle": "TERGIVERSOR" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Quaerere..." },
+    "notification": { "success": "Success! An epistulam et misit in ratione vestra." },
+    "button": { "sending": "Mittens ..." },
+    "modalSelector": { "cancel": "Cancel" },
+    "loading": "loading"
+  },
+  "bible": {
+    "header": "Latin Vulgate",
+    "oldTestament": "vetus Testamentum",
+    "newTestament": "novum Testamentum",
+    "popularBooks": "popularibus librorum"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Quaerere",
+    "cancelButton": "LIBERO",
+    "searchResults": "Search Results",
+    "filterButton": "filter",
+    "teachings": { "title": "habens lex bonorum" },
+    "bible": { "title": "Latin Vulgate" }
+  },
+  "addToPlaylistsModal": { "title": "Add to Playlist", "button": "Create Playlist" },
+  "createPlaylistModal": {
+    "title": "Create New Playlist",
+    "button": "Create Playlist",
+    "inputPlaceholder": "Intra nomen Playlist"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Added to Playlist",
+      "remove": "Remota ab Playlist",
+      "create": "Playlist creata est",
+      "delete": "deleted Playlist"
+    },
+    "favorites": { "add": "Additum Favorites", "remove": "Remota ab Favorites" },
+    "downloads": { "remove": "Remota ab Videos" },
+    "facebook": { "loginError": "Login per errorem deficient" },
+    "google": { "loginError": "Login per errorem deficient" }
+  },
+  "playlists": { "trackLabel": "semita", "tracksLabel": "album" },
+  "mediaList": { "tracksLabel": "album", "remove": "Aufer" },
+  "tutorialPage": { "done": "factum", "skip": "Skip" },
+  "loginModal": { "login": "login" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "whatsapp" },
+  "downloadModal": { "downloading": "downloading", "complete": "Latin download" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Br Explore",
+      "subtitle1": "Vulgata totam peregrinationem, aut initium itineris tui.",
+      "title2": "Audi & Engage",
+      "subtitle2": "Introspicere altius in ictus VULGATE media ludio ludius ut contentus otium concedit.",
+      "title3": "Odonata Lepidoptera habens lex bonorum",
+      "subtitle3": "Sicut in Scriptura per Engage numquam ante crucem-indiciunt in Latin Teaching & contentus.",
+      "title4": "Br de",
+      "subtitle4": "Iungere coetus a studiis documenta et ad ictus Bible topics cum aliis.",
+      "title5": "Download & Share",
+      "subtitle5": "Frui audiebant verbum Domini participes esse, et super-the-ire cum amicis.",
+      "title6": "Servo & crea",
+      "subtitle6": "Servo vestri ventus doctrinis mos partum a Latin versus, vel playlist.",
+      "title7": "Group Singularis Devotionis",
+      "subtitle7": "Cohortatus ceteros dies permotus Devotionals coetus."
+    },
+    "registerPage": {
+      "noThanks": "Non grates",
+      "haveAccount": "Habet rationem?",
+      "createAccount": "Create Account meum",
+      "title1": "Conferte cum aliis",
+      "subtitle1": "De vestri ventus thema, et aliis a biblia versus mecum.",
+      "title2": "Sync et copia Video",
+      "subtitle2": "De vestri ventus aedificare lists contentus in unum locum.",
+      "title3": "Vide tuum Favorites",
+      "subtitle3": "Copia et visita et tuus Favorites sunt in novissimis temporibus.",
+      "title4": "Back gratissimum",
+      "subtitle4": "Create an account atque aditum ad omnes nostri features."
+    }
+  },
+  "app": {
+    "close": "prope",
+    "accept": "suscipe",
+    "reject": "Rogationem contribulati",
+    "constructionInProgress": "Constructio profectus consistit",
+    "downloadComplete": "Latin download",
+    "downloading": "downloading",
+    "downloadFailed": "Deficio download",
+    "sendAFile": "A mitte te vult aliquis File"
+  },
+  "transferring": { "tryAgain": "iterum conare", "close": "prope" },
+  "checkDevice": {
+    "check": "Reprehendo tuum Fabrica",
+    "makeSure": "Fac, obsecro WIFI Dirige volvitur amici suus visibilis fabrica.",
+    "continue": "continue"
+  },
+  "connectToDevice": { "connect": "Ad coniungere Fabrica" },
+  "pairing": {
+    "connect": "Ad coniungere Fabrica",
+    "pairing": "HYMENAEOS",
+    "success": "feliciter Paired",
+    "failed": "Deficio Pairing fabrica",
+    "makeSure": "Quaeso fac (Direct-WIFI) amici volvitur suus visibilis fabrica.",
+    "continue": "continue",
+    "tryAgain": "Iterum conari"
+  },
+  "selectNetworkType": {
+    "connect": "Ad coniungere fabrica",
+    "share": "Dirige Wifi communicet,",
+    "send": "Mitte file per WiFi recta?",
+    "continue": "continue"
+  }
+}

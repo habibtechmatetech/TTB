@@ -1,0 +1,412 @@
+{
+  "selectLanguage": {
+    "heading": "Filifili lau gagana o loʻo iai nei",
+    "mainAction": "Filifili Gagana"
+  },
+  "menu": {
+    "anonymousTitle": "Lau Teugatupe",
+    "anonymousAction": "Ulufale",
+    "editProfileAction": "Faʻatonutonu talaaga otooto",
+    "verifyProfileAction": "Faamaonia talaaga otooto",
+    "bibleSection": "Tusi Paia",
+    "teachingsSection": "Aoaoga",
+    "librarySection": "Laʻu Faletusi",
+    "groupsSection": "Kulupu",
+    "donateSection": "Foaʻi",
+    "settingsSection": "Tulaga",
+    "signOut": "Saini ese",
+    "modals": {
+      "verifyProfile": {
+        "title": "Oe le faʻamaonia",
+        "message": "O au lisi o le a le faʻasolosolo ma e le mafai ona faia ni kulupu. Faʻamolemole siaki lau imeli e faʻamaeʻaina le lesitalaina.",
+        "firstButton": "Faaauau",
+        "secondButton": "Tusi se tala fou"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Saini ese j",
+    "emailPlaceholder": "Lau Imeli",
+    "passwordPlaceholder": "Lau upu faʻaupuga",
+    "forgotAction": "Galo le Upu Faʻamau?",
+    "callToAction": "Saini ese j",
+    "signInAlternatives": "Poʻo le Saini I le faʻaaogaina",
+    "noAccountAction": "Leai se teuga tupe? Fausia tasi",
+    "notifications": {
+      "invalidCredentials": "Faʻamaonia agavaʻa",
+      "inProgress": "Saini i totonu ua maeʻa",
+      "notAvailable": "Taʻalo tautua le avanoa"
+    }
+  },
+  "signUp": {
+    "header": "Fausia le Teugatupe",
+    "emailPlaceholder": "Lau Imeli",
+    "passwordPlaceholder": "Lau upu faʻaupuga",
+    "privateAction": "Fai Tumaoti Tupe",
+    "termsDisclaimer": {
+      "pre": "I le kilikiina o le Saini e te faʻailoa ai ua e faitau ma e malie i ai",
+      "terms": "o faaupuga",
+      "post": "."
+    },
+    "callToAction": "Saini loa",
+    "signUpAlternatives": "Poʻo le Saini e faʻaaogaina",
+    "haveAnAccountAction": "I ai se teuga tupe?",
+    "notifications": {
+      "invalidUsername": "Usernames e faʻatapulaʻa i le 20 alphanumeric mataitusi (numera ma masani mataitusi)",
+      "invalidPassword": "E tatau ona iai ni mataʻitusi e 3 a itiiti mai ma ose tuʻufaʻatasia o mataitusi pito i luga ma lalo ma le itiiti ifo ma le tasi le numera poʻo le faʻapitoa"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Le mafai ona fai se teuga tupe",
+        "message": "Lenei tuatusi imeli ua i ai nei.",
+        "firstButton": "Saini ese j",
+        "secondButton": "Tapuni"
+      },
+      "privateAccount": {
+        "title": "Teugatupe Tumaoti",
+        "message": "I le faia o lau teuga tupe tumaoti, o loʻo e nanaina mai le mauaina e isi.",
+        "firstButton": "Talia",
+        "secondButton": "Tetee"
+      },
+      "success": {
+        "title": "Teugatupe Fausia!",
+        "message": "Na manuia le fausiaina o lau teuga tupe. Siaki lau pusa meli e faʻamaonia ai lau teuga tupe ma saini i totonu.",
+        "firstButton": "Saini ese j"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Toe setiina le faʻaupuga",
+    "emailPlaceholder": "Lau Imeli",
+    "message": "Faʻamolemole ulufale i lau imeli e toe seti lau pasiupu mo lau teuga tupe.",
+    "callToAction": "Toe setiina le faʻaupuga",
+    "notifications": {
+      "success": "Na ona matou lafoina o se imeli i lau pusa meli",
+      "emailNotFoundError": "E leʻi maua se imeli",
+      "invalidEmailError": "Lē saʻo le faʻatulagaina o imeli"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Faʻamutaina Setup",
+    "message": "Ua lafoina se imeli i le tuatusi imeli na e tusia. Faʻamolemole vaʻai i imeli auiliiliga e faʻamaeʻaina le lesitalaina.",
+    "callToAction": "Skip mo le taimi nei"
+  },
+  "teachings": {
+    "dailyText": "Faʻasalalauga o Aso Nei",
+    "journeyTitle": "Amata Lau Malaga",
+    "journeySubtitle": "O aʻoaʻoga uma mai le amataga e oʻo i le iʻuga",
+    "journeyCardTitle": "215 Vaiaso Faigamalaga E Ala ile Tusi Paia",
+    "journeyCardSubtitle": "Faʻalogo i lou taimi",
+    "tracksLabel": "Auala"
+  },
+  "teaching": {
+    "header": "Aoaoga",
+    "loading": "Utaina ...",
+    "player": {
+      "audioSpeed": "Leo Vave",
+      "loading": "Utaina",
+      "castingError": "Leai Avanoa masini"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Faʻaauau Faalogo", "secondButton": "Amata lau malaga" }
+    }
+  },
+  "journey": {
+    "byDate": "I le Aso",
+    "bySeries": "E ala i le Faasologa",
+    "sections": { "tracksLabel": "Auala" }
+  },
+  "library": {
+    "header": "Laʻu Faletusi",
+    "tabs": {
+      "downloads": "Lalotoso",
+      "favorites": "Mea e fiafia i ai",
+      "playlists": "Lisi o lisi"
+    }
+  },
+  "groups": {
+    "header": "Kulupu",
+    "createGroup": {
+      "title": "Fausia Fou Vaega",
+      "groupNameLabel": "IGOA VALE",
+      "groupNameInputPlaceHolder": "Igoa",
+      "descriptionLabel": "FAʻAMATALAGA",
+      "descriptionInputPlaceHolder": "Faʻaopopo Faʻamatalaga",
+      "inviteLabel": "Valaau tagata faʻaoga",
+      "inviteButton": "Valaʻaulia Tagata Faʻaoga Fou",
+      "button": "Fausia Vaega",
+      "invalidGroupName": "Ulufale se igoa faʻamaonia",
+      "groupNameTooLong": "O le igoa o le kulupu e le tatau ona aofia ai sili atu ma le 25 mataʻitusi"
+    },
+    "devotionNotStartAlert": "O se tuuto e leʻi amataina mo lenei vaega",
+    "membersLabel": "Sui Usufono",
+    "chatModalMemberSubtitleLabel": "sui usufono",
+    "chatModalMembersSubtitleLabel": "tagata o le ekalesia",
+    "chat": {
+      "listeningToLabel": "Faalogo i",
+      "loadingTrackLabel": "Utaina ala ...",
+      "inputPlaceHolder": "Tusi le Savali",
+      "deletePost": "Aveese le Falemeli",
+      "deleteMessage": "ua aveese se feau"
+    },
+    "groupSettings": {
+      "participantsSection": "Tagata auai",
+      "viewAll": "Vaʻai Uma",
+      "invite": "Valaʻaulia Tagata Faʻaoga Fou",
+      "endDevotion": "Faʻamutaina Tuuto",
+      "deleteGroup": "Aveese le kulupu",
+      "leaveGroup": "Tuua le Vaega"
+    },
+    "userDirectory": {
+      "header": "Tagata Faʻasino Tusi",
+      "remove": "Aveese",
+      "anonymous": "Faʻalauiloa",
+      "send": "Lafo"
+    },
+    "inviteUser": { "placeHolder": "Saili", "send": "Lafo" }
+  },
+  "chat": {
+    "header": "Vaega Channel",
+    "settings": {
+      "header": "Vaega o tulaga",
+      "endDevotion": {
+        "alertTitle": "Faʻamutaina le Faamaoni",
+        "alertMessage": "O e mautinoa e te manaʻo e faʻamutaina lenei faʻamaoni?",
+        "alertCancel": "Faalēaogāina",
+        "alertConfirm": "ioe",
+        "endDevotionLabel": "faamutaina lenei faamaoni.",
+        "hasEnded": "O lenei tuuto ua faamutaina"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Amata le Faamaoni",
+    "alertMessage": "O e mautinoa e te manaʻo e amata le faʻamaoni ile% {igoa} kulupu?",
+    "alertCancel": "Faalēaogāina",
+    "alertConfirm": "ioe",
+    "devotionStartedLabel": "ua amata se tuuto."
+  },
+  "settings": {
+    "header": "Tulaga",
+    "tabs": {
+      "profile": "Talaaga otooto",
+      "media": "Ala o Faasalalauga",
+      "notifications": "Faasilasilaga"
+    },
+    "profile": {
+      "account": "Teugatupe",
+      "username": "Igoa Igoa",
+      "email": "Imeli",
+      "editButton": "Faʻatonutonu",
+      "edit": {
+        "save": "Sefe",
+        "username": {
+          "header": "Igoa Igoa",
+          "successAlert": "Ua sefe lau suiga.",
+          "failedAlert": "Ua le mafai ona sefe le suiga."
+        },
+        "email": {
+          "header": "Imeli",
+          "successAlert": "Ua sefe lau suiga.",
+          "failedAlert": "Ua le mafai ona sefe le suiga."
+        }
+      },
+      "languages": "Gagana",
+      "signIn": "Saini ese j",
+      "signOut": "Saini e Totonu o Teugatupe",
+      "legal": "Faʻatulafono",
+      "termsConditions": "Tuutuuga & Aiaiga",
+      "privacyPolicy": "Faalauaiteleina Faiga Faavae",
+      "support": "Lagolago",
+      "reportAProblem": "Lipoti se Faʻafitauli",
+      "tutorial": "Tutorial",
+      "reportBug": {
+        "header": "Lipoti se Faʻafitauli",
+        "send": "Lafo",
+        "subject": "MATAUPU",
+        "subjectPlaceHolder": "Mataupu",
+        "description": "FAʻAMATALAGA",
+        "descriptionPlaceHolder": "Faʻamatalaga",
+        "successAlert": "Faʻafetai, ua matou mauaina lau feʻau.",
+        "failedAlert": "Ua le mafai ona lafo le feau."
+      },
+      "version": "Faʻamatalaga"
+    },
+    "media": {
+      "audio": "Leo",
+      "autoplay": "Leo otometi",
+      "storage": "Teuina o Meaai",
+      "downloadWifi": "Naʻo le Download luga ole Wi-fi",
+      "deleteCache": "Aveese Cache"
+    },
+    "notifications": {
+      "notifications": "Faasilasilaga",
+      "groupInvitation": "Vaeluaina Valaaulia",
+      "devotions": "Valaaulia i Faigalotu",
+      "file": "Faila le faaliliuina faila"
+    }
+  },
+  "inviteUsers": { "header": "Valaau tagata faʻaoga" },
+  "playlist": {
+    "header": "Lisi o mea e fai",
+    "audioFileLabel": "Faila Leo",
+    "audioFilesLabel": "Faila Leo"
+  },
+  "collection": { "header": "Aoina", "audioFilesLabel": "Faila Leo" },
+  "modal": {
+    "close": "latalata",
+    "addToPlaylist": { "title": "Faʻaopopo i le Lisi Lisi", "button": "Fausia le Lisi Lisi" },
+    "startDevotion": { "title": "Amata le Faamaoni" },
+    "createPlaylist": {
+      "title": "Fausia Fou Lisi Lisi",
+      "button": "Fausia le Lisi Lisi",
+      "inputPlaceholder": "Ulufale Playlist Igoa",
+      "success": "Faʻaopopo i le Lisi Lisi"
+    },
+    "login": "Oe manaʻomia le saini e amata se faʻamaoni"
+  },
+  "options": {
+    "shared": {
+      "share": "Faasoa",
+      "report": "Lipoti Aano",
+      "shareOthers": "Faasoa ma Isi",
+      "copy": "Kopi Link",
+      "more": "Sili atu"
+    },
+    "audio": {
+      "download": "Lalotoso",
+      "addFavorite": "Faʻaopopo i le Favorites",
+      "addPlaylist": "Faʻaopopo i le Lisi Lisi",
+      "removeFavorite": "Aveʻese mai le Favorites",
+      "removePlaylist": "Aveese mai le Lisi Lisi",
+      "removeDownload": "Aveese mai le Lalotoso"
+    },
+    "playlist": { "edit": "Faʻatonutonu", "delete": "Aveese le Lisi Lisi" },
+    "startDevotion": "Amata le Faamaoni"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Faʻaopopo i le Lisi Lisi",
+      "delete": "Aveʻese mai le Lisi Lisi",
+      "create": "Lisi o Lisi na Fausia",
+      "destroy": "Soloia le Lisi Lisi"
+    },
+    "favorites": {
+      "add": "Faʻaopopo i Mea e Sili Ona Manaʻomia",
+      "remove": "Aveʻese mai le Favorites"
+    },
+    "downloads": { "remove": "Aveʻese mai Downloads" }
+  },
+  "buttons": { "loop": "Matasele", "shuffle": "Fetuutuunai" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Saili ..." },
+    "notification": { "success": "Manuia! O le a lafoina se imeli i lau teuga tupe." },
+    "button": { "sending": "Auina atu ..." },
+    "modalSelector": { "cancel": "Faalēaogāina" },
+    "loading": "Utaina"
+  },
+  "bible": {
+    "header": "Tusi Paia",
+    "oldTestament": "Feagaiga Tuai",
+    "newTestament": "Feagaiga Fou",
+    "popularBooks": "Tusi lauiloa"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Saili",
+    "cancelButton": "CANCEL",
+    "searchResults": "Iʻuga o sailiga",
+    "filterButton": "Faamama",
+    "teachings": { "title": "Aoaoga" },
+    "bible": { "title": "Tusi Paia" }
+  },
+  "addToPlaylistsModal": { "title": "Faʻaopopo i le Lisi Lisi", "button": "Fausia le Lisi Lisi" },
+  "createPlaylistModal": {
+    "title": "Fausia Fou Lisi Lisi",
+    "button": "Fausia le Lisi Lisi",
+    "inputPlaceholder": "Ulufale Playlist Igoa"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Faʻaopopo i le Lisi Lisi",
+      "remove": "Aveʻese mai le Lisi Lisi",
+      "create": "Lisi o Lisi na Fausia",
+      "delete": "Soloia le Lisi Lisi"
+    },
+    "favorites": {
+      "add": "Faʻaopopo i Mea e Sili Ona Manaʻomia",
+      "remove": "Aveʻese mai le Favorites"
+    },
+    "downloads": { "remove": "Aveʻese mai Downloads" },
+    "facebook": { "loginError": "Login sese ma le sese" },
+    "google": { "loginError": "Login sese ma le sese" }
+  },
+  "playlists": { "trackLabel": "Ala", "tracksLabel": "Auala" },
+  "mediaList": { "tracksLabel": "Auala", "remove": "Aveese" },
+  "tutorialPage": { "done": "Faia", "skip": "Faapasi" },
+  "loginModal": { "login": "Ulufale" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Lalotoso", "complete": "Maeʻa Download" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Sailiili i le Tusi Paia",
+      "subtitle1": "Faimalaga ma oe i le Tusi Paʻia atoa, pe amata sau oe lava malaga.",
+      "title2": "Faʻalogo ma faʻaaoga",
+      "subtitle2": "E faʻatagaina oe e le aufaʻasalalau e oso i totonu o le THRU ma le faigofie i le Tusi Paia.",
+      "title3": "Maua Aʻoaʻoga",
+      "subtitle3": "Auai i le Tusi Paia e leai se taimi muamua e ala i le fefaʻasoaaʻi o le Tusi Paʻia & Aʻoaʻoga mataupu.",
+      "title4": "Talanoa i le Tusi Paia",
+      "subtitle4": "Auai i se kulupu e suʻesuʻe le THRU i le BIBLE aʻoaʻoga ma mataupu ma isi.",
+      "title5": "Lalotoso & Faasoa",
+      "subtitle5": "Fiafia e faʻalogo i le Upu a le Atua i luga o le eo ai ma faʻasoa atu i au uo.",
+      "title6": "Sefe & Fausia",
+      "subtitle6": "Sefe au aʻoaʻoga ma mau o le Tusi Paia e te fiafia iai, pe fai sau lisi masani.",
+      "title7": "Vaega Faigalotu",
+      "subtitle7": "Faʻamalosiʻau ma faʻamalosia e isi ma faigalotu a kulupu i aso uma."
+    },
+    "registerPage": {
+      "noThanks": "Leai Faʻafetai",
+      "haveAccount": "I ai se teuga tupe?",
+      "createAccount": "Fausia laʻu Teugatupe",
+      "title1": "Talanoa ma Isi",
+      "subtitle1": "Talanoaina au mataupu e fiafia iai ma mau o le Tusi Paʻia ma isi.",
+      "title2": "Faleoloa ma le faʻatasiga o faʻasologa",
+      "subtitle2": "Fausia lisi o au mea e te fiafia i ai i le tasi nofoaga.",
+      "title3": "Vaai Lau Mea Sili Ona E Fiafia I Ai",
+      "subtitle3": "Teu ma sau i tua ma asiasi i au e te fiafia i ai i se taimi mulimuli ane.",
+      "title4": "Malo lava",
+      "subtitle4": "Fausia se teuga tupe ma faʻaavanoaina uma a matou foliga."
+    }
+  },
+  "app": {
+    "close": "latalata",
+    "accept": "Talia",
+    "reject": "Teena",
+    "constructionInProgress": "FAATINOINA I LE FAʻATELEINA O TUPE",
+    "downloadComplete": "Maeʻa Download",
+    "downloading": "Lalotoso",
+    "downloadFailed": "Ua le manuia le laulauina mai i lalo",
+    "sendAFile": "E manaʻo se tasi e lafo se faila ia te oe"
+  },
+  "transferring": { "tryAgain": "toe taumafai", "close": "latalata" },
+  "checkDevice": {
+    "check": "Siaki lau masini",
+    "makeSure": "Faʻamolemole ia e mautinoa Wifi-Direct ua liliu i luga o lau uo masini ma o loʻo i tulaga.",
+    "continue": "Faaauau"
+  },
+  "connectToDevice": { "connect": "Fesoʻotaʻi i se masini" },
+  "pairing": {
+    "connect": "Fesoʻotaʻi i se masini",
+    "pairing": "Paʻaga",
+    "success": "Faʻatasiga manuia",
+    "failed": "Ua le manuia le Faʻafesoʻotaʻiga o masini",
+    "makeSure": "Faʻamolemole ia mautinoa (Wifi-Direct) ua ki luga o lau uo masini ma o loʻo i se tulaga.",
+    "continue": "Faaauau",
+    "tryAgain": "Toe taumafai"
+  },
+  "selectNetworkType": {
+    "connect": "Fesoʻotaʻi i se masini",
+    "share": "Faasoa ma Wifi Direct",
+    "send": "Lafo faila i luga ole wifi tuusao?",
+    "continue": "Faaauau"
+  }
+}

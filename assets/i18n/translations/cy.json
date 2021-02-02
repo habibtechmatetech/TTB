@@ -1,0 +1,402 @@
+{
+  "selectLanguage": { "heading": "Dewiswch eich iaith gyfredol", "mainAction": "Dewis Iaith" },
+  "menu": {
+    "anonymousTitle": "Eich Cyfrif",
+    "anonymousAction": "Mewngofnodi",
+    "editProfileAction": "Golygu Proffil",
+    "verifyProfileAction": "Gwirio proffil",
+    "bibleSection": "Beibl",
+    "teachingsSection": "Dysgeidiaeth",
+    "librarySection": "Fy Llyfrgell",
+    "groupsSection": "Grwpiau",
+    "donateSection": "Cyfrannu",
+    "settingsSection": "Gosodiadau",
+    "signOut": "Llofnodi",
+    "modals": {
+      "verifyProfile": {
+        "title": "Nid ydych yn cael eich gwirio",
+        "message": "Ni fydd eich rhestrau yn cael eu synced ac ni allwch greu grwpiau. Gwiriwch eich e-bost i gwblhau cofrestriad.",
+        "firstButton": "Parhewch",
+        "secondButton": "Cofrestrwch broffil newydd"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Mewngofnodi",
+    "emailPlaceholder": "Dy ebost",
+    "passwordPlaceholder": "Eich Cyfrinair",
+    "forgotAction": "Wedi anghofio cyfrinair?",
+    "callToAction": "Mewngofnodi",
+    "signInAlternatives": "Neu Mewngofnodi gan ddefnyddio",
+    "noAccountAction": "Dim cyfrif? Creu un",
+    "notifications": {
+      "invalidCredentials": "Cymwysterau annilys",
+      "inProgress": "Mewngofnodi eisoes ar y gweill",
+      "notAvailable": "Gwasanaethau chwarae ddim ar gael"
+    }
+  },
+  "signUp": {
+    "header": "Creu cyfrif",
+    "emailPlaceholder": "Dy ebost",
+    "passwordPlaceholder": "Eich Cyfrinair",
+    "privateAction": "Gwneud Cyfrif yn Breifat",
+    "termsDisclaimer": {
+      "pre": "Trwy glicio Signup rydych chi'n nodi eich bod wedi darllen ac yn cytuno iddo",
+      "terms": "y telerau",
+      "post": "."
+    },
+    "callToAction": "Cofrestru",
+    "signUpAlternatives": "Neu Cofrestrwch gan ddefnyddio",
+    "haveAnAccountAction": "Oes gennych chi gyfrif?",
+    "notifications": {
+      "invalidUsername": "Mae enwau defnyddwyr wedi'u cyfyngu i 20 nod alffaniwmerig (rhifau a llythrennau rheolaidd)",
+      "invalidPassword": "Dylai fod gan gyfrinair o leiaf 3 nod a dylai fod yn gyfuniad o gymeriadau llythrennau bach ac isaf gydag o leiaf un rhif neu gymeriad arbennig"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Methu creu cyfrif",
+        "message": "Mae'r cyfeiriad e-bost hwn yn bodoli eisoes.",
+        "firstButton": "Mewngofnodi",
+        "secondButton": "Caewch"
+      },
+      "privateAccount": {
+        "title": "Cyfrif Preifat",
+        "message": "Trwy wneud eich cyfrif yn breifat, rydych chi'n ei guddio rhag cael ei ddarganfod gan eraill.",
+        "firstButton": "Derbyn",
+        "secondButton": "Dirywiad"
+      },
+      "success": {
+        "title": "Cyfrif wedi'i Greu!",
+        "message": "Crëwyd eich cyfrif yn llwyddiannus. Gwiriwch eich blwch derbyn i gadarnhau eich cyfrif a mewngofnodi.",
+        "firstButton": "Mewngofnodi"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Ailosod cyfrinair",
+    "emailPlaceholder": "Dy ebost",
+    "message": "Rhowch eich e-bost i ailosod eich cyfrinair ar gyfer eich cyfrif.",
+    "callToAction": "Ailosod cyfrinair",
+    "notifications": {
+      "success": "Rydym newydd anfon e-bost i'ch mewnflwch",
+      "emailNotFoundError": "Ni ddarganfuwyd e-bost",
+      "invalidEmailError": "Fformat e-bost annilys"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Gorffen Gosodiad",
+    "message": "Mae e-bost wedi'i anfon i'r cyfeiriad e-bost y gwnaethoch ei nodi. Gweler y manylion e-bost i gwblhau'r cofrestriad.",
+    "callToAction": "Neidio am Nawr"
+  },
+  "teachings": {
+    "dailyText": "Darllediad Heddiw",
+    "journeyTitle": "Dechreuwch Eich Taith",
+    "journeySubtitle": "Pob dysgeidiaeth o'r dechrau i'r diwedd",
+    "journeyCardTitle": "Taith 215 Wythnos Trwy'r Beibl",
+    "journeyCardSubtitle": "Gwrandewch ar eich amser",
+    "tracksLabel": "Traciau"
+  },
+  "teaching": {
+    "header": "Dysgeidiaeth",
+    "loading": "Llwytho ...",
+    "player": {
+      "audioSpeed": "Cyflymder Sain",
+      "loading": "Llwytho",
+      "castingError": "Dim Dyfeisiau ar Gael"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Parhau i Wrando", "secondButton": "Dechreuwch eich taith" }
+    }
+  },
+  "journey": {
+    "byDate": "Erbyn Dyddiad",
+    "bySeries": "Yn ôl Cyfres",
+    "sections": { "tracksLabel": "Traciau" }
+  },
+  "library": {
+    "header": "Fy Llyfrgell",
+    "tabs": {
+      "downloads": "Dadlwythiadau",
+      "favorites": "Ffefrynnau",
+      "playlists": "Rhestri chwarae"
+    }
+  },
+  "groups": {
+    "header": "Grwpiau",
+    "createGroup": {
+      "title": "Creu Grŵp Newydd",
+      "groupNameLabel": "ENW GRWP",
+      "groupNameInputPlaceHolder": "Enw",
+      "descriptionLabel": "DISGRIFIAD",
+      "descriptionInputPlaceHolder": "Ychwanegu Disgrifiad",
+      "inviteLabel": "Gwahodd Defnyddwyr",
+      "inviteButton": "Gwahodd Defnyddwyr Newydd",
+      "button": "Creu Grŵp",
+      "invalidGroupName": "Rhowch enw dilys",
+      "groupNameTooLong": "Rhaid i enw'r grŵp beidio â chynnwys mwy na 25 nod"
+    },
+    "devotionNotStartAlert": "Nid yw defosiwn wedi cychwyn i'r grŵp hwn",
+    "membersLabel": "Aelodau",
+    "chatModalMemberSubtitleLabel": "aelod",
+    "chatModalMembersSubtitleLabel": "aelodau",
+    "chat": {
+      "listeningToLabel": "Gwrando ar",
+      "loadingTrackLabel": "Trac llwytho ...",
+      "inputPlaceHolder": "Ysgrifennu Neges",
+      "deletePost": "Dileu Post",
+      "deleteMessage": "wedi dileu neges"
+    },
+    "groupSettings": {
+      "participantsSection": "Cyfranogwyr",
+      "viewAll": "Gweld popeth",
+      "invite": "Gwahodd Defnyddwyr Newydd",
+      "endDevotion": "Diwedd Defosiwn Grŵp",
+      "deleteGroup": "Dileu Grŵp",
+      "leaveGroup": "Grŵp Gadael"
+    },
+    "userDirectory": {
+      "header": "Cyfeiriadur Defnyddiwr",
+      "remove": "Tynnu",
+      "anonymous": "Dienw",
+      "send": "Anfon"
+    },
+    "inviteUser": { "placeHolder": "Chwilio", "send": "Anfon" }
+  },
+  "chat": {
+    "header": "Sianel Grŵp",
+    "settings": {
+      "header": "Gosodiadau Grŵp",
+      "endDevotion": {
+        "alertTitle": "Diwedd Defosiwn",
+        "alertMessage": "Ydych chi'n siŵr eich bod chi am ddod â'r defosiwn hwn i ben?",
+        "alertCancel": "Canslo",
+        "alertConfirm": "Ydw",
+        "endDevotionLabel": "daeth y defosiwn hwn i ben.",
+        "hasEnded": "Mae'r defosiwn hwn wedi dod i ben"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Dechreuwch Defosiwn",
+    "alertMessage": "Ydych chi'n siŵr eich bod chi am ddechrau defosiwn gyda grŵp% {name}?",
+    "alertCancel": "Canslo",
+    "alertConfirm": "Ydw",
+    "devotionStartedLabel": "wedi cychwyn defosiwn."
+  },
+  "settings": {
+    "header": "Gosodiadau",
+    "tabs": { "profile": "Proffil", "media": "Cyfryngau", "notifications": "Hysbysiadau" },
+    "profile": {
+      "account": "Cyfrif",
+      "username": "Enw defnyddiwr",
+      "email": "E-bost",
+      "editButton": "Golygu",
+      "edit": {
+        "save": "Arbedwch",
+        "username": {
+          "header": "Enw defnyddiwr",
+          "successAlert": "Mae eich newid wedi'i arbed.",
+          "failedAlert": "Wedi methu arbed y newid."
+        },
+        "email": {
+          "header": "E-bost",
+          "successAlert": "Mae eich newid wedi'i arbed.",
+          "failedAlert": "Wedi methu arbed y newid."
+        }
+      },
+      "languages": "Ieithoedd",
+      "signIn": "Mewngofnodi",
+      "signOut": "Llofnodi Allan o'r Cyfrif",
+      "legal": "Cyfreithiol",
+      "termsConditions": "Telerau ac Amodau",
+      "privacyPolicy": "Polisi Preifatrwydd",
+      "support": "Cefnogaeth",
+      "reportAProblem": "Riportio Problem",
+      "tutorial": "Tiwtorial",
+      "reportBug": {
+        "header": "Riportio Problem",
+        "send": "Anfon",
+        "subject": "PWNC",
+        "subjectPlaceHolder": "Pwnc",
+        "description": "DISGRIFIAD",
+        "descriptionPlaceHolder": "Disgrifiad",
+        "successAlert": "Diolch, rydym wedi derbyn eich neges.",
+        "failedAlert": "Wedi methu anfon y neges."
+      },
+      "version": "Fersiwn"
+    },
+    "media": {
+      "audio": "Sain",
+      "autoplay": "Autoplay Audio",
+      "storage": "Storio",
+      "downloadWifi": "Lawrlwytho yn unig ar Wi-fi",
+      "deleteCache": "Dileu Cache"
+    },
+    "notifications": {
+      "notifications": "Hysbysiadau",
+      "groupInvitation": "Gwahoddiad Grŵp",
+      "devotions": "Gwahodd i Ddefosiynau",
+      "file": "Cadarnhad Trosglwyddo Ffeil"
+    }
+  },
+  "inviteUsers": { "header": "Gwahodd Defnyddwyr" },
+  "playlist": {
+    "header": "Rhestr Chwarae",
+    "audioFileLabel": "Ffeil Sain",
+    "audioFilesLabel": "Ffeiliau Sain"
+  },
+  "collection": { "header": "Casgliad", "audioFilesLabel": "Ffeiliau Sain" },
+  "modal": {
+    "close": "cau",
+    "addToPlaylist": { "title": "Ychwanegu at Rhestr Chwarae", "button": "Creu Rhestr Chwarae" },
+    "startDevotion": { "title": "Dechreuwch Defosiwn" },
+    "createPlaylist": {
+      "title": "Creu Rhestr Chwarae Newydd",
+      "button": "Creu Rhestr Chwarae",
+      "inputPlaceholder": "Rhowch Enw Rhestr Chwarae",
+      "success": "Ychwanegwyd at Rhestr Chwarae"
+    },
+    "login": "Mae angen i chi fewngofnodi i ddechrau defosiwn"
+  },
+  "options": {
+    "shared": {
+      "share": "Rhannu",
+      "report": "Cynnwys yr Adroddiad",
+      "shareOthers": "Rhannwch ag Eraill",
+      "copy": "Copi Dolen",
+      "more": "Mwy"
+    },
+    "audio": {
+      "download": "Dadlwythwch",
+      "addFavorite": "Ychwanegu at Ffefrynnau",
+      "addPlaylist": "Ychwanegu at Rhestr Chwarae",
+      "removeFavorite": "Tynnwch o Ffefrynnau",
+      "removePlaylist": "Tynnwch o'r Rhestr Chwarae",
+      "removeDownload": "Tynnu o'r Dadlwythiadau"
+    },
+    "playlist": { "edit": "Golygu", "delete": "Dileu Rhestr Chwarae" },
+    "startDevotion": "Dechreuwch Defosiwn"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Ychwanegwyd at Rhestr Chwarae",
+      "delete": "Wedi'i dynnu o'r Rhestr Chwarae",
+      "create": "Rhestr Chwarae wedi'i Chreu",
+      "destroy": "Rhestr Chwarae wedi'i Dileu"
+    },
+    "favorites": { "add": "Ychwanegwyd at Ffefrynnau", "remove": "Wedi'i dynnu o Ffefrynnau" },
+    "downloads": { "remove": "Wedi'i dynnu o Lawrlwythiadau" }
+  },
+  "buttons": { "loop": "Dolen", "shuffle": "Shuffle" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Chwilio ..." },
+    "notification": { "success": "Llwyddiant! Anfonir e-bost i'ch cyfrif." },
+    "button": { "sending": "Anfon ..." },
+    "modalSelector": { "cancel": "Canslo" },
+    "loading": "Llwytho"
+  },
+  "bible": {
+    "header": "Beibl",
+    "oldTestament": "Hen Destament",
+    "newTestament": "Testament Newydd",
+    "popularBooks": "Llyfrau poblogaidd"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Chwilio",
+    "cancelButton": "CANCEL",
+    "searchResults": "Canlyniadau Chwilio",
+    "filterButton": "Hidlo",
+    "teachings": { "title": "Dysgeidiaeth" },
+    "bible": { "title": "Beibl" }
+  },
+  "addToPlaylistsModal": {
+    "title": "Ychwanegu at Rhestr Chwarae",
+    "button": "Creu Rhestr Chwarae"
+  },
+  "createPlaylistModal": {
+    "title": "Creu Rhestr Chwarae Newydd",
+    "button": "Creu Rhestr Chwarae",
+    "inputPlaceholder": "Rhowch Enw Rhestr Chwarae"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Ychwanegwyd at Rhestr Chwarae",
+      "remove": "Wedi'i dynnu o'r Rhestr Chwarae",
+      "create": "Rhestr Chwarae wedi'i Chreu",
+      "delete": "Rhestr Chwarae wedi'i Dileu"
+    },
+    "favorites": { "add": "Ychwanegwyd at Ffefrynnau", "remove": "Wedi'i dynnu o Ffefrynnau" },
+    "downloads": { "remove": "Wedi'i dynnu o Lawrlwythiadau" },
+    "facebook": { "loginError": "Mewngofnodi yn methu â chamgymeriad" },
+    "google": { "loginError": "Mewngofnodi yn methu â chamgymeriad" }
+  },
+  "playlists": { "trackLabel": "Trac", "tracksLabel": "Traciau" },
+  "mediaList": { "tracksLabel": "Traciau", "remove": "Tynnu" },
+  "tutorialPage": { "done": "Wedi'i wneud", "skip": "Neidio" },
+  "loginModal": { "login": "Mewngofnodi" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Llwytho i lawr", "complete": "Lawrlwytho Wedi'i gwblhau" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Archwiliwch y Beibl",
+      "subtitle1": "Teithiwch trwy'r Beibl cyfan gyda ni, neu dechreuwch daith eich hun.",
+      "title2": "Gwrando ac Ymgysylltu",
+      "subtitle2": "Mae'r chwaraewr cyfryngau yn caniatáu ichi blymio i mewn i THRU y cynnwys BEIBL yn rhwydd.",
+      "title3": "Darganfyddwch Ddysgeidiaeth",
+      "subtitle3": "Ymgysylltwch â'r Beibl fel erioed o'r blaen trwy groesgyfeirio'r cynnwys Beibl ac Addysgu.",
+      "title4": "Trafodwch y Beibl",
+      "subtitle4": "Ymunwch â grŵp i astudio dysgeidiaeth a phynciau'r BEIBL gydag eraill.",
+      "title5": "Lawrlwytho a Rhannu",
+      "subtitle5": "Mwynhewch wrando ar Air Duw wrth fynd a'i rannu gyda'ch ffrindiau.",
+      "title6": "Cadw a Chreu",
+      "subtitle6": "Arbedwch eich hoff ddysgeidiaeth ac adnodau o'r Beibl neu greu rhestr chwarae arfer.",
+      "title7": "Defosiynau Grŵp",
+      "subtitle7": "Cael eich annog a'ch ysbrydoli gan eraill sydd â defosiynau grŵp dyddiol."
+    },
+    "registerPage": {
+      "noThanks": "Dim Diolch",
+      "haveAccount": "Oes gennych chi gyfrif?",
+      "createAccount": "Creu Fy Nghyfrif",
+      "title1": "Trafodwch ag Eraill",
+      "subtitle1": "Trafodwch eich hoff bynciau a phenillion o'r Beibl gydag eraill.",
+      "title2": "Rhestri Chwarae Storio a Sync",
+      "subtitle2": "Adeiladu rhestrau o'ch hoff gynnwys mewn un lle.",
+      "title3": "Gweld Eich Ffefrynnau",
+      "subtitle3": "Storiwch a dewch yn ôl i ymweld â'ch ffefrynnau yn nes ymlaen.",
+      "title4": "Croeso nol",
+      "subtitle4": "Creu cyfrif a chael mynediad i'n holl nodweddion."
+    }
+  },
+  "app": {
+    "close": "cau",
+    "accept": "Derbyn",
+    "reject": "Gwrthod",
+    "constructionInProgress": "ADEILADU MEWN CYNNYDD",
+    "downloadComplete": "Lawrlwytho Wedi'i gwblhau",
+    "downloading": "Llwytho i lawr",
+    "downloadFailed": "Lawrlwytho Methwyd",
+    "sendAFile": "Mae Rhywun Eisiau Anfon Ffeil atoch"
+  },
+  "transferring": { "tryAgain": "ceisio eto", "close": "cau" },
+  "checkDevice": {
+    "check": "Gwiriwch Eich Dyfais",
+    "makeSure": "Gwnewch yn siŵr bod Wifi-Direct yn cael ei droi ar ddyfais eich ffrind a'i fod mewn amrediad.",
+    "continue": "Parhewch"
+  },
+  "connectToDevice": { "connect": "Cysylltu â Dyfais" },
+  "pairing": {
+    "connect": "Cysylltu â Dyfais",
+    "pairing": "Pâr",
+    "success": "Paru yn llwyddiannus",
+    "failed": "Methwyd â Pâr Dyfeisiau",
+    "makeSure": "Gwnewch yn siŵr bod (Wifi-Direct) yn cael ei droi ar ddyfais eich ffrind a'i fod mewn amrediad.",
+    "continue": "Parhewch",
+    "tryAgain": "Ceisio eto"
+  },
+  "selectNetworkType": {
+    "connect": "Cysylltu â dyfais",
+    "share": "Rhannwch gyda Wifi Direct",
+    "send": "Anfon ffeil dros wifi yn uniongyrchol?",
+    "continue": "Parhewch"
+  }
+}

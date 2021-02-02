@@ -1,0 +1,394 @@
+{
+  "selectLanguage": { "heading": "Zimanê xweya heyî hilbijêrin", "mainAction": "Ziman hilbijêrin" },
+  "menu": {
+    "anonymousTitle": "Hesabê te",
+    "anonymousAction": "Têkevin",
+    "editProfileAction": "Profîla biguherîne",
+    "verifyProfileAction": "Profîlê rast bikin",
+    "bibleSection": "încîl",
+    "teachingsSection": "Hînkirinan",
+    "librarySection": "Pirtûkxaneya min",
+    "groupsSection": "Koman",
+    "donateSection": "Bêşdan",
+    "settingsSection": "Mîhengên",
+    "signOut": "Guhê xwe nedene",
+    "modals": {
+      "verifyProfile": {
+        "title": "Hûn nayên pejirandin",
+        "message": "Lîsteyên we dê neyên senkronîzekirin û hûn nikarin koman biafirînin. Ji kerema xwe e-nameya xwe kontrol bikin da ku qeydkirinê temam bikin.",
+        "firstButton": "Berdewamkirin",
+        "secondButton": "Profîlek nû tomar bikin"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Têketin",
+    "emailPlaceholder": "E-nameya we",
+    "passwordPlaceholder": "Passwordîfreya we",
+    "forgotAction": "Passwordîfre ji bîr kir?",
+    "callToAction": "Têketin",
+    "signInAlternatives": "An jî Bikaranînê Bikin",
+    "noAccountAction": "Hesab tune? Yek çêbikin",
+    "notifications": {
+      "invalidCredentials": "Bawernameyên nederbasdar",
+      "inProgress": "Jixwe di pêşveçûnê de bikevin",
+      "notAvailable": "Karûbarên lîstinê tune"
+    }
+  },
+  "signUp": {
+    "header": "Hesabê çêbikin",
+    "emailPlaceholder": "E-nameya we",
+    "passwordPlaceholder": "Passwordîfreya we",
+    "privateAction": "Hesabê Xwe Bikin",
+    "termsDisclaimer": {
+      "pre": "Bi tikandina Serkeftinê hûn diyar dikin ku we xwendiye û pê razî ye",
+      "terms": "şertan",
+      "post": "."
+    },
+    "callToAction": "Tomar kirin",
+    "signUpAlternatives": "An jî Bikaranîn Bikar bînin",
+    "haveAnAccountAction": "Hesabek we heye?",
+    "notifications": {
+      "invalidUsername": "Navên bikarhêneran bi 20 tîpên alfanumerîkî (hejmar û tîpên rêkûpêk) hatine sînorkirin",
+      "invalidPassword": "Pêdivî ye ku şîfre herî kêm 3 tîp hebin û ji tîpên mezin û biçûk ên bi kêmî ve yek hejmar an tîpek taybetî hebin"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Nikarin hesabek çêbikin",
+        "message": "Ev navnîşana e-nameyê jixwe heye.",
+        "firstButton": "Têketin",
+        "secondButton": "Nêzîkî"
+      },
+      "privateAccount": {
+        "title": "Hesabê Taybet",
+        "message": "Bi çêkirina hesabê xwe yê taybet, hûn wê vedişêrin ku ji hêla kesên din ve nayê dîtin.",
+        "firstButton": "Baweranîn",
+        "secondButton": "Paşvegerrî"
+      },
+      "success": {
+        "title": "Hesab Hatî Afirandin!",
+        "message": "Hesabê we bi serfirazî hate afirandin. Inbox-a xwe kontrol bikin da ku hesabê xwe piştrast bikin û têkevin.",
+        "firstButton": "Têketin"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Reset şîfreyê",
+    "emailPlaceholder": "E-nameya we",
+    "message": "Ji kerema xwe e-nameya xwe binivîsin da ku şîfreya xwe ji bo hesabê xwe vegerînin.",
+    "callToAction": "Reset şîfreyê",
+    "notifications": {
+      "success": "Me tenê e-nameyek ji qutîka we re şand",
+      "emailNotFoundError": "E-name nehat dîtin",
+      "invalidEmailError": "Formata e-nameyê nederbasdar e"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Sazkirina Dawî",
+    "message": "E-nameyek ji navnîşana e-nameya ku we re şandî re hat şandin. Ji kerema xwe hûrguliyên e-nameyê binihêrin da ku qeydkirinê temam bikin.",
+    "callToAction": "Ji bo Naha Bikişin"
+  },
+  "teachings": {
+    "dailyText": "Weşana Todayro",
+    "journeyTitle": "Rêwîtiya xwe Dest pê bikin",
+    "journeySubtitle": "Hemî hînkirinên ji destpêkê heya dawiyê",
+    "journeyCardTitle": "215 Hefteya Rêwîtiyê Bi Mizgîniyê",
+    "journeyCardSubtitle": "Li dema xwe guhdarî bikin",
+    "tracksLabel": "Track"
+  },
+  "teaching": {
+    "header": "Hînkirinan",
+    "loading": "Loading ...",
+    "player": { "audioSpeed": "Leza Audio", "loading": "Barkirin", "castingError": "Amûr tune" },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Guhdarî Berdewam bikin",
+        "secondButton": "Rêwîtiya xwe dest pê bikin"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Bi Dîrok",
+    "bySeries": "Bi rêzê",
+    "sections": { "tracksLabel": "Track" }
+  },
+  "library": {
+    "header": "Pirtûkxaneya min",
+    "tabs": { "downloads": "Dakêşandin", "favorites": "Favorites", "playlists": "Lîsteyên lîstinê" }
+  },
+  "groups": {
+    "header": "Koman",
+    "createGroup": {
+      "title": "Koma Nû çêbikin",
+      "groupNameLabel": "NAV GRO GRUP",
+      "groupNameInputPlaceHolder": "Nav",
+      "descriptionLabel": "TERÎF",
+      "descriptionInputPlaceHolder": "Danasînê zêde bikin",
+      "inviteLabel": "Bikarhênerên Vexwendin",
+      "inviteButton": "Bikarhênerên Nû Vexwendin",
+      "button": "Koma xwe çêbikin",
+      "invalidGroupName": "Navek derbasdar binivîse",
+      "groupNameTooLong": "Navê komê divê ji 25 tîpan zêdetir nebe"
+    },
+    "devotionNotStartAlert": "Ji bo vê komê dilsoziyek dest pê nekiriye",
+    "membersLabel": "Endam",
+    "chatModalMemberSubtitleLabel": "endam",
+    "chatModalMembersSubtitleLabel": "endamên",
+    "chat": {
+      "listeningToLabel": "Guhdarî kirin",
+      "loadingTrackLabel": "Loading track ...",
+      "inputPlaceHolder": "Peyamê binivîse",
+      "deletePost": "Postê Jêbirin",
+      "deleteMessage": "peyamek jê kiriye"
+    },
+    "groupSettings": {
+      "participantsSection": "Beşdaran",
+      "viewAll": "Hemiyan Bibîne",
+      "invite": "Bikarhênerên Nû Vexwendin",
+      "endDevotion": "Devoka Koma Dawî",
+      "deleteGroup": "Komê Jêbirin",
+      "leaveGroup": "Koma xwe terk bikin"
+    },
+    "userDirectory": {
+      "header": "User Directory",
+      "remove": "Dûrxistin",
+      "anonymous": "Bênav",
+      "send": "Şandin"
+    },
+    "inviteUser": { "placeHolder": "Gerr", "send": "Şandin" }
+  },
+  "chat": {
+    "header": "Channel Channel",
+    "settings": {
+      "header": "Mîhengên Koma",
+      "endDevotion": {
+        "alertTitle": "Devoka Dawî",
+        "alertMessage": "Ma hûn pê ewle ne ku hûn dixwazin vê dilsoziya xwe biqedînin?",
+        "alertCancel": "Bişûndekirin",
+        "alertConfirm": "Erê",
+        "endDevotionLabel": "vê dilsoziya xwe qedand.",
+        "hasEnded": "Ev dilsozî qediya"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Devoka Destpê bikin",
+    "alertMessage": "Ma hûn pê ewle ne ku hûn dixwazin bi% {name} komê re dilsoziyê dest pê bikin?",
+    "alertCancel": "Bişûndekirin",
+    "alertConfirm": "Erê",
+    "devotionStartedLabel": "devokek dest pê kiriye."
+  },
+  "settings": {
+    "header": "Mîhengên",
+    "tabs": { "profile": "Tengal", "media": "Medya", "notifications": "Notifications" },
+    "profile": {
+      "account": "Konto",
+      "username": "Navê bikarhêner",
+      "email": "E-name",
+      "editButton": "Weşandin",
+      "edit": {
+        "save": "Rizgarkirin",
+        "username": {
+          "header": "Navê bikarhêner",
+          "successAlert": "Guhertina we hate tomar kirin.",
+          "failedAlert": "Guhertin xilas nebû."
+        },
+        "email": {
+          "header": "E-nameyê bişînin",
+          "successAlert": "Guhertina we hate tomar kirin.",
+          "failedAlert": "Guhertin xilas nebû."
+        }
+      },
+      "languages": "Ziman",
+      "signIn": "Têketin",
+      "signOut": "Ji Hesabê Derkevin",
+      "legal": "Mafî",
+      "termsConditions": "Termsert û merc",
+      "privacyPolicy": "Siyaseta taybetîtiyê",
+      "support": "Alîkarî",
+      "reportAProblem": "Pirsgirêkekê ragihînin",
+      "tutorial": "Tutorial",
+      "reportBug": {
+        "header": "Pirsgirêkekê ragihînin",
+        "send": "Şandin",
+        "subject": "MIJAR",
+        "subjectPlaceHolder": "Mijar",
+        "description": "TERÎF",
+        "descriptionPlaceHolder": "Terîf",
+        "successAlert": "Spas, me peyama we girt.",
+        "failedAlert": "Toandina peyamê çênebû."
+      },
+      "version": "Awa"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Autoplay Audio",
+      "storage": "Embarkirinî",
+      "downloadWifi": "Tenê li ser Wi-fi Dakêşînin",
+      "deleteCache": "Cache-yê hilweşînin"
+    },
+    "notifications": {
+      "notifications": "Notifications",
+      "groupInvitation": "Vexwendina komê",
+      "devotions": "Vexwendina Devotions",
+      "file": "Pejirandina Veguheztina Pelê"
+    }
+  },
+  "inviteUsers": { "header": "Bikarhênerên Vexwendin" },
+  "playlist": {
+    "header": "Playlist",
+    "audioFileLabel": "Pelê Audio",
+    "audioFilesLabel": "Pelên Audio"
+  },
+  "collection": { "header": "Berhevkirî", "audioFilesLabel": "Pelên Audio" },
+  "modal": {
+    "close": "nêzîkî",
+    "addToPlaylist": { "title": "Add to Playlist", "button": "Playlist-ê çêbikin" },
+    "startDevotion": { "title": "Devoka Destpê bikin" },
+    "createPlaylist": {
+      "title": "Playlist-a Nû çêbikin",
+      "button": "Playlist-ê çêbikin",
+      "inputPlaceholder": "Navê Lîsteya Lîstinê binivîse",
+      "success": "Li Lîsteya Lîstinê hate zêdekirin"
+    },
+    "login": "Hûn hewce ne ku têkevin ku dest bi dilsoziyek bikin"
+  },
+  "options": {
+    "shared": {
+      "share": "Par",
+      "report": "Naveroka Ragihandinê",
+      "shareOthers": "Bi yên din re parve bikin",
+      "copy": "Zencîreyê Kopî Bikin",
+      "more": "Zêde"
+    },
+    "audio": {
+      "download": "Dakêşînin",
+      "addFavorite": "Add to Favorites",
+      "addPlaylist": "Add to Playlist",
+      "removeFavorite": "Ji Bijareyan rake",
+      "removePlaylist": "Ji Lîsteya Lîsteyê hilînin",
+      "removeDownload": "Ji Dakêşanan derxistin"
+    },
+    "playlist": { "edit": "Weşandin", "delete": "Playlist-ê hilweşînin" },
+    "startDevotion": "Devoka Destpê bikin"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Li Lîsteya Lîstinê hate zêdekirin",
+      "delete": "Ji Lîsteya Lîstinê hate derxistin",
+      "create": "Playlist-ê afirand",
+      "destroy": "Lîsteya Lîstinê hate jêbirin"
+    },
+    "favorites": { "add": "Zêde li Bijareyan", "remove": "Ji Bijareyan hate rakirin" },
+    "downloads": { "remove": "Ji Dakêşanan hate rakirin" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Shuffle" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Gerr..." },
+    "notification": { "success": "Serketinî! Dê e-nameyek ji hesabê we re were şandin." },
+    "button": { "sending": "Sendandin ..." },
+    "modalSelector": { "cancel": "Bişûndekirin" },
+    "loading": "Barkirin"
+  },
+  "bible": {
+    "header": "încîl",
+    "oldTestament": "Peymana Kevn",
+    "newTestament": "Ahîda Nû",
+    "popularBooks": "Pirtûkên populer"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Gerr",
+    "cancelButton": "BIŞÛNDEKIRIN",
+    "searchResults": "Encamên Lêgerînê",
+    "filterButton": "Parzûn",
+    "teachings": { "title": "Hînkirinan" },
+    "bible": { "title": "încîl" }
+  },
+  "addToPlaylistsModal": { "title": "Add to Playlist", "button": "Playlist-ê çêbikin" },
+  "createPlaylistModal": {
+    "title": "Playlist-a Nû çêbikin",
+    "button": "Playlist-ê çêbikin",
+    "inputPlaceholder": "Navê Lîsteya Lîstinê binivîse"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Li Lîsteya Lîstinê hate zêdekirin",
+      "remove": "Ji Lîsteya Lîstinê hate derxistin",
+      "create": "Playlist-ê afirand",
+      "delete": "Lîsteya Lîstinê hate jêbirin"
+    },
+    "favorites": { "add": "Zêde li Bijareyan", "remove": "Ji Bijareyan hate rakirin" },
+    "downloads": { "remove": "Ji Dakêşanan hate rakirin" },
+    "facebook": { "loginError": "Têketin bi xeletî têk diçe" },
+    "google": { "loginError": "Têketin bi xeletî têk diçe" }
+  },
+  "playlists": { "trackLabel": "Şop", "tracksLabel": "Track" },
+  "mediaList": { "tracksLabel": "Track", "remove": "Dûrxistin" },
+  "tutorialPage": { "done": "Kirî", "skip": "Hilperkîn" },
+  "loginModal": { "login": "Têkevin" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Dakêşandin", "complete": "Dakêşandin Temam" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Mizgîniyê bikolin",
+      "subtitle1": "Bi me re bi tevahî Mizgîniyê re rêwîtiyê bikin, an jî ji xwe rêwîtiyek dest pê bikin.",
+      "title2": "Guhdarî bikin & Beşdar bibin",
+      "subtitle2": "Media player dihêle hûn bi hêsanî li THRU naveroka BIBLE bigerin.",
+      "title3": "Hînkirinan Bibînin",
+      "subtitle3": "Bi xaçkirina referansa li ser naveroka Mizgîniyê & Hînkirinê bi Mizgîniyê re têkildar bin mîna berê.",
+      "title4": "Li ser Mizgîniyê nîqaş bikin",
+      "subtitle4": "Bi komekê re bibin endam û bi kesên din re li ser hînkirinên THRU û mijarên BIBL.",
+      "title5": "Dakêşin & Parve bikin",
+      "subtitle5": "Li ser guhê xwe bidin Guhdariya Gotina Xwedê û wê bi hevalên xwe re parve bikin.",
+      "title6": "Save & Afirandin",
+      "subtitle6": "Hînkirin û ayetên Mizgîniyê yên bijare hilînin an lîsteyek lîsteyê ya xwerû çêbikin.",
+      "title7": "Devokên Koma",
+      "subtitle7": "Bi devokên koma rojane ji hêla kesên din ve werin cesaret û teşwîq kirin."
+    },
+    "registerPage": {
+      "noThanks": "Na Spas",
+      "haveAccount": "Hesabek we heye?",
+      "createAccount": "Hesabê Min Biafirînin",
+      "title1": "Bi Yên Din re Nîqaş bikin",
+      "subtitle1": "Li ser mijarên bijare û ayetên Incîlê bi yên din re nîqaş bikin.",
+      "title2": "Lîsteya Playlîsê tomar û Sync bikin",
+      "subtitle2": "Li cîhek navnîşên naveroka xweya bijarte çêbikin.",
+      "title3": "Bijareyên Xwe Bibînin",
+      "subtitle3": "Di demek paşê de tomar bikin û vegerin û serdana bijareyên xwe bikin.",
+      "title4": "Duabre bixêr bên",
+      "subtitle4": "Hesabek çêbikin û bigihîjin hemî taybetmendiyên me."
+    }
+  },
+  "app": {
+    "close": "nêzîkî",
+    "accept": "Baweranîn",
+    "reject": "Refzkirin",
+    "constructionInProgress": "LI SER PGRROZ CON AVA",
+    "downloadComplete": "Dakêşandin Temam",
+    "downloading": "Dakêşandin",
+    "downloadFailed": "Dakêşandin Bû",
+    "sendAFile": "Kesek Dixwaze Dosiyekê Ji We re Sendand"
+  },
+  "transferring": { "tryAgain": "dubare bixebitin", "close": "nêzîkî" },
+  "checkDevice": {
+    "check": "Amûra Xwe Kontrol bikin",
+    "makeSure": "Ji kerema xwe pê ewle bine ku Wifi-Direct li ser amûrê hevalê we hatî zivirandin û ew di nav rêzê de ye.",
+    "continue": "Berdewamkirin"
+  },
+  "connectToDevice": { "connect": "Bi Amûrek ve girêdayî bibin" },
+  "pairing": {
+    "connect": "Bi Amûrek ve girêdayî bibin",
+    "pairing": "Pairing",
+    "success": "Bi serfirazî hate cot kirin",
+    "failed": "Hevgirtina Cîhazê Çênebû",
+    "makeSure": "Ji kerema xwe pê ewle bine ku (Wifi-Direct) amûrê hevalê we hatî vedan û ew di nav rêzê de ye.",
+    "continue": "Berdewamkirin",
+    "tryAgain": "Dubare bixebitin"
+  },
+  "selectNetworkType": {
+    "connect": "Bi amûrek ve girêdayî bibin",
+    "share": "Bi Wifi Direct re parve bikin",
+    "send": "Pelê li ser wifi rasterast bişînin?",
+    "continue": "Berdewamkirin"
+  }
+}

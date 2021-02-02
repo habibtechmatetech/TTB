@@ -1,0 +1,414 @@
+{
+  "selectLanguage": {
+    "heading": "ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+    "mainAction": "ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "menu": {
+    "anonymousTitle": "ನಿಮ್ಮ ಖಾತೆ",
+    "anonymousAction": "ಲಾಗಿನ್ ಮಾಡಿ",
+    "editProfileAction": "ಪ್ರೊಫೈಲ್ ಬದಲಿಸು",
+    "verifyProfileAction": "ಪ್ರೊಫೈಲ್ ಪರಿಶೀಲಿಸಿ",
+    "bibleSection": "ಬೈಬಲ್",
+    "teachingsSection": "ಬೋಧನೆಗಳು",
+    "librarySection": "ನನ್ನ ಲೈಬ್ರರಿ",
+    "groupsSection": "ಗುಂಪುಗಳು",
+    "donateSection": "ದಾನ",
+    "settingsSection": "ಸಂಯೋಜನೆಗಳು",
+    "signOut": "ಸೈನ್ .ಟ್ ಮಾಡಿ",
+    "modals": {
+      "verifyProfile": {
+        "title": "ನಿಮ್ಮನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ",
+        "message": "ನಿಮ್ಮ ಪಟ್ಟಿಗಳನ್ನು ಸಿಂಕ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ ಮತ್ತು ನೀವು ಗುಂಪುಗಳನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ನೋಂದಣಿ ಪೂರ್ಣಗೊಳಿಸಲು ದಯವಿಟ್ಟು ನಿಮ್ಮ ಇಮೇಲ್ ಪರಿಶೀಲಿಸಿ.",
+        "firstButton": "ಮುಂದುವರಿಸಿ",
+        "secondButton": "ಹೊಸ ಪ್ರೊಫೈಲ್ ಅನ್ನು ನೋಂದಾಯಿಸಿ"
+      }
+    }
+  },
+  "signIn": {
+    "header": "ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "emailPlaceholder": "ನಿಮ್ಮ ಇಮೇಲ್",
+    "passwordPlaceholder": "ನಿಮ್ಮ ಗುಪ್ತಪದ",
+    "forgotAction": "ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರಾ?",
+    "callToAction": "ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "signInAlternatives": "ಅಥವಾ ಬಳಸಿ ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "noAccountAction": "ಖಾತೆ ಇಲ್ಲವೇ? ಒಂದನ್ನು ತಯಾರಿಸು",
+    "notifications": {
+      "invalidCredentials": "ಅಮಾನ್ಯ ರುಜುವಾತುಗಳು",
+      "inProgress": "ಸೈನ್ ಇನ್ ಈಗಾಗಲೇ ಪ್ರಗತಿಯಲ್ಲಿದೆ",
+      "notAvailable": "ಪ್ಲೇ ಸೇವೆಗಳು ಲಭ್ಯವಿಲ್ಲ"
+    }
+  },
+  "signUp": {
+    "header": "ಖಾತೆ ತೆರೆ",
+    "emailPlaceholder": "ನಿಮ್ಮ ಇಮೇಲ್",
+    "passwordPlaceholder": "ನಿಮ್ಮ ಗುಪ್ತಪದ",
+    "privateAction": "ಖಾತೆಯನ್ನು ಖಾಸಗಿಯನ್ನಾಗಿ ಮಾಡಿ",
+    "termsDisclaimer": {
+      "pre": "ಸೈನ್ ಅಪ್ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನೀವು ಓದಿದ್ದೀರಿ ಮತ್ತು ಒಪ್ಪಿದ್ದೀರಿ ಎಂದು ಸೂಚಿಸುತ್ತೀರಿ",
+      "terms": "ನಿಯಮಗಳು",
+      "post": "."
+    },
+    "callToAction": "ಸೈನ್ ಅಪ್ ಮಾಡಿ",
+    "signUpAlternatives": "ಅಥವಾ ಬಳಸಿ ಸೈನ್ ಅಪ್ ಮಾಡಿ",
+    "haveAnAccountAction": "ಖಾತೆ ಇದೆಯೇ?",
+    "notifications": {
+      "invalidUsername": "ಬಳಕೆದಾರಹೆಸರುಗಳನ್ನು 20 ಆಲ್ಫಾನ್ಯೂಮರಿಕ್ ಅಕ್ಷರಗಳಿಗೆ ಸೀಮಿತಗೊಳಿಸಲಾಗಿದೆ (ಸಂಖ್ಯೆಗಳು ಮತ್ತು ಸಾಮಾನ್ಯ ಅಕ್ಷರಗಳು)",
+      "invalidPassword": "ಪಾಸ್ವರ್ಡ್ ಕನಿಷ್ಠ 3 ಅಕ್ಷರಗಳನ್ನು ಹೊಂದಿರಬೇಕು ಮತ್ತು ಕನಿಷ್ಠ ಒಂದು ಸಂಖ್ಯೆ ಅಥವಾ ವಿಶೇಷ ಅಕ್ಷರಗಳನ್ನು ಹೊಂದಿರುವ ದೊಡ್ಡ ಮತ್ತು ಸಣ್ಣ ಅಕ್ಷರಗಳ ಸಂಯೋಜನೆಯಾಗಿರಬೇಕು"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "ಖಾತೆಯನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ",
+        "message": "ಈ ಇಮೇಲ್ ವಿಳಾಸವು ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ.",
+        "firstButton": "ಸೈನ್ ಇನ್ ಮಾಡಿ",
+        "secondButton": "ಮುಚ್ಚಿ"
+      },
+      "privateAccount": {
+        "title": "ಖಾಸಗಿ ಖಾತೆ",
+        "message": "ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಖಾಸಗಿಯನ್ನಾಗಿ ಮಾಡುವ ಮೂಲಕ, ನೀವು ಅದನ್ನು ಇತರರು ಕಂಡುಹಿಡಿಯದಂತೆ ಮರೆಮಾಡುತ್ತೀರಿ.",
+        "firstButton": "ಒಪ್ಪಿಕೊಳ್ಳಿ",
+        "secondButton": "ಅವನತಿ"
+      },
+      "success": {
+        "title": "ಖಾತೆಯನ್ನು ರಚಿಸಲಾಗಿದೆ!",
+        "message": "ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ. ನಿಮ್ಮ ಖಾತೆಯನ್ನು ದೃ irm ೀಕರಿಸಲು ಮತ್ತು ಸೈನ್ ಇನ್ ಮಾಡಲು ನಿಮ್ಮ ಇನ್‌ಬಾಕ್ಸ್ ಪರಿಶೀಲಿಸಿ.",
+        "firstButton": "ಸೈನ್ ಇನ್ ಮಾಡಿ"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸಿ",
+    "emailPlaceholder": "ನಿಮ್ಮ ಇಮೇಲ್",
+    "message": "ನಿಮ್ಮ ಖಾತೆಗಾಗಿ ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಮರುಹೊಂದಿಸಲು ದಯವಿಟ್ಟು ನಿಮ್ಮ ಇಮೇಲ್ ಅನ್ನು ನಮೂದಿಸಿ.",
+    "callToAction": "ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸಿ",
+    "notifications": {
+      "success": "ನಿಮ್ಮ ಇನ್‌ಬಾಕ್ಸ್‌ಗೆ ನಾವು ಇಮೇಲ್ ಕಳುಹಿಸಿದ್ದೇವೆ",
+      "emailNotFoundError": "ಇಮೇಲ್ ಕಂಡುಬಂದಿಲ್ಲ",
+      "invalidEmailError": "ಅಮಾನ್ಯವಾದ ಇಮೇಲ್ ಸ್ವರೂಪ"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "ಸೆಟಪ್ ಮುಗಿಸಿ",
+    "message": "ನೀವು ನಮೂದಿಸಿದ ಇಮೇಲ್ ವಿಳಾಸಕ್ಕೆ ಇಮೇಲ್ ಕಳುಹಿಸಲಾಗಿದೆ. ನೋಂದಣಿ ಪೂರ್ಣಗೊಳಿಸಲು ದಯವಿಟ್ಟು ಇಮೇಲ್ ವಿವರಗಳನ್ನು ನೋಡಿ.",
+    "callToAction": "ಇದೀಗ ಬಿಟ್ಟುಬಿಡಿ"
+  },
+  "teachings": {
+    "dailyText": "ಇಂದಿನ ಪ್ರಸಾರ",
+    "journeyTitle": "ನಿಮ್ಮ ಪ್ರಯಾಣವನ್ನು ಪ್ರಾರಂಭಿಸಿ",
+    "journeySubtitle": "ಪ್ರಾರಂಭದಿಂದ ಮುಗಿಸುವವರೆಗೆ ಎಲ್ಲಾ ಬೋಧನೆಗಳು",
+    "journeyCardTitle": "215 ವಾರದ ಪ್ರಯಾಣ ಬೈಬಲ್ ಮೂಲಕ",
+    "journeyCardSubtitle": "ನಿಮ್ಮ ಸಮಯವನ್ನು ಆಲಿಸಿ",
+    "tracksLabel": "ಟ್ರ್ಯಾಕ್‌ಗಳು"
+  },
+  "teaching": {
+    "header": "ಬೋಧನೆಗಳು",
+    "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ ...",
+    "player": {
+      "audioSpeed": "ಆಡಿಯೋ ವೇಗ",
+      "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ",
+      "castingError": "ಯಾವುದೇ ಸಾಧನಗಳು ಲಭ್ಯವಿಲ್ಲ"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "ಆಲಿಸುವುದನ್ನು ಮುಂದುವರಿಸಿ",
+        "secondButton": "ನಿಮ್ಮ ಪ್ರಯಾಣವನ್ನು ಪ್ರಾರಂಭಿಸಿ"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "ದಿನಾಂಕದಂದು",
+    "bySeries": "ಸರಣಿಯ ಪ್ರಕಾರ",
+    "sections": { "tracksLabel": "ಟ್ರ್ಯಾಕ್‌ಗಳು" }
+  },
+  "library": {
+    "header": "ನನ್ನ ಲೈಬ್ರರಿ",
+    "tabs": {
+      "downloads": "ಡೌನ್‌ಲೋಡ್‌ಗಳು",
+      "favorites": "ಮೆಚ್ಚಿನವುಗಳು",
+      "playlists": "ಪ್ಲೇಪಟ್ಟಿಗಳು"
+    }
+  },
+  "groups": {
+    "header": "ಗುಂಪುಗಳು",
+    "createGroup": {
+      "title": "ಹೊಸ ಗುಂಪನ್ನು ರಚಿಸಿ",
+      "groupNameLabel": "ತಂಡದ ಹೆಸರು",
+      "groupNameInputPlaceHolder": "ಹೆಸರು",
+      "descriptionLabel": "ವಿವರಣೆ",
+      "descriptionInputPlaceHolder": "ವಿವರಣೆಯನ್ನು ಸೇರಿಸಿ",
+      "inviteLabel": "ಬಳಕೆದಾರರನ್ನು ಆಹ್ವಾನಿಸಿ",
+      "inviteButton": "ಹೊಸ ಬಳಕೆದಾರರನ್ನು ಆಹ್ವಾನಿಸಿ",
+      "button": "ಗುಂಪು ರಚಿಸಿ",
+      "invalidGroupName": "ಮಾನ್ಯವಾದ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
+      "groupNameTooLong": "ಗುಂಪಿನ ಹೆಸರು 25 ಕ್ಕಿಂತ ಹೆಚ್ಚು ಅಕ್ಷರಗಳನ್ನು ಹೊಂದಿರಬಾರದು"
+    },
+    "devotionNotStartAlert": "ಈ ಗುಂಪಿಗೆ ಭಕ್ತಿ ಪ್ರಾರಂಭವಾಗಿಲ್ಲ",
+    "membersLabel": "ಸದಸ್ಯರು",
+    "chatModalMemberSubtitleLabel": "ಸದಸ್ಯ",
+    "chatModalMembersSubtitleLabel": "ಸದಸ್ಯರು",
+    "chat": {
+      "listeningToLabel": "ಆಲಿಸುವುದು",
+      "loadingTrackLabel": "ಟ್ರ್ಯಾಕ್ ಲೋಡ್ ಆಗುತ್ತಿದೆ ...",
+      "inputPlaceHolder": "ಸಂದೇಶ ಬರೆಯಿರಿ",
+      "deletePost": "ಪೋಸ್ಟ್ ಅನ್ನು ಅಳಿಸಿ",
+      "deleteMessage": "ಸಂದೇಶವನ್ನು ಅಳಿಸಿದೆ"
+    },
+    "groupSettings": {
+      "participantsSection": "ಭಾಗವಹಿಸುವವರು",
+      "viewAll": "ಎಲ್ಲಾ ವೀಕ್ಷಿಸಿ",
+      "invite": "ಹೊಸ ಬಳಕೆದಾರರನ್ನು ಆಹ್ವಾನಿಸಿ",
+      "endDevotion": "ಗುಂಪು ಭಕ್ತಿ ಕೊನೆಗೊಳಿಸಿ",
+      "deleteGroup": "ಗುಂಪನ್ನು ಅಳಿಸಿ",
+      "leaveGroup": "ಗುಂಪನ್ನು ಬಿಡಿ"
+    },
+    "userDirectory": {
+      "header": "ಬಳಕೆದಾರರ ಡೈರೆಕ್ಟರಿ",
+      "remove": "ತೆಗೆದುಹಾಕಿ",
+      "anonymous": "ಅನಾಮಧೇಯ",
+      "send": "ಕಳುಹಿಸು"
+    },
+    "inviteUser": { "placeHolder": "ಹುಡುಕಿ Kannada", "send": "ಕಳುಹಿಸು" }
+  },
+  "chat": {
+    "header": "ಗುಂಪು ಚಾನೆಲ್",
+    "settings": {
+      "header": "ಗುಂಪು ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+      "endDevotion": {
+        "alertTitle": "ಭಕ್ತಿ ಕೊನೆಗೊಳಿಸಿ",
+        "alertMessage": "ಈ ಭಕ್ತಿಯನ್ನು ಕೊನೆಗೊಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?",
+        "alertCancel": "ರದ್ದುಮಾಡಿ",
+        "alertConfirm": "ಹೌದು",
+        "endDevotionLabel": "ಈ ಭಕ್ತಿಯನ್ನು ಕೊನೆಗೊಳಿಸಿತು.",
+        "hasEnded": "ಈ ಭಕ್ತಿ ಕೊನೆಗೊಂಡಿದೆ"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "ಭಕ್ತಿ ಪ್ರಾರಂಭಿಸಿ",
+    "alertMessage": "% {Name} ಗುಂಪಿನೊಂದಿಗೆ ಭಕ್ತಿಯನ್ನು ಪ್ರಾರಂಭಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?",
+    "alertCancel": "ರದ್ದುಮಾಡಿ",
+    "alertConfirm": "ಹೌದು",
+    "devotionStartedLabel": "ಭಕ್ತಿ ಪ್ರಾರಂಭಿಸಿದೆ."
+  },
+  "settings": {
+    "header": "ಸಂಯೋಜನೆಗಳು",
+    "tabs": { "profile": "ಪ್ರೊಫೈಲ್", "media": "ಮಾಧ್ಯಮ", "notifications": "ಅಧಿಸೂಚನೆಗಳು" },
+    "profile": {
+      "account": "ಖಾತೆ",
+      "username": "ಬಳಕೆದಾರ ಹೆಸರು",
+      "email": "ಇ-ಮೇಲ್",
+      "editButton": "ತಿದ್ದು",
+      "edit": {
+        "save": "ಉಳಿಸಿ",
+        "username": {
+          "header": "ಬಳಕೆದಾರ ಹೆಸರು",
+          "successAlert": "ನಿಮ್ಮ ಬದಲಾವಣೆಯನ್ನು ಉಳಿಸಲಾಗಿದೆ.",
+          "failedAlert": "ಬದಲಾವಣೆಯನ್ನು ಉಳಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ."
+        },
+        "email": {
+          "header": "ಇಮೇಲ್",
+          "successAlert": "ನಿಮ್ಮ ಬದಲಾವಣೆಯನ್ನು ಉಳಿಸಲಾಗಿದೆ.",
+          "failedAlert": "ಬದಲಾವಣೆಯನ್ನು ಉಳಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ."
+        }
+      },
+      "languages": "ಭಾಷೆಗಳು",
+      "signIn": "ಸೈನ್ ಇನ್ ಮಾಡಿ",
+      "signOut": "ಖಾತೆಯಿಂದ ಸೈನ್ out ಟ್ ಮಾಡಿ",
+      "legal": "ಕಾನೂನು",
+      "termsConditions": "ನಿಯಮ ಮತ್ತು ಶರತ್ತುಗಳು",
+      "privacyPolicy": "ಗೌಪ್ಯತಾ ನೀತಿ",
+      "support": "ಬೆಂಬಲ",
+      "reportAProblem": "ತೊಂದರೆ ವರದಿ ಮಾಡು",
+      "tutorial": "ಟ್ಯುಟೋರಿಯಲ್",
+      "reportBug": {
+        "header": "ತೊಂದರೆ ವರದಿ ಮಾಡು",
+        "send": "ಕಳುಹಿಸು",
+        "subject": "ವಿಷಯ",
+        "subjectPlaceHolder": "ವಿಷಯ",
+        "description": "ವಿವರಣೆ",
+        "descriptionPlaceHolder": "ವಿವರಣೆ",
+        "successAlert": "ಧನ್ಯವಾದಗಳು, ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ನಾವು ಸ್ವೀಕರಿಸಿದ್ದೇವೆ.",
+        "failedAlert": "ಸಂದೇಶ ಕಳುಹಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ."
+      },
+      "version": "ಆವೃತ್ತಿ"
+    },
+    "media": {
+      "audio": "ಆಡಿಯೋ",
+      "autoplay": "ಆಟೋಪ್ಲೇ ಆಡಿಯೋ",
+      "storage": "ಸಂಗ್ರಹಣೆ",
+      "downloadWifi": "Wi-Fi ನಲ್ಲಿ ಮಾತ್ರ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+      "deleteCache": "ಸಂಗ್ರಹವನ್ನು ಅಳಿಸಿ"
+    },
+    "notifications": {
+      "notifications": "ಅಧಿಸೂಚನೆಗಳು",
+      "groupInvitation": "ಗುಂಪು ಆಹ್ವಾನ",
+      "devotions": "ಭಕ್ತಿಗಳಿಗೆ ಆಹ್ವಾನಿಸಿ",
+      "file": "ಫೈಲ್ ವರ್ಗಾವಣೆ ದೃ ir ೀಕರಣ"
+    }
+  },
+  "inviteUsers": { "header": "ಬಳಕೆದಾರರನ್ನು ಆಹ್ವಾನಿಸಿ" },
+  "playlist": {
+    "header": "ಪ್ಲೇಪಟ್ಟಿ",
+    "audioFileLabel": "ಆಡಿಯೋ ಫೈಲ್",
+    "audioFilesLabel": "ಆಡಿಯೋ ಫೈಲ್‌ಗಳು"
+  },
+  "collection": { "header": "ಸಂಗ್ರಹ", "audioFilesLabel": "ಆಡಿಯೋ ಫೈಲ್‌ಗಳು" },
+  "modal": {
+    "close": "ಮುಚ್ಚಿ",
+    "addToPlaylist": { "title": "ಪ್ಲೇಪಟ್ಟಿಗೆ ಸೇರಿಸಿ", "button": "ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ರಚಿಸಿ" },
+    "startDevotion": { "title": "ಭಕ್ತಿ ಪ್ರಾರಂಭಿಸಿ" },
+    "createPlaylist": {
+      "title": "ಹೊಸ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ರಚಿಸಿ",
+      "button": "ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ರಚಿಸಿ",
+      "inputPlaceholder": "ಪ್ಲೇಪಟ್ಟಿ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
+      "success": "ಪ್ಲೇಪಟ್ಟಿಗೆ ಸೇರಿಸಲಾಗಿದೆ"
+    },
+    "login": "ಭಕ್ತಿ ಪ್ರಾರಂಭಿಸಲು ನೀವು ಲಾಗಿನ್ ಆಗಬೇಕು"
+  },
+  "options": {
+    "shared": {
+      "share": "ಹಂಚಿಕೊಳ್ಳಿ",
+      "report": "ವಿಷಯವನ್ನು ವರದಿ ಮಾಡಿ",
+      "shareOthers": "ಇತರರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ",
+      "copy": "ಲಿಂಕ್ ನಕಲಿಸಿ",
+      "more": "ಇನ್ನಷ್ಟು"
+    },
+    "audio": {
+      "download": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+      "addFavorite": "ಮೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸಿ",
+      "addPlaylist": "ಪ್ಲೇಪಟ್ಟಿಗೆ ಸೇರಿಸಿ",
+      "removeFavorite": "ಮೆಚ್ಚಿನವುಗಳಿಂದ ತೆಗೆದುಹಾಕಿ",
+      "removePlaylist": "ಪ್ಲೇಪಟ್ಟಿಯಿಂದ ತೆಗೆದುಹಾಕಿ",
+      "removeDownload": "ಡೌನ್‌ಲೋಡ್‌ಗಳಿಂದ ತೆಗೆದುಹಾಕಿ"
+    },
+    "playlist": { "edit": "ತಿದ್ದು", "delete": "ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಅಳಿಸಿ" },
+    "startDevotion": "ಭಕ್ತಿ ಪ್ರಾರಂಭಿಸಿ"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "ಪ್ಲೇಪಟ್ಟಿಗೆ ಸೇರಿಸಲಾಗಿದೆ",
+      "delete": "ಪ್ಲೇಪಟ್ಟಿಯಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ",
+      "create": "ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ರಚಿಸಲಾಗಿದೆ",
+      "destroy": "ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಅಳಿಸಲಾಗಿದೆ"
+    },
+    "favorites": {
+      "add": "ಮೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸಲಾಗಿದೆ",
+      "remove": "ಮೆಚ್ಚಿನವುಗಳಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
+    },
+    "downloads": { "remove": "ಡೌನ್‌ಲೋಡ್‌ಗಳಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ" }
+  },
+  "buttons": { "loop": "ಲೂಪ್", "shuffle": "ಷಫಲ್" },
+  "uiControls": {
+    "searchBox": { "placeholder": "ಹುಡುಕಿ Kannada..." },
+    "notification": { "success": "ಯಶಸ್ಸು! ನಿಮ್ಮ ಖಾತೆಗೆ ಇಮೇಲ್ ಕಳುಹಿಸಲಾಗುತ್ತದೆ." },
+    "button": { "sending": "ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ ..." },
+    "modalSelector": { "cancel": "ರದ್ದುಮಾಡಿ" },
+    "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ"
+  },
+  "bible": {
+    "header": "ಬೈಬಲ್",
+    "oldTestament": "ಹಳೆಯ ಸಾಕ್ಷಿ",
+    "newTestament": "ಹೊಸ ಒಡಂಬಡಿಕೆ",
+    "popularBooks": "ಜನಪ್ರಿಯ ಪುಸ್ತಕಗಳು"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "ಹುಡುಕಿ Kannada",
+    "cancelButton": "ರದ್ದುಗೊಳಿಸಿ",
+    "searchResults": "ಹುಡುಕಾಟ ಫಲಿತಾಂಶಗಳು",
+    "filterButton": "ಫಿಲ್ಟರ್ ಮಾಡಿ",
+    "teachings": { "title": "ಬೋಧನೆಗಳು" },
+    "bible": { "title": "ಬೈಬಲ್" }
+  },
+  "addToPlaylistsModal": { "title": "ಪ್ಲೇಪಟ್ಟಿಗೆ ಸೇರಿಸಿ", "button": "ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ರಚಿಸಿ" },
+  "createPlaylistModal": {
+    "title": "ಹೊಸ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ರಚಿಸಿ",
+    "button": "ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ರಚಿಸಿ",
+    "inputPlaceholder": "ಪ್ಲೇಪಟ್ಟಿ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+  },
+  "alert": {
+    "playlists": {
+      "add": "ಪ್ಲೇಪಟ್ಟಿಗೆ ಸೇರಿಸಲಾಗಿದೆ",
+      "remove": "ಪ್ಲೇಪಟ್ಟಿಯಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ",
+      "create": "ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ರಚಿಸಲಾಗಿದೆ",
+      "delete": "ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ಅಳಿಸಲಾಗಿದೆ"
+    },
+    "favorites": {
+      "add": "ಮೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸಲಾಗಿದೆ",
+      "remove": "ಮೆಚ್ಚಿನವುಗಳಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
+    },
+    "downloads": { "remove": "ಡೌನ್‌ಲೋಡ್‌ಗಳಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ" },
+    "facebook": { "loginError": "ಲಾಗಿನ್ ದೋಷದಿಂದ ವಿಫಲವಾಗಿದೆ" },
+    "google": { "loginError": "ಲಾಗಿನ್ ದೋಷದಿಂದ ವಿಫಲವಾಗಿದೆ" }
+  },
+  "playlists": { "trackLabel": "ಟ್ರ್ಯಾಕ್", "tracksLabel": "ಟ್ರ್ಯಾಕ್‌ಗಳು" },
+  "mediaList": { "tracksLabel": "ಟ್ರ್ಯಾಕ್‌ಗಳು", "remove": "ತೆಗೆದುಹಾಕಿ" },
+  "tutorialPage": { "done": "ಮುಗಿದಿದೆ", "skip": "ಬಿಟ್ಟುಬಿಡಿ" },
+  "loginModal": { "login": "ಲಾಗಿನ್ ಮಾಡಿ" },
+  "shareModal": { "facebook": "ಫೇಸ್ಬುಕ್", "twitter": "ಟ್ವಿಟರ್", "whatsapp": "ವಾಟ್ಸಾಪ್" },
+  "downloadModal": {
+    "downloading": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ",
+    "complete": "ಡೌನ್‌ಲೋಡ್ ಪೂರ್ಣಗೊಂಡಿದೆ"
+  },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "ಬೈಬಲ್ ಅನ್ವೇಷಿಸಿ",
+      "subtitle1": "ನಮ್ಮೊಂದಿಗೆ ಇಡೀ ಬೈಬಲ್ ಮೂಲಕ ಪ್ರಯಾಣಿಸಿ, ಅಥವಾ ನಿಮ್ಮದೇ ಆದ ಪ್ರಯಾಣವನ್ನು ಪ್ರಾರಂಭಿಸಿ.",
+      "title2": "ಆಲಿಸಿ ಮತ್ತು ತೊಡಗಿಸಿಕೊಳ್ಳಿ",
+      "subtitle2": "THRU ಬೈಬಲ್ ವಿಷಯವನ್ನು ಸುಲಭವಾಗಿ ಧುಮುಕುವುದಿಲ್ಲ.",
+      "title3": "ಬೋಧನೆಗಳನ್ನು ಅನ್ವೇಷಿಸಿ",
+      "subtitle3": "ಬೈಬಲ್ ಮತ್ತು ಬೋಧನಾ ವಿಷಯವನ್ನು ಅಡ್ಡ-ಉಲ್ಲೇಖಿಸುವ ಮೂಲಕ ಹಿಂದೆಂದಿಗಿಂತಲೂ ಹಿಂದೆ ಬೈಬಲ್‌ನಲ್ಲಿ ತೊಡಗಿಸಿಕೊಳ್ಳಿ.",
+      "title4": "ಬೈಬಲ್ ಚರ್ಚಿಸಿ",
+      "subtitle4": "THRU ಬೈಬಲ್ ಬೋಧನೆಗಳು ಮತ್ತು ವಿಷಯಗಳನ್ನು ಇತರರೊಂದಿಗೆ ಅಧ್ಯಯನ ಮಾಡಲು ಗುಂಪಿನಲ್ಲಿ ಸೇರಿ.",
+      "title5": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಮತ್ತು ಹಂಚಿಕೊಳ್ಳಿ",
+      "subtitle5": "ಪ್ರಯಾಣದಲ್ಲಿರುವಾಗ ದೇವರ ವಾಕ್ಯವನ್ನು ಕೇಳುವುದನ್ನು ಆನಂದಿಸಿ ಮತ್ತು ಅದನ್ನು ನಿಮ್ಮ ಸ್ನೇಹಿತರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ.",
+      "title6": "ಉಳಿಸಿ ಮತ್ತು ರಚಿಸಿ",
+      "subtitle6": "ನಿಮ್ಮ ನೆಚ್ಚಿನ ಬೋಧನೆಗಳು ಮತ್ತು ಬೈಬಲ್ ಪದ್ಯಗಳನ್ನು ಉಳಿಸಿ ಅಥವಾ ಕಸ್ಟಮ್ ಪ್ಲೇಪಟ್ಟಿಯನ್ನು ರಚಿಸಿ.",
+      "title7": "ಗುಂಪು ಭಕ್ತಿಗಳು",
+      "subtitle7": "ದೈನಂದಿನ ಗುಂಪು ಭಕ್ತಿಯಿಂದ ಇತರರಿಂದ ಪ್ರೋತ್ಸಾಹ ಮತ್ತು ಸ್ಫೂರ್ತಿ ಪಡೆಯಿರಿ."
+    },
+    "registerPage": {
+      "noThanks": "ಬೇಡ ಧನ್ಯವಾದಗಳು",
+      "haveAccount": "ಖಾತೆ ಇದೆಯೇ?",
+      "createAccount": "ನನ್ನ ಖಾತೆಯನ್ನು ರಚಿಸಿ",
+      "title1": "ಇತರರೊಂದಿಗೆ ಚರ್ಚಿಸಿ",
+      "subtitle1": "ನಿಮ್ಮ ನೆಚ್ಚಿನ ವಿಷಯಗಳು ಮತ್ತು ಬೈಬಲ್ ಪದ್ಯಗಳನ್ನು ಇತರರೊಂದಿಗೆ ಚರ್ಚಿಸಿ.",
+      "title2": "ಪ್ಲೇಪಟ್ಟಿಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ ಮತ್ತು ಸಿಂಕ್ ಮಾಡಿ",
+      "subtitle2": "ನಿಮ್ಮ ನೆಚ್ಚಿನ ವಿಷಯದ ಪಟ್ಟಿಗಳನ್ನು ಒಂದೇ ಸ್ಥಳದಲ್ಲಿ ನಿರ್ಮಿಸಿ.",
+      "title3": "ನಿಮ್ಮ ಮೆಚ್ಚಿನವುಗಳನ್ನು ನೋಡಿ",
+      "subtitle3": "ಸಂಗ್ರಹಿಸಿ ಮತ್ತು ಹಿಂತಿರುಗಿ ಮತ್ತು ನಂತರದ ಸಮಯದಲ್ಲಿ ನಿಮ್ಮ ಮೆಚ್ಚಿನವುಗಳನ್ನು ಭೇಟಿ ಮಾಡಿ.",
+      "title4": "ಮರಳಿ ಸ್ವಾಗತ",
+      "subtitle4": "ಖಾತೆಯನ್ನು ರಚಿಸಿ ಮತ್ತು ನಮ್ಮ ಎಲ್ಲಾ ವೈಶಿಷ್ಟ್ಯಗಳಿಗೆ ಪ್ರವೇಶವನ್ನು ಪಡೆಯಿರಿ."
+    }
+  },
+  "app": {
+    "close": "ಮುಚ್ಚಿ",
+    "accept": "ಒಪ್ಪಿಕೊಳ್ಳಿ",
+    "reject": "ತಿರಸ್ಕರಿಸಿ",
+    "constructionInProgress": "ಪ್ರಗತಿಯಲ್ಲಿ ನಿರ್ಮಾಣ",
+    "downloadComplete": "ಡೌನ್‌ಲೋಡ್ ಪೂರ್ಣಗೊಂಡಿದೆ",
+    "downloading": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ",
+    "downloadFailed": "ಡೌನ್‌ಲೋಡ್ ವಿಫಲವಾಗಿದೆ",
+    "sendAFile": "ಯಾರಾದರೂ ನಿಮಗೆ ಫೈಲ್ ಕಳುಹಿಸಲು ಬಯಸುತ್ತಾರೆ"
+  },
+  "transferring": { "tryAgain": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸು", "close": "ಮುಚ್ಚಿ" },
+  "checkDevice": {
+    "check": "ನಿಮ್ಮ ಸಾಧನವನ್ನು ಪರಿಶೀಲಿಸಿ",
+    "makeSure": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಸ್ನೇಹಿತನ ಸಾಧನದಲ್ಲಿ ವೈಫೈ-ಡೈರೆಕ್ಟ್ ಅನ್ನು ಆನ್ ಮಾಡಲಾಗಿದೆ ಮತ್ತು ಅದು ವ್ಯಾಪ್ತಿಯಲ್ಲಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.",
+    "continue": "ಮುಂದುವರಿಸಿ"
+  },
+  "connectToDevice": { "connect": "ಸಾಧನಕ್ಕೆ ಸಂಪರ್ಕಪಡಿಸಿ" },
+  "pairing": {
+    "connect": "ಸಾಧನಕ್ಕೆ ಸಂಪರ್ಕಪಡಿಸಿ",
+    "pairing": "ಜೋಡಣೆ",
+    "success": "ಯಶಸ್ವಿಯಾಗಿ ಜೋಡಿಸಲಾಗಿದೆ",
+    "failed": "ಸಾಧನ ಜೋಡಣೆ ವಿಫಲವಾಗಿದೆ",
+    "makeSure": "ದಯವಿಟ್ಟು (ವೈಫೈ-ಡೈರೆಕ್ಟ್) ನಿಮ್ಮ ಸ್ನೇಹಿತನ ಸಾಧನವನ್ನು ಆನ್ ಮಾಡಲಾಗಿದೆ ಮತ್ತು ಅದು ವ್ಯಾಪ್ತಿಯಲ್ಲಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.",
+    "continue": "ಮುಂದುವರಿಸಿ",
+    "tryAgain": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸು"
+  },
+  "selectNetworkType": {
+    "connect": "ಸಾಧನಕ್ಕೆ ಸಂಪರ್ಕಪಡಿಸಿ",
+    "share": "ವೈಫೈ ಡೈರೆಕ್ಟ್ನೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ",
+    "send": "ಫೈಲ್ ಅನ್ನು ವೈಫೈ ಡೈರೆಕ್ಟ್ ಮೂಲಕ ಕಳುಹಿಸುವುದೇ?",
+    "continue": "ಮುಂದುವರಿಸಿ"
+  }
+}

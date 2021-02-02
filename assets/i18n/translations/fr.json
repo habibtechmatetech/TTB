@@ -1,0 +1,405 @@
+{
+  "selectLanguage": {
+    "heading": "Sélectionnez votre langue actuelle",
+    "mainAction": "Choisir la langue"
+  },
+  "menu": {
+    "anonymousTitle": "Votre compte",
+    "anonymousAction": "S'identifier",
+    "editProfileAction": "Editer le profil",
+    "verifyProfileAction": "Vérifier le profil",
+    "bibleSection": "Bible",
+    "teachingsSection": "Enseignements",
+    "librarySection": "Ma bibliothèque",
+    "groupsSection": "Groupes",
+    "donateSection": "Faire un don",
+    "settingsSection": "Paramètres",
+    "signOut": "Déconnexion",
+    "modals": {
+      "verifyProfile": {
+        "title": "Vous n'êtes pas vérifié",
+        "message": "Vos listes ne seront pas synchronisées et vous ne pourrez pas créer de groupes. S'il vous plaît vérifier votre e-mail pour terminer l'enregistrement.",
+        "firstButton": "Continuer",
+        "secondButton": "Enregistrer un nouveau profil"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Se connecter",
+    "emailPlaceholder": "Votre Email",
+    "passwordPlaceholder": "Votre mot de passe",
+    "forgotAction": "Mot de passe oublié?",
+    "callToAction": "se connecter",
+    "signInAlternatives": "Ou connectez-vous en utilisant",
+    "noAccountAction": "Pas de compte? Créer une",
+    "notifications": {
+      "invalidCredentials": "les informations d'identification invalides",
+      "inProgress": "Connexion déjà en cours",
+      "notAvailable": "Services de lecture indisponibles"
+    }
+  },
+  "signUp": {
+    "header": "Créer un compte",
+    "emailPlaceholder": "Votre e-mail",
+    "passwordPlaceholder": "Votre mot de passe",
+    "privateAction": "Rendre le compte privé",
+    "termsDisclaimer": {
+      "pre": "En cliquant sur Inscription, vous indiquez que vous avez lu et accepté",
+      "terms": "les termes",
+      "post": "."
+    },
+    "callToAction": "S'inscrire",
+    "signUpAlternatives": "Ou inscrivez-vous en utilisant",
+    "haveAnAccountAction": "Avoir un compte?",
+    "notifications": {
+      "invalidUsername": "Les noms d'utilisateur sont limités à 20 caractères alphanumériques (chiffres et lettres régulières)",
+      "invalidPassword": "Le mot de passe doit comporter au moins 3 caractères et être une combinaison de caractères majuscules et minuscules avec au moins un chiffre ou un caractère spécial"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Impossible de créer un compte",
+        "message": "Cette adresse email existe déja.",
+        "firstButton": "Se connecter",
+        "secondButton": "proche"
+      },
+      "privateAccount": {
+        "title": "Compte privé",
+        "message": "En rendant votre compte privé, vous l'empêchez d'être découvert par d'autres.",
+        "firstButton": "J'accepte",
+        "secondButton": "Déclin"
+      },
+      "success": {
+        "title": "Compte créé!",
+        "message": "Votre compte a été créé avec succès. Vérifiez votre boîte de réception pour confirmer votre compte et vous connecter.",
+        "firstButton": "Se connecter"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Réinitialiser le mot de passe",
+    "emailPlaceholder": "Votre Email",
+    "message": "Veuillez saisir votre adresse e-mail pour réinitialiser votre mot de passe pour votre compte.",
+    "callToAction": "Réinitialiser le mot de passe",
+    "notifications": {
+      "success": "Nous venons d'envoyer un e-mail dans votre boîte de réception",
+      "emailNotFoundError": "L'e-mail est introuvable",
+      "invalidEmailError": "Format d'email invalide"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Terminer la configuration",
+    "message": "Un e-mail a été envoyé à l'adresse e-mail que vous avez saisie. Veuillez consulter les détails de l'e-mail pour terminer l'inscription.",
+    "callToAction": "Ignorer pour l'instant"
+  },
+  "teachings": {
+    "dailyText": "Diffusion d'aujourd'hui",
+    "journeyTitle": "Commencez votre voyage",
+    "journeySubtitle": "Tous les enseignements du début à la fin",
+    "journeyCardTitle": "Voyage de 215 semaines à travers la Bible",
+    "journeyCardSubtitle": "Écoutez votre temps",
+    "tracksLabel": "Des pistes"
+  },
+  "teaching": {
+    "header": "Enseignements",
+    "loading": "Chargement...",
+    "player": {
+      "audioSpeed": "Vitesse audio",
+      "loading": "Chargement",
+      "castingError": "Aucun appareil disponible"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Continuer à écouter",
+        "secondButton": "Commencez votre voyage"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Par date",
+    "bySeries": "Par série",
+    "sections": { "tracksLabel": "Des pistes" }
+  },
+  "library": {
+    "header": "Ma bibliothèque",
+    "tabs": {
+      "downloads": "Téléchargements",
+      "favorites": "Favoris",
+      "playlists": "Listes de lecture"
+    }
+  },
+  "groups": {
+    "header": "Groupes",
+    "createGroup": {
+      "title": "Créer un nouveau groupe",
+      "groupNameLabel": "NOM DE GROUPE",
+      "groupNameInputPlaceHolder": "Nom",
+      "descriptionLabel": "LA DESCRIPTION",
+      "descriptionInputPlaceHolder": "Ajouter une description",
+      "inviteLabel": "Inviter des utilisateurs",
+      "inviteButton": "Inviter de nouveaux utilisateurs",
+      "button": "Créer un groupe",
+      "invalidGroupName": "Entrez un nom valide",
+      "groupNameTooLong": "Le nom du groupe ne doit pas contenir plus de 25 caractères"
+    },
+    "devotionNotStartAlert": "Une dévotion n'a pas commencé pour ce groupe",
+    "membersLabel": "Membres",
+    "chatModalMemberSubtitleLabel": "membre",
+    "chatModalMembersSubtitleLabel": "membres",
+    "chat": {
+      "listeningToLabel": "Écouter",
+      "loadingTrackLabel": "Chargement du morceau ...",
+      "inputPlaceHolder": "Écrire un message",
+      "deletePost": "Supprimer le message",
+      "deleteMessage": "a supprimé un message"
+    },
+    "groupSettings": {
+      "participantsSection": "Les participants",
+      "viewAll": "Voir tout",
+      "invite": "Inviter de nouveaux utilisateurs",
+      "endDevotion": "Mettre fin à la dévotion au groupe",
+      "deleteGroup": "Supprimer le groupe",
+      "leaveGroup": "Quitter le groupe"
+    },
+    "userDirectory": {
+      "header": "Annuaire des utilisateurs",
+      "remove": "Retirer",
+      "anonymous": "Anonyme",
+      "send": "Envoyer"
+    },
+    "inviteUser": { "placeHolder": "Chercher", "send": "Envoyer" }
+  },
+  "chat": {
+    "header": "Canal de groupe",
+    "settings": {
+      "header": "Paramètres de groupe",
+      "endDevotion": {
+        "alertTitle": "Mettre fin à la dévotion",
+        "alertMessage": "Êtes-vous sûr de vouloir mettre fin à cette dévotion?",
+        "alertCancel": "Annuler",
+        "alertConfirm": "Oui",
+        "endDevotionLabel": "mis fin à cette dévotion.",
+        "hasEnded": "Cette dévotion est terminée"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Commencer la dévotion",
+    "alertMessage": "Voulez-vous vraiment commencer la dévotion avec le groupe% {name}?",
+    "alertCancel": "Annuler",
+    "alertConfirm": "Oui",
+    "devotionStartedLabel": "a commencé une dévotion."
+  },
+  "settings": {
+    "header": "Paramètres",
+    "tabs": { "profile": "Profil", "media": "Médias", "notifications": "Notifications" },
+    "profile": {
+      "account": "Compte",
+      "username": "Nom d'utilisateur",
+      "email": "Email",
+      "editButton": "Éditer",
+      "edit": {
+        "save": "sauvegarder",
+        "username": {
+          "header": "Nom d'utilisateur",
+          "successAlert": "Votre modification a été enregistrée.",
+          "failedAlert": "Échec de l'enregistrement de la modification."
+        },
+        "email": {
+          "header": "Email",
+          "successAlert": "Votre modification a été enregistrée.",
+          "failedAlert": "Échec de l'enregistrement de la modification."
+        }
+      },
+      "languages": "Langues",
+      "signIn": "Se connecter",
+      "signOut": "Se déconnecter du compte",
+      "legal": "Légal",
+      "termsConditions": "termes et conditions",
+      "privacyPolicy": "Politique de confidentialité",
+      "support": "Soutien",
+      "reportAProblem": "Signaler un problème",
+      "tutorial": "Didacticiel",
+      "reportBug": {
+        "header": "Signaler un problème",
+        "send": "Envoyer",
+        "subject": "MATIÈRE",
+        "subjectPlaceHolder": "Matière",
+        "description": "LA DESCRIPTION",
+        "descriptionPlaceHolder": "La description",
+        "successAlert": "Merci, nous avons bien reçu votre message.",
+        "failedAlert": "Échec de l'envoi du message."
+      },
+      "version": "Version"
+    },
+    "media": {
+      "audio": "l'audio",
+      "autoplay": "Lecture automatique audio",
+      "storage": "Espace de rangement",
+      "downloadWifi": "Télécharger uniquement sur Wi-fi",
+      "deleteCache": "Supprimer le cache"
+    },
+    "notifications": {
+      "notifications": "Notifications",
+      "groupInvitation": "Invitation de groupe",
+      "devotions": "Inviter à des dévotions",
+      "file": "Confirmation du transfert de fichiers"
+    }
+  },
+  "inviteUsers": { "header": "Inviter des utilisateurs" },
+  "playlist": {
+    "header": "Playlist",
+    "audioFileLabel": "Fichier audio",
+    "audioFilesLabel": "Fichiers audio"
+  },
+  "collection": { "header": "Collection", "audioFilesLabel": "Fichiers audio" },
+  "modal": {
+    "close": "Fermer",
+    "addToPlaylist": { "title": "Ajouter à la playlist", "button": "Créer une playlist" },
+    "startDevotion": { "title": "Commencer la dévotion" },
+    "createPlaylist": {
+      "title": "Créer une nouvelle liste de lecture",
+      "button": "Créer une playlist",
+      "inputPlaceholder": "Entrez le nom de la playlist",
+      "success": "Ajouté à la playlist"
+    },
+    "login": "Vous devez vous connecter pour commencer une dévotion"
+  },
+  "options": {
+    "shared": {
+      "share": "Partager",
+      "report": "Contenu du rapport",
+      "shareOthers": "Partager avec d'autres",
+      "copy": "Copier le lien",
+      "more": "Plus"
+    },
+    "audio": {
+      "download": "Télécharger",
+      "addFavorite": "Ajouter aux Favoris",
+      "addPlaylist": "Ajouter à la playlist",
+      "removeFavorite": "Retirer des favoris",
+      "removePlaylist": "Supprimer de la playlist",
+      "removeDownload": "Supprimer des téléchargements"
+    },
+    "playlist": { "edit": "Éditer", "delete": "Supprimer la playlist" },
+    "startDevotion": "Commencer la dévotion"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Ajouté à la playlist",
+      "delete": "Supprimé de la playlist",
+      "create": "Liste de lecture créée",
+      "destroy": "Liste de lecture supprimée"
+    },
+    "favorites": { "add": "Ajouté aux favoris", "remove": "Supprimé des favoris" },
+    "downloads": { "remove": "Supprimé des téléchargements" }
+  },
+  "buttons": { "loop": "Boucle", "shuffle": "Mélanger" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Chercher..." },
+    "notification": { "success": "Succès! Un e-mail sera envoyé à votre compte." },
+    "button": { "sending": "Envoi en cours..." },
+    "modalSelector": { "cancel": "Annuler" },
+    "loading": "Chargement"
+  },
+  "bible": {
+    "header": "Bible",
+    "oldTestament": "L'Ancien Testament",
+    "newTestament": "Nouveau Testament",
+    "popularBooks": "Livres populaires"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Chercher",
+    "cancelButton": "ANNULER",
+    "searchResults": "Résultats de recherche",
+    "filterButton": "Filtre",
+    "teachings": { "title": "Enseignements" },
+    "bible": { "title": "Bible" }
+  },
+  "addToPlaylistsModal": { "title": "Ajouter à la playlist", "button": "Créer une playlist" },
+  "createPlaylistModal": {
+    "title": "Créer une nouvelle liste de lecture",
+    "button": "Créer une playlist",
+    "inputPlaceholder": "Entrez le nom de la playlist"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Ajouté à la playlist",
+      "remove": "Supprimé de la playlist",
+      "create": "Liste de lecture créée",
+      "delete": "Liste de lecture supprimée"
+    },
+    "favorites": { "add": "Ajouté aux Favoris", "remove": "Supprimé des favoris" },
+    "downloads": { "remove": "Supprimé des téléchargements" },
+    "facebook": { "loginError": "Échec de la connexion avec erreur" },
+    "google": { "loginError": "Échec de la connexion avec erreur" }
+  },
+  "playlists": { "trackLabel": "Piste", "tracksLabel": "Des pistes" },
+  "mediaList": { "tracksLabel": "Des pistes", "remove": "Retirer" },
+  "tutorialPage": { "done": "Terminé", "skip": "Sauter" },
+  "loginModal": { "login": "S'identifier" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Téléchargement", "complete": "Téléchargement complet" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Explorez la Bible",
+      "subtitle1": "Parcourez toute la Bible avec nous ou commencez votre propre voyage.",
+      "title2": "Écouter et engager",
+      "subtitle2": "Le lecteur multimédia vous permet de plonger facilement dans THRU the BIBLE.",
+      "title3": "Découvrez les enseignements",
+      "subtitle3": "Engagez-vous dans la Bible comme jamais auparavant en renvoyant le contenu de la Bible et de l'enseignement.",
+      "title4": "Discutez de la Bible",
+      "subtitle4": "Rejoignez un groupe pour étudier les enseignements et les sujets THRU the BIBLE avec d'autres.",
+      "title5": "Télécharger et partager",
+      "subtitle5": "Profitez d'écouter la Parole de Dieu en déplacement et partagez-la avec vos amis.",
+      "title6": "Enregistrer et créer",
+      "subtitle6": "Enregistrez vos enseignements et versets bibliques préférés ou créez une liste de lecture personnalisée.",
+      "title7": "Dévotions de groupe",
+      "subtitle7": "Soyez encouragé et inspiré par les autres avec des dévotions de groupe quotidiennes."
+    },
+    "registerPage": {
+      "noThanks": "Non merci",
+      "haveAccount": "Avoir un compte?",
+      "createAccount": "Créer mon compte",
+      "title1": "Discutez avec les autres",
+      "subtitle1": "Discutez de vos sujets et versets bibliques préférés avec les autres.",
+      "title2": "Stocker et synchroniser des listes de lecture",
+      "subtitle2": "Créez des listes de vos contenus préférés en un seul endroit.",
+      "title3": "Voir vos favoris",
+      "subtitle3": "Stockez et revenez visiter vos favoris ultérieurement.",
+      "title4": "Nous saluons le retour",
+      "subtitle4": "Créez un compte et accédez à toutes nos fonctionnalités."
+    }
+  },
+  "app": {
+    "close": "Fermer",
+    "accept": "J'accepte",
+    "reject": "Rejeter",
+    "constructionInProgress": "CONSTRUCTION EN COURS",
+    "downloadComplete": "Téléchargement complet",
+    "downloading": "Téléchargement",
+    "downloadFailed": "Échec du téléchargement",
+    "sendAFile": "Quelqu'un veut vous envoyer un fichier"
+  },
+  "transferring": { "tryAgain": "réessayer", "close": "Fermer" },
+  "checkDevice": {
+    "check": "Vérifiez votre appareil",
+    "makeSure": "Veuillez vous assurer que Wifi-Direct est activé sur l'appareil de votre ami et qu'il est à portée.",
+    "continue": "Continuer"
+  },
+  "connectToDevice": { "connect": "Se connecter à un appareil" },
+  "pairing": {
+    "connect": "Se connecter à un appareil",
+    "pairing": "Appairage",
+    "success": "Jumelé avec succès",
+    "failed": "L'appairage de l'appareil a échoué",
+    "makeSure": "Veuillez vous assurer que (Wifi-Direct) est activé sur l'appareil de votre ami et qu'il est à portée.",
+    "continue": "Continuer",
+    "tryAgain": "Réessayer"
+  },
+  "selectNetworkType": {
+    "connect": "Se connecter à un appareil",
+    "share": "Partager avec Wifi Direct",
+    "send": "Envoyer un fichier via wifi direct?",
+    "continue": "Continuer"
+  }
+}

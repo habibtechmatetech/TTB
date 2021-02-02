@@ -1,0 +1,401 @@
+{
+  "selectLanguage": { "heading": "Одоогийн хэлээ сонгоно уу", "mainAction": "Хэл сонгох" },
+  "menu": {
+    "anonymousTitle": "Таны данс",
+    "anonymousAction": "Нэвтрэх",
+    "editProfileAction": "Засварлах Хувийн мэдээллийг vзэх",
+    "verifyProfileAction": "Профайлыг баталгаажуулах",
+    "bibleSection": "Библи",
+    "teachingsSection": "Сургалт",
+    "librarySection": "Миний номын сан",
+    "groupsSection": "Бүлгүүд",
+    "donateSection": "Хандив өгөх",
+    "settingsSection": "Тохиргоо",
+    "signOut": "Гарах",
+    "modals": {
+      "verifyProfile": {
+        "title": "Та баталгаажаагүй байна",
+        "message": "Таны жагсаалтыг синк хийхгүй тул та бүлэг үүсгэх боломжгүй. Бүртгэлийг дуусгахын тулд имэйлээ шалгана уу.",
+        "firstButton": "Үргэлжлүүлэх",
+        "secondButton": "Шинэ профайл бүртгүүлэх"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Нэвтрэх",
+    "emailPlaceholder": "Таны имэйл",
+    "passwordPlaceholder": "Таны нууц үг",
+    "forgotAction": "Нууц үгээ мартсан?",
+    "callToAction": "Нэвтрэх",
+    "signInAlternatives": "Эсвэл ашиглан нэвтрэх",
+    "noAccountAction": "Бүртгэл байхгүй юу? Нэгийг нь бүтээх",
+    "notifications": {
+      "invalidCredentials": "Хүчингүй үнэмлэх",
+      "inProgress": "Нэвтрэлт хийгдэж байна",
+      "notAvailable": "Тоглуулах үйлчилгээ боломжгүй байна"
+    }
+  },
+  "signUp": {
+    "header": "Бүртгэл үүсгэх",
+    "emailPlaceholder": "Таны имэйл",
+    "passwordPlaceholder": "Таны нууц үг",
+    "privateAction": "Бүртгэлээ хувийн болго",
+    "termsDisclaimer": {
+      "pre": "Бүртгүүлэх дээр дарснаар та уншиж, зөвшөөрч байгаагаа илэрхийлнэ",
+      "terms": "нөхцөл",
+      "post": "."
+    },
+    "callToAction": "Бүртгүүлэх",
+    "signUpAlternatives": "Эсвэл ашиглан бүртгүүлнэ үү",
+    "haveAnAccountAction": "Данстай юу?",
+    "notifications": {
+      "invalidUsername": "Хэрэглэгчийн нэрс нь үсэг, тоон 20 тэмдэгтээр хязгаарлагдана (тоо ба ердийн үсэг)",
+      "invalidPassword": "Нууц үг нь дор хаяж 3 тэмдэгтээс бүрдэх ба дор хаяж нэг тоо эсвэл тусгай тэмдэгт бүхий дээд ба жижиг үсгийн хослол байх ёстой"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Бүртгэл үүсгэх боломжгүй байна",
+        "message": "Энэ имэйл хаяг аль хэдийн байна.",
+        "firstButton": "Нэвтрэх",
+        "secondButton": "Хаах"
+      },
+      "privateAccount": {
+        "title": "Хувийн данс",
+        "message": "Дансаа хувийн болгосноор бусдын олж мэдэхээс нууж байгаа хэрэг юм.",
+        "firstButton": "Хүлээн зөвшөөр",
+        "secondButton": "Татгалзах"
+      },
+      "success": {
+        "title": "Данс үүсгэсэн!",
+        "message": "Таны данс амжилттай үүсгэгдсэн. Бүртгэлээ баталгаажуулж, нэвтрэхийн тулд ирсэн имэйлээ шалгана уу.",
+        "firstButton": "Нэвтрэх"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Нууц үгээ анхны байдалд нь оруулж",
+    "emailPlaceholder": "Таны имэйл",
+    "message": "Бүртгэлийнхээ нууц үгийг шинэчлэхийн тулд имэйлээ оруулна уу.",
+    "callToAction": "Нууц үгээ анхны байдалд нь оруулж",
+    "notifications": {
+      "success": "Бид таны имэйл хайрцагт имэйл илгээсэн",
+      "emailNotFoundError": "Имэйл олдсонгүй",
+      "invalidEmailError": "Буруу имэйлийн формат"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Тохиргоог дуусгах",
+    "message": "Таны оруулсан имэйл хаяг руу имэйл илгээсэн. Бүртгэлийг дуусгахын тулд имэйлийн дэлгэрэнгүйг үзнэ үү.",
+    "callToAction": "Одоо алгасах"
+  },
+  "teachings": {
+    "dailyText": "Өнөөдрийн нэвтрүүлэг",
+    "journeyTitle": "Аялалаа эхлүүлээрэй",
+    "journeySubtitle": "Бүх сургаал эхнээс нь дуустал",
+    "journeyCardTitle": "Библиэр дамжин 215 долоо хоногийн аялал",
+    "journeyCardSubtitle": "Цаг заваа сонсоорой",
+    "tracksLabel": "Замууд"
+  },
+  "teaching": {
+    "header": "Сургалт",
+    "loading": "Ачаалж байна ...",
+    "player": {
+      "audioSpeed": "Аудио хурд",
+      "loading": "Ачаалж байна",
+      "castingError": "Төхөөрөмж байхгүй байна"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Үргэлжлүүлэн сонсох", "secondButton": "Аялалаа эхлээрэй" }
+    }
+  },
+  "journey": {
+    "byDate": "Огноогоор",
+    "bySeries": "Цувралаар",
+    "sections": { "tracksLabel": "Замууд" }
+  },
+  "library": {
+    "header": "Миний номын сан",
+    "tabs": { "downloads": "Татаж авах", "favorites": "Дуртай", "playlists": "Тоглуулах жагсаалт" }
+  },
+  "groups": {
+    "header": "Бүлгүүд",
+    "createGroup": {
+      "title": "Шинэ бүлэг үүсгэх",
+      "groupNameLabel": "БҮЛГИЙН НЭР",
+      "groupNameInputPlaceHolder": "Нэр",
+      "descriptionLabel": "ТОДОРХОЙЛОЛТ",
+      "descriptionInputPlaceHolder": "Тодорхойлолт нэмэх",
+      "inviteLabel": "Хэрэглэгчдийг урих",
+      "inviteButton": "Шинэ хэрэглэгчдийг урих",
+      "button": "Бүлэг үүсгэх",
+      "invalidGroupName": "Зөв нэр оруулна уу",
+      "groupNameTooLong": "Бүлгийн нэр 25-аас дээш тэмдэгт агуулаагүй байх ёстой"
+    },
+    "devotionNotStartAlert": "Энэ бүлэгт зориулж чин бишрэл эхлээгүй байна",
+    "membersLabel": "Гишүүд",
+    "chatModalMemberSubtitleLabel": "гишүүн",
+    "chatModalMembersSubtitleLabel": "гишүүд",
+    "chat": {
+      "listeningToLabel": "Сонсох",
+      "loadingTrackLabel": "Зам ачаалж байна ...",
+      "inputPlaceHolder": "Зурвас бичих",
+      "deletePost": "Бичлэгийг устгах",
+      "deleteMessage": "мессеж устгасан"
+    },
+    "groupSettings": {
+      "participantsSection": "Оролцогчид",
+      "viewAll": "Бүгдийг харах",
+      "invite": "Шинэ хэрэглэгчдийг урих",
+      "endDevotion": "Бүлгийн чин бишрэлийг дуусга",
+      "deleteGroup": "Бүлгийг устгах",
+      "leaveGroup": "Бүлгэмийг орхих"
+    },
+    "userDirectory": {
+      "header": "Хэрэглэгчийн лавлах",
+      "remove": "Устгах",
+      "anonymous": "Нэргүй",
+      "send": "Илгээх"
+    },
+    "inviteUser": { "placeHolder": "Хайх", "send": "Илгээх" }
+  },
+  "chat": {
+    "header": "Бүлгийн суваг",
+    "settings": {
+      "header": "Бүлгийн тохиргоо",
+      "endDevotion": {
+        "alertTitle": "Чин бишрэлийг дуусга",
+        "alertMessage": "Та энэ чин бишрэлийг эцэслэхийг хүсч байна уу?",
+        "alertCancel": "Цуцлах",
+        "alertConfirm": "Тийм ээ",
+        "endDevotionLabel": "энэ чин бишрэлийг дуусгасан.",
+        "hasEnded": "Энэхүү чин бишрэл төгсгөл болжээ"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Чин бишрэлийг эхлүүлээрэй",
+    "alertMessage": "Та% {name} группээс чин бишрэл эхлүүлэхийг хүсч байна уу?",
+    "alertCancel": "Цуцлах",
+    "alertConfirm": "Тийм ээ",
+    "devotionStartedLabel": "чин бишрэлийг эхлүүлсэн."
+  },
+  "settings": {
+    "header": "Тохиргоо",
+    "tabs": { "profile": "Профайл", "media": "Хэвлэл мэдээлэл", "notifications": "Мэдэгдэл" },
+    "profile": {
+      "account": "Данс",
+      "username": "Хэрэглэгчийн нэр",
+      "email": "И-мэйл",
+      "editButton": "Засах",
+      "edit": {
+        "save": "Хадгалах",
+        "username": {
+          "header": "Хэрэглэгчийн нэр",
+          "successAlert": "Таны өөрчлөлт хадгалагдав.",
+          "failedAlert": "Өөрчлөлтийг хадгалж чадсангүй."
+        },
+        "email": {
+          "header": "Имэйл",
+          "successAlert": "Таны өөрчлөлт хадгалагдав.",
+          "failedAlert": "Өөрчлөлтийг хадгалж чадсангүй."
+        }
+      },
+      "languages": "Хэл",
+      "signIn": "Нэвтрэх",
+      "signOut": "Данснаас гарах",
+      "legal": "Хууль ёсны",
+      "termsConditions": "Нөхцөл",
+      "privacyPolicy": "Нууцлалын бодлого",
+      "support": "Дэмжлэг",
+      "reportAProblem": "Асуудлыг мэдээлэх",
+      "tutorial": "Хичээл",
+      "reportBug": {
+        "header": "Асуудлыг мэдээлэх",
+        "send": "Илгээх",
+        "subject": "СЭДЭВ",
+        "subjectPlaceHolder": "Сэдэв",
+        "description": "ТОДОРХОЙЛОЛТ",
+        "descriptionPlaceHolder": "Тодорхойлолт",
+        "successAlert": "Баярлалаа, бид таны мессежийг хүлээн авлаа.",
+        "failedAlert": "Зурвас илгээж чадсангүй."
+      },
+      "version": "Хувилбар"
+    },
+    "media": {
+      "audio": "Аудио",
+      "autoplay": "Автоматаар тоглуулах аудио",
+      "storage": "Хадгалах",
+      "downloadWifi": "Зөвхөн Wi-fi дээр татаж аваарай",
+      "deleteCache": "Кэшийг устгах"
+    },
+    "notifications": {
+      "notifications": "Мэдэгдэл",
+      "groupInvitation": "Бүлгийн урилга",
+      "devotions": "Сүсэг бишрэлд урь",
+      "file": "Файл дамжуулах баталгаа"
+    }
+  },
+  "inviteUsers": { "header": "Хэрэглэгчдийг урих" },
+  "playlist": {
+    "header": "Тоглуулах жагсаалт",
+    "audioFileLabel": "Аудио файл",
+    "audioFilesLabel": "Аудио файлууд"
+  },
+  "collection": { "header": "Цуглуулга", "audioFilesLabel": "Аудио файлууд" },
+  "modal": {
+    "close": "ойрхон",
+    "addToPlaylist": {
+      "title": "Тоглуулах жагсаалтад нэмэх",
+      "button": "Тоглуулах жагсаалт үүсгэх"
+    },
+    "startDevotion": { "title": "Чин бишрэлийг эхлүүлээрэй" },
+    "createPlaylist": {
+      "title": "Шинэ тоглуулах жагсаалт үүсгэх",
+      "button": "Тоглуулах жагсаалт үүсгэх",
+      "inputPlaceholder": "Тоглуулах жагсаалтын нэрийг оруулна уу",
+      "success": "Тоглуулах жагсаалтад нэмсэн"
+    },
+    "login": "Чин бишрэлийг эхлүүлэхийн тулд нэвтрэх шаардлагатай"
+  },
+  "options": {
+    "shared": {
+      "share": "Хуваалцах",
+      "report": "Агуулга тайлагнах",
+      "shareOthers": "Бусадтай хуваалцах",
+      "copy": "Холбоосыг хуулах",
+      "more": "Дэлгэрэнгүй"
+    },
+    "audio": {
+      "download": "Татаж авах",
+      "addFavorite": "Дуртай зүйл дээр нэмэх",
+      "addPlaylist": "Тоглуулах жагсаалтад нэмэх",
+      "removeFavorite": "Дуртайгаас хасах",
+      "removePlaylist": "Тоглуулах жагсаалтаас хасах",
+      "removeDownload": "Татаж авалтаас хасах"
+    },
+    "playlist": { "edit": "Засах", "delete": "Тоглуулах жагсаалтыг устгах" },
+    "startDevotion": "Чин бишрэлийг эхлүүлээрэй"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Тоглуулах жагсаалтад нэмсэн",
+      "delete": "Тоглуулах жагсаалтаас хасав",
+      "create": "Тоглуулах жагсаалт үүсгэсэн",
+      "destroy": "Тоглуулах жагсаалтыг устгасан"
+    },
+    "favorites": { "add": "Дуртай зүйл дээр нэмсэн", "remove": "Дуртайгаас хассан" },
+    "downloads": { "remove": "Татаж авалтаас хасагдсан" }
+  },
+  "buttons": { "loop": "Гогцоо", "shuffle": "Холих" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Хайх ..." },
+    "notification": { "success": "Амжилт! Таны дансанд имэйл илгээх болно." },
+    "button": { "sending": "Илгээж байна ..." },
+    "modalSelector": { "cancel": "Цуцлах" },
+    "loading": "Ачаалж байна"
+  },
+  "bible": {
+    "header": "Библи",
+    "oldTestament": "Хуучин Гэрээ",
+    "newTestament": "Шинэ Гэрээ",
+    "popularBooks": "Алдартай номууд"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Хайх",
+    "cancelButton": "Цуцлах",
+    "searchResults": "Хайлтын үр дүн",
+    "filterButton": "Шүүлтүүр",
+    "teachings": { "title": "Сургалт" },
+    "bible": { "title": "Библи" }
+  },
+  "addToPlaylistsModal": {
+    "title": "Тоглуулах жагсаалтад нэмэх",
+    "button": "Тоглуулах жагсаалт үүсгэх"
+  },
+  "createPlaylistModal": {
+    "title": "Шинэ тоглуулах жагсаалт үүсгэх",
+    "button": "Тоглуулах жагсаалт үүсгэх",
+    "inputPlaceholder": "Тоглуулах жагсаалтын нэрийг оруулна уу"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Тоглуулах жагсаалтад нэмсэн",
+      "remove": "Тоглуулах жагсаалтаас хасав",
+      "create": "Тоглуулах жагсаалт үүсгэсэн",
+      "delete": "Тоглуулах жагсаалтыг устгасан"
+    },
+    "favorites": { "add": "Дуртай зүйл дээр нэмсэн", "remove": "Дуртайгаас хассан" },
+    "downloads": { "remove": "Татаж авалтаас хасагдсан" },
+    "facebook": { "loginError": "Нэвтрэх алдаа гарлаа" },
+    "google": { "loginError": "Нэвтрэх алдаа гарлаа" }
+  },
+  "playlists": { "trackLabel": "Мөр", "tracksLabel": "Замууд" },
+  "mediaList": { "tracksLabel": "Замууд", "remove": "Устгах" },
+  "tutorialPage": { "done": "Дууссан", "skip": "Алгасах" },
+  "loginModal": { "login": "Нэвтрэх" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Татаж байна", "complete": "Татаж дууссан" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Библийг судлаарай",
+      "subtitle1": "Библийг бүхэлд нь бидэнтэй хамт аялж, эсвэл өөрийн гэсэн аялалаа эхлээрэй.",
+      "title2": "Сонсох, оролцуулах",
+      "subtitle2": "Медиа тоглуулагч нь BIBLE-ийн агуулгыг THRU руу хялбархан шумбах боломжийг танд олгоно.",
+      "title3": "Сургалтыг олж мэдэх",
+      "subtitle3": "Библи ба заах агуулгыг хооронд нь иш татан Библид урьд өмнө хэзээ ч байгаагүйгээр оролцоорой.",
+      "title4": "Библийн талаар ярилц",
+      "subtitle4": "БИБЛИЙН сургаал, сэдвийг бусадтай хамт THRU судлах бүлэгт нэгдээрэй.",
+      "title5": "Татаж авах, хуваалцах",
+      "subtitle5": "Явж байхдаа Бурханы үгийг сонсож, найзуудтайгаа хуваалцаарай.",
+      "title6": "Хадгалах ба үүсгэх",
+      "subtitle6": "Дуртай сургаал, Библийн шүлгүүдээ хадгалах эсвэл захиалгаар тоглуулах жагсаалт үүсгэх.",
+      "title7": "Бүлгийн чин бишрэл",
+      "subtitle7": "Өдөр бүр бүлгийн чин бишрэлтэйгээр бусдаас урам зориг, урам зориг аваарай."
+    },
+    "registerPage": {
+      "noThanks": "Үгүй ээ баярлалаа",
+      "haveAccount": "Данстай юу?",
+      "createAccount": "Миний данс үүсгэх",
+      "title1": "Бусадтай ярилцана уу",
+      "subtitle1": "Өөрийн дуртай сэдэв, библийн шүлгүүдийг бусадтай ярилц.",
+      "title2": "Тоглуулах жагсаалтыг хадгалах, синк хийх",
+      "subtitle2": "Өөрийн дуртай агуулгын жагсаалтыг нэг дороос бүтээх.",
+      "title3": "Дуртай зүйлээ үзээрэй",
+      "subtitle3": "Хадгалж, эргэж ирээд дараа нь дуртай газраа зочилно уу.",
+      "title4": "Буцаад тавтай морил",
+      "subtitle4": "Бүртгэл үүсгэж, манай бүх онцлогт хандах эрх аваарай."
+    }
+  },
+  "app": {
+    "close": "ойрхон",
+    "accept": "Хүлээн зөвшөөр",
+    "reject": "Татгалзах",
+    "constructionInProgress": "БАРИЛГА ЯВУУЛЖ БАЙНА",
+    "downloadComplete": "Татаж дууссан",
+    "downloading": "Татаж байна",
+    "downloadFailed": "Татаж чадсангүй",
+    "sendAFile": "Хэн нэгэн танд файл илгээхийг хүсч байна"
+  },
+  "transferring": { "tryAgain": "дахин оролд", "close": "ойрхон" },
+  "checkDevice": {
+    "check": "Төхөөрөмжөө шалгана уу",
+    "makeSure": "Wifi-Direct нь таны найзын төхөөрөмж дээр асаалттай байгаа эсэхийг шалгана уу.",
+    "continue": "Үргэлжлүүлэх"
+  },
+  "connectToDevice": { "connect": "Төхөөрөмжтэй холбогдох" },
+  "pairing": {
+    "connect": "Төхөөрөмжтэй холбогдох",
+    "pairing": "Хослуулах",
+    "success": "Амжилттай хосолсон",
+    "failed": "Төхөөрөмжийг хослуулж чадсангүй",
+    "makeSure": "(Wifi-Direct) таны найзын төхөөрөмж дээр асаалттай байгаа эсэхийг шалгана уу.",
+    "continue": "Үргэлжлүүлэх",
+    "tryAgain": "Дахин оролд"
+  },
+  "selectNetworkType": {
+    "connect": "Төхөөрөмжтэй холбогдох",
+    "share": "Wifi Direct-тэй хуваалцах",
+    "send": "Wifi шууд файлаар илгээх үү?",
+    "continue": "Үргэлжлүүлэх"
+  }
+}

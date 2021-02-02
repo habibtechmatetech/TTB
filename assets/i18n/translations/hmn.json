@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "Xaiv koj hom lus tam sim no", "mainAction": "Xaiv Lus" },
+  "menu": {
+    "anonymousTitle": "Koj tus Account",
+    "anonymousAction": "ID nkag mus",
+    "editProfileAction": "Kho kom raug profile",
+    "verifyProfileAction": "Pov thawj profile",
+    "bibleSection": "Ntawv Vajtswv",
+    "teachingsSection": "Cov Kev Qhia",
+    "librarySection": "Kuv Lub Tsev Qiv Ntawv",
+    "groupsSection": "Pawg",
+    "donateSection": "Pub",
+    "settingsSection": "Chaw",
+    "signOut": "Kev Tawm",
+    "modals": {
+      "verifyProfile": {
+        "title": "Koj tsis muaj qhov tseeb thiab",
+        "message": "Koj cov npe yuav tsis raug kaw thiab koj tsis tuaj yeem tsim ib pawg. Thov kos koj lub email kom tiav kev sau npe.",
+        "firstButton": "Txuas ntxiv mus",
+        "secondButton": "Sau npe ntawm daim ntawv tshiab"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Sau Npe Hauv",
+    "emailPlaceholder": "Koj Li Email",
+    "passwordPlaceholder": "Koj Lo Lus Qhia",
+    "forgotAction": "Tsis nco qab lo lus zais?",
+    "callToAction": "Sau npe nkag",
+    "signInAlternatives": "Lossis Nkag Mus Siv",
+    "noAccountAction": "Tsis muaj nyiaj? Tsim ib",
+    "notifications": {
+      "invalidCredentials": "Tsis muaj peev xwm",
+      "inProgress": "Sau npe nyob rau hauv twb tau ua tiav",
+      "notAvailable": "Ua si kev pabcuam tsis muaj"
+    }
+  },
+  "signUp": {
+    "header": "Tsim Account",
+    "emailPlaceholder": "Koj Li Email",
+    "passwordPlaceholder": "Koj Lo Lus Qhia",
+    "privateAction": "Ua Ntaub Ntawv Ntiag Tug",
+    "termsDisclaimer": {
+      "pre": "Los ntawm txhaj Teev Npe koj qhia tias koj tau nyeem thiab pom zoo",
+      "terms": "cov lus",
+      "post": "Cov."
+    },
+    "callToAction": "Sau npe",
+    "signUpAlternatives": "Lossis Sau Npe Siv",
+    "haveAnAccountAction": "Puas muaj ib tug account?",
+    "notifications": {
+      "invalidUsername": "Cov siv tsis tag rau 20 tus ntawv alphanumeric (tus lej thiab cov tsiaj ntawv tsis tu ncua)",
+      "invalidPassword": "Tus password yuav tsum muaj tsawg kawg 3 qhov cim thiab ua nrog cov tsiaj ntawv loj thiab me nrog tsawg kawg ib tus lej lossis cim tshwj xeeb"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Tsis tsim los tsim ib tug account",
+        "message": "Qhov email chaw nyob twb muaj lawm.",
+        "firstButton": "Sau Npe Hauv",
+        "secondButton": "Kaw"
+      },
+      "privateAccount": {
+        "title": "Nyiaj Tus Kheej",
+        "message": "Los ntawm kev ua koj tus lej ntiag tug, koj zais nws ntawm qhov nrhiav pom los ntawm lwm tus.",
+        "firstButton": "Txais",
+        "secondButton": "Poob qis"
+      },
+      "success": {
+        "title": "Tus Account Tsim!",
+        "message": "Koj tus account tau ntse tsim. Kuaj koj lub inbox kom paub meej tias koj tus lej account thiab kos npe nkag.",
+        "firstButton": "Sau Npe Hauv"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Rov qab qhib lo lus zais",
+    "emailPlaceholder": "Koj Li Email",
+    "message": "Thov sau koj tus email rov pib dua koj tus password rau koj tus lej.",
+    "callToAction": "Rov qab qhib lo lus zais",
+    "notifications": {
+      "success": "Peb tsuas yog xa email rau koj inbox",
+      "emailNotFoundError": "Tug email tsis pom",
+      "invalidEmailError": "Siv email tsis yog"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Teem Teeb Teem",
+    "message": "Tus email tau raug xa mus rau email chaw nyob uas koj nkag mus. Thov saib cov ncauj lus email kom tiav kev sau npe.",
+    "callToAction": "Hla rau Tam Sim No"
+  },
+  "teachings": {
+    "dailyText": "Xov Xwm hnub no tshaj tawm",
+    "journeyTitle": "Pib Koj Txoj Kev Mus",
+    "journeySubtitle": "Tag nrho cov lus qhia txij thaum pib ua tiav",
+    "journeyCardTitle": "215 Lub Limtiam Kev Ncua Sijhawm Nrov Vaajlugkub",
+    "journeyCardSubtitle": "Mloog koj lub sijhawm",
+    "tracksLabel": "Cem"
+  },
+  "teaching": {
+    "header": "Cov Kev Qhia",
+    "loading": "Chaw thau khoom ...",
+    "player": {
+      "audioSpeed": "Suab Ceev",
+      "loading": "Chaw thau khoom",
+      "castingError": "Tsis Muaj Cov Cuab Yeej Siv"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Txuas Ntxiv Mloog", "secondButton": "Pib koj txoj kev taug" }
+    }
+  },
+  "journey": {
+    "byDate": "Txog Hnub Tim",
+    "bySeries": "Los Ntawm Series",
+    "sections": { "tracksLabel": "Cov ciav hlau" }
+  },
+  "library": {
+    "header": "Kuv Lub Tsev Qiv Ntawv",
+    "tabs": { "downloads": "Rub tawm", "favorites": "Kev Nyiam", "playlists": "Cov Ntseeg Ua Si" }
+  },
+  "groups": {
+    "header": "Pawg",
+    "createGroup": {
+      "title": "Tsim Tshiab Pab Pawg",
+      "groupNameLabel": "GROUP LUB NPE",
+      "groupNameInputPlaceHolder": "Npe",
+      "descriptionLabel": "LAWV",
+      "descriptionInputPlaceHolder": "Ntxiv lus piav qhia",
+      "inviteLabel": "Caw Cov Neeg Siv",
+      "inviteButton": "Caw Cov Neeg Siv Tshiab",
+      "button": "Tsim Pab Pawg",
+      "invalidGroupName": "Sau lub npe siv tau",
+      "groupNameTooLong": "Lub npe ntawm pawg yuav tsum tsis muaj ntau tshaj 25 tus cim"
+    },
+    "devotionNotStartAlert": "Txoj kev rau siab tsis tau pib rau pab pawg no",
+    "membersLabel": "Cov Tswv Cuab",
+    "chatModalMemberSubtitleLabel": "tus mej zeej",
+    "chatModalMembersSubtitleLabel": "neeg",
+    "chat": {
+      "listeningToLabel": "Mloog tsis dhuav",
+      "loadingTrackLabel": "Chaw thau khoom khiav ...",
+      "inputPlaceHolder": "Sau Xov",
+      "deletePost": "Rho tawm Post",
+      "deleteMessage": "tau tshaj tawm lus"
+    },
+    "groupSettings": {
+      "participantsSection": "Cov Neeg Koom Tes",
+      "viewAll": "Saib Txhua",
+      "invite": "Caw Cov Neeg Siv Tshiab",
+      "endDevotion": "Xaus pab Pawg",
+      "deleteGroup": "Rho tawm Pab Pawg",
+      "leaveGroup": "Tseg Ib Pawg"
+    },
+    "userDirectory": {
+      "header": "Tus Neeg Siv Phau Ntawv Qhia",
+      "remove": "Tshem tawm",
+      "anonymous": "Ua neeg",
+      "send": "Xa"
+    },
+    "inviteUser": { "placeHolder": "Tshawb Fawb", "send": "Xa" }
+  },
+  "chat": {
+    "header": "Pab Pawg Channel",
+    "settings": {
+      "header": "Pawg Chaw",
+      "endDevotion": {
+        "alertTitle": "Kawg Siab Raug",
+        "alertMessage": "Koj puas paub tseeb tias koj xav xaus txoj kev mob siab no?",
+        "alertCancel": "Ntawv cia Suam teb",
+        "alertConfirm": "Yog lawm",
+        "endDevotionLabel": "xaus no mob siab.",
+        "hasEnded": "Txoj kev rau siab no tau xaus lawm"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Pib ntawm siab",
+    "alertMessage": "Koj puas paub tseeb tias koj xav pib mob siab nrog% {npe} pawg?",
+    "alertCancel": "Ntawv cia Suam teb",
+    "alertConfirm": "Yog lawm",
+    "devotionStartedLabel": "tau pib mob siab."
+  },
+  "settings": {
+    "header": "Chaw",
+    "tabs": { "profile": "Txog", "media": "Xov Xwm", "notifications": "Cov ntawv qhia" },
+    "profile": {
+      "account": "Nyiaj",
+      "username": "Lub npe neeg siv",
+      "email": "E-mail",
+      "editButton": "Kho kom raug",
+      "edit": {
+        "save": "Txuag",
+        "username": {
+          "header": "Lub npe neeg siv",
+          "successAlert": "Koj txoj kev hloov tau txais kev cawmdim.",
+          "failedAlert": "Ua tsis tiav qhov hloov pauv."
+        },
+        "email": {
+          "header": "Email",
+          "successAlert": "Koj txoj kev hloov tau txais kev cawmdim.",
+          "failedAlert": "Ua tsis tiav qhov hloov pauv."
+        }
+      },
+      "languages": "Cov lus",
+      "signIn": "Sau Npe Hauv",
+      "signOut": "Kos Npe ntawm Nyiaj Txiag",
+      "legal": "Raws li txoj cai",
+      "termsConditions": "Cov Lus Cog Tseg & Cov Mob",
+      "privacyPolicy": "Txoj Cai Tswjfwm Ntiag Tug",
+      "support": "Txhawb nqa",
+      "reportAProblem": "Tshaj Tawm Qhov Teeb Meem",
+      "tutorial": "Ua Qhia",
+      "reportBug": {
+        "header": "Tshaj Tawm Qhov Teeb Meem",
+        "send": "Xa",
+        "subject": "TUS TUB",
+        "subjectPlaceHolder": "Cov Ntsiab Lus",
+        "description": "LAWV",
+        "descriptionPlaceHolder": "Kev piav qhia",
+        "successAlert": "Ua tsaug, peb tau txais koj cov lus.",
+        "failedAlert": "Ua tsis tiav cov xa."
+      },
+      "version": "Version"
+    },
+    "media": {
+      "audio": "Suab",
+      "autoplay": "Autoplay Suab",
+      "storage": "Cia",
+      "downloadWifi": "Tsuas yog rub tawm ntawm Wi-nkaus",
+      "deleteCache": "Rho tawm Cache"
+    },
+    "notifications": {
+      "notifications": "Cov ntawv qhia",
+      "groupInvitation": "Pab Pawg Koom Tes Caw",
+      "devotions": "Caw Rau Devotions",
+      "file": "Kev Tshawb Xyuas Ntaub Ntawv Hloov Chaw"
+    }
+  },
+  "inviteUsers": { "header": "Caw Cov Neeg Siv" },
+  "playlist": {
+    "header": "Tshuab raj",
+    "audioFileLabel": "Cov ntaub ntawv kaw",
+    "audioFilesLabel": "Cov ntaub ntawv kaw"
+  },
+  "collection": { "header": "Kev Sau", "audioFilesLabel": "Cov ntaub ntawv kaw" },
+  "modal": {
+    "close": "kaw",
+    "addToPlaylist": { "title": "Ntxiv rau Playlist", "button": "Tsim Playlist" },
+    "startDevotion": { "title": "Pib ntawm siab" },
+    "createPlaylist": {
+      "title": "Tsim Daim Ntawv Cim Tshiab",
+      "button": "Tsim Playlist",
+      "inputPlaceholder": "Sau Npe Tus Hu Ua Si",
+      "success": "Ntxiv rau Playlist"
+    },
+    "login": "Koj yuav tsum nkag mus pib siv zog"
+  },
+  "options": {
+    "shared": {
+      "share": "Qhia tawm",
+      "report": "Cov Ntsiab Lus Ntsiab Lus",
+      "shareOthers": "Qhia nrog Lwm Tus",
+      "copy": "Luam Ntawv Txuas",
+      "more": "Ntau"
+    },
+    "audio": {
+      "download": "Rub",
+      "addFavorite": "Ntxiv rau Favorites",
+      "addPlaylist": "Ntxiv rau Playlist",
+      "removeFavorite": "Tshem tawm ntawm Favorites",
+      "removePlaylist": "Tshem tawm ntawm Playlist",
+      "removeDownload": "Tshem tawm ntawm Downloads"
+    },
+    "playlist": { "edit": "Kho kom raug", "delete": "Rho tawm Playlist" },
+    "startDevotion": "Pib ntawm siab"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Ntxiv rau Playlist",
+      "delete": "Muab tshem tawm hauv Playlist",
+      "create": "Tsim Rau Playlist",
+      "destroy": "Lawb Ua Si Playlist"
+    },
+    "favorites": { "add": "Ntxiv rau Qhov Favorites", "remove": "Muab tshem tawm ntawm Favorites" },
+    "downloads": { "remove": "Muab tshem tawm los ntawm Downloads" }
+  },
+  "buttons": { "loop": "Voj", "shuffle": "Ntxoov" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Tshawb nrhiav ..." },
+    "notification": { "success": "Kev vam meej! Yuav xa email rau koj tus lej." },
+    "button": { "sending": "Xa ..." },
+    "modalSelector": { "cancel": "Ntawv cia Suam teb" },
+    "loading": "Chaw thau khoom"
+  },
+  "bible": {
+    "header": "Ntawv Vajtswv",
+    "oldTestament": "Phau Qub",
+    "newTestament": "Phau Tshiab",
+    "popularBooks": "Cov phau ntawv nrov"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Tshawb Fawb",
+    "cancelButton": "HLOOV",
+    "searchResults": "Nrhiav tau",
+    "filterButton": "Lim",
+    "teachings": { "title": "Cov Kev Qhia" },
+    "bible": { "title": "Ntawv Vajtswv" }
+  },
+  "addToPlaylistsModal": { "title": "Ntxiv rau Playlist", "button": "Tsim Playlist" },
+  "createPlaylistModal": {
+    "title": "Tsim Daim Ntawv Cim Tshiab",
+    "button": "Tsim Playlist",
+    "inputPlaceholder": "Sau Npe Tus Hu Ua Si"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Ntxiv rau Playlist",
+      "remove": "Muab tshem tawm hauv Playlist",
+      "create": "Tsim Rau Playlist",
+      "delete": "Lawb Ua Si Playlist"
+    },
+    "favorites": { "add": "Ntxiv rau Qhov Favorites", "remove": "Muab tshem tawm ntawm Favorites" },
+    "downloads": { "remove": "Muab tshem tawm los ntawm Downloads" },
+    "facebook": { "loginError": "ID nkag mus tsis muaj qhov yuam kev" },
+    "google": { "loginError": "ID nkag mus tsis muaj qhov yuam kev" }
+  },
+  "playlists": { "trackLabel": "Taug qab", "tracksLabel": "Cem" },
+  "mediaList": { "tracksLabel": "Cov ciav hlau", "remove": "Tshem tawm" },
+  "tutorialPage": { "done": "Ua li cas", "skip": "Hla" },
+  "loginModal": { "login": "ID nkag mus" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Xov Xwm Twitter", "whatsapp": "Ua WhatsApp" },
+  "downloadModal": { "downloading": "Daus", "complete": "Download Tiav" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Tshawb nrhiav Vajluskub",
+      "subtitle1": "Mus ncig thoob phau Vaj Lug Kub Npaiv Npaum nrog peb txhua tus, los yog pib txoj kev ntawm koj tus kheej.",
+      "title2": "Mloog & Koom Tes",
+      "subtitle2": "Cov media player tso cai rau koj mus rau hauv THRU BIBLE cov ntsiab lus nrog yooj yim.",
+      "title3": "Tshawb Txog Cov Lus Qhia",
+      "subtitle3": "Koom nrog rau hauv phau Vajlugkub zoo li yeej tsis tau ua ntej los ntawm hla kev saib cov Vaj Qhia & Qhia cov ntsiab lus.",
+      "title4": "Tham txog phau Vajlugkub",
+      "subtitle4": "Koom nrog pab pawg los kawm THRU PHAU VAJLUGKUB kev qhia thiab ntsiab lus nrog lwm tus.",
+      "title5": "Rub tau & Qhia tawm",
+      "subtitle5": "Nyiam mloog Vajtswv Txoj Lus thaum taug kev thiab muab qhia rau koj cov phooj ywg.",
+      "title6": "Txuag & Tsim",
+      "subtitle6": "Txuag koj cov lus qhia uas nyiam thiab cov nqe Vajlugkub lossis tsim cov npe tsim.",
+      "title7": "Kev Sib Ncaim Pab Pawg",
+      "subtitle7": "Muaj kev txhawb nqa thiab txhawb nqa los ntawm lwm tus nrog kev niaj hnub nrog kev hwm."
+    },
+    "registerPage": {
+      "noThanks": "Tsis Muaj Tsaug",
+      "haveAccount": "Puas muaj ib tug account?",
+      "createAccount": "Tsim Kuv Tus Account",
+      "title1": "Tham Nrog Lwm Tus",
+      "subtitle1": "Sib tham txog cov ncauj lus koj nyiam thiab cov nqe Vajlugkub.",
+      "title2": "Khw thiab Sync Playlists",
+      "subtitle2": "Ua cov npe ntawm cov ntsiab lus koj nyiam nyob hauv ib qho chaw.",
+      "title3": "Saib Koj Tus Nyiam",
+      "subtitle3": "Khw thiab rov qab los thiab rov mus saib koj nyiam tom qab sijhawm.",
+      "title4": "Zoo Siab Tos Txais",
+      "subtitle4": "Tsim ib tus as khauj thiab nkag tau mus rau tag nrho peb cov nta."
+    }
+  },
+  "app": {
+    "close": "kaw",
+    "accept": "Txais",
+    "reject": "Xyeej",
+    "constructionInProgress": "SIV TSHUAJ LAWM",
+    "downloadComplete": "Download Tiav",
+    "downloading": "Tso cia",
+    "downloadFailed": "Download Ua Tsis Tau Li",
+    "sendAFile": "Qee Tus Neeg Xav Xa Koj Ib Cov Ntaub Ntawv"
+  },
+  "transferring": { "tryAgain": "rov sim dua", "close": "kaw" },
+  "checkDevice": {
+    "check": "Kuaj Koj Cov Cuab Yeej",
+    "makeSure": "Thov nco ntsoov tias Wifi-Direct tau qhib koj tus phooj ywg lub ntaus ntawv thiab nws nyob rau hauv ntau yam.",
+    "continue": "Txuas ntxiv mus"
+  },
+  "connectToDevice": { "connect": "Txuas Rau Ib Lub Cuab Yeej" },
+  "pairing": {
+    "connect": "Txuas Rau Ib Lub Cuab Yeej",
+    "pairing": "Khub",
+    "success": "Tau Zoo Ua Ke",
+    "failed": "Ntaus Sib Ntaus Tsis Txaus Siab",
+    "makeSure": "Thov nco ntsoov (Wifi-Direct) tau qhib koj tus phooj ywg lub ntaus ntawv thiab nws nyob rau hauv ntau yam.",
+    "continue": "Txuas ntxiv mus",
+    "tryAgain": "Rov Ua Dua"
+  },
+  "selectNetworkType": {
+    "connect": "Txuas rau ntaus ntawv",
+    "share": "Qhia nrog Wifi Direct",
+    "send": "Xa cov ntaub ntawv dua wifi ncaj qha?",
+    "continue": "Txuas ntxiv mus"
+  }
+}

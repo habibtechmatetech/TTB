@@ -1,0 +1,485 @@
+{
+  "selectLanguage": {
+    "heading": "Select your current language",
+    "mainAction": "Select Language"
+  },
+  "menu": {
+    "anonymousTitle": "Your Account",
+    "anonymousAction": "Login",
+    "editProfileAction": "Edit profile",
+    "verifyProfileAction": "Verify profile",
+    "bibleSection": "Bible",
+    "teachingsSection": "Teachings",
+    "librarySection": "My Library",
+    "groupsSection": "Groups",
+    "donateSection": "Donate",
+    "settingsSection": "Settings",
+    "signOut": "Sign Out",
+    "modals": {
+      "verifyProfile": {
+        "title": "You are not verified",
+        "message": "Your lists will not be synced and you cannot create groups. Please check your email to complete registration.",
+        "firstButton": "Continue",
+        "secondButton": "Register a new profile"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Sign In",
+    "emailPlaceholder": "Your Email",
+    "passwordPlaceholder": "Your Password",
+    "forgotAction": "Forgot Password?",
+    "callToAction": "Sign in",
+    "signInAlternatives": "Or Sign In using",
+    "noAccountAction": "No account? Create one",
+    "notifications": {
+      "invalidCredentials": "Invalid credentials",
+      "inProgress": "Sign in already in progress",
+      "notAvailable": "Play services unavailable"
+    }
+  },
+  "signUp": {
+    "header": "Create Account",
+    "emailPlaceholder": "Your Email",
+    "passwordPlaceholder": "Your Password",
+    "privateAction": "Make Account Private",
+    "termsDisclaimer": {
+      "pre": "By clicking Signup you indicate that you have read and agree to ",
+      "terms": "the terms",
+      "post": "."
+    },
+    "callToAction": "Sign up",
+    "signUpAlternatives": "Or Sign Up using",
+    "haveAnAccountAction": "Have an account?",
+    "notifications": {
+      "invalidUsername": "Usernames are limited to 20 alphanumeric characters (numbers and regular letters)",
+      "invalidPassword": "Password should have at least 3 characters and be a combination of upper and lower case characters with at least one number or special character"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Unable to create an account",
+        "message": "This email address already exists.",
+        "firstButton": "Sign In",
+        "secondButton": "Close"
+      },
+      "privateAccount": {
+        "title": "Private Account",
+        "message": "By making your account private, you are hiding it from being discovered by others.",
+        "firstButton": "Accept",
+        "secondButton": "Decline"
+      },
+      "success": {
+        "title": "Account Created!",
+        "message": "Your account was successfully created. Check your inbox to confirm your account and sign in.",
+        "firstButton": "Sign In"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Reset password",
+    "emailPlaceholder": "Your Email",
+    "message": "Please enter your email to reset your password for your account.",
+    "callToAction": "Reset password",
+    "notifications": {
+      "success": "We just sent an email to your inbox",
+      "emailNotFoundError": "Email was not found",
+      "invalidEmailError": "Invalid email format"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Finish Setup",
+    "message": "An email has been sent to the email address you entered. Please see the email details to complete registration.",
+    "callToAction": "Skip for Now"
+  },
+  "teachings": {
+    "dailyText": "Today's Broadcast",
+    "journeyTitle": "Start Your Journey",
+    "journeySubtitle": "All teachings from start to finish",
+    "journeyCardTitle": "215 Week Journey Through the Bible",
+    "journeyCardSubtitle": "Listen on your time",
+    "tracksLabel": "Tracks"
+  },
+  "teaching": {
+    "header": "Teachings",
+    "loading": "Loading...",
+    "player": {
+      "audioSpeed": "Audio Speed",
+      "loading": "Loading",
+      "castingError": "No Devices Available"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Continue Listening",
+        "secondButton": "Start your journey"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "By Date",
+    "bySeries": "By Series",
+    "sections": {
+      "tracksLabel": "Tracks"
+    }
+  },
+  "library": {
+    "header": "My Library",
+    "tabs": {
+      "downloads": "Downloads",
+      "favorites": "Favorites",
+      "playlists": "Playlists"
+    }
+  },
+  "groups": {
+    "header": "Groups",
+    "createGroup": {
+      "title": "Create New Group",
+      "groupNameLabel": "GROUP NAME",
+      "groupNameInputPlaceHolder": "Name",
+      "descriptionLabel": "DESCRIPTION",
+      "descriptionInputPlaceHolder": "Add Description",
+      "inviteLabel": "Invite Users",
+      "inviteButton": "Invite New Users",
+      "button": "Create Group",
+      "invalidGroupName": "Enter a valid name",
+      "groupNameTooLong": "The name of the group must not contain more than 25 characters"
+    },
+    "devotionNotStartAlert": "A devotion has not started for this group",
+    "membersLabel": "Members",
+    "chatModalMemberSubtitleLabel": "member",
+    "chatModalMembersSubtitleLabel": "members",
+    "chat": {
+      "listeningToLabel": "Listening to",
+      "loadingTrackLabel": "Loading track...",
+      "inputPlaceHolder": "Write Message",
+      "deletePost": "Delete Post",
+      "deleteMessage": "has deleted a message"
+    },
+    "groupSettings": {
+      "participantsSection": "Participants",
+      "viewAll": "View All",
+      "invite": "Invite New Users",
+      "endDevotion": "End Group Devotion",
+      "deleteGroup": "Delete Group",
+      "leaveGroup": "Leave Group"
+    },
+    "userDirectory": {
+      "header": "User Directory",
+      "remove": "Remove",
+      "anonymous": "Anonymous",
+      "send": "Send"
+    },
+    "inviteUser": {
+      "placeHolder": "Search",
+      "send": "Send"
+    }
+  },
+  "chat": {
+    "header": "Group Channel",
+    "settings": {
+      "header": "Group Settings",
+      "endDevotion": {
+        "alertTitle": "End Devotion",
+        "alertMessage": "Are you sure you want to end this devotion?",
+        "alertCancel": "Cancel",
+        "alertConfirm": "Yes",
+        "endDevotionLabel": "ended this devotion.",
+        "hasEnded": "This devotion has ended"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Start Devotion",
+    "alertMessage": "Are you sure you want to start devotion with %{name} group?",
+    "alertCancel": "Cancel",
+    "alertConfirm": "Yes",
+    "devotionStartedLabel": "has started a devotion."
+  },
+  "settings": {
+    "header": "Settings",
+    "tabs": {
+      "profile": "Profile",
+      "media": "Media",
+      "notifications": "Notifications"
+    },
+    "profile": {
+      "account": "Account",
+      "username": "Username",
+      "email": "E-mail",
+      "editButton": "Edit",
+      "edit": {
+        "save": "Save",
+        "username": {
+          "header": "Username",
+          "successAlert": "Your change has been saved.",
+          "failedAlert": "Failed to save the change."
+        },
+        "email": {
+          "header": "Email",
+          "successAlert": "Your change has been saved.",
+          "failedAlert": "Failed to save the change."
+        }
+      },
+      "languages": "Languages",
+      "signIn": "Sign In",
+      "signOut": "Sign Out of Account",
+      "legal": "Legal",
+      "termsConditions": "Terms & Conditions",
+      "privacyPolicy": "Privacy Policy",
+      "support": "Support",
+      "reportAProblem": "Report a Problem",
+      "tutorial": "Tutorial",
+      "reportBug": {
+        "header": "Report a Problem",
+        "send": "Send",
+        "subject": "SUBJECT",
+        "subjectPlaceHolder": "Subject",
+        "description": "DESCRIPTION",
+        "descriptionPlaceHolder": "Description",
+        "successAlert": "Thank you, we have received your message.",
+        "failedAlert": "Failed to send the message."
+      },
+      "version": "Version"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Autoplay Audio",
+      "storage": "Storage",
+      "downloadWifi": "Only Download on Wi-fi",
+      "deleteCache": "Delete Cache"
+    },
+    "notifications": {
+      "notifications": "Notifications",
+      "groupInvitation": "Group Invitation",
+      "devotions": "Invite to Devotions",
+      "file": "File Transfer Confirmation"
+    }
+  },
+  "inviteUsers": {
+    "header": "Invite Users"
+  },
+  "playlist": {
+    "header": "Playlist",
+    "audioFileLabel": "Audio File",
+    "audioFilesLabel": "Audio Files"
+  },
+  "collection": {
+    "header": "Collection",
+    "audioFilesLabel": "Audio Files"
+  },
+  "modal": {
+    "close": "close",
+    "addToPlaylist": {
+      "title": "Add to Playlist",
+      "button": "Create Playlist"
+    },
+    "startDevotion": {
+      "title": "Start Devotion"
+    },
+    "createPlaylist": {
+      "title": "Create New Playlist",
+      "button": "Create Playlist",
+      "inputPlaceholder": "Enter Playlist Name",
+      "success": "Added to Playlist"
+    },
+    "login": "You need to login to start a devotion"
+  },
+  "options": {
+    "shared": {
+      "share": "Share",
+      "report": "Report Content",
+      "shareOthers": "Share with Others",
+      "copy": "Copy Link",
+      "more": "More"
+    },
+    "audio": {
+      "download": "Download",
+      "addFavorite": "Add to Favorites",
+      "addPlaylist": "Add to Playlist",
+      "removeFavorite": "Remove from Favorites",
+      "removePlaylist": "Remove from Playlist",
+      "removeDownload": "Remove from Downloads"
+    },
+    "playlist": {
+      "edit": "Edit",
+      "delete": "Delete Playlist"
+    },
+    "startDevotion": "Start Devotion"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Added to Playlist",
+      "delete": "Removed from Playlist",
+      "create": "Created Playlist",
+      "destroy": "Deleted Playlist"
+    },
+    "favorites": {
+      "add": "Added to Favorites",
+      "remove": "Removed from Favorites"
+    },
+    "downloads": {
+      "remove": "Removed from Downloads"
+    }
+  },
+  "buttons": {
+    "loop": "Loop",
+    "shuffle": "Shuffle"
+  },
+  "uiControls": {
+    "searchBox": {
+      "placeholder": "Search..."
+    },
+    "notification": {
+      "serverError": "Server error. Contact BE Team 😊"
+    },
+    "notification": {
+      "success": "Success! An email will be sent to your account."
+    },
+    "button": {
+      "sending": "Sending..."
+    },
+    "modalSelector": {
+      "cancel": "Cancel"
+    },
+    "loading": "Loading"
+  },
+  "bible": {
+    "header": "Bible",
+    "oldTestament": "Old Testament",
+    "newTestament": "New Testament",
+    "popularBooks": "Popular books"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Search",
+    "cancelButton": "CANCEL",
+    "searchResults": "Search Results",
+    "filterButton": "Filter",
+    "teachings": {
+      "title": "Teachings"
+    },
+    "bible": {
+      "title": "Bible"
+    }
+  },
+  "addToPlaylistsModal": {
+    "title": "Add to Playlist",
+    "button": "Create Playlist"
+  },
+  "createPlaylistModal": {
+    "title": "Create New Playlist",
+    "button": "Create Playlist",
+    "inputPlaceholder": "Enter Playlist Name"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Added to Playlist",
+      "remove": "Removed from Playlist",
+      "create": "Created Playlist",
+      "delete": "Deleted Playlist"
+    },
+    "favorites": {
+      "add": "Added to Favorites",
+      "remove": "Removed from Favorites"
+    },
+    "downloads": {
+      "remove": "Removed from Downloads"
+    },
+    "facebook": {
+      "loginError": "Login fail with error"
+    },
+    "google": {
+      "loginError": "Login fail with error"
+    }
+  },
+  "playlists": {
+    "trackLabel": "Track",
+    "tracksLabel": "Tracks"
+  },
+  "mediaList": {
+    "tracksLabel": "Tracks",
+    "remove": "Remove"
+  },
+  "tutorialPage": {
+    "done": "Done",
+    "skip": "Skip"
+  },
+  "loginModal": {
+    "login": "Login"
+  },
+  "shareModal": {
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "whatsapp": "WhatsApp"
+  },
+  "downloadModal": {
+    "downloading": "Downloading",
+    "complete": "Download Complete"
+  },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Explore the Bible",
+      "subtitle1": "Travel through the entire Bible with us, or start a journey of your own.",
+      "title2": "Listen & Engage",
+      "subtitle2": "The media player allows you to dive into THRU the BIBLE content with ease.",
+      "title3": "Discover Teachings",
+      "subtitle3": "Engage in the Bible like never before by cross-referencing the Bible & Teaching content.",
+      "title4": "Discuss the Bible",
+      "subtitle4": "Join a group to study the THRU the BIBLE teachings and topics with others.",
+      "title5": "Download & Share",
+      "subtitle5": "Enjoy listening to the Word of God on-the-go and share it with your friends.",
+      "title6": "Save & Create",
+      "subtitle6": "Save your favorite teachings and Bible verses or create a custom playlist.",
+      "title7": "Group Devotions",
+      "subtitle7": "Be encouraged and inspired by others with daily group devotionals."
+    },
+    "registerPage": {
+      "noThanks": "No Thanks",
+      "haveAccount": "Have an account?",
+      "createAccount": "Create My Account",
+      "title1": "Discuss with Others",
+      "subtitle1": "Discuss your favorite topics and bible verses with others.",
+      "title2": "Store and Sync Playlists",
+      "subtitle2": "Build lists of your favorite content in one place.",
+      "title3": "See Your Favorites",
+      "subtitle3": "Store and come back and visit your favorites at a later time.",
+      "title4": "Welcome Back",
+      "subtitle4": "Create an account and get access to all our features."
+    }
+  },
+  "app": {
+    "close": "close",
+    "accept": "Accept",
+    "reject": "Reject",
+    "constructionInProgress": "CONSTRUCTION IN PROGRESS",
+    "downloadComplete": "Download Complete",
+    "downloading": "Downloading",
+    "downloadFailed": "Download Failed",
+    "sendAFile": "Someone Wants To Send You A File"
+  },
+  "transferring": {
+    "tryAgain": "try again",
+    "close": "close"
+  },
+  "checkDevice": {
+    "check": "Check Your Device",
+    "makeSure": "Please make sure Wifi-Direct is turned on your friend's device and it's in range.",
+    "continue": "Continue"
+  },
+  "connectToDevice": {
+    "connect": "Connect to a Device"
+  },
+  "pairing": {
+    "connect": "Connect to a Device",
+    "pairing": "Pairing",
+    "success": "Successfully Paired",
+    "failed": "Device Pairing Failed",
+    "makeSure": "Please make sure (Wifi-Direct) is turned on your friend's device and it's in range.",
+    "continue": "Continue",
+    "tryAgain": "Try Again"
+  },
+  "selectNetworkType": {
+    "connect": "Connect to a device",
+    "share": "Share with Wifi Direct",
+    "send": "Send file over wifi direct?",
+    "continue": "Continue"
+  }
+}

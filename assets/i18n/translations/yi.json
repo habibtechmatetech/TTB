@@ -1,0 +1,398 @@
+{
+  "selectLanguage": {
+    "heading": "סעלעקטירן דיין קראַנט שפּראַך",
+    "mainAction": "סעלעקטירן שפּראַך"
+  },
+  "menu": {
+    "anonymousTitle": "דיין אַקאַונט",
+    "anonymousAction": "צייכן אריין",
+    "editProfileAction": "רעדאַגירן פּראָפיל",
+    "verifyProfileAction": "באַשטעטיקן פּראָפיל",
+    "bibleSection": "ביבל",
+    "teachingsSection": "לערנונגען",
+    "librarySection": "מייַן ביבליאָטעק",
+    "groupsSection": "גרופּעס",
+    "donateSection": "שענקען",
+    "settingsSection": "סעטטינגס",
+    "signOut": "צייכן אָוט",
+    "modals": {
+      "verifyProfile": {
+        "title": "איר זענט נישט וועראַפייד",
+        "message": "דיין רשימות וועט ניט זיין סינסיד און איר קענט נישט שאַפֿן גרופּעס. ביטע טשעק דיין E- בריוו צו פאַרענדיקן רעגיסטראַציע.",
+        "firstButton": "פאָרזעצן",
+        "secondButton": "פאַרשרייַבן אַ נייַע פּראָפיל"
+      }
+    }
+  },
+  "signIn": {
+    "header": "סיין אריין",
+    "emailPlaceholder": "דיין אימעיל",
+    "passwordPlaceholder": "דיין שפּריכוואָרט",
+    "forgotAction": "Forgot Password?",
+    "callToAction": "סיין אריין",
+    "signInAlternatives": "אָדער צייכן אין ניצן",
+    "noAccountAction": "קיין חשבון? שאַפֿן איין",
+    "notifications": {
+      "invalidCredentials": "אונגילטיג באַווײַזן",
+      "inProgress": "צייכן אין שוין אין פּראָגרעס",
+      "notAvailable": "פּלייַ באַדינונגען אַנאַוויילאַבאַל"
+    }
+  },
+  "signUp": {
+    "header": "שרייב דיר איין",
+    "emailPlaceholder": "דיין אימעיל",
+    "passwordPlaceholder": "דיין שפּריכוואָרט",
+    "privateAction": "מאַכן אַקאַונט פּריוואַט",
+    "termsDisclaimer": {
+      "pre": "דורך קליקינג סיגנופּ, איר אָנווייַזן אַז איר האָט לייענען און שטימען צו",
+      "terms": "די טערמינען",
+      "post": "."
+    },
+    "callToAction": "צייכן אַרויף",
+    "signUpAlternatives": "אָדער צייכן אַרויף ניצן",
+    "haveAnAccountAction": "האָבן אַ חשבון?",
+    "notifications": {
+      "invalidUsername": "באַניצער נעמען זענען לימיטעד צו 20 אַלפאַנומעריק אותיות (נומערן און רעגולער אותיות)",
+      "invalidPassword": "שפּריכוואָרט זאָל האָבן לפּחות 3 אותיות און זיין אַ קאָמבינאַציע פון ​​גרויס און קליין אותיות מיט לפּחות איין נומער אָדער ספּעציעלע אותיות"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "ניט געקענט מאַכן אַ חשבון",
+        "message": "די אימעיל אדרעס עקזיסטירט שוין.",
+        "firstButton": "סיין אריין",
+        "secondButton": "נאָענט"
+      },
+      "privateAccount": {
+        "title": "פּריוואַט אַקאַונט",
+        "message": "אויב איר מאַכן דיין אַקאַונט פּריוואַט, איר באַהאַלטן עס פון דיסקאַווערד דורך אנדערע.",
+        "firstButton": "אָננעמען",
+        "secondButton": "אַראָפּגיין"
+      },
+      "success": {
+        "title": "Account Created!",
+        "message": "דיין חשבון איז הצלחה באשאפן. טשעק דיין ינבאָקס צו באַשטעטיקן דיין חשבון און צייכן אין.",
+        "firstButton": "סיין אריין"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "באַשטעטיק פּאַראָל",
+    "emailPlaceholder": "דיין אימעיל",
+    "message": "ביטע אַרייַן דיין E- בריוו צו באַשטעטיק דיין פּאַראָל פֿאַר דיין חשבון.",
+    "callToAction": "באַשטעטיק פּאַראָל",
+    "notifications": {
+      "success": "מיר האָבן נאָר געשיקט אַ E- בריוו צו דיין ינבאָקס",
+      "emailNotFoundError": "אימעיל איז נישט געפונען געווארן",
+      "invalidEmailError": "אונגילטיג אימעיל פֿאָרמאַט"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "ענדיקן סעטאַפּ",
+    "message": "א E- בריוו איז געשיקט צו די E- בריוו אַדרעס איר האָט אריין. ביטע זען די E- בריוו פרטים צו פאַרענדיקן רעגיסטראַציע.",
+    "callToAction": "האָפּקען פֿאַר איצט"
+  },
+  "teachings": {
+    "dailyText": "הייַנט ס בראָדקאַסט",
+    "journeyTitle": "אָנהייב דיין דזשאָורניי",
+    "journeySubtitle": "אַלע לערנונגען פֿון אָנהייב צו ענדיקן",
+    "journeyCardTitle": "215 וואָך נסיעה דורך די ביבל",
+    "journeyCardSubtitle": "הערן אויף דיין צייט",
+    "tracksLabel": "טראַקס"
+  },
+  "teaching": {
+    "header": "לערנונגען",
+    "loading": "לאָודינג ...",
+    "player": {
+      "audioSpeed": "אַודיאָ ספּיד",
+      "loading": "Loading",
+      "castingError": "קיין דעוויסעס בנימצא"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "פאָרזעצן צוגעהערט", "secondButton": "אָנהייב דיין נסיעה" }
+    }
+  },
+  "journey": {
+    "byDate": "לויט טאָג",
+    "bySeries": "לויט סעריע",
+    "sections": { "tracksLabel": "טראַקס" }
+  },
+  "library": {
+    "header": "מייַן ביבליאָטעק",
+    "tabs": { "downloads": "דאַונלאָודז", "favorites": "פאַוואָריטעס", "playlists": "פּלייַליסץ" }
+  },
+  "groups": {
+    "header": "גרופּעס",
+    "createGroup": {
+      "title": "שאַפֿן ניו גרופע",
+      "groupNameLabel": "גרופּע נאָמען",
+      "groupNameInputPlaceHolder": "נאָמען",
+      "descriptionLabel": "באַשרייַבונג",
+      "descriptionInputPlaceHolder": "לייג באַשרייַבונג",
+      "inviteLabel": "לאַדן וסערס",
+      "inviteButton": "לאַדן ניו וסערס",
+      "button": "שאַפֿן גרופע",
+      "invalidGroupName": "אַרייַן אַ גילטיק נאָמען",
+      "groupNameTooLong": "דער נאָמען פון דער גרופּע זאָל ניט כּולל מער ווי 25 אותיות"
+    },
+    "devotionNotStartAlert": "א איבערגעגעבנקייט איז נישט סטאַרטעד פֿאַר די גרופּע",
+    "membersLabel": "מיטגלידער",
+    "chatModalMemberSubtitleLabel": "מיטגליד",
+    "chatModalMembersSubtitleLabel": "מיטגלידער",
+    "chat": {
+      "listeningToLabel": "צוגעהערט צו",
+      "loadingTrackLabel": "לאָודינג שפּור ...",
+      "inputPlaceHolder": "שרייב אָנזאָג",
+      "deletePost": "ויסמעקן פּאָסטן",
+      "deleteMessage": "האט אויסגעמעקט א מעסעדזש"
+    },
+    "groupSettings": {
+      "participantsSection": "פּאַרטיסיפּאַנץ",
+      "viewAll": "זעה אלעס",
+      "invite": "לאַדן ניו וסערס",
+      "endDevotion": "סוף גרופע איבערגעגעבנקייט",
+      "deleteGroup": "ויסמעקן גרופע",
+      "leaveGroup": "לאָזן גרופע"
+    },
+    "userDirectory": {
+      "header": "באַניצער וועגווייַזער",
+      "remove": "אַראָפּנעמען",
+      "anonymous": "אַנאָנימע באַנוצערס",
+      "send": "שיקן"
+    },
+    "inviteUser": { "placeHolder": "זוך", "send": "שיקן" }
+  },
+  "chat": {
+    "header": "גרופע טשאַננעל",
+    "settings": {
+      "header": "גרופע סעטטינגס",
+      "endDevotion": {
+        "alertTitle": "סוף איבערגעגעבנקייט",
+        "alertMessage": "ביסט איר זיכער אַז איר ווילט צו ענדיקן דעם איבערגעגעבנקייט?",
+        "alertCancel": "באָטל מאַכן",
+        "alertConfirm": "יאָ",
+        "endDevotionLabel": "געענדיקט דעם איבערגעגעבנקייט.",
+        "hasEnded": "די איבערגעגעבנקייט איז געענדיקט"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "אָנהייב דיוואָושאַן",
+    "alertMessage": "ביסטו זיכער אז דו ווילסט אנהייבן מסירות נפש מיט% {name} גרופע?",
+    "alertCancel": "באָטל מאַכן",
+    "alertConfirm": "יאָ",
+    "devotionStartedLabel": "האט אנגעהויבן אַן איבערגעגעבנקייט."
+  },
+  "settings": {
+    "header": "סעטטינגס",
+    "tabs": { "profile": "פּראָפיל", "media": "מעדיע", "notifications": "נאָטיפיקאַטיאָנס" },
+    "profile": {
+      "account": "קאנטע",
+      "username": "נאמען",
+      "email": "E- בריוו",
+      "editButton": "רעדאַגירן",
+      "edit": {
+        "save": "היט",
+        "username": {
+          "header": "נאמען",
+          "successAlert": "דיין ענדערונג איז געראטעוועט.",
+          "failedAlert": "ניט אַנדערש צו ראַטעווען די ענדערונג."
+        },
+        "email": {
+          "header": "אימעיל",
+          "successAlert": "דיין ענדערונג איז געראטעוועט.",
+          "failedAlert": "ניט אַנדערש צו ראַטעווען די ענדערונג."
+        }
+      },
+      "languages": "שפראכן",
+      "signIn": "סיין אריין",
+      "signOut": "צייכן אויס פון אַקאַונט",
+      "legal": "לעגאַל",
+      "termsConditions": "תּנאָים & קאָנדיטיאָנס",
+      "privacyPolicy": "פּריוואַטקייט פּאָליטיק",
+      "support": "שטיצן",
+      "reportAProblem": "באריכט אַ פּראָבלעם",
+      "tutorial": "טוטאָריאַל",
+      "reportBug": {
+        "header": "באריכט אַ פּראָבלעם",
+        "send": "שיקן",
+        "subject": "טעמע",
+        "subjectPlaceHolder": "ונטערטעניק",
+        "description": "באַשרייַבונג",
+        "descriptionPlaceHolder": "באַשרייַבונג",
+        "successAlert": "דאנק איר, מיר האָבן באקומען דיין אָנזאָג.",
+        "failedAlert": "שיקן דעם אָנזאָג ניט אַנדערש."
+      },
+      "version": "ווערסיע"
+    },
+    "media": {
+      "audio": "אַודיאָ",
+      "autoplay": "אַוטאָפּלייַ אַודיאָ",
+      "storage": "סטאָרידזש",
+      "downloadWifi": "בלויז אראפקאפיע אויף Wi-Fi",
+      "deleteCache": "ויסמעקן קאַש"
+    },
+    "notifications": {
+      "notifications": "נאָטיפיקאַטיאָנס",
+      "groupInvitation": "גרופע פאַרבעטונג",
+      "devotions": "לאַדן צו דעוואָטיאָנס",
+      "file": "באַשטעטיקונג פון טעקע אַריבערפירן"
+    }
+  },
+  "inviteUsers": { "header": "לאַדן וסערס" },
+  "playlist": {
+    "header": "פּלייַליסט",
+    "audioFileLabel": "אַודיאָ טעקע",
+    "audioFilesLabel": "אַודיאָ פילעס"
+  },
+  "collection": { "header": "זאַמלונג", "audioFilesLabel": "אַודיאָ פילעס" },
+  "modal": {
+    "close": "נאָענט",
+    "addToPlaylist": { "title": "לייג צו פּלייַליסט", "button": "שאַפֿן פּלייַליסט" },
+    "startDevotion": { "title": "אָנהייב דיוואָושאַן" },
+    "createPlaylist": {
+      "title": "שאַפֿן ניו פּלייַליסט",
+      "button": "שאַפֿן פּלייַליסט",
+      "inputPlaceholder": "אַרייַן פּלייַליסט נאָמען",
+      "success": "צוגעגעבן צו פּלייַליסט"
+    },
+    "login": "איר דאַרפֿן צו לאָגין צו אָנהייבן אַן איבערגעגעבנקייט"
+  },
+  "options": {
+    "shared": {
+      "share": "שער",
+      "report": "באריכט אינהאַלט",
+      "shareOthers": "ייַנטיילן מיט אנדערע",
+      "copy": "קאָפּיע לינק",
+      "more": "מער"
+    },
+    "audio": {
+      "download": "אראפקאפיע",
+      "addFavorite": "לייג צו פאַוואָריטעס",
+      "addPlaylist": "לייג צו פּלייַליסט",
+      "removeFavorite": "אַראָפּנעמען פון פאַוואָריטעס",
+      "removePlaylist": "אַראָפּנעמען פון פּלייַליסט",
+      "removeDownload": "אַראָפּנעמען פון דאַונלאָודז"
+    },
+    "playlist": { "edit": "רעדאַגירן", "delete": "ויסמעקן פּלייַליסט" },
+    "startDevotion": "אָנהייב דיוואָושאַן"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "צוגעגעבן צו פּלייַליסט",
+      "delete": "אראפגענומען פון פּלייַליסט",
+      "create": "באשאפן פּלייַליסט",
+      "destroy": "אויסגעמעקט פּלייַליסט"
+    },
+    "favorites": { "add": "צוגעגעבן צו פאַוואָריטעס", "remove": "אַוועקגענומען פון פאַוואָריטעס" },
+    "downloads": { "remove": "אַוועקגענומען פון דאַונלאָודז" }
+  },
+  "buttons": { "loop": "שלייף", "shuffle": "שאַרן" },
+  "uiControls": {
+    "searchBox": { "placeholder": "זוך ..." },
+    "notification": { "success": "הצלחה! אַן E- בריוו וועט זיין געשיקט צו דיין חשבון." },
+    "button": { "sending": "שיקט ..." },
+    "modalSelector": { "cancel": "באָטל מאַכן" },
+    "loading": "Loading"
+  },
+  "bible": {
+    "header": "ביבל",
+    "oldTestament": "אלטע טעסטאמענט",
+    "newTestament": "ניו טעסטאמענט",
+    "popularBooks": "פאָלקס ביכער"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "זוך",
+    "cancelButton": "CANCEL",
+    "searchResults": "זוך רעזולטאַטן",
+    "filterButton": "פילטער",
+    "teachings": { "title": "לערנונגען" },
+    "bible": { "title": "ביבל" }
+  },
+  "addToPlaylistsModal": { "title": "לייג צו פּלייַליסט", "button": "שאַפֿן פּלייַליסט" },
+  "createPlaylistModal": {
+    "title": "שאַפֿן ניו פּלייַליסט",
+    "button": "שאַפֿן פּלייַליסט",
+    "inputPlaceholder": "אַרייַן פּלייַליסט נאָמען"
+  },
+  "alert": {
+    "playlists": {
+      "add": "צוגעגעבן צו פּלייַליסט",
+      "remove": "אראפגענומען פון פּלייַליסט",
+      "create": "באשאפן פּלייַליסט",
+      "delete": "אויסגעמעקט פּלייַליסט"
+    },
+    "favorites": { "add": "צוגעגעבן צו פאַוואָריטעס", "remove": "אַוועקגענומען פון פאַוואָריטעס" },
+    "downloads": { "remove": "אַוועקגענומען פון דאַונלאָודז" },
+    "facebook": { "loginError": "לאָגין דורכפאַל מיט טעות" },
+    "google": { "loginError": "לאָגין דורכפאַל מיט טעות" }
+  },
+  "playlists": { "trackLabel": "שפּור", "tracksLabel": "טראַקס" },
+  "mediaList": { "tracksLabel": "טראַקס", "remove": "אַראָפּנעמען" },
+  "tutorialPage": { "done": "געטאן", "skip": "האָפּקען" },
+  "loginModal": { "login": "צייכן אריין" },
+  "shareModal": { "facebook": "פאַסעבאָאָק", "twitter": "טוויטער", "whatsapp": "ווהאַצאַפּפּ" },
+  "downloadModal": { "downloading": "דאַונלאָודינג", "complete": "אראפקאפיע גאַנץ" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "ויספאָרשן די ביבל",
+      "subtitle1": "אַרומפאָרן מיט אונדז איבער די גאנצע ביבל אָדער אָנהייבן אַ רייזע פֿאַר זיך.",
+      "title2": "הערן & דינגען",
+      "subtitle2": "די מידיאַ שפּילער אַלאַוז איר צו ונטערטוקנ זיך אין די BIBLE אינהאַלט מיט יז.",
+      "title3": "אַנטדעקן לערנונגען",
+      "subtitle3": "אָנטייל נעמען אין די ביבל ווי קיינמאָל פריער דורך קרייז-רעפערענסינג די ביבל & לערנען אינהאַלט.",
+      "title4": "דיסקוטירן די ביבל",
+      "subtitle4": "באַהעפטן אַ גרופּע צו לערנען THRU די ביבל לערנען און טעמעס מיט אנדערע.",
+      "title5": "אראפקאפיע & שער",
+      "subtitle5": "הנאה צוגעהערט צו די וואָרט פון גאָט אויף-דעם-גיין און טיילן עס מיט דיין פרענדז.",
+      "title6": "היט & שאַפֿן",
+      "subtitle6": "היט דיין באַליבסטע לערנונגען און ביבל ווערסעס אָדער שאַפֿן אַ מנהג פּלייַליסט.",
+      "title7": "גרופע דעוואָטיאָנס",
+      "subtitle7": "זיין ינקעראַדזשד און ינספּייערד דורך אנדערע מיט טעגלעך גרופּע דיוואָושאַנז."
+    },
+    "registerPage": {
+      "noThanks": "ניין א דאנק",
+      "haveAccount": "האָבן אַ חשבון?",
+      "createAccount": "שאַפֿן מיין אַקאַונט",
+      "title1": "דיסקוטירן מיט אנדערע",
+      "subtitle1": "דיסקוטירן דיין באַליבסטע טעמעס און ביבל ווערסעס מיט אנדערע.",
+      "title2": "קראָם און סינק פּלייַליסץ",
+      "subtitle2": "בויען רשימות פון דיין באַליבסטע אינהאַלט אויף איין אָרט.",
+      "title3": "זען דיין פאַוואָריטעס",
+      "subtitle3": "קראָם און קומען צוריק און באַזוכן דיין פאַוואָריטעס אין אַ שפּעטער צייט.",
+      "title4": "באַגריסונג צוריק",
+      "subtitle4": "שאַפֿן אַ חשבון און באַקומען אַקסעס צו אַלע אונדזער פֿעיִקייטן."
+    }
+  },
+  "app": {
+    "close": "נאָענט",
+    "accept": "אָננעמען",
+    "reject": "אָפּוואַרפן",
+    "constructionInProgress": "קאַנסטראַקשאַן אין פּראָגרעס",
+    "downloadComplete": "אראפקאפיע גאַנץ",
+    "downloading": "דאַונלאָודינג",
+    "downloadFailed": "אראפקאפיע ניט אַנדערש",
+    "sendAFile": "עמעצער וויל צו שיקן איר אַ טעקע"
+  },
+  "transferring": { "tryAgain": "פּרובירן ווידער", "close": "נאָענט" },
+  "checkDevice": {
+    "check": "קוק דיין מיטל",
+    "makeSure": "מאַכט זיכער אַז Wifi-Direct איז פארקערט אויף די מיטל פון דיין פרייַנד און עס איז אין די קייט.",
+    "continue": "פאָרזעצן"
+  },
+  "connectToDevice": { "connect": "פאַרבינדן צו אַ מיטל" },
+  "pairing": {
+    "connect": "פאַרבינדן צו אַ מיטל",
+    "pairing": "פּערינג",
+    "success": "הצלחה פּערד",
+    "failed": "אַפּאַראַט פּערינג אַנדערש",
+    "makeSure": "מאַכט זיכער אַז (Wifi-Direct) איז פארקערט אויף די מיטל פון דיין פרייַנד און עס איז אין די קייט.",
+    "continue": "פאָרזעצן",
+    "tryAgain": "פרובירט ווידער"
+  },
+  "selectNetworkType": {
+    "connect": "פאַרבינדן צו אַ מיטל",
+    "share": "ייַנטיילן מיט Wifi Direct",
+    "send": "שיקן טעקע איבער וויפי דירעקט?",
+    "continue": "פאָרזעצן"
+  }
+}

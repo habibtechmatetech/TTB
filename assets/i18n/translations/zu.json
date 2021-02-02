@@ -1,0 +1,399 @@
+{
+  "selectLanguage": { "heading": "Khetha ulimi lwakho lwamanje", "mainAction": "Khetha Ulimi" },
+  "menu": {
+    "anonymousTitle": "I-Akhawunti Yakho",
+    "anonymousAction": "Ngena ngemvume",
+    "editProfileAction": "Hlela iphrofayili",
+    "verifyProfileAction": "Qinisekisa iphrofayela",
+    "bibleSection": "IBhayibheli",
+    "teachingsSection": "Izimfundiso",
+    "librarySection": "Umtapo Wami Wezincwadi",
+    "groupsSection": "Amaqembu",
+    "donateSection": "Nikela",
+    "settingsSection": "Amasethingi",
+    "signOut": "Phuma ngemvume",
+    "modals": {
+      "verifyProfile": {
+        "title": "Awuqinisekisiwe",
+        "message": "Izinhlu zakho ngeke zivumelaniswe futhi awukwazi ukudala amaqembu. Sicela uhlole i-imeyili yakho ukuze uqedele ukubhalisa.",
+        "firstButton": "Qhubeka",
+        "secondButton": "Bhalisa iphrofayili entsha"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Ngena ngemvume",
+    "emailPlaceholder": "Imeyili yakho",
+    "passwordPlaceholder": "Iphasiwedi yakho",
+    "forgotAction": "Ukhohlwe iphasiwedi?",
+    "callToAction": "Ngena ngemvume",
+    "signInAlternatives": "Noma ngena ngemvume usebenzisa i-",
+    "noAccountAction": "Ayikho i-akhawunti? Dala eyodwa",
+    "notifications": {
+      "invalidCredentials": "Ukuqinisekisa okungavumelekile",
+      "inProgress": "Ukungena ngemvume sekuvele kuyaqhubeka",
+      "notAvailable": "Amasevisi we-Google Play awatholakali"
+    }
+  },
+  "signUp": {
+    "header": "Yenza i-akhawunti",
+    "emailPlaceholder": "Imeyili yakho",
+    "passwordPlaceholder": "Iphasiwedi yakho",
+    "privateAction": "Yenza I-akhawunti Iyimfihlo",
+    "termsDisclaimer": {
+      "pre": "Ngokuchofoza Ukubhalisa ukhombisa ukuthi ufunde futhi uyavumelana nakho",
+      "terms": "imigomo",
+      "post": "."
+    },
+    "callToAction": "Bhalisela",
+    "signUpAlternatives": "Noma Bhalisa usebenzisa",
+    "haveAnAccountAction": "Unayo i-akhawunti?",
+    "notifications": {
+      "invalidUsername": "Amagama abasebenzisi anqunyelwe ezinhlamvwini ezingama-20 (izinombolo nezinhlamvu ezijwayelekile)",
+      "invalidPassword": "Iphasiwedi kufanele okungenani ibe nezinhlamvu ezi-3 futhi ibe inhlanganisela yezinhlamvu ezingaphezulu nezincane ezinenombolo okungenani eyodwa noma uhlamvu olukhethekile"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Ayikwazi ukudala i-akhawunti",
+        "message": "Leli kheli le-imeyili selivele likhona.",
+        "firstButton": "Ngena ngemvume",
+        "secondButton": "Vala"
+      },
+      "privateAccount": {
+        "title": "I-Akhawunti Eyimfihlo",
+        "message": "Ngokwenza i-akhawunti yakho ibe yimfihlo, uyayifihla ukuthi ingatholwa abanye.",
+        "firstButton": "Yamukela",
+        "secondButton": "Nqaba"
+      },
+      "success": {
+        "title": "Kudalwe i-akhawunti!",
+        "message": "I-akhawunti yakho yenziwe ngempumelelo. Hlola ibhokisi lokungenayo lakho ukuqinisekisa i-akhawunti yakho bese ungena ngemvume.",
+        "firstButton": "Ngena ngemvume"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Setha kabusha iphasiwedi",
+    "emailPlaceholder": "Imeyili yakho",
+    "message": "Sicela ufake i-imeyili yakho ukuze usethe kabusha iphasiwedi yakho ye-akhawunti yakho.",
+    "callToAction": "Setha kabusha iphasiwedi",
+    "notifications": {
+      "success": "Sisanda kuthumela i-imeyili ebhokisini lakho lokungenayo",
+      "emailNotFoundError": "I-imeyili ayitholakalanga",
+      "invalidEmailError": "Ifomethi ye-imeyili engavumelekile"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Qedela ukusetha",
+    "message": "I-imeyili ithunyelwe kukheli le-imeyili olifakile. Sicela ubheke imininingwane ye-imeyili ukuqedela ukubhalisa.",
+    "callToAction": "Yeqa Okwamanje"
+  },
+  "teachings": {
+    "dailyText": "Umsakazo wanamuhla",
+    "journeyTitle": "Qala uhambo lwakho",
+    "journeySubtitle": "Zonke izimfundiso kusukela ekuqaleni kuze kube sekugcineni",
+    "journeyCardTitle": "Uhambo lwamaviki angama-215 NgeBhayibheli",
+    "journeyCardSubtitle": "Lalela ngesikhathi sakho",
+    "tracksLabel": "Amathrekhi"
+  },
+  "teaching": {
+    "header": "Izimfundiso",
+    "loading": "... ... + - Loading ... lindokuhle khoza",
+    "player": {
+      "audioSpeed": "Ijubane lomsindo",
+      "loading": "Iyalayisha",
+      "castingError": "Awekho amadivayisi atholakalayo"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Qhubeka nokulalela", "secondButton": "Qala uhambo lwakho" }
+    }
+  },
+  "journey": {
+    "byDate": "Ngosuku",
+    "bySeries": "Ngochungechunge",
+    "sections": { "tracksLabel": "Amathrekhi" }
+  },
+  "library": {
+    "header": "Umtapo Wami Wezincwadi",
+    "tabs": {
+      "downloads": "Okulandiwe",
+      "favorites": "Izintandokazi",
+      "playlists": "Izinhla zokudlalayo"
+    }
+  },
+  "groups": {
+    "header": "Amaqembu",
+    "createGroup": {
+      "title": "Dala iqembu elisha",
+      "groupNameLabel": "IGAMA LEQEMBU",
+      "groupNameInputPlaceHolder": "Igama",
+      "descriptionLabel": "INCAZELO",
+      "descriptionInputPlaceHolder": "Faka Incazelo",
+      "inviteLabel": "Mema Abasebenzisi",
+      "inviteButton": "Mema Abasebenzisi Abasha",
+      "button": "Dala iqembu",
+      "invalidGroupName": "Faka igama elivumelekile",
+      "groupNameTooLong": "Igama leqembu akumele libe nezinhlamvu ezingaphezu kwezingama-25"
+    },
+    "devotionNotStartAlert": "Ukuzinikela akuqalanga kuleli qembu",
+    "membersLabel": "Amalungu",
+    "chatModalMemberSubtitleLabel": "ilungu",
+    "chatModalMembersSubtitleLabel": "amalungu",
+    "chat": {
+      "listeningToLabel": "Ukulalela",
+      "loadingTrackLabel": "Ilayisha ithrekhi ...",
+      "inputPlaceHolder": "Bhala Umlayezo",
+      "deletePost": "Susa okuthunyelwe",
+      "deleteMessage": "usule umlayezo"
+    },
+    "groupSettings": {
+      "participantsSection": "Abahlanganyeli",
+      "viewAll": "Buka konke",
+      "invite": "Mema Abasebenzisi Abasha",
+      "endDevotion": "Qeda Ukuzinikela Kweqembu",
+      "deleteGroup": "Susa iqembu",
+      "leaveGroup": "Shiya iqembu"
+    },
+    "userDirectory": {
+      "header": "Uhla lwemibhalo yomsebenzisi",
+      "remove": "Susa",
+      "anonymous": "Ongaziwa",
+      "send": "Thumela"
+    },
+    "inviteUser": { "placeHolder": "Sesha", "send": "Thumela" }
+  },
+  "chat": {
+    "header": "Isiteshi Seqembu",
+    "settings": {
+      "header": "Amasethingi Eqembu",
+      "endDevotion": {
+        "alertTitle": "Qeda Ukuzinikela",
+        "alertMessage": "Uqinisekile ukuthi ufuna ukuqeda lokhu kuzinikela?",
+        "alertCancel": "Khansela",
+        "alertConfirm": "Yebo",
+        "endDevotionLabel": "kuqede lokhu kuzinikela.",
+        "hasEnded": "Lokhu kuzinikela sekuphelile"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Qala Ukuzinikela",
+    "alertMessage": "Uqinisekile ukuthi ufuna ukuqala ukuzinikela ngeqembu le -% {name}?",
+    "alertCancel": "Khansela",
+    "alertConfirm": "Yebo",
+    "devotionStartedLabel": "kuqalile ukuzinikela."
+  },
+  "settings": {
+    "header": "Amasethingi",
+    "tabs": { "profile": "Iphrofayela", "media": "Abezindaba", "notifications": "Izaziso" },
+    "profile": {
+      "account": "I-akhawunti",
+      "username": "Igama lomsebenzisi",
+      "email": "I-imeyili",
+      "editButton": "Hlela",
+      "edit": {
+        "save": "Gcina",
+        "username": {
+          "header": "Igama lomsebenzisi",
+          "successAlert": "Ushintsho lwakho lulondoloziwe.",
+          "failedAlert": "Yehlulekile ukulondoloza ushintsho."
+        },
+        "email": {
+          "header": "Imeyili",
+          "successAlert": "Ushintsho lwakho lulondoloziwe.",
+          "failedAlert": "Yehlulekile ukulondoloza ushintsho."
+        }
+      },
+      "languages": "Izilimi",
+      "signIn": "Ngena ngemvume",
+      "signOut": "Phuma ngemvume ku-Akhawunti",
+      "legal": "Ezomthetho",
+      "termsConditions": "Imigomo nemibandela",
+      "privacyPolicy": "Inqubomgomo yobumfihlo",
+      "support": "Ukusekela",
+      "reportAProblem": "Bika Inkinga",
+      "tutorial": "Okokufundisa",
+      "reportBug": {
+        "header": "Bika Inkinga",
+        "send": "Thumela",
+        "subject": "ISIHLOKO",
+        "subjectPlaceHolder": "Isihloko",
+        "description": "INCAZELO",
+        "descriptionPlaceHolder": "Incazelo",
+        "successAlert": "Ngiyabonga, siwutholile umyalezo wakho.",
+        "failedAlert": "Yehlulekile ukuthumela umlayezo."
+      },
+      "version": "Inguqulo"
+    },
+    "media": {
+      "audio": "Umsindo",
+      "autoplay": "Dlala ngokuzenzakalela Umsindo",
+      "storage": "Isitoreji",
+      "downloadWifi": "Landa kuphela ku-Wi-fi",
+      "deleteCache": "Susa inqolobane"
+    },
+    "notifications": {
+      "notifications": "Izaziso",
+      "groupInvitation": "Isimemo Seqembu",
+      "devotions": "Mema Ukuzinikela",
+      "file": "Isiqinisekiso Sokudlulisa Ifayela"
+    }
+  },
+  "inviteUsers": { "header": "Mema Abasebenzisi" },
+  "playlist": {
+    "header": "Uhlu lokudlalayo",
+    "audioFileLabel": "Ifayela lomsindo",
+    "audioFilesLabel": "Amafayela Womsindo"
+  },
+  "collection": { "header": "Ukuqoqwa", "audioFilesLabel": "Amafayela Womsindo" },
+  "modal": {
+    "close": "vala",
+    "addToPlaylist": { "title": "Faka kuhlu lwadlalwayo", "button": "Dala uhlu lwadlalwayo" },
+    "startDevotion": { "title": "Qala Ukuzinikela" },
+    "createPlaylist": {
+      "title": "Dala uhlu lwadlalwayo olusha",
+      "button": "Dala uhlu lwadlalwayo",
+      "inputPlaceholder": "Faka igama lohlu lwadlalwayo",
+      "success": "Kungezwe kuhlu lwadlalwayo"
+    },
+    "login": "Udinga ukungena ngemvume ukuqala ukuzinikela"
+  },
+  "options": {
+    "shared": {
+      "share": "Yabelana",
+      "report": "Bika Okuqukethwe",
+      "shareOthers": "Yabelana Nabanye",
+      "copy": "Kopisha isixhumanisi",
+      "more": "Okuningi"
+    },
+    "audio": {
+      "download": "Landa",
+      "addFavorite": "Engeza kuzintandokazi",
+      "addPlaylist": "Faka kuhlu lwadlalwayo",
+      "removeFavorite": "Susa kusuka kuzintandokazi",
+      "removePlaylist": "Susa ohlwini lwadlalwayo",
+      "removeDownload": "Susa kokulandiwe"
+    },
+    "playlist": { "edit": "Hlela", "delete": "Susa uhlu lwadlalwayo" },
+    "startDevotion": "Qala Ukuzinikela"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Kungezwe kuhlu lwadlalwayo",
+      "delete": "Kususiwe ohlwini lwadlalwayo",
+      "create": "Uhlu lwadlalwayo oludaliwe",
+      "destroy": "Kususwe uhlu lwadlalwayo"
+    },
+    "favorites": { "add": "Kungezwe kuzintandokazi", "remove": "Kususiwe kuzintandokazi" },
+    "downloads": { "remove": "Kususiwe kokulandiwe" }
+  },
+  "buttons": { "loop": "Izembe", "shuffle": "Shova" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Sesha ..." },
+    "notification": { "success": "Impumelelo! Kuzothunyelwa i-imeyili ku-akhawunti yakho." },
+    "button": { "sending": "Iyathumela ..." },
+    "modalSelector": { "cancel": "Khansela" },
+    "loading": "Iyalayisha"
+  },
+  "bible": {
+    "header": "IBhayibheli",
+    "oldTestament": "ITestamente Elidala",
+    "newTestament": "ITestamente Elisha",
+    "popularBooks": "Izincwadi ezidumile"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Sesha",
+    "cancelButton": "KHansela",
+    "searchResults": "Imiphumela Yosesho",
+    "filterButton": "Hlunga",
+    "teachings": { "title": "Izimfundiso" },
+    "bible": { "title": "IBhayibheli" }
+  },
+  "addToPlaylistsModal": { "title": "Faka kuhlu lwadlalwayo", "button": "Dala uhlu lwadlalwayo" },
+  "createPlaylistModal": {
+    "title": "Dala uhlu lwadlalwayo olusha",
+    "button": "Dala uhlu lwadlalwayo",
+    "inputPlaceholder": "Faka igama lohlu lwadlalwayo"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Kungezwe kuhlu lwadlalwayo",
+      "remove": "Kususiwe ohlwini lwadlalwayo",
+      "create": "Uhlu lwadlalwayo oludaliwe",
+      "delete": "Kususwe uhlu lwadlalwayo"
+    },
+    "favorites": { "add": "Kungezwe kuzintandokazi", "remove": "Kususiwe kuzintandokazi" },
+    "downloads": { "remove": "Kususiwe kokulandiwe" },
+    "facebook": { "loginError": "Ukungena kwehluleka ngephutha" },
+    "google": { "loginError": "Ukungena kwehluleka ngephutha" }
+  },
+  "playlists": { "trackLabel": "Landelela", "tracksLabel": "Amathrekhi" },
+  "mediaList": { "tracksLabel": "Amathrekhi", "remove": "Susa" },
+  "tutorialPage": { "done": "Kwenziwe", "skip": "Yeqa" },
+  "loginModal": { "login": "Ngena ngemvume" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Iyalanda", "complete": "Ukulanda kuqedile" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Hlola iBhayibheli",
+      "subtitle1": "Hamba lonke iBhayibheli nathi, noma qala uhambo lwakho.",
+      "title2": "Lalela & Zibandakanye",
+      "subtitle2": "Isidlali semidiya sikuvumela ukuthi ungene ngaphakathi kokuqukethwe kweBHAYIBHELI kalula.",
+      "title3": "Thola Izimfundiso",
+      "subtitle3": "Zibandakanye eBhayibhelini kunanini ngaphambili ngokubhekisa kokunye okuqukethwe kweBhayibheli nokufundisa.",
+      "title4": "Xoxani ngeBhayibheli",
+      "subtitle4": "Joyina iqembu ufunde i-THRU the BIBLE iimfundiso nezihloko nabanye.",
+      "title5": "Landa & Yabelana",
+      "subtitle5": "Jabulela ukulalela iZwi likaNkulunkulu usohambeni bese wabelana ngalo nabangani bakho.",
+      "title6": "Gcina futhi Dala",
+      "subtitle6": "Gcina izimfundiso zakho ozithandayo namavesi eBhayibheli noma udale uhlu lwadlalwayo lwangokwezifiso",
+      "title7": "Ukuzinikela Kweqembu",
+      "subtitle7": "Khuthazwa futhi ugqugquzelwe abanye ngokuzinikela kweqembu nsuku zonke."
+    },
+    "registerPage": {
+      "noThanks": "Cha ngiyabonga",
+      "haveAccount": "Unayo i-akhawunti?",
+      "createAccount": "Dala i-Akhawunti Yami",
+      "title1": "Xoxa Nabanye",
+      "subtitle1": "Xoxa nabanye ngezihloko zakho ozithandayo kanye namavesi eBhayibheli.",
+      "title2": "Uhlu lokulondoloza nokuvumelanisa",
+      "subtitle2": "Yakha uhlu lokuqukethwe kwakho okuthandayo endaweni eyodwa.",
+      "title3": "Bona Izintandokazi Zakho",
+      "subtitle3": "Gcina bese ubuya futhi uvakashele izintandokazi zakho ngokuhamba kwesikhathi.",
+      "title4": "Siyakwamukela",
+      "subtitle4": "Dala i-akhawunti futhi uthole ukufinyelela kuzo zonke izici zethu."
+    }
+  },
+  "app": {
+    "close": "vala",
+    "accept": "Yamukela",
+    "reject": "Yenqaba",
+    "constructionInProgress": "UKWAKHIWA KUYAQHUBEKA",
+    "downloadComplete": "Ukulanda kuqedile",
+    "downloading": "Iyalanda",
+    "downloadFailed": "Ukulanda Kwehlulekile",
+    "sendAFile": "Othile Ufuna Ukukuthumelela Ifayela"
+  },
+  "transferring": { "tryAgain": "Zama futhi", "close": "vala" },
+  "checkDevice": {
+    "check": "Hlola Idivayisi Yakho",
+    "makeSure": "Sicela uqinisekise ukuthi i-Wifi-Direct ivuliwe kudivayisi yomngane wakho futhi isendaweni.",
+    "continue": "Qhubeka"
+  },
+  "connectToDevice": { "connect": "Xhuma kudivayisi" },
+  "pairing": {
+    "connect": "Xhuma kudivayisi",
+    "pairing": "Ukumatanisa",
+    "success": "Kubhangqwe ngempumelelo",
+    "failed": "Ukubhanqa Kwedivayisi Kwehlulekile",
+    "makeSure": "Sicela uqinisekise ukuthi (i-Wifi-Direct) ivuliwe kudivayisi yomngani wakho futhi ibangeni.",
+    "continue": "Qhubeka",
+    "tryAgain": "Zama futhi"
+  },
+  "selectNetworkType": {
+    "connect": "Xhuma kudivayisi",
+    "share": "Yabelana ne-Wifi Direct",
+    "send": "Thumela ifayela ngaphezulu kwe-wifi ngqo?",
+    "continue": "Qhubeka"
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "selectLanguage": { "heading": "Zaɓi yarenku na yanzu", "mainAction": "Zaɓi Yare" },
+  "menu": {
+    "anonymousTitle": "Asusunka",
+    "anonymousAction": "Shiga",
+    "editProfileAction": "Gyara bayanin martaba",
+    "verifyProfileAction": "Tabbatar da bayanin martaba",
+    "bibleSection": "Littafi Mai Tsarki",
+    "teachingsSection": "Koyarwa",
+    "librarySection": "My Library",
+    "groupsSection": "Sungiyoyi",
+    "donateSection": "Ba da gudummawa",
+    "settingsSection": "Saituna",
+    "signOut": "Fita",
+    "modals": {
+      "verifyProfile": {
+        "title": "Ba a tabbatar da ku ba",
+        "message": "Lissafinku ba za su daidaita ba kuma ba za ku iya ƙirƙirar ƙungiyoyi ba. Da fatan za a bincika imel ɗin ku don kammala rajista.",
+        "firstButton": "Ci gaba",
+        "secondButton": "Yi rijistar sabon bayanin martaba"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Shiga ciki",
+    "emailPlaceholder": "Imel dinka",
+    "passwordPlaceholder": "Kalmar wucewa ta",
+    "forgotAction": "An manta kalmar shiga?",
+    "callToAction": "Shiga ciki",
+    "signInAlternatives": "Ko Shiga ciki ta amfani",
+    "noAccountAction": "Babu asusu? Createirƙiri ɗaya",
+    "notifications": {
+      "invalidCredentials": "Takaddun shaida marasa aiki",
+      "inProgress": "Shiga ciki yana kan aiki",
+      "notAvailable": "Babu ayyukan sabis"
+    }
+  },
+  "signUp": {
+    "header": "Kirkira ajiya",
+    "emailPlaceholder": "Imel dinka",
+    "passwordPlaceholder": "Kalmar wucewa ta",
+    "privateAction": "Sanya Asiri Mai zaman kansa",
+    "termsDisclaimer": {
+      "pre": "Ta danna Sa hannu ka nuna cewa ka karanta kuma ka yarda da shi",
+      "terms": "sharuɗɗan",
+      "post": "."
+    },
+    "callToAction": "Yi rajista",
+    "signUpAlternatives": "Ko Yi Rajista ta amfani",
+    "haveAnAccountAction": "Shin kuna da asusu?",
+    "notifications": {
+      "invalidUsername": "Sunayen masu amfani an iyakance su da haruffa 20 (lambobi da haruffa na yau da kullun)",
+      "invalidPassword": "Kalmar wucewa ta kasance tana da aƙalla haruffa 3 kuma ya zama haɗe ne na manyan haruffa tare da aƙalla lamba ɗaya ko haruffa na musamman"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "QSQLiteResult",
+        "message": "Wannan adireshin imel ɗin ya riga ya wanzu.",
+        "firstButton": "Shiga ciki",
+        "secondButton": "Kusa"
+      },
+      "privateAccount": {
+        "title": "Asusun mai zaman kansa",
+        "message": "Ta hanyar sanya asusunka na sirri, kana ɓoye shi don wasu su gano ka.",
+        "firstButton": "Yarda",
+        "secondButton": "Ragewa"
+      },
+      "success": {
+        "title": "Asusun edirƙira!",
+        "message": "An kirkiro asusunka cikin nasara Duba akwatin saƙo naka don tabbatar da asusunka kuma ka shiga.",
+        "firstButton": "Shiga ciki"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Sake saita kalmar wucewa",
+    "emailPlaceholder": "Imel dinka",
+    "message": "Da fatan za a shigar da adireshin imel ɗin ku don sake saita kalmar shiga ta asusunku",
+    "callToAction": "Sake saita kalmar wucewa",
+    "notifications": {
+      "success": "Mun kawai aiko da imel zuwa akwatin saƙo naka",
+      "emailNotFoundError": "Ba a samo imel ba",
+      "invalidEmailError": "Tsarin imel mara inganci"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Arshen Saita",
+    "message": "An aika imel zuwa adireshin imel ɗin da kuka shigar. Da fatan za a duba bayanan imel don kammala rajista.",
+    "callToAction": "Tsallake don Yanzu"
+  },
+  "teachings": {
+    "dailyText": "Watsa labarai na Yau",
+    "journeyTitle": "Fara Tafiya",
+    "journeySubtitle": "Duk koyarwar daga farko zuwa karshe",
+    "journeyCardTitle": "215 Makon Tafiya Ta Cikin Baibul",
+    "journeyCardSubtitle": "Saurara akan lokacinku",
+    "tracksLabel": "Waƙoƙi"
+  },
+  "teaching": {
+    "header": "Koyarwa",
+    "loading": "Ana lodawa ...",
+    "player": {
+      "audioSpeed": "Saurin Sauti",
+      "loading": "Ana loda",
+      "castingError": "Babu Na'urorin Babu"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Ci gaba da Sauraro", "secondButton": "Fara tafiya" }
+    }
+  },
+  "journey": {
+    "byDate": "Ta Kwanan wata",
+    "bySeries": "Ta hanyar Jeri",
+    "sections": { "tracksLabel": "Waƙoƙi" }
+  },
+  "library": {
+    "header": "My Library",
+    "tabs": {
+      "downloads": "Zazzagewa",
+      "favorites": "Wanda aka fi so",
+      "playlists": "Lissafin waƙa"
+    }
+  },
+  "groups": {
+    "header": "Sungiyoyi",
+    "createGroup": {
+      "title": "Irƙiri Sabon Rukuni",
+      "groupNameLabel": "SUNAN GROUP",
+      "groupNameInputPlaceHolder": "Suna",
+      "descriptionLabel": "BAYANI",
+      "descriptionInputPlaceHolder": "Descriptionara Bayani",
+      "inviteLabel": "Gayyaci Masu amfani",
+      "inviteButton": "Gayyaci Sabbin Masu amfani",
+      "button": "Groupirƙiri Groupungiya",
+      "invalidGroupName": "Shigar da ingantaccen suna",
+      "groupNameTooLong": "Sunan rukuni dole ne ya ƙunshi sama da haruffa 25"
+    },
+    "devotionNotStartAlert": "Ba'a fara ibada ga wannan rukunin ba",
+    "membersLabel": "Membobi",
+    "chatModalMemberSubtitleLabel": "mamba",
+    "chatModalMembersSubtitleLabel": "mambobi",
+    "chat": {
+      "listeningToLabel": "Saurara",
+      "loadingTrackLabel": "Ana loda waƙa ...",
+      "inputPlaceHolder": "Rubuta Saƙo",
+      "deletePost": "Share Post",
+      "deleteMessage": "ya goge sako"
+    },
+    "groupSettings": {
+      "participantsSection": "Mahalarta",
+      "viewAll": "Duba Duk",
+      "invite": "Gayyaci Sabbin Masu amfani",
+      "endDevotion": "Karshen Bautar Rukuni",
+      "deleteGroup": "Share Rukuni",
+      "leaveGroup": "Bar Rukuni"
+    },
+    "userDirectory": {
+      "header": "Littafin Adireshin Mai amfani",
+      "remove": "Cire",
+      "anonymous": "Ba a sani ba",
+      "send": "Aika"
+    },
+    "inviteUser": { "placeHolder": "Bincika", "send": "Aika" }
+  },
+  "chat": {
+    "header": "Rukunin Rukuni",
+    "settings": {
+      "header": "Saitunan Rukuni",
+      "endDevotion": {
+        "alertTitle": "Karshen Ibada",
+        "alertMessage": "Shin kun tabbata kuna son kawo karshen wannan ibada?",
+        "alertCancel": "Soke",
+        "alertConfirm": "Ee",
+        "endDevotionLabel": "ƙare wannan ibada.",
+        "hasEnded": "Wannan ibada ta kare"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Fara Ibada",
+    "alertMessage": "Shin kun tabbata kuna son fara ibada da% {name} rukuni?",
+    "alertCancel": "Soke",
+    "alertConfirm": "Ee",
+    "devotionStartedLabel": "ya fara ibada."
+  },
+  "settings": {
+    "header": "Saituna",
+    "tabs": { "profile": "Bayani", "media": "Mai jarida", "notifications": "Sanarwa" },
+    "profile": {
+      "account": "Asusun",
+      "username": "Sunan mai amfani",
+      "email": "E-mail",
+      "editButton": "Shirya",
+      "edit": {
+        "save": "Ajiye",
+        "username": {
+          "header": "Sunan mai amfani",
+          "successAlert": "Canjinku ya sami ceto",
+          "failedAlert": "Ba a yi nasarar ajiye canjin ba"
+        },
+        "email": {
+          "header": "Imel",
+          "successAlert": "Canjinku ya sami ceto",
+          "failedAlert": "Ba a yi nasarar ajiye canjin ba"
+        }
+      },
+      "languages": "Harsuna",
+      "signIn": "Shiga ciki",
+      "signOut": "Fita Daga Akawu",
+      "legal": "Doka",
+      "termsConditions": "Sharuɗɗa & Yanayi",
+      "privacyPolicy": "takardar kebantawa",
+      "support": "Tallafi",
+      "reportAProblem": "Rahoton Matsala",
+      "tutorial": "Koyawa",
+      "reportBug": {
+        "header": "Rahoton Matsala",
+        "send": "Aika",
+        "subject": "MAGANA",
+        "subjectPlaceHolder": "Maudu'i",
+        "description": "BAYANI",
+        "descriptionPlaceHolder": "Bayani",
+        "successAlert": "Na gode, mun sami sakonka.",
+        "failedAlert": "Ba a yi nasarar aika sakon ba."
+      },
+      "version": "Shafin"
+    },
+    "media": {
+      "audio": "Sauti",
+      "autoplay": "Autoplay Audio",
+      "storage": "Ma'aji",
+      "downloadWifi": "Sauke kawai akan Wi-fi",
+      "deleteCache": "Share Kache"
+    },
+    "notifications": {
+      "notifications": "Sanarwa",
+      "groupInvitation": "Gayyatar Kungiya",
+      "devotions": "Gayyata zuwa Ibada",
+      "file": "Tabbatar da Canza Fayil"
+    }
+  },
+  "inviteUsers": { "header": "Gayyaci Masu amfani" },
+  "playlist": {
+    "header": "Lissafin waƙa",
+    "audioFileLabel": "Fayil mai jiwuwa",
+    "audioFilesLabel": "Fayilolin odiyo"
+  },
+  "collection": { "header": "Tarawa", "audioFilesLabel": "Fayilolin odiyo" },
+  "modal": {
+    "close": "rufe",
+    "addToPlaylist": {
+      "title": "Toara zuwa Lissafin waƙa",
+      "button": "Createirƙiri Lissafin waƙa"
+    },
+    "startDevotion": { "title": "Fara Ibada" },
+    "createPlaylist": {
+      "title": "Irƙiri Sabon Lissafin waƙa",
+      "button": "Createirƙiri Lissafin waƙa",
+      "inputPlaceholder": "Shigar da Sunan waƙa",
+      "success": "Ara cikin jerin waƙoƙi"
+    },
+    "login": "Kuna buƙatar shiga don fara ibada"
+  },
+  "options": {
+    "shared": {
+      "share": "Raba",
+      "report": "Rahoton Abun ciki",
+      "shareOthers": "Raba tare da Wasu",
+      "copy": "Kwafi mahada",
+      "more": "Kara"
+    },
+    "audio": {
+      "download": "Zazzagewa",
+      "addFavorite": "Sanya abubuwan da aka fi so",
+      "addPlaylist": "Toara zuwa Lissafin waƙa",
+      "removeFavorite": "Cire daga Waɗanda aka fi so",
+      "removePlaylist": "Cire daga Lissafin waƙa",
+      "removeDownload": "Cire daga Saukewa"
+    },
+    "playlist": { "edit": "Shirya", "delete": "Share Lissafin waƙa" },
+    "startDevotion": "Fara Ibada"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Ara cikin jerin waƙoƙi",
+      "delete": "An Cire daga Lissafin waƙa",
+      "create": "Irƙirar waƙa",
+      "destroy": "Share jerin waƙoƙi"
+    },
+    "favorites": { "add": "Ara zuwa Waɗanda aka fi so", "remove": "An cire daga Masu so" },
+    "downloads": { "remove": "An Cire daga Saukewa" }
+  },
+  "buttons": { "loop": "Madauki", "shuffle": "Shuffle" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Binciko ..." },
+    "notification": { "success": "Nasara! Za a aiko da imel zuwa asusunka." },
+    "button": { "sending": "Ana aikawa ..." },
+    "modalSelector": { "cancel": "Soke" },
+    "loading": "Ana loda"
+  },
+  "bible": {
+    "header": "Littafi Mai Tsarki",
+    "oldTestament": "Tsohon Alkawari",
+    "newTestament": "Sabon Alkawari",
+    "popularBooks": "Shahararrun littattafai"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Bincika",
+    "cancelButton": "KASHE",
+    "searchResults": "Sakamakon Bincike",
+    "filterButton": "Tace",
+    "teachings": { "title": "Koyarwa" },
+    "bible": { "title": "Littafi Mai Tsarki" }
+  },
+  "addToPlaylistsModal": {
+    "title": "Toara zuwa Lissafin waƙa",
+    "button": "Createirƙiri Lissafin waƙa"
+  },
+  "createPlaylistModal": {
+    "title": "Irƙiri Sabon Lissafin waƙa",
+    "button": "Createirƙiri Lissafin waƙa",
+    "inputPlaceholder": "Shigar da Sunan waƙa"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Ara cikin jerin waƙoƙi",
+      "remove": "An Cire daga Lissafin waƙa",
+      "create": "Irƙirar waƙa",
+      "delete": "Share jerin waƙoƙi"
+    },
+    "favorites": { "add": "Ara zuwa Waɗanda aka fi so", "remove": "An cire daga Masu so" },
+    "downloads": { "remove": "An Cire daga Saukewa" },
+    "facebook": { "loginError": "Shiga ciki ya gaza tare da kuskure" },
+    "google": { "loginError": "Shiga ciki ya gaza tare da kuskure" }
+  },
+  "playlists": { "trackLabel": "Waƙa", "tracksLabel": "Waƙoƙi" },
+  "mediaList": { "tracksLabel": "Waƙoƙi", "remove": "Cire" },
+  "tutorialPage": { "done": "Anyi", "skip": "Tsallake" },
+  "loginModal": { "login": "Shiga" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Zazzagewa", "complete": "Zazzage Download" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Gano Baibul",
+      "subtitle1": "Yi tafiya cikin Littafi Mai-Tsarki duka tare da mu, ko fara tafiya ta kanku.",
+      "title2": "Saurara & Kasance",
+      "subtitle2": "Mai kunnawa mai jarida yana baka damar nutsuwa cikin abun cikin BIBLE cikin sauki.",
+      "title3": "Gano Koyarwa",
+      "subtitle3": "Haɗa cikin Littafi Mai-Tsarki ba kamar da ba ta hanyar fassarar abubuwan da ke cikin Baibul da Koyarwar.",
+      "title4": "Tattauna game da Baibul",
+      "subtitle4": "Shiga cikin rukuni don yin nazarin THRU the LITTAFI MAI TSARKI da batutuwa tare da wasu.",
+      "title5": "Zazzage & raba",
+      "subtitle5": "Ka ji daɗin sauraron Maganar Allah a kan gaba kuma ka raba ta ga abokanka.",
+      "title6": "Adana & Kirkira",
+      "subtitle6": "Adana koyarwar da kuka fi so da ayoyin Bible ko ƙirƙirar jerin waƙoƙi na al'ada.",
+      "title7": "Rukunan Groupungiya",
+      "subtitle7": "Kasance tare da karfafawa da kuma wahayi zuwa ga wasu ta hanyar bautar ƙungiyar yau da kullun."
+    },
+    "registerPage": {
+      "noThanks": "A'a na gode",
+      "haveAccount": "Shin kuna da asusu?",
+      "createAccount": "Irƙiri Asusun Na",
+      "title1": "Tattauna da Wasu",
+      "subtitle1": "Tattauna batutuwan da kuka fi so da ayoyin Littafi Mai Tsarki tare da wasu.",
+      "title2": "Adana da Daidaita Lissafin waƙa",
+      "subtitle2": "Gina jeren abubuwan da kuka fi so a wuri guda.",
+      "title3": "Duba Abubuwan da kuka fi so",
+      "subtitle3": "Adana kuma ka dawo ka ziyarci waɗanda kafi so a wani lokaci daga baya.",
+      "title4": "Barka da dawowa",
+      "subtitle4": "Irƙiri asusu kuma sami damar zuwa duk ayyukanmu."
+    }
+  },
+  "app": {
+    "close": "rufe",
+    "accept": "Yarda",
+    "reject": "In yarda",
+    "constructionInProgress": "GINAWA A CIGABA",
+    "downloadComplete": "Zazzage Download",
+    "downloading": "Zazzagewa",
+    "downloadFailed": "Zazzage Download",
+    "sendAFile": "Wani Yana Son Turo Muku Fayil"
+  },
+  "transferring": { "tryAgain": "gwada kuma", "close": "rufe" },
+  "checkDevice": {
+    "check": "Duba Na'urarku",
+    "makeSure": "Da fatan za a tabbatar an kunna Wifi-Direct kan na'urar abokinku kuma tana cikin kewayo.",
+    "continue": "Ci gaba"
+  },
+  "connectToDevice": { "connect": "Haɗa zuwa Na'ura" },
+  "pairing": {
+    "connect": "Haɗa zuwa Na'ura",
+    "pairing": "Biyu",
+    "success": "An Haɗa Nasara",
+    "failed": "Na'urar Haɗin Na'urar ya ailedare",
+    "makeSure": "Da fatan za a tabbatar (Wifi-Direct) an kunna na'urar abokinku kuma tana cikin kewayo.",
+    "continue": "Ci gaba",
+    "tryAgain": "Gwada kuma"
+  },
+  "selectNetworkType": {
+    "connect": "Haɗa zuwa na'urar",
+    "share": "Raba tare da Wifi Direct",
+    "send": "Aika fayil akan wifi kai tsaye?",
+    "continue": "Ci gaba"
+  }
+}

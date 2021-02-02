@@ -1,0 +1,405 @@
+{
+  "selectLanguage": { "heading": "Izberite svoj trenutni jezik", "mainAction": "Izberi jezik" },
+  "menu": {
+    "anonymousTitle": "Vaš račun",
+    "anonymousAction": "Vpiši se",
+    "editProfileAction": "Uredi profil",
+    "verifyProfileAction": "Preverite profil",
+    "bibleSection": "Biblija",
+    "teachingsSection": "Učenja",
+    "librarySection": "Moja knjižnica",
+    "groupsSection": "Skupine",
+    "donateSection": "Donirajte",
+    "settingsSection": "Nastavitve",
+    "signOut": "Odjava",
+    "modals": {
+      "verifyProfile": {
+        "title": "Niste preverjeni",
+        "message": "Vaši seznami ne bodo sinhronizirani in ne morete ustvarjati skupin. Prosimo, preverite svojo e-pošto za dokončanje registracije.",
+        "firstButton": "Nadaljujte",
+        "secondButton": "Registrirajte nov profil"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Vpis",
+    "emailPlaceholder": "Vaš e-poštni naslov",
+    "passwordPlaceholder": "Vaše geslo",
+    "forgotAction": "Ste pozabili geslo?",
+    "callToAction": "Vpis",
+    "signInAlternatives": "Ali pa se prijavite z uporabo",
+    "noAccountAction": "Nimate računa? Ustvari ga",
+    "notifications": {
+      "invalidCredentials": "Neveljavne poverilnice",
+      "inProgress": "Prijava že poteka",
+      "notAvailable": "Storitve za predvajanje niso na voljo"
+    }
+  },
+  "signUp": {
+    "header": "Ustvari račun",
+    "emailPlaceholder": "Vaš e-poštni naslov",
+    "passwordPlaceholder": "Vaše geslo",
+    "privateAction": "Naj bo račun zaseben",
+    "termsDisclaimer": {
+      "pre": "S klikom na Prijava potrdite, da ste prebrali in se strinjate",
+      "terms": "pogoji",
+      "post": "."
+    },
+    "callToAction": "Prijavite se",
+    "signUpAlternatives": "Ali pa se prijavite z",
+    "haveAnAccountAction": "Imate račun?",
+    "notifications": {
+      "invalidUsername": "Uporabniška imena so omejena na 20 alfanumeričnih znakov (številke in navadne črke)",
+      "invalidPassword": "Geslo mora imeti vsaj 3 znake in mora biti kombinacija velikih in malih črk z vsaj eno številko ali posebnim znakom"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Računa ni mogoče ustvariti",
+        "message": "Ta e-poštni naslov že obstaja.",
+        "firstButton": "Vpis",
+        "secondButton": "Zapri"
+      },
+      "privateAccount": {
+        "title": "Zasebni račun",
+        "message": "Če svoj račun naredite zasebnega, ga skrivate, da ga drugi ne bi odkrili.",
+        "firstButton": "Sprejmi",
+        "secondButton": "Zavrni"
+      },
+      "success": {
+        "title": "Račun ustvarjen!",
+        "message": "Vaš račun je bil uspešno ustvarjen. V potrditvenem predalu potrdite svoj račun in se prijavite.",
+        "firstButton": "Vpis"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Ponastavitev gesla",
+    "emailPlaceholder": "Vaš e-poštni naslov",
+    "message": "Vnesite svoj e-poštni naslov za ponastavitev gesla za svoj račun.",
+    "callToAction": "Ponastavitev gesla",
+    "notifications": {
+      "success": "Pravkar smo vam poslali e-poštno sporočilo",
+      "emailNotFoundError": "E-poštnega naslova ni bilo mogoče najti",
+      "invalidEmailError": "Neveljavna oblika e-pošte"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Končajte namestitev",
+    "message": "Na vneseni e-poštni naslov je bilo poslano e-poštno sporočilo. Za dokončanje registracije si oglejte podrobnosti e-pošte.",
+    "callToAction": "Preskoči za zdaj"
+  },
+  "teachings": {
+    "dailyText": "Današnja oddaja",
+    "journeyTitle": "Začnite svoje potovanje",
+    "journeySubtitle": "Vsa učenja od začetka do konca",
+    "journeyCardTitle": "215 tedensko potovanje po Bibliji",
+    "journeyCardSubtitle": "Poslušajte svoj čas",
+    "tracksLabel": "Skladbe"
+  },
+  "teaching": {
+    "header": "Učenja",
+    "loading": "Nalaganje...",
+    "player": {
+      "audioSpeed": "Zvočna hitrost",
+      "loading": "nalaganje",
+      "castingError": "Naprava ni na voljo"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Še naprej poslušajte", "secondButton": "Začnite svojo pot" }
+    }
+  },
+  "journey": {
+    "byDate": "Po datumu",
+    "bySeries": "Po serijah",
+    "sections": { "tracksLabel": "Skladbe" }
+  },
+  "library": {
+    "header": "Moja knjižnica",
+    "tabs": {
+      "downloads": "Prenosi",
+      "favorites": "Priljubljene",
+      "playlists": "Seznami predvajanja"
+    }
+  },
+  "groups": {
+    "header": "Skupine",
+    "createGroup": {
+      "title": "Ustvari novo skupino",
+      "groupNameLabel": "IME SKUPINE",
+      "groupNameInputPlaceHolder": "Ime",
+      "descriptionLabel": "OPIS",
+      "descriptionInputPlaceHolder": "Dodaj opis",
+      "inviteLabel": "Povabite uporabnike",
+      "inviteButton": "Povabite nove uporabnike",
+      "button": "Ustvari skupino",
+      "invalidGroupName": "Vnesite veljavno ime",
+      "groupNameTooLong": "Ime skupine ne sme vsebovati več kot 25 znakov"
+    },
+    "devotionNotStartAlert": "Predanost tej skupini se še ni začela",
+    "membersLabel": "Člani",
+    "chatModalMemberSubtitleLabel": "član",
+    "chatModalMembersSubtitleLabel": "člani",
+    "chat": {
+      "listeningToLabel": "Poslušati",
+      "loadingTrackLabel": "Nalaganje skladbe ...",
+      "inputPlaceHolder": "Napišite sporočilo",
+      "deletePost": "Izbriši objavo",
+      "deleteMessage": "je izbrisal sporočilo"
+    },
+    "groupSettings": {
+      "participantsSection": "Udeleženci",
+      "viewAll": "Poglej vse",
+      "invite": "Povabite nove uporabnike",
+      "endDevotion": "Končaj predanost skupini",
+      "deleteGroup": "Izbriši skupino",
+      "leaveGroup": "Zapusti skupino"
+    },
+    "userDirectory": {
+      "header": "Uporabniški imenik",
+      "remove": "Odstrani",
+      "anonymous": "Anonimno",
+      "send": "Pošlji"
+    },
+    "inviteUser": { "placeHolder": "Iskanje", "send": "Pošlji" }
+  },
+  "chat": {
+    "header": "Skupinski kanal",
+    "settings": {
+      "header": "Nastavitve skupine",
+      "endDevotion": {
+        "alertTitle": "Konec predanosti",
+        "alertMessage": "Ali ste prepričani, da želite končati to pobožnost?",
+        "alertCancel": "Prekliči",
+        "alertConfirm": "Da",
+        "endDevotionLabel": "končal to pobožnost.",
+        "hasEnded": "Ta predanost se je končala"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Začnite predanost",
+    "alertMessage": "Ali ste prepričani, da želite začeti predanost s skupino% {name}?",
+    "alertCancel": "Prekliči",
+    "alertConfirm": "Da",
+    "devotionStartedLabel": "je začel pobožnost."
+  },
+  "settings": {
+    "header": "Nastavitve",
+    "tabs": { "profile": "Profil", "media": "Mediji", "notifications": "Obvestila" },
+    "profile": {
+      "account": "račun",
+      "username": "Uporabniško ime",
+      "email": "E-naslov",
+      "editButton": "Uredi",
+      "edit": {
+        "save": "Shrani",
+        "username": {
+          "header": "Uporabniško ime",
+          "successAlert": "Sprememba je shranjena.",
+          "failedAlert": "Spremembe ni bilo mogoče shraniti."
+        },
+        "email": {
+          "header": "E-naslov",
+          "successAlert": "Sprememba je shranjena.",
+          "failedAlert": "Spremembe ni bilo mogoče shraniti."
+        }
+      },
+      "languages": "Jeziki",
+      "signIn": "Vpis",
+      "signOut": "Odjava iz računa",
+      "legal": "Pravno",
+      "termsConditions": "Pogoji uporabe",
+      "privacyPolicy": "Politika zasebnosti",
+      "support": "Podpora",
+      "reportAProblem": "Prijavite težavo",
+      "tutorial": "Vadnica",
+      "reportBug": {
+        "header": "Prijavite težavo",
+        "send": "Pošlji",
+        "subject": "PREDMET",
+        "subjectPlaceHolder": "Predmet",
+        "description": "OPIS",
+        "descriptionPlaceHolder": "Opis",
+        "successAlert": "Hvala, prejeli smo vaše sporočilo.",
+        "failedAlert": "Sporočila ni bilo mogoče poslati."
+      },
+      "version": "Različica"
+    },
+    "media": {
+      "audio": "Zvok",
+      "autoplay": "Samodejno predvajanje zvoka",
+      "storage": "Skladiščenje",
+      "downloadWifi": "Prenos samo prek Wi-Fi",
+      "deleteCache": "Izbriši predpomnilnik"
+    },
+    "notifications": {
+      "notifications": "Obvestila",
+      "groupInvitation": "Povabilo za skupino",
+      "devotions": "Povabite na pobožnosti",
+      "file": "Potrditev prenosa datotek"
+    }
+  },
+  "inviteUsers": { "header": "Povabite uporabnike" },
+  "playlist": {
+    "header": "Seznam predvajanja",
+    "audioFileLabel": "Zvočna datoteka",
+    "audioFilesLabel": "Zvočne datoteke"
+  },
+  "collection": { "header": "Zbirka", "audioFilesLabel": "Zvočne datoteke" },
+  "modal": {
+    "close": "blizu",
+    "addToPlaylist": {
+      "title": "Dodaj na seznam predvajanja",
+      "button": "Ustvari seznam predvajanja"
+    },
+    "startDevotion": { "title": "Začnite predanost" },
+    "createPlaylist": {
+      "title": "Ustvari nov seznam predvajanja",
+      "button": "Ustvari seznam predvajanja",
+      "inputPlaceholder": "Vnesite ime seznama predvajanja",
+      "success": "Dodano na seznam predvajanja"
+    },
+    "login": "Za začetek pobožnosti se morate prijaviti"
+  },
+  "options": {
+    "shared": {
+      "share": "Deliti",
+      "report": "Vsebina poročila",
+      "shareOthers": "Delite z drugimi",
+      "copy": "Kopiraj povezavo",
+      "more": "Več"
+    },
+    "audio": {
+      "download": "Prenesi",
+      "addFavorite": "Dodaj med priljubljene",
+      "addPlaylist": "Dodaj na seznam predvajanja",
+      "removeFavorite": "Odstrani iz priljubljenih",
+      "removePlaylist": "Odstrani s seznama predvajanja",
+      "removeDownload": "Odstrani iz prenosov"
+    },
+    "playlist": { "edit": "Uredi", "delete": "Izbriši seznam predvajanja" },
+    "startDevotion": "Začnite predanost"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Dodano na seznam predvajanja",
+      "delete": "Odstranjeno s seznama predvajanja",
+      "create": "Ustvarjen seznam predvajanja",
+      "destroy": "Izbrisan seznam predvajanja"
+    },
+    "favorites": { "add": "Dodano med priljubljene", "remove": "Odstranjeno iz priljubljenih" },
+    "downloads": { "remove": "Odstranjeno iz prenosov" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Naključno" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Iskanje..." },
+    "notification": { "success": "Uspeh! Na vaš račun bo poslano e-poštno sporočilo." },
+    "button": { "sending": "Pošiljanje ..." },
+    "modalSelector": { "cancel": "Prekliči" },
+    "loading": "nalaganje"
+  },
+  "bible": {
+    "header": "Biblija",
+    "oldTestament": "Stara zaveza",
+    "newTestament": "Nova zaveza",
+    "popularBooks": "Priljubljene knjige"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Iskanje",
+    "cancelButton": "ODPOVED",
+    "searchResults": "Rezultati iskanja",
+    "filterButton": "Filter",
+    "teachings": { "title": "Učenja" },
+    "bible": { "title": "Biblija" }
+  },
+  "addToPlaylistsModal": {
+    "title": "Dodaj na seznam predvajanja",
+    "button": "Ustvari seznam predvajanja"
+  },
+  "createPlaylistModal": {
+    "title": "Ustvari nov seznam predvajanja",
+    "button": "Ustvari seznam predvajanja",
+    "inputPlaceholder": "Vnesite ime seznama predvajanja"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Dodano na seznam predvajanja",
+      "remove": "Odstranjeno s seznama predvajanja",
+      "create": "Ustvarjen seznam predvajanja",
+      "delete": "Izbrisan seznam predvajanja"
+    },
+    "favorites": { "add": "Dodano med priljubljene", "remove": "Odstranjeno iz priljubljenih" },
+    "downloads": { "remove": "Odstranjeno iz prenosov" },
+    "facebook": { "loginError": "Prijava ni uspela z napako" },
+    "google": { "loginError": "Prijava ni uspela z napako" }
+  },
+  "playlists": { "trackLabel": "Sledi", "tracksLabel": "Skladbe" },
+  "mediaList": { "tracksLabel": "Skladbe", "remove": "Odstrani" },
+  "tutorialPage": { "done": "Končano", "skip": "Preskoči" },
+  "loginModal": { "login": "Vpiši se" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Prenašanje", "complete": "Prenos končan" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Raziščite Biblijo",
+      "subtitle1": "Potujte skozi celotno Biblijo z nami ali začnite svoje potovanje.",
+      "title2": "Poslušaj in sodeluj",
+      "subtitle2": "Medijski predvajalnik vam omogoča, da se z lahkoto potopite v BIBLIJSKO vsebino.",
+      "title3": "Odkrijte nauke",
+      "subtitle3": "Vključite se v Biblijo kot še nikoli, tako da navzkrižno sklicujete na Biblijo in poučevanje.",
+      "title4": "Pogovorite se o Bibliji",
+      "subtitle4": "Pridružite se skupini, da z drugimi preučite nauke in teme THRU THE BIBLE.",
+      "title5": "Prenesite in delite",
+      "subtitle5": "Uživajte v poslušanju Božje besede na poti in jo delite s prijatelji.",
+      "title6": "Shrani in ustvari",
+      "subtitle6": "Shranite svoja najljubša učenja in biblijske verze ali ustvarite seznam predvajanja po meri.",
+      "title7": "Skupinske pobožnosti",
+      "subtitle7": "Spodbujajte in navdihujte druge z dnevnimi skupinami."
+    },
+    "registerPage": {
+      "noThanks": "Ne hvala",
+      "haveAccount": "Imate račun?",
+      "createAccount": "Ustvari moj račun",
+      "title1": "Pogovorite se z drugimi",
+      "subtitle1": "Pogovorite se o svojih najljubših temah in biblijskih verzih z drugimi.",
+      "title2": "Shranjevanje in sinhronizacija seznamov predvajanja",
+      "subtitle2": "Na enem mestu ustvarite sezname svoje najljubše vsebine.",
+      "title3": "Oglejte si svoje priljubljene",
+      "subtitle3": "Shranite in se pozneje vrnite in obiščite priljubljene.",
+      "title4": "Dobrodošel nazaj",
+      "subtitle4": "Ustvarite račun in pridobite dostop do vseh naših funkcij."
+    }
+  },
+  "app": {
+    "close": "blizu",
+    "accept": "Sprejmi",
+    "reject": "Zavrni",
+    "constructionInProgress": "IZGRADNJA V TEKU",
+    "downloadComplete": "Prenos končan",
+    "downloading": "Prenašanje",
+    "downloadFailed": "Prenos ni uspel",
+    "sendAFile": "Nekdo vam želi poslati datoteko"
+  },
+  "transferring": { "tryAgain": "poskusi ponovno", "close": "blizu" },
+  "checkDevice": {
+    "check": "Preverite svojo napravo",
+    "makeSure": "Prepričajte se, da je Wifi-Direct vklopljen v napravi vašega prijatelja in je v dosegu.",
+    "continue": "Nadaljujte"
+  },
+  "connectToDevice": { "connect": "Povežite se z napravo" },
+  "pairing": {
+    "connect": "Povežite se z napravo",
+    "pairing": "Seznanjanje",
+    "success": "Uspešno seznanjeno",
+    "failed": "Seznanjanje naprave ni uspelo",
+    "makeSure": "Prepričajte se, da je (Wifi-Direct) vklopljena v napravi vašega prijatelja in je v dosegu.",
+    "continue": "Nadaljujte",
+    "tryAgain": "Poskusi ponovno"
+  },
+  "selectNetworkType": {
+    "connect": "Povežite se z napravo",
+    "share": "Skupna raba z Wifi Direct",
+    "send": "Želite neposredno poslati datoteko prek wifi-ja?",
+    "continue": "Nadaljujte"
+  }
+}

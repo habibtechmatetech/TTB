@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "Ընտրեք ձեր ընթացիկ լեզուն", "mainAction": "Ընտրել լեզուն" },
+  "menu": {
+    "anonymousTitle": "Ձեր հաշիվը",
+    "anonymousAction": "Մուտք",
+    "editProfileAction": "Խմբագրել պրոֆիլը",
+    "verifyProfileAction": "Հաստատել պրոֆիլը",
+    "bibleSection": "Աստվածաշունչ",
+    "teachingsSection": "Ուսմունքներ",
+    "librarySection": "Իմ գրադարանը",
+    "groupsSection": "Խմբեր",
+    "donateSection": "Նվիրաբերել",
+    "settingsSection": "Կարգավորումներ",
+    "signOut": "Դուրս գալ",
+    "modals": {
+      "verifyProfile": {
+        "title": "Դուք չեք ստուգվում",
+        "message": "Ձեր ցուցակները չեն համաժամացվի, և դուք չեք կարող խմբեր ստեղծել: Գրանցումն ավարտելու համար խնդրում ենք ստուգել ձեր էլ. Փոստը:",
+        "firstButton": "Շարունակել",
+        "secondButton": "Գրանցեք նոր պրոֆիլ"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Մուտք գործել",
+    "emailPlaceholder": "Քո էլէկտրոնային փոստը",
+    "passwordPlaceholder": "Քո գաղտնաբառը",
+    "forgotAction": "Մոռացել եք գաղտնաբառը?",
+    "callToAction": "Մուտք գործել",
+    "signInAlternatives": "Կամ մուտք գործեք ՝ օգտագործելով",
+    "noAccountAction": "Հաշիվ չկա՞: Ստեղծեք մեկը",
+    "notifications": {
+      "invalidCredentials": "Վավերագրերն անվավեր են",
+      "inProgress": "Մուտք գործել արդեն ընթացքի մեջ է",
+      "notAvailable": "Play ծառայություններն անհասանելի են"
+    }
+  },
+  "signUp": {
+    "header": "Գրանցվել",
+    "emailPlaceholder": "Քո էլէկտրոնային փոստը",
+    "passwordPlaceholder": "Քո գաղտնաբառը",
+    "privateAction": "Հաշիվը դարձնել անձնական",
+    "termsDisclaimer": {
+      "pre": "Գրանցվելով կտտացնելով դուք նշում եք, որ կարդացել եք և համաձայն եք դրան",
+      "terms": "պայմանները",
+      "post": ","
+    },
+    "callToAction": "Գրանցվել",
+    "signUpAlternatives": "Կամ գրանցվեք ՝ օգտագործելով",
+    "haveAnAccountAction": "Հաշիվ ունե՞ք:",
+    "notifications": {
+      "invalidUsername": "Օգտագործողների անունները սահմանափակվում են 20 այբբենական թվերով (թվեր և կանոնավոր տառեր)",
+      "invalidPassword": "Գաղտնաբառը պետք է ունենա առնվազն 3 նիշ և լինի առնվազն մեկ թվով կամ հատուկ նիշով մեծ և փոքրատառ նիշերի համադրություն"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Հնարավոր չէ ստեղծել հաշիվ",
+        "message": "Այս էլ.փոստի հասցեն արդեն գոյություն ունի:",
+        "firstButton": "Մուտք գործել",
+        "secondButton": "փակել"
+      },
+      "privateAccount": {
+        "title": "Անձնական հաշիվ",
+        "message": "Ձեր հաշիվը մասնավոր դարձնելով ՝ դուք թաքցնում եք, որ այն ուրիշները չբացահայտեն:",
+        "firstButton": "Ընդունել",
+        "secondButton": "Մերժում"
+      },
+      "success": {
+        "title": "Հաշիվը ստեղծվեց:",
+        "message": "Ձեր հաշիվը հաջողությամբ ստեղծվեց: Ստուգեք ձեր մուտքի արկղը ՝ ձեր հաշիվը հաստատելու և մուտք գործելու համար:",
+        "firstButton": "Մուտք գործել"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Վերականգնել գաղտնաբառը",
+    "emailPlaceholder": "Քո էլէկտրոնային փոստը",
+    "message": "Խնդրում ենք մուտքագրել ձեր էլ. Փոստը ՝ ձեր հաշվի գաղտնաբառը վերականգնելու համար:",
+    "callToAction": "Վերականգնել գաղտնաբառը",
+    "notifications": {
+      "success": "Մենք պարզապես նամակ ենք ուղարկել ձեր մուտքի արկղ",
+      "emailNotFoundError": "Էլ. Փոստը չի գտնվել",
+      "invalidEmailError": "Էլ.փոստի անվավեր ձևաչափ"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Ավարտեք տեղադրումը",
+    "message": "Ձեր մուտքագրած էլ. Փոստի հասցեին էլ-նամակ է ուղարկվել: Գրանցումն ավարտելու համար խնդրում ենք այցելել էլ. Փոստի մանրամասները:",
+    "callToAction": "Բաց թողնել հիմա"
+  },
+  "teachings": {
+    "dailyText": "Այսօրվա հեռարձակումը",
+    "journeyTitle": "Սկսեք ձեր ճանապարհորդությունը",
+    "journeySubtitle": "Բոլոր ուսմունքները սկզբից մինչև վերջ",
+    "journeyCardTitle": "215 շաբաթվա ճանապարհորդություն Աստվածաշնչով",
+    "journeyCardSubtitle": "Լսեք ձեր ժամանակը",
+    "tracksLabel": "Հետքեր"
+  },
+  "teaching": {
+    "header": "Ուսմունքներ",
+    "loading": "Բեռնվում է ...",
+    "player": {
+      "audioSpeed": "Աուդիո արագություն",
+      "loading": "Բեռնվում է",
+      "castingError": "Առկա սարքեր չկան"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Շարունակեք լսել", "secondButton": "Սկսեք ձեր ճանապարհը" }
+    }
+  },
+  "journey": {
+    "byDate": "Ըստ ամսաթվի",
+    "bySeries": "Ըստ շարքերի",
+    "sections": { "tracksLabel": "Հետքեր" }
+  },
+  "library": {
+    "header": "Իմ գրադարանը",
+    "tabs": { "downloads": "Ներբեռնումներ", "favorites": "Սիրվածներ", "playlists": "Playանկերը" }
+  },
+  "groups": {
+    "header": "Խմբեր",
+    "createGroup": {
+      "title": "Ստեղծեք նոր խումբ",
+      "groupNameLabel": "ԽՄԲԻ ԱՆՎԱՆՈՒՄԸ",
+      "groupNameInputPlaceHolder": "Անուն",
+      "descriptionLabel": "ՆԿԱՐԱԳՐՈՒԹՅՈՒՆ",
+      "descriptionInputPlaceHolder": "Ավելացնել նկարագրություն",
+      "inviteLabel": "Հրավիրեք օգտվողներին",
+      "inviteButton": "Հրավիրեք նոր օգտվողների",
+      "button": "Ստեղծել խումբ",
+      "invalidGroupName": "Մուտքագրեք վավեր անուն",
+      "groupNameTooLong": "Խմբի անունը չպետք է պարունակի ավելի քան 25 նիշ"
+    },
+    "devotionNotStartAlert": "Այս խմբի համար նվիրվածություն չի սկսվել",
+    "membersLabel": "Անդամներ",
+    "chatModalMemberSubtitleLabel": "անդամ",
+    "chatModalMembersSubtitleLabel": "անդամներ",
+    "chat": {
+      "listeningToLabel": "Լսում է",
+      "loadingTrackLabel": "Ուղի բեռնումը ...",
+      "inputPlaceHolder": "Գրեք հաղորդագրություն",
+      "deletePost": "Deleteնջել հաղորդագրությունը",
+      "deleteMessage": "ջնջել է հաղորդագրություն"
+    },
+    "groupSettings": {
+      "participantsSection": "Մասնակիցներ",
+      "viewAll": "Դիտել բոլորը",
+      "invite": "Հրավիրեք նոր օգտվողների",
+      "endDevotion": "Ավարտեք խմբի նվիրվածությունը",
+      "deleteGroup": "Deleteնջել խումբը",
+      "leaveGroup": "Լքել խումբը"
+    },
+    "userDirectory": {
+      "header": "Օգտագործողի գրացուցակ",
+      "remove": "Հեռացնել",
+      "anonymous": "Անանուն",
+      "send": "Ուղարկել"
+    },
+    "inviteUser": { "placeHolder": "Որոնում", "send": "Ուղարկել" }
+  },
+  "chat": {
+    "header": "Խմբային ալիք",
+    "settings": {
+      "header": "Խմբի կարգավորում",
+      "endDevotion": {
+        "alertTitle": "Վերջ նվիրվածությանը",
+        "alertMessage": "Վստա՞հ եք, որ ցանկանում եք դադարեցնել այս նվիրվածությունը:",
+        "alertCancel": "Չեղարկել",
+        "alertConfirm": "Այո",
+        "endDevotionLabel": "ավարտվեց այս նվիրվածությունը:",
+        "hasEnded": "Այս նվիրվածությունը վերջացավ"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Սկսեք նվիրվածությունը",
+    "alertMessage": "Համոզվա՞ծ եք, որ ցանկանում եք նվիրվածություն սկսել% {name} խմբի հետ:",
+    "alertCancel": "Չեղարկել",
+    "alertConfirm": "Այո",
+    "devotionStartedLabel": "նվիրվածություն է սկսել:"
+  },
+  "settings": {
+    "header": "Կարգավորումներ",
+    "tabs": { "profile": "Պրոֆիլ", "media": "Լրատվամիջոցներ", "notifications": "Անուցումներ" },
+    "profile": {
+      "account": "Հաշիվ",
+      "username": "Օգտագործողի անունը",
+      "email": "Էլ",
+      "editButton": "Խմբագրել",
+      "edit": {
+        "save": "Խնայել",
+        "username": {
+          "header": "Օգտագործողի անունը",
+          "successAlert": "Ձեր փոփոխությունը պահվել է:",
+          "failedAlert": "Չհաջողվեց պահպանել փոփոխությունը:"
+        },
+        "email": {
+          "header": "Էլ",
+          "successAlert": "Ձեր փոփոխությունը պահվել է:",
+          "failedAlert": "Չհաջողվեց պահպանել փոփոխությունը:"
+        }
+      },
+      "languages": "Լեզուներ",
+      "signIn": "Մուտք գործել",
+      "signOut": "Դուրս գալ հաշվից",
+      "legal": "Իրավական",
+      "termsConditions": "Պայմաններ եւ դրույթներ",
+      "privacyPolicy": "Գաղտնիության քաղաքականություն",
+      "support": "Աջակցություն",
+      "reportAProblem": "Հաղորդել խնդրի մասին",
+      "tutorial": "Ուսուցողական",
+      "reportBug": {
+        "header": "Հաղորդել խնդրի մասին",
+        "send": "Ուղարկել",
+        "subject": "ԱՌԱՐԿԱ",
+        "subjectPlaceHolder": "Առարկա",
+        "description": "ՆԿԱՐԱԳՐՈՒԹՅՈՒՆ",
+        "descriptionPlaceHolder": "Նկարագրություն",
+        "successAlert": "Շնորհակալություն, մենք ստացել ենք ձեր հաղորդագրությունը:",
+        "failedAlert": "Չհաջողվեց ուղարկել հաղորդագրությունը:"
+      },
+      "version": "Տարբերակ"
+    },
+    "media": {
+      "audio": "Աուդիո",
+      "autoplay": "Autoplay աուդիո",
+      "storage": "Պահեստավորում",
+      "downloadWifi": "Ներբեռնեք միայն Wi-Fi- ով",
+      "deleteCache": "Deleteնջել քեշը"
+    },
+    "notifications": {
+      "notifications": "Անուցումներ",
+      "groupInvitation": "Խմբային հրավեր",
+      "devotions": "Հրավիրեք նվիրվածությունների",
+      "file": "Ֆայլերի փոխանցման հաստատում"
+    }
+  },
+  "inviteUsers": { "header": "Հրավիրեք օգտվողներին" },
+  "playlist": {
+    "header": "Երգացանկ",
+    "audioFileLabel": "Աուդիո ֆայլ",
+    "audioFilesLabel": "Աուդիո ֆայլեր"
+  },
+  "collection": { "header": "Հավաքածու", "audioFilesLabel": "Աուդիո ֆայլեր" },
+  "modal": {
+    "close": "փակել",
+    "addToPlaylist": { "title": "Ավելացնել երգացանկին", "button": "Ստեղծեք երգացանկ" },
+    "startDevotion": { "title": "Սկսեք նվիրվածությունը" },
+    "createPlaylist": {
+      "title": "Ստեղծեք նոր երգացանկ",
+      "button": "Ստեղծեք երգացանկ",
+      "inputPlaceholder": "Մուտքագրեք երգացանկի անունը",
+      "success": "Ավելացված է երգացանկում"
+    },
+    "login": "Հավատարմություն սկսելու համար անհրաժեշտ է մուտք գործել"
+  },
+  "options": {
+    "shared": {
+      "share": "Կիսվել",
+      "report": "Հաղորդել բովանդակության մասին",
+      "shareOthers": "Կիսվեք ուրիշների հետ",
+      "copy": "Պատճենել հղումը",
+      "more": "Ավելին"
+    },
+    "audio": {
+      "download": "Ներբեռնում",
+      "addFavorite": "Ավելացնել ընտրյալների մեջ",
+      "addPlaylist": "Ավելացնել երգացանկին",
+      "removeFavorite": "Հեռացնել Սիրված էջերից",
+      "removePlaylist": "Հեռացնել երգացանկից",
+      "removeDownload": "Հեռացնել ներբեռնումներից"
+    },
+    "playlist": { "edit": "Խմբագրել", "delete": "Deleteնջել երգացանկը" },
+    "startDevotion": "Սկսեք նվիրվածությունը"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Ավելացվել է երգացանկում",
+      "delete": "Հեռացվել է երգացանկից",
+      "create": "Ստեղծվել է երգացանկ",
+      "destroy": "Playնջված երգացանկը"
+    },
+    "favorites": { "add": "Ավելացված է Ընտրյալների մեջ", "remove": "Հեռացվել է Սիրվածներից" },
+    "downloads": { "remove": "Ներբեռնումներից հանված է" }
+  },
+  "buttons": { "loop": "Օղակ", "shuffle": "Խառնել" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Որոնել ..." },
+    "notification": { "success": "Հաջողություն Նամակ կուղարկվի ձեր հաշվին:" },
+    "button": { "sending": "Ուղարկել..." },
+    "modalSelector": { "cancel": "Չեղարկել" },
+    "loading": "Բեռնվում է"
+  },
+  "bible": {
+    "header": "Աստվածաշունչ",
+    "oldTestament": "Հին Կտակարան",
+    "newTestament": "Նոր Կտակարան",
+    "popularBooks": "Հանրաճանաչ գրքեր"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Որոնում",
+    "cancelButton": "ՉԵՅԱԼ",
+    "searchResults": "Որոնման արդյունքները",
+    "filterButton": "Filտել",
+    "teachings": { "title": "Ուսմունքներ" },
+    "bible": { "title": "Աստվածաշունչ" }
+  },
+  "addToPlaylistsModal": { "title": "Ավելացնել երգացանկին", "button": "Ստեղծեք երգացանկ" },
+  "createPlaylistModal": {
+    "title": "Ստեղծեք նոր երգացանկ",
+    "button": "Ստեղծեք երգացանկ",
+    "inputPlaceholder": "Մուտքագրեք երգացանկի անունը"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Ավելացվել է երգացանկում",
+      "remove": "Հեռացվել է երգացանկից",
+      "create": "Ստեղծվել է երգացանկ",
+      "delete": "Playնջված երգացանկը"
+    },
+    "favorites": { "add": "Ավելացված է Ընտրյալների մեջ", "remove": "Հեռացվել է Սիրվածներից" },
+    "downloads": { "remove": "Ներբեռնումներից հանված է" },
+    "facebook": { "loginError": "Մուտքը սխալմամբ ձախողվեց" },
+    "google": { "loginError": "Մուտքը սխալմամբ ձախողվեց" }
+  },
+  "playlists": { "trackLabel": "Հետք", "tracksLabel": "Հետքեր" },
+  "mediaList": { "tracksLabel": "Հետքեր", "remove": "Հեռացնել" },
+  "tutorialPage": { "done": "Կատարած", "skip": "Բաց թողնել" },
+  "loginModal": { "login": "Մուտք" },
+  "shareModal": { "facebook": "Ֆեյսբուք", "twitter": "Twitter- ը", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Ներբեռնում", "complete": "Ներբեռնումն ավարտված է" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Ուսումնասիրեք Աստվածաշունչը",
+      "subtitle1": "Travelանապարհորդեք մեզ հետ ամբողջ Աստվածաշնչով կամ սկսեք ձեր սեփական ճանապարհորդությունը:",
+      "title2": "Լսեք և ներգրավվեք",
+      "subtitle2": "Մեդիա նվագարկիչը թույլ է տալիս հեշտությամբ սուզվել THRU- ի ԱՍՏՎԱԱՇՆՉՅԱՆ բովանդակությունը:",
+      "title3": "Բացահայտեք Ուսուցումները",
+      "subtitle3": "Ներգրավվեք Աստվածաշնչում, ինչպես երբեք, խաչաձև հղում կատարելով Աստվածաշնչի և ուսուցանող բովանդակության վրա:",
+      "title4": "Քննարկեք Աստվածաշունչը",
+      "subtitle4": "Միացեք մի խմբի ՝ ուրիշների հետ ուսումնասիրելու THRU ԱՍՏՎԱLEԱՇՆՉՅԱՆ ուսմունքներն ու թեմաները:",
+      "title5": "Ներբեռնեք և տարածեք",
+      "subtitle5": "Վայելեք անընդհատ ունկնդրելով Աստծո Խոսքը և կիսվեք այն ձեր ընկերների հետ:",
+      "title6": "Պահել և ստեղծել",
+      "subtitle6": "Խնայեք ձեր նախընտրած ուսմունքներն ու աստվածաշնչային համարները կամ ստեղծեք անհատական ​​երգացանկ:",
+      "title7": "Խմբային նվիրվածություններ",
+      "subtitle7": "Քաջալերվեք և ոգեշնչվեք ուրիշներից ՝ ամենօրյա խմբային նվիրվածությամբ:"
+    },
+    "registerPage": {
+      "noThanks": "Ոչ, շնորհակալություն",
+      "haveAccount": "Հաշիվ ունե՞ք:",
+      "createAccount": "Ստեղծեք իմ հաշիվ",
+      "title1": "Քննարկել ուրիշների հետ",
+      "subtitle1": "Քննարկեք ձեր նախընտրած թեմաներն ու աստվածաշնչյան համարները ուրիշների հետ:",
+      "title2": "Պահպանեք և համաժամացրեք երգացանկերը",
+      "subtitle2": "Կառուցեք ձեր նախընտրած բովանդակության ցուցակները մեկ տեղում:",
+      "title3": "Տեսեք ձեր նախընտրածները",
+      "subtitle3": "Հետագայում պահեք և հետ եկեք և այցելեք ձեր նախընտրածներին:",
+      "title4": "Բարի վերադարձ",
+      "subtitle4": "Ստեղծեք հաշիվ և մուտք գործեք մեր բոլոր հատկությունները:"
+    }
+  },
+  "app": {
+    "close": "փակել",
+    "accept": "Ընդունել",
+    "reject": "Մերժել",
+    "constructionInProgress": "ՇԻՆԱՐԱՐՈՒԹՅՈՒՆԸ ԸՆԹԱՔՈՒՄ",
+    "downloadComplete": "Ներբեռնումն ավարտված է",
+    "downloading": "Ներբեռնում",
+    "downloadFailed": "Ներբեռնումը ձախողվեց",
+    "sendAFile": "Ինչ-որ մեկը ցանկանում է ձեզ ֆայլ ուղարկել"
+  },
+  "transferring": { "tryAgain": "նորից փորձեք", "close": "փակել" },
+  "checkDevice": {
+    "check": "Ստուգեք ձեր սարքը",
+    "makeSure": "Համոզվեք, որ Wifi-Direct- ը միացված է ձեր ընկերոջ սարքին և այն ընդգրկում է տիրույթում:",
+    "continue": "Շարունակել"
+  },
+  "connectToDevice": { "connect": "Միացեք սարքին" },
+  "pairing": {
+    "connect": "Միացեք սարքին",
+    "pairing": "Ուգակցում",
+    "success": "Հաջողությամբ զուգակցվում է",
+    "failed": "Սարքի զուգակցումը ձախողվեց",
+    "makeSure": "Համոզվեք, որ (Wifi-Direct) - ը միացված է ձեր ընկերոջ սարքին և այն ընդգրկում է տիրույթում:",
+    "continue": "Շարունակել",
+    "tryAgain": "Կրկին փորձեք"
+  },
+  "selectNetworkType": {
+    "connect": "Միացեք սարքին",
+    "share": "Կիսվել Wifi Direct- ով",
+    "send": "Ուղարկե՞լ ֆայլ wifi- ով",
+    "continue": "Շարունակել"
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "selectLanguage": { "heading": "Atlasiet pašreizējo valodu", "mainAction": "Izvēlēties valodu" },
+  "menu": {
+    "anonymousTitle": "Jūsu konts",
+    "anonymousAction": "Pieslēgties",
+    "editProfileAction": "Rediģēt profilu",
+    "verifyProfileAction": "Pārbaudiet profilu",
+    "bibleSection": "Bībele",
+    "teachingsSection": "Mācības",
+    "librarySection": "Mana bibliotēka",
+    "groupsSection": "Grupas",
+    "donateSection": "Ziedo",
+    "settingsSection": "Iestatījumi",
+    "signOut": "Izrakstīties",
+    "modals": {
+      "verifyProfile": {
+        "title": "Jūs neesat verificēts",
+        "message": "Jūsu saraksti netiks sinhronizēti, un jūs nevarat izveidot grupas. Lūdzu, pārbaudiet savu e-pastu, lai pabeigtu reģistrāciju.",
+        "firstButton": "Turpināt",
+        "secondButton": "Reģistrējiet jaunu profilu"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Ielogoties",
+    "emailPlaceholder": "Tavs e-pasts",
+    "passwordPlaceholder": "Tava parole",
+    "forgotAction": "Aizmirsi paroli?",
+    "callToAction": "Ielogoties",
+    "signInAlternatives": "Vai pierakstieties, izmantojot",
+    "noAccountAction": "Nav konta? Izveidot vienu",
+    "notifications": {
+      "invalidCredentials": "Nederīgi akreditācijas dati",
+      "inProgress": "Pierakstīšanās jau notiek",
+      "notAvailable": "Spēļu pakalpojumi nav pieejami"
+    }
+  },
+  "signUp": {
+    "header": "Izveidot profilu",
+    "emailPlaceholder": "Tavs e-pasts",
+    "passwordPlaceholder": "Tava parole",
+    "privateAction": "Padarīt kontu privātu",
+    "termsDisclaimer": {
+      "pre": "Noklikšķinot uz Reģistrēties, jūs norādāt, ka esat izlasījis un piekrītat",
+      "terms": "noteikumiem",
+      "post": "."
+    },
+    "callToAction": "Pierakstīties",
+    "signUpAlternatives": "Vai reģistrējieties, izmantojot",
+    "haveAnAccountAction": "Vai jums ir konts?",
+    "notifications": {
+      "invalidUsername": "Lietotājvārdos var būt ne vairāk kā 20 burtciparu rakstzīmes (cipari un parastie burti)",
+      "invalidPassword": "Parolē jābūt vismaz 3 rakstzīmēm, un tā ir lielo un mazo burtu kombinācija ar vismaz vienu skaitli vai īpašu rakstzīmi"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Nevar izveidot kontu",
+        "message": "Šī e-pasta adrese jau pastāv.",
+        "firstButton": "Ielogoties",
+        "secondButton": "Aizvērt"
+      },
+      "privateAccount": {
+        "title": "Privātais konts",
+        "message": "Padarot savu kontu privātu, jūs slēpjat to, lai citi to neatklātu.",
+        "firstButton": "Pieņemt",
+        "secondButton": "Noraidīt"
+      },
+      "success": {
+        "title": "Konts ir izveidots!",
+        "message": "Jūsu konts tika veiksmīgi izveidots. Pārbaudiet iesūtni, lai apstiprinātu savu kontu un pierakstītos.",
+        "firstButton": "Ielogoties"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Atiestatīt paroli",
+    "emailPlaceholder": "Tavs e-pasts",
+    "message": "Lūdzu, ievadiet savu e-pasta adresi, lai atiestatītu sava konta paroli.",
+    "callToAction": "Atiestatīt paroli",
+    "notifications": {
+      "success": "Mēs tikko nosūtījām e-pastu uz jūsu iesūtni",
+      "emailNotFoundError": "E-pasts netika atrasts",
+      "invalidEmailError": "Nederīgs e-pasta formāts"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Pabeigt iestatīšanu",
+    "message": "Uz jūsu ievadīto e-pasta adresi ir nosūtīts e-pasts. Lai pabeigtu reģistrāciju, lūdzu, skatiet e-pasta informāciju.",
+    "callToAction": "Izlaist tagad"
+  },
+  "teachings": {
+    "dailyText": "Šodienas raidījums",
+    "journeyTitle": "Sāciet savu ceļojumu",
+    "journeySubtitle": "Visas mācības no sākuma līdz beigām",
+    "journeyCardTitle": "215. nedēļas ceļojums caur Bībeli",
+    "journeyCardSubtitle": "Klausieties savu laiku",
+    "tracksLabel": "Dziesmas"
+  },
+  "teaching": {
+    "header": "Mācības",
+    "loading": "Notiek ielāde ...",
+    "player": {
+      "audioSpeed": "Audio ātrums",
+      "loading": "Notiek ielāde",
+      "castingError": "Nav pieejama neviena ierīce"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Turpiniet klausīties", "secondButton": "Sāciet savu ceļojumu" }
+    }
+  },
+  "journey": {
+    "byDate": "Pēc datuma",
+    "bySeries": "Pēc sērijām",
+    "sections": { "tracksLabel": "Dziesmas" }
+  },
+  "library": {
+    "header": "Mana bibliotēka",
+    "tabs": {
+      "downloads": "Lejupielādes",
+      "favorites": "Izlase",
+      "playlists": "Atskaņošanas saraksti"
+    }
+  },
+  "groups": {
+    "header": "Grupas",
+    "createGroup": {
+      "title": "Izveidot jaunu grupu",
+      "groupNameLabel": "GRUPAS NOSAUKUMS",
+      "groupNameInputPlaceHolder": "Nosaukums",
+      "descriptionLabel": "APRAKSTS",
+      "descriptionInputPlaceHolder": "Pievienot aprakstu",
+      "inviteLabel": "Uzaicināt lietotājus",
+      "inviteButton": "Uzaicināt jaunus lietotājus",
+      "button": "Izveidot grupu",
+      "invalidGroupName": "Ievadiet derīgu vārdu",
+      "groupNameTooLong": "Grupas nosaukumā nedrīkst būt vairāk par 25 rakstzīmēm"
+    },
+    "devotionNotStartAlert": "Veltījums šai grupai nav sācies",
+    "membersLabel": "Biedri",
+    "chatModalMemberSubtitleLabel": "biedrs",
+    "chatModalMembersSubtitleLabel": "biedri",
+    "chat": {
+      "listeningToLabel": "Klausīties",
+      "loadingTrackLabel": "Notiek celiņa ielāde ...",
+      "inputPlaceHolder": "Rakstīt ziņojumu",
+      "deletePost": "Dzēst ziņu",
+      "deleteMessage": "ir izdzēsis ziņojumu"
+    },
+    "groupSettings": {
+      "participantsSection": "Dalībnieki",
+      "viewAll": "Apskati visus",
+      "invite": "Uzaicināt jaunus lietotājus",
+      "endDevotion": "Beigu grupas nodošanās",
+      "deleteGroup": "Dzēst grupu",
+      "leaveGroup": "Pamest grupu"
+    },
+    "userDirectory": {
+      "header": "Lietotāju katalogs",
+      "remove": "Noņemt",
+      "anonymous": "Anonīms",
+      "send": "Nosūtīt"
+    },
+    "inviteUser": { "placeHolder": "Meklēt", "send": "Nosūtīt" }
+  },
+  "chat": {
+    "header": "Grupas kanāls",
+    "settings": {
+      "header": "Grupas iestatījumi",
+      "endDevotion": {
+        "alertTitle": "Beigu ziedošanās",
+        "alertMessage": "Vai tiešām vēlaties pārtraukt šo ziedošanos?",
+        "alertCancel": "Atcelt",
+        "alertConfirm": "Jā",
+        "endDevotionLabel": "izbeidza šo ziedošanos.",
+        "hasEnded": "Šī ziedošanās ir beigusies"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Sāciet uzticību",
+    "alertMessage": "Vai tiešām vēlaties sākt ziedošanos ar% {name} grupu?",
+    "alertCancel": "Atcelt",
+    "alertConfirm": "Jā",
+    "devotionStartedLabel": "ir uzsācis ziedošanos."
+  },
+  "settings": {
+    "header": "Iestatījumi",
+    "tabs": { "profile": "Profils", "media": "Mediji", "notifications": "Paziņojumi" },
+    "profile": {
+      "account": "Konts",
+      "username": "Lietotājvārds",
+      "email": "E-pasts",
+      "editButton": "Rediģēt",
+      "edit": {
+        "save": "Saglabāt",
+        "username": {
+          "header": "Lietotājvārds",
+          "successAlert": "Jūsu izmaiņas ir saglabātas.",
+          "failedAlert": "Neizdevās saglabāt izmaiņas."
+        },
+        "email": {
+          "header": "E-pasts",
+          "successAlert": "Jūsu izmaiņas ir saglabātas.",
+          "failedAlert": "Neizdevās saglabāt izmaiņas."
+        }
+      },
+      "languages": "Valodas",
+      "signIn": "Ielogoties",
+      "signOut": "Izrakstieties no konta",
+      "legal": "Juridisks",
+      "termsConditions": "Noteikumi",
+      "privacyPolicy": "Privātuma politika",
+      "support": "Atbalsts",
+      "reportAProblem": "Ziņot par problēmu",
+      "tutorial": "Apmācība",
+      "reportBug": {
+        "header": "Ziņot par problēmu",
+        "send": "Nosūtīt",
+        "subject": "PRIEKŠMETS",
+        "subjectPlaceHolder": "Priekšmets",
+        "description": "APRAKSTS",
+        "descriptionPlaceHolder": "Apraksts",
+        "successAlert": "Paldies, mēs saņēmām jūsu ziņojumu.",
+        "failedAlert": "Neizdevās nosūtīt ziņojumu."
+      },
+      "version": "Versija"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Automātiski atskaņot audio",
+      "storage": "Uzglabāšana",
+      "downloadWifi": "Lejupielādēt tikai Wi-Fi tīklā",
+      "deleteCache": "Dzēst kešatmiņu"
+    },
+    "notifications": {
+      "notifications": "Paziņojumi",
+      "groupInvitation": "Grupas ielūgums",
+      "devotions": "Uzaicināt uz Devotions",
+      "file": "Failu pārsūtīšanas apstiprinājums"
+    }
+  },
+  "inviteUsers": { "header": "Uzaicināt lietotājus" },
+  "playlist": {
+    "header": "Atskaņošanas saraksts",
+    "audioFileLabel": "Audio fails",
+    "audioFilesLabel": "Audio faili"
+  },
+  "collection": { "header": "Kolekcija", "audioFilesLabel": "Audio faili" },
+  "modal": {
+    "close": "tuvu",
+    "addToPlaylist": {
+      "title": "Pievienot atskaņošanas sarakstam",
+      "button": "Izveidot atskaņošanas sarakstu"
+    },
+    "startDevotion": { "title": "Sāciet uzticību" },
+    "createPlaylist": {
+      "title": "Izveidot jaunu atskaņošanas sarakstu",
+      "button": "Izveidot atskaņošanas sarakstu",
+      "inputPlaceholder": "Ievadiet atskaņošanas saraksta nosaukumu",
+      "success": "Pievienots atskaņošanas sarakstam"
+    },
+    "login": "Lai sāktu ziedošanos, jums jāpiesakās"
+  },
+  "options": {
+    "shared": {
+      "share": "Dalīties",
+      "report": "Ziņot par saturu",
+      "shareOthers": "Dalieties ar citiem",
+      "copy": "Kopēt saiti",
+      "more": "Vairāk"
+    },
+    "audio": {
+      "download": "Lejupielādēt",
+      "addFavorite": "Pievienot pie favorītiem",
+      "addPlaylist": "Pievienot atskaņošanas sarakstam",
+      "removeFavorite": "Noņemt no izlases",
+      "removePlaylist": "Noņemt no atskaņošanas saraksta",
+      "removeDownload": "Noņemt no lejupielādes"
+    },
+    "playlist": { "edit": "Rediģēt", "delete": "Dzēst atskaņošanas sarakstu" },
+    "startDevotion": "Sāciet uzticību"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Pievienots atskaņošanas sarakstam",
+      "delete": "Noņemts no atskaņošanas saraksta",
+      "create": "Izveidots atskaņošanas saraksts",
+      "destroy": "Dzēsts atskaņošanas saraksts"
+    },
+    "favorites": { "add": "Pievienots izlasei", "remove": "Noņemts no izlases" },
+    "downloads": { "remove": "Noņemts no lejupielādes" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Jaukt" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Meklēt..." },
+    "notification": { "success": "Panākumi! Uz jūsu kontu tiks nosūtīts e-pasts." },
+    "button": { "sending": "Notiek sūtīšana ..." },
+    "modalSelector": { "cancel": "Atcelt" },
+    "loading": "Notiek ielāde"
+  },
+  "bible": {
+    "header": "Bībele",
+    "oldTestament": "Vecā Derība",
+    "newTestament": "Jaunā Derība",
+    "popularBooks": "Populāras grāmatas"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Meklēt",
+    "cancelButton": "ATCELT",
+    "searchResults": "Meklēšanas rezultāti",
+    "filterButton": "Filtrēt",
+    "teachings": { "title": "Mācības" },
+    "bible": { "title": "Bībele" }
+  },
+  "addToPlaylistsModal": {
+    "title": "Pievienot atskaņošanas sarakstam",
+    "button": "Izveidot atskaņošanas sarakstu"
+  },
+  "createPlaylistModal": {
+    "title": "Izveidot jaunu atskaņošanas sarakstu",
+    "button": "Izveidot atskaņošanas sarakstu",
+    "inputPlaceholder": "Ievadiet atskaņošanas saraksta nosaukumu"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Pievienots atskaņošanas sarakstam",
+      "remove": "Noņemts no atskaņošanas saraksta",
+      "create": "Izveidots atskaņošanas saraksts",
+      "delete": "Dzēsts atskaņošanas saraksts"
+    },
+    "favorites": { "add": "Pievienots izlasei", "remove": "Noņemts no izlases" },
+    "downloads": { "remove": "Noņemts no lejupielādes" },
+    "facebook": { "loginError": "Pieteikšanās neizdevās ar kļūdu" },
+    "google": { "loginError": "Pieteikšanās neizdevās ar kļūdu" }
+  },
+  "playlists": { "trackLabel": "Trase", "tracksLabel": "Dziesmas" },
+  "mediaList": { "tracksLabel": "Dziesmas", "remove": "Noņemt" },
+  "tutorialPage": { "done": "Gatavs", "skip": "Izlaist" },
+  "loginModal": { "login": "Pieslēgties" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Notiek lejupielāde", "complete": "Lejupielāde pabeigta" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Izpētiet Bībeli",
+      "subtitle1": "Apceļojiet visu Bībeli kopā ar mums vai sāciet savu ceļojumu.",
+      "title2": "Klausieties un iesaistieties",
+      "subtitle2": "Multivides atskaņotājs ļauj jums viegli ienirt Bībeles saturā.",
+      "title3": "Atklājiet mācību",
+      "subtitle3": "Iesaistieties Bībelē kā nekad agrāk, savstarpēji atsaucoties uz Bībeles un mācību saturu.",
+      "title4": "Apspriediet Bībeli",
+      "subtitle4": "Pievienojieties grupai, lai kopā ar citiem izpētītu Bībeles mācības un tēmas.",
+      "title5": "Lejupielādēt un kopīgot",
+      "subtitle5": "Baudiet klausīšanos Dieva Vārdā, atrodoties ceļā, un dalieties tajā ar draugiem.",
+      "title6": "Saglabāt un izveidot",
+      "subtitle6": "Saglabājiet iecienītās mācības un Bībeles pantus vai izveidojiet pielāgotu atskaņošanas sarakstu.",
+      "title7": "Grupas veltījumi",
+      "subtitle7": "Esiet uzmundrināti un iedvesmoti no citiem, katru dienu veltot grupas veltījumus."
+    },
+    "registerPage": {
+      "noThanks": "Nē paldies",
+      "haveAccount": "Vai jums ir konts?",
+      "createAccount": "Izveidojiet savu kontu",
+      "title1": "Pārrunājiet ar citiem",
+      "subtitle1": "Apspriediet savas iecienītās tēmas un Bībeles pantus ar citiem.",
+      "title2": "Saglabāt un sinhronizēt atskaņošanas sarakstus",
+      "subtitle2": "Veidojiet iecienītā satura sarakstus vienuviet.",
+      "title3": "Skatiet savus izlasi",
+      "subtitle3": "Saglabājiet un atgriezieties un vēlāk apmeklējiet iecienītākās.",
+      "title4": "Laipni lūdzam atpakaļ",
+      "subtitle4": "Izveidojiet kontu un iegūstiet piekļuvi visām mūsu funkcijām."
+    }
+  },
+  "app": {
+    "close": "tuvu",
+    "accept": "Pieņemt",
+    "reject": "Noraidīt",
+    "constructionInProgress": "BŪVNIECĪBA",
+    "downloadComplete": "Lejupielāde pabeigta",
+    "downloading": "Notiek lejupielāde",
+    "downloadFailed": "Neizdevās lejupielādēt",
+    "sendAFile": "Kāds vēlas nosūtīt jums failu"
+  },
+  "transferring": { "tryAgain": "mēģini vēlreiz", "close": "tuvu" },
+  "checkDevice": {
+    "check": "Pārbaudiet savu ierīci",
+    "makeSure": "Lūdzu, pārliecinieties, vai Wifi-Direct ir ieslēgts jūsu drauga ierīcē un vai tas ir diapazonā.",
+    "continue": "Turpināt"
+  },
+  "connectToDevice": { "connect": "Savienojuma izveide ar ierīci" },
+  "pairing": {
+    "connect": "Savienojuma izveide ar ierīci",
+    "pairing": "Savienošana pārī",
+    "success": "Veiksmīgi savienots pārī",
+    "failed": "Neizdevās izveidot savienojumu pārī ar ierīci",
+    "makeSure": "Lūdzu, pārliecinieties, vai (Wifi-Direct) ir ieslēgta drauga ierīce un vai tā ir diapazonā.",
+    "continue": "Turpināt",
+    "tryAgain": "Mēģini vēlreiz"
+  },
+  "selectNetworkType": {
+    "connect": "Savienojuma izveide ar ierīci",
+    "share": "Kopīgojiet ar Wifi Direct",
+    "send": "Vai nosūtīt failu tieši caur wifi?",
+    "continue": "Turpināt"
+  }
+}

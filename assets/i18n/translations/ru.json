@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "Выберите ваш текущий язык", "mainAction": "Выбрать язык" },
+  "menu": {
+    "anonymousTitle": "Ваш счет",
+    "anonymousAction": "Авторизоваться",
+    "editProfileAction": "Редактировать профиль",
+    "verifyProfileAction": "Проверить профиль",
+    "bibleSection": "Библия",
+    "teachingsSection": "Учения",
+    "librarySection": "Моя библиотека",
+    "groupsSection": "Группы",
+    "donateSection": "Пожертвовать",
+    "settingsSection": "Настройки",
+    "signOut": "Выход",
+    "modals": {
+      "verifyProfile": {
+        "title": "Вы не проверены",
+        "message": "Ваши списки не будут синхронизироваться, и вы не сможете создавать группы. Пожалуйста, проверьте свою электронную почту, чтобы завершить регистрацию.",
+        "firstButton": "Продолжать",
+        "secondButton": "Зарегистрируйте новый профиль"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Войти в систему",
+    "emailPlaceholder": "Ваш адрес электронной почты",
+    "passwordPlaceholder": "Твой пароль",
+    "forgotAction": "Забыли пароль?",
+    "callToAction": "войти в систему",
+    "signInAlternatives": "Или войдите, используя",
+    "noAccountAction": "Нет аккаунта? Создай",
+    "notifications": {
+      "invalidCredentials": "Неверные учетные данные",
+      "inProgress": "Войти уже в процессе",
+      "notAvailable": "Сервисы Google Play недоступны"
+    }
+  },
+  "signUp": {
+    "header": "Регистрация",
+    "emailPlaceholder": "Ваш адрес электронной почты",
+    "passwordPlaceholder": "Твой пароль",
+    "privateAction": "Сделать аккаунт приватным",
+    "termsDisclaimer": {
+      "pre": "Нажимая «Регистрация», вы подтверждаете, что прочитали и согласны с",
+      "terms": "условия",
+      "post": "."
+    },
+    "callToAction": "зарегистрироваться",
+    "signUpAlternatives": "Или зарегистрируйтесь, используя",
+    "haveAnAccountAction": "Иметь аккаунт?",
+    "notifications": {
+      "invalidUsername": "Имена пользователей ограничены 20 буквенно-цифровыми символами (числами и обычными буквами).",
+      "invalidPassword": "Пароль должен состоять не менее чем из 3 символов и представлять собой комбинацию символов верхнего и нижнего регистра с хотя бы одной цифрой или специальным символом."
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Невозможно создать учетную запись",
+        "message": "Этот адрес электронной почты уже существует.",
+        "firstButton": "Войти в систему",
+        "secondButton": "Закрыть"
+      },
+      "privateAccount": {
+        "title": "Личный счет",
+        "message": "Делая свою учетную запись частной, вы скрываете ее от других.",
+        "firstButton": "Принять",
+        "secondButton": "Отказаться"
+      },
+      "success": {
+        "title": "Аккаунт создан!",
+        "message": "Ваш аккаунт был успешно создан. Проверьте свой почтовый ящик, чтобы подтвердить свою учетную запись и войти в систему.",
+        "firstButton": "Войти в систему"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Сброс пароля",
+    "emailPlaceholder": "Ваш адрес электронной почты",
+    "message": "Пожалуйста, введите свой адрес электронной почты, чтобы сбросить пароль для своей учетной записи.",
+    "callToAction": "Сброс пароля",
+    "notifications": {
+      "success": "Мы только что отправили письмо на ваш почтовый ящик",
+      "emailNotFoundError": "Электронная почта не найдена",
+      "invalidEmailError": "Неверный формат электронной почты"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Завершить установку",
+    "message": "На указанный адрес электронной почты было отправлено электронное письмо. Пожалуйста, просмотрите данные электронной почты, чтобы завершить регистрацию.",
+    "callToAction": "Пропустить сейчас"
+  },
+  "teachings": {
+    "dailyText": "Сегодняшняя трансляция",
+    "journeyTitle": "Начни свое путешествие",
+    "journeySubtitle": "Все учения от начала до конца",
+    "journeyCardTitle": "215-недельное путешествие по Библии",
+    "journeyCardSubtitle": "Слушай в свое время",
+    "tracksLabel": "Треки"
+  },
+  "teaching": {
+    "header": "Учения",
+    "loading": "Загружается ...",
+    "player": {
+      "audioSpeed": "Скорость звука",
+      "loading": "Загрузка",
+      "castingError": "Нет доступных устройств"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Продолжить слушать", "secondButton": "Начни свое путешествие" }
+    }
+  },
+  "journey": {
+    "byDate": "По дате",
+    "bySeries": "По сериям",
+    "sections": { "tracksLabel": "Треки" }
+  },
+  "library": {
+    "header": "Моя библиотека",
+    "tabs": { "downloads": "Загрузки", "favorites": "Избранное", "playlists": "Плейлисты" }
+  },
+  "groups": {
+    "header": "Группы",
+    "createGroup": {
+      "title": "Создать новую группу",
+      "groupNameLabel": "ИМЯ ГРУППЫ",
+      "groupNameInputPlaceHolder": "имя",
+      "descriptionLabel": "ОПИСАНИЕ",
+      "descriptionInputPlaceHolder": "Добавить описание",
+      "inviteLabel": "Пригласить пользователей",
+      "inviteButton": "Пригласить новых пользователей",
+      "button": "Создать группу",
+      "invalidGroupName": "Введите действительное имя",
+      "groupNameTooLong": "Название группы не должно содержать более 25 символов."
+    },
+    "devotionNotStartAlert": "Преданность этой группе еще не началась",
+    "membersLabel": "Члены",
+    "chatModalMemberSubtitleLabel": "член",
+    "chatModalMembersSubtitleLabel": "члены",
+    "chat": {
+      "listeningToLabel": "Слушаю",
+      "loadingTrackLabel": "Загрузка трека ...",
+      "inputPlaceHolder": "Напиши сообщение",
+      "deletePost": "Удалить сообщение",
+      "deleteMessage": "удалил сообщение"
+    },
+    "groupSettings": {
+      "participantsSection": "Участников",
+      "viewAll": "Посмотреть все",
+      "invite": "Пригласить новых пользователей",
+      "endDevotion": "Конечная групповая преданность",
+      "deleteGroup": "Удалить группу",
+      "leaveGroup": "Покинуть группу"
+    },
+    "userDirectory": {
+      "header": "Каталог пользователей",
+      "remove": "Удалить",
+      "anonymous": "Анонимный",
+      "send": "послать"
+    },
+    "inviteUser": { "placeHolder": "Поиск", "send": "послать" }
+  },
+  "chat": {
+    "header": "Групповой канал",
+    "settings": {
+      "header": "Настройки группы",
+      "endDevotion": {
+        "alertTitle": "Конец преданности",
+        "alertMessage": "Вы уверены, что хотите положить конец этой преданности?",
+        "alertCancel": "Отмена",
+        "alertConfirm": "да",
+        "endDevotionLabel": "закончилась эта преданность.",
+        "hasEnded": "Эта преданность закончилась"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Начать преданность",
+    "alertMessage": "Вы уверены, что хотите начать преданность с группой% {name}?",
+    "alertCancel": "Отмена",
+    "alertConfirm": "да",
+    "devotionStartedLabel": "начал преданность."
+  },
+  "settings": {
+    "header": "Настройки",
+    "tabs": { "profile": "Профиль", "media": "СМИ", "notifications": "Уведомления" },
+    "profile": {
+      "account": "учетная запись",
+      "username": "Имя пользователя",
+      "email": "Эл. почта",
+      "editButton": "редактировать",
+      "edit": {
+        "save": "Сохранить",
+        "username": {
+          "header": "Имя пользователя",
+          "successAlert": "Ваше изменение было сохранено.",
+          "failedAlert": "Не удалось сохранить изменение."
+        },
+        "email": {
+          "header": "Эл. адрес",
+          "successAlert": "Ваше изменение было сохранено.",
+          "failedAlert": "Не удалось сохранить изменение."
+        }
+      },
+      "languages": "Языки",
+      "signIn": "Войти в систему",
+      "signOut": "Выйти из учетной записи",
+      "legal": "Юридический",
+      "termsConditions": "Условия и положения",
+      "privacyPolicy": "политика конфиденциальности",
+      "support": "Поддержка",
+      "reportAProblem": "Сообщить о проблеме",
+      "tutorial": "Руководство",
+      "reportBug": {
+        "header": "Сообщить о проблеме",
+        "send": "послать",
+        "subject": "ПРЕДМЕТ",
+        "subjectPlaceHolder": "Предмет",
+        "description": "ОПИСАНИЕ",
+        "descriptionPlaceHolder": "Описание",
+        "successAlert": "Спасибо, мы получили ваше сообщение.",
+        "failedAlert": "Не удалось отправить сообщение."
+      },
+      "version": "Версия"
+    },
+    "media": {
+      "audio": "Аудио",
+      "autoplay": "Автозапуск аудио",
+      "storage": "Место хранения",
+      "downloadWifi": "Только скачивать по Wi-Fi",
+      "deleteCache": "Удалить кеш"
+    },
+    "notifications": {
+      "notifications": "Уведомления",
+      "groupInvitation": "Групповое приглашение",
+      "devotions": "Приглашать на богослужения",
+      "file": "Подтверждение передачи файла"
+    }
+  },
+  "inviteUsers": { "header": "Пригласить пользователей" },
+  "playlist": {
+    "header": "Плейлист",
+    "audioFileLabel": "Аудио файл",
+    "audioFilesLabel": "Аудио файлы"
+  },
+  "collection": { "header": "Коллекция", "audioFilesLabel": "Аудио файлы" },
+  "modal": {
+    "close": "Закрыть",
+    "addToPlaylist": { "title": "Добавить в плейлист", "button": "Создать плейлист" },
+    "startDevotion": { "title": "Начать преданность" },
+    "createPlaylist": {
+      "title": "Создать новый плейлист",
+      "button": "Создать плейлист",
+      "inputPlaceholder": "Введите название плейлиста",
+      "success": "Добавлено в плейлист"
+    },
+    "login": "Вам необходимо войти в систему, чтобы начать преданность"
+  },
+  "options": {
+    "shared": {
+      "share": "доля",
+      "report": "Отчет о содержании",
+      "shareOthers": "Поделиться с другими",
+      "copy": "Копировать ссылку",
+      "more": "Больше"
+    },
+    "audio": {
+      "download": "Скачать",
+      "addFavorite": "Добавить в избранное",
+      "addPlaylist": "Добавить в плейлист",
+      "removeFavorite": "Удалить из Избранного",
+      "removePlaylist": "Удалить из плейлиста",
+      "removeDownload": "Удалить из загрузок"
+    },
+    "playlist": { "edit": "редактировать", "delete": "Удалить список воспроизведения" },
+    "startDevotion": "Начать преданность"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Добавлено в плейлист",
+      "delete": "Удалено из плейлиста",
+      "create": "Создан плейлист",
+      "destroy": "Удаленный плейлист"
+    },
+    "favorites": { "add": "Добавлен в избранное", "remove": "Удалено из избранного" },
+    "downloads": { "remove": "Удалено из загрузок" }
+  },
+  "buttons": { "loop": "Петля", "shuffle": "Перемешать" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Поиск..." },
+    "notification": { "success": "Успех! На ваш счет будет отправлено электронное письмо." },
+    "button": { "sending": "Отправка ..." },
+    "modalSelector": { "cancel": "Отмена" },
+    "loading": "Загрузка"
+  },
+  "bible": {
+    "header": "Библия",
+    "oldTestament": "Ветхий Завет",
+    "newTestament": "Новый Завет",
+    "popularBooks": "Популярные книги"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Поиск",
+    "cancelButton": "ОТМЕНА",
+    "searchResults": "результаты поиска",
+    "filterButton": "Фильтр",
+    "teachings": { "title": "Учения" },
+    "bible": { "title": "Библия" }
+  },
+  "addToPlaylistsModal": { "title": "Добавить в плейлист", "button": "Создать плейлист" },
+  "createPlaylistModal": {
+    "title": "Создать новый плейлист",
+    "button": "Создать плейлист",
+    "inputPlaceholder": "Введите название плейлиста"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Добавлено в плейлист",
+      "remove": "Удалено из плейлиста",
+      "create": "Создан плейлист",
+      "delete": "Удаленный плейлист"
+    },
+    "favorites": { "add": "Добавлен в избранное", "remove": "Удалено из избранного" },
+    "downloads": { "remove": "Удалено из загрузок" },
+    "facebook": { "loginError": "Ошибка входа в систему с ошибкой" },
+    "google": { "loginError": "Ошибка входа в систему с ошибкой" }
+  },
+  "playlists": { "trackLabel": "Трек", "tracksLabel": "Треки" },
+  "mediaList": { "tracksLabel": "Треки", "remove": "Удалить" },
+  "tutorialPage": { "done": "Готово", "skip": "Пропускать" },
+  "loginModal": { "login": "Авторизоваться" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Скачивание", "complete": "Загрузка завершена" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Исследуй Библию",
+      "subtitle1": "Путешествуйте с нами по всей Библии или начните собственное путешествие.",
+      "title2": "Слушайте и участвуйте",
+      "subtitle2": "Медиаплеер позволяет с легкостью погрузиться в содержимое БИБЛИИ.",
+      "title3": "Откройте для себя учения",
+      "subtitle3": "Займитесь Библией, как никогда раньше, делая перекрестные ссылки на содержание Библии и Учения.",
+      "title4": "Обсуди Библию",
+      "subtitle4": "Присоединяйтесь к группе, чтобы вместе с другими изучать учения и темы THRU the BIBLE.",
+      "title5": "Скачать и поделиться",
+      "subtitle5": "Наслаждайтесь прослушиванием Слова Божьего на ходу и делитесь им с друзьями.",
+      "title6": "Сохранить и создать",
+      "subtitle6": "Сохраните свои любимые учения и стихи из Библии или создайте собственный список для воспроизведения.",
+      "title7": "Групповые Посвящения",
+      "subtitle7": "Воодушевляйтесь и вдохновляйтесь другими ежедневными групповыми молитвами."
+    },
+    "registerPage": {
+      "noThanks": "Нет, спасибо",
+      "haveAccount": "Иметь аккаунт?",
+      "createAccount": "Создать мой аккаунт",
+      "title1": "Обсуди с другими",
+      "subtitle1": "Обсуждайте с другими свои любимые темы и стихи из Библии.",
+      "title2": "Сохранение и синхронизация списков воспроизведения",
+      "subtitle2": "Создавайте списки любимого контента в одном месте.",
+      "title3": "Смотрите ваше избранное",
+      "subtitle3": "Сохраните и вернитесь и посетите свои любимые позже.",
+      "title4": "Добро пожаловать назад",
+      "subtitle4": "Создайте учетную запись и получите доступ ко всем нашим функциям."
+    }
+  },
+  "app": {
+    "close": "Закрыть",
+    "accept": "Принять",
+    "reject": "Отклонить",
+    "constructionInProgress": "ОБЪЕКТЫ НЕЗАВЕРШЕННОГО СТРОИТЕЛЬСТВА",
+    "downloadComplete": "Загрузка завершена",
+    "downloading": "Скачивание",
+    "downloadFailed": "Загрузка не удалась",
+    "sendAFile": "Кто-то хочет отправить вам файл"
+  },
+  "transferring": { "tryAgain": "попробуй снова", "close": "Закрыть" },
+  "checkDevice": {
+    "check": "Проверьте свое устройство",
+    "makeSure": "Убедитесь, что на устройстве вашего друга включен Wifi-Direct и он находится в зоне действия.",
+    "continue": "Продолжать"
+  },
+  "connectToDevice": { "connect": "Подключиться к устройству" },
+  "pairing": {
+    "connect": "Подключиться к устройству",
+    "pairing": "Сопряжение",
+    "success": "Успешное сопряжение",
+    "failed": "Ошибка сопряжения устройства",
+    "makeSure": "Убедитесь, что (Wi-Fi-Direct) включен на устройстве вашего друга и находится в пределах досягаемости.",
+    "continue": "Продолжать",
+    "tryAgain": "Попробуй снова"
+  },
+  "selectNetworkType": {
+    "connect": "Подключиться к устройству",
+    "share": "Поделиться с Wifi Direct",
+    "send": "Отправить файл через Wi-Fi напрямую?",
+    "continue": "Продолжать"
+  }
+}

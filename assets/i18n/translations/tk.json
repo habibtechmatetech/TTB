@@ -1,0 +1,398 @@
+{
+  "selectLanguage": { "heading": "Häzirki diliňizi saýlaň", "mainAction": "Dil saýlaň" },
+  "menu": {
+    "anonymousTitle": "Hasabyňyz",
+    "anonymousAction": "Giriş",
+    "editProfileAction": "Profili redaktirläň",
+    "verifyProfileAction": "Profili barlaň",
+    "bibleSection": "Injil",
+    "teachingsSection": "Okuwlar",
+    "librarySection": "Kitaphanam",
+    "groupsSection": "Toparlar",
+    "donateSection": "Bagyşlaň",
+    "settingsSection": "Sazlamalar",
+    "signOut": "Çykyň",
+    "modals": {
+      "verifyProfile": {
+        "title": "Siz tassyklanmadyňyz",
+        "message": "Sanawlaryňyz sinhronlanmaz we topar döredip bilmersiňiz. Hasaba alynmagy tamamlamak üçin e-poçtaňyzy barlaň.",
+        "firstButton": "Dowam et",
+        "secondButton": "Täze profil bellige alyň"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Giriň",
+    "emailPlaceholder": "Siziň emailiňiz",
+    "passwordPlaceholder": "Parolyňyz",
+    "forgotAction": "Paroly ýatdan çykardyňyzmy?",
+    "callToAction": "Giriň",
+    "signInAlternatives": "Ora-da ulanyp giriň",
+    "noAccountAction": "Hasap ýokmy? Birini dörediň",
+    "notifications": {
+      "invalidCredentials": "Nädogry şahsyýetnamalar",
+      "inProgress": "Hasaba giriň",
+      "notAvailable": "Hyzmatlary elýeterli däl"
+    }
+  },
+  "signUp": {
+    "header": "Hasap dörediň",
+    "emailPlaceholder": "Siziň emailiňiz",
+    "passwordPlaceholder": "Parolyňyz",
+    "privateAction": "Hasaby şahsy ediň",
+    "termsDisclaimer": {
+      "pre": "Hasaba girmek bilen, okandygyňyzy we razydygyňyzy görkezýärsiňiz",
+      "terms": "şertleri",
+      "post": "."
+    },
+    "callToAction": "Hasaba giriň",
+    "signUpAlternatives": "Ora-da ulanyp ýazylyň",
+    "haveAnAccountAction": "Hasabyňyz barmy?",
+    "notifications": {
+      "invalidUsername": "Ulanyjy atlary 20 harp belgisi (sanlar we adaty harplar) bilen çäklenýär",
+      "invalidPassword": "Parol azyndan 3 simwoldan ybarat bolmaly we iň azyndan bir san ýa-da ýörite nyşan bilen uly we kiçi harplaryň utgaşmasy bolmaly"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Hasap açyp bolmaýar",
+        "message": "Bu e-poçta salgysy eýýäm bar.",
+        "firstButton": "Giriň",
+        "secondButton": ".Akyn"
+      },
+      "privateAccount": {
+        "title": "Şahsy hasap",
+        "message": "Hasabyňyzy şahsylaşdyrmak bilen, beýlekiler tarapyndan açylmagyny gizleýärsiňiz.",
+        "firstButton": "Kabul et",
+        "secondButton": "Pese gaç"
+      },
+      "success": {
+        "title": "Hasap döredildi!",
+        "message": "Hasabyňyz üstünlikli döredildi. Hasabyňyzy tassyklamak we girmek üçin poçta gutyňyzy barlaň.",
+        "firstButton": "Giriň"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Paroly täzeden düzmek",
+    "emailPlaceholder": "Siziň emailiňiz",
+    "message": "Hasabyňyz üçin parolyňyzy täzeden düzmek üçin e-poçtaňyzy giriziň.",
+    "callToAction": "Paroly täzeden düzmek",
+    "notifications": {
+      "success": "Biz diňe poçta gutyňyza e-poçta iberdik",
+      "emailNotFoundError": "E-poçta tapylmady",
+      "invalidEmailError": "Nädogry e-poçta formaty"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Gurnama işini tamamlaň",
+    "message": "Girizen e-poçta salgyňyza e-poçta iberildi. Hasaba alynmagy tamamlamak üçin e-poçta maglumatlaryna serediň.",
+    "callToAction": "Häzir geçiň"
+  },
+  "teachings": {
+    "dailyText": "Şu günki ýaýlym",
+    "journeyTitle": "Syýahatyňyzy başlaň",
+    "journeySubtitle": "Başdan ahyryna çenli ähli taglymatlar",
+    "journeyCardTitle": "215 Injil arkaly hepdelik syýahat",
+    "journeyCardSubtitle": "Wagtyňyzy diňläň",
+    "tracksLabel": "Acksollar"
+  },
+  "teaching": {
+    "header": "Okuwlar",
+    "loading": "Adingüklenýär ...",
+    "player": {
+      "audioSpeed": "Ses tizligi",
+      "loading": "Adingüklemek",
+      "castingError": "Enjam ýok"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Diňlemegi dowam etdiriň",
+        "secondButton": "Syýahatyňyzy başlaň"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Sene boýunça",
+    "bySeries": "Seriýa boýunça",
+    "sections": { "tracksLabel": "Acksollar" }
+  },
+  "library": {
+    "header": "Kitaphanam",
+    "tabs": { "downloads": ".Üklemeler", "favorites": "Halanýanlar", "playlists": "Sanawlar" }
+  },
+  "groups": {
+    "header": "Toparlar",
+    "createGroup": {
+      "title": "Täze topar dörediň",
+      "groupNameLabel": "Toparyň ady",
+      "groupNameInputPlaceHolder": "Ady",
+      "descriptionLabel": "Düşündiriş",
+      "descriptionInputPlaceHolder": "Düşündiriş goşuň",
+      "inviteLabel": "Ulanyjylary çagyryň",
+      "inviteButton": "Täze ulanyjylary çagyryň",
+      "button": "Topar dörediň",
+      "invalidGroupName": "Dogry at giriziň",
+      "groupNameTooLong": "Toparyň ady 25 simwoldan köp bolmaly däldir"
+    },
+    "devotionNotStartAlert": "Bu topar üçin wepalylyk başlamady",
+    "membersLabel": "Agzalar",
+    "chatModalMemberSubtitleLabel": "agza",
+    "chatModalMembersSubtitleLabel": "agzalar",
+    "chat": {
+      "listeningToLabel": "Diñlemek",
+      "loadingTrackLabel": "Trackük ýüklemek ...",
+      "inputPlaceHolder": "Habar ýaz",
+      "deletePost": "Posty poz",
+      "deleteMessage": "habary pozdy"
+    },
+    "groupSettings": {
+      "participantsSection": "Gatnaşanlar",
+      "viewAll": "Hemmesini gormek",
+      "invite": "Täze ulanyjylary çagyryň",
+      "endDevotion": "Toparyň wepalylygy",
+      "deleteGroup": "Topary poz",
+      "leaveGroup": "Topary terk et"
+    },
+    "userDirectory": {
+      "header": "Ulanyjy katalogy",
+      "remove": "Aýyr",
+      "anonymous": "Anonim",
+      "send": "Iber"
+    },
+    "inviteUser": { "placeHolder": "Gözleg", "send": "Iber" }
+  },
+  "chat": {
+    "header": "Topar kanaly",
+    "settings": {
+      "header": "Topar sazlamalary",
+      "endDevotion": {
+        "alertTitle": "Yhlas",
+        "alertMessage": "Bu wepalylygy bes etmek isleýändigiňize ynanýarsyňyzmy?",
+        "alertCancel": "Elatyr",
+        "alertConfirm": "Hawa",
+        "endDevotionLabel": "bu wepalylygy bes etdi.",
+        "hasEnded": "Bu wepalylyk gutardy"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Bagyşlaň",
+    "alertMessage": "% {Name} topary bilen wepalylygy başlamak isleýändigiňize ynanýarsyňyzmy?",
+    "alertCancel": "Elatyr",
+    "alertConfirm": "Hawa",
+    "devotionStartedLabel": "yhlas edip başlady."
+  },
+  "settings": {
+    "header": "Sazlamalar",
+    "tabs": { "profile": "Profil", "media": "Mediýa", "notifications": "Duýduryşlar" },
+    "profile": {
+      "account": "Hasap",
+      "username": "Ulanyjy ady",
+      "email": "E-poçta",
+      "editButton": "Redaktirläň",
+      "edit": {
+        "save": "Saklaň",
+        "username": {
+          "header": "Ulanyjy ady",
+          "successAlert": "Üýtgeşmäňiz ýazdyryldy.",
+          "failedAlert": "Üýtgeşmäni ýazdyryp bilmedi."
+        },
+        "email": {
+          "header": "E-poçta iberiň",
+          "successAlert": "Üýtgeşmäňiz ýazdyryldy.",
+          "failedAlert": "Üýtgeşmäni ýazdyryp bilmedi."
+        }
+      },
+      "languages": "Diller",
+      "signIn": "Giriň",
+      "signOut": "Hasapdan çykyň",
+      "legal": "Hukuk",
+      "termsConditions": "Şertler we şertler",
+      "privacyPolicy": "Gizlinlik syýasaty",
+      "support": "Goldaw",
+      "reportAProblem": "Mesele barada habar beriň",
+      "tutorial": "Tutorial",
+      "reportBug": {
+        "header": "Mesele barada habar beriň",
+        "send": "Iber",
+        "subject": "Mowzuk",
+        "subjectPlaceHolder": "Mowzuk",
+        "description": "Düşündiriş",
+        "descriptionPlaceHolder": "Düşündiriş",
+        "successAlert": "Sag boluň, habaryňyzy aldyk.",
+        "failedAlert": "Habar iberilmedi"
+      },
+      "version": "Wersiýa"
+    },
+    "media": {
+      "audio": "Ses",
+      "autoplay": "Sesiň awtopleýi",
+      "storage": "Saklamak",
+      "downloadWifi": "Diňe Wi-fi-de göçürip alyň",
+      "deleteCache": "Keşi pozuň"
+    },
+    "notifications": {
+      "notifications": "Duýduryşlar",
+      "groupInvitation": "Topar çakylygy",
+      "devotions": "Bagyşlara çagyryň",
+      "file": "Faýl geçirişini tassyklamak"
+    }
+  },
+  "inviteUsers": { "header": "Ulanyjylary çagyryň" },
+  "playlist": {
+    "header": "Sanaw sanawy",
+    "audioFileLabel": "Ses faýly",
+    "audioFilesLabel": "Ses faýllary"
+  },
+  "collection": { "header": "Collectionygyndy", "audioFilesLabel": "Ses faýllary" },
+  "modal": {
+    "close": "ýakyn",
+    "addToPlaylist": { "title": "Pleýliste goş", "button": "Sanaw sanawyny dörediň" },
+    "startDevotion": { "title": "Bagyşlaň" },
+    "createPlaylist": {
+      "title": "Täze pleýlist dörediň",
+      "button": "Sanaw sanawyny dörediň",
+      "inputPlaceholder": "Pleýlistiň adyny giriziň",
+      "success": "Pleýliste goşuldy"
+    },
+    "login": "Yhlas bilen başlamak üçin girmeli"
+  },
+  "options": {
+    "shared": {
+      "share": "Paýlaş",
+      "report": "Hasabatyň mazmuny",
+      "shareOthers": "Başgalar bilen paýlaş",
+      "copy": "Baglanyşygy göçüriň",
+      "more": "Has köp"
+    },
+    "audio": {
+      "download": "Göçürip al",
+      "addFavorite": "Halanýanlara goşuň",
+      "addPlaylist": "Pleýliste goş",
+      "removeFavorite": "Halanýanlardan aýyryň",
+      "removePlaylist": "Sanawdan aýyryň",
+      "removeDownload": ".Üklemelerden aýyryň"
+    },
+    "playlist": { "edit": "Redaktirläň", "delete": "Sanawy poz" },
+    "startDevotion": "Bagyşlaň"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Pleýliste goşuldy",
+      "delete": "Sanawdan aýryldy",
+      "create": "Pleýlist döredildi",
+      "destroy": "Aýyrylan sanaw"
+    },
+    "favorites": { "add": "Halanýanlara goşuldy", "remove": "Halanýanlardan aýryldy" },
+    "downloads": { "remove": ".Üklemelerden aýryldy" }
+  },
+  "buttons": { "loop": "Aýlaw", "shuffle": "Çalyşmak" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Gözleg ..." },
+    "notification": { "success": "Üstünlik! Hasabyňyza e-poçta iberiler." },
+    "button": { "sending": "Iberýän ..." },
+    "modalSelector": { "cancel": "Elatyr" },
+    "loading": "Adingüklemek"
+  },
+  "bible": {
+    "header": "Injil",
+    "oldTestament": "Köne amentht",
+    "newTestament": "Täze amentht",
+    "popularBooks": "Meşhur kitaplar"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Gözleg",
+    "cancelButton": "ANCATY ..",
+    "searchResults": "Gözleg netijeleri",
+    "filterButton": "Süzgüç",
+    "teachings": { "title": "Okuwlar" },
+    "bible": { "title": "Injil" }
+  },
+  "addToPlaylistsModal": { "title": "Pleýliste goş", "button": "Sanaw sanawyny dörediň" },
+  "createPlaylistModal": {
+    "title": "Täze sanaw sanawyny dörediň",
+    "button": "Sanaw sanawyny dörediň",
+    "inputPlaceholder": "Pleýlistiň adyny giriziň"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Pleýliste goşuldy",
+      "remove": "Sanawdan aýryldy",
+      "create": "Pleýlist döredildi",
+      "delete": "Aýyrylan sanaw"
+    },
+    "favorites": { "add": "Halanýanlara goşuldy", "remove": "Halanýanlardan aýryldy" },
+    "downloads": { "remove": ".Üklemelerden aýryldy" },
+    "facebook": { "loginError": "Giriş säwlik bilen şowsuz" },
+    "google": { "loginError": "Giriş säwlik bilen şowsuz" }
+  },
+  "playlists": { "trackLabel": "Yzarla", "tracksLabel": "Acksollar" },
+  "mediaList": { "tracksLabel": "Acksollar", "remove": "Aýyr" },
+  "tutorialPage": { "done": "Boldy", "skip": "Geçmek" },
+  "loginModal": { "login": "Giriş" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Ingüklemek", "complete": "Doly göçürip al" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Injili öwreniň",
+      "subtitle1": "Bütin Injili biziň bilen geziň ýa-da özüňize syýahat ediň.",
+      "title2": "Diňle we gatnaş",
+      "subtitle2": "Mediýa pleýeri, BIBLE mazmunyny aňsatlyk bilen THRU-a çümmäge mümkinçilik berýär.",
+      "title3": "Okuwlary öwreniň",
+      "subtitle3": "Injili we öwrediş mazmunyny biri-birine salgylanyp, öňküsi ýaly Injile gatnaşyň.",
+      "title4": "Injili ara alyp maslahatlaşyň",
+      "subtitle4": "THRU Injil öwredişlerini we mowzuklaryny beýlekiler bilen öwrenmek üçin bir topara goşulyň.",
+      "title5": "Göçürip al we paýlaş",
+      "subtitle5": "Hudaýyň Sözüni ýolda diňlemekden lezzet alyň we dostlaryňyz bilen paýlaşyň.",
+      "title6": "Saklamak we döretmek",
+      "subtitle6": "Halaýan taglymatlaryňyzy we Injil aýatlaryňyzy ýazdyryň ýa-da ýörite sanaw sanawyny dörediň.",
+      "title7": "Topar bagyşlary",
+      "subtitle7": "Gündelik toparlara wepalylyk bilen başgalar tarapyndan ruhlandyryň we ruhlandyryň."
+    },
+    "registerPage": {
+      "noThanks": "Thanksok",
+      "haveAccount": "Hasabyňyz barmy?",
+      "createAccount": "Hasabymy dörediň",
+      "title1": "Başgalar bilen maslahatlaşyň",
+      "subtitle1": "Halaýan mowzuklaryňyzy we Injil aýatlaryny beýlekiler bilen ara alyp maslahatlaşyň.",
+      "title2": "Sanaw sanawlaryny saklaň we sinhronlaň",
+      "subtitle2": "Halaýan mazmunyňyzyň sanawlaryny bir ýerde düzüň.",
+      "title3": "Halaýanlaryňyza serediň",
+      "subtitle3": "Saklaň we gaýdyp geliň we halanýanlaryňyza soňrak baryp görüň.",
+      "title4": "Gaýtadan hoş geldiňiz",
+      "subtitle4": "Hasap dörediň we ähli aýratynlyklarymyza giriň."
+    }
+  },
+  "app": {
+    "close": "ýakyn",
+    "accept": "Kabul et",
+    "reject": "Ret et",
+    "constructionInProgress": "Ösüşde gurluşyk",
+    "downloadComplete": "Doly göçürip al",
+    "downloading": "Ingüklemek",
+    "downloadFailed": "Downloadüklemek şowsuz",
+    "sendAFile": "Kimdir biri size faýl ibermek isleýär"
+  },
+  "transferring": { "tryAgain": "täzeden synanş", "close": "ýakyn" },
+  "checkDevice": {
+    "check": "Enjamyňyzy barlaň",
+    "makeSure": "“Wifi-Direct” -iň dostuňyzyň enjamynda açykdygyna göz ýetiriň.",
+    "continue": "Dowam et"
+  },
+  "connectToDevice": { "connect": "Enjam bilen birikdiriň" },
+  "pairing": {
+    "connect": "Enjam bilen birikdiriň",
+    "pairing": "Jübütlemek",
+    "success": "Üstünlik bilen jübüt edildi",
+    "failed": "Enjam jübütlemek şowsuz",
+    "makeSure": "(Wifi-Direct) dostuňyzyň enjamynda açykdygyna göz ýetiriň.",
+    "continue": "Dowam et",
+    "tryAgain": "Täzeden synanş"
+  },
+  "selectNetworkType": {
+    "connect": "Enjam bilen birikdiriň",
+    "share": "Wifi Direct bilen paýlaşyň",
+    "send": "Wifi göni faýl iberiň?",
+    "continue": "Dowam et"
+  }
+}

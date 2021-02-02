@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "Изаберите свој тренутни језик", "mainAction": "Изаберите језик" },
+  "menu": {
+    "anonymousTitle": "Ваш рачун",
+    "anonymousAction": "Пријавите се",
+    "editProfileAction": "Измените профил",
+    "verifyProfileAction": "Верификујте профил",
+    "bibleSection": "Библија",
+    "teachingsSection": "Учења",
+    "librarySection": "Моја библиотека",
+    "groupsSection": "Групе",
+    "donateSection": "Донирајте",
+    "settingsSection": "Подешавања",
+    "signOut": "Одјава",
+    "modals": {
+      "verifyProfile": {
+        "title": "Нисте верификовани",
+        "message": "Ваше листе неће бити синхронизоване и не можете да креирате групе. Молимо вас да проверите своју е-пошту да бисте довршили регистрацију.",
+        "firstButton": "Настави",
+        "secondButton": "Региструјте нови профил"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Пријавите се",
+    "emailPlaceholder": "Ваш е-маил",
+    "passwordPlaceholder": "Твоја лозинка",
+    "forgotAction": "Заборавили сте лозинку?",
+    "callToAction": "Пријавите се",
+    "signInAlternatives": "Или се пријавите користећи",
+    "noAccountAction": "Нема налога? Направите",
+    "notifications": {
+      "invalidCredentials": "Неважећи акредитив",
+      "inProgress": "Пријављивање је већ у току",
+      "notAvailable": "Услуге репродукције нису доступне"
+    }
+  },
+  "signUp": {
+    "header": "Региструј се",
+    "emailPlaceholder": "Ваш е-маил",
+    "passwordPlaceholder": "Твоја лозинка",
+    "privateAction": "Нека налог буде приватни",
+    "termsDisclaimer": {
+      "pre": "Кликом на Пријави потврђујете да сте прочитали и да се слажете са тим",
+      "terms": "услови",
+      "post": "."
+    },
+    "callToAction": "Пријави се",
+    "signUpAlternatives": "Или се региструјте помоћу",
+    "haveAnAccountAction": "Имате налог?",
+    "notifications": {
+      "invalidUsername": "Корисничка имена су ограничена на 20 алфанумеричких знакова (бројеви и редовна слова)",
+      "invalidPassword": "Лозинка треба да има најмање 3 знака и да представља комбинацију великих и малих слова са најмање једним бројем или посебним знаком"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Отварање налога није успело",
+        "message": "Ова адреса е-поште већ постоји.",
+        "firstButton": "Пријавите се",
+        "secondButton": "Близу"
+      },
+      "privateAccount": {
+        "title": "Приватни рачун",
+        "message": "Чинећи свој налог приватним, скривате га да га други не открију.",
+        "firstButton": "Прихвати",
+        "secondButton": "Одбити"
+      },
+      "success": {
+        "title": "Налог је отворен!",
+        "message": "Ваш налог је успешно направљен. Проверите пријемно сандуче да бисте потврдили свој рачун и пријавили се.",
+        "firstButton": "Пријавите се"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Ресетуј шифру",
+    "emailPlaceholder": "Ваш е-маил",
+    "message": "Унесите своју адресу е-поште да бисте ресетовали лозинку за свој рачун.",
+    "callToAction": "Ресетуј шифру",
+    "notifications": {
+      "success": "Управо смо вам послали е-пошту на пријемно сандуче",
+      "emailNotFoundError": "Имејл адреса није пронађена",
+      "invalidEmailError": "Неважећи формат е-поште"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Завршите подешавање",
+    "message": "Е-маил је послат на адресу е-поште коју сте унели. Молимо погледајте детаље е-поште да бисте довршили регистрацију.",
+    "callToAction": "Прескочи ово за сада"
+  },
+  "teachings": {
+    "dailyText": "Данашња емисија",
+    "journeyTitle": "Започните своје путовање",
+    "journeySubtitle": "Сва учења од почетка до краја",
+    "journeyCardTitle": "215 недељно путовање кроз Библију",
+    "journeyCardSubtitle": "Слушај своје време",
+    "tracksLabel": "Нумере"
+  },
+  "teaching": {
+    "header": "Учења",
+    "loading": "Лоадинг ...",
+    "player": {
+      "audioSpeed": "Брзина звука",
+      "loading": "Лоадинг",
+      "castingError": "Нема доступних уређаја"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Наставите са слушањем", "secondButton": "Започните путовање" }
+    }
+  },
+  "journey": {
+    "byDate": "По датуму",
+    "bySeries": "Би Сериес",
+    "sections": { "tracksLabel": "Нумере" }
+  },
+  "library": {
+    "header": "Моја библиотека",
+    "tabs": { "downloads": "Преузимања", "favorites": "Фаворити", "playlists": "Плејлисте" }
+  },
+  "groups": {
+    "header": "Групе",
+    "createGroup": {
+      "title": "Направите нову групу",
+      "groupNameLabel": "НАЗИВ ГРУПЕ",
+      "groupNameInputPlaceHolder": "Име",
+      "descriptionLabel": "ОПИС",
+      "descriptionInputPlaceHolder": "Додај опис",
+      "inviteLabel": "Позовите кориснике",
+      "inviteButton": "Позовите нове кориснике",
+      "button": "Створити групу",
+      "invalidGroupName": "Унесите исправно име",
+      "groupNameTooLong": "Име групе не сме да садржи више од 25 знакова"
+    },
+    "devotionNotStartAlert": "Преданост овој групи није започета",
+    "membersLabel": "Чланови",
+    "chatModalMemberSubtitleLabel": "члан",
+    "chatModalMembersSubtitleLabel": "чланова",
+    "chat": {
+      "listeningToLabel": "Слушање",
+      "loadingTrackLabel": "Учитавање нумере ...",
+      "inputPlaceHolder": "Напишите поруку",
+      "deletePost": "Избриши пост",
+      "deleteMessage": "је избрисао поруку"
+    },
+    "groupSettings": {
+      "participantsSection": "Учесници",
+      "viewAll": "Погледати све",
+      "invite": "Позовите нове кориснике",
+      "endDevotion": "Заврши преданост групи",
+      "deleteGroup": "Избриши групу",
+      "leaveGroup": "Напусти групу"
+    },
+    "userDirectory": {
+      "header": "Именик корисника",
+      "remove": "Уклоните",
+      "anonymous": "Анонимно",
+      "send": "Пошаљите"
+    },
+    "inviteUser": { "placeHolder": "Претрага", "send": "Пошаљите" }
+  },
+  "chat": {
+    "header": "Гроуп Цханнел",
+    "settings": {
+      "header": "Подешавања групе",
+      "endDevotion": {
+        "alertTitle": "Крај побожности",
+        "alertMessage": "Да ли сте сигурни да желите да завршите са овом преданошћу?",
+        "alertCancel": "Поништити, отказати",
+        "alertConfirm": "да",
+        "endDevotionLabel": "завршио ову побожност.",
+        "hasEnded": "Ова преданост је завршена"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Покрените преданост",
+    "alertMessage": "Да ли сте сигурни да желите започети посвећеност са групом% {наме}?",
+    "alertCancel": "Поништити, отказати",
+    "alertConfirm": "да",
+    "devotionStartedLabel": "је започео побожност."
+  },
+  "settings": {
+    "header": "Подешавања",
+    "tabs": { "profile": "Профил", "media": "Медији", "notifications": "Обавештења" },
+    "profile": {
+      "account": "Рачун",
+      "username": "Корисничко име",
+      "email": "Е-маил",
+      "editButton": "Уредити",
+      "edit": {
+        "save": "сачувати",
+        "username": {
+          "header": "Корисничко име",
+          "successAlert": "Ваша промена је сачувана.",
+          "failedAlert": "Чување промене није успело."
+        },
+        "email": {
+          "header": "Емаил",
+          "successAlert": "Ваша промена је сачувана.",
+          "failedAlert": "Чување промене није успело."
+        }
+      },
+      "languages": "Језици",
+      "signIn": "Пријавите се",
+      "signOut": "Одјава са рачуна",
+      "legal": "Правни",
+      "termsConditions": "Услови коришћења",
+      "privacyPolicy": "Правила о приватности",
+      "support": "Подршка",
+      "reportAProblem": "Пријавите проблем",
+      "tutorial": "Приручник",
+      "reportBug": {
+        "header": "Пријавите проблем",
+        "send": "Пошаљите",
+        "subject": "ПРЕДМЕТ",
+        "subjectPlaceHolder": "Предмет",
+        "description": "ОПИС",
+        "descriptionPlaceHolder": "Опис",
+        "successAlert": "Хвала вам, примили смо вашу поруку.",
+        "failedAlert": "Слање поруке није успело."
+      },
+      "version": "Верзија"
+    },
+    "media": {
+      "audio": "Аудио",
+      "autoplay": "Аутоплаи Аудио",
+      "storage": "Складиште",
+      "downloadWifi": "Преузми само на Ви-Фи",
+      "deleteCache": "Избриши кеш"
+    },
+    "notifications": {
+      "notifications": "Обавештења",
+      "groupInvitation": "Позив за групу",
+      "devotions": "Позовите у побожности",
+      "file": "Потврда о преносу датотека"
+    }
+  },
+  "inviteUsers": { "header": "Позовите кориснике" },
+  "playlist": {
+    "header": "Плејлиста",
+    "audioFileLabel": "Аудио датотека",
+    "audioFilesLabel": "Аудио датотеке"
+  },
+  "collection": { "header": "Збирка", "audioFilesLabel": "Аудио датотеке" },
+  "modal": {
+    "close": "Близу",
+    "addToPlaylist": { "title": "Додај на плејлисту", "button": "Направите плејлисту" },
+    "startDevotion": { "title": "Покрените преданост" },
+    "createPlaylist": {
+      "title": "Направите нову плејлисту",
+      "button": "Направите плејлисту",
+      "inputPlaceholder": "Унесите име плејлисте",
+      "success": "Додато на плејлисту"
+    },
+    "login": "Морате се пријавити да бисте започели побожност"
+  },
+  "options": {
+    "shared": {
+      "share": "Објави",
+      "report": "Извештај о садржају",
+      "shareOthers": "Поделите са другима",
+      "copy": "Копирај везу",
+      "more": "Више"
+    },
+    "audio": {
+      "download": "Преузимање",
+      "addFavorite": "Додај у фаворите",
+      "addPlaylist": "Додај на плејлисту",
+      "removeFavorite": "Избаци из омиљених",
+      "removePlaylist": "Уклони са плејлисте",
+      "removeDownload": "Уклони из преузимања"
+    },
+    "playlist": { "edit": "Уредити", "delete": "Избриши плејлисту" },
+    "startDevotion": "Покрените преданост"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Додато на плејлисту",
+      "delete": "Уклоњено са плејлисте",
+      "create": "Направљена плејлиста",
+      "destroy": "Избрисана плејлиста"
+    },
+    "favorites": { "add": "Додато у Фаворите", "remove": "Уклоњено из омиљених" },
+    "downloads": { "remove": "Уклоњено из преузимања" }
+  },
+  "buttons": { "loop": "Лооп", "shuffle": "мешање" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Претрага..." },
+    "notification": { "success": "Успех! Е-маил ће бити послат на ваш рачун." },
+    "button": { "sending": "Слање ..." },
+    "modalSelector": { "cancel": "Поништити, отказати" },
+    "loading": "Лоадинг"
+  },
+  "bible": {
+    "header": "Библија",
+    "oldTestament": "Стари завет",
+    "newTestament": "Нови завет",
+    "popularBooks": "Популарне књиге"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Претрага",
+    "cancelButton": "ПОНИШТИТИ, ОТКАЗАТИ",
+    "searchResults": "Резултати претраге",
+    "filterButton": "Филтер",
+    "teachings": { "title": "Учења" },
+    "bible": { "title": "Библија" }
+  },
+  "addToPlaylistsModal": { "title": "Додај на плејлисту", "button": "Направите плејлисту" },
+  "createPlaylistModal": {
+    "title": "Направите нову плејлисту",
+    "button": "Направите плејлисту",
+    "inputPlaceholder": "Унесите име плејлисте"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Додато на плејлисту",
+      "remove": "Уклоњено са плејлисте",
+      "create": "Направљена плејлиста",
+      "delete": "Избрисана плејлиста"
+    },
+    "favorites": { "add": "Додато у Фаворите", "remove": "Уклоњено из омиљених" },
+    "downloads": { "remove": "Уклоњено из преузимања" },
+    "facebook": { "loginError": "Пријављивање није успело са грешком" },
+    "google": { "loginError": "Пријављивање није успело са грешком" }
+  },
+  "playlists": { "trackLabel": "Прати", "tracksLabel": "Нумере" },
+  "mediaList": { "tracksLabel": "Нумере", "remove": "Уклоните" },
+  "tutorialPage": { "done": "Готово", "skip": "Прескочи" },
+  "loginModal": { "login": "Пријавите се" },
+  "shareModal": { "facebook": "Фејсбук", "twitter": "Твиттер", "whatsapp": "ВхатсАпп" },
+  "downloadModal": { "downloading": "Преузимање", "complete": "Скидање завршено" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Истражујте Библију",
+      "subtitle1": "Путујте кроз нас кроз целу Библију или започните своје путовање.",
+      "title2": "Слушајте и ангажујте се",
+      "subtitle2": "Медија плејер вам омогућава да са лакоћом зароните у ТХРУ БИБЛИЈСКИ садржај.",
+      "title3": "Откријте учења",
+      "subtitle3": "Укључите се у Библију као никада пре укрштањем Библије и наставних садржаја.",
+      "title4": "Разговарајте о Библији",
+      "subtitle4": "Придружите се групи да бисте са другима проучавали ТХРУ БИБЛИЈСКА учења и теме.",
+      "title5": "Преузмите и делите",
+      "subtitle5": "Уживајте у слушању Речи Божје у покрету и поделите је са пријатељима.",
+      "title6": "Сачувај и креирај",
+      "subtitle6": "Сачувајте омиљена учења и библијске стихове или направите прилагођену плеј листу.",
+      "title7": "Групне побожности",
+      "subtitle7": "Нека вас други храбре и надахњују свакодневне групне поклонике."
+    },
+    "registerPage": {
+      "noThanks": "Не хвала",
+      "haveAccount": "Имате налог?",
+      "createAccount": "Отвори налог",
+      "title1": "Разговарајте са другима",
+      "subtitle1": "Разговарајте са другима о својим омиљеним темама и библијским стиховима.",
+      "title2": "Чувајте и синхронизујте плејлисте",
+      "subtitle2": "На једном месту направите листе омиљеног садржаја.",
+      "title3": "Погледајте своје омиљене локације",
+      "subtitle3": "Чувајте и вратите се и посетите своје фаворите касније.",
+      "title4": "Добродошли назад",
+      "subtitle4": "Отворите рачун и приступите свим нашим функцијама."
+    }
+  },
+  "app": {
+    "close": "Близу",
+    "accept": "Прихвати",
+    "reject": "Одбити",
+    "constructionInProgress": "ИЗГРАДЊА У ТОКУ",
+    "downloadComplete": "Скидање завршено",
+    "downloading": "Преузимање",
+    "downloadFailed": "Преузимање није успело",
+    "sendAFile": "Неко жели да вам пошаље датотеку"
+  },
+  "transferring": { "tryAgain": "Покушајте поново", "close": "Близу" },
+  "checkDevice": {
+    "check": "Проверите свој уређај",
+    "makeSure": "Уверите се да је Вифи-Дирецт укључен на уређају вашег пријатеља и да је у домету.",
+    "continue": "Настави"
+  },
+  "connectToDevice": { "connect": "Повежите се са уређајем" },
+  "pairing": {
+    "connect": "Повежите се са уређајем",
+    "pairing": "Упаривање",
+    "success": "Успешно упарено",
+    "failed": "Упаривање уређаја није успело",
+    "makeSure": "Уверите се да је (Вифи-Дирецт) укључен на уређају вашег пријатеља и да ли је у домету.",
+    "continue": "Настави",
+    "tryAgain": "Покушајте поново"
+  },
+  "selectNetworkType": {
+    "connect": "Повежите се са уређајем",
+    "share": "Делите са Вифи Дирецт",
+    "send": "Желите ли директно послати датотеку преко ВиФи-а?",
+    "continue": "Настави"
+  }
+}

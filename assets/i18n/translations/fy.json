@@ -1,0 +1,398 @@
+{
+  "selectLanguage": {
+    "heading": "Selektearje jo hjoeddeistige taal",
+    "mainAction": "Selektearje taal"
+  },
+  "menu": {
+    "anonymousTitle": "Dyn rekken",
+    "anonymousAction": "Oanmelde",
+    "editProfileAction": "Profyl oanpasse",
+    "verifyProfileAction": "Ferifiearje profyl",
+    "bibleSection": "bibel",
+    "teachingsSection": "Teachings",
+    "librarySection": "Myn bibleteek",
+    "groupsSection": "Groepen",
+    "donateSection": "Donearje",
+    "settingsSection": "Ynstellings",
+    "signOut": "Út logge",
+    "modals": {
+      "verifyProfile": {
+        "title": "Jo binne net ferifieare",
+        "message": "Jo listen wurde net syngronisearre en jo kinne gjin groepen oanmeitsje. Kontrolearje asjebleaft jo e-post om de registraasje te foltôgjen.",
+        "firstButton": "Trochgean",
+        "secondButton": "Registrearje in nij profyl"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Ynlogge",
+    "emailPlaceholder": "Dyn email",
+    "passwordPlaceholder": "Dyn wachtwurd",
+    "forgotAction": "Wachtwurd ferjitten?",
+    "callToAction": "Ynlogge",
+    "signInAlternatives": "Of Oanmelde mei",
+    "noAccountAction": "Gjin akkount? Meitsje ien",
+    "notifications": {
+      "invalidCredentials": "Unjildige referinsjes",
+      "inProgress": "Oanmelde al oan 'e gong",
+      "notAvailable": "Spieltsjinsten net beskikber"
+    }
+  },
+  "signUp": {
+    "header": "Akkount oanmeitsje",
+    "emailPlaceholder": "Dyn email",
+    "passwordPlaceholder": "Dyn wachtwurd",
+    "privateAction": "Meitsje akkount privee",
+    "termsDisclaimer": {
+      "pre": "Troch te klikken op Oanmelde jouwe jo oan dat jo hawwe lêzen en akkoart gean mei",
+      "terms": "de betingsten",
+      "post": ","
+    },
+    "callToAction": "Ynskriuwe",
+    "signUpAlternatives": "Of Oanmelde mei",
+    "haveAnAccountAction": "In akkount hawwe?",
+    "notifications": {
+      "invalidUsername": "Brûkersnammen binne beheind ta 20 alfanumeryke tekens (sifers en reguliere letters)",
+      "invalidPassword": "Wachtwurd moat teminsten 3 tekens hawwe en in kombinaasje wêze fan haad- en lytse letters mei op syn minst ien getal of spesjaal teken"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Koe gjin akkount meitsje",
+        "message": "Dit e-postadres bestiet al.",
+        "firstButton": "Ynlogge",
+        "secondButton": "Slute"
+      },
+      "privateAccount": {
+        "title": "Privee akkount",
+        "message": "Troch jo akkount privee te meitsjen, ferbergje jo it troch oaren te ûntdekken.",
+        "firstButton": "Oannimme",
+        "secondButton": "Ofkarre"
+      },
+      "success": {
+        "title": "Akkount oanmakke!",
+        "message": "Jo akkount is mei sukses oanmakke. Kontrolearje jo postfak om jo akkount te befestigjen en oan te melden.",
+        "firstButton": "Ynlogge"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Wachtwurd feroarje",
+    "emailPlaceholder": "Dyn email",
+    "message": "Fier jo e-post yn om jo wachtwurd foar jo akkount opnij yn te stellen.",
+    "callToAction": "Wachtwurd feroarje",
+    "notifications": {
+      "success": "Wy hawwe krekt in e-post stjoerd nei jo postfak",
+      "emailNotFoundError": "E-post is net fûn",
+      "invalidEmailError": "Unjildich e-postformaat"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Finish Setup",
+    "message": "In e-post is ferstjoerd nei it e-postadres dat jo ynfierd hawwe. Sjoch asjebleaft de e-postgegevens om registraasje te foltôgjen.",
+    "callToAction": "Skip for Now"
+  },
+  "teachings": {
+    "dailyText": "Hjoeddeiske útstjoering",
+    "journeyTitle": "Begjin jo reis",
+    "journeySubtitle": "Alle learingen fan begjin oant ein",
+    "journeyCardTitle": "215 wike reis troch de bibel",
+    "journeyCardSubtitle": "Harkje op jo tiid",
+    "tracksLabel": "Tracks"
+  },
+  "teaching": {
+    "header": "Teachings",
+    "loading": "Loading ...",
+    "player": {
+      "audioSpeed": "Audio Speed",
+      "loading": "Oan it laden",
+      "castingError": "Gjin apparaten beskikber"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Trochgean te harkjen", "secondButton": "Begjin jo reis" }
+    }
+  },
+  "journey": {
+    "byDate": "Op datum",
+    "bySeries": "Troch searjes",
+    "sections": { "tracksLabel": "Tracks" }
+  },
+  "library": {
+    "header": "Myn bibleteek",
+    "tabs": { "downloads": "Downloads", "favorites": "Favoriten", "playlists": "Playlists" }
+  },
+  "groups": {
+    "header": "Groepen",
+    "createGroup": {
+      "title": "Nije groep oanmeitsje",
+      "groupNameLabel": "GROEPSNAMME",
+      "groupNameInputPlaceHolder": "Namme",
+      "descriptionLabel": "BESKRIUWING",
+      "descriptionInputPlaceHolder": "Omskriuwing tafoegje",
+      "inviteLabel": "Brûkers útnoegje",
+      "inviteButton": "Nije brûkers útnoegje",
+      "button": "Groep oanmeitsje",
+      "invalidGroupName": "Fier in jildige namme yn",
+      "groupNameTooLong": "De namme fan 'e groep mei net mear dan 25 karakters befetsje"
+    },
+    "devotionNotStartAlert": "In devoasje is net begon foar dizze groep",
+    "membersLabel": "Leden",
+    "chatModalMemberSubtitleLabel": "lid",
+    "chatModalMembersSubtitleLabel": "leden",
+    "chat": {
+      "listeningToLabel": "Lústerje nei",
+      "loadingTrackLabel": "Loading track ...",
+      "inputPlaceHolder": "Berjocht skriuwe",
+      "deletePost": "Berjocht wiskje",
+      "deleteMessage": "hat in berjocht wiske"
+    },
+    "groupSettings": {
+      "participantsSection": "Dielnimmers",
+      "viewAll": "Alles besjen",
+      "invite": "Nije brûkers útnoegje",
+      "endDevotion": "Ein groepsoarch",
+      "deleteGroup": "Groep wiskje",
+      "leaveGroup": "Groep ferlitte"
+    },
+    "userDirectory": {
+      "header": "Brûker Directory",
+      "remove": "Weinimme",
+      "anonymous": "Anonym",
+      "send": "Stjoere"
+    },
+    "inviteUser": { "placeHolder": "Sykje", "send": "Stjoere" }
+  },
+  "chat": {
+    "header": "Groepskanaal",
+    "settings": {
+      "header": "Groep ynstellings",
+      "endDevotion": {
+        "alertTitle": "Ein devoasje",
+        "alertMessage": "Binne jo wis dat jo dizze tawijing einigje wolle?",
+        "alertCancel": "Ofbrekke",
+        "alertConfirm": "ja",
+        "endDevotionLabel": "einige dizze tawijing.",
+        "hasEnded": "Dizze tawijing is beëinige"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Begjin devoasje",
+    "alertMessage": "Binne jo wis dat jo devoasje wolle begjinne mei% {name} groep?",
+    "alertCancel": "Ofbrekke",
+    "alertConfirm": "ja",
+    "devotionStartedLabel": "is in tawijing begon."
+  },
+  "settings": {
+    "header": "Ynstellings",
+    "tabs": { "profile": "Profyl", "media": "Media", "notifications": "Notifikaasjes" },
+    "profile": {
+      "account": "Rekken",
+      "username": "Brûkersnamme",
+      "email": "E-post",
+      "editButton": "Bewurkje",
+      "edit": {
+        "save": "Rêde",
+        "username": {
+          "header": "Brûkersnamme",
+          "successAlert": "Jo feroaring is bewarre.",
+          "failedAlert": "De feroaring is net bewarre."
+        },
+        "email": {
+          "header": "E-post",
+          "successAlert": "Jo feroaring is bewarre.",
+          "failedAlert": "De feroaring is net bewarre."
+        }
+      },
+      "languages": "Talen",
+      "signIn": "Ynlogge",
+      "signOut": "Ofmelde fan akkount",
+      "legal": "Legaal",
+      "termsConditions": "Betingsten & Betingsten",
+      "privacyPolicy": "Privacy Belied",
+      "support": "Stypje",
+      "reportAProblem": "Rapportearje in probleem",
+      "tutorial": "Tutorial",
+      "reportBug": {
+        "header": "Rapportearje in probleem",
+        "send": "Stjoere",
+        "subject": "ÛNDERWERP",
+        "subjectPlaceHolder": "Ûnderwerp",
+        "description": "BESKRIUWING",
+        "descriptionPlaceHolder": "Beskriuwing",
+        "successAlert": "Tankewol, wy hawwe jo berjocht ûntfangen.",
+        "failedAlert": "It ferstjoeren fan it berjocht is mislearre."
+      },
+      "version": "Ferzje"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Audio automatysk ôfspylje",
+      "storage": "Opslach",
+      "downloadWifi": "Allinich downloade op Wi-fi",
+      "deleteCache": "Cache wiskje"
+    },
+    "notifications": {
+      "notifications": "Notifikaasjes",
+      "groupInvitation": "Groep útnoeging",
+      "devotions": "Útnoegje foar devoasjes",
+      "file": "Befestiging fan bestânsferfier"
+    }
+  },
+  "inviteUsers": { "header": "Brûkers útnoegje" },
+  "playlist": {
+    "header": "Playlist",
+    "audioFileLabel": "Audiobestân",
+    "audioFilesLabel": "Audio Files"
+  },
+  "collection": { "header": "Samling", "audioFilesLabel": "Audio Files" },
+  "modal": {
+    "close": "slute",
+    "addToPlaylist": { "title": "Tafoegje oan ôfspyllist", "button": "Playlist oanmeitsje" },
+    "startDevotion": { "title": "Begjin devoasje" },
+    "createPlaylist": {
+      "title": "Nije spyllist oanmeitsje",
+      "button": "Playlist oanmeitsje",
+      "inputPlaceholder": "Fier Playlist Namme yn",
+      "success": "Tafoege oan Playlist"
+    },
+    "login": "Jo moatte ynlogge om in tawijing te begjinnen"
+  },
+  "options": {
+    "shared": {
+      "share": "Diele",
+      "report": "Ynhâld melde",
+      "shareOthers": "Diele mei oaren",
+      "copy": "Kopiearje kopiearje",
+      "more": "Mear"
+    },
+    "audio": {
+      "download": "Download",
+      "addFavorite": "Foegje ta oan favoriten",
+      "addPlaylist": "Tafoegje oan ôfspyllist",
+      "removeFavorite": "Fuortsmite út Favoriten",
+      "removePlaylist": "Fuortsmite fan spyllist",
+      "removeDownload": "Fuortsmite fan downloads"
+    },
+    "playlist": { "edit": "Bewurkje", "delete": "Playlist wiskje" },
+    "startDevotion": "Begjin devoasje"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Tafoege oan Playlist",
+      "delete": "Fuortsmiten fan spyllist",
+      "create": "Makke Playlist",
+      "destroy": "Wiske spyllist"
+    },
+    "favorites": { "add": "Tafoege oan Favorites", "remove": "Fuortsmiten fan favoriten" },
+    "downloads": { "remove": "Fuortsmiten fan downloads" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Shuffle" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Sykje..." },
+    "notification": { "success": "Sukses! In e-post wurdt nei jo akkount stjoerd." },
+    "button": { "sending": "Ferstjoere ..." },
+    "modalSelector": { "cancel": "Ofbrekke" },
+    "loading": "Oan it laden"
+  },
+  "bible": {
+    "header": "bibel",
+    "oldTestament": "Âlde testamint",
+    "newTestament": "Nij testamint",
+    "popularBooks": "Populêre boeken"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Sykje",
+    "cancelButton": "ANNULEREER",
+    "searchResults": "sykresultaten",
+    "filterButton": "Filter",
+    "teachings": { "title": "Teachings" },
+    "bible": { "title": "bibel" }
+  },
+  "addToPlaylistsModal": { "title": "Tafoegje oan ôfspyllist", "button": "Playlist oanmeitsje" },
+  "createPlaylistModal": {
+    "title": "Nije spyllist oanmeitsje",
+    "button": "Playlist oanmeitsje",
+    "inputPlaceholder": "Fier Playlist Namme yn"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Tafoege oan Playlist",
+      "remove": "Fuortsmiten fan spyllist",
+      "create": "Makke Playlist",
+      "delete": "Wiske spyllist"
+    },
+    "favorites": { "add": "Tafoege oan Favorites", "remove": "Fuortsmiten fan favoriten" },
+    "downloads": { "remove": "Fuortsmiten fan downloads" },
+    "facebook": { "loginError": "Oanmelding mislearret mei flater" },
+    "google": { "loginError": "Oanmelding mislearret mei flater" }
+  },
+  "playlists": { "trackLabel": "Spoar", "tracksLabel": "Tracks" },
+  "mediaList": { "tracksLabel": "Tracks", "remove": "Weinimme" },
+  "tutorialPage": { "done": "Klear", "skip": "Oerslaan" },
+  "loginModal": { "login": "Oanmelde" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Ynladen", "complete": "Download foltôge" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Ferkenne de Bibel",
+      "subtitle1": "Reizgje mei ús troch de heule Bibel, of begjin in eigen reis.",
+      "title2": "Harkje en meidwaan",
+      "subtitle2": "Mei de mediaspieler kinne jo mei gemak yn THRU de BIBLE-ynhâld dûke.",
+      "title3": "Untdek learingen",
+      "subtitle3": "Meidwaan oan 'e Bibel lykas nea earder troch cross-referearjen nei de ynhâld fan' e Bibel en Underwiis.",
+      "title4": "Besprek de Bibel",
+      "subtitle4": "Doch mei oan in groep om de learingen en ûnderwerpen fan THRU de BIBEL te studearjen mei oaren.",
+      "title5": "Download en diele",
+      "subtitle5": "Genietsje genietsje fan it Wurd fan God ûnderweis en diel it mei jo freonen.",
+      "title6": "Bewarje & oanmeitsje",
+      "subtitle6": "Bewarje jo favorite learingen en Bibelfersen of meitsje in oanpaste spyllist.",
+      "title7": "Groepsoertsjinsten",
+      "subtitle7": "Wês oanmoedige en ynspireare troch oaren mei deistige groepsoarch."
+    },
+    "registerPage": {
+      "noThanks": "Nee tank",
+      "haveAccount": "In akkount hawwe?",
+      "createAccount": "Meitsje myn akkount oan",
+      "title1": "Besprek mei oaren",
+      "subtitle1": "Beprate jo favorite ûnderwerpen en bibelfersen mei oaren.",
+      "title2": "Playlists opslaan en syngronisearje",
+      "subtitle2": "Bouw listen op jo plak fan jo favorite ynhâld.",
+      "title3": "Sjoch jo favoriten",
+      "subtitle3": "Bewarje en kom werom en besykje jo favoriten op in letter momint.",
+      "title4": "Wolkom werom",
+      "subtitle4": "Meitsje in akkount oan en krij tagong ta al ús funksjes."
+    }
+  },
+  "app": {
+    "close": "slute",
+    "accept": "Oannimme",
+    "reject": "Ofkarre",
+    "constructionInProgress": "KONSTRUKSJE YN FERTSJIN",
+    "downloadComplete": "Download foltôge",
+    "downloading": "Ynladen",
+    "downloadFailed": "Download mislearre",
+    "sendAFile": "Immen wol jo in bestân stjoere"
+  },
+  "transferring": { "tryAgain": "Besykje opnij", "close": "slute" },
+  "checkDevice": {
+    "check": "Kontrolearje jo apparaat",
+    "makeSure": "Soargje derfoar dat Wifi-Direct is ynskeakele op it apparaat fan jo freon en dat it yn berik is.",
+    "continue": "Trochgean"
+  },
+  "connectToDevice": { "connect": "Ferbine mei in apparaat" },
+  "pairing": {
+    "connect": "Ferbine mei in apparaat",
+    "pairing": "Pairing",
+    "success": "Mei sukses keppele",
+    "failed": "Apparaatparjen is mislearre",
+    "makeSure": "Soargje derfoar dat (Wifi-Direct) is ynskeakele op it apparaat fan jo freon en dat it yn berik is.",
+    "continue": "Trochgean",
+    "tryAgain": "Besykje opnij"
+  },
+  "selectNetworkType": {
+    "connect": "Ferbine mei in apparaat",
+    "share": "Diele mei Wifi Direct",
+    "send": "Bestjoer ferstjoere fia wifi direkt?",
+    "continue": "Trochgean"
+  }
+}

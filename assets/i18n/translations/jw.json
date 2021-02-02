@@ -1,0 +1,398 @@
+{
+  "selectLanguage": { "heading": "Pilih basa sampeyan saiki", "mainAction": "Pilih Basa" },
+  "menu": {
+    "anonymousTitle": "Akun Sampeyan",
+    "anonymousAction": "Login",
+    "editProfileAction": "Sunting profil",
+    "verifyProfileAction": "Verifikasi profil",
+    "bibleSection": "Kitab Suci",
+    "teachingsSection": "Piwulang",
+    "librarySection": "Pustaka Kula",
+    "groupsSection": "Kelompok",
+    "donateSection": "Nyumbang",
+    "settingsSection": "Setelan",
+    "signOut": "Mlebu",
+    "modals": {
+      "verifyProfile": {
+        "title": "Sampeyan ora diverifikasi",
+        "message": "Dhaptar sampeyan ora bakal diselarasake lan sampeyan ora bisa nggawe grup. Mangga dipriksa email sampeyan kanggo ngrampungake registrasi.",
+        "firstButton": "Terusake",
+        "secondButton": "Ndhaptar profil anyar"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Mlebu",
+    "emailPlaceholder": "Email Sampeyan",
+    "passwordPlaceholder": "Sandi Sampeyan",
+    "forgotAction": "Kelalen Sandi?",
+    "callToAction": "Mlebu",
+    "signInAlternatives": "Utawa Mlebu nggunakake",
+    "noAccountAction": "Ora ana akun? Gawe siji",
+    "notifications": {
+      "invalidCredentials": "Diverifikasi ora valid",
+      "inProgress": "Mlebu wis aktif",
+      "notAvailable": "Layanan Play ora kasedhiya"
+    }
+  },
+  "signUp": {
+    "header": "Gawe Akun",
+    "emailPlaceholder": "Email Sampeyan",
+    "passwordPlaceholder": "Sandi Sampeyan",
+    "privateAction": "Gawe Akun Pribadi",
+    "termsDisclaimer": {
+      "pre": "Kanthi ngeklik Ndhaptar sampeyan nuduhake manawa sampeyan wis maca lan setuju",
+      "terms": "syarat-syarat kasebut",
+      "post": "."
+    },
+    "callToAction": "Ndhaptar",
+    "signUpAlternatives": "Utawa Mlebu nggunakake",
+    "haveAnAccountAction": "Duwe akun?",
+    "notifications": {
+      "invalidUsername": "Jeneng pangguna diwatesi dadi 20 karakter alfanumerik (nomer lan huruf biasa)",
+      "invalidPassword": "Sandhi kudu paling ora ana 3 karakter lan kombinasi saka karakter ndhuwur lan paling ora paling ora ana nomer siji utawa karakter khusus"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Ora bisa nggawe akun",
+        "message": "Alamat email iki wis ana.",
+        "firstButton": "Mlebu",
+        "secondButton": "Tutup"
+      },
+      "privateAccount": {
+        "title": "Akun Pribadi",
+        "message": "Kanthi nggawe akun sampeyan dadi pribadi, sampeyan ndhelikake supaya ora ditemokake wong liya.",
+        "firstButton": "Nampa",
+        "secondButton": "Nolak"
+      },
+      "success": {
+        "title": "Akun Digawe!",
+        "message": "Akun sampeyan wis digawe kanthi sukses. Priksa kothak mlebu kanggo konfirmasi akun lan mlebu.",
+        "firstButton": "Mlebu"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Reset sandhi",
+    "emailPlaceholder": "Email Sampeyan",
+    "message": "Ketik email kanggo ngreset sandhi kanggo akun sampeyan.",
+    "callToAction": "Reset sandhi",
+    "notifications": {
+      "success": "Kita mung ngirim email menyang kothak mlebu",
+      "emailNotFoundError": "Email ora ditemokake",
+      "invalidEmailError": "Format email ora valid"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Rampung Persiyapan",
+    "message": "Email wis dikirim menyang alamat email sing sampeyan lebokake. Mangga deleng rincian email kanggo ngrampungake registrasi.",
+    "callToAction": "Liwati saiki"
+  },
+  "teachings": {
+    "dailyText": "Siaran Dina iki",
+    "journeyTitle": "Miwiti Perjalanan Sampeyan",
+    "journeySubtitle": "Kabeh piwulang wiwit wiwitan nganti pungkasan",
+    "journeyCardTitle": "215 Minggu Liwat Alkitab",
+    "journeyCardSubtitle": "Rungokake wektu sampeyan",
+    "tracksLabel": "Trek"
+  },
+  "teaching": {
+    "header": "Piwulang",
+    "loading": "Ngundhuh ...",
+    "player": {
+      "audioSpeed": "Kacepetan Audio",
+      "loading": "Ngunggah",
+      "castingError": "Ora Piranti Kasedhiya"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Terus Ngrungokake",
+        "secondButton": "Miwiti lelungan sampeyan"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Miturut Tanggal",
+    "bySeries": "Miturut Seri",
+    "sections": { "tracksLabel": "Trek" }
+  },
+  "library": {
+    "header": "Pustaka Kula",
+    "tabs": { "downloads": "Unduhan", "favorites": "Favorit", "playlists": "Dhaptar lagu" }
+  },
+  "groups": {
+    "header": "Kelompok",
+    "createGroup": {
+      "title": "Gawe Klompok Anyar",
+      "groupNameLabel": "NAMA GROUP",
+      "groupNameInputPlaceHolder": "Jeneng",
+      "descriptionLabel": "DESCRIPTION",
+      "descriptionInputPlaceHolder": "Tambah Katrangan",
+      "inviteLabel": "Ngundang Pangguna",
+      "inviteButton": "Ngundang Pangguna Anyar",
+      "button": "Gawe Klompok",
+      "invalidGroupName": "Ketik jeneng sing bener",
+      "groupNameTooLong": "Jeneng grup ora kudu ngemot luwih saka 25 karakter"
+    },
+    "devotionNotStartAlert": "Pengabdian durung diwiwiti kanggo grup iki",
+    "membersLabel": "Anggota",
+    "chatModalMemberSubtitleLabel": "anggota",
+    "chatModalMembersSubtitleLabel": "anggota",
+    "chat": {
+      "listeningToLabel": "Ngrungokake",
+      "loadingTrackLabel": "Ngunggah trek ...",
+      "inputPlaceHolder": "Tulis Pesen",
+      "deletePost": "Delete Post",
+      "deleteMessage": "wis mbusak pesen"
+    },
+    "groupSettings": {
+      "participantsSection": "Peserta",
+      "viewAll": "Ndeleng Kabeh",
+      "invite": "Ngundang Pangguna Anyar",
+      "endDevotion": "Mungkasi Pengabdian Grup",
+      "deleteGroup": "Delete Group",
+      "leaveGroup": "Ninggalake Grup"
+    },
+    "userDirectory": {
+      "header": "Direktori Pangguna",
+      "remove": "Nyopot",
+      "anonymous": "Anonim",
+      "send": "Ngirim"
+    },
+    "inviteUser": { "placeHolder": "Nggoleki", "send": "Ngirim" }
+  },
+  "chat": {
+    "header": "Saluran Grup",
+    "settings": {
+      "header": "Setelan Grup",
+      "endDevotion": {
+        "alertTitle": "Mungkasi Bakti",
+        "alertMessage": "Apa sampeyan yakin pengin mungkasi pengabdian iki?",
+        "alertCancel": "Batal",
+        "alertConfirm": "Nggih",
+        "endDevotionLabel": "mungkasi pengabdian iki.",
+        "hasEnded": "Pengabdian iki wis rampung"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Miwiti Pengabdian",
+    "alertMessage": "Sampeyan yakin pengin miwiti pengabdian karo klompok% {jeneng}?",
+    "alertCancel": "Batal",
+    "alertConfirm": "Nggih",
+    "devotionStartedLabel": "wis miwiti pengabdian."
+  },
+  "settings": {
+    "header": "Setelan",
+    "tabs": { "profile": "Profil", "media": "Media", "notifications": "Kabar" },
+    "profile": {
+      "account": "Akun",
+      "username": "Jeneng pangguna",
+      "email": "E-mail",
+      "editButton": "Sunting",
+      "edit": {
+        "save": "Ngirit",
+        "username": {
+          "header": "Jeneng pangguna",
+          "successAlert": "Pangowahan sampeyan wis disimpen.",
+          "failedAlert": "Gagal nyimpen pangowahan."
+        },
+        "email": {
+          "header": "Email",
+          "successAlert": "Pangowahan sampeyan wis disimpen.",
+          "failedAlert": "Gagal nyimpen pangowahan."
+        }
+      },
+      "languages": "Basa",
+      "signIn": "Mlebu",
+      "signOut": "Metu saka Akun",
+      "legal": "Legal",
+      "termsConditions": "Katemtuan & Ketentuan",
+      "privacyPolicy": "Kebijakan Privasi",
+      "support": "Dhukungan",
+      "reportAProblem": "Laporake Masalah",
+      "tutorial": "Tutorial",
+      "reportBug": {
+        "header": "Laporake Masalah",
+        "send": "Ngirim",
+        "subject": "SUBJEK",
+        "subjectPlaceHolder": "Subyek",
+        "description": "DESCRIPTION",
+        "descriptionPlaceHolder": "Katrangan",
+        "successAlert": "Matur nuwun, kita wis nampa pesen sampeyan.",
+        "failedAlert": "Gagal ngirim pesen."
+      },
+      "version": "Versi"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Audio Autoplay",
+      "storage": "Panyimpenan",
+      "downloadWifi": "Mung Download ing Wi-fi",
+      "deleteCache": "Mbusak Cache"
+    },
+    "notifications": {
+      "notifications": "Kabar",
+      "groupInvitation": "Undhangan Grup",
+      "devotions": "Undang menyang Bhakti",
+      "file": "Konfirmasi Transfer File"
+    }
+  },
+  "inviteUsers": { "header": "Ngundang Pangguna" },
+  "playlist": {
+    "header": "Dhaptar lagu",
+    "audioFileLabel": "File Audio",
+    "audioFilesLabel": "File Audio"
+  },
+  "collection": { "header": "Koleksi", "audioFilesLabel": "File Audio" },
+  "modal": {
+    "close": "cedhak",
+    "addToPlaylist": { "title": "Tambah menyang Dhaptar lagu", "button": "Gawe Dhaptar lagu" },
+    "startDevotion": { "title": "Miwiti Pengabdian" },
+    "createPlaylist": {
+      "title": "Gawe Dhaptar Dhaptar Anyar",
+      "button": "Gawe Dhaptar lagu",
+      "inputPlaceholder": "Ketik Jeneng Dhaptar lagu",
+      "success": "Ditambahake menyang Dhaptar Dhaptar"
+    },
+    "login": "Sampeyan kudu mlebu kanggo miwiti pengabdian"
+  },
+  "options": {
+    "shared": {
+      "share": "Nuduhake",
+      "report": "Isi Laporan",
+      "shareOthers": "Nuduhake liyane",
+      "copy": "Salin Link",
+      "more": "Luwih-luwih"
+    },
+    "audio": {
+      "download": "Download",
+      "addFavorite": "Tambah menyang Favorit",
+      "addPlaylist": "Tambah menyang Dhaptar lagu",
+      "removeFavorite": "Copot saka Favorit",
+      "removePlaylist": "Copot saka dhaptar lagu",
+      "removeDownload": "Copot saka Downloads"
+    },
+    "playlist": { "edit": "Sunting", "delete": "Mbusak Dhaptar lagu" },
+    "startDevotion": "Miwiti Pengabdian"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Ditambahake menyang Dhaptar Dhaptar",
+      "delete": "Dibusak saka Playlist",
+      "create": "Dhaptar Puter sing Digawe",
+      "destroy": "Playlist sing Dibusak"
+    },
+    "favorites": { "add": "Ditambahake menyang Favorit", "remove": "Dibusak saka Favorit" },
+    "downloads": { "remove": "Dibusak saka Downloads" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Ngacak" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Telusuri ..." },
+    "notification": { "success": "Sukses! Email bakal dikirim menyang akun sampeyan." },
+    "button": { "sending": "Ngirim ..." },
+    "modalSelector": { "cancel": "Batal" },
+    "loading": "Ngunggah"
+  },
+  "bible": {
+    "header": "Kitab Suci",
+    "oldTestament": "Prajanjian Lawas",
+    "newTestament": "Prajanjian Anyar",
+    "popularBooks": "Buku populer"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Nggoleki",
+    "cancelButton": "CANCEL",
+    "searchResults": "Asile Panelusuran",
+    "filterButton": "Saring",
+    "teachings": { "title": "Piwulang" },
+    "bible": { "title": "Kitab Suci" }
+  },
+  "addToPlaylistsModal": { "title": "Tambah menyang Dhaptar lagu", "button": "Gawe Dhaptar lagu" },
+  "createPlaylistModal": {
+    "title": "Gawe Dhaptar Dhaptar Anyar",
+    "button": "Gawe Dhaptar lagu",
+    "inputPlaceholder": "Ketik Jeneng Dhaptar lagu"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Ditambahake menyang Dhaptar Dhaptar",
+      "remove": "Dibusak saka Playlist",
+      "create": "Dhaptar Puter sing Digawe",
+      "delete": "Playlist sing Dibusak"
+    },
+    "favorites": { "add": "Ditambahake menyang Favorit", "remove": "Dibusak saka Favorit" },
+    "downloads": { "remove": "Dibusak saka Downloads" },
+    "facebook": { "loginError": "Login gagal amarga kesalahan" },
+    "google": { "loginError": "Login gagal amarga kesalahan" }
+  },
+  "playlists": { "trackLabel": "Lacak", "tracksLabel": "Trek" },
+  "mediaList": { "tracksLabel": "Trek", "remove": "Nyopot" },
+  "tutorialPage": { "done": "Rampung", "skip": "Liwati" },
+  "loginModal": { "login": "Login" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Ngundhuh", "complete": "Download Lengkap" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Jelajahi Alkitab",
+      "subtitle1": "Plancong nganggo Kitab Suci kabeh karo kita, utawa miwiti lelungan dhewe-dhewe.",
+      "title2": "Rungokake & Melu",
+      "subtitle2": "Pamuter media ngidini sampeyan nyelehake THRU konten ing Kitab Suci kanthi gampang.",
+      "title3": "Temokake Piwulang",
+      "subtitle3": "Melu ing Kitab Suci ora kaya sadurunge kanthi referensi silang babagan Injil & Wulangan.",
+      "title4": "Rembug Alkitab",
+      "subtitle4": "Gabung klompok kanggo sinau babagan THRU piwulang lan topik ing Kitab Suci karo wong liya.",
+      "title5": "Download & Share",
+      "subtitle5": "Seneng ngrungokake Sabda Jahwéh nalika mbukak lan bareng karo kanca-kanca.",
+      "title6": "Simpen & Gawe",
+      "subtitle6": "Simpen piwulang lan ayat Alkitab sing disenengi utawa gawe dhaptar lagu khusus.",
+      "title7": "Bakti Kelompok",
+      "subtitle7": "Dadi semangat lan inspirasi wong liya sing duwe kebaktian klompok saben dinane."
+    },
+    "registerPage": {
+      "noThanks": "Ora Thanks",
+      "haveAccount": "Duwe akun?",
+      "createAccount": "Gawe Akunku",
+      "title1": "Rembug karo wong liya",
+      "subtitle1": "Rembug topik lan ayat Alkitab sing disenengi karo wong liya.",
+      "title2": "Dhaptar lagu Simpen lan Sync",
+      "subtitle2": "Mbangun dhaptar konten favorit ing sak panggonan.",
+      "title3": "Deleng Favorit Sampeyan",
+      "subtitle3": "Simpen banjur bali maneh lan bukak favoritmu mengko wae.",
+      "title4": "Sugeng Rawuh",
+      "subtitle4": "Gawe akun lan entuk akses menyang kabeh fitur."
+    }
+  },
+  "app": {
+    "close": "cedhak",
+    "accept": "Nampa",
+    "reject": "Nolak",
+    "constructionInProgress": "KONSTRUKSI ING PROGRES",
+    "downloadComplete": "Download Lengkap",
+    "downloading": "Ngundhuh",
+    "downloadFailed": "Download Gagal",
+    "sendAFile": "Ana Wong Pengin Kirim File Sampeyan"
+  },
+  "transferring": { "tryAgain": "coba maneh", "close": "cedhak" },
+  "checkDevice": {
+    "check": "Priksa Piranti Sampeyan",
+    "makeSure": "Priksa manawa Wifi-Direct wis diuripake ing piranti kanca lan wis kasedhiya.",
+    "continue": "Terusake"
+  },
+  "connectToDevice": { "connect": "Sambungake menyang Piranti" },
+  "pairing": {
+    "connect": "Sambungake menyang Piranti",
+    "pairing": "Pasangan",
+    "success": "Sukses Pasangan",
+    "failed": "Masangake Piranti Gagal",
+    "makeSure": "Priksa manawa (Wifi-Direct) wis diaktifake ing piranti kanca lan wis kasedhiya.",
+    "continue": "Terusake",
+    "tryAgain": "Coba Maneh"
+  },
+  "selectNetworkType": {
+    "connect": "Sambungake menyang piranti",
+    "share": "Nuduhake karo Wifi Direct",
+    "send": "Kirim file liwat wifi langsung?",
+    "continue": "Terusake"
+  }
+}

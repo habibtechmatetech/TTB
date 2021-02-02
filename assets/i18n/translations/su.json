@@ -1,0 +1,401 @@
+{
+  "selectLanguage": { "heading": "Pilih basa anjeun ayeuna", "mainAction": "Pilih Basa" },
+  "menu": {
+    "anonymousTitle": "Rekening anjeun",
+    "anonymousAction": "Lebet",
+    "editProfileAction": "Édit profil",
+    "verifyProfileAction": "Verifikasi profil",
+    "bibleSection": "Alkitab",
+    "teachingsSection": "Ajaran",
+    "librarySection": "Perpustakaan Kuring",
+    "groupsSection": "Kelompok",
+    "donateSection": "Sumbangan",
+    "settingsSection": "Setélan",
+    "signOut": "Kaluar",
+    "modals": {
+      "verifyProfile": {
+        "title": "Anjeun henteu acan diverifikasi",
+        "message": "Daptar anjeun moal disingkronkeun sareng anjeun moal tiasa ngadamel kelompok. Mangga parios email anjeun pikeun ngalengkepan pendaptaran.",
+        "firstButton": "Teraskeun",
+        "secondButton": "Ngadaptarkeun profil anyar"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Daptar",
+    "emailPlaceholder": "Email Anjeun",
+    "passwordPlaceholder": "Sandi anjeun",
+    "forgotAction": "Hilap kecap konci?",
+    "callToAction": "Daptar",
+    "signInAlternatives": "Atanapi Asup ngagunakeun",
+    "noAccountAction": "Teu aya akun? Ngadamel hiji",
+    "notifications": {
+      "invalidCredentials": "Kapercayaan henteu valid",
+      "inProgress": "Asup parantos aya dina prosés",
+      "notAvailable": "Jasa Play henteu sayogi"
+    }
+  },
+  "signUp": {
+    "header": "Ngadamel akun",
+    "emailPlaceholder": "Email Anjeun",
+    "passwordPlaceholder": "Sandi anjeun",
+    "privateAction": "Janten Akun Pribadi",
+    "termsDisclaimer": {
+      "pre": "Ku ngaklik Signup anjeun nunjukkeun yén anjeun parantos maca sareng satuju",
+      "terms": "istilah-istilahna",
+      "post": "."
+    },
+    "callToAction": "Daptar",
+    "signUpAlternatives": "Atanapi Ngadaptarkeun nganggo",
+    "haveAnAccountAction": "Gaduh akun?",
+    "notifications": {
+      "invalidUsername": "Ngaran pamaké diwatesan kana 20 karakter alfanumérik (nomer sareng hurup biasa)",
+      "invalidPassword": "Sandi kedah sahenteuna 3 karakter sareng dijantenkeun gabungan karakter luhur sareng handap kalayan sahenteuna hiji angka atanapi karakter khusus"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Teu tiasa ngadamel akun",
+        "message": "Alamat email ieu parantos aya.",
+        "firstButton": "Daptar",
+        "secondButton": "Tutup"
+      },
+      "privateAccount": {
+        "title": "Rekening Pribadi",
+        "message": "Kalayan ngajantenkeun akun anjeun janten pribadi, anjeun nyumputkeun tina kauninga ku batur.",
+        "firstButton": "Narima",
+        "secondButton": "Turun"
+      },
+      "success": {
+        "title": "Rekening Didamel!",
+        "message": "Rekening anjeun hasil didamel. Pariksa koropak anjeun pikeun mastikeun akun anjeun sareng lebet.",
+        "firstButton": "Daptar"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Reset kecap konci",
+    "emailPlaceholder": "Email Anjeun",
+    "message": "Mangga lebetkeun email anjeun pikeun ngareset kata sandi pikeun akun anjeun.",
+    "callToAction": "Reset kecap konci",
+    "notifications": {
+      "success": "Kami nembé ngintun email ka koropak anjeun",
+      "emailNotFoundError": "Email henteu kapendak",
+      "invalidEmailError": "Pormat email anu salah"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Rengse Setup",
+    "message": "Hiji email parantos dikirim ka alamat email anu anjeun lebetkeun. Punten tingali detail email kanggo ngalengkepan pendaptaran.",
+    "callToAction": "Skip kanggo Ayeuna"
+  },
+  "teachings": {
+    "dailyText": "Siaran dinten ayeuna",
+    "journeyTitle": "Mimitian Lalampahan Anjeun",
+    "journeySubtitle": "Sadaya ajaran ti ngawitan dugi ka réngsé",
+    "journeyCardTitle": "215 Minggu Lalampahan Ngalangkungan Alkitab",
+    "journeyCardSubtitle": "Dangukeun dina waktos anjeun",
+    "tracksLabel": "Lacak"
+  },
+  "teaching": {
+    "header": "Ajaran",
+    "loading": "Ngunggah ...",
+    "player": {
+      "audioSpeed": "Kacepetan Audio",
+      "loading": "Ngamuat",
+      "castingError": "Henteu aya Alat"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Teraskeun Dengekeun",
+        "secondButton": "Mimitian perjalanan anjeun"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Ku Tanggal",
+    "bySeries": "Ku Series",
+    "sections": { "tracksLabel": "Lacak" }
+  },
+  "library": {
+    "header": "Perpustakaan Kuring",
+    "tabs": { "downloads": "Unduhan", "favorites": "Paporit", "playlists": "Daptar puter" }
+  },
+  "groups": {
+    "header": "Kelompok",
+    "createGroup": {
+      "title": "Nyiptakeun Grup Anyar",
+      "groupNameLabel": "NAMA KUMPULAN",
+      "groupNameInputPlaceHolder": "Nami",
+      "descriptionLabel": "URAIAN",
+      "descriptionInputPlaceHolder": "Tambihkeun Pedaran",
+      "inviteLabel": "Ujang Pamaké",
+      "inviteButton": "Undang Panganggo Anyar",
+      "button": "Nyiptakeun Grup",
+      "invalidGroupName": "Lebetkeun nami anu leres",
+      "groupNameTooLong": "Nami grup teu kedah ngandung langkung ti 25 karakter"
+    },
+    "devotionNotStartAlert": "Bakti teu dimimitian pikeun grup ieu",
+    "membersLabel": "Anggota",
+    "chatModalMemberSubtitleLabel": "anggota",
+    "chatModalMembersSubtitleLabel": "anggota",
+    "chat": {
+      "listeningToLabel": "Ngupingkeun",
+      "loadingTrackLabel": "Ngamuat lagu ...",
+      "inputPlaceHolder": "Tulis Pesen",
+      "deletePost": "Hapus Pos",
+      "deleteMessage": "parantos ngahapus pesen"
+    },
+    "groupSettings": {
+      "participantsSection": "Pamilon",
+      "viewAll": "Tingali Sadayana",
+      "invite": "Undang Panganggo Anyar",
+      "endDevotion": "Bakti Grup Akhir",
+      "deleteGroup": "Hapus Grup",
+      "leaveGroup": "Ninggalkeun Grup"
+    },
+    "userDirectory": {
+      "header": "Diréktori Pamaké",
+      "remove": "Ngaleungitkeun",
+      "anonymous": "Anonim",
+      "send": "Ngirim"
+    },
+    "inviteUser": { "placeHolder": "Milarian", "send": "Ngirim" }
+  },
+  "chat": {
+    "header": "Saluran Grup",
+    "settings": {
+      "header": "Setélan Grup",
+      "endDevotion": {
+        "alertTitle": "Tamat Bakti",
+        "alertMessage": "Naha anjeun yakin hoyong ngeureunkeun bakti ieu?",
+        "alertCancel": "Ngabatalkeun",
+        "alertConfirm": "Leres",
+        "endDevotionLabel": "réngsé bakti ieu.",
+        "hasEnded": "Bakti ieu parantos réngsé"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Mimitian Bakti",
+    "alertMessage": "Naha anjeun yakin rék ngamimitian bakti ku% {ngaran} grup?",
+    "alertCancel": "Ngabatalkeun",
+    "alertConfirm": "Leres",
+    "devotionStartedLabel": "parantos ngamimitian bakti."
+  },
+  "settings": {
+    "header": "Setélan",
+    "tabs": { "profile": "Propil", "media": "Média", "notifications": "Bewara" },
+    "profile": {
+      "account": "Rekening",
+      "username": "Ngaran pamaké",
+      "email": "E-mail",
+      "editButton": "Édit",
+      "edit": {
+        "save": "Ngahémat",
+        "username": {
+          "header": "Ngaran pamaké",
+          "successAlert": "Parobihan anjeun parantos disimpen.",
+          "failedAlert": "Gagal nyimpen parobahanana."
+        },
+        "email": {
+          "header": "Surélék",
+          "successAlert": "Parobihan anjeun parantos disimpen.",
+          "failedAlert": "Gagal nyimpen parobahanana."
+        }
+      },
+      "languages": "Bahasa",
+      "signIn": "Daptar",
+      "signOut": "Asup Kaluar Akun",
+      "legal": "Hukum",
+      "termsConditions": "Sarat & Kaayaan",
+      "privacyPolicy": "kabijakan privasi",
+      "support": "Ngarojong",
+      "reportAProblem": "Laporkeun Masalah",
+      "tutorial": "Tutorial",
+      "reportBug": {
+        "header": "Laporkeun Masalah",
+        "send": "Ngirim",
+        "subject": "SUBJEK",
+        "subjectPlaceHolder": "Judulna",
+        "description": "URAIAN",
+        "descriptionPlaceHolder": "Katerangan",
+        "successAlert": "Hatur nuhun, kami nampi pesen anjeun.",
+        "failedAlert": "Gagal ngirim pesen."
+      },
+      "version": "Vérsi"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Audio Autoplay",
+      "storage": "Panyimpenan",
+      "downloadWifi": "Ukur Unduh dina Wi-fi",
+      "deleteCache": "Hapus Cache"
+    },
+    "notifications": {
+      "notifications": "Bewara",
+      "groupInvitation": "Undangan Grup",
+      "devotions": "Ngajak kana Bakti",
+      "file": "Konfirmasi Transfer File"
+    }
+  },
+  "inviteUsers": { "header": "Ujang Pamaké" },
+  "playlist": {
+    "header": "Daptar puter",
+    "audioFileLabel": "File Audio",
+    "audioFilesLabel": "Payil Audio"
+  },
+  "collection": { "header": "Kumpulan", "audioFilesLabel": "Payil Audio" },
+  "modal": {
+    "close": "nutup",
+    "addToPlaylist": { "title": "Tambahkeun ka Daptar puter", "button": "Jieun Daptar puter" },
+    "startDevotion": { "title": "Mimitian Bakti" },
+    "createPlaylist": {
+      "title": "Ngadamel Daptar puter Anyar",
+      "button": "Ngadamel Daptar puter",
+      "inputPlaceholder": "Lebetkeun Ngaran Daptar puter",
+      "success": "Ditambahkeun kana Daptar puter"
+    },
+    "login": "Anjeun kedah login pikeun ngamimitian bakti"
+  },
+  "options": {
+    "shared": {
+      "share": "Bagikeun",
+      "report": "Ngalaporkeun Eusi",
+      "shareOthers": "Bagikeun ka Anu Batur",
+      "copy": "Tautan Salin",
+      "more": "Tambih deui"
+    },
+    "audio": {
+      "download": "Unduh",
+      "addFavorite": "Tambahkeun ka paporit",
+      "addPlaylist": "Tambahkeun ka Daptar puter",
+      "removeFavorite": "Cabut tina Paporit",
+      "removePlaylist": "Cabut tina Daptar puter",
+      "removeDownload": "Cabut tina Undeuran"
+    },
+    "playlist": { "edit": "Édit", "delete": "Hapus Daptar puter" },
+    "startDevotion": "Mimitian Bakti"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Ditambahkeun kana Daptar puter",
+      "delete": "Dipiceun tina Daptar Play",
+      "create": "Daptar puter Didamel",
+      "destroy": "Daptar puter dihapus"
+    },
+    "favorites": { "add": "Ditambahkeun kana Paporit", "remove": "Dipiceun tina Favorites" },
+    "downloads": { "remove": "Dipiceun tina Unduhan" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Ngacak-acak" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Milarian ..." },
+    "notification": { "success": "Suksés! Hiji email bakal dikirim kana akun anjeun." },
+    "button": { "sending": "Nganteurkeun..." },
+    "modalSelector": { "cancel": "Ngabatalkeun" },
+    "loading": "Ngamuat"
+  },
+  "bible": {
+    "header": "Alkitab",
+    "oldTestament": "Perjanjian Old",
+    "newTestament": "Perjanjian Anyar",
+    "popularBooks": "Buku populér"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Milarian",
+    "cancelButton": "BATAL",
+    "searchResults": "Hasil Pamilarian",
+    "filterButton": "Nyaring",
+    "teachings": { "title": "Ajaran" },
+    "bible": { "title": "Alkitab" }
+  },
+  "addToPlaylistsModal": {
+    "title": "Tambahkeun ka Daptar puter",
+    "button": "Ngadamel Daptar puter"
+  },
+  "createPlaylistModal": {
+    "title": "Ngadamel Daptar puter Anyar",
+    "button": "Ngadamel Daptar puter",
+    "inputPlaceholder": "Lebetkeun Ngaran Daptar puter"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Ditambahkeun kana Daptar puter",
+      "remove": "Dipiceun tina Daptar Play",
+      "create": "Daptar puter Didamel",
+      "delete": "Daptar puter dihapus"
+    },
+    "favorites": { "add": "Ditambahkeun kana Paporit", "remove": "Dipiceun tina Favorites" },
+    "downloads": { "remove": "Dipiceun tina Unduhan" },
+    "facebook": { "loginError": "Login gagal ku kasalahan" },
+    "google": { "loginError": "Login gagal ku kasalahan" }
+  },
+  "playlists": { "trackLabel": "Lacak", "tracksLabel": "Lacak" },
+  "mediaList": { "tracksLabel": "Lacak", "remove": "Ngaleungitkeun" },
+  "tutorialPage": { "done": "Rengse", "skip": "Ngalangkungan" },
+  "loginModal": { "login": "Lebet" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Ngunduh", "complete": "Unduh Lengkap" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Jelajah Alkitab",
+      "subtitle1": "Wisata ngalangkungan sadayana Injil sareng kami, atanapi ngamimitian perjalanan anjeun nyalira.",
+      "title2": "Dangukeun & Kalebet",
+      "subtitle2": "Pamuter média ngamungkinkeun anjeun teuleum kana THRU eusi INI dina Kitab Suci kalayan gampang.",
+      "title3": "Ngajalajah Ajaran",
+      "subtitle3": "Kalebet kana Injil sapertos anu henteu kantos sateuacanna ku nyalsékeun eusi Injil & Pangajaran.",
+      "title4": "Ngabahas Alkitab",
+      "subtitle4": "Gabung sareng grup pikeun diajar THRU ajaran sareng topik dina Kitab Suci sareng anu sanés.",
+      "title5": "Unduh & Bagikeun",
+      "subtitle5": "Ngarasakeun ngadangukeun Firman Allah dina perjalanan sareng bagikeun ka réréncangan anjeun.",
+      "title6": "Simpen & Nyiptakeun",
+      "subtitle6": "Simpen ajaran favorit anjeun sareng ayat Alkitab atanapi janten daptar puter khusus.",
+      "title7": "Bakti Grup",
+      "subtitle7": "Didorong sareng diideuan ku anu sanés ku kumawula kelompok sapopoé."
+    },
+    "registerPage": {
+      "noThanks": "Henteu nuhun",
+      "haveAccount": "Gaduh akun?",
+      "createAccount": "Ngadamel Akun Kuring",
+      "title1": "Diskusikeun sareng Batur",
+      "subtitle1": "Ngabahas topik favorit anjeun sareng ayat injil sareng batur.",
+      "title2": "Toko sareng Sync Daptar puter",
+      "subtitle2": "Ngawangun daptar eusi paporit anjeun dina hiji tempat.",
+      "title3": "Tingali Paporit Anjeun",
+      "subtitle3": "Simpen sareng sumping deui sareng didatangan paporit anjeun dina waktos engké.",
+      "title4": "Wilujeng sumping",
+      "subtitle4": "Ngadamel akun sareng kéngingkeun aksés kana sadaya fitur kami."
+    }
+  },
+  "app": {
+    "close": "nutup",
+    "accept": "Narima",
+    "reject": "Nolak",
+    "constructionInProgress": "Pangwangunan dina kamajuan",
+    "downloadComplete": "Unduh Lengkap",
+    "downloading": "Ngunduh",
+    "downloadFailed": "Unduhan Gagal",
+    "sendAFile": "Batur Hoyong Ngirim Payil Anjeun"
+  },
+  "transferring": { "tryAgain": "cobian deui", "close": "nutup" },
+  "checkDevice": {
+    "check": "Pariksa Alat Anjeun",
+    "makeSure": "Punten pastikeun Wifi-Direct diaktipkeun dina alat sobat anjeun sareng éta aya dina jangkauan.",
+    "continue": "Teraskeun"
+  },
+  "connectToDevice": { "connect": "Nyambung kana Alat" },
+  "pairing": {
+    "connect": "Nyambung kana Alat",
+    "pairing": "Papasangan",
+    "success": "Suksés Disapasangkeun",
+    "failed": "Masangkeun Paranti Gagal",
+    "makeSure": "Punten pastikeun (Wifi-Direct) dihurungkeun dina alat sobat anjeun sareng éta aya dina jangkauan.",
+    "continue": "Teraskeun",
+    "tryAgain": "Cobian deui"
+  },
+  "selectNetworkType": {
+    "connect": "Nyambung kana alat",
+    "share": "Bagikeun sareng Wifi Direct",
+    "send": "Kirim file ngalangkungan wifi langsung?",
+    "continue": "Teraskeun"
+  }
+}

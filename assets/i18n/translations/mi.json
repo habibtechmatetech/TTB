@@ -1,0 +1,401 @@
+{
+  "selectLanguage": { "heading": "Tohua to reo o naianei", "mainAction": "Whiriwhiria te Reo" },
+  "menu": {
+    "anonymousTitle": "To Kaute",
+    "anonymousAction": "Takiuru",
+    "editProfileAction": "Whakatika kōtaha",
+    "verifyProfileAction": "Manatoko kōtaha",
+    "bibleSection": "Paipera",
+    "teachingsSection": "Nga Whakaako",
+    "librarySection": "Taku Puna",
+    "groupsSection": "Rōpū",
+    "donateSection": "Takoha",
+    "settingsSection": "Tautuhinga",
+    "signOut": "Waitohu Atu",
+    "modals": {
+      "verifyProfile": {
+        "title": "Kaore koe i te manatoko",
+        "message": "Kaore e raupapahia o raarangi kaare e taea te hanga roopu. Tirohia koa to imeera kia oti te rehita.",
+        "firstButton": "Haere tonu",
+        "secondButton": "Rēhita he kōtaha hou"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Waitohu Whakauru",
+    "emailPlaceholder": "To Imeera",
+    "passwordPlaceholder": "Tō Kupuhipa",
+    "forgotAction": "Wareware i te Kupuhipa?",
+    "callToAction": "Whakauru mai",
+    "signInAlternatives": "Waitohu ranei te whakamahi",
+    "noAccountAction": "Kaore he kaute? Hangaia tetahi",
+    "notifications": {
+      "invalidCredentials": "Taipitopito tuakiri muhu",
+      "inProgress": "Waitohu kua uru ke",
+      "notAvailable": "Ratonga purei kaore i te waatea"
+    }
+  },
+  "signUp": {
+    "header": "Hanga Pūkete",
+    "emailPlaceholder": "To Imeera",
+    "passwordPlaceholder": "Tō Kupuhipa",
+    "privateAction": "Hanga Pūkete Tūmataiti",
+    "termsDisclaimer": {
+      "pre": "Ma te panui i te Tohuake ka tohu kua panui koe me te whakaae",
+      "terms": "nga kupu",
+      "post": "."
+    },
+    "callToAction": "Waitohu",
+    "signUpAlternatives": "Waitohu ranei te whakamahi",
+    "haveAnAccountAction": "He kaute?",
+    "notifications": {
+      "invalidUsername": "Ko nga ingoa kaiwhakamahi he iti noa ki te 20 nga tohu taarua (tau me nga reta auau)",
+      "invalidPassword": "Kia 3 pea nga kiripuaki a te Kupuhipa a kia whakakotahihia nga tohu o runga me o raro ko te nama kotahi te tohu motuhake ranei"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Kaore e taea te hanga putea",
+        "message": "Kei te noho noa tenei wahitau imeera.",
+        "firstButton": "Waitohu Whakauru",
+        "secondButton": "Katia"
+      },
+      "privateAccount": {
+        "title": "Pūkete Tūmataiti",
+        "message": "Ma te muna kia muna koe, kei te huna e koe kia kore e kitea e etahi atu.",
+        "firstButton": "Whakaae",
+        "secondButton": "Whakakahore"
+      },
+      "success": {
+        "title": "Pūkete Hangaia!",
+        "message": "I angitu te hanga i to putea. Tirohia to pouaka pouaka ki te whakauru i to kaute me te haina.",
+        "firstButton": "Waitohu Whakauru"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Tautuhi kupuhipa ano",
+    "emailPlaceholder": "To Imeera",
+    "message": "Tena koa whakauruhia to imeera ki te tautuhi i to kupu huna mo to nama.",
+    "callToAction": "Tautuhi kupuhipa ano",
+    "notifications": {
+      "success": "Katahi ano matou ka tuku imeera ki to pouakaroto",
+      "emailNotFoundError": "Kare i kitea te imeera",
+      "invalidEmailError": "He hē te whakatakotoranga imeera"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Mutu te Tatūnga",
+    "message": "Kua tukuna he imeera ki to wahitau imeera i whakauruhia e koe. Tena tirohia nga taipitopito imeera hei whakaoti i te rehitatanga.",
+    "callToAction": "Hūpeke atu Nei"
+  },
+  "teachings": {
+    "dailyText": "Whakaputanga o tenei ra",
+    "journeyTitle": "Tiimata Tou Haerenga",
+    "journeySubtitle": "Katoa nga whakaakoranga mai i te tiimata ki te mutunga",
+    "journeyCardTitle": "215 Wiki Haerenga i roto i te Paipera",
+    "journeyCardSubtitle": "Whakarongo i to waa",
+    "tracksLabel": "Riu"
+  },
+  "teaching": {
+    "header": "Nga Whakaako",
+    "loading": "Kei te utaina ...",
+    "player": {
+      "audioSpeed": "Tere Ororongo",
+      "loading": "Kei te utaina",
+      "castingError": "Kaore he Pūrere e Whaia"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Whakarongo Tonu", "secondButton": "Me tiimata to haerenga" }
+    }
+  },
+  "journey": {
+    "byDate": "Na Raa",
+    "bySeries": "Na te Series",
+    "sections": { "tracksLabel": "Riu" }
+  },
+  "library": {
+    "header": "Taku Puna",
+    "tabs": { "downloads": "Nga Tango", "favorites": "Makau", "playlists": "Rārangipāpāho" }
+  },
+  "groups": {
+    "header": "Rōpū",
+    "createGroup": {
+      "title": "Hangaia he Roopu Hou",
+      "groupNameLabel": "NGARU HUI",
+      "groupNameInputPlaceHolder": "Ingoa",
+      "descriptionLabel": "HE PANUITANGA",
+      "descriptionInputPlaceHolder": "Taapiri Whakaahuatanga",
+      "inviteLabel": "Karangahia nga Kaiwhakamahi",
+      "inviteButton": "Karangahia nga Kaiwhakamahi Hou",
+      "button": "Hangaia Rōpū",
+      "invalidGroupName": "Whakauruhia he ingoa whaimana",
+      "groupNameTooLong": "Ko te ingoa o te roopu kaua e nui ake i te 25 nga tohu"
+    },
+    "devotionNotStartAlert": "Kaore ano kia tiimata te tiimatanga mo tenei roopu",
+    "membersLabel": "Nga Mema",
+    "chatModalMemberSubtitleLabel": "mema",
+    "chatModalMembersSubtitleLabel": "melo",
+    "chat": {
+      "listeningToLabel": "Whakarongo ki",
+      "loadingTrackLabel": "Kei te utaina te ara ...",
+      "inputPlaceHolder": "Tuhia Karere",
+      "deletePost": "Mukua te Pouaka",
+      "deleteMessage": "kua mukua he korero"
+    },
+    "groupSettings": {
+      "participantsSection": "Nga Kaiuru",
+      "viewAll": "Tirohia te Katoa",
+      "invite": "Karangahia nga Kaiwhakamahi Hou",
+      "endDevotion": "Whakamutua te Tuutuu Roopu",
+      "deleteGroup": "Mukua te Roopu",
+      "leaveGroup": "Waatea Roopu"
+    },
+    "userDirectory": {
+      "header": "Whaiaronga Kaiwhakamahi",
+      "remove": "Tango",
+      "anonymous": "Ingoamuna",
+      "send": "Tukuna"
+    },
+    "inviteUser": { "placeHolder": "Rapu", "send": "Tukuna" }
+  },
+  "chat": {
+    "header": "Kopae Roopu",
+    "settings": {
+      "header": "Tautuhinga Rōpū",
+      "endDevotion": {
+        "alertTitle": "Whakamutua te Tuutuu",
+        "alertMessage": "Kei te tino hiahia koe ki te whakamutu i tenei tuakiritanga?",
+        "alertCancel": "Whakakore",
+        "alertConfirm": "Ae",
+        "endDevotionLabel": "mutu tenei karakia.",
+        "hasEnded": "Kua mutu tenei karakia"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Timata i te Tuutuu",
+    "alertMessage": "E tino hiahia ana koe ki te tiimata ki te karakia ki te roopu% {ingoa}?",
+    "alertCancel": "Whakakore",
+    "alertConfirm": "Ae",
+    "devotionStartedLabel": "kua tiimata te ngakau tapatahi."
+  },
+  "settings": {
+    "header": "Tautuhinga",
+    "tabs": { "profile": "Kōtaha", "media": "Pāpāho", "notifications": "Panui" },
+    "profile": {
+      "account": "Kaute",
+      "username": "Ingoa Kaiwhakamahi",
+      "email": "Imeera",
+      "editButton": "Whakatika",
+      "edit": {
+        "save": "Penapena",
+        "username": {
+          "header": "Ingoa Kaiwhakamahi",
+          "successAlert": "Kua tiakina to huringa.",
+          "failedAlert": "I rahua te tiaki o te huringa."
+        },
+        "email": {
+          "header": "Imeera",
+          "successAlert": "Kua tiakina to huringa.",
+          "failedAlert": "I rahua te tiaki o te huringa."
+        }
+      },
+      "languages": "Nga Reo",
+      "signIn": "Waitohu Whakauru",
+      "signOut": "Waitohu Atu i te Pūkete",
+      "legal": "Ture",
+      "termsConditions": "Ture me nga Tikanga",
+      "privacyPolicy": "Kaupapahere Tūmataiti",
+      "support": "Tautoko",
+      "reportAProblem": "Ripoata He Raru",
+      "tutorial": "Whakaako",
+      "reportBug": {
+        "header": "Ripoata He Raru",
+        "send": "Tukuna",
+        "subject": "KORERO",
+        "subjectPlaceHolder": "Kaupapa",
+        "description": "HE PANUITANGA",
+        "descriptionPlaceHolder": "Whakaahuatanga",
+        "successAlert": "Mauruuru, kua tae mai to korero.",
+        "failedAlert": "I rahua te tuku korero."
+      },
+      "version": "Putanga"
+    },
+    "media": {
+      "audio": "Ororongo",
+      "autoplay": "Ororongo WhakahokiAunoa",
+      "storage": "Rokiroki",
+      "downloadWifi": "Tango Ma te Wi-fi anake",
+      "deleteCache": "Mukua te Keteroki"
+    },
+    "notifications": {
+      "notifications": "Panui",
+      "groupInvitation": "Karangatanga Roopu",
+      "devotions": "Karangatia ki nga Karakia",
+      "file": "Whakaaetanga Whakawhiti Kōnae"
+    }
+  },
+  "inviteUsers": { "header": "Karangahia nga Kaiwhakamahi" },
+  "playlist": {
+    "header": "Rarangi Purei",
+    "audioFileLabel": "Kōnae Ororongo",
+    "audioFilesLabel": "Kōnae Ororongo"
+  },
+  "collection": { "header": "Kohikohi", "audioFilesLabel": "Kōnae Ororongo" },
+  "modal": {
+    "close": "kati",
+    "addToPlaylist": {
+      "title": "Taapirihia ki te Rarangi Purei",
+      "button": "Hangaia Rārangipurei"
+    },
+    "startDevotion": { "title": "Timata i te Tuutuu" },
+    "createPlaylist": {
+      "title": "Hangaia Rarangi Rarangi Purei Hou",
+      "button": "Hangaia Rārangipāpāho",
+      "inputPlaceholder": "Whakauruhia te Ingoa Rarangi Purei",
+      "success": "Kua taapirihia ki te Rarangi Purei"
+    },
+    "login": "Me takiuru koe ki te tiimata i te tapu"
+  },
+  "options": {
+    "shared": {
+      "share": "Tohaina",
+      "report": "Ripoata Ihirangi",
+      "shareOthers": "Tohaina ki etahi atu",
+      "copy": "Hono Tārua",
+      "more": "Tahi atu"
+    },
+    "audio": {
+      "download": "Tangohia",
+      "addFavorite": "Taapirihia ki Nga Makau",
+      "addPlaylist": "Taapirihia ki te Rarangi Purei",
+      "removeFavorite": "Tango mai i te Makau",
+      "removePlaylist": "Tango mai i te Rārangipurei",
+      "removeDownload": "Tango mai i nga Tikiake"
+    },
+    "playlist": { "edit": "Whakatika", "delete": "Mukua Rārangipurei" },
+    "startDevotion": "Timata i te Tuutuu"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Kua taapirihia ki te Rarangi Purei",
+      "delete": "Tango mai i te Rarangi Purei",
+      "create": "Rarangi Purei Hangaia",
+      "destroy": "Mukua te Rārangipurei"
+    },
+    "favorites": { "add": "Kua Taapirihia ki Nga Makau", "remove": "Tangohia mai i te Makau" },
+    "downloads": { "remove": "Tango mai i nga Tikiake" }
+  },
+  "buttons": { "loop": "Koromeke", "shuffle": "Riwhi" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Rapu ..." },
+    "notification": { "success": "Angitu! Ka tukuna he imeera ki to nama." },
+    "button": { "sending": "Kei te Tuku ..." },
+    "modalSelector": { "cancel": "Whakakore" },
+    "loading": "Kei te utaina"
+  },
+  "bible": {
+    "header": "Paipera",
+    "oldTestament": "Faufaa Tahito",
+    "newTestament": "Kawenata Hou",
+    "popularBooks": "Pukapuka rongonui"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Rapu",
+    "cancelButton": "CANCEL",
+    "searchResults": "Nga Hua Rapu",
+    "filterButton": "Tātari",
+    "teachings": { "title": "Nga Whakaako" },
+    "bible": { "title": "Paipera" }
+  },
+  "addToPlaylistsModal": {
+    "title": "Taapirihia ki te Rarangi Purei",
+    "button": "Hangaia Rārangipāpāho"
+  },
+  "createPlaylistModal": {
+    "title": "Hangaia Rarangi Rarangi Purei Hou",
+    "button": "Hangaia Rārangipāpāho",
+    "inputPlaceholder": "Whakauruhia te Ingoa Rarangi Purei"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Kua taapirihia ki te Rarangi Purei",
+      "remove": "Tango mai i te Rarangi Purei",
+      "create": "Rarangi Purei Hangaia",
+      "delete": "Mukua te Rārangipurei"
+    },
+    "favorites": { "add": "Kua Taapirihia ki Nga Makau", "remove": "Tangohia mai i te Makau" },
+    "downloads": { "remove": "Tango mai i nga Tikiake" },
+    "facebook": { "loginError": "Kua hapa te takiuru" },
+    "google": { "loginError": "Kua hapa te takiuru" }
+  },
+  "playlists": { "trackLabel": "Aroturuki", "tracksLabel": "Riu" },
+  "mediaList": { "tracksLabel": "Riu", "remove": "Tango" },
+  "tutorialPage": { "done": "Kua Oti", "skip": "Hūpeke" },
+  "loginModal": { "login": "Takiuru" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Kei te Tangohia", "complete": "Tikiake Kua Oti" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Tirohia te Paipera",
+      "subtitle1": "Haere ki roto i te Paipera katoa ki a maatau, ka tiimata ranei to haerenga.",
+      "title2": "Whakarongo & Whakauru",
+      "subtitle2": "Ka tukuna koe e te kaipupuri papaaho kia ruku koe ki te THRU i nga korero o te Paipera me te ngawari.",
+      "title3": "Tirohia Nga Whakaako",
+      "subtitle3": "Whakauru atu ki te Paipera kaore i pera i mua atu ma te whakawhiti i nga korero Paipera me te Whakaako.",
+      "title4": "Matapakihia te Paipera",
+      "subtitle4": "Hono atu ki tetahi roopu ki te ako i nga THRU o nga akoranga o te Paipera me nga kaupapa me etahi atu.",
+      "title5": "Tangohia, Tohaina",
+      "subtitle5": "Kia pai ki te whakarongo ki te Kupu a te Atua i te wa-haere-haere ki te tohatoha atu ki o hoa.",
+      "title6": "Tiaki & Waihanga",
+      "subtitle6": "Penapenahia o whakaakoranga pai me nga karaipiture Paipera, hangaia ranei he raarangi raarangi ritenga.",
+      "title7": "Nga Whakamaaonga a Rōpū",
+      "subtitle7": "Me whakatenatena, kia whakaohongia e etahi me nga karakia haangai roopu o ia ra."
+    },
+    "registerPage": {
+      "noThanks": "Kore Mihi",
+      "haveAccount": "He kaute?",
+      "createAccount": "Hangaia taku Kaute",
+      "title1": "Whakawhitiwhiti korero me etahi atu",
+      "subtitle1": "Matapakihia o kaupapa pai me nga whiti paipera me etahi atu.",
+      "title2": "Puka me te Tukutahi Rārangipurei",
+      "subtitle2": "Hangaia nga raarangi o nga mea pai ki a koe i te waahi kotahi.",
+      "title3": "Tirohia o Makau",
+      "subtitle3": "Penapena ka hoki mai ka toro ki o makau ka whai ake.",
+      "title4": "Hoki Mai",
+      "subtitle4": "Hangaia he kaute ka uru ki o maatau waahanga katoa."
+    }
+  },
+  "app": {
+    "close": "kati",
+    "accept": "Whakaae",
+    "reject": "Whakakahore",
+    "constructionInProgress": "TE HANGA I TE WHAKAMUTUNGA",
+    "downloadComplete": "Tikiake Kua Oti",
+    "downloading": "Kei te Tangohia",
+    "downloadFailed": "I Rahua te Tikiake",
+    "sendAFile": "Kei te hiahia tetahi ki te tuku i tetahi konae ki a koe"
+  },
+  "transferring": { "tryAgain": "ngana ano", "close": "kati" },
+  "checkDevice": {
+    "check": "Tirohia To Pūrere",
+    "makeSure": "Kia mahara ki te tahuri Wifi-Direct i runga i te taputapu a to hoa, kei te whānuitanga hoki.",
+    "continue": "Haere tonu"
+  },
+  "connectToDevice": { "connect": "Hono atu ki tetahi Pūrere" },
+  "pairing": {
+    "connect": "Hono atu ki tetahi Pūrere",
+    "pairing": "Takirua",
+    "success": "Takirua angitu",
+    "failed": "I Rahua te takirua o te taputapu",
+    "makeSure": "Kia mahara ki te tahuri (Wifi-Direct) ki runga i te taputapu a to hoa, kei te whānuitanga hoki.",
+    "continue": "Haere tonu",
+    "tryAgain": "Ngana ano"
+  },
+  "selectNetworkType": {
+    "connect": "Hono atu ki tetahi taputapu",
+    "share": "Tohaina ki te Wifi Direct",
+    "send": "Tukuna te konae ki te wifi tika?",
+    "continue": "Haere tonu"
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "selectLanguage": { "heading": "Chwazi lang ou ye kounye a", "mainAction": "Chwazi lang" },
+  "menu": {
+    "anonymousTitle": "Kont ou",
+    "anonymousAction": "Ouvri sesyon an",
+    "editProfileAction": "Edite pwofil la",
+    "verifyProfileAction": "Verifye pwofil",
+    "bibleSection": "Bib la",
+    "teachingsSection": "Ansèyman",
+    "librarySection": "Bibliyotèk mwen an",
+    "groupsSection": "Gwoup yo",
+    "donateSection": "Fè don",
+    "settingsSection": "Anviwònman",
+    "signOut": "Dekonekte",
+    "modals": {
+      "verifyProfile": {
+        "title": "Ou pa verifye",
+        "message": "Lis ou yo pa pral senkronize epi ou pa kapab kreye gwoup yo. Tanpri tcheke imèl ou a ranpli enskripsyon an.",
+        "firstButton": "Kontinye",
+        "secondButton": "Enskri yon nouvo pwofil"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Konekte",
+    "emailPlaceholder": "Adrès elektronik ou",
+    "passwordPlaceholder": "Modpas ou",
+    "forgotAction": "Bliye modpas?",
+    "callToAction": "Siyen nan",
+    "signInAlternatives": "Oswa Siyen nan lè l sèvi avèk",
+    "noAccountAction": "Pa gen kont? Kreye yon sèl",
+    "notifications": {
+      "invalidCredentials": "Kalifikasyon envalid",
+      "inProgress": "Siyen deja nan pwogrè",
+      "notAvailable": "Sèvis jwe pa disponib"
+    }
+  },
+  "signUp": {
+    "header": "Kreye kont",
+    "emailPlaceholder": "Adrès elektronik ou",
+    "passwordPlaceholder": "Modpas ou",
+    "privateAction": "Fè Kont Prive",
+    "termsDisclaimer": {
+      "pre": "Lè ou klike sou Enskripsyon ou endike ke ou te li epi mwen dakò",
+      "terms": "tèm yo",
+      "post": "."
+    },
+    "callToAction": "Enskri",
+    "signUpAlternatives": "Oswa Enskri lè l sèvi avèk",
+    "haveAnAccountAction": "Gen yon kont?",
+    "notifications": {
+      "invalidUsername": "Non itilizatè yo limite a sa sèlman 20 karaktè alfanumerik (chif ak lèt ​​regilye)",
+      "invalidPassword": "Modpas ta dwe gen omwen 3 karaktè yo epi yo dwe yon konbinezon de karaktè majiskil ak miniskil ki gen omwen yon nimewo oswa karaktè espesyal"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Kapab kreye yon kont",
+        "message": "Adrès imèl sa a deja egziste.",
+        "firstButton": "Konekte",
+        "secondButton": "Fèmen"
+      },
+      "privateAccount": {
+        "title": "Kont prive",
+        "message": "Lè w fè kont ou prive, w ap kache li pou lòt moun pa dekouvri yo.",
+        "firstButton": "Aksepte",
+        "secondButton": "N bès"
+      },
+      "success": {
+        "title": "Kont kreye!",
+        "message": "Kont ou te kreye avèk siksè. Tcheke bwat resepsyon ou a pou konfime kont ou epi siyen an.",
+        "firstButton": "Konekte"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Reyajiste modpas",
+    "emailPlaceholder": "Adrès elektronik ou",
+    "message": "Tanpri antre imèl ou a Reyajiste modpas ou pou kont ou.",
+    "callToAction": "Reyajiste modpas",
+    "notifications": {
+      "success": "Nou jis voye yon imèl nan bwat resepsyon ou",
+      "emailNotFoundError": "Imèl pa te jwenn",
+      "invalidEmailError": "Fòma imèl ki pa valab"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Fini Enstalasyon",
+    "message": "Yon imèl te voye nan adrès imèl la ou te antre nan. Tanpri gade detay imel la pou konplete enskripsyon an.",
+    "callToAction": "Sote pou kounye a"
+  },
+  "teachings": {
+    "dailyText": "Emisyon Jodi a",
+    "journeyTitle": "Kòmanse Vwayaj ou",
+    "journeySubtitle": "Tout ansèyman depi nan kòmansman jiska fini",
+    "journeyCardTitle": "215 semèn Vwayaj nan Bib la",
+    "journeyCardSubtitle": "Koute sou tan ou",
+    "tracksLabel": "Tracks"
+  },
+  "teaching": {
+    "header": "Ansèyman",
+    "loading": "Chaje ...",
+    "player": {
+      "audioSpeed": "Odyo vitès",
+      "loading": "Chaje",
+      "castingError": "Pa gen aparèy ki disponib"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Kontinye Tande", "secondButton": "Kòmanse vwayaj ou" }
+    }
+  },
+  "journey": { "byDate": "Pa Dat", "bySeries": "Pa Seri", "sections": { "tracksLabel": "Tracks" } },
+  "library": {
+    "header": "Bibliyotèk mwen an",
+    "tabs": { "downloads": "Downloads", "favorites": "Favoris", "playlists": "Playlists" }
+  },
+  "groups": {
+    "header": "Gwoup yo",
+    "createGroup": {
+      "title": "Kreye nouvo gwoup",
+      "groupNameLabel": "NON GROUP lan",
+      "groupNameInputPlaceHolder": "Non",
+      "descriptionLabel": "DESKRIPSYON",
+      "descriptionInputPlaceHolder": "Ajoute Deskripsyon",
+      "inviteLabel": "Envite Itilizatè yo",
+      "inviteButton": "Envite nouvo itilizatè yo",
+      "button": "Kreye Gwoup",
+      "invalidGroupName": "Mete yon non valab",
+      "groupNameTooLong": "Non gwoup la pa dwe gen plis pase 25 karaktè"
+    },
+    "devotionNotStartAlert": "Yon devosyon pa te kòmanse pou gwoup sa a",
+    "membersLabel": "Manm yo",
+    "chatModalMemberSubtitleLabel": "manm",
+    "chatModalMembersSubtitleLabel": "manm yo",
+    "chat": {
+      "listeningToLabel": "Koute",
+      "loadingTrackLabel": "Chaje tras ...",
+      "inputPlaceHolder": "Ekri Mesaj",
+      "deletePost": "Efase Post",
+      "deleteMessage": "te efase yon mesaj"
+    },
+    "groupSettings": {
+      "participantsSection": "Patisipan yo",
+      "viewAll": "Wè tout",
+      "invite": "Envite nouvo itilizatè yo",
+      "endDevotion": "Fen Devosyon Gwoup",
+      "deleteGroup": "Efase Gwoup",
+      "leaveGroup": "Kite Gwoup"
+    },
+    "userDirectory": {
+      "header": "Anyè itilizatè",
+      "remove": "Retire",
+      "anonymous": "Anonim",
+      "send": "Voye"
+    },
+    "inviteUser": { "placeHolder": "Rechèch", "send": "Voye" }
+  },
+  "chat": {
+    "header": "Gwoup Chèn",
+    "settings": {
+      "header": "Gwoup Anviwònman",
+      "endDevotion": {
+        "alertTitle": "Fini Devosyon",
+        "alertMessage": "Èske ou sèten ou vle mete fen nan devosyon sa a?",
+        "alertCancel": "Anile",
+        "alertConfirm": "Wi",
+        "endDevotionLabel": "te fini devosyon sa a.",
+        "hasEnded": "Devosyon sa a fini"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Kòmanse devosyon",
+    "alertMessage": "Èske ou sèten ou vle kòmanse devosyon ak gwoup% {name}?",
+    "alertCancel": "Anile",
+    "alertConfirm": "Wi",
+    "devotionStartedLabel": "te kòmanse yon devosyon."
+  },
+  "settings": {
+    "header": "Anviwònman",
+    "tabs": { "profile": "Profile", "media": "Medya", "notifications": "Notifikasyon" },
+    "profile": {
+      "account": "Kont",
+      "username": "Non itilizatè",
+      "email": "Imèl",
+      "editButton": "Edite",
+      "edit": {
+        "save": "Sove",
+        "username": {
+          "header": "Non itilizatè",
+          "successAlert": "Chanjman ou te sove.",
+          "failedAlert": "Echwe pou konsève pou chanjman an."
+        },
+        "email": {
+          "header": "Imèl",
+          "successAlert": "Chanjman ou te sove.",
+          "failedAlert": "Echwe pou konsève pou chanjman an."
+        }
+      },
+      "languages": "Lang",
+      "signIn": "Konekte",
+      "signOut": "Siyen soti nan kont",
+      "legal": "Legal",
+      "termsConditions": "tèm ak Kondisyon",
+      "privacyPolicy": "Règleman sou enfòmasyon prive",
+      "support": "Sipò",
+      "reportAProblem": "Rapòte yon Pwoblèm",
+      "tutorial": "Leson patikilye",
+      "reportBug": {
+        "header": "Rapòte yon Pwoblèm",
+        "send": "Voye",
+        "subject": "SIJÈ",
+        "subjectPlaceHolder": "Sijè",
+        "description": "DESKRIPSYON",
+        "descriptionPlaceHolder": "Deskripsyon",
+        "successAlert": "Mèsi, nou te resevwa mesaj ou a.",
+        "failedAlert": "Echwe pou voye mesaj la."
+      },
+      "version": "Vèsyon"
+    },
+    "media": {
+      "audio": "Odyo",
+      "autoplay": "Otoplay Audio",
+      "storage": "Depo",
+      "downloadWifi": "Se sèlman telechaje sou Wi-Fi",
+      "deleteCache": "Efase Cache"
+    },
+    "notifications": {
+      "notifications": "Notifikasyon",
+      "groupInvitation": "Envitasyon Gwoup",
+      "devotions": "Envite nan devosyon",
+      "file": "Konfimasyon Transfè File"
+    }
+  },
+  "inviteUsers": { "header": "Envite Itilizatè yo" },
+  "playlist": {
+    "header": "Playlist",
+    "audioFileLabel": "Audio dosye",
+    "audioFilesLabel": "Dosye Audio"
+  },
+  "collection": { "header": "Koleksyon", "audioFilesLabel": "Dosye Audio" },
+  "modal": {
+    "close": "fèmen",
+    "addToPlaylist": { "title": "Add nan Playlist", "button": "Kreye Playlist" },
+    "startDevotion": { "title": "Kòmanse devosyon" },
+    "createPlaylist": {
+      "title": "Kreye nouvo Playlist",
+      "button": "Kreye Playlist",
+      "inputPlaceholder": "Antre Non Playlist",
+      "success": "Te ajoute nan Playlist"
+    },
+    "login": "Ou bezwen konekte yo kòmanse yon devosyon"
+  },
+  "options": {
+    "shared": {
+      "share": "Pataje",
+      "report": "Rapò kontni",
+      "shareOthers": "Pataje ak lòt moun",
+      "copy": "Kopi Link",
+      "more": "Plis"
+    },
+    "audio": {
+      "download": "Telechaje",
+      "addFavorite": "Ajoute Favoris",
+      "addPlaylist": "Add nan Playlist",
+      "removeFavorite": "Retire nan Favorite",
+      "removePlaylist": "Retire nan Playlist",
+      "removeDownload": "Retire nan Downloads"
+    },
+    "playlist": { "edit": "Edite", "delete": "Efase Playlist" },
+    "startDevotion": "Kòmanse devosyon"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Te ajoute nan Playlist",
+      "delete": "Retire nan Playlist",
+      "create": "Kreye Playlist",
+      "destroy": "Playlist efase"
+    },
+    "favorites": { "add": "Te ajoute nan Favorites", "remove": "Retire nan Favorite" },
+    "downloads": { "remove": "Retire nan Downloads" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Shuffle" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Rechèch ..." },
+    "notification": { "success": "Siksè! Y ap voye yon imèl nan kont ou." },
+    "button": { "sending": "Voye ..." },
+    "modalSelector": { "cancel": "Anile" },
+    "loading": "Chaje"
+  },
+  "bible": {
+    "header": "Bib la",
+    "oldTestament": "Ansyen Testaman",
+    "newTestament": "Nouvo Testaman",
+    "popularBooks": "Liv popilè"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Rechèch",
+    "cancelButton": "ANILE",
+    "searchResults": "Rechèch rezilta yo",
+    "filterButton": "Filtre",
+    "teachings": { "title": "Ansèyman" },
+    "bible": { "title": "Bib la" }
+  },
+  "addToPlaylistsModal": { "title": "Add nan Playlist", "button": "Kreye Playlist" },
+  "createPlaylistModal": {
+    "title": "Kreye nouvo Playlist",
+    "button": "Kreye Playlist",
+    "inputPlaceholder": "Mete non Playlist"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Te ajoute nan Playlist",
+      "remove": "Retire nan Playlist",
+      "create": "Kreye Playlist",
+      "delete": "Playlist efase"
+    },
+    "favorites": { "add": "Te ajoute nan Favorites", "remove": "Retire nan Favorites" },
+    "downloads": { "remove": "Retire nan Downloads" },
+    "facebook": { "loginError": "Login fail ak erè" },
+    "google": { "loginError": "Login fail ak erè" }
+  },
+  "playlists": { "trackLabel": "Track", "tracksLabel": "Tracks" },
+  "mediaList": { "tracksLabel": "Tracks", "remove": "Retire" },
+  "tutorialPage": { "done": "Fè", "skip": "Sote" },
+  "loginModal": { "login": "Ouvri sesyon an" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Telechaje", "complete": "Download Ranpli" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Eksplore Bib la",
+      "subtitle1": "Vwayaje nan tout Bib la avèk nou, oswa kòmanse yon vwayaj nan pwòp ou yo.",
+      "title2": "Koute & Angaje",
+      "subtitle2": "Jwè medya a pèmèt ou plonje nan THRU kontni BIB la avèk fasilite.",
+      "title3": "Dekouvri ansèyman",
+      "subtitle3": "Angaje nan Bib la tankou pa janm anvan pa kwa-referans kontni Bib la ak ansèyman.",
+      "title4": "Diskite sou Bib la",
+      "subtitle4": "Antre nan yon gwoup yo etidye THRU ansèyman yo BIBLIK ak sijè ak lòt moun.",
+      "title5": "Telechaje & Pataje",
+      "subtitle5": "Jwi koute Pawòl Bondye a sou-a-ale ak pataje li avèk zanmi ou yo.",
+      "title6": "Sove & Kreye",
+      "subtitle6": "Sove ansèyman ou pi renmen yo ak vèsè Bib ou oswa kreye yon playlist koutim.",
+      "title7": "Gwoup devosyon",
+      "subtitle7": "Fè ankouraje ak enspire pa lòt moun ki gen devotionals gwoup chak jou."
+    },
+    "registerPage": {
+      "noThanks": "Non mèsi",
+      "haveAccount": "Gen yon kont?",
+      "createAccount": "Kreye Kont mwen an",
+      "title1": "Diskite avèk lòt moun",
+      "subtitle1": "Diskite sou sijè ou pi renmen yo ak vèsè biblik yo avèk lòt moun.",
+      "title2": "Magazen ak senkro Playlists",
+      "subtitle2": "Bati lis kontni pi renmen ou nan yon sèl kote.",
+      "title3": "Gade Favoris ou yo",
+      "subtitle3": "Sere epi tounen vin vizite favorites ou nan yon moman pita.",
+      "title4": "Bon retou",
+      "subtitle4": "Kreye yon kont epi pou yo jwenn aksè a tout karakteristik nou yo."
+    }
+  },
+  "app": {
+    "close": "fèmen",
+    "accept": "Aksepte",
+    "reject": "Rejte",
+    "constructionInProgress": "KONSTRIKSYON NAN PWOGRÈ",
+    "downloadComplete": "Download Ranpli",
+    "downloading": "Telechaje",
+    "downloadFailed": "Telechaje echwe",
+    "sendAFile": "Yon moun vle voye yon dosye ba ou"
+  },
+  "transferring": { "tryAgain": "eseye anko", "close": "fèmen" },
+  "checkDevice": {
+    "check": "Tcheke aparèy ou an",
+    "makeSure": "Tanpri, asire w ke Wifi-Direct vire sou aparèy zanmi ou an epi li nan ranje.",
+    "continue": "Kontinye"
+  },
+  "connectToDevice": { "connect": "Konekte sou yon aparèy" },
+  "pairing": {
+    "connect": "Konekte sou yon aparèy",
+    "pairing": "Pè",
+    "success": "Pè avèk siksè",
+    "failed": "Aparèy Pè echwe",
+    "makeSure": "Tanpri asire w ke (Wifi-dirèk) vire sou aparèy zanmi ou an epi li nan ranje.",
+    "continue": "Kontinye",
+    "tryAgain": "Eseye anko"
+  },
+  "selectNetworkType": {
+    "connect": "Konekte sou yon aparèy",
+    "share": "Pataje ak Wifi dirèk",
+    "send": "Voye dosye sou wifi dirèk?",
+    "continue": "Kontinye"
+  }
+}

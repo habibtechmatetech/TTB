@@ -1,0 +1,393 @@
+{
+  "selectLanguage": { "heading": "Valitse nykyinen kieli", "mainAction": "Valitse kieli" },
+  "menu": {
+    "anonymousTitle": "Tilisi",
+    "anonymousAction": "Kirjaudu sisään",
+    "editProfileAction": "Muokkaa profiilia",
+    "verifyProfileAction": "Vahvista profiili",
+    "bibleSection": "raamattu",
+    "teachingsSection": "Opetuksia",
+    "librarySection": "Oma kirjasto",
+    "groupsSection": "Ryhmät",
+    "donateSection": "Lahjoittaa",
+    "settingsSection": "asetukset",
+    "signOut": "Kirjaudu ulos",
+    "modals": {
+      "verifyProfile": {
+        "title": "Sinua ei ole vahvistettu",
+        "message": "Luetteloitasi ei synkronoida, etkä voi luoda ryhmiä. Suorita rekisteröinti loppuun tarkistamalla sähköpostiosoitteesi.",
+        "firstButton": "Jatkaa",
+        "secondButton": "Rekisteröi uusi profiili"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Kirjaudu sisään",
+    "emailPlaceholder": "Sähköpostisi",
+    "passwordPlaceholder": "Salasanasi",
+    "forgotAction": "Unohtuiko salasana?",
+    "callToAction": "Kirjaudu sisään",
+    "signInAlternatives": "Tai Kirjaudu sisään käyttämällä",
+    "noAccountAction": "Ei tiliä? Luoda yksi",
+    "notifications": {
+      "invalidCredentials": "Virheelliset kirjautumistiedot",
+      "inProgress": "Kirjaudu sisään jo käynnissä",
+      "notAvailable": "Play-palvelut eivät ole käytettävissä"
+    }
+  },
+  "signUp": {
+    "header": "Luo tili",
+    "emailPlaceholder": "Sähköpostisi",
+    "passwordPlaceholder": "Salasanasi",
+    "privateAction": "Tee tilistä yksityinen",
+    "termsDisclaimer": {
+      "pre": "Napsauttamalla Rekisteröinti osoitat, että olet lukenut ja hyväksyn",
+      "terms": "ehdot",
+      "post": "."
+    },
+    "callToAction": "Kirjaudu",
+    "signUpAlternatives": "Tai Rekisteröidy käyttämällä",
+    "haveAnAccountAction": "On tili?",
+    "notifications": {
+      "invalidUsername": "Käyttäjätunnukset voivat olla enintään 20 aakkosnumeerista merkkiä (numerot ja tavalliset kirjaimet)",
+      "invalidPassword": "Salasanassa on oltava vähintään 3 merkkiä ja se on yhdistelmä isoja ja pieniä kirjaimia, joissa on vähintään yksi numero tai erikoismerkki"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Tilin luominen epäonnistui",
+        "message": "Tämä sähköpostiosoite on jo olemassa.",
+        "firstButton": "Kirjaudu sisään",
+        "secondButton": "kiinni"
+      },
+      "privateAccount": {
+        "title": "Yksityinen tili",
+        "message": "Tekemällä tilisi yksityiseksi piilotat sen siitä, että muut eivät löydä sitä.",
+        "firstButton": "Hyväksyä",
+        "secondButton": "Hylkää"
+      },
+      "success": {
+        "title": "Tili luotu!",
+        "message": "Tilisi luominen onnistui. Tarkista postilaatikostasi vahvistaaksesi tilisi ja kirjautumalla sisään.",
+        "firstButton": "Kirjaudu sisään"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Nollaa salasana",
+    "emailPlaceholder": "Sähköpostisi",
+    "message": "Anna sähköpostiosoitteesi palauttaaksesi tilisi salasanan.",
+    "callToAction": "Nollaa salasana",
+    "notifications": {
+      "success": "Lähetimme juuri sähköpostin postilaatikkoosi",
+      "emailNotFoundError": "Sähköpostiosoitetta ei löytynyt",
+      "invalidEmailError": "Virheellinen sähköpostimuoto"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Viimeistele asennus",
+    "message": "Sähköposti on lähetetty antamaasi sähköpostiosoitteeseen. Katso sähköpostitiedot rekisteröinnin viimeistelemiseksi.",
+    "callToAction": "Ohita nyt"
+  },
+  "teachings": {
+    "dailyText": "Tämän päivän lähetys",
+    "journeyTitle": "Aloita matkanne",
+    "journeySubtitle": "Kaikki opetukset alusta loppuun",
+    "journeyCardTitle": "215 viikon matka Raamatun läpi",
+    "journeyCardSubtitle": "Kuuntele aikaa",
+    "tracksLabel": "Kappaleita"
+  },
+  "teaching": {
+    "header": "Opetuksia",
+    "loading": "Ladataan...",
+    "player": {
+      "audioSpeed": "Äänen nopeus",
+      "loading": "Ladataan",
+      "castingError": "Laitteita ei ole käytettävissä"
+    },
+    "modals": { "firstTime": { "firstButton": "Jatka kuuntelua", "secondButton": "Aloita matka" } }
+  },
+  "journey": {
+    "byDate": "Päivämäärän mukaan",
+    "bySeries": "Sarjoittain",
+    "sections": { "tracksLabel": "Kappaleita" }
+  },
+  "library": {
+    "header": "Oma kirjasto",
+    "tabs": { "downloads": "Lataukset", "favorites": "Suosikit", "playlists": "Soittolistat" }
+  },
+  "groups": {
+    "header": "Ryhmät",
+    "createGroup": {
+      "title": "Luo uusi ryhmä",
+      "groupNameLabel": "RYHMÄN NIMI",
+      "groupNameInputPlaceHolder": "Nimi",
+      "descriptionLabel": "KUVAUS",
+      "descriptionInputPlaceHolder": "Lisää kuvaus",
+      "inviteLabel": "Kutsu käyttäjiä",
+      "inviteButton": "Kutsu uusia käyttäjiä",
+      "button": "Luo ryhmä",
+      "invalidGroupName": "Anna kelvollinen nimi",
+      "groupNameTooLong": "Ryhmän nimessä saa olla enintään 25 merkkiä"
+    },
+    "devotionNotStartAlert": "Omistautumista ei ole aloitettu tälle ryhmälle",
+    "membersLabel": "Jäsenet",
+    "chatModalMemberSubtitleLabel": "jäsen",
+    "chatModalMembersSubtitleLabel": "jäsenet",
+    "chat": {
+      "listeningToLabel": "Kuunnella",
+      "loadingTrackLabel": "Ladataan raitaa ...",
+      "inputPlaceHolder": "Kirjoita viesti",
+      "deletePost": "Poista viesti",
+      "deleteMessage": "on poistanut viestin"
+    },
+    "groupSettings": {
+      "participantsSection": "Osallistujat",
+      "viewAll": "Näytä kaikki",
+      "invite": "Kutsu uusia käyttäjiä",
+      "endDevotion": "Lopeta ryhmän omistautuminen",
+      "deleteGroup": "Poista ryhmä",
+      "leaveGroup": "Jätä ryhmä"
+    },
+    "userDirectory": {
+      "header": "Käyttäjähakemisto",
+      "remove": "Poista",
+      "anonymous": "Nimetön",
+      "send": "Lähettää"
+    },
+    "inviteUser": { "placeHolder": "Hae", "send": "Lähettää" }
+  },
+  "chat": {
+    "header": "Ryhmäkanava",
+    "settings": {
+      "header": "Ryhmäasetukset",
+      "endDevotion": {
+        "alertTitle": "Lopeta omistautuminen",
+        "alertMessage": "Haluatko varmasti lopettaa tämän omistautumisen?",
+        "alertCancel": "Peruuttaa",
+        "alertConfirm": "Joo",
+        "endDevotionLabel": "päättyi tähän omistautumiseen.",
+        "hasEnded": "Tämä omistautuminen on päättynyt"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Aloita omistautuminen",
+    "alertMessage": "Haluatko varmasti aloittaa omistautumisen% {name} -ryhmän kanssa?",
+    "alertCancel": "Peruuttaa",
+    "alertConfirm": "Joo",
+    "devotionStartedLabel": "on aloittanut omistautumisen."
+  },
+  "settings": {
+    "header": "asetukset",
+    "tabs": { "profile": "Profiili", "media": "Media", "notifications": "Ilmoitukset" },
+    "profile": {
+      "account": "Tili",
+      "username": "Käyttäjätunnus",
+      "email": "Sähköposti",
+      "editButton": "Muokata",
+      "edit": {
+        "save": "Tallentaa",
+        "username": {
+          "header": "Käyttäjätunnus",
+          "successAlert": "Muutoksesi on tallennettu.",
+          "failedAlert": "Muutoksen tallentaminen epäonnistui."
+        },
+        "email": {
+          "header": "Sähköposti",
+          "successAlert": "Muutoksesi on tallennettu.",
+          "failedAlert": "Muutoksen tallentaminen epäonnistui."
+        }
+      },
+      "languages": "Kieli (kielet",
+      "signIn": "Kirjaudu sisään",
+      "signOut": "Kirjaudu ulos tilistä",
+      "legal": "Laillinen",
+      "termsConditions": "käyttöehdot",
+      "privacyPolicy": "Tietosuojakäytäntö",
+      "support": "Tuki",
+      "reportAProblem": "Ilmoita ongelmasta",
+      "tutorial": "Opetusohjelma",
+      "reportBug": {
+        "header": "Ilmoita ongelmasta",
+        "send": "Lähettää",
+        "subject": "Aihe",
+        "subjectPlaceHolder": "Aihe",
+        "description": "KUVAUS",
+        "descriptionPlaceHolder": "Kuvaus",
+        "successAlert": "Kiitos, olemme saaneet viestisi.",
+        "failedAlert": "Viestin lähettäminen epäonnistui."
+      },
+      "version": "Versio"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Toista ääni automaattisesti",
+      "storage": "Varastointi",
+      "downloadWifi": "Lataa vain Wi-Fi-verkossa",
+      "deleteCache": "Poista välimuisti"
+    },
+    "notifications": {
+      "notifications": "Ilmoitukset",
+      "groupInvitation": "Ryhmäkutsu",
+      "devotions": "Kutsu hartauksiin",
+      "file": "Tiedostonsiirron vahvistus"
+    }
+  },
+  "inviteUsers": { "header": "Kutsu käyttäjiä" },
+  "playlist": {
+    "header": "Soittolista",
+    "audioFileLabel": "Äänitiedosto",
+    "audioFilesLabel": "Äänitiedostot"
+  },
+  "collection": { "header": "Kokoelma", "audioFilesLabel": "Äänitiedostot" },
+  "modal": {
+    "close": "kiinni",
+    "addToPlaylist": { "title": "Lisää soittolistaan", "button": "Luo soittolista" },
+    "startDevotion": { "title": "Aloita omistautuminen" },
+    "createPlaylist": {
+      "title": "Luo uusi soittolista",
+      "button": "Luo soittolista",
+      "inputPlaceholder": "Anna soittolistan nimi",
+      "success": "Lisätty soittolistaan"
+    },
+    "login": "Sinun on kirjauduttava sisään aloittaaksesi omistautumisen"
+  },
+  "options": {
+    "shared": {
+      "share": "Jaa",
+      "report": "Ilmoita sisällöstä",
+      "shareOthers": "Jaa muiden kanssa",
+      "copy": "Kopioi linkki",
+      "more": "Lisää"
+    },
+    "audio": {
+      "download": "ladata",
+      "addFavorite": "Lisää suosikkeihin",
+      "addPlaylist": "Lisää soittolistaan",
+      "removeFavorite": "Poista suosikeista",
+      "removePlaylist": "Poista soittolistalta",
+      "removeDownload": "Poista Latauksista"
+    },
+    "playlist": { "edit": "Muokata", "delete": "Poista soittolista" },
+    "startDevotion": "Aloita omistautuminen"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Lisätty soittolistaan",
+      "delete": "Poistettu soittolistalta",
+      "create": "Luotu soittolista",
+      "destroy": "Poistettu soittolista"
+    },
+    "favorites": { "add": "Lisätty Suosikkeihin", "remove": "Poistettu Suosikeista" },
+    "downloads": { "remove": "Poistettu Latauksista" }
+  },
+  "buttons": { "loop": "Silmukka", "shuffle": "Sekoita" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Hae..." },
+    "notification": { "success": "Menestys! Tilillesi lähetetään sähköposti." },
+    "button": { "sending": "Lähetetään ..." },
+    "modalSelector": { "cancel": "Peruuttaa" },
+    "loading": "Ladataan"
+  },
+  "bible": {
+    "header": "raamattu",
+    "oldTestament": "Vanha testamentti",
+    "newTestament": "Uusi testamentti",
+    "popularBooks": "Suosittuja kirjoja"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Hae",
+    "cancelButton": "PERUUTTAA",
+    "searchResults": "Hakutulokset",
+    "filterButton": "Suodattaa",
+    "teachings": { "title": "Opetuksia" },
+    "bible": { "title": "raamattu" }
+  },
+  "addToPlaylistsModal": { "title": "Lisää soittolistaan", "button": "Luo soittolista" },
+  "createPlaylistModal": {
+    "title": "Luo uusi soittolista",
+    "button": "Luo soittolista",
+    "inputPlaceholder": "Anna soittolistan nimi"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Lisätty soittolistaan",
+      "remove": "Poistettu soittolistalta",
+      "create": "Luotu soittolista",
+      "delete": "Poistettu soittolista"
+    },
+    "favorites": { "add": "Lisätty Suosikkeihin", "remove": "Poistettu Suosikeista" },
+    "downloads": { "remove": "Poistettu Latauksista" },
+    "facebook": { "loginError": "Sisäänkirjautuminen epäonnistui virheellä" },
+    "google": { "loginError": "Sisäänkirjautuminen epäonnistui virheellä" }
+  },
+  "playlists": { "trackLabel": "Seurata", "tracksLabel": "Kappaleita" },
+  "mediaList": { "tracksLabel": "Kappaleita", "remove": "Poista" },
+  "tutorialPage": { "done": "Tehty", "skip": "Ohita" },
+  "loginModal": { "login": "Kirjaudu sisään" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Viserrys", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Ladataan", "complete": "Lataus valmis" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Tutki Raamattua",
+      "subtitle1": "Käy läpi koko Raamattu kanssamme tai aloita oma matkanne.",
+      "title2": "Kuuntele ja ota mukaan",
+      "subtitle2": "Mediasoittimen avulla voit sukeltaa helposti Raamatun sisältöön.",
+      "title3": "Tutustu opetuksiin",
+      "subtitle3": "Harjoittele Raamattua kuin koskaan ennen vertaamalla Raamatun ja opetuksen sisältöä ristiin.",
+      "title4": "Keskustele Raamatusta",
+      "subtitle4": "Liity ryhmään tutkimaan Raamatun opetuksia ja aiheita THRU: n kanssa muiden kanssa.",
+      "title5": "Lataa ja jaa",
+      "subtitle5": "Nauti kuunnellessasi Jumalan sanaa tien päällä ja jaa se ystäviesi kanssa.",
+      "title6": "Tallenna ja luo",
+      "subtitle6": "Tallenna suosikkiopetuksesi ja raamatunjakeet tai luo mukautettu soittolista.",
+      "title7": "Ryhmähartaus",
+      "subtitle7": "Muita rohkaistaan ​​ja inspiroi heitä päivittäisillä ryhmäharrastuksilla."
+    },
+    "registerPage": {
+      "noThanks": "Ei kiitos",
+      "haveAccount": "On tili?",
+      "createAccount": "Luo Oma tili",
+      "title1": "Keskustele muiden kanssa",
+      "subtitle1": "Keskustele suosikkiaiheistasi ja raamatunjakeistasi muiden kanssa.",
+      "title2": "Tallenna ja synkronoi soittolistoja",
+      "subtitle2": "Luo suosikkisisältösi luettelot yhteen paikkaan.",
+      "title3": "Katso suosikkisi",
+      "subtitle3": "Säilytä ja palaa takaisin vierailemaan suosikkisi myöhemmin.",
+      "title4": "Tervetuloa takaisin",
+      "subtitle4": "Luo tili ja pääset käyttämään kaikkia ominaisuuksia."
+    }
+  },
+  "app": {
+    "close": "kiinni",
+    "accept": "Hyväksyä",
+    "reject": "Hylätä",
+    "constructionInProgress": "RAKENNUSTYÖ KÄYNNISSÄ",
+    "downloadComplete": "Lataus valmis",
+    "downloading": "Ladataan",
+    "downloadFailed": "Lataus epäonnistui",
+    "sendAFile": "Joku haluaa lähettää sinulle tiedoston"
+  },
+  "transferring": { "tryAgain": "yritä uudelleen", "close": "kiinni" },
+  "checkDevice": {
+    "check": "Tarkista laitteesi",
+    "makeSure": "Varmista, että Wifi-Direct on kytketty päälle ystäväsi laitteelle ja että se on kantaman sisällä.",
+    "continue": "Jatkaa"
+  },
+  "connectToDevice": { "connect": "Yhdistä laitteeseen" },
+  "pairing": {
+    "connect": "Yhdistä laitteeseen",
+    "pairing": "Pariliitos",
+    "success": "Yhdistäminen onnistui",
+    "failed": "Laitteen pariliitos epäonnistui",
+    "makeSure": "Varmista, että (Wifi-Direct) on kytketty päälle ystäväsi laitteelle ja että se on kantaman sisällä.",
+    "continue": "Jatkaa",
+    "tryAgain": "Yritä uudelleen"
+  },
+  "selectNetworkType": {
+    "connect": "Yhdistä laitteeseen",
+    "share": "Jaa Wifi Directin kanssa",
+    "send": "Lähetetäänkö tiedosto suoraan wifi-yhteyden kautta?",
+    "continue": "Jatkaa"
+  }
+}

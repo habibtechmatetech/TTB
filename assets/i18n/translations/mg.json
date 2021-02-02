@@ -1,0 +1,398 @@
+{
+  "selectLanguage": {
+    "heading": "Safidio ny fiteninao ankehitriny",
+    "mainAction": "Safidio ny fiteny"
+  },
+  "menu": {
+    "anonymousTitle": "Ny kaontinao",
+    "anonymousAction": "Hiditra",
+    "editProfileAction": "Amboary ny piraofilina",
+    "verifyProfileAction": "Hamarino ny piraofilina",
+    "bibleSection": "Malagasy",
+    "teachingsSection": "Enseignements",
+    "librarySection": "Ny tranombokiko",
+    "groupsSection": "Groups",
+    "donateSection": "Manomeza",
+    "settingsSection": "Settings",
+    "signOut": "Hivoaka",
+    "modals": {
+      "verifyProfile": {
+        "title": "Tsy voamarina ianao",
+        "message": "Ny lisitry anao dia tsy hasiana fampifanarahana ary tsy afaka mamorona vondrona ianao. Azafady mba jereo ny mailakao mba hamitana ny fisoratana anarana.",
+        "firstButton": "Continue",
+        "secondButton": "Hisoratra anarana piraofilina vaovao"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Hiditra",
+    "emailPlaceholder": "Ny mailakao",
+    "passwordPlaceholder": "Ny teny miafinao",
+    "forgotAction": "Hadino ny tenimiafina?",
+    "callToAction": "Hiditra",
+    "signInAlternatives": "Na Midira amin'ny fampiasana",
+    "noAccountAction": "Tsy misy kaonty? Mamorona iray",
+    "notifications": {
+      "invalidCredentials": "Taratasy fanamarinana tsy mety",
+      "inProgress": "Midira efa an-dàlana",
+      "notAvailable": "Tsy misy serivisy milalao"
+    }
+  },
+  "signUp": {
+    "header": "Hamorona kaonty",
+    "emailPlaceholder": "Ny mailakao",
+    "passwordPlaceholder": "Ny teny miafinao",
+    "privateAction": "Ataovy tsy miankina ny kaonty",
+    "termsDisclaimer": {
+      "pre": "Amin'ny fipihana ny Signup dia manondro ianao fa efa namaky sy nanaiky",
+      "terms": "ny teny",
+      "post": "."
+    },
+    "callToAction": "Hiditra Mpikambana",
+    "signUpAlternatives": "Na misoratra anarana mampiasa",
+    "haveAnAccountAction": "Manana kaonty?",
+    "notifications": {
+      "invalidUsername": "Voafetra amin'ny litera alphanumeric 20 (isa sy litera mahazatra) ny anarana mpampiasa.",
+      "invalidPassword": "Ny teny miafina dia tokony hanana tarehin-tsoratra 3 farafahakeliny ary atambatra tarehin-tsoratra ambony sy ambany miaraka amina isa na toetra manokana farafaharatsiny"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Tsy afaka mamorona kaonty",
+        "message": "Efa misy io adiresy mailaka io.",
+        "firstButton": "Hiditra",
+        "secondButton": "Close"
+      },
+      "privateAccount": {
+        "title": "Kaonty tsy miankina",
+        "message": "Raha manafina ny kaontinao ianao dia manafina azy tsy ho hitan'ny hafa.",
+        "firstButton": "Ekeo",
+        "secondButton": "fitontonganan'ny"
+      },
+      "success": {
+        "title": "Namboarina ny kaonty!",
+        "message": "Namboarina soa aman-tsara ny kaontinao. Zahao ny boaty boaty hanamafisana ny kaontinao ary hiditra.",
+        "firstButton": "Hiditra"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Avereno ny teny miafina",
+    "emailPlaceholder": "Ny mailakao",
+    "message": "Ampidiro azafady ny mailakao hamerenanao ny teny miafinao amin'ny kaontinao.",
+    "callToAction": "Avereno ny teny miafina",
+    "notifications": {
+      "success": "Vao nandefa mailaka tany amin'ny boaty mailakao izahay",
+      "emailNotFoundError": "Tsy hita ny mailaka",
+      "invalidEmailError": "Endrika mailaka tsy mety"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Famaranana fametrahana",
+    "message": "Nisy mailaka nalefa tany amin'ny adiresy mailaka nataonao. Azafady mba jereo ny antsipirian'ny mailaka hamenoana ny fisoratana anarana.",
+    "callToAction": "Skip for now"
+  },
+  "teachings": {
+    "dailyText": "Broadcast anio",
+    "journeyTitle": "Atombohy ny dianao",
+    "journeySubtitle": "Ny fampianarana rehetra hatramin'ny voalohany ka hatramin'ny farany",
+    "journeyCardTitle": "Fitsangatsanganana herinandro 215 amin'ny alàlan'ny Baiboly",
+    "journeyCardSubtitle": "Mihainoa amin'ny fotoanao",
+    "tracksLabel": "Tracks"
+  },
+  "teaching": {
+    "header": "Enseignements",
+    "loading": "Loading ...",
+    "player": {
+      "audioSpeed": "Hafainganana Audio",
+      "loading": "Loading",
+      "castingError": "Tsy misy fitaovana azo alaina"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Tohizo ny fihainoana", "secondButton": "Atombohy ny dianao" }
+    }
+  },
+  "journey": {
+    "byDate": "Amin'ny daty",
+    "bySeries": "By Series",
+    "sections": { "tracksLabel": "Tracks" }
+  },
+  "library": {
+    "header": "Ny tranombokiko",
+    "tabs": { "downloads": "Downloads", "favorites": "Favorites", "playlists": "Playlists" }
+  },
+  "groups": {
+    "header": "Groups",
+    "createGroup": {
+      "title": "Mamorona Vondrona Vaovao",
+      "groupNameLabel": "ANARANA GROUP",
+      "groupNameInputPlaceHolder": "Anarana",
+      "descriptionLabel": "DESCRIPTION",
+      "descriptionInputPlaceHolder": "Manampia famaritana",
+      "inviteLabel": "Manasa mpampiasa",
+      "inviteButton": "Manasa mpampiasa vaovao",
+      "button": "Mamorona Vondrona",
+      "invalidGroupName": "Mampidira anarana mety",
+      "groupNameTooLong": "Ny anaran'ny vondrona dia tsy tokony ahitana tarehin-tsoratra mihoatra ny 25"
+    },
+    "devotionNotStartAlert": "Ny fanoloran-tena dia mbola tsy natomboka ho an'ity vondrona ity",
+    "membersLabel": "Ireo mpikambana",
+    "chatModalMemberSubtitleLabel": "member",
+    "chatModalMembersSubtitleLabel": "mpikambana",
+    "chat": {
+      "listeningToLabel": "Mihaino an'i",
+      "loadingTrackLabel": "Mandefa làlana ...",
+      "inputPlaceHolder": "Manorata hafatra",
+      "deletePost": "Fafao ny paositra",
+      "deleteMessage": "namafa hafatra"
+    },
+    "groupSettings": {
+      "participantsSection": "Ireo mpandray anjara",
+      "viewAll": "View All",
+      "invite": "Manasa mpampiasa vaovao",
+      "endDevotion": "Tapitra ny fanoloran-tena ho an'ny vondrona",
+      "deleteGroup": "Delete vondrona",
+      "leaveGroup": "Vondrona fialana"
+    },
+    "userDirectory": {
+      "header": "User Directory",
+      "remove": "Remove",
+      "anonymous": "Anonymous",
+      "send": "Send"
+    },
+    "inviteUser": { "placeHolder": "Search", "send": "Send" }
+  },
+  "chat": {
+    "header": "Channel Channel",
+    "settings": {
+      "header": "Fikirana vondrona",
+      "endDevotion": {
+        "alertTitle": "Tapitra ny fanoloran-tena",
+        "alertMessage": "Azonao antoka ve fa hampitsahatra izany fanoloran-tena izany ianao?",
+        "alertCancel": "hanafoana",
+        "alertConfirm": "Eny",
+        "endDevotionLabel": "namarana ity fandavan-tena ity.",
+        "hasEnded": "Tapitra io fifikirana io"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Atombohy ny fahafoizan-tena",
+    "alertMessage": "Azonao antoka ve fa hanomboka fifikirana amin'ny vondrona% {name} ianao?",
+    "alertCancel": "hanafoana",
+    "alertConfirm": "Eny",
+    "devotionStartedLabel": "nanomboka fanoloran-tena."
+  },
+  "settings": {
+    "header": "Settings",
+    "tabs": { "profile": "Profile", "media": "Media", "notifications": "Notifications" },
+    "profile": {
+      "account": "Account",
+      "username": "Anaran'ny mpampiasa",
+      "email": "E-mail",
+      "editButton": "Edit",
+      "edit": {
+        "save": "Save",
+        "username": {
+          "header": "Anaran'ny mpampiasa",
+          "successAlert": "Voatahiry ny fanovana nataonao.",
+          "failedAlert": "Tsy nahavita nitahiry ilay fanovana."
+        },
+        "email": {
+          "header": "Email",
+          "successAlert": "Voatahiry ny fanovana nataonao.",
+          "failedAlert": "Tsy nahavita nitahiry ilay fanovana."
+        }
+      },
+      "languages": "fiteny",
+      "signIn": "Hiditra",
+      "signOut": "Midira ny kaonty",
+      "legal": "Legal",
+      "termsConditions": "Fepetra sy fepetra",
+      "privacyPolicy": "politika Fiarovana fiainan'olona",
+      "support": "Support",
+      "reportAProblem": "Hampandre olana",
+      "tutorial": "Tutorial",
+      "reportBug": {
+        "header": "Hampandre olana",
+        "send": "Send",
+        "subject": "-DAHATSORATRA",
+        "subjectPlaceHolder": "Subject",
+        "description": "DESCRIPTION",
+        "descriptionPlaceHolder": "Description",
+        "successAlert": "Misaotra fa nahazo ny hafatrao izahay.",
+        "failedAlert": "Tsy nahomby nandefa ny hafatra."
+      },
+      "version": "Version"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Audio Autoplay",
+      "storage": "Storage",
+      "downloadWifi": "Ampidino amin'ny Wi-fi ihany",
+      "deleteCache": "Delete Cache"
+    },
+    "notifications": {
+      "notifications": "Notifications",
+      "groupInvitation": "Fanasana vondrona",
+      "devotions": "Asao amin'ny Fampaherezam-panahy",
+      "file": "Fanamafisana ny famindrana rakitra"
+    }
+  },
+  "inviteUsers": { "header": "Manasa mpampiasa" },
+  "playlist": {
+    "header": "Playlist",
+    "audioFileLabel": "Audio File",
+    "audioFilesLabel": "Audio Files"
+  },
+  "collection": { "header": "Collection", "audioFilesLabel": "Audio Files" },
+  "modal": {
+    "close": "akaiky",
+    "addToPlaylist": { "title": "Ampio amin'ny Playlist", "button": "Mamorona Playlist" },
+    "startDevotion": { "title": "Atombohy ny fahafoizan-tena" },
+    "createPlaylist": {
+      "title": "Mamorona New Playlist",
+      "button": "Mamorona Playlist",
+      "inputPlaceholder": "Ampidiro ny Anaran'ny Playlist",
+      "success": "Nampiana amin'ny Playlist"
+    },
+    "login": "Mila miditra ianao raha te hanomboka fanoloran-tena"
+  },
+  "options": {
+    "shared": {
+      "share": "Share",
+      "report": "Hampandre ny atiny",
+      "shareOthers": "Mizarà amin'ny hafa",
+      "copy": "Handika ny rohy",
+      "more": "Bebe kokoa"
+    },
+    "audio": {
+      "download": "Download",
+      "addFavorite": "Ampio amin'ny Favorites",
+      "addPlaylist": "Ampio amin'ny Playlist",
+      "removeFavorite": "Esory amin'ny Favorites",
+      "removePlaylist": "Esory amin'ny Playlist",
+      "removeDownload": "Esory amin'ny fampidinana"
+    },
+    "playlist": { "edit": "Edit", "delete": "Fafao ny Playlist" },
+    "startDevotion": "Atombohy ny fahafoizan-tena"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Nampiana amin'ny Playlist",
+      "delete": "Nesorina tamin'ny Playlist",
+      "create": "Playlist noforonina",
+      "destroy": "Voafafa ny Playlist"
+    },
+    "favorites": { "add": "Nampiana amin'ny Favorites", "remove": "Nesorina tamin'ny Favorites" },
+    "downloads": { "remove": "Nesorina tamin'ny fampidinana" }
+  },
+  "buttons": { "loop": "manome fitoerana", "shuffle": "shuffle" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Search ..." },
+    "notification": { "success": "Fahombiazana! Handefa mailaka ao amin'ny kaontinao." },
+    "button": { "sending": "Fandefasana ..." },
+    "modalSelector": { "cancel": "hanafoana" },
+    "loading": "Loading"
+  },
+  "bible": {
+    "header": "Malagasy",
+    "oldTestament": "Testamenta taloha",
+    "newTestament": "Testamenta Vaovao",
+    "popularBooks": "Boky malaza"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Search",
+    "cancelButton": "HANFOANA",
+    "searchResults": "Valin'ny fikarohana",
+    "filterButton": "Filter",
+    "teachings": { "title": "Enseignements" },
+    "bible": { "title": "Malagasy" }
+  },
+  "addToPlaylistsModal": { "title": "Ampio amin'ny Playlist", "button": "Mamorona Playlist" },
+  "createPlaylistModal": {
+    "title": "Mamorona New Playlist",
+    "button": "Mamorona Playlist",
+    "inputPlaceholder": "Ampidiro ny Anaran'ny Playlist"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Nampiana amin'ny Playlist",
+      "remove": "Nesorina tamin'ny Playlist",
+      "create": "Playlist noforonina",
+      "delete": "Voafafa ny Playlist"
+    },
+    "favorites": { "add": "Nampiana amin'ny Favorites", "remove": "Nesorina tamin'ny Favorites" },
+    "downloads": { "remove": "Nesorina tamin'ny fampidinana" },
+    "facebook": { "loginError": "Tsy nahomby ny fidirana" },
+    "google": { "loginError": "Tsy nahomby ny fidirana" }
+  },
+  "playlists": { "trackLabel": "Track", "tracksLabel": "Tracks" },
+  "mediaList": { "tracksLabel": "Tracks", "remove": "Remove" },
+  "tutorialPage": { "done": "hatao", "skip": "Skip" },
+  "loginModal": { "login": "Hiditra" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "downloading", "complete": "Fenoy tanteraka" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Diniho ny Baiboly",
+      "subtitle1": "Mandehandeha mamaky ny Baiboly iray manontolo aminay, na manomboka ny dia ataonao samirery.",
+      "title2": "Henoy & ampandraiso anjara",
+      "subtitle2": "Ny mpamaky haino aman-jery dia mamela anao hiroboka ao anaty THRU ny atiny BAIBOLY.",
+      "title3": "Jereo ny fampianarana",
+      "subtitle3": "Midira ao amin'ny Baiboly tsy mbola nisy toy izany tamin'ny alàlan'ny fanondroana ny atiny momba ny Baiboly sy ny fampianarana.",
+      "title4": "Ifanakalozy hevitra ny Baiboly",
+      "subtitle4": "Manatevin-daharana vondrona iray handalina ny THRU ny fampianarana sy lohahevitra ao amin'ny Baiboly amin'ny hafa.",
+      "title5": "Sintomy & zarao",
+      "subtitle5": "Ankafizo ny fihainoana ny Tenin 'Andriamanitra eny an-dalana ary zarao amin'ny namanao.",
+      "title6": "Mitahiry & Mamorona",
+      "subtitle6": "Tehirizo ireo fampianarana sy andininy ao amin'ny Baiboly tianao indrindra na mamorona lisitra filokana.",
+      "title7": "Fampaherezam-panahy ataon'ny vondrona",
+      "subtitle7": "Mampahereza sy manome aingam-panahy avy amin'ny hafa miaraka amin'ny fampaherezam-panahy ataon'ny vondrona isan'andro."
+    },
+    "registerPage": {
+      "noThanks": "Tsia fa misaotra",
+      "haveAccount": "Manana kaonty?",
+      "createAccount": "Mamorona ny kaontiko",
+      "title1": "Mifanakaloza hevitra amin'ny hafa",
+      "subtitle1": "Resaho amin'ny hafa ny lohahevitra sy andininy ao amin'ny Baiboly tianao.",
+      "title2": "Fivarotana sy Sync Playlists",
+      "subtitle2": "Manamboara lisitry ny atiny tianao indrindra amin'ny toerana iray.",
+      "title3": "Jereo ny tianao indrindra",
+      "subtitle3": "Mitahiry ary miverena mitsidika ireo tianao indrindra amin'ny fotoana manaraka.",
+      "title4": "Tongasoa indray",
+      "subtitle4": "Mamorona kaonty ary mahazoa fidirana amin'ny fiasa rehetra."
+    }
+  },
+  "app": {
+    "close": "akaiky",
+    "accept": "Ekeo",
+    "reject": "mandà",
+    "constructionInProgress": "CONSTRUCTION IN PROGRESS",
+    "downloadComplete": "Fenoy tanteraka",
+    "downloading": "downloading",
+    "downloadFailed": "Tsy nahomby ny fampidinana",
+    "sendAFile": "Misy olona te-handefa anao rakitra"
+  },
+  "transferring": { "tryAgain": "Andramo indray mandeha", "close": "akaiky" },
+  "checkDevice": {
+    "check": "Zahao ny fitaovanao",
+    "makeSure": "Azafady mba alao antoka fa ny Wifi-Direct dia nalefa tamin'ny fitaovan'ny namanao ary efa an-jotra izany.",
+    "continue": "Continue"
+  },
+  "connectToDevice": { "connect": "Mifandraisa amina fitaovana" },
+  "pairing": {
+    "connect": "Mifandraisa amina fitaovana",
+    "pairing": "Pairing",
+    "success": "Vita soa aman-tsara",
+    "failed": "Tsy nahomby ny fampifangaroana fitaovana",
+    "makeSure": "Azafady mba alao antoka (Wifi-Direct) voahodina amin'ny fitaovan'ny namanao ary eo amin'ny elanelany io.",
+    "continue": "Continue",
+    "tryAgain": "Andramo indray mandeha"
+  },
+  "selectNetworkType": {
+    "connect": "Mifandray amin'ny fitaovana iray",
+    "share": "Mizarà amin'ny Wifi Direct",
+    "send": "Handefa rakitra amin'ny alàlan'ny wifi mivantana?",
+    "continue": "Continue"
+  }
+}

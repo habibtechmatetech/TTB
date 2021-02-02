@@ -1,0 +1,412 @@
+{
+  "selectLanguage": {
+    "heading": "Selecciona o teu idioma actual",
+    "mainAction": "Selecciona idioma"
+  },
+  "menu": {
+    "anonymousTitle": "A túa conta",
+    "anonymousAction": "Iniciar sesión",
+    "editProfileAction": "Editar perfil",
+    "verifyProfileAction": "Verificar perfil",
+    "bibleSection": "Biblia",
+    "teachingsSection": "Ensinanzas",
+    "librarySection": "A miña biblioteca",
+    "groupsSection": "Grupos",
+    "donateSection": "Doa",
+    "settingsSection": "Configuración",
+    "signOut": "Pechar sesión",
+    "modals": {
+      "verifyProfile": {
+        "title": "Non estás verificado",
+        "message": "As túas listas non se sincronizarán e non podes crear grupos. Comprobe o seu correo electrónico para completar o rexistro.",
+        "firstButton": "Continuar",
+        "secondButton": "Rexistra un novo perfil"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Rexístrate",
+    "emailPlaceholder": "O teu correo electrónico",
+    "passwordPlaceholder": "O teu contrasinal",
+    "forgotAction": "Esqueceu o contrasinal?",
+    "callToAction": "Rexístrate",
+    "signInAlternatives": "Ou Inicia sesión usando",
+    "noAccountAction": "Non tes conta? Crea un",
+    "notifications": {
+      "invalidCredentials": "Credenciais non válidas",
+      "inProgress": "Inicia sesión xa en curso",
+      "notAvailable": "Os servizos de reprodución non están dispoñibles"
+    }
+  },
+  "signUp": {
+    "header": "Crear conta",
+    "emailPlaceholder": "O teu correo electrónico",
+    "passwordPlaceholder": "O teu contrasinal",
+    "privateAction": "Facer a conta privada",
+    "termsDisclaimer": {
+      "pre": "Ao facer clic en Rexistrar, indica que leu e acepta",
+      "terms": "os termos",
+      "post": "."
+    },
+    "callToAction": "Rexistrarse",
+    "signUpAlternatives": "Ou Rexístrate usando",
+    "haveAnAccountAction": "Tes unha conta?",
+    "notifications": {
+      "invalidUsername": "Os nomes de usuario están limitados a 20 caracteres alfanuméricos (números e letras regulares)",
+      "invalidPassword": "O contrasinal debe ter polo menos 3 caracteres e ser unha combinación de maiúsculas e minúsculas con polo menos un número ou un carácter especial"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Non se puido crear unha conta",
+        "message": "Este enderezo de correo electrónico xa existe.",
+        "firstButton": "Rexístrate",
+        "secondButton": "Pechar"
+      },
+      "privateAccount": {
+        "title": "Conta privada",
+        "message": "Ao facer a túa conta privada, estás ocultándoa para que non a descubran outros.",
+        "firstButton": "Aceptar",
+        "secondButton": "Descenso"
+      },
+      "success": {
+        "title": "Creouse unha conta",
+        "message": "A túa conta creouse correctamente. Comprobe a caixa de entrada para confirmar a súa conta e inicie sesión.",
+        "firstButton": "Rexístrate"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Restablecer o contrasinal",
+    "emailPlaceholder": "O teu correo electrónico",
+    "message": "Insira o seu correo electrónico para restablecer o contrasinal da súa conta.",
+    "callToAction": "Restablecer o contrasinal",
+    "notifications": {
+      "success": "Acabamos de enviar un correo electrónico á túa caixa de entrada",
+      "emailNotFoundError": "Non se atopou o correo electrónico",
+      "invalidEmailError": "Formato de correo electrónico non válido"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Finalizar a configuración",
+    "message": "Enviouse un correo electrónico ao enderezo de correo electrónico que introduciu. Consulte os detalles do correo electrónico para completar o rexistro.",
+    "callToAction": "Saltar por agora"
+  },
+  "teachings": {
+    "dailyText": "Emisión de hoxe",
+    "journeyTitle": "Comeza a túa viaxe",
+    "journeySubtitle": "Todas as ensinanzas de principio a fin",
+    "journeyCardTitle": "Viaxe de 215 semanas pola Biblia",
+    "journeyCardSubtitle": "Escoita o teu tempo",
+    "tracksLabel": "Pistas"
+  },
+  "teaching": {
+    "header": "Ensinanzas",
+    "loading": "Cargando ...",
+    "player": {
+      "audioSpeed": "Velocidade do audio",
+      "loading": "Cargando",
+      "castingError": "Non hai dispositivos dispoñibles"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Continúa escoitando", "secondButton": "Comeza a túa viaxe" }
+    }
+  },
+  "journey": {
+    "byDate": "Por data",
+    "bySeries": "Por Series",
+    "sections": { "tracksLabel": "Pistas" }
+  },
+  "library": {
+    "header": "A miña biblioteca",
+    "tabs": {
+      "downloads": "Descargas",
+      "favorites": "Favoritos",
+      "playlists": "Listas de reprodución"
+    }
+  },
+  "groups": {
+    "header": "Grupos",
+    "createGroup": {
+      "title": "Crear novo grupo",
+      "groupNameLabel": "NOME DO GRUPO",
+      "groupNameInputPlaceHolder": "Nome",
+      "descriptionLabel": "DESCRICIÓN",
+      "descriptionInputPlaceHolder": "Engadir descrición",
+      "inviteLabel": "Invitar usuarios",
+      "inviteButton": "Invitar novos usuarios",
+      "button": "Crear grupo",
+      "invalidGroupName": "Insira un nome válido",
+      "groupNameTooLong": "O nome do grupo non debe conter máis de 25 caracteres"
+    },
+    "devotionNotStartAlert": "Non se iniciou unha devoción para este grupo",
+    "membersLabel": "Membros",
+    "chatModalMemberSubtitleLabel": "membro",
+    "chatModalMembersSubtitleLabel": "membros",
+    "chat": {
+      "listeningToLabel": "Escoitar",
+      "loadingTrackLabel": "Cargando pista ...",
+      "inputPlaceHolder": "Escribir mensaxe",
+      "deletePost": "Eliminar publicación",
+      "deleteMessage": "eliminou unha mensaxe"
+    },
+    "groupSettings": {
+      "participantsSection": "Participantes",
+      "viewAll": "Ver todo",
+      "invite": "Invitar novos usuarios",
+      "endDevotion": "Devoción do grupo final",
+      "deleteGroup": "Eliminar grupo",
+      "leaveGroup": "Saír do grupo"
+    },
+    "userDirectory": {
+      "header": "Directorio de usuarios",
+      "remove": "Quitar",
+      "anonymous": "Anónimo",
+      "send": "Enviar"
+    },
+    "inviteUser": { "placeHolder": "Buscar", "send": "Enviar" }
+  },
+  "chat": {
+    "header": "Canle de grupo",
+    "settings": {
+      "header": "Configuración do grupo",
+      "endDevotion": {
+        "alertTitle": "Finalizar a devoción",
+        "alertMessage": "¿Seguro que queres acabar con esta devoción?",
+        "alertCancel": "Cancelar",
+        "alertConfirm": "Si",
+        "endDevotionLabel": "rematou esta devoción.",
+        "hasEnded": "Esta devoción rematou"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Comezar Devoción",
+    "alertMessage": "Seguro que queres comezar a devoción con% {name} group?",
+    "alertCancel": "Cancelar",
+    "alertConfirm": "Si",
+    "devotionStartedLabel": "iniciou unha devoción."
+  },
+  "settings": {
+    "header": "Configuración",
+    "tabs": {
+      "profile": "Perfil",
+      "media": "Medios de comunicación",
+      "notifications": "Notificacións"
+    },
+    "profile": {
+      "account": "Conta",
+      "username": "Nome de usuario",
+      "email": "Correo electrónico",
+      "editButton": "Editar",
+      "edit": {
+        "save": "Gardar",
+        "username": {
+          "header": "Nome de usuario",
+          "successAlert": "O teu cambio gardouse.",
+          "failedAlert": "Non se puido gardar o cambio."
+        },
+        "email": {
+          "header": "Correo electrónico",
+          "successAlert": "O teu cambio gardouse.",
+          "failedAlert": "Non se puido gardar o cambio."
+        }
+      },
+      "languages": "Idiomas",
+      "signIn": "Rexístrate",
+      "signOut": "Pechar sesión na conta",
+      "legal": "Legal",
+      "termsConditions": "Termos e Condicións",
+      "privacyPolicy": "Política de Privacidade",
+      "support": "Apoiar",
+      "reportAProblem": "Informar dun problema",
+      "tutorial": "Titorial",
+      "reportBug": {
+        "header": "Informar dun problema",
+        "send": "Enviar",
+        "subject": "SUXEITO",
+        "subjectPlaceHolder": "Asunto",
+        "description": "DESCRICIÓN",
+        "descriptionPlaceHolder": "Descrición",
+        "successAlert": "Grazas, recibimos a túa mensaxe.",
+        "failedAlert": "Produciuse un erro ao enviar a mensaxe."
+      },
+      "version": "Versión"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Reprodución automática de audio",
+      "storage": "Almacenamento",
+      "downloadWifi": "Só descargar en wifi",
+      "deleteCache": "Eliminar caché"
+    },
+    "notifications": {
+      "notifications": "Notificacións",
+      "groupInvitation": "Invitación de grupo",
+      "devotions": "Invita ás devocións",
+      "file": "Confirmación da transferencia de ficheiros"
+    }
+  },
+  "inviteUsers": { "header": "Invitar usuarios" },
+  "playlist": {
+    "header": "Lista de reprodución",
+    "audioFileLabel": "Ficheiro de audio",
+    "audioFilesLabel": "Ficheiros de audio"
+  },
+  "collection": { "header": "Colección", "audioFilesLabel": "Ficheiros de audio" },
+  "modal": {
+    "close": "preto",
+    "addToPlaylist": {
+      "title": "Engadir á lista de reprodución",
+      "button": "Crear lista de reprodución"
+    },
+    "startDevotion": { "title": "Comezar Devoción" },
+    "createPlaylist": {
+      "title": "Crear nova lista de reprodución",
+      "button": "Crear lista de reprodución",
+      "inputPlaceholder": "Introduce o nome da lista de reprodución",
+      "success": "Engadido á lista de reprodución"
+    },
+    "login": "Debe iniciar sesión para iniciar unha devoción"
+  },
+  "options": {
+    "shared": {
+      "share": "Compartir",
+      "report": "Informe de contido",
+      "shareOthers": "Comparte con outros",
+      "copy": "Copiar ligazón",
+      "more": "Máis"
+    },
+    "audio": {
+      "download": "Descargar",
+      "addFavorite": "Engadir a Favoritos",
+      "addPlaylist": "Engadir á lista de reprodución",
+      "removeFavorite": "Eliminar dos favoritos",
+      "removePlaylist": "Eliminar da lista de reprodución",
+      "removeDownload": "Eliminar das descargas"
+    },
+    "playlist": { "edit": "Editar", "delete": "Eliminar lista de reprodución" },
+    "startDevotion": "Comezar Devoción"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Engadido á lista de reprodución",
+      "delete": "Eliminado da lista de reprodución",
+      "create": "Lista de reprodución creada",
+      "destroy": "Eliminouse a lista de reprodución"
+    },
+    "favorites": { "add": "Engadido a Favoritos", "remove": "Eliminado de Favoritos" },
+    "downloads": { "remove": "Eliminado das descargas" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Baralla" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Buscar ..." },
+    "notification": { "success": "Éxito! Enviarase un correo electrónico á túa conta." },
+    "button": { "sending": "Enviando ..." },
+    "modalSelector": { "cancel": "Cancelar" },
+    "loading": "Cargando"
+  },
+  "bible": {
+    "header": "Biblia",
+    "oldTestament": "Antigo Testamento",
+    "newTestament": "Novo Testamento",
+    "popularBooks": "Libros populares"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Buscar",
+    "cancelButton": "CANCELAR",
+    "searchResults": "Resultados da busca",
+    "filterButton": "Filtro",
+    "teachings": { "title": "Ensinanzas" },
+    "bible": { "title": "Biblia" }
+  },
+  "addToPlaylistsModal": {
+    "title": "Engadir á lista de reprodución",
+    "button": "Crear lista de reprodución"
+  },
+  "createPlaylistModal": {
+    "title": "Crear nova lista de reprodución",
+    "button": "Crear lista de reprodución",
+    "inputPlaceholder": "Introduce o nome da lista de reprodución"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Engadido á lista de reprodución",
+      "remove": "Eliminado da lista de reprodución",
+      "create": "Lista de reprodución creada",
+      "delete": "Eliminouse a lista de reprodución"
+    },
+    "favorites": { "add": "Engadido a Favoritos", "remove": "Eliminado de Favoritos" },
+    "downloads": { "remove": "Eliminado das descargas" },
+    "facebook": { "loginError": "Fallou o inicio de sesión cun erro" },
+    "google": { "loginError": "Fallou o inicio de sesión cun erro" }
+  },
+  "playlists": { "trackLabel": "Pista", "tracksLabel": "Pistas" },
+  "mediaList": { "tracksLabel": "Pistas", "remove": "Quitar" },
+  "tutorialPage": { "done": "Feito", "skip": "Saltar" },
+  "loginModal": { "login": "Iniciar sesión" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Descargando", "complete": "Descarga completa" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Explora a Biblia",
+      "subtitle1": "Viaxa por toda a Biblia connosco ou inicia unha viaxe propia.",
+      "title2": "Escoita e participa",
+      "subtitle2": "O reprodutor multimedia permítelle mergullarse facilmente a través do contido da BIBLIA.",
+      "title3": "Descubre Ensinanzas",
+      "subtitle3": "Participa na Biblia como nunca antes facendo referencias cruzadas entre o contido da Biblia e o ensino.",
+      "title4": "Comenta a Biblia",
+      "subtitle4": "Únete a un grupo para estudar a través das ensinanzas e temas da BIBLIA con outros.",
+      "title5": "Descargar e compartir",
+      "subtitle5": "Disfruta escoitando a Palabra de Deus en movemento e compártea cos teus amigos.",
+      "title6": "Gardar e crear",
+      "subtitle6": "Garda as túas ensinanzas favoritas e versos da Biblia ou crea unha lista de reprodución personalizada.",
+      "title7": "Devocións grupais",
+      "subtitle7": "Animádevos e inspirádevos con outras persoas con devocionais grupais diarios."
+    },
+    "registerPage": {
+      "noThanks": "Non, grazas",
+      "haveAccount": "Tes unha conta?",
+      "createAccount": "Crear a miña conta",
+      "title1": "Debate con outros",
+      "subtitle1": "Comenta os teus temas favoritos e versos da Biblia con outros.",
+      "title2": "Almacenar e sincronizar listas de reprodución",
+      "subtitle2": "Crea listas do teu contido favorito nun só lugar.",
+      "title3": "Vexa os seus favoritos",
+      "subtitle3": "Garda e regresa e visita os teus favoritos máis tarde.",
+      "title4": "Benvido de novo",
+      "subtitle4": "Crea unha conta e accede a todas as nosas funcións."
+    }
+  },
+  "app": {
+    "close": "pechar",
+    "accept": "Aceptar",
+    "reject": "Rexeitar",
+    "constructionInProgress": "CONSTRUCIÓN EN PROGRESO",
+    "downloadComplete": "Descarga completa",
+    "downloading": "Descargando",
+    "downloadFailed": "Fallou a descarga",
+    "sendAFile": "Alguén quere enviarche un ficheiro"
+  },
+  "transferring": { "tryAgain": "téntao de novo", "close": "preto" },
+  "checkDevice": {
+    "check": "Comprobe o seu dispositivo",
+    "makeSure": "Asegúrate de que Wifi-Direct estea acendido no dispositivo do teu amigo e estea dentro do alcance.",
+    "continue": "Continuar"
+  },
+  "connectToDevice": { "connect": "Conéctate a un dispositivo" },
+  "pairing": {
+    "connect": "Conéctate a un dispositivo",
+    "pairing": "Emparejamento",
+    "success": "Emparejado correctamente",
+    "failed": "Fallou o emparellamento do dispositivo",
+    "makeSure": "Asegúrate de que (Wifi-Direct) estea acendido no dispositivo do teu amigo e estea dentro do alcance.",
+    "continue": "Continuar",
+    "tryAgain": "Téntao de novo"
+  },
+  "selectNetworkType": {
+    "connect": "Conéctate a un dispositivo",
+    "share": "Comparte con Wifi Direct",
+    "send": "¿Queres enviar un ficheiro por wifi directamente?",
+    "continue": "Continuar"
+  }
+}

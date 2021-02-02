@@ -1,0 +1,394 @@
+{
+  "selectLanguage": { "heading": "Hitamo ururimi rwawe", "mainAction": "Hitamo Ururimi" },
+  "menu": {
+    "anonymousTitle": "Konti yawe",
+    "anonymousAction": "Injira",
+    "editProfileAction": "Hindura ibikuranga",
+    "verifyProfileAction": "Kugenzura umwirondoro",
+    "bibleSection": "Bibiliya",
+    "teachingsSection": "Inyigisho",
+    "librarySection": "Isomero ryanjye",
+    "groupsSection": "Amatsinda",
+    "donateSection": "Tanga impano",
+    "settingsSection": "Igenamiterere",
+    "signOut": "Sohoka",
+    "modals": {
+      "verifyProfile": {
+        "title": "Ntabwo wagenzuwe",
+        "message": "Urutonde rwawe ntiruzahuzwa kandi ntushobora gukora amatsinda. Nyamuneka reba imeri yawe kugirango urangize kwiyandikisha.",
+        "firstButton": "Komeza",
+        "secondButton": "Andika umwirondoro mushya"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Injira",
+    "emailPlaceholder": "Imeri yawe",
+    "passwordPlaceholder": "Ijambobanga ryawe",
+    "forgotAction": "Wibagiwe ijambo ryibanga?",
+    "callToAction": "Injira",
+    "signInAlternatives": "Cyangwa Injira ukoresheje",
+    "noAccountAction": "Nta konti? Kurema imwe",
+    "notifications": {
+      "invalidCredentials": "Ibyangombwa bitemewe",
+      "inProgress": "Injira mumajyambere",
+      "notAvailable": "Kina serivisi zitaboneka"
+    }
+  },
+  "signUp": {
+    "header": "Kora Konti",
+    "emailPlaceholder": "Imeri yawe",
+    "passwordPlaceholder": "Ijambobanga ryawe",
+    "privateAction": "Kora Konti wenyine",
+    "termsDisclaimer": {
+      "pre": "Ukanze Kwiyandikisha werekana ko wasomye kandi wemeye",
+      "terms": "amagambo",
+      "post": "."
+    },
+    "callToAction": "Iyandikishe",
+    "signUpAlternatives": "Cyangwa Iyandikishe ukoresheje",
+    "haveAnAccountAction": "Ufite konti?",
+    "notifications": {
+      "invalidUsername": "Amazina y'abakoresha agarukira ku nyuguti 20 z'inyuguti (imibare n'inyuguti zisanzwe)",
+      "invalidPassword": "Ijambobanga rigomba kugira byibuze inyuguti 3 kandi rikaba ihuriro ryinyuguti nini nini ntoya byibuze numero imwe cyangwa inyuguti idasanzwe"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Ntushobora gukora konti",
+        "message": "Iyi imeri imeri isanzweho.",
+        "firstButton": "Injira",
+        "secondButton": "Funga"
+      },
+      "privateAccount": {
+        "title": "Konti Yigenga",
+        "message": "Mugukora konte yawe wenyine, uba uhishe kuvumburwa nabandi.",
+        "firstButton": "Emera",
+        "secondButton": "Kugabanuka"
+      },
+      "success": {
+        "title": "Konti Yashyizweho!",
+        "message": "Konti yawe yarakozwe neza. Reba inbox yawe kugirango wemeze konte yawe hanyuma winjire.",
+        "firstButton": "Injira"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Ongera usubize ijambo ryibanga",
+    "emailPlaceholder": "Imeri yawe",
+    "message": "Nyamuneka andika imeri yawe kugirango usubize ijambo ryibanga kuri konte yawe.",
+    "callToAction": "Ongera usubize ijambo ryibanga",
+    "notifications": {
+      "success": "Twohereje imeri kuri inbox yawe",
+      "emailNotFoundError": "Imeri ntiyabonetse",
+      "invalidEmailError": "Imiterere ya imeri itemewe"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Kurangiza Gushiraho",
+    "message": "Imeri yoherejwe kuri aderesi imeri winjiye. Nyamuneka reba ibisobanuro bya imeri kugirango urangize kwiyandikisha.",
+    "callToAction": "Jya kuri ubu"
+  },
+  "teachings": {
+    "dailyText": "Uyu munsi",
+    "journeyTitle": "Tangira Urugendo rwawe",
+    "journeySubtitle": "Inyigisho zose kuva itangira kugeza irangiye",
+    "journeyCardTitle": "215 Urugendo rwicyumweru Binyuze muri Bibiliya",
+    "journeyCardSubtitle": "Umva igihe cyawe",
+    "tracksLabel": "Inzira"
+  },
+  "teaching": {
+    "header": "Inyigisho",
+    "loading": "Kuremera ...",
+    "player": {
+      "audioSpeed": "Umuvuduko wamajwi",
+      "loading": "Kuremera",
+      "castingError": "Nta bikoresho bihari"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Komeza Gutega amatwi",
+        "secondButton": "Tangira urugendo rwawe"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Itariki",
+    "bySeries": "Urukurikirane",
+    "sections": { "tracksLabel": "Inzira" }
+  },
+  "library": {
+    "header": "Isomero ryanjye",
+    "tabs": { "downloads": "Gukuramo", "favorites": "Bikunzwe", "playlists": "Urutonde" }
+  },
+  "groups": {
+    "header": "Amatsinda",
+    "createGroup": {
+      "title": "Kurema Itsinda Rishya",
+      "groupNameLabel": "IZINA RY'AMATSINDA",
+      "groupNameInputPlaceHolder": "Izina",
+      "descriptionLabel": "GUSOBANURIRA",
+      "descriptionInputPlaceHolder": "Ongeraho Ibisobanuro",
+      "inviteLabel": "Tumira Abakoresha",
+      "inviteButton": "Tumira Abakoresha bashya",
+      "button": "Kurema Itsinda",
+      "invalidGroupName": "Injiza izina ryemewe",
+      "groupNameTooLong": "Izina ryitsinda ntirigomba kuba rirenze inyuguti 25"
+    },
+    "devotionNotStartAlert": "Ubwitange ntabwo bwatangiye kuri iri tsinda",
+    "membersLabel": "Abanyamuryango",
+    "chatModalMemberSubtitleLabel": "umunyamuryango",
+    "chatModalMembersSubtitleLabel": "abanyamuryango",
+    "chat": {
+      "listeningToLabel": "Gutegera ugutwi",
+      "loadingTrackLabel": "Inzira yo gupakira ...",
+      "inputPlaceHolder": "Andika Ubutumwa",
+      "deletePost": "Siba Inyandiko",
+      "deleteMessage": "yasibye ubutumwa"
+    },
+    "groupSettings": {
+      "participantsSection": "Abitabiriye amahugurwa",
+      "viewAll": "Reba Byose",
+      "invite": "Tumira Abakoresha bashya",
+      "endDevotion": "Kurangiza Itsinda",
+      "deleteGroup": "Siba Itsinda",
+      "leaveGroup": "Kureka Itsinda"
+    },
+    "userDirectory": {
+      "header": "Ububiko",
+      "remove": "Kuraho",
+      "anonymous": "Anonymous",
+      "send": "Ohereza"
+    },
+    "inviteUser": { "placeHolder": "Shakisha", "send": "Ohereza" }
+  },
+  "chat": {
+    "header": "Umuyoboro w'itsinda",
+    "settings": {
+      "header": "Igenamiterere ry'itsinda",
+      "endDevotion": {
+        "alertTitle": "Kurangiza Kwiyegurira Imana",
+        "alertMessage": "Uzi neza ko ushaka kurangiza uku kwitanga?",
+        "alertCancel": "Kureka",
+        "alertConfirm": "Yego",
+        "endDevotionLabel": "yarangije kwitanga.",
+        "hasEnded": "Uku kwitanga kurangiye"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Tangira Kwiyegurira Imana",
+    "alertMessage": "Uzi neza ko ushaka gutangira kwitanga hamwe na% {izina} itsinda?",
+    "alertCancel": "Kureka",
+    "alertConfirm": "Yego",
+    "devotionStartedLabel": "yatangiye kwitanga."
+  },
+  "settings": {
+    "header": "Igenamiterere",
+    "tabs": { "profile": "Umwirondoro", "media": "Itangazamakuru", "notifications": "Kumenyesha" },
+    "profile": {
+      "account": "Konti",
+      "username": "Izina ryukoresha",
+      "email": "E-imeri",
+      "editButton": "Hindura",
+      "edit": {
+        "save": "Bika",
+        "username": {
+          "header": "Izina ryukoresha",
+          "successAlert": "Impinduka zawe zarakijijwe.",
+          "failedAlert": "Kunanirwa kubika impinduka."
+        },
+        "email": {
+          "header": "Imeri",
+          "successAlert": "Impinduka zawe zarakijijwe.",
+          "failedAlert": "Kunanirwa kubika impinduka."
+        }
+      },
+      "languages": "Indimi",
+      "signIn": "Injira",
+      "signOut": "Sohora Konti",
+      "legal": "Byemewe n'amategeko",
+      "termsConditions": "Amabwiriza",
+      "privacyPolicy": "Politiki Yibanga",
+      "support": "Inkunga",
+      "reportAProblem": "Menyesha Ikibazo",
+      "tutorial": "Inyigisho",
+      "reportBug": {
+        "header": "Menyesha Ikibazo",
+        "send": "Ohereza",
+        "subject": "INGINGO",
+        "subjectPlaceHolder": "Ingingo",
+        "description": "GUSOBANURIRA",
+        "descriptionPlaceHolder": "Ibisobanuro",
+        "successAlert": "Urakoze, twakiriye ubutumwa bwawe.",
+        "failedAlert": "Kunanirwa kohereza ubutumwa."
+      },
+      "version": "Inyandiko"
+    },
+    "media": {
+      "audio": "Ijwi",
+      "autoplay": "Autoplay Audio",
+      "storage": "Ububiko",
+      "downloadWifi": "Kuramo gusa kuri Wi-fi",
+      "deleteCache": "Siba Cache"
+    },
+    "notifications": {
+      "notifications": "Kumenyesha",
+      "groupInvitation": "Ubutumire bw'itsinda",
+      "devotions": "Tumira Abihaye Imana",
+      "file": "Iyemezwa rya dosiye"
+    }
+  },
+  "inviteUsers": { "header": "Tumira Abakoresha" },
+  "playlist": { "header": "Urutonde", "audioFileLabel": "Idosiye", "audioFilesLabel": "Amadosiye" },
+  "collection": { "header": "Icyegeranyo", "audioFilesLabel": "Amadosiye" },
+  "modal": {
+    "close": "hafi",
+    "addToPlaylist": { "title": "Ongeraho kurutonde", "button": "Kora urutonde" },
+    "startDevotion": { "title": "Tangira Kwiyegurira Imana" },
+    "createPlaylist": {
+      "title": "Kora urutonde rushya",
+      "button": "Kora urutonde",
+      "inputPlaceholder": "Injiza Izina ryabakinnyi",
+      "success": "Yongewe kurutonde"
+    },
+    "login": "Ugomba kwinjira kugirango utangire kwitanga"
+  },
+  "options": {
+    "shared": {
+      "share": "Sangira",
+      "report": "Raporo Ibirimo",
+      "shareOthers": "Sangira n'abandi",
+      "copy": "Gukoporora Ihuza",
+      "more": "Ibindi"
+    },
+    "audio": {
+      "download": "Kuramo",
+      "addFavorite": "Ongeraho kubyo ukunda",
+      "addPlaylist": "Ongeraho kurutonde",
+      "removeFavorite": "Kuramo ibyo ukunda",
+      "removePlaylist": "Kura kurutonde",
+      "removeDownload": "Kuramo ibikururwa"
+    },
+    "playlist": { "edit": "Hindura", "delete": "Siba Urutonde" },
+    "startDevotion": "Tangira Kwiyegurira Imana"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Yongewe kurutonde",
+      "delete": "Yakuwe kurutonde",
+      "create": "Gukora Urutonde",
+      "destroy": "Gusiba Urutonde"
+    },
+    "favorites": { "add": "Wongeyeho kubyo ukunda", "remove": "Yakuwe mubyo ukunda" },
+    "downloads": { "remove": "Yakuwe kuri Gukuramo" }
+  },
+  "buttons": { "loop": "Umuzingi", "shuffle": "Shuffle" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Shakisha ..." },
+    "notification": { "success": "Intsinzi! Imeri izoherezwa kuri konte yawe." },
+    "button": { "sending": "Kohereza ..." },
+    "modalSelector": { "cancel": "Kureka" },
+    "loading": "Kuremera"
+  },
+  "bible": {
+    "header": "Bibiliya",
+    "oldTestament": "Isezerano rya Kera",
+    "newTestament": "Isezerano Rishya",
+    "popularBooks": "Ibitabo bizwi cyane"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Shakisha",
+    "cancelButton": "KANSELI",
+    "searchResults": "Shakisha Ibisubizo",
+    "filterButton": "Muyunguruzi",
+    "teachings": { "title": "Inyigisho" },
+    "bible": { "title": "Bibiliya" }
+  },
+  "addToPlaylistsModal": { "title": "Ongeraho kurutonde", "button": "Kora urutonde" },
+  "createPlaylistModal": {
+    "title": "Kora urutonde rushya",
+    "button": "Kora urutonde",
+    "inputPlaceholder": "Injiza Izina ryabakinnyi"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Yongewe kurutonde",
+      "remove": "Yakuwe kurutonde",
+      "create": "Gukora Urutonde",
+      "delete": "Gusiba Urutonde"
+    },
+    "favorites": { "add": "Wongeyeho kubyo ukunda", "remove": "Yakuwe mubyo ukunda" },
+    "downloads": { "remove": "Yakuwe kuri Gukuramo" },
+    "facebook": { "loginError": "Kwinjira byananiye ikosa" },
+    "google": { "loginError": "Kwinjira byananiye ikosa" }
+  },
+  "playlists": { "trackLabel": "Kurikirana", "tracksLabel": "Inzira" },
+  "mediaList": { "tracksLabel": "Inzira", "remove": "Kuraho" },
+  "tutorialPage": { "done": "Byakozwe", "skip": "Simbuka" },
+  "loginModal": { "login": "Injira" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Gukuramo", "complete": "Kuramo Byuzuye" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Shakisha Bibiliya",
+      "subtitle1": "Genda muri Bibiliya yose hamwe natwe, cyangwa utangire urugendo rwawe wenyine.",
+      "title2": "Umva & Gusezerana",
+      "subtitle2": "Umukinyi wibitangazamakuru aragufasha kwibira muri THRU ibiri muri BIBILIYA byoroshye.",
+      "title3": "Menya Inyigisho",
+      "subtitle3": "Jya muri Bibiliya nka mbere mbere yo guhuza ibice bya Bibiliya & Kwigisha.",
+      "title4": "Muganire kuri Bibiliya",
+      "subtitle4": "Injira mumatsinda wige THRU inyigisho za BIBILIYA hamwe nabandi.",
+      "title5": "Kuramo & Gusangira",
+      "subtitle5": "Ishimire kumva Ijambo ry'Imana murigenda kandi ubisangire n'inshuti zawe.",
+      "title6": "Kubika & Kurema",
+      "subtitle6": "Bika inyigisho ukunda n'imirongo ya Bibiliya cyangwa ukore urutonde rwihariye.",
+      "title7": "Kwiyegurira Amatsinda",
+      "subtitle7": "Shishikarizwa kandi ushishikarizwe nabandi bafite ubwitange bwitsinda rya buri munsi."
+    },
+    "registerPage": {
+      "noThanks": "Oya Urakoze",
+      "haveAccount": "Ufite konti?",
+      "createAccount": "Kora Konti yanjye",
+      "title1": "Ganira n'abandi",
+      "subtitle1": "Muganire ku ngingo ukunda n'imirongo ya Bibiliya hamwe nabandi.",
+      "title2": "Kubika no Guhuza Urutonde",
+      "subtitle2": "Kubaka urutonde rwibintu ukunda ahantu hamwe.",
+      "title3": "Reba ibyo ukunda",
+      "subtitle3": "Ubike hanyuma ugaruke usure ibyo ukunda mugihe cyakera.",
+      "title4": "Murakaza neza",
+      "subtitle4": "Kora konti hanyuma ubone uburyo buranga ibintu byose."
+    }
+  },
+  "app": {
+    "close": "hafi",
+    "accept": "Emera",
+    "reject": "Wange",
+    "constructionInProgress": "KUBAKA MU ITERAMBERE",
+    "downloadComplete": "Kuramo Byuzuye",
+    "downloading": "Gukuramo",
+    "downloadFailed": "Gukuramo birananirana",
+    "sendAFile": "Umuntu Ashaka Kohereza Idosiye"
+  },
+  "transferring": { "tryAgain": "Ongera ugerageze", "close": "hafi" },
+  "checkDevice": {
+    "check": "Reba Igikoresho cyawe",
+    "makeSure": "Nyamuneka menya neza ko Wifi-Direct ifunguye igikoresho cyinshuti yawe kandi iri murwego.",
+    "continue": "Komeza"
+  },
+  "connectToDevice": { "connect": "Kwihuza nigikoresho" },
+  "pairing": {
+    "connect": "Kwihuza nigikoresho",
+    "pairing": "Kubana",
+    "success": "Byagenze neza",
+    "failed": "Guhuza ibikoresho byatsinzwe",
+    "makeSure": "Nyamuneka reba neza (Wifi-Direct) ifunguye igikoresho cyinshuti yawe kandi iri murwego.",
+    "continue": "Komeza",
+    "tryAgain": "Ongera ugerageze"
+  },
+  "selectNetworkType": {
+    "connect": "Ihuze igikoresho",
+    "share": "Sangira na Wifi Direct",
+    "send": "Kohereza dosiye hejuru ya wifi itaziguye?",
+    "continue": "Komeza"
+  }
+}

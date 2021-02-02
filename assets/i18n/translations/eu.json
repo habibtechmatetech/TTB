@@ -1,0 +1,405 @@
+{
+  "selectLanguage": { "heading": "Aukeratu uneko hizkuntza", "mainAction": "Aukeratu Hizkuntza" },
+  "menu": {
+    "anonymousTitle": "Zure kontua",
+    "anonymousAction": "Saioa hasi",
+    "editProfileAction": "Editatu profila",
+    "verifyProfileAction": "Egiaztatu profila",
+    "bibleSection": "Biblia",
+    "teachingsSection": "Irakaspenak",
+    "librarySection": "Nire Liburutegia",
+    "groupsSection": "Taldeak",
+    "donateSection": "Eman",
+    "settingsSection": "Ezarpenak",
+    "signOut": "Saioa amaitu",
+    "modals": {
+      "verifyProfile": {
+        "title": "Ez zaude egiaztatuta",
+        "message": "Zure zerrendak ez dira sinkronizatuko eta ezin dituzu taldeak sortu. Mesedez, egiaztatu zure posta elektronikoa erregistroa osatzeko.",
+        "firstButton": "Jarraitu",
+        "secondButton": "Erregistratu profil berria"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Hasi saioa",
+    "emailPlaceholder": "Zure emaila",
+    "passwordPlaceholder": "Zure Pasahitza",
+    "forgotAction": "Pasahitza ahaztua?",
+    "callToAction": "Hasi saioa",
+    "signInAlternatives": "Edo Saioa hasi erabiliz",
+    "noAccountAction": "Ez dago konturik? Sortu bat",
+    "notifications": {
+      "invalidCredentials": "Kredentzial baliogabeak",
+      "inProgress": "Saioa hasi aurretik",
+      "notAvailable": "Play zerbitzuak ez daude erabilgarri"
+    }
+  },
+  "signUp": {
+    "header": "Kontua sortu",
+    "emailPlaceholder": "Zure emaila",
+    "passwordPlaceholder": "Zure Pasahitza",
+    "privateAction": "Egin kontua pribatua",
+    "termsDisclaimer": {
+      "pre": "Erregistroa klikatuta irakurri eta onartzen duzula adierazten duzu",
+      "terms": "baldintzak",
+      "post": "."
+    },
+    "callToAction": "Izena eman",
+    "signUpAlternatives": "Edo erregistratu erabiliz",
+    "haveAnAccountAction": "Kontua duzu?",
+    "notifications": {
+      "invalidUsername": "Erabiltzaile izenak 20 karaktere alfanumeriko baino ez ditu (zenbakiak eta letra arruntak)",
+      "invalidPassword": "Pasahitzak gutxienez 3 karaktere izan behar ditu eta letra larri eta minuskulen konbinazioa izan behar da gutxienez zenbaki bat edo karaktere berezi bat"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Ezin da konturik sortu",
+        "message": "Helbide elektroniko hau lehendik dago.",
+        "firstButton": "Hasi saioa",
+        "secondButton": "Itxi"
+      },
+      "privateAccount": {
+        "title": "Kontu pribatua",
+        "message": "Zure kontua pribatua bihurtuz, beste batzuek aurkitu ez dezaten ezkutatzen duzu.",
+        "firstButton": "Onartu",
+        "secondButton": "Gainbehera"
+      },
+      "success": {
+        "title": "Kontua sortu da!",
+        "message": "Zure kontua behar bezala sortu da. Begiratu sarrera ontzia zure kontua berresteko eta hasi saioa.",
+        "firstButton": "Hasi saioa"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Pasahitza berrezarri",
+    "emailPlaceholder": "Zure emaila",
+    "message": "Mesedez, idatzi zure posta elektronikoa zure kontuaren pasahitza berrezartzeko.",
+    "callToAction": "Pasahitza berrezarri",
+    "notifications": {
+      "success": "Mezu elektronikoa bidali berri dugu zure sarrera ontzira",
+      "emailNotFoundError": "Ez da helbide elektronikoa aurkitu",
+      "invalidEmailError": "Posta elektronikoaren formatu baliogabea"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Amaitu konfigurazioa",
+    "message": "Idatzi duzun helbide elektronikora mezu elektroniko bat bidali da. Mesedez, ikusi posta elektronikoaren xehetasunak erregistroa osatzeko.",
+    "callToAction": "Saltatu orain"
+  },
+  "teachings": {
+    "dailyText": "Gaurko Emankizuna",
+    "journeyTitle": "Hasi zure bidaia",
+    "journeySubtitle": "Irakaspen guztiak hasieratik amaierara",
+    "journeyCardTitle": "215 asteko bidaia Bibliaren bidez",
+    "journeyCardSubtitle": "Entzun zure denbora",
+    "tracksLabel": "Pistak"
+  },
+  "teaching": {
+    "header": "Irakaspenak",
+    "loading": "Kargatzen ...",
+    "player": {
+      "audioSpeed": "Audioaren abiadura",
+      "loading": "Kargatzen",
+      "castingError": "Ez dago gailurik erabilgarri"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Jarraitu Entzuten", "secondButton": "Hasi zure bidaia" }
+    }
+  },
+  "journey": {
+    "byDate": "Dataren arabera",
+    "bySeries": "Serieen arabera",
+    "sections": { "tracksLabel": "Pistak" }
+  },
+  "library": {
+    "header": "Nire Liburutegia",
+    "tabs": {
+      "downloads": "Deskargak",
+      "favorites": "Gogokoak",
+      "playlists": "Erreprodukzio zerrendak"
+    }
+  },
+  "groups": {
+    "header": "Taldeak",
+    "createGroup": {
+      "title": "Sortu talde berria",
+      "groupNameLabel": "TALDEAREN IZENA",
+      "groupNameInputPlaceHolder": "Izena",
+      "descriptionLabel": "DESKRIBAPENA",
+      "descriptionInputPlaceHolder": "Gehitu deskribapena",
+      "inviteLabel": "Gonbidatu erabiltzaileak",
+      "inviteButton": "Gonbidatu erabiltzaile berriak",
+      "button": "Taldea sortu",
+      "invalidGroupName": "Idatzi balio duen izena",
+      "groupNameTooLong": "Taldearen izenak ez ditu 25 karaktere baino gehiago izan behar"
+    },
+    "devotionNotStartAlert": "Talde honi ez zaio deboziorik hasi",
+    "membersLabel": "Kideak",
+    "chatModalMemberSubtitleLabel": "kidea",
+    "chatModalMembersSubtitleLabel": "kideak",
+    "chat": {
+      "listeningToLabel": "Entzuten",
+      "loadingTrackLabel": "Pista kargatzen ...",
+      "inputPlaceHolder": "Idatzi mezua",
+      "deletePost": "Ezabatu argitalpena",
+      "deleteMessage": "mezu bat ezabatu du"
+    },
+    "groupSettings": {
+      "participantsSection": "Parte-hartzaileak",
+      "viewAll": "Ikusi guztiak",
+      "invite": "Gonbidatu erabiltzaile berriak",
+      "endDevotion": "Amaitu Taldeko Debozioa",
+      "deleteGroup": "Ezabatu taldea",
+      "leaveGroup": "Utzi Taldea"
+    },
+    "userDirectory": {
+      "header": "Erabiltzaile direktorioa",
+      "remove": "Kendu",
+      "anonymous": "Anonimoa",
+      "send": "Bidali"
+    },
+    "inviteUser": { "placeHolder": "Bilatu", "send": "Bidali" }
+  },
+  "chat": {
+    "header": "Taldeko kanala",
+    "settings": {
+      "header": "Taldearen ezarpenak",
+      "endDevotion": {
+        "alertTitle": "Amaitu debozioa",
+        "alertMessage": "Ziur zaude debozio honekin amaitu nahi duzula?",
+        "alertCancel": "Utzi",
+        "alertConfirm": "Bai",
+        "endDevotionLabel": "amaitu zuen debozio hau.",
+        "hasEnded": "Debozio hau amaitu da"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Hasi Debozioa",
+    "alertMessage": "Ziur zaude debozioa hasi nahi duzula% {name} taldearekin?",
+    "alertCancel": "Utzi",
+    "alertConfirm": "Bai",
+    "devotionStartedLabel": "debozioa hasi du."
+  },
+  "settings": {
+    "header": "Ezarpenak",
+    "tabs": { "profile": "Profila", "media": "Komunikabideak", "notifications": "Jakinarazpenak" },
+    "profile": {
+      "account": "Kontua",
+      "username": "Erabiltzaile izena",
+      "email": "Posta elektronikoa",
+      "editButton": "Editatu",
+      "edit": {
+        "save": "Gorde",
+        "username": {
+          "header": "Erabiltzaile izena",
+          "successAlert": "Zure aldaketa gorde da.",
+          "failedAlert": "Ezin izan da aldaketa gorde."
+        },
+        "email": {
+          "header": "Posta elektronikoa",
+          "successAlert": "Zure aldaketa gorde da.",
+          "failedAlert": "Ezin izan da aldaketa gorde."
+        }
+      },
+      "languages": "Hizkuntzak",
+      "signIn": "Hasi saioa",
+      "signOut": "Saioa amaitu kontutik",
+      "legal": "Legezkoa",
+      "termsConditions": "Baldintzak eta baldintzak",
+      "privacyPolicy": "Pribatutasun politika",
+      "support": "Laguntza",
+      "reportAProblem": "Eman arazo baten berri",
+      "tutorial": "Tutoriala",
+      "reportBug": {
+        "header": "Eman arazo baten berri",
+        "send": "Bidali",
+        "subject": "GAIA",
+        "subjectPlaceHolder": "Gaia",
+        "description": "DESKRIBAPENA",
+        "descriptionPlaceHolder": "Deskribapena",
+        "successAlert": "Eskerrik asko, zure mezua jaso dugu.",
+        "failedAlert": "Ezin izan da mezua bidali."
+      },
+      "version": "Bertsioa"
+    },
+    "media": {
+      "audio": "Audioa",
+      "autoplay": "Erreproduzitu automatikoki audioa",
+      "storage": "Biltegiratzea",
+      "downloadWifi": "Deskargatu soilik Wi-fi bidez",
+      "deleteCache": "Ezabatu cachea"
+    },
+    "notifications": {
+      "notifications": "Jakinarazpenak",
+      "groupInvitation": "Taldearen gonbidapena",
+      "devotions": "Gonbidatu debozioetara",
+      "file": "Fitxategiak transferitzeko baieztapena"
+    }
+  },
+  "inviteUsers": { "header": "Gonbidatu erabiltzaileak" },
+  "playlist": {
+    "header": "Erreprodukzio zerrenda",
+    "audioFileLabel": "Audio fitxategia",
+    "audioFilesLabel": "Audio fitxategiak"
+  },
+  "collection": { "header": "Bilduma", "audioFilesLabel": "Audio fitxategiak" },
+  "modal": {
+    "close": "itxi",
+    "addToPlaylist": {
+      "title": "Gehitu erreprodukzio zerrendan",
+      "button": "Sortu erreprodukzio zerrenda"
+    },
+    "startDevotion": { "title": "Hasi Debozioa" },
+    "createPlaylist": {
+      "title": "Sortu erreprodukzio zerrenda berria",
+      "button": "Sortu erreprodukzio zerrenda",
+      "inputPlaceholder": "Sartu erreprodukzio zerrendaren izena",
+      "success": "Erreprodukzio zerrendan gehitu da"
+    },
+    "login": "Debozio bat hasteko saioa hasi behar duzu"
+  },
+  "options": {
+    "shared": {
+      "share": "Partekatu",
+      "report": "Salatu edukia",
+      "shareOthers": "Partekatu besteekin",
+      "copy": "Kopiatu esteka",
+      "more": "Gehiago"
+    },
+    "audio": {
+      "download": "Deskargatu",
+      "addFavorite": "Gehitu gogokoetara",
+      "addPlaylist": "Gehitu erreprodukzio zerrendan",
+      "removeFavorite": "Kendu gogokoetatik",
+      "removePlaylist": "Kendu erreprodukzio zerrendatik",
+      "removeDownload": "Kendu deskargetatik"
+    },
+    "playlist": { "edit": "Editatu", "delete": "Ezabatu erreprodukzio zerrenda" },
+    "startDevotion": "Hasi Debozioa"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Erreprodukzio zerrendan gehitu da",
+      "delete": "Erreprodukzio zerrendatik kendu da",
+      "create": "Erreprodukzio zerrenda sortu da",
+      "destroy": "Ezabatu da erreprodukzio zerrenda"
+    },
+    "favorites": { "add": "Gogokoetan gehitu da", "remove": "Gogokoetatik kendu da" },
+    "downloads": { "remove": "Deskargetatik kendu da" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Nahastu" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Bilatu ..." },
+    "notification": { "success": "Arrakasta! Mezu elektroniko bat bidaliko da zure kontura." },
+    "button": { "sending": "Bidaltzen ..." },
+    "modalSelector": { "cancel": "Utzi" },
+    "loading": "Kargatzen"
+  },
+  "bible": {
+    "header": "Biblia",
+    "oldTestament": "Itun Zaharra",
+    "newTestament": "Itun Berria",
+    "popularBooks": "Herri liburuak"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Bilatu",
+    "cancelButton": "UTZI",
+    "searchResults": "Bilaketaren emaitzak",
+    "filterButton": "Iragazi",
+    "teachings": { "title": "Irakaspenak" },
+    "bible": { "title": "Biblia" }
+  },
+  "addToPlaylistsModal": {
+    "title": "Gehitu erreprodukzio zerrendan",
+    "button": "Sortu erreprodukzio zerrenda"
+  },
+  "createPlaylistModal": {
+    "title": "Sortu erreprodukzio zerrenda berria",
+    "button": "Sortu erreprodukzio zerrenda",
+    "inputPlaceholder": "Sartu erreprodukzio zerrendaren izena"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Erreprodukzio zerrendan gehitu da",
+      "remove": "Erreprodukzio zerrendatik kendu da",
+      "create": "Erreprodukzio zerrenda sortu da",
+      "delete": "Ezabatu da erreprodukzio zerrenda"
+    },
+    "favorites": { "add": "Gogokoetan gehitu da", "remove": "Gogokoetatik kendu da" },
+    "downloads": { "remove": "Deskargetatik kendu da" },
+    "facebook": { "loginError": "Saioa hasteak huts egin du errorearekin" },
+    "google": { "loginError": "Saioa hasteak huts egin du errorearekin" }
+  },
+  "playlists": { "trackLabel": "Pista", "tracksLabel": "Pistak" },
+  "mediaList": { "tracksLabel": "Pistak", "remove": "Kendu" },
+  "tutorialPage": { "done": "Eginda", "skip": "Saltatu" },
+  "loginModal": { "login": "Saioa hasi" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Deskargatzen", "complete": "Deskarga osoa" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Arakatu Biblia",
+      "subtitle1": "Bidaiatu Biblia osoa gurekin edo hasi zure bidaia.",
+      "title2": "Entzun eta parte hartu",
+      "subtitle2": "Multimedia erreproduzitzaileak BIBLIAren edukitik AURRERA murgiltzeko aukera ematen du.",
+      "title3": "Ezagutu irakaspenak",
+      "subtitle3": "Egin parte Biblian inoiz ez bezala, Bibliako eta Irakaskuntzako edukiak gurutzatuz.",
+      "title4": "Eztabaidatu Biblia",
+      "subtitle4": "Sartu talde batean BIBLIAren irakaspenak eta gaiak besteekin batera aztertzeko.",
+      "title5": "Deskargatu eta partekatu",
+      "subtitle5": "Gozatu Jainkoaren Hitza edozein lekutan entzuten eta partekatu zure lagunekin.",
+      "title6": "Gorde eta sortu",
+      "subtitle6": "Gorde zure gogoko irakaspenak eta Bibliaren bertsoak edo sortu erreprodukzio zerrenda pertsonalizatua.",
+      "title7": "Taldeko debozioak",
+      "subtitle7": "Animatu eta inspiratu besteek eguneroko taldeko debozioekin."
+    },
+    "registerPage": {
+      "noThanks": "Ez eskerrik asko",
+      "haveAccount": "Kontua duzu?",
+      "createAccount": "Sortu Nire kontua",
+      "title1": "Eztabaidatu besteekin",
+      "subtitle1": "Eztabaidatu zure gogoko gaiak eta Bibliako bertsoak besteekin.",
+      "title2": "Erreprodukzio zerrendak gorde eta sinkronizatu",
+      "subtitle2": "Eraiki zure gogoko edukien zerrendak leku bakarrean.",
+      "title3": "Ikusi zure gogokoak",
+      "subtitle3": "Gorde eta itzuli eta gogokoenetara bisitatu geroago.",
+      "title4": "Ongi etorri",
+      "subtitle4": "Sortu kontua eta eskuratu gure eginbide guztiak."
+    }
+  },
+  "app": {
+    "close": "itxi",
+    "accept": "Onartu",
+    "reject": "Baztertu",
+    "constructionInProgress": "ERAIKUNTZA AURRERA",
+    "downloadComplete": "Deskarga osoa",
+    "downloading": "Deskargatzen",
+    "downloadFailed": "Ezin izan da deskargatu",
+    "sendAFile": "Norbaitek fitxategi bat bidali nahi dizu"
+  },
+  "transferring": { "tryAgain": "saiatu berriro", "close": "itxi" },
+  "checkDevice": {
+    "check": "Egiaztatu zure gailua",
+    "makeSure": "Ziurtatu Wifi-Direct zure lagunaren gailua aktibatuta dagoela eta eremuan dagoela.",
+    "continue": "Jarraitu"
+  },
+  "connectToDevice": { "connect": "Konektatu gailu batera" },
+  "pairing": {
+    "connect": "Konektatu gailu batera",
+    "pairing": "Parekatzea",
+    "success": "Parekatu da",
+    "failed": "Gailuaren parekatzeak huts egin du",
+    "makeSure": "Ziurtatu (Wifi-Direct) zure lagunaren gailua aktibatuta dagoela eta barrutian dagoela.",
+    "continue": "Jarraitu",
+    "tryAgain": "Saiatu berriro"
+  },
+  "selectNetworkType": {
+    "connect": "Konektatu gailu batera",
+    "share": "Partekatu Wifi Direct-rekin",
+    "send": "Fitxategia wifi bidez zuzenean bidali nahi al duzu?",
+    "continue": "Jarraitu"
+  }
+}

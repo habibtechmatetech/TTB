@@ -1,0 +1,397 @@
+{
+  "selectLanguage": { "heading": "حدد لغتك الحالية", "mainAction": "اختار اللغة" },
+  "menu": {
+    "anonymousTitle": "الحساب الخاص بك",
+    "anonymousAction": "تسجيل الدخول",
+    "editProfileAction": "تعديل الملف الشخصي",
+    "verifyProfileAction": "تحقق من الملف الشخصي",
+    "bibleSection": "الكتاب المقدس",
+    "teachingsSection": "تعاليم",
+    "librarySection": "مكتبتي",
+    "groupsSection": "مجموعات",
+    "donateSection": "تبرع",
+    "settingsSection": "إعدادات",
+    "signOut": "خروج",
+    "modals": {
+      "verifyProfile": {
+        "title": "لم يتم التحقق منك",
+        "message": "لن تتم مزامنة قوائمك ولا يمكنك إنشاء مجموعات. يرجى التحقق من بريدك الإلكتروني لإكمال التسجيل.",
+        "firstButton": "استمر",
+        "secondButton": "تسجيل ملف تعريف جديد"
+      }
+    }
+  },
+  "signIn": {
+    "header": "تسجيل الدخول",
+    "emailPlaceholder": "بريدك الالكتروني",
+    "passwordPlaceholder": "كلمتك السرية",
+    "forgotAction": "هل نسيت كلمة المرور؟",
+    "callToAction": "تسجيل الدخول",
+    "signInAlternatives": "أو تسجيل الدخول باستخدام",
+    "noAccountAction": "لا حساب؟ اصنع واحدا",
+    "notifications": {
+      "invalidCredentials": "بيانات الاعتماد غير صالحة",
+      "inProgress": "تسجيل الدخول في التقدم بالفعل",
+      "notAvailable": "خدمات اللعب غير متوفرة"
+    }
+  },
+  "signUp": {
+    "header": "إنشاء حساب",
+    "emailPlaceholder": "بريدك الالكتروني",
+    "passwordPlaceholder": "كلمتك السرية",
+    "privateAction": "اجعل الحساب خاصًا",
+    "termsDisclaimer": {
+      "pre": "بالنقر فوق تسجيل ، فإنك تشير إلى أنك قد قرأت ووافقت على",
+      "terms": "الشروط",
+      "post": "."
+    },
+    "callToAction": "سجل",
+    "signUpAlternatives": "أو قم بالتسجيل باستخدام",
+    "haveAnAccountAction": "هل لديك حساب؟",
+    "notifications": {
+      "invalidUsername": "تقتصر أسماء المستخدمين على 20 حرفًا أبجديًا رقميًا (أرقام وأحرف عادية)",
+      "invalidPassword": "يجب أن تتكون كلمة المرور من 3 أحرف على الأقل وأن تكون مزيجًا من الأحرف الكبيرة والصغيرة مع رقم واحد على الأقل أو حرف خاص"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "تعذر إنشاء حساب",
+        "message": "عنوان البريد الإلكتروني هذا موجود بالفعل.",
+        "firstButton": "تسجيل الدخول",
+        "secondButton": "قريب"
+      },
+      "privateAccount": {
+        "title": "حساب خاص",
+        "message": "بجعل حسابك خاصًا ، فأنت تخفيه عن اكتشاف الآخرين له.",
+        "firstButton": "قبول",
+        "secondButton": "انخفاض"
+      },
+      "success": {
+        "title": "تم إنشاء الحساب!",
+        "message": "تم إنشاء حسابك بنجاح. تحقق من صندوق الوارد الخاص بك لتأكيد حسابك وتسجيل الدخول.",
+        "firstButton": "تسجيل الدخول"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "إعادة تعيين كلمة المرور",
+    "emailPlaceholder": "بريدك الالكتروني",
+    "message": "يرجى إدخال بريدك الإلكتروني لإعادة تعيين كلمة المرور لحسابك.",
+    "callToAction": "إعادة تعيين كلمة المرور",
+    "notifications": {
+      "success": "لقد أرسلنا للتو بريدًا إلكترونيًا إلى صندوق الوارد الخاص بك",
+      "emailNotFoundError": "لم يتم العثور على البريد الإلكتروني",
+      "invalidEmailError": "تنسيق بريد إلكتروني غير صالح"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "إنهاء الإعداد",
+    "message": "تم إرسال بريد إلكتروني إلى عنوان البريد الإلكتروني الذي أدخلته. يرجى الاطلاع على تفاصيل البريد الإلكتروني لإكمال التسجيل.",
+    "callToAction": "تخطي في الوقت الراهن"
+  },
+  "teachings": {
+    "dailyText": "بث اليوم",
+    "journeyTitle": "ابدأ رحلتك",
+    "journeySubtitle": "جميع التعاليم من البداية إلى النهاية",
+    "journeyCardTitle": "215 رحلة أسبوع عبر الكتاب المقدس",
+    "journeyCardSubtitle": "استمع في وقتك",
+    "tracksLabel": "المسارات"
+  },
+  "teaching": {
+    "header": "تعاليم",
+    "loading": "جار التحميل...",
+    "player": {
+      "audioSpeed": "سرعة الصوت",
+      "loading": "جار التحميل",
+      "castingError": "لا توجد أجهزة متاحة"
+    },
+    "modals": { "firstTime": { "firstButton": "واصل الاستماع", "secondButton": "ابدأ رحلتك" } }
+  },
+  "journey": {
+    "byDate": "حسب التاريخ",
+    "bySeries": "حسب السلسلة",
+    "sections": { "tracksLabel": "المسارات" }
+  },
+  "library": {
+    "header": "مكتبتي",
+    "tabs": { "downloads": "التحميلات", "favorites": "المفضلة", "playlists": "قوائم التشغيل" }
+  },
+  "groups": {
+    "header": "مجموعات",
+    "createGroup": {
+      "title": "إنشاء مجموعة جديدة",
+      "groupNameLabel": "أسم المجموعة",
+      "groupNameInputPlaceHolder": "اسم",
+      "descriptionLabel": "وصف",
+      "descriptionInputPlaceHolder": "اضف وصفا",
+      "inviteLabel": "قم بدعوة المستخدمين",
+      "inviteButton": "قم بدعوة مستخدمين جدد",
+      "button": "إنشاء مجموعة",
+      "invalidGroupName": "أدخل اسمًا صالحًا",
+      "groupNameTooLong": "يجب ألا يحتوي اسم المجموعة على أكثر من 25 حرفًا"
+    },
+    "devotionNotStartAlert": "لم يبدأ التفاني لهذه المجموعة",
+    "membersLabel": "أفراد",
+    "chatModalMemberSubtitleLabel": "عضو",
+    "chatModalMembersSubtitleLabel": "أفراد",
+    "chat": {
+      "listeningToLabel": "يستمع إلى",
+      "loadingTrackLabel": "تحميل المسار ...",
+      "inputPlaceHolder": "اكتب رسالة",
+      "deletePost": "حذف آخر",
+      "deleteMessage": "قام بحذف رسالة"
+    },
+    "groupSettings": {
+      "participantsSection": "المشاركين",
+      "viewAll": "مشاهدة الكل",
+      "invite": "قم بدعوة مستخدمين جدد",
+      "endDevotion": "نهاية المجموعة الولاء",
+      "deleteGroup": "حذف المجموعة",
+      "leaveGroup": "غادر المجموعة"
+    },
+    "userDirectory": {
+      "header": "دليل المستخدم",
+      "remove": "إزالة",
+      "anonymous": "مجهول",
+      "send": "إرسال"
+    },
+    "inviteUser": { "placeHolder": "بحث", "send": "إرسال" }
+  },
+  "chat": {
+    "header": "قناة المجموعة",
+    "settings": {
+      "header": "إعدادات المجموعة",
+      "endDevotion": {
+        "alertTitle": "إنهاء العبادة",
+        "alertMessage": "هل أنت متأكد أنك تريد إنهاء هذا التكريس؟",
+        "alertCancel": "إلغاء",
+        "alertConfirm": "نعم",
+        "endDevotionLabel": "أنهى هذا التفاني.",
+        "hasEnded": "لقد انتهى هذا التكريس"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "ابدأ التفاني",
+    "alertMessage": "هل أنت متأكد أنك تريد بدء التفاني مع مجموعة٪ {name}؟",
+    "alertCancel": "إلغاء",
+    "alertConfirm": "نعم",
+    "devotionStartedLabel": "بدأ التفاني."
+  },
+  "settings": {
+    "header": "إعدادات",
+    "tabs": { "profile": "الملف الشخصي", "media": "وسائل الإعلام", "notifications": "إشعارات" },
+    "profile": {
+      "account": "الحساب",
+      "username": "اسم المستخدم",
+      "email": "البريد الإلكتروني",
+      "editButton": "تعديل",
+      "edit": {
+        "save": "حفظ",
+        "username": {
+          "header": "اسم المستخدم",
+          "successAlert": "تم حفظ التغيير الخاص بك.",
+          "failedAlert": "فشل حفظ التغيير."
+        },
+        "email": {
+          "header": "البريد الإلكتروني",
+          "successAlert": "تم حفظ التغيير الخاص بك.",
+          "failedAlert": "فشل حفظ التغيير."
+        }
+      },
+      "languages": "اللغات",
+      "signIn": "تسجيل الدخول",
+      "signOut": "تسجيل الخروج من الحساب",
+      "legal": "قانوني",
+      "termsConditions": "البنود و الظروف",
+      "privacyPolicy": "سياسة خاصة",
+      "support": "الدعم",
+      "reportAProblem": "الإبلاغ عن مشكلة",
+      "tutorial": "الدورة التعليمية",
+      "reportBug": {
+        "header": "الإبلاغ عن مشكلة",
+        "send": "إرسال",
+        "subject": "موضوع",
+        "subjectPlaceHolder": "موضوع",
+        "description": "وصف",
+        "descriptionPlaceHolder": "وصف",
+        "successAlert": "شكرا لك ، لقد تلقينا رسالتك.",
+        "failedAlert": "فشل في إرسال الرسالة."
+      },
+      "version": "الإصدار"
+    },
+    "media": {
+      "audio": "الصوت",
+      "autoplay": "التشغيل التلقائي للصوت",
+      "storage": "تخزين",
+      "downloadWifi": "تنزيل فقط على شبكة Wi-fi",
+      "deleteCache": "حذف ذاكرة التخزين المؤقت"
+    },
+    "notifications": {
+      "notifications": "إشعارات",
+      "groupInvitation": "دعوة جماعية",
+      "devotions": "دعوة إلى الولاءات",
+      "file": "تأكيد نقل الملف"
+    }
+  },
+  "inviteUsers": { "header": "قم بدعوة المستخدمين" },
+  "playlist": {
+    "header": "قائمة التشغيل",
+    "audioFileLabel": "ملف صوتي",
+    "audioFilesLabel": "ملفات صوتية"
+  },
+  "collection": { "header": "مجموعة", "audioFilesLabel": "ملفات صوتية" },
+  "modal": {
+    "close": "أغلق",
+    "addToPlaylist": { "title": "أضف إلى قائمة التشغيل", "button": "إنشاء قائمة التشغيل" },
+    "startDevotion": { "title": "ابدأ التفاني" },
+    "createPlaylist": {
+      "title": "إنشاء قائمة تشغيل جديدة",
+      "button": "إنشاء قائمة التشغيل",
+      "inputPlaceholder": "أدخل اسم قائمة التشغيل",
+      "success": "تمت الإضافة إلى قائمة التشغيل"
+    },
+    "login": "تحتاج إلى تسجيل الدخول لبدء الإخلاص"
+  },
+  "options": {
+    "shared": {
+      "share": "شارك",
+      "report": "محتوى التقرير",
+      "shareOthers": "شارك مع الآخرين",
+      "copy": "انسخ الرابط",
+      "more": "أكثر"
+    },
+    "audio": {
+      "download": "تحميل",
+      "addFavorite": "اضافة الى المفضلة",
+      "addPlaylist": "أضف إلى قائمة التشغيل",
+      "removeFavorite": "إزالة من المفضلة",
+      "removePlaylist": "إزالة من قائمة التشغيل",
+      "removeDownload": "إزالة من التنزيلات"
+    },
+    "playlist": { "edit": "تعديل", "delete": "حذف قائمة التشغيل" },
+    "startDevotion": "ابدأ التفاني"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "تمت الإضافة إلى قائمة التشغيل",
+      "delete": "تمت إزالته من قائمة التشغيل",
+      "create": "قائمة التشغيل التي تم إنشاؤها",
+      "destroy": "قائمة التشغيل المحذوفة"
+    },
+    "favorites": { "add": "تمت الإضافة إلى المفضلة", "remove": "تمت إزالته من المفضلة" },
+    "downloads": { "remove": "تمت إزالته من التنزيلات" }
+  },
+  "buttons": { "loop": "عقدة", "shuffle": "خلط" },
+  "uiControls": {
+    "searchBox": { "placeholder": "بحث..." },
+    "notification": { "success": "نجاح! سيتم إرسال بريد إلكتروني إلى حسابك." },
+    "button": { "sending": "إرسال..." },
+    "modalSelector": { "cancel": "إلغاء" },
+    "loading": "جار التحميل"
+  },
+  "bible": {
+    "header": "الكتاب المقدس",
+    "oldTestament": "العهد القديم",
+    "newTestament": "العهد الجديد",
+    "popularBooks": "كتب شعبية"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "بحث",
+    "cancelButton": "إلغاء",
+    "searchResults": "نتائج البحث",
+    "filterButton": "منقي",
+    "teachings": { "title": "تعاليم" },
+    "bible": { "title": "الكتاب المقدس" }
+  },
+  "addToPlaylistsModal": { "title": "أضف إلى قائمة التشغيل", "button": "إنشاء قائمة التشغيل" },
+  "createPlaylistModal": {
+    "title": "إنشاء قائمة تشغيل جديدة",
+    "button": "إنشاء قائمة التشغيل",
+    "inputPlaceholder": "أدخل اسم قائمة التشغيل"
+  },
+  "alert": {
+    "playlists": {
+      "add": "تمت الإضافة إلى قائمة التشغيل",
+      "remove": "تمت إزالته من قائمة التشغيل",
+      "create": "قائمة التشغيل التي تم إنشاؤها",
+      "delete": "قائمة التشغيل المحذوفة"
+    },
+    "favorites": { "add": "تمت الإضافة إلى المفضلة", "remove": "تمت إزالته من المفضلة" },
+    "downloads": { "remove": "تمت إزالته من التنزيلات" },
+    "facebook": { "loginError": "فشل تسجيل الدخول مع وجود خطأ" },
+    "google": { "loginError": "فشل تسجيل الدخول مع وجود خطأ" }
+  },
+  "playlists": { "trackLabel": "المسار", "tracksLabel": "المسارات" },
+  "mediaList": { "tracksLabel": "المسارات", "remove": "إزالة" },
+  "tutorialPage": { "done": "منجز", "skip": "تخطى" },
+  "loginModal": { "login": "تسجيل الدخول" },
+  "shareModal": {
+    "facebook": "موقع التواصل الاجتماعي الفيسبوك",
+    "twitter": "تويتر",
+    "whatsapp": "ال WhatsApp"
+  },
+  "downloadModal": { "downloading": "جارى التحميل", "complete": "تم التحميل" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "اكتشف الكتاب المقدس",
+      "subtitle1": "سافر معنا عبر الكتاب المقدس بأكمله ، أو ابدأ رحلة خاصة بك.",
+      "title2": "الاستماع والتفاعل",
+      "subtitle2": "يسمح لك مشغل الوسائط بالغوص في محتوى الكتاب المقدس بسهولة.",
+      "title3": "اكتشف التعاليم",
+      "subtitle3": "شارك في الكتاب المقدس بشكل لم يسبق له مثيل من خلال الرجوع إلى محتوى الكتاب المقدس والتعليم.",
+      "title4": "ناقش الكتاب المقدس",
+      "subtitle4": "انضم إلى مجموعة لدراسة تعاليم ومواضيع الكتاب المقدس مع الآخرين.",
+      "title5": "حمل شارك",
+      "subtitle5": "استمتع بالاستماع إلى كلمة الله أثناء التنقل ومشاركتها مع أصدقائك.",
+      "title6": "حفظ وإنشاء",
+      "subtitle6": "احفظ تعاليمك المفضلة وآيات الكتاب المقدس أو أنشئ قائمة تشغيل مخصصة.",
+      "title7": "الولاءات الجماعية",
+      "subtitle7": "كن متشجعًا وإلهامًا من قبل الآخرين من خلال عبادات جماعية يومية."
+    },
+    "registerPage": {
+      "noThanks": "لا شكرا",
+      "haveAccount": "هل لديك حساب؟",
+      "createAccount": "إنشيء حسابي",
+      "title1": "ناقش مع الآخرين",
+      "subtitle1": "ناقش مواضيعك المفضلة وآيات الكتاب المقدس مع الآخرين.",
+      "title2": "تخزين ومزامنة قوائم التشغيل",
+      "subtitle2": "أنشئ قوائم بالمحتوى المفضل لديك في مكان واحد.",
+      "title3": "انظر المفضلة لديك",
+      "subtitle3": "قم بالتخزين والعودة لزيارة مفضلاتك في وقت لاحق.",
+      "title4": "مرحبا بعودتك",
+      "subtitle4": "قم بإنشاء حساب وتمتع بالوصول إلى جميع ميزاتنا."
+    }
+  },
+  "app": {
+    "close": "أغلق",
+    "accept": "قبول",
+    "reject": "رفض",
+    "constructionInProgress": "البناء في التقدم",
+    "downloadComplete": "تم التحميل",
+    "downloading": "جارى التحميل",
+    "downloadFailed": "التحميل فشل",
+    "sendAFile": "شخص ما يريد أن يرسل لك ملف"
+  },
+  "transferring": { "tryAgain": "حاول ثانية", "close": "أغلق" },
+  "checkDevice": {
+    "check": "تحقق من جهازك",
+    "makeSure": "يرجى التأكد من تشغيل Wifi-Direct على جهاز صديقك وأنه في النطاق.",
+    "continue": "استمر"
+  },
+  "connectToDevice": { "connect": "قم بالاتصال بجهاز" },
+  "pairing": {
+    "connect": "قم بالاتصال بجهاز",
+    "pairing": "الاقتران",
+    "success": "تم الاقتران بنجاح",
+    "failed": "فشل إقران الجهاز",
+    "makeSure": "يرجى التأكد من تشغيل (Wifi-Direct) على جهاز صديقك وأنه في النطاق.",
+    "continue": "استمر",
+    "tryAgain": "حاول مرة أخري"
+  },
+  "selectNetworkType": {
+    "connect": "قم بالاتصال بجهاز",
+    "share": "شارك مع Wifi Direct",
+    "send": "إرسال الملف عبر wifi مباشرة؟",
+    "continue": "استمر"
+  }
+}

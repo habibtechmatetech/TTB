@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "Họrọ asụsụ gị ugbu a", "mainAction": "Họrọ Asụsụ" },
+  "menu": {
+    "anonymousTitle": "Akaụntụ Gị",
+    "anonymousAction": "Banye",
+    "editProfileAction": "Dezie profaịlụ",
+    "verifyProfileAction": "Nyochaa profaịlụ",
+    "bibleSection": "Baịbụl",
+    "teachingsSection": "Ozizi",
+    "librarySection": "Ọba akwụkwọ m",
+    "groupsSection": "Otu dị iche iche",
+    "donateSection": "Nye onyinye",
+    "settingsSection": "Ntọala",
+    "signOut": "Pụọ",
+    "modals": {
+      "verifyProfile": {
+        "title": "Not na-adịghị ikwenye",
+        "message": "Agaghị emekọrịta ndepụta gị na ịnweghị ike ịmepụta otu. Biko lelee email gị iji mezue ndebanye aha.",
+        "firstButton": "Gaa n'ihu",
+        "secondButton": "Debanye profaịlụ ọhụrụ"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Banye",
+    "emailPlaceholder": "Email gị",
+    "passwordPlaceholder": "Paswọdu gị",
+    "forgotAction": "Chefuru okwuntughe?",
+    "callToAction": "banye",
+    "signInAlternatives": "Ma ọ bụ Banye Na-eji",
+    "noAccountAction": "Enweghị akaụntụ? Mepụta otu",
+    "notifications": {
+      "invalidCredentials": "Asambodo na ezighi ezi",
+      "inProgress": "Banye ugbua na-aga",
+      "notAvailable": "Egwu adịghị"
+    }
+  },
+  "signUp": {
+    "header": "Mebe akaụntụ",
+    "emailPlaceholder": "Email gị",
+    "passwordPlaceholder": "Paswọdu gị",
+    "privateAction": "Mee Akaụntụ Onwe",
+    "termsDisclaimer": {
+      "pre": "Site na ịpị Ntinye aka ị na-egosi na ị gụọ ma kwenye",
+      "terms": "usoro",
+      "post": "."
+    },
+    "callToAction": "debanye aha",
+    "signUpAlternatives": "Ma ọ bụ Banye iji",
+    "haveAnAccountAction": "Nwere akaụntụ?",
+    "notifications": {
+      "invalidUsername": "Aha njirimara dị nanị mkpụrụedemede 20 alphanumeric (ọnụọgụ na mkpụrụedemede nkịtị)",
+      "invalidPassword": "Okwuntughe kwesiri inwe opekata mpe mkpụrụ edemede atọ ma bụrụ mkpokọta mkpụrụedemede ukwu na nke ala nwere opekata mpe otu ma ọ bụ akara pụrụ iche"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Enweghi ike ịmepụta akaụntụ",
+        "message": "Adreesị email a adịlarị.",
+        "firstButton": "Banye",
+        "secondButton": "Mechie"
+      },
+      "privateAccount": {
+        "title": "Akaụntụ Akaụntụ",
+        "message": "Site na ịme akaụntụ gị ka ọ bụrụ nkeonwe, ị na-ezo ya ka ndị ọzọ chọpụta ya.",
+        "firstButton": "Nabata",
+        "secondButton": "Na-ajụ"
+      },
+      "success": {
+        "title": "Akaụntụ Akaụntụ!",
+        "message": "Emepụtara akaụntụ gị nke ọma Lelee igbe mbata gị iji kwado akaụntụ gị wee banye.",
+        "firstButton": "Banye"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Tọgharia paswọọdụ",
+    "emailPlaceholder": "Email gị",
+    "message": "Biko tinye email gị iji tọgharịa paswọọdụ gị maka akaụntụ gị.",
+    "callToAction": "Tọgharia paswọọdụ",
+    "notifications": {
+      "success": "Anyị zitere email na igbe mbata gị",
+      "emailNotFoundError": "Ahụghị Email",
+      "invalidEmailError": "Ọdịnaya email na ezighi ezi"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Imecha Mbido",
+    "message": "E zigara email na adreesị email ị banyere. Biko lee ozi email ka ị mezue ndebanye.",
+    "callToAction": "Mafere maka Ugbu a"
+  },
+  "teachings": {
+    "dailyText": "Mgbasa Ozi Taa",
+    "journeyTitle": "Bido njem gị",
+    "journeySubtitle": "Ozizi niile site na mmalite ruo na njedebe",
+    "journeyCardTitle": "215 Izu uka site na Baibul",
+    "journeyCardSubtitle": "Gee ntị n'oge gị",
+    "tracksLabel": "Ckszọ egwu"
+  },
+  "teaching": {
+    "header": "Ozizi",
+    "loading": "Na-adọnye ...",
+    "player": {
+      "audioSpeed": "Ọsọ ọdịyo",
+      "loading": "Na-adọnye",
+      "castingError": "Enweghị Ngwaọrụ dị"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Nọgide Na-ege Ntị", "secondButton": "Malite njem gị" }
+    }
+  },
+  "journey": {
+    "byDate": "Site na Datebọchị",
+    "bySeries": "Site n'usoro",
+    "sections": { "tracksLabel": "Ckszọ egwu" }
+  },
+  "library": {
+    "header": "Ọba akwụkwọ m",
+    "tabs": { "downloads": "Nbudata", "favorites": "Ọkacha mmasị", "playlists": "Ndetuta ọkpụkpọ" }
+  },
+  "groups": {
+    "header": "Otu dị iche iche",
+    "createGroup": {
+      "title": "Mepụta Otu Ọhụrụ",
+      "groupNameLabel": "AHA GROUP",
+      "groupNameInputPlaceHolder": "Aha",
+      "descriptionLabel": "NKỌWA",
+      "descriptionInputPlaceHolder": "Tinye Nkọwa",
+      "inviteLabel": "Kpọọ Ndị Ọrụ",
+      "inviteButton": "Kpọọ Ndị Ọrụ Ọhụrụ",
+      "button": "Mepụta Otu",
+      "invalidGroupName": "Tinye aha ziri ezi",
+      "groupNameTooLong": "Aha otu a agagh enwe ihe kariri iri abuo na ise"
+    },
+    "devotionNotStartAlert": "Ibidobeghị otu a",
+    "membersLabel": "Ndị otu",
+    "chatModalMemberSubtitleLabel": "so",
+    "chatModalMembersSubtitleLabel": "ndị otu",
+    "chat": {
+      "listeningToLabel": "Na-ege ntị",
+      "loadingTrackLabel": "Na-adọnye egwu ...",
+      "inputPlaceHolder": "Dee Ozi",
+      "deletePost": "Hichapụ Post",
+      "deleteMessage": "ehichapụwo ozi"
+    },
+    "groupSettings": {
+      "participantsSection": "Ndi sonyere",
+      "viewAll": "Lelee Ha niile",
+      "invite": "Kpọọ Ndị Ọrụ Ọhụrụ",
+      "endDevotion": "Kwụsị Nsọpụrụ Otu",
+      "deleteGroup": "Hichapụ Otu",
+      "leaveGroup": "Hapụ Otu"
+    },
+    "userDirectory": {
+      "header": "Akwụkwọ ndekọ aha ndị ọrụ",
+      "remove": "Wepu",
+      "anonymous": "Amaghi",
+      "send": "Zipu"
+    },
+    "inviteUser": { "placeHolder": "Chọọ", "send": "Zipu" }
+  },
+  "chat": {
+    "header": "Otu Ọwa",
+    "settings": {
+      "header": "Ntọala Otu",
+      "endDevotion": {
+        "alertTitle": "Kwụsị Nsọpụrụ",
+        "alertMessage": "O doro gị anya na ị chọrọ ịkwụsị ofufe a?",
+        "alertCancel": "Kagbuo",
+        "alertConfirm": "Eeh",
+        "endDevotionLabel": "kwusiri ofufe a.",
+        "hasEnded": "Nrara a kwụsịrị"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Malite Nsọpụrụ Chineke",
+    "alertMessage": "O doro gi anya na ichoro ibido ofufe na otu% {name}?",
+    "alertCancel": "Kagbuo",
+    "alertConfirm": "Eeh",
+    "devotionStartedLabel": "ebidola ofufe."
+  },
+  "settings": {
+    "header": "Ntọala",
+    "tabs": { "profile": "Profaịlụ", "media": "Mgbasa ozi", "notifications": "Ma Ọkwa" },
+    "profile": {
+      "account": "Akaụntụ",
+      "username": "Aha ojii",
+      "email": "E-mail",
+      "editButton": "Dezie",
+      "edit": {
+        "save": "Chekwa",
+        "username": {
+          "header": "Aha ojii",
+          "successAlert": "Echekwala mgbanwe gị.",
+          "failedAlert": "Tozọpụta mgbanwe ahụ agaghị."
+        },
+        "email": {
+          "header": "Email",
+          "successAlert": "Echekwala mgbanwe gị.",
+          "failedAlert": "Tozọpụta mgbanwe ahụ agaghị."
+        }
+      },
+      "languages": "Asụsụ",
+      "signIn": "Banye",
+      "signOut": "Banye na Akaụntụ",
+      "legal": "Iwu",
+      "termsConditions": "Okwu & Ọnọdụ",
+      "privacyPolicy": "amụma nzuzo",
+      "support": "Nkwado",
+      "reportAProblem": "Kpesa Nsogbu",
+      "tutorial": "Nkuzi",
+      "reportBug": {
+        "header": "Kpesa Nsogbu",
+        "send": "Zipu",
+        "subject": "ISIOKWU",
+        "subjectPlaceHolder": "Isiokwu",
+        "description": "NKỌWA",
+        "descriptionPlaceHolder": "Nkọwa",
+        "successAlert": "Daalụ, anyị anatala ozi gị.",
+        "failedAlert": "Sendzị ozi ahụ agaghị."
+      },
+      "version": "Versiondị"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Autoplay Audio",
+      "storage": "Nchekwa",
+      "downloadWifi": "Naanị Download na Wi-fi",
+      "deleteCache": "Hichapụ Cache"
+    },
+    "notifications": {
+      "notifications": "Ma Ọkwa",
+      "groupInvitation": "Inkù Grouptù",
+      "devotions": "Kpọọ ka ị nwee ofufe",
+      "file": "Nkwenye Nyefee Njikwa"
+    }
+  },
+  "inviteUsers": { "header": "Kpọọ Ndị Ọrụ" },
+  "playlist": {
+    "header": "Ndetuta egwu",
+    "audioFileLabel": "Faịlụ ọdịyo",
+    "audioFilesLabel": "Audio faịlụ"
+  },
+  "collection": { "header": "Mkpokọta", "audioFilesLabel": "Audio faịlụ" },
+  "modal": {
+    "close": "mechie",
+    "addToPlaylist": { "title": "Tinye na Listi ọkpụkpọ", "button": "Mepụta Playlist" },
+    "startDevotion": { "title": "Malite Nsọpụrụ Chineke" },
+    "createPlaylist": {
+      "title": "Mepụta Ndepụta Ọhụrụ",
+      "button": "Mepụta Playlist",
+      "inputPlaceholder": "Tinye Aha egwu ọkpụkpọ",
+      "success": "Gbakwunye na ndepụta ọkpụkpọ"
+    },
+    "login": "Ikwesiri ịbanye iji malite ofufe"
+  },
+  "options": {
+    "shared": {
+      "share": "Kee",
+      "report": "Kpesa ọdịnaya",
+      "shareOthers": "Soro Ndị Ọzọ Kerịta",
+      "copy": "Detuo njikọ",
+      "more": "Ọzọ"
+    },
+    "audio": {
+      "download": "Budata",
+      "addFavorite": "Tinye ka ọkacha mmasị",
+      "addPlaylist": "Tinye na Listi ọkpụkpọ",
+      "removeFavorite": "Wepụ na Ọkacha mmasị",
+      "removePlaylist": "Wepu na listi ọkpụkpọ",
+      "removeDownload": "Wepu na Nbudata"
+    },
+    "playlist": { "edit": "Dezie", "delete": "Hichapụ Ndetuta egwu ọkpụkpọ" },
+    "startDevotion": "Malite Nsọpụrụ Chineke"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Gbakwunye na ndepụta ọkpụkpọ",
+      "delete": "Wepu na Listi egwu",
+      "create": "Egwu ọkpụkpọ",
+      "destroy": "Ehichapụ ndepụta egwu"
+    },
+    "favorites": { "add": "Tụkwasị na Ọkacha mmasị", "remove": "Wepụrụ ọkacha mmasị" },
+    "downloads": { "remove": "Wepu na Nbudata" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Mkpọgharịa" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Chọọ ..." },
+    "notification": { "success": "Successga nke Ọma! A ga-eziga email gị na akaụntụ gị." },
+    "button": { "sending": "Na-ezipụ ..." },
+    "modalSelector": { "cancel": "Kagbuo" },
+    "loading": "Na-adọnye"
+  },
+  "bible": {
+    "header": "Baịbụl",
+    "oldTestament": "Agba Ochie",
+    "newTestament": "Agba Ọhụrụ",
+    "popularBooks": "Akwụkwọ ndị a ma ama"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Chọọ",
+    "cancelButton": "Kagbuo",
+    "searchResults": "Nsonaazụ ọchụchọ",
+    "filterButton": "Iyo",
+    "teachings": { "title": "Ozizi" },
+    "bible": { "title": "Baịbụl" }
+  },
+  "addToPlaylistsModal": { "title": "Tinye na Listi ọkpụkpọ", "button": "Mepụta Playlist" },
+  "createPlaylistModal": {
+    "title": "Mepụta Ndepụta Ọhụrụ",
+    "button": "Mepụta Playlist",
+    "inputPlaceholder": "Tinye Aha egwu ọkpụkpọ"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Gbakwunye na ndepụta ọkpụkpọ",
+      "remove": "Wepu na Listi egwu",
+      "create": "Egwu ọkpụkpọ",
+      "delete": "Ehichapụ ndepụta egwu"
+    },
+    "favorites": { "add": "Tụkwasị na Ọkacha mmasị", "remove": "Wepụrụ ọkacha mmasị" },
+    "downloads": { "remove": "Wepu na Nbudata" },
+    "facebook": { "loginError": "Nbanye adahie na mmejọ" },
+    "google": { "loginError": "Nbanye adahie na mmejọ" }
+  },
+  "playlists": { "trackLabel": "Sochie", "tracksLabel": "Ckszọ egwu" },
+  "mediaList": { "tracksLabel": "Zọ egwu", "remove": "Wepu" },
+  "tutorialPage": { "done": "Emela", "skip": "Mafere" },
+  "loginModal": { "login": "Banye" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Na-ebudata", "complete": "Budata zuru ezu" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Nyochaa Baịbụl",
+      "subtitle1": "Soro anyị na Bible dum, ma ọ bụ bido njem nke gị.",
+      "title2": "Listen & Tinye aka",
+      "subtitle2": "Ihe mgbasa ozi mgbasa ozi na-enye gị ohere ịmaba n'ime THRU nke Akwụkwọ Nsọ na ịdị mfe.",
+      "title3": "Choputa nkuzi",
+      "subtitle3": "Tinye aka na Baibul ka odighi mgbe obula site na ighota akwukwo nso na nkuzi.",
+      "title4": "Neme Bible",
+      "subtitle4": "Soro otu ndi soro THRU BIBLE nkuzi na isiokwu ndi ozo.",
+      "title5": "Budata & Kekọrịta",
+      "subtitle5": "Nwee ọ listeningụ na ịge Okwu Chineke na-aga ma soro ndị enyi gị kerịta ya.",
+      "title6": "Chekwa & Mepụta",
+      "subtitle6": "Zọpụta ozizi kachasị amasị gị na amaokwu Baịbụl ma ọ bụ mepụta ndepụta ọkpụkpọ.",
+      "title7": "Otu Nkwupụta",
+      "subtitle7": "Nwee nkwado ma kpalie ndị ọzọ site na iji otu nzuzo kwa ụbọchị."
+    },
+    "registerPage": {
+      "noThanks": "Mba, daalụ",
+      "haveAccount": "Nwere akaụntụ?",
+      "createAccount": "Mepụta Akaụntụ M",
+      "title1": "Soro ndị ọzọ kwurịtara",
+      "subtitle1": "Soro ndị ọzọ kwurịta isiokwu kachasị amasị gị na amaokwu Akwụkwọ Nsọ.",
+      "title2": "Storelọ ahịa na mmekọrịta Ndetuta ọkpụkpọ",
+      "subtitle2": "Mee ndepụta nke ọdịnaya kachasị amasị gị n'otu ebe.",
+      "title3": "Hụ ọkacha mmasị gị",
+      "subtitle3": "Chekwaa ma laghachite ma gaa na ọkacha mmasị gị n’oge ọzọ.",
+      "title4": "Nnọọ",
+      "subtitle4": "Mepụta akaụntụ ma nweta ohere anyị niile."
+    }
+  },
+  "app": {
+    "close": "mechie",
+    "accept": "Nabata",
+    "reject": "Jụ",
+    "constructionInProgress": "Nrụpụta na-aga n'ihu",
+    "downloadComplete": "Budata zuru ezu",
+    "downloading": "Na-ebudata",
+    "downloadFailed": "Download Okpu",
+    "sendAFile": "Onwere Onye Ga-ezitere Gị Faịlụ"
+  },
+  "transferring": { "tryAgain": "nwaa ọzọ", "close": "mechie" },
+  "checkDevice": {
+    "check": "Lelee Ngwaọrụ gị",
+    "makeSure": "Biko hụ na WiFi na-agbanye na ngwaọrụ enyi gị ma ọ dị nso.",
+    "continue": "Gaa n'ihu"
+  },
+  "connectToDevice": { "connect": "Jikọọ na Ngwaọrụ" },
+  "pairing": {
+    "connect": "Jikọọ na Ngwaọrụ",
+    "pairing": "Mmakọ",
+    "success": "Njikọtara nke ọma",
+    "failed": "Ngwaọrụ ijikọ agaghị",
+    "makeSure": "Biko hụ na (Wifi-Direct) gbanyere ngwaọrụ enyi gị ma ọ dị nso.",
+    "continue": "Gaa n'ihu",
+    "tryAgain": "Nwaa ọzọ"
+  },
+  "selectNetworkType": {
+    "connect": "Jikọọ na ngwaọrụ",
+    "share": "Soro Wifi Direct",
+    "send": "Zipu faịlụ karịrị wifi direct?",
+    "continue": "Gaa n'ihu"
+  }
+}

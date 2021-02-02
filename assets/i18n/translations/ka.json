@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "აირჩიეთ თქვენი ამჟამინდელი ენა", "mainAction": "Აირჩიეთ ენა" },
+  "menu": {
+    "anonymousTitle": "Თქვენი ანგარიში",
+    "anonymousAction": "Შესვლა",
+    "editProfileAction": "Პროფილის რედაქტირება",
+    "verifyProfileAction": "დაადასტურეთ პროფილი",
+    "bibleSection": "ბიბლია",
+    "teachingsSection": "სწავლებები",
+    "librarySection": "ჩემი ბიბლიოთეკა",
+    "groupsSection": "ჯგუფები",
+    "donateSection": "შემოწირულობა",
+    "settingsSection": "პარამეტრები",
+    "signOut": "Სისტემიდან გამოსვლა",
+    "modals": {
+      "verifyProfile": {
+        "title": "თქვენ არ ხართ გადამოწმებული",
+        "message": "თქვენი სიები არ სინქრონიზდება და ჯგუფების შექმნა არ შეგიძლიათ. გთხოვთ, შეამოწმოთ თქვენი ელ.წერილი რეგისტრაციის დასასრულებლად.",
+        "firstButton": "გაგრძელება",
+        "secondButton": "ახალი პროფილის რეგისტრაცია"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Შესვლა",
+    "emailPlaceholder": "Თქვენი ელ. ფოსტა",
+    "passwordPlaceholder": "Თქვენი პაროლი",
+    "forgotAction": "Პაროლი დაგავიწყდა?",
+    "callToAction": "Შესვლა",
+    "signInAlternatives": "ან შედით სისტემაში",
+    "noAccountAction": "არ გაქვთ ანგარიში? შექმენით ერთი",
+    "notifications": {
+      "invalidCredentials": "სერთიფიკატები არასწორია",
+      "inProgress": "სისტემაში შესვლა უკვე მიმდინარეობს",
+      "notAvailable": "Play სერვისები მიუწვდომელია"
+    }
+  },
+  "signUp": {
+    "header": "Შექმენი ანგარიში",
+    "emailPlaceholder": "Თქვენი ელ. ფოსტა",
+    "passwordPlaceholder": "Თქვენი პაროლი",
+    "privateAction": "ანგარიში გახადეთ პირადი",
+    "termsDisclaimer": {
+      "pre": "რეგისტრაციაზე დაჭერით მიუთითებთ, რომ წაიკითხეთ და ეთანხმებით",
+      "terms": "პირობები",
+      "post": "."
+    },
+    "callToAction": "დარეგისტრირება",
+    "signUpAlternatives": "ან დარეგისტრირდით",
+    "haveAnAccountAction": "გაქვთ ანგარიში?",
+    "notifications": {
+      "invalidUsername": "მომხმარებლის სახელები შემოიფარგლება 20 ალფანუმერული სიმბოლოთი (რიცხვები და ჩვეულებრივი ასოები)",
+      "invalidPassword": "პაროლი უნდა შეიცავდეს მინიმუმ 3 სიმბოლოს და იყოს ზედა და მცირე ასოების ერთობლიობა, სულ მცირე, ერთი რიცხვით ან სპეციალური სიმბოლოთი"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "ანგარიშის შექმნა შეუძლებელია",
+        "message": "ელ.ფოსტის ეს მისამართი უკვე არსებობს.",
+        "firstButton": "Შესვლა",
+        "secondButton": "დახურვა"
+      },
+      "privateAccount": {
+        "title": "Პირადი ანგარიში",
+        "message": "თქვენი ანგარიშის პირადი საშუალებით თქვენ მალავთ მას სხვების მიერ აღმოჩენისგან.",
+        "firstButton": "მიღება",
+        "secondButton": "უარყოფა"
+      },
+      "success": {
+        "title": "ანგარიში შეიქმნა!",
+        "message": "თქვენი ანგარიში წარმატებით შეიქმნა. შეამოწმეთ თქვენი შემოსულები თქვენი ანგარიშის დასადასტურებლად და შედით სისტემაში.",
+        "firstButton": "Შესვლა"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "პაროლის გადაყენება",
+    "emailPlaceholder": "Თქვენი ელ. ფოსტა",
+    "message": "გთხოვთ, შეიყვანოთ თქვენი ელ.ფოსტა, რომ აღადგინოთ თქვენი ანგარიშის პაროლი.",
+    "callToAction": "პაროლის გადაყენება",
+    "notifications": {
+      "success": "ჩვენ ახლახან გამოგიგზავნეთ ელ.წერილი თქვენს შემოსულებში",
+      "emailNotFoundError": "ელ.ფოსტა ვერ მოიძებნა",
+      "invalidEmailError": "ელ.ფოსტის ფორმატი არასწორია"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "დასრულების დაყენება",
+    "message": "ელ.წერილი გაიგზავნა თქვენს მიერ შეყვანილ ელექტრონულ მისამართზე. რეგისტრაციის დასასრულებლად იხილეთ ელექტრონული ფოსტის მონაცემები.",
+    "callToAction": "ახლა გამოტოვე"
+  },
+  "teachings": {
+    "dailyText": "დღევანდელი გადაცემა",
+    "journeyTitle": "დაიწყე შენი მოგზაურობა",
+    "journeySubtitle": "ყველა სწავლება თავიდან ბოლომდე",
+    "journeyCardTitle": "215 კვირის მოგზაურობა ბიბლიის გავლით",
+    "journeyCardSubtitle": "მოუსმინეთ თქვენს დროს",
+    "tracksLabel": "ტრეკები"
+  },
+  "teaching": {
+    "header": "სწავლებები",
+    "loading": "Ჩატვირთვა...",
+    "player": {
+      "audioSpeed": "აუდიო სიჩქარე",
+      "loading": "Ჩატვირთვა",
+      "castingError": "მოწყობილობა არ არის ხელმისაწვდომი"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "განაგრძეთ მოსმენა", "secondButton": "დაიწყე შენი მოგზაურობა" }
+    }
+  },
+  "journey": {
+    "byDate": "თარიღის მიხედვით",
+    "bySeries": "სერიების მიხედვით",
+    "sections": { "tracksLabel": "ტრეკები" }
+  },
+  "library": {
+    "header": "ჩემი ბიბლიოთეკა",
+    "tabs": { "downloads": "გადმოწერები", "favorites": "რჩეულები", "playlists": "დასაკრავი სიები" }
+  },
+  "groups": {
+    "header": "ჯგუფები",
+    "createGroup": {
+      "title": "შექმენით ახალი ჯგუფი",
+      "groupNameLabel": "ᲯᲒᲣᲤᲘᲡ ᲡᲐᲮᲔᲚᲘ",
+      "groupNameInputPlaceHolder": "სახელი",
+      "descriptionLabel": "აღწერა",
+      "descriptionInputPlaceHolder": "აღწერეთ დამატება",
+      "inviteLabel": "მოიწვიეთ მომხმარებლები",
+      "inviteButton": "მოიწვიეთ ახალი მომხმარებლები",
+      "button": "ჯგუფის შექმნა",
+      "invalidGroupName": "შეიყვანეთ სწორი სახელი",
+      "groupNameTooLong": "ჯგუფის სახელი არ უნდა შეიცავდეს 25 სიმბოლოს"
+    },
+    "devotionNotStartAlert": "ამ ჯგუფისთვის ერთგულება არ დაწყებულა",
+    "membersLabel": "წევრები",
+    "chatModalMemberSubtitleLabel": "წევრი",
+    "chatModalMembersSubtitleLabel": "წევრები",
+    "chat": {
+      "listeningToLabel": "უსმენდა",
+      "loadingTrackLabel": "იტვირთება ტრეკი ...",
+      "inputPlaceHolder": "დაწერეთ შეტყობინება",
+      "deletePost": "პოსტის წაშლა",
+      "deleteMessage": "წაშალა შეტყობინება"
+    },
+    "groupSettings": {
+      "participantsSection": "Მონაწილეები",
+      "viewAll": "Ყველას ნახვა",
+      "invite": "მოიწვიეთ ახალი მომხმარებლები",
+      "endDevotion": "დაასრულეთ ჯგუფის ერთგულება",
+      "deleteGroup": "ჯგუფის წაშლა",
+      "leaveGroup": "Ჯგუფის დატოვება"
+    },
+    "userDirectory": {
+      "header": "მომხმარებლის დირექტორია",
+      "remove": "ამოღება",
+      "anonymous": "ანონიმური",
+      "send": "გაგზავნა"
+    },
+    "inviteUser": { "placeHolder": "ძებნა", "send": "გაგზავნა" }
+  },
+  "chat": {
+    "header": "ჯგუფური არხი",
+    "settings": {
+      "header": "ჯგუფის პარამეტრები",
+      "endDevotion": {
+        "alertTitle": "დასრულება ერთგულება",
+        "alertMessage": "დარწმუნებული ხართ, რომ გსურთ დასრულდეს ეს ერთგულება?",
+        "alertCancel": "გაუქმება",
+        "alertConfirm": "დიახ",
+        "endDevotionLabel": "დასრულდა ეს ერთგულება.",
+        "hasEnded": "ეს ერთგულება დასრულდა"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "დაიწყეთ ერთგულება",
+    "alertMessage": "დარწმუნებული ხართ, რომ გსურთ დაიწყოთ ერთგულება% {name} ჯგუფთან?",
+    "alertCancel": "გაუქმება",
+    "alertConfirm": "დიახ",
+    "devotionStartedLabel": "დაიწყო ერთგულება."
+  },
+  "settings": {
+    "header": "პარამეტრები",
+    "tabs": { "profile": "პროფილი", "media": "მედია", "notifications": "შეტყობინებები" },
+    "profile": {
+      "account": "ანგარიში",
+      "username": "მომხმარებლის სახელი",
+      "email": "ელ.ფოსტა",
+      "editButton": "რედაქტირება",
+      "edit": {
+        "save": "Გადარჩენა",
+        "username": {
+          "header": "მომხმარებლის სახელი",
+          "successAlert": "თქვენი ცვლილება შენახულია.",
+          "failedAlert": "ცვლილების შენახვა ვერ მოხერხდა."
+        },
+        "email": {
+          "header": "ელ.წერილი",
+          "successAlert": "თქვენი ცვლილება შენახულია.",
+          "failedAlert": "ცვლილების შენახვა ვერ მოხერხდა."
+        }
+      },
+      "languages": "ენები",
+      "signIn": "Შესვლა",
+      "signOut": "გამოდით ანგარიშიდან",
+      "legal": "იურიდიული",
+      "termsConditions": "წესები და პირობები",
+      "privacyPolicy": "Კონფიდენციალურობის პოლიტიკა",
+      "support": "მხარდაჭერა",
+      "reportAProblem": "შეატყობინეთ პრობლემას",
+      "tutorial": "სახელმძღვანელო",
+      "reportBug": {
+        "header": "შეატყობინეთ პრობლემას",
+        "send": "გაგზავნა",
+        "subject": "თემა",
+        "subjectPlaceHolder": "საგანი",
+        "description": "აღწერა",
+        "descriptionPlaceHolder": "აღწერა",
+        "successAlert": "გმადლობთ, თქვენი შეტყობინება მივიღეთ.",
+        "failedAlert": "შეტყობინების გაგზავნა ვერ მოხერხდა."
+      },
+      "version": "ვერსია"
+    },
+    "media": {
+      "audio": "აუდიო",
+      "autoplay": "ავტომატურად დაკვრა აუდიო",
+      "storage": "შენახვა",
+      "downloadWifi": "მხოლოდ ჩამოტვირთვა Wi-Fi- ზე",
+      "deleteCache": "Cache- ის წაშლა"
+    },
+    "notifications": {
+      "notifications": "შეტყობინებები",
+      "groupInvitation": "ჯგუფური მოწვევა",
+      "devotions": "მოიწვიე ერთგულებებისკენ",
+      "file": "ფაილის გადაცემის დადასტურება"
+    }
+  },
+  "inviteUsers": { "header": "მოიწვიეთ მომხმარებლები" },
+  "playlist": {
+    "header": "დასაკრავი სია",
+    "audioFileLabel": "აუდიო ფაილი",
+    "audioFilesLabel": "აუდიო ფაილები"
+  },
+  "collection": { "header": "კოლექცია", "audioFilesLabel": "აუდიო ფაილები" },
+  "modal": {
+    "close": "დახურვა",
+    "addToPlaylist": { "title": "დასაკრავ სიაში დამატება", "button": "შექმენით დასაკრავი სია" },
+    "startDevotion": { "title": "დაიწყეთ ერთგულება" },
+    "createPlaylist": {
+      "title": "შექმენით ახალი დასაკრავი სია",
+      "button": "შექმენით დასაკრავი სია",
+      "inputPlaceholder": "შეიყვანეთ დასაკრავი სიის სახელი",
+      "success": "დაემატა დასაკრავ სიას"
+    },
+    "login": "ერთგულება უნდა დაიწყოთ"
+  },
+  "options": {
+    "shared": {
+      "share": "გაზიარება",
+      "report": "შინაარსის შესახებ შეტყობინება",
+      "shareOthers": "გაუზიარე სხვებს",
+      "copy": "Ბმულის კოპირება",
+      "more": "მეტი"
+    },
+    "audio": {
+      "download": "გადმოწერა",
+      "addFavorite": "Რჩეულებში დამატება",
+      "addPlaylist": "დასაკრავ სიაში დამატება",
+      "removeFavorite": "წაშალეთ რჩეულებიდან",
+      "removePlaylist": "ამოღება დასაკრავი სიიდან",
+      "removeDownload": "ჩამოტვირთვებიდან ამოღება"
+    },
+    "playlist": { "edit": "რედაქტირება", "delete": "წაშალეთ დასაკრავი სია" },
+    "startDevotion": "დაიწყეთ ერთგულება"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "დაემატა დასაკრავ სიას",
+      "delete": "ამოღებულია ფლეილისტიდან",
+      "create": "შეიქმნა დასაკრავი სია",
+      "destroy": "წაიშალა დასაკრავი სია"
+    },
+    "favorites": { "add": "რჩეულებში დამატება", "remove": "ამოღებულია რჩეულებში" },
+    "downloads": { "remove": "ამოღებულია ჩამოტვირთვებიდან" }
+  },
+  "buttons": { "loop": "მარყუჟი", "shuffle": "შეცვლა" },
+  "uiControls": {
+    "searchBox": { "placeholder": "ძებნა ..." },
+    "notification": { "success": "წარმატება ელ.წერილი გაიგზავნება თქვენს ანგარიშზე." },
+    "button": { "sending": "იგზავნება ..." },
+    "modalSelector": { "cancel": "გაუქმება" },
+    "loading": "Ჩატვირთვა"
+  },
+  "bible": {
+    "header": "ბიბლია",
+    "oldTestament": "ძველი აღთქმა",
+    "newTestament": "ახალი აღთქმა",
+    "popularBooks": "პოპულარული წიგნები"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "ძებნა",
+    "cancelButton": "გაუქმება",
+    "searchResults": "ძიების შედეგები",
+    "filterButton": "ფილტრი",
+    "teachings": { "title": "სწავლებები" },
+    "bible": { "title": "ბიბლია" }
+  },
+  "addToPlaylistsModal": { "title": "დასაკრავ სიაში დამატება", "button": "შექმენით დასაკრავი სია" },
+  "createPlaylistModal": {
+    "title": "შექმენით ახალი დასაკრავი სია",
+    "button": "შექმენით დასაკრავი სია",
+    "inputPlaceholder": "შეიყვანეთ დასაკრავი სიის სახელი"
+  },
+  "alert": {
+    "playlists": {
+      "add": "დაემატა დასაკრავ სიას",
+      "remove": "ამოღებულია ფლეილისტიდან",
+      "create": "შეიქმნა დასაკრავი სია",
+      "delete": "წაიშალა დასაკრავი სია"
+    },
+    "favorites": { "add": "რჩეულებში დამატება", "remove": "ამოღებულია რჩეულებში" },
+    "downloads": { "remove": "ამოღებულია ჩამოტვირთვებიდან" },
+    "facebook": { "loginError": "შესვლა ვერ მოხერხდა შეცდომით" },
+    "google": { "loginError": "შესვლა ვერ მოხერხდა შეცდომით" }
+  },
+  "playlists": { "trackLabel": "სიმღერა", "tracksLabel": "ტრეკები" },
+  "mediaList": { "tracksLabel": "ტრეკები", "remove": "ამოღება" },
+  "tutorialPage": { "done": "შესრულებულია", "skip": "გამოტოვება" },
+  "loginModal": { "login": "Შესვლა" },
+  "shareModal": { "facebook": "ფეისბუქი", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "ჩამოტვირთვისას", "complete": "ჩამოტვირთვა დასრულებულია" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "შეისწავლეთ ბიბლია",
+      "subtitle1": "იმოგზაურეთ მთელი ბიბლიის საშუალებით ჩვენთან ერთად, ან დაიწყეთ საკუთარი მოგზაურობა.",
+      "title2": "მოუსმინე და ჩაერთე",
+      "subtitle2": "მედია ფლეერი საშუალებას გაძლევთ მარტივად ჩასხდეთ THRU BIBLE შინაარსში.",
+      "title3": "აღმოაჩინე სწავლებები",
+      "subtitle3": "ჩაერთეთ ბიბლიაში, როგორც არასდროს, ბიბლიისა და სწავლების შინაარსის ჯვარედინი მითითებით.",
+      "title4": "იმსჯელეთ ბიბლიის შესახებ",
+      "subtitle4": "შეუერთდით ჯგუფს და შეისწავლეთ THRU BIBLE სწავლებები და თემები სხვებთან ერთად.",
+      "title5": "ჩამოტვირთეთ და გააზიარეთ",
+      "subtitle5": "ისიამოვნეთ ღვთის სიტყვის მოსმენის დროს და გაუზიარეთ თქვენს მეგობრებს.",
+      "title6": "შენახვა და შექმნა",
+      "subtitle6": "შეინახეთ თქვენი საყვარელი სწავლებები და ბიბლიური მუხლები ან შექმენით პერსონალური დასაკრავი სია.",
+      "title7": "ჯგუფური ერთგულებები",
+      "subtitle7": "წაახალისეთ და გააჩინეთ სხვები ყოველდღიური ჯგუფური ერთგულებით."
+    },
+    "registerPage": {
+      "noThanks": "Არა გმადლობთ",
+      "haveAccount": "გაქვთ ანგარიში?",
+      "createAccount": "შექმენი ჩემი ანგარიში",
+      "title1": "იმსჯელეთ სხვებთან",
+      "subtitle1": "სხვებთან ერთად განიხილეთ თქვენი საყვარელი თემები და ბიბლიური მუხლები.",
+      "title2": "დასაკრავი სიების შენახვა და სინქრონიზაცია",
+      "subtitle2": "შექმენით თქვენი საყვარელი შინაარსის სიები ერთ ადგილას.",
+      "title3": "იხილეთ თქვენი რჩეულები",
+      "subtitle3": "შეინახეთ და დაბრუნდით და მოგვიანებით მოინახულეთ თქვენი რჩეულები.",
+      "title4": "Კეთილი იყოს თქვენი დაბრუნება",
+      "subtitle4": "შექმენით ანგარიში და მიიღეთ წვდომა ჩვენს ყველა მახასიათებელზე."
+    }
+  },
+  "app": {
+    "close": "დახურვა",
+    "accept": "მიღება",
+    "reject": "Უარყოს",
+    "constructionInProgress": "მშენებლობა პროგრესში",
+    "downloadComplete": "ჩამოტვირთვა დასრულებულია",
+    "downloading": "ჩამოტვირთვისას",
+    "downloadFailed": "ჩამოტვირთვა ვერ მოხერხდა",
+    "sendAFile": "ვინმეს სურს გამოგიგზავნოთ ფაილი"
+  },
+  "transferring": { "tryAgain": "კიდევ სცადე", "close": "დახურვა" },
+  "checkDevice": {
+    "check": "შეამოწმეთ თქვენი მოწყობილობა",
+    "makeSure": "გთხოვთ, დარწმუნდეთ, რომ Wifi-Direct ჩართულია თქვენი მეგობრის მოწყობილობაზე და ის დიაპაზონშია.",
+    "continue": "გაგრძელება"
+  },
+  "connectToDevice": { "connect": "დაუკავშირდით მოწყობილობას" },
+  "pairing": {
+    "connect": "დაუკავშირდით მოწყობილობას",
+    "pairing": "დაწყვილება",
+    "success": "წარმატებით დაწყვილდა",
+    "failed": "მოწყობილობის დაწყვილება ვერ მოხერხდა",
+    "makeSure": "დარწმუნდით, რომ (Wifi-Direct) ჩართულია თქვენი მეგობრის მოწყობილობა და ის დიაპაზონშია.",
+    "continue": "გაგრძელება",
+    "tryAgain": "Კიდევ სცადე"
+  },
+  "selectNetworkType": {
+    "connect": "დაუკავშირდით მოწყობილობას",
+    "share": "გააზიარე Wifi Direct- ით",
+    "send": "გსურთ ფაილის wifi საშუალებით გაგზავნა?",
+    "continue": "გაგრძელება"
+  }
+}

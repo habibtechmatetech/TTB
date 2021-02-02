@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "เลือกภาษาปัจจุบันของคุณ", "mainAction": "เลือกภาษา" },
+  "menu": {
+    "anonymousTitle": "บัญชีของคุณ",
+    "anonymousAction": "เข้าสู่ระบบ",
+    "editProfileAction": "แก้ไขโปรไฟล์",
+    "verifyProfileAction": "ตรวจสอบโปรไฟล์",
+    "bibleSection": "คัมภีร์ไบเบิล",
+    "teachingsSection": "คำสอน",
+    "librarySection": "ห้องสมุดของฉัน",
+    "groupsSection": "กลุ่ม",
+    "donateSection": "บริจาค",
+    "settingsSection": "การตั้งค่า",
+    "signOut": "ออกจากระบบ",
+    "modals": {
+      "verifyProfile": {
+        "title": "คุณไม่ได้รับการยืนยัน",
+        "message": "รายการของคุณจะไม่ถูกซิงค์และคุณไม่สามารถสร้างกลุ่มได้ โปรดตรวจสอบอีเมลของคุณเพื่อทำการลงทะเบียนให้เสร็จสมบูรณ์",
+        "firstButton": "ดำเนินการต่อ",
+        "secondButton": "ลงทะเบียนโปรไฟล์ใหม่"
+      }
+    }
+  },
+  "signIn": {
+    "header": "เข้าสู่ระบบ",
+    "emailPlaceholder": "อีเมลของคุณ",
+    "passwordPlaceholder": "รหัสผ่านของคุณ",
+    "forgotAction": "ลืมรหัสผ่าน?",
+    "callToAction": "เข้าสู่ระบบ",
+    "signInAlternatives": "หรือลงชื่อเข้าใช้โดยใช้",
+    "noAccountAction": "ไม่มีบัญชี? สร้างใหม่",
+    "notifications": {
+      "invalidCredentials": "ข้อมูลประจำตัวที่ไม่ถูกต้อง",
+      "inProgress": "กำลังลงชื่อเข้าใช้อยู่",
+      "notAvailable": "บริการ Play ไม่พร้อมใช้งาน"
+    }
+  },
+  "signUp": {
+    "header": "สร้างบัญชี",
+    "emailPlaceholder": "อีเมลของคุณ",
+    "passwordPlaceholder": "รหัสผ่านของคุณ",
+    "privateAction": "ทำให้บัญชีเป็นส่วนตัว",
+    "termsDisclaimer": {
+      "pre": "การคลิกลงทะเบียนแสดงว่าคุณได้อ่านและยอมรับ",
+      "terms": "เงื่อนไข",
+      "post": "."
+    },
+    "callToAction": "ลงชื่อ",
+    "signUpAlternatives": "หรือลงทะเบียนโดยใช้",
+    "haveAnAccountAction": "มีบัญชี?",
+    "notifications": {
+      "invalidUsername": "ชื่อผู้ใช้ จำกัด ไว้ที่ 20 อักขระที่เป็นตัวเลขและตัวอักษร (ตัวเลขและตัวอักษรทั่วไป)",
+      "invalidPassword": "รหัสผ่านควรมีอย่างน้อย 3 อักขระและประกอบด้วยอักขระตัวพิมพ์ใหญ่และตัวพิมพ์เล็กที่มีตัวเลขหรืออักขระพิเศษอย่างน้อยหนึ่งตัว"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "ไม่สามารถสร้างบัญชีได้",
+        "message": "ที่อยู่อีเมลนี้มีอยู่แล้ว",
+        "firstButton": "เข้าสู่ระบบ",
+        "secondButton": "ปิด"
+      },
+      "privateAccount": {
+        "title": "บัญชีส่วนตัว",
+        "message": "การทำให้บัญชีของคุณเป็นแบบส่วนตัวแสดงว่าคุณซ่อนไม่ให้คนอื่นค้นพบ",
+        "firstButton": "ยอมรับ",
+        "secondButton": "ลดลง"
+      },
+      "success": {
+        "title": "สร้างบัญชีแล้ว!",
+        "message": "สร้างบัญชีของคุณสำเร็จแล้ว ตรวจสอบกล่องจดหมายของคุณเพื่อยืนยันบัญชีของคุณและลงชื่อเข้าใช้",
+        "firstButton": "เข้าสู่ระบบ"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "รีเซ็ตรหัสผ่าน",
+    "emailPlaceholder": "อีเมลของคุณ",
+    "message": "โปรดป้อนอีเมลของคุณเพื่อรีเซ็ตรหัสผ่านสำหรับบัญชีของคุณ",
+    "callToAction": "รีเซ็ตรหัสผ่าน",
+    "notifications": {
+      "success": "เราเพิ่งส่งอีเมลไปที่กล่องจดหมายของคุณ",
+      "emailNotFoundError": "ไม่พบอีเมล",
+      "invalidEmailError": "รูปแบบอีเมลไม่ถูกต้อง"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "เสร็จสิ้นการตั้งค่า",
+    "message": "อีเมลถูกส่งไปยังที่อยู่อีเมลที่คุณป้อน โปรดดูรายละเอียดอีเมลเพื่อลงทะเบียนให้เสร็จสมบูรณ์",
+    "callToAction": "ข้ามไปก่อน"
+  },
+  "teachings": {
+    "dailyText": "ออกอากาศวันนี้",
+    "journeyTitle": "เริ่มต้นการเดินทางของคุณ",
+    "journeySubtitle": "คำสอนทั้งหมดตั้งแต่ต้นจนจบ",
+    "journeyCardTitle": "215 สัปดาห์การเดินทางผ่านพระคัมภีร์",
+    "journeyCardSubtitle": "ฟังในเวลาของคุณ",
+    "tracksLabel": "แทร็ก"
+  },
+  "teaching": {
+    "header": "คำสอน",
+    "loading": "กำลังโหลด ...",
+    "player": {
+      "audioSpeed": "ความเร็วเสียง",
+      "loading": "กำลังโหลด",
+      "castingError": "ไม่มีอุปกรณ์ที่พร้อมใช้งาน"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "ฟังต่อ", "secondButton": "เริ่มต้นการเดินทางของคุณ" }
+    }
+  },
+  "journey": {
+    "byDate": "ตามวันที่",
+    "bySeries": "ตามซีรี่ส์",
+    "sections": { "tracksLabel": "แทร็ก" }
+  },
+  "library": {
+    "header": "ห้องสมุดของฉัน",
+    "tabs": { "downloads": "ดาวน์โหลด", "favorites": "รายการโปรด", "playlists": "เพลย์ลิสต์" }
+  },
+  "groups": {
+    "header": "กลุ่ม",
+    "createGroup": {
+      "title": "สร้างกลุ่มใหม่",
+      "groupNameLabel": "ชื่อกลุ่ม",
+      "groupNameInputPlaceHolder": "ชื่อ",
+      "descriptionLabel": "คำอธิบาย",
+      "descriptionInputPlaceHolder": "เพิ่มคำอธิบาย",
+      "inviteLabel": "เชิญผู้ใช้",
+      "inviteButton": "เชิญผู้ใช้ใหม่",
+      "button": "สร้างกลุ่ม",
+      "invalidGroupName": "ป้อนชื่อที่ถูกต้อง",
+      "groupNameTooLong": "ชื่อของกลุ่มต้องมีอักขระไม่เกิน 25 ตัว"
+    },
+    "devotionNotStartAlert": "ความทุ่มเทยังไม่เริ่มต้นสำหรับกลุ่มนี้",
+    "membersLabel": "สมาชิก",
+    "chatModalMemberSubtitleLabel": "สมาชิก",
+    "chatModalMembersSubtitleLabel": "สมาชิก",
+    "chat": {
+      "listeningToLabel": "ฟัง",
+      "loadingTrackLabel": "กำลังโหลดแทร็ก ...",
+      "inputPlaceHolder": "เขียนข้อความ",
+      "deletePost": "ลบโพสต์",
+      "deleteMessage": "ได้ลบข้อความ"
+    },
+    "groupSettings": {
+      "participantsSection": "ผู้เข้าร่วม",
+      "viewAll": "ดูทั้งหมด",
+      "invite": "เชิญผู้ใช้ใหม่",
+      "endDevotion": "ยุติความทุ่มเทของกลุ่ม",
+      "deleteGroup": "ลบกลุ่ม",
+      "leaveGroup": "ออกจากกลุ่ม"
+    },
+    "userDirectory": {
+      "header": "ไดเรกทอรีผู้ใช้",
+      "remove": "ลบ",
+      "anonymous": "ไม่ระบุชื่อ",
+      "send": "ส่ง"
+    },
+    "inviteUser": { "placeHolder": "ค้นหา", "send": "ส่ง" }
+  },
+  "chat": {
+    "header": "ช่องกลุ่ม",
+    "settings": {
+      "header": "การตั้งค่ากลุ่ม",
+      "endDevotion": {
+        "alertTitle": "ยุติความทุ่มเท",
+        "alertMessage": "แน่ใจหรือว่าต้องการยุติการอุทิศตนนี้?",
+        "alertCancel": "ยกเลิก",
+        "alertConfirm": "ใช่",
+        "endDevotionLabel": "ยุติความทุ่มเทนี้",
+        "hasEnded": "ความจงรักภักดีนี้สิ้นสุดลงแล้ว"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "เริ่มการอุทิศตน",
+    "alertMessage": "แน่ใจหรือว่าต้องการเริ่มต้นการอุทิศตนกับกลุ่ม% {name}",
+    "alertCancel": "ยกเลิก",
+    "alertConfirm": "ใช่",
+    "devotionStartedLabel": "ได้เริ่มต้นการอุทิศตน"
+  },
+  "settings": {
+    "header": "การตั้งค่า",
+    "tabs": { "profile": "ข้อมูลส่วนตัว", "media": "สื่อ", "notifications": "การแจ้งเตือน" },
+    "profile": {
+      "account": "บัญชีผู้ใช้",
+      "username": "ชื่อผู้ใช้",
+      "email": "อีเมล์",
+      "editButton": "แก้ไข",
+      "edit": {
+        "save": "บันทึก",
+        "username": {
+          "header": "ชื่อผู้ใช้",
+          "successAlert": "บันทึกการเปลี่ยนแปลงของคุณแล้ว",
+          "failedAlert": "บันทึกการเปลี่ยนแปลงไม่สำเร็จ"
+        },
+        "email": {
+          "header": "อีเมล์",
+          "successAlert": "บันทึกการเปลี่ยนแปลงของคุณแล้ว",
+          "failedAlert": "บันทึกการเปลี่ยนแปลงไม่สำเร็จ"
+        }
+      },
+      "languages": "ภาษา",
+      "signIn": "เข้าสู่ระบบ",
+      "signOut": "ออกจากระบบบัญชี",
+      "legal": "กฎหมาย",
+      "termsConditions": "ข้อตกลงและเงื่อนไข",
+      "privacyPolicy": "นโยบายความเป็นส่วนตัว",
+      "support": "สนับสนุน",
+      "reportAProblem": "รายงานปัญหา",
+      "tutorial": "บทช่วยสอน",
+      "reportBug": {
+        "header": "รายงานปัญหา",
+        "send": "ส่ง",
+        "subject": "เรื่อง",
+        "subjectPlaceHolder": "เรื่อง",
+        "description": "คำอธิบาย",
+        "descriptionPlaceHolder": "คำอธิบาย",
+        "successAlert": "ขอบคุณเราได้รับข้อความของคุณแล้ว",
+        "failedAlert": "ส่งข้อความไม่สำเร็จ"
+      },
+      "version": "เวอร์ชัน"
+    },
+    "media": {
+      "audio": "เสียง",
+      "autoplay": "เล่นเสียงอัตโนมัติ",
+      "storage": "การจัดเก็บ",
+      "downloadWifi": "ดาวน์โหลดผ่าน Wi-Fi เท่านั้น",
+      "deleteCache": "ลบแคช"
+    },
+    "notifications": {
+      "notifications": "การแจ้งเตือน",
+      "groupInvitation": "คำเชิญกลุ่ม",
+      "devotions": "เชิญเข้าร่วมการสักการะบูชา",
+      "file": "การยืนยันการโอนไฟล์"
+    }
+  },
+  "inviteUsers": { "header": "เชิญผู้ใช้" },
+  "playlist": {
+    "header": "เพลย์ลิสต์",
+    "audioFileLabel": "ไฟล์เสียง",
+    "audioFilesLabel": "ไฟล์เสียง"
+  },
+  "collection": { "header": "คอลเลกชัน", "audioFilesLabel": "ไฟล์เสียง" },
+  "modal": {
+    "close": "ปิด",
+    "addToPlaylist": { "title": "เพิ่มลงในเพลย์ลิสต์", "button": "สร้างเพลย์ลิสต์" },
+    "startDevotion": { "title": "เริ่มการอุทิศตน" },
+    "createPlaylist": {
+      "title": "สร้างเพลย์ลิสต์ใหม่",
+      "button": "สร้างเพลย์ลิสต์",
+      "inputPlaceholder": "ป้อนชื่อเพลย์ลิสต์",
+      "success": "เพิ่มลงในเพลย์ลิสต์แล้ว"
+    },
+    "login": "คุณต้องเข้าสู่ระบบเพื่อเริ่มการอุทิศตน"
+  },
+  "options": {
+    "shared": {
+      "share": "แบ่งปัน",
+      "report": "รายงานเนื้อหา",
+      "shareOthers": "แบ่งปันกับผู้อื่น",
+      "copy": "คัดลอกลิงค์",
+      "more": "มากกว่า"
+    },
+    "audio": {
+      "download": "ดาวน์โหลด",
+      "addFavorite": "เพิ่มในรายการโปรด",
+      "addPlaylist": "เพิ่มลงในเพลย์ลิสต์",
+      "removeFavorite": "ลบออกจากรายการโปรด",
+      "removePlaylist": "ลบออกจากเพลย์ลิสต์",
+      "removeDownload": "ลบออกจากการดาวน์โหลด"
+    },
+    "playlist": { "edit": "แก้ไข", "delete": "ลบเพลย์ลิสต์" },
+    "startDevotion": "เริ่มการอุทิศตน"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "เพิ่มลงในเพลย์ลิสต์แล้ว",
+      "delete": "ลบออกจากเพลย์ลิสต์",
+      "create": "สร้างเพลย์ลิสต์",
+      "destroy": "รายการเล่นที่ถูกลบ"
+    },
+    "favorites": { "add": "เพิ่มในรายการโปรดแล้ว", "remove": "ลบออกจากรายการโปรด" },
+    "downloads": { "remove": "ลบออกจากการดาวน์โหลด" }
+  },
+  "buttons": { "loop": "วน", "shuffle": "สุ่ม" },
+  "uiControls": {
+    "searchBox": { "placeholder": "ค้นหา..." },
+    "notification": { "success": "สำเร็จ! อีเมลจะถูกส่งไปยังบัญชีของคุณ" },
+    "button": { "sending": "การส่ง..." },
+    "modalSelector": { "cancel": "ยกเลิก" },
+    "loading": "กำลังโหลด"
+  },
+  "bible": {
+    "header": "คัมภีร์ไบเบิล",
+    "oldTestament": "พันธสัญญาเดิม",
+    "newTestament": "พันธสัญญาใหม่",
+    "popularBooks": "หนังสือยอดนิยม"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "ค้นหา",
+    "cancelButton": "ยกเลิก",
+    "searchResults": "ผลการค้นหา",
+    "filterButton": "กรอง",
+    "teachings": { "title": "คำสอน" },
+    "bible": { "title": "คัมภีร์ไบเบิล" }
+  },
+  "addToPlaylistsModal": { "title": "เพิ่มลงในเพลย์ลิสต์", "button": "สร้างเพลย์ลิสต์" },
+  "createPlaylistModal": {
+    "title": "สร้างเพลย์ลิสต์ใหม่",
+    "button": "สร้างเพลย์ลิสต์",
+    "inputPlaceholder": "ป้อนชื่อเพลย์ลิสต์"
+  },
+  "alert": {
+    "playlists": {
+      "add": "เพิ่มลงในเพลย์ลิสต์แล้ว",
+      "remove": "ลบออกจากเพลย์ลิสต์",
+      "create": "สร้างเพลย์ลิสต์",
+      "delete": "รายการเล่นที่ถูกลบ"
+    },
+    "favorites": { "add": "เพิ่มในรายการโปรดแล้ว", "remove": "ลบออกจากรายการโปรด" },
+    "downloads": { "remove": "ลบออกจากการดาวน์โหลด" },
+    "facebook": { "loginError": "เข้าสู่ระบบล้มเหลวด้วยข้อผิดพลาด" },
+    "google": { "loginError": "เข้าสู่ระบบล้มเหลวด้วยข้อผิดพลาด" }
+  },
+  "playlists": { "trackLabel": "ติดตาม", "tracksLabel": "แทร็ก" },
+  "mediaList": { "tracksLabel": "แทร็ก", "remove": "ลบ" },
+  "tutorialPage": { "done": "เสร็จแล้ว", "skip": "ข้าม" },
+  "loginModal": { "login": "เข้าสู่ระบบ" },
+  "shareModal": { "facebook": "เฟสบุ๊ค", "twitter": "ทวิตเตอร์", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "กำลังดาวน์โหลด", "complete": "ดาวน์โหลดเสร็จสิ้น" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "สำรวจพระคัมภีร์",
+      "subtitle1": "เดินทางผ่านพระคัมภีร์ทั้งหมดกับเราหรือเริ่มการเดินทางของคุณเอง",
+      "title2": "ฟังและมีส่วนร่วม",
+      "subtitle2": "เครื่องเล่นสื่อช่วยให้คุณดำดิ่งลงไปในเนื้อหาของพระคัมภีร์ได้อย่างง่ายดาย",
+      "title3": "ค้นพบคำสอน",
+      "subtitle3": "มีส่วนร่วมในพระคัมภีร์อย่างที่ไม่เคยมีมาก่อนโดยการอ้างอิงพระคัมภีร์และเนื้อหาการสอนข้ามกัน",
+      "title4": "สนทนาเกี่ยวกับพระคัมภีร์",
+      "subtitle4": "เข้าร่วมกลุ่มเพื่อศึกษาคำสอนและหัวข้อ THRU the BIBLE กับผู้อื่น",
+      "title5": "ดาวน์โหลดและแบ่งปัน",
+      "subtitle5": "เพลิดเพลินกับการฟังพระวจนะของพระเจ้าได้ทุกที่และแบ่งปันกับเพื่อนของคุณ",
+      "title6": "บันทึกและสร้าง",
+      "subtitle6": "บันทึกคำสอนและข้อพระคัมภีร์ที่คุณชื่นชอบหรือสร้างเพลย์ลิสต์ที่กำหนดเอง",
+      "title7": "การอุทิศตนเป็นกลุ่ม",
+      "subtitle7": "รับกำลังใจและแรงบันดาลใจจากผู้อื่นด้วยการให้ข้อคิดทางวิญญาณเป็นกลุ่มทุกวัน"
+    },
+    "registerPage": {
+      "noThanks": "ไม่เป็นไรขอบคุณ",
+      "haveAccount": "มีบัญชี?",
+      "createAccount": "สร้างบัญชีของฉัน",
+      "title1": "พูดคุยกับผู้อื่น",
+      "subtitle1": "พูดคุยหัวข้อที่คุณชื่นชอบและข้อพระคัมภีร์กับผู้อื่น",
+      "title2": "จัดเก็บและซิงค์รายการเพลง",
+      "subtitle2": "สร้างรายการเนื้อหาโปรดของคุณในที่เดียว",
+      "title3": "ดูรายการโปรดของคุณ",
+      "subtitle3": "จัดเก็บและกลับมาเยี่ยมชมรายการโปรดของคุณในภายหลัง",
+      "title4": "ยินดีต้อนรับกลับ",
+      "subtitle4": "สร้างบัญชีและเข้าถึงคุณสมบัติทั้งหมดของเรา"
+    }
+  },
+  "app": {
+    "close": "ปิด",
+    "accept": "ยอมรับ",
+    "reject": "ปฏิเสธ",
+    "constructionInProgress": "การก่อสร้างในความคืบหน้า",
+    "downloadComplete": "ดาวน์โหลดเสร็จสิ้น",
+    "downloading": "กำลังดาวน์โหลด",
+    "downloadFailed": "ดาวน์โหลดล้มเหลว",
+    "sendAFile": "มีคนต้องการส่งไฟล์ให้คุณ"
+  },
+  "transferring": { "tryAgain": "ลองอีกครั้ง", "close": "ปิด" },
+  "checkDevice": {
+    "check": "ตรวจสอบอุปกรณ์ของคุณ",
+    "makeSure": "โปรดตรวจสอบว่า Wifi-Direct เปิดอยู่ในอุปกรณ์ของเพื่อนคุณและอยู่ในระยะ",
+    "continue": "ดำเนินการต่อ"
+  },
+  "connectToDevice": { "connect": "เชื่อมต่อกับอุปกรณ์" },
+  "pairing": {
+    "connect": "เชื่อมต่อกับอุปกรณ์",
+    "pairing": "การจับคู่",
+    "success": "จับคู่สำเร็จแล้ว",
+    "failed": "การจับคู่อุปกรณ์ล้มเหลว",
+    "makeSure": "โปรดตรวจสอบว่า (Wifi-Direct) เปิดอยู่ในอุปกรณ์ของเพื่อนคุณและอยู่ในระยะ",
+    "continue": "ดำเนินการต่อ",
+    "tryAgain": "ลองอีกครั้ง"
+  },
+  "selectNetworkType": {
+    "connect": "เชื่อมต่อกับอุปกรณ์",
+    "share": "แบ่งปันกับ Wifi Direct",
+    "send": "ส่งไฟล์ผ่าน wifi direct?",
+    "continue": "ดำเนินการต่อ"
+  }
+}

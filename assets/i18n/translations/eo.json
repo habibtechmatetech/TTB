@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "Elektu vian nunan lingvon", "mainAction": "Elektu Lingvon" },
+  "menu": {
+    "anonymousTitle": "Via Konto",
+    "anonymousAction": "Ensaluti",
+    "editProfileAction": "Redaktu profilon",
+    "verifyProfileAction": "Konfirmu profilon",
+    "bibleSection": "Biblio",
+    "teachingsSection": "Instruado",
+    "librarySection": "Mia Biblioteko",
+    "groupsSection": "Grupoj",
+    "donateSection": "Doni",
+    "settingsSection": "Agordoj",
+    "signOut": "Elsaluti",
+    "modals": {
+      "verifyProfile": {
+        "title": "Vi ne estas kontrolita",
+        "message": "Viaj listoj ne estos sinkronigitaj kaj vi ne povas krei grupojn. Bonvolu kontroli vian retpoŝton por kompletigi registriĝon.",
+        "firstButton": "Daŭrigu",
+        "secondButton": "Registri novan profilon"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Ensaluti",
+    "emailPlaceholder": "Via Retpoŝto",
+    "passwordPlaceholder": "Via pasvorto",
+    "forgotAction": "Ĉu vi forgesis la pasvorton?",
+    "callToAction": "Ensaluti",
+    "signInAlternatives": "Aŭ Ensalutu uzante",
+    "noAccountAction": "Neniu konto? Kreu unu",
+    "notifications": {
+      "invalidCredentials": "Nevalida akreditaĵojn",
+      "inProgress": "Ensalutu jam en progreso",
+      "notAvailable": "Ludaj servoj ne disponeblas"
+    }
+  },
+  "signUp": {
+    "header": "Krei konton",
+    "emailPlaceholder": "Via Retpoŝto",
+    "passwordPlaceholder": "Via pasvorto",
+    "privateAction": "Privatigi konton",
+    "termsDisclaimer": {
+      "pre": "Alklakante Enskribon, vi indikas, ke vi legis kaj konsentas",
+      "terms": "la terminoj",
+      "post": "."
+    },
+    "callToAction": "Registriĝu",
+    "signUpAlternatives": "Aŭ Registriĝi uzante",
+    "haveAnAccountAction": "Ĉu vi havas konton?",
+    "notifications": {
+      "invalidUsername": "Uzantnomoj estas limigitaj al 20 alfanombraj signoj (nombroj kaj regulaj literoj)",
+      "invalidPassword": "Pasvorto devas havi almenaŭ 3 signojn kaj esti kombinaĵo de majuskloj kaj minuskloj kun almenaŭ unu numero aŭ speciala signo"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Ne eblas krei konton",
+        "message": "Ĉi tiu retpoŝta adreso jam ekzistas.",
+        "firstButton": "Ensaluti",
+        "secondButton": "Fermu"
+      },
+      "privateAccount": {
+        "title": "Privata Konto",
+        "message": "Privatigante vian konton, vi kaŝas ĝin de malkovro de aliaj.",
+        "firstButton": "Akceptu",
+        "secondButton": "Malkresko"
+      },
+      "success": {
+        "title": "Konto kreita!",
+        "message": "Via konto sukcese kreiĝis. Kontrolu vian enirkeston por konfirmi vian konton kaj ensaluti.",
+        "firstButton": "Ensaluti"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Restarigi pasvorton",
+    "emailPlaceholder": "Via Retpoŝto",
+    "message": "Bonvolu enigi vian retpoŝton por reagordi vian pasvorton por via konto.",
+    "callToAction": "Restarigi pasvorton",
+    "notifications": {
+      "success": "Ni ĵus sendis retpoŝton al via enirkesto",
+      "emailNotFoundError": "Retpoŝto ne estis trovita",
+      "invalidEmailError": "Nevalida retpoŝta formato"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Fini Agordon",
+    "message": "Retpoŝto estis sendita al la retpoŝta adreso, kiun vi enigis. Bonvolu vidi la retpoŝtajn detalojn por kompletigi registriĝon.",
+    "callToAction": "Saltu por Nun"
+  },
+  "teachings": {
+    "dailyText": "Hodiaŭa Elsendo",
+    "journeyTitle": "Komencu Vian Vojaĝon",
+    "journeySubtitle": "Ĉiuj instruoj de la komenco ĝis la fino",
+    "journeyCardTitle": "215 Semajna Vojaĝo Tra la Biblio",
+    "journeyCardSubtitle": "Aŭskultu vian tempon",
+    "tracksLabel": "Trakoj"
+  },
+  "teaching": {
+    "header": "Instruado",
+    "loading": "Ŝarĝante ...",
+    "player": {
+      "audioSpeed": "Aŭda Rapido",
+      "loading": "Ŝarĝante",
+      "castingError": "Neniuj Aparatoj Disponeblaj"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Daŭrigu Aŭskultadon", "secondButton": "Komencu vian vojaĝon" }
+    }
+  },
+  "journey": {
+    "byDate": "Laŭ dato",
+    "bySeries": "Laŭ Serioj",
+    "sections": { "tracksLabel": "Trakoj" }
+  },
+  "library": {
+    "header": "Mia Biblioteko",
+    "tabs": { "downloads": "Elŝutoj", "favorites": "Favoratoj", "playlists": "Ludlistoj" }
+  },
+  "groups": {
+    "header": "Grupoj",
+    "createGroup": {
+      "title": "Kreu Novan Grupon",
+      "groupNameLabel": "NOMO DE GRUPO",
+      "groupNameInputPlaceHolder": "Nomo",
+      "descriptionLabel": "PRISKRIBO",
+      "descriptionInputPlaceHolder": "Aldoni Priskribon",
+      "inviteLabel": "Invitu Uzantojn",
+      "inviteButton": "Invitu Novajn Uzantojn",
+      "button": "Krei Grupon",
+      "invalidGroupName": "Enigu validan nomon",
+      "groupNameTooLong": "La nomo de la grupo ne devas enhavi pli ol 25 signojn"
+    },
+    "devotionNotStartAlert": "Sindonemo ne komenciĝis por ĉi tiu grupo",
+    "membersLabel": "Membroj",
+    "chatModalMemberSubtitleLabel": "membro",
+    "chatModalMembersSubtitleLabel": "membroj",
+    "chat": {
+      "listeningToLabel": "Aŭskultante",
+      "loadingTrackLabel": "Ŝarĝante trakon ...",
+      "inputPlaceHolder": "Skribu Mesaĝon",
+      "deletePost": "Forigi Afiŝon",
+      "deleteMessage": "forigis mesaĝon"
+    },
+    "groupSettings": {
+      "participantsSection": "Partoprenantoj",
+      "viewAll": "Rigardi Ĉiujn",
+      "invite": "Invitu Novajn Uzantojn",
+      "endDevotion": "Fina Grupo-Sindonemo",
+      "deleteGroup": "Forigi grupon",
+      "leaveGroup": "Forlasi Grupon"
+    },
+    "userDirectory": {
+      "header": "Uzantadresaro",
+      "remove": "Forigi",
+      "anonymous": "Anonima",
+      "send": "Sendu"
+    },
+    "inviteUser": { "placeHolder": "Serĉu", "send": "Sendu" }
+  },
+  "chat": {
+    "header": "Grupo-Kanalo",
+    "settings": {
+      "header": "Agordoj de Grupo",
+      "endDevotion": {
+        "alertTitle": "Fina Sindonemo",
+        "alertMessage": "Ĉu vi certas, ke vi volas ĉesigi ĉi tiun sindediĉon?",
+        "alertCancel": "Nuligi",
+        "alertConfirm": "Jes",
+        "endDevotionLabel": "finis ĉi tiun sindonemon.",
+        "hasEnded": "Ĉi tiu sindediĉo finiĝis"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Komencu Sindonemon",
+    "alertMessage": "Ĉu vi certas, ke vi volas sindediĉi kun% {name} grupo?",
+    "alertCancel": "Nuligi",
+    "alertConfirm": "Jes",
+    "devotionStartedLabel": "komencis sindonemon."
+  },
+  "settings": {
+    "header": "Agordoj",
+    "tabs": { "profile": "Profilo", "media": "Amaskomunikiloj", "notifications": "Sciigoj" },
+    "profile": {
+      "account": "Konto",
+      "username": "Uzantnomo",
+      "email": "Retpoŝto",
+      "editButton": "Redaktu",
+      "edit": {
+        "save": "Savi",
+        "username": {
+          "header": "Uzantnomo",
+          "successAlert": "Via ŝanĝo estis konservita.",
+          "failedAlert": "Malsukcesis konservi la ŝanĝon."
+        },
+        "email": {
+          "header": "Retpoŝto",
+          "successAlert": "Via ŝanĝo estis konservita.",
+          "failedAlert": "Malsukcesis konservi la ŝanĝon."
+        }
+      },
+      "languages": "Lingvoj",
+      "signIn": "Ensaluti",
+      "signOut": "Ensaluti El Konto",
+      "legal": "Laŭleĝa",
+      "termsConditions": "Kondiĉoj kaj Kondiĉoj",
+      "privacyPolicy": "Privateca Politiko",
+      "support": "Subteno",
+      "reportAProblem": "Raporti Problemon",
+      "tutorial": "Lernilo",
+      "reportBug": {
+        "header": "Raporti Problemon",
+        "send": "Sendu",
+        "subject": "SUBJEKTO",
+        "subjectPlaceHolder": "Subjekto",
+        "description": "PRISKRIBO",
+        "descriptionPlaceHolder": "Priskribo",
+        "successAlert": "Dankon, ni ricevis vian mesaĝon.",
+        "failedAlert": "Malsukcesis sendi la mesaĝon."
+      },
+      "version": "Versio"
+    },
+    "media": {
+      "audio": "Aŭdio",
+      "autoplay": "Aŭtomata Ludado de Aŭdio",
+      "storage": "Stokado",
+      "downloadWifi": "Nur elŝuti per interreto",
+      "deleteCache": "Forigi Kaŝmemoron"
+    },
+    "notifications": {
+      "notifications": "Sciigoj",
+      "groupInvitation": "Grupinvito",
+      "devotions": "Invitu al sindediĉoj",
+      "file": "Konfirmo de Dosiera Transdono"
+    }
+  },
+  "inviteUsers": { "header": "Invitu Uzantojn" },
+  "playlist": {
+    "header": "Ludlisto",
+    "audioFileLabel": "Sondosiero",
+    "audioFilesLabel": "Sondosieroj"
+  },
+  "collection": { "header": "Kolekto", "audioFilesLabel": "Sondosieroj" },
+  "modal": {
+    "close": "proksime",
+    "addToPlaylist": { "title": "Aldoni al Ludlisto", "button": "Kreu Ludliston" },
+    "startDevotion": { "title": "Komencu Sindonemon" },
+    "createPlaylist": {
+      "title": "Kreu Novan Ludliston",
+      "button": "Kreu Ludliston",
+      "inputPlaceholder": "Entajpu Nomo de Ludlisto",
+      "success": "Aldonita al Ludlisto"
+    },
+    "login": "Vi devas ensaluti por komenci sindediĉon"
+  },
+  "options": {
+    "shared": {
+      "share": "Kunhavigi",
+      "report": "Raporti Enhavon",
+      "shareOthers": "Kunhavigi kun Aliaj",
+      "copy": "Kopiu Ligilon",
+      "more": "Pli"
+    },
+    "audio": {
+      "download": "Elŝutu",
+      "addFavorite": "Aldoni al Favoratoj",
+      "addPlaylist": "Aldoni al Ludlisto",
+      "removeFavorite": "Forigi el Favoratoj",
+      "removePlaylist": "Forigi de Ludlisto",
+      "removeDownload": "Forigi el Elŝutoj"
+    },
+    "playlist": { "edit": "Redaktu", "delete": "Forigi Ludliston" },
+    "startDevotion": "Komencu Sindonemon"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Aldonita al Ludlisto",
+      "delete": "Forigita de Ludlisto",
+      "create": "Kreita Ludlisto",
+      "destroy": "Forigita Ludlisto"
+    },
+    "favorites": { "add": "Aldonita al Favoratoj", "remove": "Forigita de Favoratoj" },
+    "downloads": { "remove": "Forigita de Elŝutoj" }
+  },
+  "buttons": { "loop": "Buklo", "shuffle": "Miksi" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Serĉu ..." },
+    "notification": { "success": "Sukceso! Retpoŝto estos sendita al via konto." },
+    "button": { "sending": "Sendante ..." },
+    "modalSelector": { "cancel": "Nuligi" },
+    "loading": "Ŝarĝante"
+  },
+  "bible": {
+    "header": "Biblio",
+    "oldTestament": "Malnova Testamento",
+    "newTestament": "Nova Testamento",
+    "popularBooks": "Popularaj libroj"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Serĉu",
+    "cancelButton": "NULIGI",
+    "searchResults": "Serĉrezultoj",
+    "filterButton": "Filtrilo",
+    "teachings": { "title": "Instruado" },
+    "bible": { "title": "Biblio" }
+  },
+  "addToPlaylistsModal": { "title": "Aldoni al Ludlisto", "button": "Kreu Ludliston" },
+  "createPlaylistModal": {
+    "title": "Kreu Novan Ludliston",
+    "button": "Kreu Ludliston",
+    "inputPlaceholder": "Entajpu Nomo de Ludlisto"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Aldonita al Ludlisto",
+      "remove": "Forigita de Ludlisto",
+      "create": "Kreita Ludlisto",
+      "delete": "Forigita Ludlisto"
+    },
+    "favorites": { "add": "Aldonita al Favoratoj", "remove": "Forigita de Favoratoj" },
+    "downloads": { "remove": "Forigita de Elŝutoj" },
+    "facebook": { "loginError": "Ensaluto malsukcesas kun eraro" },
+    "google": { "loginError": "Ensaluto malsukcesas kun eraro" }
+  },
+  "playlists": { "trackLabel": "Trako", "tracksLabel": "Trakoj" },
+  "mediaList": { "tracksLabel": "Trakoj", "remove": "Forigi" },
+  "tutorialPage": { "done": "Finita", "skip": "Saltu" },
+  "loginModal": { "login": "Ensaluti" },
+  "shareModal": { "facebook": "Fejsbuko", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Elŝutado", "complete": "Elŝuti Kompleta" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Esploru la Biblion",
+      "subtitle1": "Vojaĝu tra la tuta Biblio kun ni, aŭ komencu propran vojaĝon.",
+      "title2": "Aŭskultu kaj Engaĝiĝu",
+      "subtitle2": "La amaskomunikila ludilo permesas vin plonĝi facile tra la BIBLIA enhavo.",
+      "title3": "Malkovru Instruojn",
+      "subtitle3": "Okupiĝu pri la Biblio kiel neniam antaŭe per krucreferenco de la enhavo de Biblio kaj Instruado.",
+      "title4": "Diskuti la Biblion",
+      "subtitle4": "Aliĝu al grupo por studi la BIBLIAjn instruojn kaj temojn kun aliaj.",
+      "title5": "Elŝutu & Kunhavigu",
+      "subtitle5": "Ĝuu aŭskulti la Vorton de Dio dum la irado kaj dividi ĝin kun viaj amikoj.",
+      "title6": "Konservu kaj Kreu",
+      "subtitle6": "Konservu viajn plej ŝatatajn instruojn kaj bibliajn versojn aŭ kreu laŭmendan ludliston.",
+      "title7": "Grupaj sindediĉoj",
+      "subtitle7": "Estu kuraĝigita kaj inspirita de aliaj kun ĉiutagaj grupaj fervoruloj."
+    },
+    "registerPage": {
+      "noThanks": "Ne, dankon",
+      "haveAccount": "Ĉu vi havas konton?",
+      "createAccount": "Kreu mian konton",
+      "title1": "Diskuti kun Aliaj",
+      "subtitle1": "Diskutu viajn plej ŝatatajn temojn kaj bibliajn versojn kun aliaj.",
+      "title2": "Butikumi kaj Sinkronigi Ludlistojn",
+      "subtitle2": "Konstruu listojn de viaj plej ŝatataj enhavoj en unu loko.",
+      "title3": "Vidu Viajn Favoratojn",
+      "subtitle3": "Butiku kaj revenu kaj vizitu viajn plej ŝatatajn poste.",
+      "title4": "Bonvenon ree",
+      "subtitle4": "Kreu konton kaj aliru ĉiujn niajn funkciojn."
+    }
+  },
+  "app": {
+    "close": "proksime",
+    "accept": "Akceptu",
+    "reject": "Malakcepti",
+    "constructionInProgress": "KONSTRUO EN PROGRESO",
+    "downloadComplete": "Elŝuti Kompleta",
+    "downloading": "Elŝutado",
+    "downloadFailed": "Elŝuto malsukcesis",
+    "sendAFile": "Iu Volas Sendi Dosieron Al Vi"
+  },
+  "transferring": { "tryAgain": "provu denove", "close": "proksime" },
+  "checkDevice": {
+    "check": "Kontrolu Vian Aparaton",
+    "makeSure": "Bonvolu certigi, ke Wifi-Direct estas enŝaltita en la aparato de via amiko kaj ĝi estas atingebla.",
+    "continue": "Daŭrigu"
+  },
+  "connectToDevice": { "connect": "Konekti al Aparato" },
+  "pairing": {
+    "connect": "Konekti al Aparato",
+    "pairing": "Parigo",
+    "success": "Sukcese Parigita",
+    "failed": "Aparata Parigo Malsukcesis",
+    "makeSure": "Bonvolu certigi, ke (Wifi-Direct) estas ŝaltita la aparato de via amiko kaj ĝi estas en distanco.",
+    "continue": "Daŭrigu",
+    "tryAgain": "Provu denove"
+  },
+  "selectNetworkType": {
+    "connect": "Konekti al aparato",
+    "share": "Kunhavigu kun Wifi Rekta",
+    "send": "Ĉu sendi dosieron per wifi rekte?",
+    "continue": "Daŭrigu"
+  }
+}

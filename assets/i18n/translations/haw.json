@@ -1,0 +1,398 @@
+{
+  "selectLanguage": {
+    "heading": "Koho i kāu ʻōlelo i kēia manawa",
+    "mainAction": "Wae ʻ Languagelelo"
+  },
+  "menu": {
+    "anonymousTitle": "ʻO kāu waihona",
+    "anonymousAction": "ʻEʻe",
+    "editProfileAction": "Hoʻoponopono i ka ʻikepili",
+    "verifyProfileAction": "Hōʻoia i ka ʻikepili",
+    "bibleSection": "Baibala",
+    "teachingsSection": "Nā aʻo",
+    "librarySection": "Koʻu Waihona Puke",
+    "groupsSection": "Pūʻulu",
+    "donateSection": "Hāʻawi manawaleʻa",
+    "settingsSection": "Nā koho",
+    "signOut": "Lele",
+    "modals": {
+      "verifyProfile": {
+        "title": "ʻAʻole ʻoe e hōʻoia ʻia",
+        "message": "ʻAʻole e lōkahi ʻia kāu mau papa inoa a ʻaʻole hiki iā ʻoe ke hana i nā hui. E ʻoluʻolu e nānā i kāu leka uila e hoʻopau i ke kau inoa.",
+        "firstButton": "Hoʻomau",
+        "secondButton": "E hoʻopaʻa inoa i kahi ʻikepili hou"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Eʻe",
+    "emailPlaceholder": "Kāu Leka Uila",
+    "passwordPlaceholder": "Kāu ʻōlelo huna",
+    "forgotAction": "Poina password?",
+    "callToAction": "Eʻe",
+    "signInAlternatives": "A i ʻole ke ʻeʻe ʻana e hoʻohana ana",
+    "noAccountAction": "ʻAʻohe waihona? Hana i hoʻokahi",
+    "notifications": {
+      "invalidCredentials": "Nā hōʻoia kūpono ʻole",
+      "inProgress": "ʻEʻe i ka holomua",
+      "notAvailable": "Loaʻa ʻole nā ​​lawelawe pāʻani"
+    }
+  },
+  "signUp": {
+    "header": "Hana i moʻokāki",
+    "emailPlaceholder": "Kāu Leka Uila",
+    "passwordPlaceholder": "Kāu ʻōlelo huna",
+    "privateAction": "Hana i kahi moʻokāki i kahi pilikino",
+    "termsDisclaimer": {
+      "pre": "Ma ke kaomi ʻana i ke kau inoa hōʻike ʻoe ua heluhelu ʻoe a ʻae pū",
+      "terms": "nā ʻōlelo",
+      "post": "."
+    },
+    "callToAction": "Kau inoa",
+    "signUpAlternatives": "A i ʻole kau inoa ma ka hoʻohana ʻana",
+    "haveAnAccountAction": "Loaʻa kahi waihona?",
+    "notifications": {
+      "invalidUsername": "Kau palena ʻia nā inoa mea hoʻohana i nā 20 alphanumeric huapalapala (helu a me nā leka maʻamau)",
+      "invalidPassword": "Pono ka huaʻōlelo huna ma kahi o 3 mau huapalapala a lilo i hui pū o nā pūlima kiʻekiʻe a me lalo me hoʻokahi helu a i ʻole kanaka kūikawā"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "ʻAʻole hiki ke hana i kahi moʻokāki",
+        "message": "Ke waiho nei kēia leka uila",
+        "firstButton": "Eʻe",
+        "secondButton": "Pani"
+      },
+      "privateAccount": {
+        "title": "Waihona Pilikino",
+        "message": "Ma ka hana pilikino ʻana i kāu moʻokāki, hūnā ʻoe iā ia mai ka ʻike ʻia e nā poʻe ʻē aʻe.",
+        "firstButton": "ʻAe",
+        "secondButton": "Hoʻole"
+      },
+      "success": {
+        "title": "Hana moʻokāki!",
+        "message": "Ua hana maikaʻi ʻia kāu moʻokāki. E hōʻoia i kāu pahu leta e hōʻoia i kāu moʻokāki a ʻeʻe.",
+        "firstButton": "Eʻe"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Hoʻihoʻi ʻōlelo huna",
+    "emailPlaceholder": "Kāu Leka Uila",
+    "message": "E ʻoluʻolu e hoʻokomo i kāu leka uila e hoʻonohonoho hou i kāu ʻōlelo huna no kāu moʻokāki.",
+    "callToAction": "Hoʻihoʻi ʻōlelo huna",
+    "notifications": {
+      "success": "Ua hoʻouna wale mākou i kahi leka uila i kāu pahu leka",
+      "emailNotFoundError": "ʻAʻole i loaʻa ka leka uila",
+      "invalidEmailError": "Hōʻoia ʻia ka leka uila"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Hoʻopau Hoʻonohonoho",
+    "message": "Ua hoʻouna ʻia kahi leka uila i ka leka uila āu i hoʻokomo ai. E ʻoluʻolu e ʻike i nā kikoʻī o ka leka uila e hoʻopau ai i ke kau inoa.",
+    "callToAction": "E lele i kēia manawa"
+  },
+  "teachings": {
+    "dailyText": "Hoʻolaha o kēia lā",
+    "journeyTitle": "E hoʻomaka i kāu huakaʻi",
+    "journeySubtitle": "ʻO nā aʻo āpau mai ka hoʻomaka a hiki i ka pau ʻana",
+    "journeyCardTitle": "Ka Huakaʻi Pule 215 Ma o ka Baibala",
+    "journeyCardSubtitle": "E hoʻolohe i kāu manawa",
+    "tracksLabel": "Nā ala hele"
+  },
+  "teaching": {
+    "header": "Nā aʻo",
+    "loading": "Ke hoʻouka nei ...",
+    "player": {
+      "audioSpeed": "Wikiwiki",
+      "loading": "Hoʻouka nei",
+      "castingError": "ʻAʻohe manaʻo i loaʻa"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Hoʻomau Hoʻolohe", "secondButton": "E hoʻomaka i kāu huakaʻi" }
+    }
+  },
+  "journey": {
+    "byDate": "Na Lā",
+    "bySeries": "Na Series",
+    "sections": { "tracksLabel": "Nā ala hele" }
+  },
+  "library": {
+    "header": "Koʻu Waihona Puke",
+    "tabs": { "downloads": "Hoʻoiho", "favorites": "Punahele", "playlists": "Nā papa inoa" }
+  },
+  "groups": {
+    "header": "Pūʻulu",
+    "createGroup": {
+      "title": "Hana i Pūʻulu Hou",
+      "groupNameLabel": "INOA HUI",
+      "groupNameInputPlaceHolder": "Inoa",
+      "descriptionLabel": "OLELO HOAKAKA",
+      "descriptionInputPlaceHolder": "Hoʻohui Hoʻohālikelike",
+      "inviteLabel": "Kono i nā mea hoʻohana",
+      "inviteButton": "Kono i nā mea hoʻohana hou",
+      "button": "Hana Pūʻulu",
+      "invalidGroupName": "E hoʻokomo i kahi inoa kūpono",
+      "groupNameTooLong": "ʻAʻole pono ka inoa o ka pūʻulu ma loko o 25 mau huapalapala"
+    },
+    "devotionNotStartAlert": "ʻAʻole i hoʻomaka kahi hoʻolaʻa no kēia hui",
+    "membersLabel": "Nā lālā",
+    "chatModalMemberSubtitleLabel": "lālā",
+    "chatModalMembersSubtitleLabel": "lālā",
+    "chat": {
+      "listeningToLabel": "Ke hoʻolohe nei i",
+      "loadingTrackLabel": "Ke hoʻouka nei i ke ala ...",
+      "inputPlaceHolder": "Kākau leka",
+      "deletePost": "Holoi i ka Post",
+      "deleteMessage": "ua holoi i kahi leka"
+    },
+    "groupSettings": {
+      "participantsSection": "Nā mea komo",
+      "viewAll": "Nānā i All",
+      "invite": "Kono i nā mea hoʻohana hou",
+      "endDevotion": "Hoʻopau Hoʻohui Pūʻulu",
+      "deleteGroup": "Holoi Pūʻulu",
+      "leaveGroup": "Haʻalele Hui"
+    },
+    "userDirectory": {
+      "header": "Papa Kuhikuhi Mea hoʻohana",
+      "remove": "Wehe",
+      "anonymous": "Inoa inoa ʻole",
+      "send": "Hoʻouna"
+    },
+    "inviteUser": { "placeHolder": "Huli", "send": "Hoʻouna" }
+  },
+  "chat": {
+    "header": "Kanal Pūʻulu",
+    "settings": {
+      "header": "Pūʻulu Pūʻulu",
+      "endDevotion": {
+        "alertTitle": "Pau ka haipule",
+        "alertMessage": "Makemake ʻoe e hoʻopau i kēia haipule?",
+        "alertCancel": "Hoʻopau",
+        "alertConfirm": "ae",
+        "endDevotionLabel": "pau keia haipule.",
+        "hasEnded": "Ua pau kēia hoʻolaʻa ʻana"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Hoʻomaka Hoʻohanohano",
+    "alertMessage": "Makemake ʻoe e hoʻomaka i ka hoʻolaʻa me ka hui% {inoa}?",
+    "alertCancel": "Hoʻopau",
+    "alertConfirm": "ae",
+    "devotionStartedLabel": "ua hoʻomaka kahi hoʻolaʻa."
+  },
+  "settings": {
+    "header": "Nā koho",
+    "tabs": { "profile": "Hōʻike", "media": "Media", "notifications": "Hoolaha" },
+    "profile": {
+      "account": "Waihona",
+      "username": "Inoa mea hoʻohana",
+      "email": "Leka uila",
+      "editButton": "Hoʻoponopono",
+      "edit": {
+        "save": "Mālama",
+        "username": {
+          "header": "Inoa mea hoʻohana",
+          "successAlert": "Ua mālama ʻia kāu hoʻololi.",
+          "failedAlert": "ʻAʻole i mālama ʻia ka hoʻololi ʻana."
+        },
+        "email": {
+          "header": "Leka uila",
+          "successAlert": "Ua mālama ʻia kāu hoʻololi.",
+          "failedAlert": "ʻAʻole i mālama ʻia ka hoʻololi ʻana."
+        }
+      },
+      "languages": "ʻLelo",
+      "signIn": "Eʻe",
+      "signOut": "Haʻalele pūnaewele",
+      "legal": "Loio",
+      "termsConditions": "Nā ʻ Termslelo a me nā Kūlana",
+      "privacyPolicy": "Kulekele pilikino",
+      "support": "Kākoʻo",
+      "reportAProblem": "Hōʻike i kahi pilikia",
+      "tutorial": "Aʻo",
+      "reportBug": {
+        "header": "Hōʻike i kahi pilikia",
+        "send": "Hoʻouna",
+        "subject": "PALAPALA",
+        "subjectPlaceHolder": "Kumuhana",
+        "description": "OLELO HOAKAKA",
+        "descriptionPlaceHolder": "Wehewehe",
+        "successAlert": "Mahalo, ua loaʻa iā mākou kāu leka.",
+        "failedAlert": "ʻAʻole hiki ke hoʻouna i ka leka."
+      },
+      "version": "Mana"
+    },
+    "media": {
+      "audio": "Leo leo",
+      "autoplay": "Audio Autoplay",
+      "storage": "Waihona",
+      "downloadWifi": "Hoʻoiho wale ma Wi-fi",
+      "deleteCache": "Holoi iā Cache"
+    },
+    "notifications": {
+      "notifications": "Hoolaha",
+      "groupInvitation": "Kono kono",
+      "devotions": "Kono i nā haipule",
+      "file": "Hoʻoholo Hoʻololi Kōnae"
+    }
+  },
+  "inviteUsers": { "header": "Kono i nā mea hoʻohana" },
+  "playlist": {
+    "header": "Papa inoa",
+    "audioFileLabel": "Waihona Leo",
+    "audioFilesLabel": "Waihona Leo"
+  },
+  "collection": { "header": "ʻOhiʻohi", "audioFilesLabel": "Nā Faile Leo" },
+  "modal": {
+    "close": "pani",
+    "addToPlaylist": { "title": "Pākuʻi i ka papa inoa", "button": "E hana i ka papa inoa" },
+    "startDevotion": { "title": "Hoʻomaka Hoʻohanohano" },
+    "createPlaylist": {
+      "title": "E hana i ka papa inoa hou",
+      "button": "E hana i ka papa inoa",
+      "inputPlaceholder": "E komo i ka inoa inoa papa inoa",
+      "success": "Pākuʻi ʻia i ka papa inoa"
+    },
+    "login": "Pono ʻoe e ʻeʻe e hoʻomaka i kahi hoʻolaʻa"
+  },
+  "options": {
+    "shared": {
+      "share": "Māhele",
+      "report": "Hōʻike ʻikepili",
+      "shareOthers": "Kaʻana me nā poʻe ʻē aʻe",
+      "copy": "Kope Loulou",
+      "more": "Nā mea hou aʻe"
+    },
+    "audio": {
+      "download": "Hoʻoiho",
+      "addFavorite": "Pākuʻi i nā punahele",
+      "addPlaylist": "Pākuʻi i ka papa inoa",
+      "removeFavorite": "Wehe i nā punahele",
+      "removePlaylist": "Wehe mai i ka papa inoa",
+      "removeDownload": "Wehe mai i nā hoʻoiho"
+    },
+    "playlist": { "edit": "Hoʻoponopono", "delete": "Holoi i ka papa inoa" },
+    "startDevotion": "Hoʻomaka Hoʻohanohano"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Pākuʻi ʻia i ka papa inoa",
+      "delete": "Wehe ʻia mai Playlist",
+      "create": "Hoʻokani papa inoa",
+      "destroy": "Holoi i ka papa inoa"
+    },
+    "favorites": { "add": "Hoʻohui ʻia i nā punahele", "remove": "Wehe ʻia mai nā punahele" },
+    "downloads": { "remove": "Wehe ʻia mai nā hoʻoiho" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Hoʻololi" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Huli ..." },
+    "notification": { "success": "Holomua! E hoʻouna ʻia kahi leka uila i kāu moʻokāki." },
+    "button": { "sending": "Ke hoʻouna nei ..." },
+    "modalSelector": { "cancel": "Hoʻopau" },
+    "loading": "Hoʻouka nei"
+  },
+  "bible": {
+    "header": "Baibala",
+    "oldTestament": "Kauoha Kahiko",
+    "newTestament": "Kauoha Hou",
+    "popularBooks": "Nā puke makemake nui ʻia"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Huli",
+    "cancelButton": "CANCEL",
+    "searchResults": "Nā hopena ʻimi",
+    "filterButton": "Kānana",
+    "teachings": { "title": "Nā aʻo" },
+    "bible": { "title": "Baibala" }
+  },
+  "addToPlaylistsModal": { "title": "Pākuʻi i ka papa inoa", "button": "E hana i ka papa inoa" },
+  "createPlaylistModal": {
+    "title": "E hana i ka papa inoa hou",
+    "button": "E hana i ka papa inoa",
+    "inputPlaceholder": "E komo i ka inoa inoa papa inoa"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Pākuʻi ʻia i ka papa inoa",
+      "remove": "Wehe ʻia mai Playlist",
+      "create": "Hoʻokani papa inoa",
+      "delete": "Holoi i ka papa inoa"
+    },
+    "favorites": { "add": "Hoʻohui ʻia i nā punahele", "remove": "Wehe ʻia mai nā punahele" },
+    "downloads": { "remove": "Wehe ʻia mai nā hoʻoiho" },
+    "facebook": { "loginError": "ʻAno hemahema" },
+    "google": { "loginError": "ʻAno hemahema" }
+  },
+  "playlists": { "trackLabel": "Track", "tracksLabel": "Nā ala hele" },
+  "mediaList": { "tracksLabel": "Nā ala hele", "remove": "Wehe" },
+  "tutorialPage": { "done": "Hana ʻia", "skip": "Skip" },
+  "loginModal": { "login": "ʻEʻe" },
+  "shareModal": { "facebook": "Facebook", "twitter": "ʻO Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Ke hoʻoiho nei", "complete": "Hoʻoiho piha" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "E ʻimi i ka Baibala",
+      "subtitle1": "Hele huakaʻi i loko o ka Baibala holoʻokoʻa me mākou, a i ʻole e hoʻomaka i kāu huakaʻi ponoʻī.",
+      "title2": "E hoʻolohe & hoʻokomo",
+      "subtitle2": "ʻAe ka mea hoʻokani pāpaho iā ʻoe e luʻu i loko o THRU i ka ʻikepili BIBLE me ka maʻalahi.",
+      "title3": "E ʻike i nā aʻo",
+      "subtitle3": "Komo i loko o ka Baibala e like me ma mua ma ke keʻa ʻana i ka Baibala & Ke aʻo ʻana i nā ʻike.",
+      "title4": "Kūkākūkā i ka Baibala",
+      "subtitle4": "E hui i kahi hui e hoʻopaʻa i ka THRU i nā aʻo BIBLE a me nā kumuhana me nā poʻe ʻē aʻe.",
+      "title5": "Hoʻoiho & kaʻana",
+      "subtitle5": "E hauʻoli i ka hoʻolohe ʻana i ka ʻōlelo a ke Akua ma ka manawa hele a kaʻana like ia me kāu mau hoaaloha.",
+      "title6": "Mālama & hana",
+      "subtitle6": "Mālama i kāu mau aʻo punahele a me nā paukū Baibala a hana paha i kahi papa inoa maʻamau.",
+      "title7": "Nā Hoʻohauna Pūʻulu",
+      "subtitle7": "Hoʻoikaika a hoʻoikaika ʻia e nā poʻe ʻē aʻe me nā haipule o nā hui o kēlā me kēia lā."
+    },
+    "registerPage": {
+      "noThanks": "ʻAʻole Mahalo",
+      "haveAccount": "Loaʻa kahi waihona?",
+      "createAccount": "Hana i kaʻu moʻokāki",
+      "title1": "Kūkākūkā me nā poʻe ʻē aʻe",
+      "subtitle1": "Kūkākūkā i kāu kumuhana punahele a me nā paukū baibala me nā poʻe ʻē aʻe.",
+      "title2": "Pākuʻi a me Sync Playlists",
+      "subtitle2": "E kūkulu i nā papa inoa o kāu ʻike punahele ma kahi hoʻokahi.",
+      "title3": "E ʻike i kāu mau punahele",
+      "subtitle3": "E mālama a hoʻi mai a kipa i kāu mau punahele ma hope.",
+      "title4": "Welina hou",
+      "subtitle4": "Hana i kahi moʻokāki a kiʻi i ke kiʻi i kā mākou hiʻohiʻona āpau."
+    }
+  },
+  "app": {
+    "close": "pani",
+    "accept": "ʻAe",
+    "reject": "Hoole",
+    "constructionInProgress": "KUKULU ANA MA KA HOLOHOLOMO",
+    "downloadComplete": "Hoʻoiho piha",
+    "downloading": "Ke hoʻoiho nei",
+    "downloadFailed": "ʻAʻole i hiki ka hoʻoiho",
+    "sendAFile": "Makemake kekahi e hoʻouna iā ʻoe i kahi faila"
+  },
+  "transferring": { "tryAgain": "hana hou", "close": "pani" },
+  "checkDevice": {
+    "check": "E hōʻoia i kāu hāmeʻa",
+    "makeSure": "E ʻoluʻolu e hoʻohuli Wifi-Direct ma kāu hāmeʻa o kāu hoaaloha a aia ia i ka pae.",
+    "continue": "Hoʻomau"
+  },
+  "connectToDevice": { "connect": "Hoʻohui i kahi hāmeʻa" },
+  "pairing": {
+    "connect": "Hoʻohui i kahi hāmeʻa",
+    "pairing": "Pālua",
+    "success": "Pālua maikaʻi ʻia",
+    "failed": "Ua holopono ʻole ka paʻa ʻana o nā hāmeʻa",
+    "makeSure": "E ʻoluʻolu e hōʻoia (Wifi-Direct) huli i kāu hāmeʻa a kāu hoaaloha a aia ia i ka pae.",
+    "continue": "Hoʻomau",
+    "tryAgain": "Hana hou"
+  },
+  "selectNetworkType": {
+    "connect": "Hoʻohui i kahi hāmeʻa",
+    "share": "Kaʻana me Wifi Direct",
+    "send": "E hoʻouna i ka faile ma o ka wifi pololei?",
+    "continue": "Hoʻomau"
+  }
+}

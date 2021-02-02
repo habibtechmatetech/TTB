@@ -1,0 +1,398 @@
+{
+  "selectLanguage": {
+    "heading": "زبان فعلی خود را انتخاب کنید",
+    "mainAction": "زبان را انتخاب کنید"
+  },
+  "menu": {
+    "anonymousTitle": "حساب شما",
+    "anonymousAction": "وارد شدن",
+    "editProfileAction": "ویرایش نمایه",
+    "verifyProfileAction": "نمایه را تأیید کنید",
+    "bibleSection": "کتاب مقدس",
+    "teachingsSection": "آموزش ها",
+    "librarySection": "کتابخانه من",
+    "groupsSection": "گروه ها",
+    "donateSection": "اهدا کنید",
+    "settingsSection": "تنظیمات",
+    "signOut": "خروج از سیستم",
+    "modals": {
+      "verifyProfile": {
+        "title": "شما تأیید نشده اید",
+        "message": "لیست های شما همگام سازی نمی شوند و نمی توانید گروه ایجاد کنید. لطفاً برای تکمیل ثبت نام ایمیل خود را بررسی کنید.",
+        "firstButton": "ادامه هید",
+        "secondButton": "ثبت نمایه جدید"
+      }
+    }
+  },
+  "signIn": {
+    "header": "ورود",
+    "emailPlaceholder": "ایمیل شما",
+    "passwordPlaceholder": "رمز عبور شما",
+    "forgotAction": "رمز عبور خود را فراموش کرده اید؟",
+    "callToAction": "ورود",
+    "signInAlternatives": "یا با استفاده از ورود به سیستم",
+    "noAccountAction": "هیچ حسابی ندارید؟ یکی بساز",
+    "notifications": {
+      "invalidCredentials": "گواهی نامه نامعتبر",
+      "inProgress": "ورود به سیستم در حال انجام است",
+      "notAvailable": "خدمات بازی در دسترس نیست"
+    }
+  },
+  "signUp": {
+    "header": "ایجاد حساب",
+    "emailPlaceholder": "ایمیل شما",
+    "passwordPlaceholder": "رمز عبور شما",
+    "privateAction": "حساب را خصوصی کنید",
+    "termsDisclaimer": {
+      "pre": "با کلیک کردن روی ثبت نام ، نشان می دهید که خوانده اید و با آن موافقت می کنید",
+      "terms": "شرایط",
+      "post": "."
+    },
+    "callToAction": "ثبت نام",
+    "signUpAlternatives": "یا با استفاده از ثبت نام کنید",
+    "haveAnAccountAction": "حساب داری؟",
+    "notifications": {
+      "invalidUsername": "نام های کاربری محدود به 20 حرف حروف عددی (اعداد و حروف معمولی) هستند",
+      "invalidPassword": "رمز ورود باید حداقل 3 نویسه داشته باشد و ترکیبی از حروف بزرگ و کوچک با حداقل یک عدد یا کاراکتر خاص باشد"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "ایجاد حساب کاربری امکان پذیر نیست",
+        "message": "این آدرس ایمیل از قبل وجود دارد.",
+        "firstButton": "ورود",
+        "secondButton": "نزدیک"
+      },
+      "privateAccount": {
+        "title": "حساب خصوصی",
+        "message": "با خصوصی کردن حساب خود ، آن را از کشف شدن توسط دیگران پنهان می کنید.",
+        "firstButton": "تایید کنید",
+        "secondButton": "کاهش می یابد"
+      },
+      "success": {
+        "title": "حساب کاربری ایجاد شد!",
+        "message": "حساب شما با موفقیت ساخته شده است. صندوق ورودی خود را بررسی کنید تا حساب خود را تأیید کنید و وارد سیستم شوید.",
+        "firstButton": "ورود"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "بازنشانی گذرواژه",
+    "emailPlaceholder": "ایمیل شما",
+    "message": "لطفاً ایمیل خود را وارد کنید تا گذرواژه خود را برای حساب خود بازنشانی کنید.",
+    "callToAction": "بازنشانی گذرواژه",
+    "notifications": {
+      "success": "ما فقط ایمیلی به صندوق ورودی شما ارسال کردیم",
+      "emailNotFoundError": "ایمیل یافت نشد",
+      "invalidEmailError": "قالب ایمیل نامعتبر است"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "راه اندازی را تمام کنید",
+    "message": "ایمیلی به آدرس ایمیلی که وارد کرده اید ارسال شده است. لطفاً برای تکمیل ثبت نام از جزئیات ایمیل دیدن کنید.",
+    "callToAction": "اکنون پرش کنید"
+  },
+  "teachings": {
+    "dailyText": "پخش امروز",
+    "journeyTitle": "سفر خود را شروع کنید",
+    "journeySubtitle": "همه آموزش ها از ابتدا تا انتها",
+    "journeyCardTitle": "سفر هفته ای 215 از طریق کتاب مقدس",
+    "journeyCardSubtitle": "به وقت خود گوش دهید",
+    "tracksLabel": "آهنگ های"
+  },
+  "teaching": {
+    "header": "آموزش ها",
+    "loading": "بارگذاری...",
+    "player": {
+      "audioSpeed": "سرعت صوتی",
+      "loading": "بارگذاری",
+      "castingError": "هیچ دستگاهی موجود نیست"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "ادامه گوش دادن", "secondButton": "سفر خود را آغاز کنید" }
+    }
+  },
+  "journey": {
+    "byDate": "براساس تاریخ",
+    "bySeries": "توسط مجموعه",
+    "sections": { "tracksLabel": "آهنگ های" }
+  },
+  "library": {
+    "header": "کتابخانه من",
+    "tabs": { "downloads": "بارگیری ها", "favorites": "موارد دلخواه", "playlists": "لیست های پخش" }
+  },
+  "groups": {
+    "header": "گروه ها",
+    "createGroup": {
+      "title": "ایجاد گروه جدید",
+      "groupNameLabel": "اسم گروه",
+      "groupNameInputPlaceHolder": "نام",
+      "descriptionLabel": "شرح",
+      "descriptionInputPlaceHolder": "اضافه کردن توضیحات",
+      "inviteLabel": "از کاربران دعوت کنید",
+      "inviteButton": "از کاربران جدید دعوت کنید",
+      "button": "ایجاد گروه",
+      "invalidGroupName": "نام معتبری وارد کنید",
+      "groupNameTooLong": "نام گروه نباید بیش از 25 نویسه داشته باشد"
+    },
+    "devotionNotStartAlert": "یک فداکاری برای این گروه آغاز نشده است",
+    "membersLabel": "اعضا",
+    "chatModalMemberSubtitleLabel": "عضو",
+    "chatModalMembersSubtitleLabel": "اعضا",
+    "chat": {
+      "listeningToLabel": "گوش دادن به",
+      "loadingTrackLabel": "در حال بارگیری آهنگ ...",
+      "inputPlaceHolder": "پیام بنویسید",
+      "deletePost": "پست را حذف کنید",
+      "deleteMessage": "پیامی را حذف کرده است"
+    },
+    "groupSettings": {
+      "participantsSection": "شركت كنندگان",
+      "viewAll": "مشاهده همه",
+      "invite": "از کاربران جدید دعوت کنید",
+      "endDevotion": "پایان دادن به ارادت گروه",
+      "deleteGroup": "حذف گروه",
+      "leaveGroup": "گروه را ترک کن"
+    },
+    "userDirectory": {
+      "header": "دایرکتوری کاربر",
+      "remove": "برداشتن",
+      "anonymous": "ناشناس",
+      "send": "ارسال"
+    },
+    "inviteUser": { "placeHolder": "جستجو کردن", "send": "ارسال" }
+  },
+  "chat": {
+    "header": "کانال گروه",
+    "settings": {
+      "header": "تنظیمات گروه",
+      "endDevotion": {
+        "alertTitle": "پایان ارادت",
+        "alertMessage": "آیا مطمئن هستید که می خواهید به این فداکاری پایان دهید؟",
+        "alertCancel": "لغو",
+        "alertConfirm": "آره",
+        "endDevotionLabel": "این فداکاری پایان یافت.",
+        "hasEnded": "این ارادت تمام شده است"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "فداکاری را شروع کنید",
+    "alertMessage": "آیا مطمئن هستید که می خواهید با٪ {name} گروه فداکاری را شروع کنید؟",
+    "alertCancel": "لغو",
+    "alertConfirm": "آره",
+    "devotionStartedLabel": "ارادت را آغاز کرده است."
+  },
+  "settings": {
+    "header": "تنظیمات",
+    "tabs": { "profile": "مشخصات", "media": "رسانه ها", "notifications": "اطلاعیه" },
+    "profile": {
+      "account": "حساب",
+      "username": "نام کاربری",
+      "email": "پست الکترونیک",
+      "editButton": "ویرایش کنید",
+      "edit": {
+        "save": "صرفه جویی",
+        "username": {
+          "header": "نام کاربری",
+          "successAlert": "تغییر شما ذخیره شد",
+          "failedAlert": "ذخیره تغییر انجام نشد."
+        },
+        "email": {
+          "header": "پست الکترونیک",
+          "successAlert": "تغییر شما ذخیره شد",
+          "failedAlert": "ذخیره تغییر انجام نشد."
+        }
+      },
+      "languages": "زبان ها",
+      "signIn": "ورود",
+      "signOut": "از حساب خارج شوید",
+      "legal": "مجاز",
+      "termsConditions": "شرایط و ضوابط",
+      "privacyPolicy": "سیاست حفظ حریم خصوصی",
+      "support": "پشتیبانی",
+      "reportAProblem": "گزارش یک مشکل",
+      "tutorial": "آموزش",
+      "reportBug": {
+        "header": "گزارش یک مشکل",
+        "send": "ارسال",
+        "subject": "موضوع",
+        "subjectPlaceHolder": "موضوع",
+        "description": "شرح",
+        "descriptionPlaceHolder": "شرح",
+        "successAlert": "متشکریم ، پیام شما را دریافت کردیم",
+        "failedAlert": "پیام ارسال نشد."
+      },
+      "version": "نسخه"
+    },
+    "media": {
+      "audio": "سمعی",
+      "autoplay": "پخش خودکار صدا",
+      "storage": "ذخیره سازی",
+      "downloadWifi": "فقط از طریق Wi-Fi بارگیری کنید",
+      "deleteCache": "حافظه پنهان را حذف کنید"
+    },
+    "notifications": {
+      "notifications": "اطلاعیه",
+      "groupInvitation": "دعوت گروهی",
+      "devotions": "دعوت به عبادت ها",
+      "file": "تأیید انتقال پرونده"
+    }
+  },
+  "inviteUsers": { "header": "از کاربران دعوت کنید" },
+  "playlist": {
+    "header": "لیست پخش",
+    "audioFileLabel": "فایل صوتی",
+    "audioFilesLabel": "فایلهای صوتی"
+  },
+  "collection": { "header": "مجموعه", "audioFilesLabel": "فایلهای صوتی" },
+  "modal": {
+    "close": "بستن",
+    "addToPlaylist": { "title": "افزودن به لیست پخش", "button": "لیست پخش ایجاد کنید" },
+    "startDevotion": { "title": "فداکاری را شروع کنید" },
+    "createPlaylist": {
+      "title": "لیست پخش جدید ایجاد کنید",
+      "button": "لیست پخش ایجاد کنید",
+      "inputPlaceholder": "نام لیست پخش را وارد کنید",
+      "success": "به لیست پخش اضافه شد"
+    },
+    "login": "برای شروع یک فداکاری باید وارد شوید"
+  },
+  "options": {
+    "shared": {
+      "share": "اشتراک گذاری",
+      "report": "گزارش محتوا",
+      "shareOthers": "با دیگران به اشتراک بگذارید",
+      "copy": "پیوند را کپی کنید",
+      "more": "بیشتر"
+    },
+    "audio": {
+      "download": "دانلود",
+      "addFavorite": "اضافه کردن به علاقه مندی ها",
+      "addPlaylist": "افزودن به لیست پخش",
+      "removeFavorite": "از علاقه مندی ها حذف شود",
+      "removePlaylist": "حذف از لیست پخش",
+      "removeDownload": "حذف از بارگیری ها"
+    },
+    "playlist": { "edit": "ویرایش کنید", "delete": "لیست پخش را حذف کنید" },
+    "startDevotion": "فداکاری را شروع کنید"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "به لیست پخش اضافه شد",
+      "delete": "از لیست پخش حذف شد",
+      "create": "لیست پخش ایجاد شد",
+      "destroy": "لیست پخش حذف شد"
+    },
+    "favorites": { "add": "به موارد دلخواه اضافه شد", "remove": "از موارد دلخواه حذف شد" },
+    "downloads": { "remove": "از بارگیری ها حذف شد" }
+  },
+  "buttons": { "loop": "حلقه", "shuffle": "بر زدن" },
+  "uiControls": {
+    "searchBox": { "placeholder": "جستجو کردن..." },
+    "notification": { "success": "موفق باشید! یک ایمیل به حساب شما ارسال می شود." },
+    "button": { "sending": "در حال ارسال..." },
+    "modalSelector": { "cancel": "لغو" },
+    "loading": "بارگذاری"
+  },
+  "bible": {
+    "header": "کتاب مقدس",
+    "oldTestament": "کتاب عهد عتیق",
+    "newTestament": "عهد جدید",
+    "popularBooks": "کتابهای محبوب"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "جستجو کردن",
+    "cancelButton": "لغو",
+    "searchResults": "نتایج جستجو",
+    "filterButton": "فیلتر",
+    "teachings": { "title": "آموزش ها" },
+    "bible": { "title": "کتاب مقدس" }
+  },
+  "addToPlaylistsModal": { "title": "افزودن به لیست پخش", "button": "لیست پخش ایجاد کنید" },
+  "createPlaylistModal": {
+    "title": "لیست پخش جدید ایجاد کنید",
+    "button": "لیست پخش ایجاد کنید",
+    "inputPlaceholder": "نام لیست پخش را وارد کنید"
+  },
+  "alert": {
+    "playlists": {
+      "add": "به لیست پخش اضافه شد",
+      "remove": "از لیست پخش حذف شد",
+      "create": "لیست پخش ایجاد شد",
+      "delete": "لیست پخش حذف شد"
+    },
+    "favorites": { "add": "به موارد دلخواه اضافه شد", "remove": "از موارد دلخواه حذف شد" },
+    "downloads": { "remove": "از بارگیری ها حذف شد" },
+    "facebook": { "loginError": "ورود با خطا انجام نشد" },
+    "google": { "loginError": "ورود با خطا انجام نشد" }
+  },
+  "playlists": { "trackLabel": "مسیر", "tracksLabel": "آهنگ های" },
+  "mediaList": { "tracksLabel": "آهنگ های", "remove": "برداشتن" },
+  "tutorialPage": { "done": "انجام شده", "skip": "پرش" },
+  "loginModal": { "login": "وارد شدن" },
+  "shareModal": { "facebook": "فیس بوک", "twitter": "توییتر", "whatsapp": "واتس اپ" },
+  "downloadModal": { "downloading": "در حال بارگیری", "complete": "بارگیری کامل" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "کتاب مقدس را کاوش کنید",
+      "subtitle1": "با ما در کل کتاب مقدس سفر کنید ، یا سفر خود را شروع کنید.",
+      "title2": "گوش کنید و درگیر شوید",
+      "subtitle2": "پخش کننده رسانه به شما امکان می دهد با سهولت در THRU محتوای BIBLE را غرق کنید.",
+      "title3": "آموزه ها را کشف کنید",
+      "subtitle3": "با مراجعه متقابل به محتوای کتاب مقدس و آموزش ، مانند هرگز در کتاب مقدس شرکت کنید.",
+      "title4": "درباره کتاب مقدس بحث کنید",
+      "subtitle4": "به یک گروه بپیوندید تا آموزشها و مباحث THRU BIBLE را با دیگران مطالعه کنید.",
+      "title5": "بارگیری و اشتراک گذاری",
+      "subtitle5": "از گوش دادن به کلام خدا در حین حرکت لذت ببرید و آن را با دوستان خود به اشتراک بگذارید.",
+      "title6": "ذخیره و ایجاد کنید",
+      "subtitle6": "آموزه های مورد علاقه خود و آیات کتاب مقدس را ذخیره کنید یا یک لیست پخش سفارشی ایجاد کنید.",
+      "title7": "عبادت های گروهی",
+      "subtitle7": "با ارادتمندان گروه روزانه از دیگران تشویق و الهام بگیرید."
+    },
+    "registerPage": {
+      "noThanks": "نه ممنون",
+      "haveAccount": "حساب داری؟",
+      "createAccount": "ایجاد حساب کاربری من",
+      "title1": "با دیگران بحث کنید",
+      "subtitle1": "موضوعات مورد علاقه و آیات کتاب مقدس خود را با دیگران در میان بگذارید.",
+      "title2": "لیست های پخش را ذخیره و همگام سازی کنید",
+      "subtitle2": "لیستی از محتوای مورد علاقه خود را در یک مکان ایجاد کنید.",
+      "title3": "موارد دلخواه خود را مشاهده کنید",
+      "subtitle3": "ذخیره کنید و برگردید و بعداً از موارد مورد علاقه خود بازدید کنید.",
+      "title4": "خوش برگشتی",
+      "subtitle4": "یک حساب کاربری ایجاد کنید و به تمام ویژگی های ما دسترسی پیدا کنید."
+    }
+  },
+  "app": {
+    "close": "بستن",
+    "accept": "تایید کنید",
+    "reject": "رد کردن",
+    "constructionInProgress": "ساخت و ساز در حال پیشرفت",
+    "downloadComplete": "بارگیری کامل",
+    "downloading": "در حال بارگیری",
+    "downloadFailed": "دانلود نشد",
+    "sendAFile": "شخصی می خواهد پرونده ای برای شما ارسال کند"
+  },
+  "transferring": { "tryAgain": "دوباره امتحان کن", "close": "بستن" },
+  "checkDevice": {
+    "check": "دستگاه خود را بررسی کنید",
+    "makeSure": "لطفاً مطمئن شوید Wifi-Direct در دستگاه دوست شما روشن است و در محدوده آن است.",
+    "continue": "ادامه هید"
+  },
+  "connectToDevice": { "connect": "به دستگاهی متصل شوید" },
+  "pairing": {
+    "connect": "به دستگاهی متصل شوید",
+    "pairing": "جفت شدن",
+    "success": "با موفقیت جفت شد",
+    "failed": "جفت شدن دستگاه انجام نشد",
+    "makeSure": "لطفاً مطمئن شوید (Wifi-Direct) دستگاه دوست شما روشن است و در محدوده آن است.",
+    "continue": "ادامه هید",
+    "tryAgain": "دوباره امتحان کنید"
+  },
+  "selectNetworkType": {
+    "connect": "به دستگاهی متصل شوید",
+    "share": "اشتراک با Wifi Direct",
+    "send": "پرونده از طریق wifi مستقیم ارسال می شود؟",
+    "continue": "ادامه هید"
+  }
+}

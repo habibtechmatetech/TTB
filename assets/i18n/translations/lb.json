@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "Wielt Är aktuell Sprooch", "mainAction": "Wielt Sprooch" },
+  "menu": {
+    "anonymousTitle": "Äre Kont",
+    "anonymousAction": "Login",
+    "editProfileAction": "Profil änneren",
+    "verifyProfileAction": "Verifizéiert Profil",
+    "bibleSection": "Bibel",
+    "teachingsSection": "Léieren",
+    "librarySection": "Meng Bibliothéik",
+    "groupsSection": "Gruppen",
+    "donateSection": "Spenden",
+    "settingsSection": "Astellungen",
+    "signOut": "Ofmellen",
+    "modals": {
+      "verifyProfile": {
+        "title": "Dir sidd net verifizéiert",
+        "message": "Är Lëschte ginn net synchroniséiert an Dir kënnt net Gruppen erstellen. Kuckt w.e.g. Är E-Mail fir d'Aschreiwung fäerdeg ze maachen.",
+        "firstButton": "Fuert weider",
+        "secondButton": "Registréiert en neie Profil"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Umellen",
+    "emailPlaceholder": "Déng E-Mail",
+    "passwordPlaceholder": "Äert Passwuert",
+    "forgotAction": "Passwuert vergiess?",
+    "callToAction": "Umellen",
+    "signInAlternatives": "Oder Umellen Benotzt",
+    "noAccountAction": "Kee Kont? Erstellt een",
+    "notifications": {
+      "invalidCredentials": "Ongülteg Umeldungsinformatioune",
+      "inProgress": "Mellt Iech schonn un",
+      "notAvailable": "Leeschtungsservicer net verfügbar"
+    }
+  },
+  "signUp": {
+    "header": "Kont erstellen",
+    "emailPlaceholder": "Déng E-Mail",
+    "passwordPlaceholder": "Äert Passwuert",
+    "privateAction": "Maacht Kont Privat",
+    "termsDisclaimer": {
+      "pre": "Andeems Dir op Umeldung klickt, gitt Dir un datt Dir gelies hutt an averstan sidd",
+      "terms": "d'Konditioune",
+      "post": "."
+    },
+    "callToAction": "Sech umellen",
+    "signUpAlternatives": "Oder Umellen Up mat",
+    "haveAnAccountAction": "Hutt Dir e Kont?",
+    "notifications": {
+      "invalidUsername": "Benotzernimm si limitéiert op 20 alphanumeresch Zeechen (Zuelen a reegelméisseg Buschtawen)",
+      "invalidPassword": "Passwuert sollt op d'mannst 3 Zeechen hunn an eng Kombinatioun vun uewen a klengen Zeeche mat mindestens enger Nummer oder Spezialcharakter sinn"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Kann net e Kont erstellen",
+        "message": "Dës E-Mail Adress existéiert schonn.",
+        "firstButton": "Umellen",
+        "secondButton": "Zoumaachen"
+      },
+      "privateAccount": {
+        "title": "Privat Kont",
+        "message": "Wann Dir Äre Kont privat maacht, verstoppt Dir et vun aneren z'entdecken.",
+        "firstButton": "Akzeptéieren",
+        "secondButton": "Ofleenung"
+      },
+      "success": {
+        "title": "Kont erstallt!",
+        "message": "Äre Kont gouf erfollegräich erstallt. Kontrolléiert Är Inbox fir Äre Kont ze bestätegen an Iech unzemellen.",
+        "firstButton": "Umellen"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Passwuert zrécksetzen",
+    "emailPlaceholder": "Déng E-Mail",
+    "message": "Gitt w.e.g. Är E-Mail fir Äert Passwuert fir Äre Kont zréckzesetzen.",
+    "callToAction": "Passwuert zrécksetzen",
+    "notifications": {
+      "success": "Mir hu just eng E-Mail op Är Inbox geschéckt",
+      "emailNotFoundError": "E-Mail gouf net fonnt",
+      "invalidEmailError": "Ongültegt E-Mailformat"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Ofschloss Setup",
+    "message": "Eng E-Mail gouf op d'E-Mail Adress geschéckt déi Dir aginn hutt. Kuckt w.e.g. d'E-Maildetailer fir d'Aschreiwung ze kompletéieren.",
+    "callToAction": "Skip fir Elo"
+  },
+  "teachings": {
+    "dailyText": "De Broadcast vun haut",
+    "journeyTitle": "Start Är Rees",
+    "journeySubtitle": "All Léier vu Start bis Enn",
+    "journeyCardTitle": "215 Woch Rees duerch d'Bibel",
+    "journeyCardSubtitle": "Lauschtert op Är Zäit",
+    "tracksLabel": "Spuren"
+  },
+  "teaching": {
+    "header": "Léieren",
+    "loading": "Lueden ...",
+    "player": {
+      "audioSpeed": "Audio Geschwindegkeet",
+      "loading": "Luede",
+      "castingError": "Keng Apparater verfügbar"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Weider Lauschteren", "secondButton": "Fänkt Är Rees un" }
+    }
+  },
+  "journey": {
+    "byDate": "Nom Datum",
+    "bySeries": "No Serien",
+    "sections": { "tracksLabel": "Spuren" }
+  },
+  "library": {
+    "header": "Meng Bibliothéik",
+    "tabs": { "downloads": "Downloads", "favorites": "Favoritten", "playlists": "Playlëschten" }
+  },
+  "groups": {
+    "header": "Gruppen",
+    "createGroup": {
+      "title": "Neie Grupp erstellen",
+      "groupNameLabel": "GROUP NUMM",
+      "groupNameInputPlaceHolder": "Numm",
+      "descriptionLabel": "DESKRIPTIOUN",
+      "descriptionInputPlaceHolder": "Foto Beschreiwung",
+      "inviteLabel": "Invitéiert Benotzer",
+      "inviteButton": "Invitéiert Nei Benotzer",
+      "button": "Grupp erstellen",
+      "invalidGroupName": "Gitt e gëltegen Numm an",
+      "groupNameTooLong": "Den Numm vun der Grupp däerf net méi wéi 25 Zeechen enthalen"
+    },
+    "devotionNotStartAlert": "Eng Andacht huet fir dës Grupp net ugefaang",
+    "membersLabel": "Memberen",
+    "chatModalMemberSubtitleLabel": "Member",
+    "chatModalMembersSubtitleLabel": "Memberen",
+    "chat": {
+      "listeningToLabel": "Nolauschteren",
+      "loadingTrackLabel": "Luede Streck ...",
+      "inputPlaceHolder": "Message schreiwen",
+      "deletePost": "Läscht Post",
+      "deleteMessage": "huet e Message geläscht"
+    },
+    "groupSettings": {
+      "participantsSection": "Participanten",
+      "viewAll": "View All",
+      "invite": "Invitéiert Nei Benotzer",
+      "endDevotion": "Enn Group Andacht",
+      "deleteGroup": "Grupp läschen",
+      "leaveGroup": "Grupp verloossen"
+    },
+    "userDirectory": {
+      "header": "Benotzer Directory",
+      "remove": "Ewechhuelen",
+      "anonymous": "Anonym",
+      "send": "Schécken"
+    },
+    "inviteUser": { "placeHolder": "Sichen", "send": "Schécken" }
+  },
+  "chat": {
+    "header": "Grupp Channel",
+    "settings": {
+      "header": "Grupp Astellungen",
+      "endDevotion": {
+        "alertTitle": "Enn Andacht",
+        "alertMessage": "Sidd Dir sécher datt Dir dës Andacht ophale wëllt?",
+        "alertCancel": "Ofbriechen",
+        "alertConfirm": "jo",
+        "endDevotionLabel": "huet dës Andacht opgehalen.",
+        "hasEnded": "Dës Andacht ass opgehalen"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Start Andacht",
+    "alertMessage": "Sidd Dir sécher datt Dir Engagement mam% {name} Grupp wëllt starten?",
+    "alertCancel": "Ofbriechen",
+    "alertConfirm": "jo",
+    "devotionStartedLabel": "huet eng Andacht ugefaang."
+  },
+  "settings": {
+    "header": "Astellungen",
+    "tabs": { "profile": "Profil", "media": "Medien", "notifications": "Notifikatiounen" },
+    "profile": {
+      "account": "Kont",
+      "username": "Benotzernumm",
+      "email": "E-Mail",
+      "editButton": "Änneren",
+      "edit": {
+        "save": "Späicheren",
+        "username": {
+          "header": "Benotzernumm",
+          "successAlert": "Är Ännerung gouf gespäichert.",
+          "failedAlert": "Ausgefall der Ännerung ze retten."
+        },
+        "email": {
+          "header": "Email",
+          "successAlert": "Är Ännerung gouf gespäichert.",
+          "failedAlert": "Ausgefall der Ännerung ze retten."
+        }
+      },
+      "languages": "Sproochen",
+      "signIn": "Umellen",
+      "signOut": "Umellen Aus Kont",
+      "legal": "Legal",
+      "termsConditions": "Konditioune & Konditioune",
+      "privacyPolicy": "Privatsphär Politik",
+      "support": "Ënnerstëtzung",
+      "reportAProblem": "Rapport e Problem",
+      "tutorial": "Tutorial",
+      "reportBug": {
+        "header": "Rapport e Problem",
+        "send": "Schécken",
+        "subject": "THEMA",
+        "subjectPlaceHolder": "Sujet",
+        "description": "DESKRIPTIOUN",
+        "descriptionPlaceHolder": "Beschreiwung",
+        "successAlert": "Merci, mir hunn Äre Message kritt.",
+        "failedAlert": "De Message net geschéckt."
+      },
+      "version": "Versioun"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Autoplay Audio",
+      "storage": "Stockage",
+      "downloadWifi": "Nëmmen Download op Wi-Fi",
+      "deleteCache": "Läscht Cache"
+    },
+    "notifications": {
+      "notifications": "Notifikatiounen",
+      "groupInvitation": "Grupp Invitatioun",
+      "devotions": "Invitéiert op Devotiounen",
+      "file": "Bestätegung vum Datei Transfer"
+    }
+  },
+  "inviteUsers": { "header": "Invitéiert Benotzer" },
+  "playlist": {
+    "header": "Playlëscht",
+    "audioFileLabel": "Audio Datei",
+    "audioFilesLabel": "Audio Dateien"
+  },
+  "collection": { "header": "Kollektioun", "audioFilesLabel": "Audio Dateien" },
+  "modal": {
+    "close": "zoumaachen",
+    "addToPlaylist": { "title": "Add to Playlist", "button": "Playlist erstellen" },
+    "startDevotion": { "title": "Start Andacht" },
+    "createPlaylist": {
+      "title": "Neit Playlist erstellen",
+      "button": "Playlist erstellen",
+      "inputPlaceholder": "Gitt Playlist Numm",
+      "success": "Zu Playlist bäigesat"
+    },
+    "login": "Dir musst Iech aloggen fir eng Andacht ze starten"
+  },
+  "options": {
+    "shared": {
+      "share": "Deelen",
+      "report": "Rapport Inhalt",
+      "shareOthers": "Deelt mat Aneren",
+      "copy": "Link kopéieren",
+      "more": "Méi"
+    },
+    "audio": {
+      "download": "Eroflueden",
+      "addFavorite": "Füügt zu Favoritten",
+      "addPlaylist": "Add to Playlist",
+      "removeFavorite": "Ewechzehuelen aus Favoritten",
+      "removePlaylist": "Ewechzehuelen aus Playlist",
+      "removeDownload": "Ewechzehuelen vun Downloads"
+    },
+    "playlist": { "edit": "Änneren", "delete": "Läscht Playlist" },
+    "startDevotion": "Start Andacht"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Zu Playlist bäigesat",
+      "delete": "Geläscht vun der Playlëscht",
+      "create": "Kreéiert Playlist",
+      "destroy": "Geläschte Playlist"
+    },
+    "favorites": { "add": "Zu de Favoritte bäigefüügt", "remove": "Geläscht vu Favoritten" },
+    "downloads": { "remove": "Geläscht vun Downloads" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Shuffle" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Sichen ..." },
+    "notification": { "success": "Erfolleg! Eng E-Mail gëtt op Äre Kont geschéckt." },
+    "button": { "sending": "Schéckt ..." },
+    "modalSelector": { "cancel": "Ofbriechen" },
+    "loading": "Luede"
+  },
+  "bible": {
+    "header": "Bibel",
+    "oldTestament": "Alen Testament",
+    "newTestament": "Neit Testament",
+    "popularBooks": "Populär Bicher"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Sichen",
+    "cancelButton": "ANNULÉIEREN",
+    "searchResults": "Sich Resultater",
+    "filterButton": "Filter",
+    "teachings": { "title": "Léieren" },
+    "bible": { "title": "Bibel" }
+  },
+  "addToPlaylistsModal": { "title": "Add to Playlist", "button": "Playlist erstellen" },
+  "createPlaylistModal": {
+    "title": "Neit Playlist erstellen",
+    "button": "Playlist erstellen",
+    "inputPlaceholder": "Gitt Playlist Numm"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Zu Playlist bäigesat",
+      "remove": "Geläscht vun der Playlëscht",
+      "create": "Kreéiert Playlist",
+      "delete": "Geläschte Playlist"
+    },
+    "favorites": { "add": "Zu de Favoritte bäigefüügt", "remove": "Geläscht vu Favoritten" },
+    "downloads": { "remove": "Geläscht vun Downloads" },
+    "facebook": { "loginError": "Login feelt mat Feeler" },
+    "google": { "loginError": "Login feelt mat Feeler" }
+  },
+  "playlists": { "trackLabel": "Streck", "tracksLabel": "Spuren" },
+  "mediaList": { "tracksLabel": "Spuren", "remove": "Ewechhuelen" },
+  "tutorialPage": { "done": "Gemaach", "skip": "Skip" },
+  "loginModal": { "login": "Login" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Eroflueden", "complete": "Eroflueden Komplett" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Entdeckt d'Bibel",
+      "subtitle1": "Rees mat eis duerch déi ganz Bibel, oder start eng eege Rees.",
+      "title2": "Lauschtert & engagéiert",
+      "subtitle2": "De Mediaspiller erlaabt Iech an THRU de BIBEL Inhalt einfach ze dauchen.",
+      "title3": "Entdeckt Léierpersonal",
+      "subtitle3": "Engagéiert Iech an der Bibel wéi ni virdrun andeems Dir d'Bibel & Léierinhalter kräizt.",
+      "title4": "Diskutéiert d'Bibel",
+      "subtitle4": "Maacht mat bei enger Grupp fir den THRU d'BIBLE Léieren an Themen mat aneren ze studéieren.",
+      "title5": "Eroflueden & Deelen",
+      "subtitle5": "Genéisst lauschtert d'Wuert vu Gott ënnerwee an deelt et mat Äre Frënn.",
+      "title6": "Späicheren & erstellen",
+      "subtitle6": "Spuert Är Liiblingsléieren a Bibelverse oder erstallt eng personaliséiert Playlëscht.",
+      "title7": "Grupp Devotiounen",
+      "subtitle7": "Ginn encouragéiert an inspiréiert vun aneren mat deegleche Gruppewidderungen."
+    },
+    "registerPage": {
+      "noThanks": "Nee Merci",
+      "haveAccount": "Hutt Dir e Kont?",
+      "createAccount": "Mäi Kont erstellen",
+      "title1": "Diskutéiert mat Aneren",
+      "subtitle1": "Diskutéiert Är Liiblingsthemen a Bibelverse mat aneren.",
+      "title2": "Store a Synchroniséiere Playlists",
+      "subtitle2": "Baut Lëschte vun Ärem Liiblingsinhalt op enger Plaz.",
+      "title3": "Gesinn Är Favoritten",
+      "subtitle3": "Store a komm zréck a besicht Är Favoritten zu engem spéideren Zäitpunkt.",
+      "title4": "Wëllkomm zréck",
+      "subtitle4": "Erstellt e Kont a kritt Zougang zu all eise Funktiounen."
+    }
+  },
+  "app": {
+    "close": "zoumaachen",
+    "accept": "Akzeptéieren",
+    "reject": "Ofleen",
+    "constructionInProgress": "KONSTRUKTIOUN AM FORTSCHRËTT",
+    "downloadComplete": "Eroflueden Komplett",
+    "downloading": "Eroflueden",
+    "downloadFailed": "Eroflueden ausgefall",
+    "sendAFile": "Een wëll Iech e Fichier schécken"
+  },
+  "transferring": { "tryAgain": "versich et nach eng Kéier", "close": "zoumaachen" },
+  "checkDevice": {
+    "check": "Préift Ären Apparat",
+    "makeSure": "Gitt w.e.g. sécher datt Wifi-Direct op Ärem Frënd sengem Apparat ageschalt ass an et am Beräich ass.",
+    "continue": "Fuert weider"
+  },
+  "connectToDevice": { "connect": "Verbannt mat engem Apparat" },
+  "pairing": {
+    "connect": "Verbannt mat engem Apparat",
+    "pairing": "Koppelen",
+    "success": "Erfollegräich Paired",
+    "failed": "Device Pairing ausgefall",
+    "makeSure": "Gitt w.e.g. sécher datt (Wifi-Direct) op Ärem Frënd sengem Apparat ageschalt ass an et ass am Beräich.",
+    "continue": "Fuert weider",
+    "tryAgain": "Versich et nach eng Kéier"
+  },
+  "selectNetworkType": {
+    "connect": "Connectéiert mat engem Apparat",
+    "share": "Deelt mat Wifi Direct",
+    "send": "Datei iwwer WiFi direkt schécken?",
+    "continue": "Fuert weider"
+  }
+}

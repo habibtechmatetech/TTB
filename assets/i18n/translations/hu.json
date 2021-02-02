@@ -1,0 +1,405 @@
+{
+  "selectLanguage": {
+    "heading": "Válassza ki az aktuális nyelvet",
+    "mainAction": "Válasszon nyelvet"
+  },
+  "menu": {
+    "anonymousTitle": "Fiókja",
+    "anonymousAction": "Belépés",
+    "editProfileAction": "Profil szerkesztése",
+    "verifyProfileAction": "Profil ellenőrzése",
+    "bibleSection": "Biblia",
+    "teachingsSection": "Tanítások",
+    "librarySection": "A könyvtáram",
+    "groupsSection": "Csoportok",
+    "donateSection": "Adományoz",
+    "settingsSection": "Beállítások",
+    "signOut": "Kijelentkezés",
+    "modals": {
+      "verifyProfile": {
+        "title": "Nincs ellenőrizve",
+        "message": "A listákat nem szinkronizáljuk, és nem hozhat létre csoportokat. Kérjük, ellenőrizze e-mailjét a regisztráció befejezéséhez.",
+        "firstButton": "Folytatni",
+        "secondButton": "Új profil regisztrálása"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Bejelentkezés",
+    "emailPlaceholder": "Az email címed",
+    "passwordPlaceholder": "A jelszavad",
+    "forgotAction": "Elfelejtette a jelszavát?",
+    "callToAction": "Bejelentkezés",
+    "signInAlternatives": "Vagy Jelentkezzen be",
+    "noAccountAction": "Nincs fiókja? Csinálni egyet",
+    "notifications": {
+      "invalidCredentials": "Érvénytelen hitelesítő adatok",
+      "inProgress": "Bejelentkezés már folyamatban van",
+      "notAvailable": "A Play-szolgáltatások nem érhetők el"
+    }
+  },
+  "signUp": {
+    "header": "Fiók létrehozása",
+    "emailPlaceholder": "Az email címed",
+    "passwordPlaceholder": "A jelszavad",
+    "privateAction": "Legyen privát a fiók",
+    "termsDisclaimer": {
+      "pre": "A Regisztráció gombra kattintva jelzi, hogy elolvasta és elfogadja",
+      "terms": "a feltételeket",
+      "post": "."
+    },
+    "callToAction": "Regisztrálj",
+    "signUpAlternatives": "Vagy regisztráljon a",
+    "haveAnAccountAction": "Fiókot birtokolni?",
+    "notifications": {
+      "invalidUsername": "A felhasználónév legfeljebb 20 alfanumerikus karakter (számok és törzsbetűk)",
+      "invalidPassword": "A jelszónak legalább 3 karakterből kell állnia, és a nagy és a kisbetű kombinációjának kell lennie, legalább egy számmal vagy speciális karakterrel"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Nem sikerült fiókot létrehozni",
+        "message": "Ez az e-mail cím már létezik.",
+        "firstButton": "Bejelentkezés",
+        "secondButton": "Bezárás"
+      },
+      "privateAccount": {
+        "title": "Saját fiók",
+        "message": "Azzal, hogy fiókját priváttá teszi, titkolja, hogy mások felfedezzék.",
+        "firstButton": "Elfogad",
+        "secondButton": "Hanyatlás"
+      },
+      "success": {
+        "title": "Fiók létrehozva!",
+        "message": "Fiókját sikeresen létrehozta. Ellenőrizze a beérkező leveleket a fiók megerősítéséhez és a bejelentkezéshez.",
+        "firstButton": "Bejelentkezés"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Jelszó visszaállítása",
+    "emailPlaceholder": "Az email címed",
+    "message": "Kérjük, adja meg e-mail címét a fiókja jelszavának visszaállításához.",
+    "callToAction": "Jelszó visszaállítása",
+    "notifications": {
+      "success": "Most küldtünk egy e-mailt a beérkező levelek mappába",
+      "emailNotFoundError": "Az e-mail nem található",
+      "invalidEmailError": "érvénytelen e-mail formátum"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Fejezze be a telepítést",
+    "message": "A megadott e-mail címre e-mailt küldtünk. Kérjük, olvassa el az e-mail adatait a regisztráció befejezéséhez.",
+    "callToAction": "Ugrás most"
+  },
+  "teachings": {
+    "dailyText": "Mai adás",
+    "journeyTitle": "Indítsa el utazását",
+    "journeySubtitle": "Minden tanítás az elejétől a végéig",
+    "journeyCardTitle": "215. heti utazás a Biblián keresztül",
+    "journeyCardSubtitle": "Figyeljen az idejére",
+    "tracksLabel": "Számok"
+  },
+  "teaching": {
+    "header": "Tanítások",
+    "loading": "Betöltés...",
+    "player": {
+      "audioSpeed": "Hangsebesség",
+      "loading": "Betöltés",
+      "castingError": "Nincs elérhető eszköz"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Hallgatás folytatása",
+        "secondButton": "Indítsa el az utazást"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Dátum szerint",
+    "bySeries": "Sorozat szerint",
+    "sections": { "tracksLabel": "Számok" }
+  },
+  "library": {
+    "header": "A könyvtáram",
+    "tabs": {
+      "downloads": "Letöltések",
+      "favorites": "Kedvencek",
+      "playlists": "Lejátszási listák"
+    }
+  },
+  "groups": {
+    "header": "Csoportok",
+    "createGroup": {
+      "title": "Új csoport létrehozása",
+      "groupNameLabel": "CSOPORT NÉV",
+      "groupNameInputPlaceHolder": "Név",
+      "descriptionLabel": "LEÍRÁS",
+      "descriptionInputPlaceHolder": "Adj leírást",
+      "inviteLabel": "Felhasználók meghívása",
+      "inviteButton": "Új felhasználók meghívása",
+      "button": "Csoport létrehozása",
+      "invalidGroupName": "Adjon meg egy érvényes nevet",
+      "groupNameTooLong": "A csoport neve legfeljebb 25 karakterből állhat"
+    },
+    "devotionNotStartAlert": "Nem indult el odaadás ehhez a csoporthoz",
+    "membersLabel": "Tagok",
+    "chatModalMemberSubtitleLabel": "tag",
+    "chatModalMembersSubtitleLabel": "tagok",
+    "chat": {
+      "listeningToLabel": "Hallgat",
+      "loadingTrackLabel": "Sáv betöltése ...",
+      "inputPlaceHolder": "Üzenet írása",
+      "deletePost": "Bejegyzés törlése",
+      "deleteMessage": "törölt egy üzenetet"
+    },
+    "groupSettings": {
+      "participantsSection": "Résztvevők",
+      "viewAll": "Összes megtekintése",
+      "invite": "Új felhasználók meghívása",
+      "endDevotion": "A csoportos odaadás befejezése",
+      "deleteGroup": "Csoport törlése",
+      "leaveGroup": "Kilépés a csoportból"
+    },
+    "userDirectory": {
+      "header": "Felhasználói könyvtár",
+      "remove": "Eltávolítás",
+      "anonymous": "Névtelen",
+      "send": "Küld"
+    },
+    "inviteUser": { "placeHolder": "Keresés", "send": "Küld" }
+  },
+  "chat": {
+    "header": "Group Channel",
+    "settings": {
+      "header": "Csoportbeállítások",
+      "endDevotion": {
+        "alertTitle": "Vége odaadásnak",
+        "alertMessage": "Biztosan véget akar vetni ennek az áhítatnak?",
+        "alertCancel": "Megszünteti",
+        "alertConfirm": "Igen",
+        "endDevotionLabel": "véget vetett ennek az odaadásnak.",
+        "hasEnded": "Ez az áhítat véget ért"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Indítsa el az odaadást",
+    "alertMessage": "Biztosan el akarja kezdeni az odaadást a (z)% {name} csoporttal?",
+    "alertCancel": "Megszünteti",
+    "alertConfirm": "Igen",
+    "devotionStartedLabel": "odaadásba kezdett."
+  },
+  "settings": {
+    "header": "Beállítások",
+    "tabs": { "profile": "Profil", "media": "Média", "notifications": "Értesítések" },
+    "profile": {
+      "account": "Számla",
+      "username": "Felhasználónév",
+      "email": "Email",
+      "editButton": "Szerkesztés",
+      "edit": {
+        "save": "Megment",
+        "username": {
+          "header": "Felhasználónév",
+          "successAlert": "A változtatást elmentettük.",
+          "failedAlert": "Nem sikerült menteni a módosítást."
+        },
+        "email": {
+          "header": "Email",
+          "successAlert": "A változtatás mentve.",
+          "failedAlert": "Nem sikerült menteni a módosítást."
+        }
+      },
+      "languages": "Nyelvek",
+      "signIn": "Bejelentkezés",
+      "signOut": "Jelentkezzen ki a fiókból",
+      "legal": "Jogi",
+      "termsConditions": "Felhasználási feltételek",
+      "privacyPolicy": "Adatvédelmi irányelvek",
+      "support": "Támogatás",
+      "reportAProblem": "Jelentem a problémát",
+      "tutorial": "Bemutató",
+      "reportBug": {
+        "header": "Jelentem a problémát",
+        "send": "Küld",
+        "subject": "TANTÁRGY",
+        "subjectPlaceHolder": "Tantárgy",
+        "description": "LEÍRÁS",
+        "descriptionPlaceHolder": "Leírás",
+        "successAlert": "Köszönjük, megkaptuk az üzenetét.",
+        "failedAlert": "Nem sikerült elküldeni az üzenetet."
+      },
+      "version": "Változat"
+    },
+    "media": {
+      "audio": "Hang",
+      "autoplay": "Audio automatikus lejátszása",
+      "storage": "Tárolás",
+      "downloadWifi": "Csak letöltés Wi-Fi-n",
+      "deleteCache": "Törölje a gyorsítótárat"
+    },
+    "notifications": {
+      "notifications": "Értesítések",
+      "groupInvitation": "Csoportos meghívás",
+      "devotions": "Meghívás az áhítatokhoz",
+      "file": "Fájlátvitel megerősítése"
+    }
+  },
+  "inviteUsers": { "header": "Felhasználók meghívása" },
+  "playlist": {
+    "header": "lejátszási lista",
+    "audioFileLabel": "Hangfájl",
+    "audioFilesLabel": "Hangfájlok"
+  },
+  "collection": { "header": "Gyűjtemény", "audioFilesLabel": "Hangfájlok" },
+  "modal": {
+    "close": "Bezárás",
+    "addToPlaylist": { "title": "Lejátszási listához adni", "button": "Playlist létrehozása" },
+    "startDevotion": { "title": "Indítsa el az odaadást" },
+    "createPlaylist": {
+      "title": "Új lejátszási lista létrehozása",
+      "button": "Playlist létrehozása",
+      "inputPlaceholder": "Írja be a lejátszási lista nevét",
+      "success": "Hozzáadva a lejátszási listához"
+    },
+    "login": "Az áhítat megkezdéséhez be kell jelentkeznie"
+  },
+  "options": {
+    "shared": {
+      "share": "Ossza meg",
+      "report": "Tartalom jelentése",
+      "shareOthers": "Oszd meg másokkal",
+      "copy": "Link másolása",
+      "more": "Több"
+    },
+    "audio": {
+      "download": "Letöltés",
+      "addFavorite": "Add hozzá a kedvencekhez",
+      "addPlaylist": "Lejátszási listához adni",
+      "removeFavorite": "Eltávolítás a kedvencekből",
+      "removePlaylist": "Eltávolítás a lejátszási listáról",
+      "removeDownload": "Eltávolítás a Letöltések közül"
+    },
+    "playlist": { "edit": "Szerkesztés", "delete": "Lejátszási lista törlése" },
+    "startDevotion": "Indítsa el az odaadást"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Hozzáadva a lejátszási listához",
+      "delete": "Eltávolítva a lejátszási listáról",
+      "create": "Létrehozta a lejátszási listát",
+      "destroy": "Törölt lejátszási lista"
+    },
+    "favorites": { "add": "Hozzáadva a Kedvencekhez", "remove": "Eltávolítva a Kedvencek közül" },
+    "downloads": { "remove": "Eltávolítva a Letöltések közül" }
+  },
+  "buttons": { "loop": "Hurok", "shuffle": "Keverés" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Keresés..." },
+    "notification": { "success": "Siker! E-mailt küldünk a fiókjába." },
+    "button": { "sending": "Küldés ..." },
+    "modalSelector": { "cancel": "Megszünteti" },
+    "loading": "Betöltés"
+  },
+  "bible": {
+    "header": "Biblia",
+    "oldTestament": "Ótestamentum",
+    "newTestament": "Újtestamentum",
+    "popularBooks": "Népszerű könyvek"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Keresés",
+    "cancelButton": "MEGSZÜNTETI",
+    "searchResults": "Keresési eredmények",
+    "filterButton": "Szűrő",
+    "teachings": { "title": "Tanítások" },
+    "bible": { "title": "Biblia" }
+  },
+  "addToPlaylistsModal": { "title": "Lejátszási listához adni", "button": "Playlist létrehozása" },
+  "createPlaylistModal": {
+    "title": "Új lejátszási lista létrehozása",
+    "button": "Playlist létrehozása",
+    "inputPlaceholder": "Írja be a lejátszási lista nevét"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Hozzáadva a lejátszási listához",
+      "remove": "Eltávolítva a lejátszási listáról",
+      "create": "Létrehozta a lejátszási listát",
+      "delete": "Törölt lejátszási lista"
+    },
+    "favorites": { "add": "Hozzáadva a Kedvencekhez", "remove": "Eltávolítva a Kedvencek közül" },
+    "downloads": { "remove": "Eltávolítva a Letöltések közül" },
+    "facebook": { "loginError": "A bejelentkezés sikertelen hibával" },
+    "google": { "loginError": "A bejelentkezés sikertelen hibával" }
+  },
+  "playlists": { "trackLabel": "Vágány", "tracksLabel": "Számok" },
+  "mediaList": { "tracksLabel": "Számok", "remove": "Eltávolítás" },
+  "tutorialPage": { "done": "Kész", "skip": "Ugrás" },
+  "loginModal": { "login": "Belépés" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Letöltés", "complete": "A letöltés kész" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Fedezze fel a Bibliát",
+      "subtitle1": "Utazzon végig velünk az egész Biblián, vagy kezdjen el egy saját utat.",
+      "title2": "Figyeljen és vegyen részt",
+      "subtitle2": "A médialejátszó lehetővé teszi, hogy könnyedén belemerüljön a Biblia tartalmába.",
+      "title3": "Fedezze fel a tanításokat",
+      "subtitle3": "Vegyen részt a Bibliában, mint még soha, a Biblia és a tanítás tartalmának keresztreferenciájával.",
+      "title4": "Beszéljétek meg a Bibliát",
+      "subtitle4": "Csatlakozzon egy csoporthoz, hogy tanulmányozza másokkal a BIBLIA tanításait és témáit.",
+      "title5": "Letöltés és megosztás",
+      "subtitle5": "Élvezze útközben Isten Igéjét, és ossza meg barátaival.",
+      "title6": "Mentés és létrehozás",
+      "subtitle6": "Mentse el kedvenc tanításait és bibliai verseit, vagy hozzon létre egyedi lejátszási listát.",
+      "title7": "Csoportos áhítatok",
+      "subtitle7": "Napi csoportos odaadással ösztönözze és inspirálja mások."
+    },
+    "registerPage": {
+      "noThanks": "Nem köszönöm",
+      "haveAccount": "Fiókot birtokolni?",
+      "createAccount": "Elkészíteni az felhasználófiókom",
+      "title1": "Beszélje meg másokkal",
+      "subtitle1": "Beszélje meg másokkal a kedvenc témákat és a bibliaverseket.",
+      "title2": "Tárolja és szinkronizálja a lejátszási listákat",
+      "subtitle2": "Készítsen listákat kedvenc tartalmairól egy helyen.",
+      "title3": "Lásd a Kedvenceket",
+      "subtitle3": "Tárolja és térjen vissza, és látogassa meg később a kedvenceit.",
+      "title4": "Üdv újra",
+      "subtitle4": "Hozzon létre egy fiókot, és férjen hozzá az összes szolgáltatásunkhoz."
+    }
+  },
+  "app": {
+    "close": "Bezárás",
+    "accept": "Elfogad",
+    "reject": "Elutasít",
+    "constructionInProgress": "AZ ÉPÍTKEZÉS FOLYAMATBAN",
+    "downloadComplete": "A letöltés kész",
+    "downloading": "Letöltés",
+    "downloadFailed": "Sikertelen letöltés",
+    "sendAFile": "Valaki fájlt akar küldeni"
+  },
+  "transferring": { "tryAgain": "próbáld újra", "close": "Bezárás" },
+  "checkDevice": {
+    "check": "Ellenőrizze az eszközét",
+    "makeSure": "Kérjük, ellenőrizze, hogy a Wifi-Direct be van-e kapcsolva ismerőse eszközén, és hatótávolságon belül van-e.",
+    "continue": "Folytatni"
+  },
+  "connectToDevice": { "connect": "Csatlakozás egy eszközhöz" },
+  "pairing": {
+    "connect": "Csatlakozás egy eszközhöz",
+    "pairing": "Párosítás",
+    "success": "Sikeresen párosítva",
+    "failed": "Az eszköz párosítása sikertelen",
+    "makeSure": "Győződjön meg arról, hogy a (Wifi-Direct) be van kapcsolva barátja eszközén, és hatótávolságon belül van.",
+    "continue": "Folytatni",
+    "tryAgain": "Próbáld újra"
+  },
+  "selectNetworkType": {
+    "connect": "Csatlakozás egy eszközhöz",
+    "share": "Oszd meg a Wifi Direct szolgáltatással",
+    "send": "Fájl elküldése közvetlen wifi-n keresztül?",
+    "continue": "Folytatni"
+  }
+}

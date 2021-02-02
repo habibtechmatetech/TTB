@@ -1,0 +1,398 @@
+{
+  "selectLanguage": { "heading": "మీ ప్రస్తుత భాషను ఎంచుకోండి", "mainAction": "భాషను ఎంచుకోండి" },
+  "menu": {
+    "anonymousTitle": "మీ ఖాతా",
+    "anonymousAction": "ప్రవేశించండి",
+    "editProfileAction": "ప్రొఫైల్‌ను సవరించండి",
+    "verifyProfileAction": "ప్రొఫైల్‌ను ధృవీకరించండి",
+    "bibleSection": "బైబిల్",
+    "teachingsSection": "బోధనలు",
+    "librarySection": "నా లైబ్రరీ",
+    "groupsSection": "గుంపులు",
+    "donateSection": "దానం చేయండి",
+    "settingsSection": "సెట్టింగులు",
+    "signOut": "సైన్ అవుట్ చేయండి",
+    "modals": {
+      "verifyProfile": {
+        "title": "మీరు ధృవీకరించబడలేదు",
+        "message": "మీ జాబితాలు సమకాలీకరించబడవు మరియు మీరు సమూహాలను సృష్టించలేరు. నమోదు పూర్తి చేయడానికి దయచేసి మీ ఇమెయిల్‌ను తనిఖీ చేయండి.",
+        "firstButton": "కొనసాగించండి",
+        "secondButton": "క్రొత్త ప్రొఫైల్‌ను నమోదు చేయండి"
+      }
+    }
+  },
+  "signIn": {
+    "header": "సైన్ ఇన్ చేయండి",
+    "emailPlaceholder": "మీ ఇమెయిల్",
+    "passwordPlaceholder": "మీ పాస్వర్డు",
+    "forgotAction": "పాస్‌వర్డ్ మర్చిపోయారా?",
+    "callToAction": "సైన్ ఇన్ చేయండి",
+    "signInAlternatives": "లేదా ఉపయోగించి సైన్ ఇన్ చేయండి",
+    "noAccountAction": "ఖాతా లేదా? ఒకటి సృష్టించు",
+    "notifications": {
+      "invalidCredentials": "చెల్లని ఆధారాలు",
+      "inProgress": "సైన్ ఇన్ ఇప్పటికే పురోగతిలో ఉంది",
+      "notAvailable": "ప్లే సేవలు అందుబాటులో లేవు"
+    }
+  },
+  "signUp": {
+    "header": "ఖాతాను సృష్టించండి",
+    "emailPlaceholder": "మీ ఇమెయిల్",
+    "passwordPlaceholder": "మీ పాస్వర్డు",
+    "privateAction": "ఖాతాను ప్రైవేట్‌గా చేయండి",
+    "termsDisclaimer": {
+      "pre": "సైన్అప్ క్లిక్ చేయడం ద్వారా మీరు చదివి అంగీకరించినట్లు సూచిస్తారు",
+      "terms": "నిబంధనలు",
+      "post": "."
+    },
+    "callToAction": "చేరడం",
+    "signUpAlternatives": "లేదా ఉపయోగించి సైన్ అప్ చేయండి",
+    "haveAnAccountAction": "ఖాతా ఉందా?",
+    "notifications": {
+      "invalidUsername": "వినియోగదారు పేర్లు 20 ఆల్ఫాన్యూమరిక్ అక్షరాలకు పరిమితం చేయబడ్డాయి (సంఖ్యలు మరియు సాధారణ అక్షరాలు)",
+      "invalidPassword": "పాస్‌వర్డ్‌లో కనీసం 3 అక్షరాలు ఉండాలి మరియు కనీసం ఒక సంఖ్య లేదా ప్రత్యేక అక్షరాలతో ఉన్న పెద్ద మరియు లోయర్ కేస్ అక్షరాల కలయికగా ఉండాలి"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "ఖాతాను సృష్టించడం సాధ్యం కాలేదు",
+        "message": "ఈ ఇమెయిల్ చిరునామా ఇప్పటికే ఉంది.",
+        "firstButton": "సైన్ ఇన్ చేయండి",
+        "secondButton": "దగ్గరగా"
+      },
+      "privateAccount": {
+        "title": "ప్రైవేట్ ఖాతా",
+        "message": "మీ ఖాతాను ప్రైవేట్‌గా చేయడం ద్వారా, మీరు దానిని ఇతరులు కనుగొనకుండా దాచిపెడుతున్నారు.",
+        "firstButton": "అంగీకరించు",
+        "secondButton": "క్షీణత"
+      },
+      "success": {
+        "title": "ఖాతా సృష్టించబడింది!",
+        "message": "మీ ఖాతా విజయవంతంగా సృష్టించబడింది. మీ ఖాతాను నిర్ధారించడానికి మరియు సైన్ ఇన్ చేయడానికి మీ ఇన్బాక్స్ తనిఖీ చేయండి.",
+        "firstButton": "సైన్ ఇన్ చేయండి"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "రహస్యపదాన్ని మార్చుకోండి",
+    "emailPlaceholder": "మీ ఇమెయిల్",
+    "message": "మీ ఖాతా కోసం మీ పాస్‌వర్డ్‌ను రీసెట్ చేయడానికి దయచేసి మీ ఇమెయిల్‌ను నమోదు చేయండి.",
+    "callToAction": "రహస్యపదాన్ని మార్చుకోండి",
+    "notifications": {
+      "success": "మేము మీ ఇన్‌బాక్స్‌కు ఇమెయిల్ పంపాము",
+      "emailNotFoundError": "ఇమెయిల్ కనుగొనబడలేదు",
+      "invalidEmailError": "చెల్లని ఇమెయిల్ ఆకృతి"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "సెటప్ ముగించు",
+    "message": "మీరు నమోదు చేసిన ఇమెయిల్ చిరునామాకు ఇమెయిల్ పంపబడింది. రిజిస్ట్రేషన్ పూర్తి చేయడానికి దయచేసి ఇమెయిల్ వివరాలను చూడండి.",
+    "callToAction": "ఇప్పుడే దాటవేయి"
+  },
+  "teachings": {
+    "dailyText": "నేటి ప్రసారం",
+    "journeyTitle": "మీ ప్రయాణాన్ని ప్రారంభించండి",
+    "journeySubtitle": "ప్రారంభం నుండి ముగింపు వరకు అన్ని బోధనలు",
+    "journeyCardTitle": "బైబిల్ ద్వారా 215 వారాల ప్రయాణం",
+    "journeyCardSubtitle": "మీ సమయాన్ని వినండి",
+    "tracksLabel": "ట్రాక్స్"
+  },
+  "teaching": {
+    "header": "బోధనలు",
+    "loading": "లోడ్...",
+    "player": {
+      "audioSpeed": "ఆడియో వేగం",
+      "loading": "లోడ్",
+      "castingError": "పరికరాలు అందుబాటులో లేవు"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "వినడం కొనసాగించండి",
+        "secondButton": "మీ ప్రయాణాన్ని ప్రారంభించండి"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "తేదీ నాటికి",
+    "bySeries": "సిరీస్ ద్వారా",
+    "sections": { "tracksLabel": "ట్రాక్స్" }
+  },
+  "library": {
+    "header": "నా లైబ్రరీ",
+    "tabs": { "downloads": "డౌన్‌లోడ్‌లు", "favorites": "ఇష్టమైనవి", "playlists": "ప్లేజాబితాలు" }
+  },
+  "groups": {
+    "header": "గుంపులు",
+    "createGroup": {
+      "title": "క్రొత్త సమూహాన్ని సృష్టించండి",
+      "groupNameLabel": "కూటమి పేరు",
+      "groupNameInputPlaceHolder": "పేరు",
+      "descriptionLabel": "వివరణ",
+      "descriptionInputPlaceHolder": "వివరణను జోడించండి",
+      "inviteLabel": "వినియోగదారులను ఆహ్వానించండి",
+      "inviteButton": "క్రొత్త వినియోగదారులను ఆహ్వానించండి",
+      "button": "సమూహాన్ని సృష్టించండి",
+      "invalidGroupName": "చెల్లుబాటు అయ్యే పేరును నమోదు చేయండి",
+      "groupNameTooLong": "సమూహం యొక్క పేరు 25 కంటే ఎక్కువ అక్షరాలను కలిగి ఉండకూడదు"
+    },
+    "devotionNotStartAlert": "ఈ గుంపుకు భక్తి ప్రారంభం కాలేదు",
+    "membersLabel": "సభ్యులు",
+    "chatModalMemberSubtitleLabel": "సభ్యుడు",
+    "chatModalMembersSubtitleLabel": "సభ్యులు",
+    "chat": {
+      "listeningToLabel": "వింటున్నాను",
+      "loadingTrackLabel": "ట్రాక్ లోడ్ అవుతోంది ...",
+      "inputPlaceHolder": "సందేశం రాయండి",
+      "deletePost": "పోస్ట్‌ను తొలగించండి",
+      "deleteMessage": "సందేశాన్ని తొలగించింది"
+    },
+    "groupSettings": {
+      "participantsSection": "పాల్గొనేవారు",
+      "viewAll": "అన్నీ చూడండి",
+      "invite": "క్రొత్త వినియోగదారులను ఆహ్వానించండి",
+      "endDevotion": "సమూహ భక్తిని ముగించండి",
+      "deleteGroup": "సమూహాన్ని తొలగించండి",
+      "leaveGroup": "బృందాన్ని వదులు"
+    },
+    "userDirectory": {
+      "header": "యూజర్ డైరెక్టరీ",
+      "remove": "తొలగించండి",
+      "anonymous": "అనామక",
+      "send": "పంపండి"
+    },
+    "inviteUser": { "placeHolder": "వెతకండి", "send": "పంపండి" }
+  },
+  "chat": {
+    "header": "గ్రూప్ ఛానల్",
+    "settings": {
+      "header": "సమూహ సెట్టింగులు",
+      "endDevotion": {
+        "alertTitle": "భక్తిని అంతం చేయండి",
+        "alertMessage": "మీరు ఖచ్చితంగా ఈ భక్తిని అంతం చేయాలనుకుంటున్నారా?",
+        "alertCancel": "రద్దు చేయండి",
+        "alertConfirm": "అవును",
+        "endDevotionLabel": "ఈ భక్తిని ముగించారు.",
+        "hasEnded": "ఈ భక్తి ముగిసింది"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "భక్తిని ప్రారంభించండి",
+    "alertMessage": "మీరు% {name} సమూహంతో భక్తిని ప్రారంభించాలనుకుంటున్నారా?",
+    "alertCancel": "రద్దు చేయండి",
+    "alertConfirm": "అవును",
+    "devotionStartedLabel": "భక్తిని ప్రారంభించింది."
+  },
+  "settings": {
+    "header": "సెట్టింగులు",
+    "tabs": { "profile": "ప్రొఫైల్", "media": "మీడియా", "notifications": "నోటిఫికేషన్‌లు" },
+    "profile": {
+      "account": "ఖాతా",
+      "username": "వినియోగదారు పేరు",
+      "email": "ఇ-మెయిల్",
+      "editButton": "సవరించండి",
+      "edit": {
+        "save": "సేవ్ చేయండి",
+        "username": {
+          "header": "వినియోగదారు పేరు",
+          "successAlert": "మీ మార్పు సేవ్ చేయబడింది.",
+          "failedAlert": "మార్పును సేవ్ చేయడంలో విఫలమైంది."
+        },
+        "email": {
+          "header": "ఇమెయిల్",
+          "successAlert": "మీ మార్పు సేవ్ చేయబడింది.",
+          "failedAlert": "మార్పును సేవ్ చేయడంలో విఫలమైంది."
+        }
+      },
+      "languages": "భాషలు",
+      "signIn": "సైన్ ఇన్ చేయండి",
+      "signOut": "ఖాతా నుండి సైన్ అవుట్ చేయండి",
+      "legal": "చట్టపరమైన",
+      "termsConditions": "నిబంధనలు & షరతులు",
+      "privacyPolicy": "గోప్యతా విధానం",
+      "support": "మద్దతు",
+      "reportAProblem": "సమస్యను నివేదించండి",
+      "tutorial": "ట్యుటోరియల్",
+      "reportBug": {
+        "header": "సమస్యను నివేదించండి",
+        "send": "పంపండి",
+        "subject": "విషయం",
+        "subjectPlaceHolder": "విషయం",
+        "description": "వివరణ",
+        "descriptionPlaceHolder": "వివరణ",
+        "successAlert": "ధన్యవాదాలు, మేము మీ సందేశాన్ని అందుకున్నాము.",
+        "failedAlert": "సందేశం పంపడంలో విఫలమైంది."
+      },
+      "version": "సంస్కరణ: Telugu"
+    },
+    "media": {
+      "audio": "ఆడియో",
+      "autoplay": "ఆటోప్లే ఆడియో",
+      "storage": "నిల్వ",
+      "downloadWifi": "Wi-Fi లో మాత్రమే డౌన్‌లోడ్ చేయండి",
+      "deleteCache": "కాష్ తొలగించండి"
+    },
+    "notifications": {
+      "notifications": "నోటిఫికేషన్‌లు",
+      "groupInvitation": "సమూహ ఆహ్వానం",
+      "devotions": "భక్తికి ఆహ్వానించండి",
+      "file": "ఫైల్ బదిలీ నిర్ధారణ"
+    }
+  },
+  "inviteUsers": { "header": "వినియోగదారులను ఆహ్వానించండి" },
+  "playlist": {
+    "header": "ప్లేజాబితా",
+    "audioFileLabel": "ఆడియో ఫైల్",
+    "audioFilesLabel": "ఆడియో ఫైళ్ళు"
+  },
+  "collection": { "header": "సేకరణ", "audioFilesLabel": "ఆడియో ఫైళ్ళు" },
+  "modal": {
+    "close": "దగ్గరగా",
+    "addToPlaylist": { "title": "పాటల క్రమంలో చేర్చు", "button": "ప్లేజాబితాను సృష్టించండి" },
+    "startDevotion": { "title": "భక్తిని ప్రారంభించండి" },
+    "createPlaylist": {
+      "title": "క్రొత్త ప్లేజాబితాను సృష్టించండి",
+      "button": "ప్లేజాబితాను సృష్టించండి",
+      "inputPlaceholder": "ప్లేజాబితా పేరును నమోదు చేయండి",
+      "success": "ప్లేజాబితాకు జోడించబడింది"
+    },
+    "login": "భక్తిని ప్రారంభించడానికి మీరు లాగిన్ అవ్వాలి"
+  },
+  "options": {
+    "shared": {
+      "share": "భాగస్వామ్యం చేయండి",
+      "report": "కంటెంట్‌ను నివేదించండి",
+      "shareOthers": "ఇతరులతో పంచుకోండి",
+      "copy": "లింక్ను కాపీ చేయండి",
+      "more": "మరింత"
+    },
+    "audio": {
+      "download": "డౌన్‌లోడ్",
+      "addFavorite": "ఇష్టాలకు జోడించండి",
+      "addPlaylist": "పాటల క్రమంలో చేర్చు",
+      "removeFavorite": "ఇష్టమైనవి నుండి తీసివేయండి",
+      "removePlaylist": "ప్లేజాబితా నుండి తీసివేయండి",
+      "removeDownload": "డౌన్‌లోడ్‌ల నుండి తీసివేయండి"
+    },
+    "playlist": { "edit": "సవరించండి", "delete": "ప్లేజాబితాను తొలగించండి" },
+    "startDevotion": "భక్తిని ప్రారంభించండి"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "ప్లేజాబితాకు జోడించబడింది",
+      "delete": "ప్లేజాబితా నుండి తీసివేయబడింది",
+      "create": "ప్లేజాబితాను సృష్టించారు",
+      "destroy": "ప్లేజాబితాను తొలగించారు"
+    },
+    "favorites": { "add": "ఇష్టాలకు జోడించబడింది", "remove": "ఇష్టమైనవి నుండి తీసివేయబడ్డాయి" },
+    "downloads": { "remove": "డౌన్‌లోడ్‌ల నుండి తీసివేయబడింది" }
+  },
+  "buttons": { "loop": "లూప్", "shuffle": "షఫుల్" },
+  "uiControls": {
+    "searchBox": { "placeholder": "వెతకండి..." },
+    "notification": { "success": "విజయం! మీ ఖాతాకు ఇమెయిల్ పంపబడుతుంది." },
+    "button": { "sending": "పంపుతోంది ..." },
+    "modalSelector": { "cancel": "రద్దు చేయండి" },
+    "loading": "లోడ్"
+  },
+  "bible": {
+    "header": "బైబిల్",
+    "oldTestament": "పాత నిబంధన",
+    "newTestament": "కొత్త నిబంధన",
+    "popularBooks": "ప్రసిద్ధ పుస్తకాలు"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "వెతకండి",
+    "cancelButton": "రద్దు చేయండి",
+    "searchResults": "శోధన ఫలితాలు",
+    "filterButton": "ఫిల్టర్",
+    "teachings": { "title": "బోధనలు" },
+    "bible": { "title": "బైబిల్" }
+  },
+  "addToPlaylistsModal": { "title": "పాటల క్రమంలో చేర్చు", "button": "ప్లేజాబితాను సృష్టించండి" },
+  "createPlaylistModal": {
+    "title": "క్రొత్త ప్లేజాబితాను సృష్టించండి",
+    "button": "ప్లేజాబితాను సృష్టించండి",
+    "inputPlaceholder": "ప్లేజాబితా పేరును నమోదు చేయండి"
+  },
+  "alert": {
+    "playlists": {
+      "add": "ప్లేజాబితాకు జోడించబడింది",
+      "remove": "ప్లేజాబితా నుండి తీసివేయబడింది",
+      "create": "ప్లేజాబితాను సృష్టించారు",
+      "delete": "ప్లేజాబితాను తొలగించారు"
+    },
+    "favorites": { "add": "ఇష్టాలకు జోడించబడింది", "remove": "ఇష్టమైనవి నుండి తొలగించబడ్డాయి" },
+    "downloads": { "remove": "డౌన్‌లోడ్‌ల నుండి తీసివేయబడింది" },
+    "facebook": { "loginError": "లాగిన్ లోపంతో విఫలమైంది" },
+    "google": { "loginError": "లాగిన్ లోపంతో విఫలమైంది" }
+  },
+  "playlists": { "trackLabel": "ట్రాక్", "tracksLabel": "ట్రాక్స్" },
+  "mediaList": { "tracksLabel": "ట్రాక్స్", "remove": "తొలగించండి" },
+  "tutorialPage": { "done": "పూర్తి", "skip": "దాటవేయి" },
+  "loginModal": { "login": "ప్రవేశించండి" },
+  "shareModal": { "facebook": "ఫేస్బుక్", "twitter": "ట్విట్టర్", "whatsapp": "వాట్సాప్" },
+  "downloadModal": { "downloading": "డౌన్‌లోడ్ చేస్తోంది", "complete": "డౌన్‌లోడ్ పూర్తయింది" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "బైబిల్ అన్వేషించండి",
+      "subtitle1": "మొత్తం బైబిల్ ద్వారా మాతో ప్రయాణించండి లేదా మీ స్వంత ప్రయాణాన్ని ప్రారంభించండి.",
+      "title2": "వినండి & పాల్గొనండి",
+      "subtitle2": "మీడియా ప్లేయర్ THRU బైబిల్ కంటెంట్‌లోకి సులభంగా ప్రవేశించడానికి మిమ్మల్ని అనుమతిస్తుంది.",
+      "title3": "బోధనలను కనుగొనండి",
+      "subtitle3": "బైబిల్ & బోధన కంటెంట్‌ను క్రాస్ రిఫరెన్స్ చేయడం ద్వారా మునుపెన్నడూ లేని విధంగా బైబిల్‌లో పాల్గొనండి.",
+      "title4": "బైబిల్ గురించి చర్చించండి",
+      "subtitle4": "THRU బైబిల్ బోధనలు మరియు విషయాలను ఇతరులతో అధ్యయనం చేయడానికి ఒక సమూహంలో చేరండి.",
+      "title5": "డౌన్‌లోడ్ & షేర్",
+      "subtitle5": "ప్రయాణంలో ఉన్నప్పుడు దేవుని వాక్యాన్ని వినడం ఆనందించండి మరియు మీ స్నేహితులతో పంచుకోండి.",
+      "title6": "సేవ్ & సృష్టించండి",
+      "subtitle6": "మీకు ఇష్టమైన బోధనలు మరియు బైబిల్ పద్యాలను సేవ్ చేయండి లేదా అనుకూల ప్లేజాబితాను సృష్టించండి.",
+      "title7": "సమూహ భక్తి",
+      "subtitle7": "రోజువారీ సమూహ భక్తితో ఇతరులను ప్రోత్సహించండి మరియు ప్రేరేపించండి."
+    },
+    "registerPage": {
+      "noThanks": "వద్దు ధన్యవాదాలు",
+      "haveAccount": "ఖాతా ఉందా?",
+      "createAccount": "నా ఖాతాను సృష్టించండి",
+      "title1": "ఇతరులతో చర్చించండి",
+      "subtitle1": "మీకు ఇష్టమైన విషయాలు మరియు బైబిల్ పద్యాలను ఇతరులతో చర్చించండి.",
+      "title2": "ప్లేజాబితాలను నిల్వ చేయండి మరియు సమకాలీకరించండి",
+      "subtitle2": "మీకు ఇష్టమైన కంటెంట్ యొక్క జాబితాలను ఒకే చోట నిర్మించండి.",
+      "title3": "మీ ఇష్టమైనవి చూడండి",
+      "subtitle3": "నిల్వ చేయండి మరియు తిరిగి వచ్చి మీ ఇష్టమైన వాటిని తరువాత సమయంలో సందర్శించండి.",
+      "title4": "పునఃస్వాగతం",
+      "subtitle4": "ఖాతాను సృష్టించండి మరియు మా అన్ని లక్షణాలకు ప్రాప్యత పొందండి."
+    }
+  },
+  "app": {
+    "close": "దగ్గరగా",
+    "accept": "అంగీకరించు",
+    "reject": "తిరస్కరించండి",
+    "constructionInProgress": "పురోగతిలో నిర్మాణం",
+    "downloadComplete": "డౌన్‌లోడ్ పూర్తయింది",
+    "downloading": "డౌన్‌లోడ్ చేస్తోంది",
+    "downloadFailed": "డౌన్లోడ్ విఫలమైంది",
+    "sendAFile": "ఎవరో మీకు ఫైల్ పంపాలనుకుంటున్నారు"
+  },
+  "transferring": { "tryAgain": "మళ్ళీ ప్రయత్నించండి", "close": "దగ్గరగా" },
+  "checkDevice": {
+    "check": "మీ పరికరాన్ని తనిఖీ చేయండి",
+    "makeSure": "దయచేసి మీ స్నేహితుడి పరికరంలో వైఫై-డైరెక్ట్ ఆన్ చేయబడిందని మరియు అది పరిధిలో ఉందని నిర్ధారించుకోండి.",
+    "continue": "కొనసాగించండి"
+  },
+  "connectToDevice": { "connect": "పరికరానికి కనెక్ట్ చేయండి" },
+  "pairing": {
+    "connect": "పరికరానికి కనెక్ట్ చేయండి",
+    "pairing": "జత చేయడం",
+    "success": "విజయవంతంగా జత చేయబడింది",
+    "failed": "పరికర జత చేయడం విఫలమైంది",
+    "makeSure": "దయచేసి మీ స్నేహితుడి పరికరంలో (వైఫై-డైరెక్ట్) ఆన్ చేయబడిందని నిర్ధారించుకోండి మరియు అది పరిధిలో ఉంది.",
+    "continue": "కొనసాగించండి",
+    "tryAgain": "మళ్ళీ ప్రయత్నించండి"
+  },
+  "selectNetworkType": {
+    "connect": "పరికరానికి కనెక్ట్ చేయండి",
+    "share": "వైఫై డైరెక్ట్‌తో భాగస్వామ్యం చేయండి",
+    "send": "ఫైల్‌ను వైఫై డైరెక్ట్ ద్వారా పంపాలా?",
+    "continue": "కొనసాగించండి"
+  }
+}

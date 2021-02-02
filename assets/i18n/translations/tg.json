@@ -1,0 +1,404 @@
+{
+  "selectLanguage": {
+    "heading": "Забони ҷории худро интихоб кунед",
+    "mainAction": "Забонро интихоб кунед"
+  },
+  "menu": {
+    "anonymousTitle": "Ҳисоби шумо",
+    "anonymousAction": "Даромадан",
+    "editProfileAction": "Таҳрири профил",
+    "verifyProfileAction": "Профилро тасдиқ кунед",
+    "bibleSection": "Инҷил",
+    "teachingsSection": "Таълимот",
+    "librarySection": "Китобхонаи ман",
+    "groupsSection": "Гурӯҳҳо",
+    "donateSection": "Хайрия",
+    "settingsSection": "Танзимот",
+    "signOut": "Баромадан",
+    "modals": {
+      "verifyProfile": {
+        "title": "Шумо тасдиқ нашудаед",
+        "message": "Рӯйхати шумо ҳамоҳанг карда намешавад ва шумо гурӯҳҳо эҷод карда наметавонед. Лутфан почтаи электронии худро барои пур кардани бақайдгирӣ санҷед.",
+        "firstButton": "Давом диҳед",
+        "secondButton": "Профили навро ба қайд гиред"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Даромад",
+    "emailPlaceholder": "Почтаи электронии шумо",
+    "passwordPlaceholder": "Гузарвожаи шумо",
+    "forgotAction": "Калидвожа фаромӯш шуд?",
+    "callToAction": "даромад",
+    "signInAlternatives": "Ё бо истифода аз система ворид шавед",
+    "noAccountAction": "Ҳисоб надоред? Яке созед",
+    "notifications": {
+      "invalidCredentials": "Маълумотномаи нодуруст",
+      "inProgress": "Воридшавӣ аллакай иҷро шуда истодааст",
+      "notAvailable": "Хидматҳои бозӣ дастнорасанд"
+    }
+  },
+  "signUp": {
+    "header": "Ҳисоб кушоед",
+    "emailPlaceholder": "Почтаи электронии шумо",
+    "passwordPlaceholder": "Гузарвожаи шумо",
+    "privateAction": "Ҳисобро хусусӣ гардонед",
+    "termsDisclaimer": {
+      "pre": "Бо зеркунии Сабти ном нишон медиҳед, ки хондаед ва розӣ ҳастед",
+      "terms": "шартҳо",
+      "post": "."
+    },
+    "callToAction": "қайд кардан",
+    "signUpAlternatives": "Ё бо истифодаи номнавис шавед",
+    "haveAnAccountAction": "Ҳисобе доред?",
+    "notifications": {
+      "invalidUsername": "Номи корбарон бо 20 аломатҳои рақамӣ (рақамҳо ва ҳарфҳои муқаррарӣ) маҳдуд аст",
+      "invalidPassword": "Гузарвожа бояд на камтар аз 3 аломат дошта бошад ва маҷмӯи аломатҳои ҳарфҳои калон ва хурд бо ҳадди ақалл як рақам ё аломати махсус бошад"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Ҳисобро сохтан ғайриимкон аст",
+        "message": "Ин суроғаи почтаи электронӣ аллакай мавҷуд аст.",
+        "firstButton": "Даромад",
+        "secondButton": "Пӯшед"
+      },
+      "privateAccount": {
+        "title": "Ҳисоби хусусӣ",
+        "message": "Бо ҳисоби шахсӣ кардани шумо, шумо онро аз ошкор шудани дигарон пинҳон медоред.",
+        "firstButton": "Қабул кунед",
+        "secondButton": "Рад кардан"
+      },
+      "success": {
+        "title": "Ҳисоб сохта шудааст!",
+        "message": "Ҳисоби шумо бомуваффақият сохта шудааст. Барои тасдиқи ҳисоби худ ва ворид шудан паёмдони худро тафтиш кунед.",
+        "firstButton": "Даромад"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Паролро барқарор кунед",
+    "emailPlaceholder": "Почтаи электронии шумо",
+    "message": "Лутфан имейли худро нависед, то паролро барои ҳисоби худ барқарор кунед.",
+    "callToAction": "Паролро барқарор кунед",
+    "notifications": {
+      "success": "Мо танҳо паёми электронӣ ба паёмдони худ фиристодем",
+      "emailNotFoundError": "Почтаи электронӣ ёфт нашуд",
+      "invalidEmailError": "Формати нодурусти почтаи электронӣ"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Насбро ба анҷом расонед",
+    "message": "Ба суроғаи почтаи электронии воридкардаи шумо паёми электронӣ фиристода шуд. Барои ба итмом расонидани сабти ном лутфан маълумоти электронии худро бинед.",
+    "callToAction": "Ҳоло гузаред"
+  },
+  "teachings": {
+    "dailyText": "Пахши имрӯза",
+    "journeyTitle": "Сафари худро оғоз кунед",
+    "journeySubtitle": "Ҳама таълимот аз аввал то ба охир",
+    "journeyCardTitle": "215 ҳафта Сафар ба воситаи Инҷил",
+    "journeyCardSubtitle": "Вақти худро гӯш кунед",
+    "tracksLabel": "Трекҳо"
+  },
+  "teaching": {
+    "header": "Таълимот",
+    "loading": "Боркунӣ ...",
+    "player": {
+      "audioSpeed": "Суръати аудио",
+      "loading": "Боркунӣ",
+      "castingError": "Дастгоҳҳо мавҷуд нестанд"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Идомаро гӯш кунед", "secondButton": "Сафари худро оғоз кунед" }
+    }
+  },
+  "journey": {
+    "byDate": "Бо сана",
+    "bySeries": "Бо силсила",
+    "sections": { "tracksLabel": "Трекҳо" }
+  },
+  "library": {
+    "header": "Китобхонаи ман",
+    "tabs": { "downloads": "Боргириҳо", "favorites": "Мунтахаб", "playlists": "Рӯйхати навозишҳо" }
+  },
+  "groups": {
+    "header": "Гурӯҳҳо",
+    "createGroup": {
+      "title": "Гурӯҳи нав созед",
+      "groupNameLabel": "НОМИ ГУРӮҲ",
+      "groupNameInputPlaceHolder": "Ном",
+      "descriptionLabel": "ТАВСИФ",
+      "descriptionInputPlaceHolder": "Илова кардани тавсиф",
+      "inviteLabel": "Истифодабарандагонро даъват кунед",
+      "inviteButton": "Истифодабарандагони навро даъват кунед",
+      "button": "Гурӯҳ созед",
+      "invalidGroupName": "Номи дурустро ворид кунед",
+      "groupNameTooLong": "Номи гурӯҳ набояд аз 25 аломат зиёд бошад"
+    },
+    "devotionNotStartAlert": "Як садоқат барои ин гурӯҳ оғоз нашудааст",
+    "membersLabel": "Аъзоён",
+    "chatModalMemberSubtitleLabel": "узв",
+    "chatModalMembersSubtitleLabel": "аъзоён",
+    "chat": {
+      "listeningToLabel": "Гӯш додан",
+      "loadingTrackLabel": "Боркунии суруд ...",
+      "inputPlaceHolder": "Паём нависед",
+      "deletePost": "Почтаро нест кунед",
+      "deleteMessage": "як паёмро нест кардааст"
+    },
+    "groupSettings": {
+      "participantsSection": "Иштирокчиён",
+      "viewAll": "Дидани ҳама",
+      "invite": "Истифодабарандагони навро даъват кунед",
+      "endDevotion": "Ба вафодории гурӯҳӣ хотима диҳед",
+      "deleteGroup": "Гурӯҳро нест кунед",
+      "leaveGroup": "Гурӯҳро тарк кунед"
+    },
+    "userDirectory": {
+      "header": "Феҳристи корбар",
+      "remove": "Хориҷ кардан",
+      "anonymous": "Беном",
+      "send": "Ирсол"
+    },
+    "inviteUser": { "placeHolder": "Ҷустуҷӯ", "send": "Ирсол" }
+  },
+  "chat": {
+    "header": "Channel Channel",
+    "settings": {
+      "header": "Танзимоти гурӯҳ",
+      "endDevotion": {
+        "alertTitle": "Ба вафодорӣ хотима диҳед",
+        "alertMessage": "Шумо мутмаин ҳастед, ки мехоҳед ба ин садоқат хотима диҳед?",
+        "alertCancel": "Бекор кардан",
+        "alertConfirm": "Бале",
+        "endDevotionLabel": "ба ин садоқат хотима бахшид.",
+        "hasEnded": "Ин садоқат ба поён расид"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Вафодорӣ оғоз кунед",
+    "alertMessage": "Оё мутмаинед, ки мехоҳед садоқатро бо% {name} group оғоз кунед?",
+    "alertCancel": "Бекор кардан",
+    "alertConfirm": "Бале",
+    "devotionStartedLabel": "садоқатро оғоз кардааст."
+  },
+  "settings": {
+    "header": "Танзимот",
+    "tabs": { "profile": "Профил", "media": "ВАО", "notifications": "Огоҳӣ" },
+    "profile": {
+      "account": "Ҳисоб",
+      "username": "Номи корбар",
+      "email": "Почтаи электронӣ",
+      "editButton": "Таҳрир",
+      "edit": {
+        "save": "Захира кунед",
+        "username": {
+          "header": "Номи корбар",
+          "successAlert": "Тағири шумо захира карда шуд.",
+          "failedAlert": "Тағиротро сабт карда натавонист."
+        },
+        "email": {
+          "header": "Почтаи электронӣ",
+          "successAlert": "Тағири шумо захира карда шуд.",
+          "failedAlert": "Тағиротро сабт карда натавонист."
+        }
+      },
+      "languages": "Забонҳо",
+      "signIn": "Даромад",
+      "signOut": "Хуруҷ аз суратҳисоб",
+      "legal": "Ҳуқуқӣ",
+      "termsConditions": "Шартҳо",
+      "privacyPolicy": "Сиёсати Корбурди Маълумоти Шахсӣ",
+      "support": "Дастгирӣ",
+      "reportAProblem": "Дар бораи мушкилот гузориш диҳед",
+      "tutorial": "Дарсӣ",
+      "reportBug": {
+        "header": "Дар бораи мушкилот гузориш диҳед",
+        "send": "Ирсол",
+        "subject": "МАВЗӮИ",
+        "subjectPlaceHolder": "Мавзӯъ",
+        "description": "ТАВСИФ",
+        "descriptionPlaceHolder": "Тавсифи",
+        "successAlert": "Ташаккур, мо паёми шуморо қабул кардем.",
+        "failedAlert": "Паём фиристода нашуд."
+      },
+      "version": "Нусхаи"
+    },
+    "media": {
+      "audio": "Аудио",
+      "autoplay": "Autoplay Audio",
+      "storage": "Анбор",
+      "downloadWifi": "Танҳо зеркашӣ дар Wi-fi",
+      "deleteCache": "Кэшро нест кунед"
+    },
+    "notifications": {
+      "notifications": "Огоҳӣ",
+      "groupInvitation": "Даъвати гурӯҳӣ",
+      "devotions": "Ба садақаҳо даъват кунед",
+      "file": "Тасдиқи интиқоли файл"
+    }
+  },
+  "inviteUsers": { "header": "Истифодабарандагонро даъват кунед" },
+  "playlist": {
+    "header": "Рӯйхати навозиш",
+    "audioFileLabel": "Файл аудио",
+    "audioFilesLabel": "Файлҳои аудио"
+  },
+  "collection": { "header": "Маҷмӯа", "audioFilesLabel": "Файлҳои аудио" },
+  "modal": {
+    "close": "наздик",
+    "addToPlaylist": {
+      "title": "Ба рӯйхати навозиш илова кунед",
+      "button": "Рӯйхати навозишро эҷод кунед"
+    },
+    "startDevotion": { "title": "Вафодорӣ оғоз кунед" },
+    "createPlaylist": {
+      "title": "Рӯйхати навро эҷод кунед",
+      "button": "Рӯйхати навозишро эҷод кунед",
+      "inputPlaceholder": "Номи рӯйхати навозишро ворид кунед",
+      "success": "Ба рӯйхати навозиш илова карда шуд"
+    },
+    "login": "Барои оғози садоқат ба шумо бояд ворид шавед"
+  },
+  "options": {
+    "shared": {
+      "share": "Мубодила",
+      "report": "Мазмуни гузориш",
+      "shareOthers": "Бо дигарон мубодила кунед",
+      "copy": "Нусхабардории истинод",
+      "more": "Бештар"
+    },
+    "audio": {
+      "download": "Боргирӣ",
+      "addFavorite": "Илова ба мунтахаб",
+      "addPlaylist": "Ба рӯйхати навозиш илова кунед",
+      "removeFavorite": "Аз мунтахаб хориҷ кунед",
+      "removePlaylist": "Аз рӯйхати навозиш хориҷ кунед",
+      "removeDownload": "Аз зеркашиҳо хориҷ кунед"
+    },
+    "playlist": { "edit": "Таҳрир", "delete": "Рӯйхати навозишро нест кунед" },
+    "startDevotion": "Вафодорӣ оғоз кунед"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Ба рӯйхати навозиш илова карда шуд",
+      "delete": "Аз рӯйхати навозиш хориҷ карда шуд",
+      "create": "Рӯйхати навозиш офарида шудааст",
+      "destroy": "Рӯйхати навозиш ҳазф карда шуд"
+    },
+    "favorites": { "add": "Илова ба мунтахаб", "remove": "Аз мунтахаб хориҷ карда шуд" },
+    "downloads": { "remove": "Аз зеркашиҳо хориҷ карда шуд" }
+  },
+  "buttons": { "loop": "Доиравӣ", "shuffle": "Шаффоф" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Ҷустуҷӯ ..." },
+    "notification": { "success": "Муваффақият! Ба ҳисоби шумо паёми электронӣ фиристода мешавад." },
+    "button": { "sending": "Ирсол ..." },
+    "modalSelector": { "cancel": "Бекор кардан" },
+    "loading": "Боркунӣ"
+  },
+  "bible": {
+    "header": "Инҷил",
+    "oldTestament": "Аҳди Қадим",
+    "newTestament": "Аҳди Ҷадид",
+    "popularBooks": "Китобҳои маъмул"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Ҷустуҷӯ",
+    "cancelButton": "Бекор",
+    "searchResults": "Натоиҷи ҷустуҷӯ",
+    "filterButton": "Филтр",
+    "teachings": { "title": "Таълимот" },
+    "bible": { "title": "Инҷил" }
+  },
+  "addToPlaylistsModal": {
+    "title": "Ба рӯйхати навозиш илова кунед",
+    "button": "Рӯйхати навозишро эҷод кунед"
+  },
+  "createPlaylistModal": {
+    "title": "Рӯйхати навро эҷод кунед",
+    "button": "Рӯйхати навозишро эҷод кунед",
+    "inputPlaceholder": "Номи рӯйхати навозишро ворид кунед"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Ба рӯйхати навозиш илова карда шуд",
+      "remove": "Аз рӯйхати навозиш хориҷ карда шуд",
+      "create": "Рӯйхати навозиш офарида шудааст",
+      "delete": "Рӯйхати навозиш ҳазф карда шуд"
+    },
+    "favorites": { "add": "Илова ба мунтахаб", "remove": "Аз мунтахаб хориҷ карда шуд" },
+    "downloads": { "remove": "Аз зеркашиҳо хориҷ карда шуд" },
+    "facebook": { "loginError": "Вуруд бо хато ноком шуд" },
+    "google": { "loginError": "Вуруд бо хато ноком шуд" }
+  },
+  "playlists": { "trackLabel": "Трек", "tracksLabel": "Трекҳо" },
+  "mediaList": { "tracksLabel": "Трекҳо", "remove": "Хориҷ кардан" },
+  "tutorialPage": { "done": "Шуд", "skip": "Гузаштан" },
+  "loginModal": { "login": "Даромадан" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "Сайтҳо" },
+  "downloadModal": { "downloading": "Зеркашӣ", "complete": "Боргирии пурра" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Инҷилро биомӯзед",
+      "subtitle1": "Бо мо тамоми Китоби Муқаддасро сайр кунед ё сайри худатонро оғоз кунед.",
+      "title2": "Гӯш кунед ва машғул шавед",
+      "subtitle2": "Медиа плеер ба шумо имкон медиҳад, ки ба осонӣ ба THRU мундариҷаи BIBLE мубтало шавед.",
+      "title3": "Таълимотро кашф кунед",
+      "subtitle3": "Бо истинод ба мундариҷаи Китоби Муқаддас ва Таълим ба мисли пештара ба Библия машғул шавед.",
+      "title4": "Инҷилро муҳокима кунед",
+      "subtitle4": "Ба гурӯҳе ҳамроҳ шавед, то THRU таълимот ва мавзӯъҳои Инҷилро бо дигарон омӯзанд.",
+      "title5": "Бор кунед ва мубодила кунед",
+      "subtitle5": "Каломи Худоро ҳангоми ҳаракат гӯш кардан лаззат баред ва онро ба дӯстонатон нақл кунед.",
+      "title6": "Захира & Эҷод",
+      "subtitle6": "Таълимоти дӯстдоштаатон ва оятҳои Инҷилро захира кунед ё рӯйхати мусиқии фармоишӣ эҷод кунед.",
+      "title7": "Бахшидаҳои гурӯҳӣ",
+      "subtitle7": "Бо садоқати ҳаррӯзаи гурӯҳ аз ҷониби дигарон рӯҳбаланд ва илҳом ёбед."
+    },
+    "registerPage": {
+      "noThanks": "Не ташаккур",
+      "haveAccount": "Ҳисобе доред?",
+      "createAccount": "Ҳисоби маро эҷод кунед",
+      "title1": "Бо дигарон муҳокима кунед",
+      "subtitle1": "Мавзӯъҳои дӯстдоштаи худ ва оятҳои Инҷилро бо дигарон муҳокима кунед.",
+      "title2": "Рӯйхати навозишро нигоҳ доред ва ҳамоҳанг кунед",
+      "subtitle2": "Рӯйхати мундариҷаи дӯстдоштаи худро дар як ҷо созед.",
+      "title3": "Мунтахабҳои худро бинед",
+      "subtitle3": "Нигоҳ кунед ва баргардед ва дертар ба мунтахабҳои худ ташриф оред.",
+      "title4": "Бозгашт муборак",
+      "subtitle4": "Ҳисобе созед ва ба ҳамаи хусусиятҳои мо дастрасӣ пайдо кунед."
+    }
+  },
+  "app": {
+    "close": "наздик",
+    "accept": "Қабул кунед",
+    "reject": "Рад кардан",
+    "constructionInProgress": "СОХТМОН ДАР ПЕШВОЗИ",
+    "downloadComplete": "Боргирии пурра",
+    "downloading": "Зеркашӣ",
+    "downloadFailed": "Боргирӣ нашуд",
+    "sendAFile": "Касе мехоҳад ба шумо файл фиристад"
+  },
+  "transferring": { "tryAgain": "дубора сайъ кунед", "close": "наздик" },
+  "checkDevice": {
+    "check": "Дастгоҳи худро санҷед",
+    "makeSure": "Лутфан боварӣ ҳосил кунед, ки Wifi-Direct дар дастгоҳи дӯстатон фаъол аст ва он дар масофа аст.",
+    "continue": "Давом диҳед"
+  },
+  "connectToDevice": { "connect": "Ба дастгоҳ пайваст шавед" },
+  "pairing": {
+    "connect": "Ба дастгоҳ пайваст шавед",
+    "pairing": "Ҷуфт",
+    "success": "Бо муваффақият ҷуфт карда шуд",
+    "failed": "Ҷуфткунии дастгоҳ ноком шуд",
+    "makeSure": "Лутфан боварӣ ҳосил кунед, ки (Wifi-Direct) дар дастгоҳи дӯстатон фаъол аст ва он дар масофа аст.",
+    "continue": "Давом диҳед",
+    "tryAgain": "Дубора сайъ кунед"
+  },
+  "selectNetworkType": {
+    "connect": "Ба дастгоҳ пайваст шавед",
+    "share": "Бо Wifi Direct мубодила кунед",
+    "send": "Файлро тавассути WiFi мустақим фиристед?",
+    "continue": "Давом диҳед"
+  }
+}

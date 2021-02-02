@@ -1,0 +1,398 @@
+{
+  "selectLanguage": { "heading": "Pilih bahasa Anda saat ini", "mainAction": "Pilih bahasa" },
+  "menu": {
+    "anonymousTitle": "Akun Anda",
+    "anonymousAction": "Gabung",
+    "editProfileAction": "Sunting profil",
+    "verifyProfileAction": "Verifikasi profil",
+    "bibleSection": "Alkitab",
+    "teachingsSection": "Ajaran",
+    "librarySection": "Koleksiku",
+    "groupsSection": "Grup",
+    "donateSection": "Menyumbangkan",
+    "settingsSection": "Pengaturan",
+    "signOut": "Keluar",
+    "modals": {
+      "verifyProfile": {
+        "title": "Anda belum diverifikasi",
+        "message": "Daftar Anda tidak akan disinkronkan dan Anda tidak dapat membuat grup. Silakan periksa email Anda untuk menyelesaikan pendaftaran.",
+        "firstButton": "Terus",
+        "secondButton": "Daftarkan profil baru"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Masuk",
+    "emailPlaceholder": "Email mu",
+    "passwordPlaceholder": "Kata sandi Anda",
+    "forgotAction": "Tidak ingat kata sandi?",
+    "callToAction": "Masuk",
+    "signInAlternatives": "Atau Masuk menggunakan",
+    "noAccountAction": "Tidak ada akun? Buat satu",
+    "notifications": {
+      "invalidCredentials": "Kredensial tidak valid",
+      "inProgress": "Masuk sudah dalam proses",
+      "notAvailable": "Layanan Play tidak tersedia"
+    }
+  },
+  "signUp": {
+    "header": "Buat Akun",
+    "emailPlaceholder": "Email mu",
+    "passwordPlaceholder": "Kata sandi Anda",
+    "privateAction": "Jadikan Akun Pribadi",
+    "termsDisclaimer": {
+      "pre": "Dengan mengklik Signup Anda menyatakan bahwa Anda telah membaca dan setuju",
+      "terms": "persyaratan",
+      "post": "."
+    },
+    "callToAction": "Daftar",
+    "signUpAlternatives": "Atau Daftar menggunakan",
+    "haveAnAccountAction": "Punya akun?",
+    "notifications": {
+      "invalidUsername": "Nama pengguna dibatasi hingga 20 karakter alfanumerik (angka dan huruf biasa)",
+      "invalidPassword": "Kata sandi harus memiliki minimal 3 karakter dan merupakan kombinasi dari karakter huruf besar dan kecil dengan setidaknya satu angka atau karakter khusus"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Tidak dapat membuat akun",
+        "message": "Alamat email ini sudah ada.",
+        "firstButton": "Masuk",
+        "secondButton": "Menutup"
+      },
+      "privateAccount": {
+        "title": "Akun Pribadi",
+        "message": "Dengan menjadikan akun Anda pribadi, Anda menyembunyikannya agar tidak ditemukan oleh orang lain.",
+        "firstButton": "Menerima",
+        "secondButton": "Menurun"
+      },
+      "success": {
+        "title": "Akun telah dibuat!",
+        "message": "Akun Anda berhasil dibuat. Periksa kotak masuk Anda untuk mengonfirmasi akun Anda dan masuk.",
+        "firstButton": "Masuk"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Setel ulang kata sandi",
+    "emailPlaceholder": "Email mu",
+    "message": "Silakan masukkan email Anda untuk mengatur ulang kata sandi untuk akun Anda.",
+    "callToAction": "Setel ulang kata sandi",
+    "notifications": {
+      "success": "Kami baru saja mengirim email ke kotak masuk Anda",
+      "emailNotFoundError": "Email tidak ditemukan",
+      "invalidEmailError": "format email salah"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Selesaikan Penyiapan",
+    "message": "Sebuah email telah dikirim ke alamat email yang Anda masukkan. Silakan lihat detail email untuk menyelesaikan pendaftaran.",
+    "callToAction": "Lewati untuk Sekarang"
+  },
+  "teachings": {
+    "dailyText": "Siaran Hari Ini",
+    "journeyTitle": "Mulailah Perjalanan Anda",
+    "journeySubtitle": "Semua ajaran dari awal sampai akhir",
+    "journeyCardTitle": "215 Minggu Perjalanan Melalui Alkitab",
+    "journeyCardSubtitle": "Dengarkan waktu Anda",
+    "tracksLabel": "Trek"
+  },
+  "teaching": {
+    "header": "Ajaran",
+    "loading": "Memuat...",
+    "player": {
+      "audioSpeed": "Kecepatan Audio",
+      "loading": "Memuat",
+      "castingError": "Tidak Ada Perangkat yang Tersedia"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Lanjutkan Mendengarkan",
+        "secondButton": "Mulailah perjalanan Anda"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Tanggal",
+    "bySeries": "Berdasarkan Seri",
+    "sections": { "tracksLabel": "Trek" }
+  },
+  "library": {
+    "header": "Koleksiku",
+    "tabs": { "downloads": "Download", "favorites": "Favorit", "playlists": "Daftar Putar" }
+  },
+  "groups": {
+    "header": "Grup",
+    "createGroup": {
+      "title": "Buat Grup Baru",
+      "groupNameLabel": "NAMA GRUP",
+      "groupNameInputPlaceHolder": "Nama",
+      "descriptionLabel": "DESKRIPSI",
+      "descriptionInputPlaceHolder": "Tambahkan deskripsi",
+      "inviteLabel": "Undang Pengguna",
+      "inviteButton": "Undang Pengguna Baru",
+      "button": "Membuat grup",
+      "invalidGroupName": "Masukkan nama yang valid",
+      "groupNameTooLong": "Nama grup tidak boleh lebih dari 25 karakter"
+    },
+    "devotionNotStartAlert": "Pengabdian belum dimulai untuk grup ini",
+    "membersLabel": "Anggota",
+    "chatModalMemberSubtitleLabel": "anggota",
+    "chatModalMembersSubtitleLabel": "anggota",
+    "chat": {
+      "listeningToLabel": "Mendengarkan",
+      "loadingTrackLabel": "Memuat trek ...",
+      "inputPlaceHolder": "Menulis pesan",
+      "deletePost": "Hapus Posting",
+      "deleteMessage": "telah menghapus pesan"
+    },
+    "groupSettings": {
+      "participantsSection": "Peserta",
+      "viewAll": "Lihat semua",
+      "invite": "Undang Pengguna Baru",
+      "endDevotion": "Akhiri Pengabdian Kelompok",
+      "deleteGroup": "Hapus Grup",
+      "leaveGroup": "Meninggalkan grup"
+    },
+    "userDirectory": {
+      "header": "Direktori Pengguna",
+      "remove": "Menghapus",
+      "anonymous": "Anonim",
+      "send": "Kirim"
+    },
+    "inviteUser": { "placeHolder": "Cari", "send": "Kirim" }
+  },
+  "chat": {
+    "header": "Saluran Grup",
+    "settings": {
+      "header": "Pengaturan Grup",
+      "endDevotion": {
+        "alertTitle": "Akhiri Devotion",
+        "alertMessage": "Apakah Anda yakin ingin mengakhiri devosi ini?",
+        "alertCancel": "Membatalkan",
+        "alertConfirm": "Iya",
+        "endDevotionLabel": "mengakhiri devosi ini.",
+        "hasEnded": "Pengabdian ini telah berakhir"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Mulailah Devotion",
+    "alertMessage": "Anda yakin ingin memulai devosi dengan grup% {name}?",
+    "alertCancel": "Membatalkan",
+    "alertConfirm": "Iya",
+    "devotionStartedLabel": "telah memulai pengabdian."
+  },
+  "settings": {
+    "header": "Pengaturan",
+    "tabs": { "profile": "Profil", "media": "Media", "notifications": "Notifikasi" },
+    "profile": {
+      "account": "Akun",
+      "username": "Nama pengguna",
+      "email": "Surel",
+      "editButton": "Edit",
+      "edit": {
+        "save": "Menyimpan",
+        "username": {
+          "header": "Nama pengguna",
+          "successAlert": "Perubahan Anda telah disimpan.",
+          "failedAlert": "Gagal menyimpan perubahan."
+        },
+        "email": {
+          "header": "Surel",
+          "successAlert": "Perubahan Anda telah disimpan.",
+          "failedAlert": "Gagal menyimpan perubahan."
+        }
+      },
+      "languages": "Bahasa",
+      "signIn": "Masuk",
+      "signOut": "Keluar dari Akun",
+      "legal": "Hukum",
+      "termsConditions": "Syarat & Ketentuan",
+      "privacyPolicy": "Rahasia pribadi",
+      "support": "Dukung",
+      "reportAProblem": "Laporkan Masalah",
+      "tutorial": "Tutorial",
+      "reportBug": {
+        "header": "Laporkan Masalah",
+        "send": "Kirim",
+        "subject": "SUBYEK",
+        "subjectPlaceHolder": "Subyek",
+        "description": "DESKRIPSI",
+        "descriptionPlaceHolder": "Deskripsi",
+        "successAlert": "Terima kasih, kami telah menerima pesan Anda.",
+        "failedAlert": "Gagal mengirim pesan."
+      },
+      "version": "Versi: kapan"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Audio Putar Otomatis",
+      "storage": "Penyimpanan",
+      "downloadWifi": "Hanya Unduh di Wi-fi",
+      "deleteCache": "Hapus Cache"
+    },
+    "notifications": {
+      "notifications": "Notifikasi",
+      "groupInvitation": "Undangan Grup",
+      "devotions": "Undang ke Devotions",
+      "file": "Konfirmasi Transfer File"
+    }
+  },
+  "inviteUsers": { "header": "Undang Pengguna" },
+  "playlist": {
+    "header": "Daftar Putar",
+    "audioFileLabel": "File Audio",
+    "audioFilesLabel": "File audio"
+  },
+  "collection": { "header": "Koleksi", "audioFilesLabel": "File audio" },
+  "modal": {
+    "close": "Menutup",
+    "addToPlaylist": { "title": "Tambahkan ke Daftar Putar", "button": "Buat Daftar Putar" },
+    "startDevotion": { "title": "Mulailah Devotion" },
+    "createPlaylist": {
+      "title": "Buat Daftar Putar Baru",
+      "button": "Buat Daftar Putar",
+      "inputPlaceholder": "Masukkan Nama Daftar Putar",
+      "success": "Ditambahkan ke Daftar Putar"
+    },
+    "login": "Anda harus masuk untuk memulai pengabdian"
+  },
+  "options": {
+    "shared": {
+      "share": "Bagikan",
+      "report": "Laporkan Konten",
+      "shareOthers": "Bagikan dengan Orang Lain",
+      "copy": "Salin tautan",
+      "more": "Lebih"
+    },
+    "audio": {
+      "download": "Unduh",
+      "addFavorite": "Tambahkan ke Favorit",
+      "addPlaylist": "Tambahkan ke Daftar Putar",
+      "removeFavorite": "Hapus dari Favorit",
+      "removePlaylist": "Hapus dari Daftar Putar",
+      "removeDownload": "Hapus dari Download"
+    },
+    "playlist": { "edit": "Edit", "delete": "Hapus Daftar Putar" },
+    "startDevotion": "Mulailah Devotion"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Ditambahkan ke Daftar Putar",
+      "delete": "Dihapus dari Daftar Putar",
+      "create": "Daftar Putar yang Dibuat",
+      "destroy": "Daftar Putar yang Dihapus"
+    },
+    "favorites": { "add": "Ditambahkan ke Favorit", "remove": "Dihapus dari Favorit" },
+    "downloads": { "remove": "Dihapus dari Download" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Acak" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Cari..." },
+    "notification": { "success": "Keberhasilan! Sebuah email akan dikirim ke akun Anda." },
+    "button": { "sending": "Mengirim ..." },
+    "modalSelector": { "cancel": "Membatalkan" },
+    "loading": "Memuat"
+  },
+  "bible": {
+    "header": "Alkitab",
+    "oldTestament": "Perjanjian Lama",
+    "newTestament": "Perjanjian Baru",
+    "popularBooks": "Buku-buku populer"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Cari",
+    "cancelButton": "MEMBATALKAN",
+    "searchResults": "Hasil Pencarian",
+    "filterButton": "Saring",
+    "teachings": { "title": "Ajaran" },
+    "bible": { "title": "Alkitab" }
+  },
+  "addToPlaylistsModal": { "title": "Tambahkan ke Daftar Putar", "button": "Buat Daftar Putar" },
+  "createPlaylistModal": {
+    "title": "Buat Daftar Putar Baru",
+    "button": "Buat Daftar Putar",
+    "inputPlaceholder": "Masukkan Nama Daftar Putar"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Ditambahkan ke Daftar Putar",
+      "remove": "Dihapus dari Daftar Putar",
+      "create": "Daftar Putar yang Dibuat",
+      "delete": "Daftar Putar yang Dihapus"
+    },
+    "favorites": { "add": "Ditambahkan ke Favorit", "remove": "Dihapus dari Favorit" },
+    "downloads": { "remove": "Dihapus dari Download" },
+    "facebook": { "loginError": "Login gagal dengan kesalahan" },
+    "google": { "loginError": "Login gagal dengan kesalahan" }
+  },
+  "playlists": { "trackLabel": "Jalur", "tracksLabel": "Trek" },
+  "mediaList": { "tracksLabel": "Trek", "remove": "Menghapus" },
+  "tutorialPage": { "done": "Selesai", "skip": "Melewatkan" },
+  "loginModal": { "login": "Gabung" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Indonesia", "whatsapp": "Ada apa" },
+  "downloadModal": { "downloading": "Mendownload", "complete": "Unduh selesai" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Jelajahi Alkitab",
+      "subtitle1": "Jelajahi seluruh isi Alkitab bersama kami, atau mulailah perjalanan Anda sendiri.",
+      "title2": "Dengarkan & Libatkan",
+      "subtitle2": "Pemutar media memungkinkan Anda menyelami konten ALKITAB dengan mudah.",
+      "title3": "Temukan Ajaran",
+      "subtitle3": "Terlibat dalam Alkitab tidak seperti sebelumnya dengan mereferensikan konten Alkitab & Pengajaran.",
+      "title4": "Diskusikan Alkitab",
+      "subtitle4": "Bergabunglah dengan kelompok untuk mempelajari THRU ajaran dan topik ALKITAB bersama orang lain.",
+      "title5": "Unduh & Bagikan",
+      "subtitle5": "Nikmati mendengarkan Firman Tuhan saat bepergian dan berbagi dengan teman-teman Anda.",
+      "title6": "Simpan & Buat",
+      "subtitle6": "Simpan ajaran dan ayat Alkitab favorit Anda atau buat daftar putar khusus.",
+      "title7": "Devosi Kelompok",
+      "subtitle7": "Didorong dan terinspirasi oleh orang lain dengan kebaktian kelompok harian."
+    },
+    "registerPage": {
+      "noThanks": "Tidak, terima kasih",
+      "haveAccount": "Punya akun?",
+      "createAccount": "Buat Akun Saya",
+      "title1": "Diskusikan dengan Orang Lain",
+      "subtitle1": "Diskusikan topik favorit Anda dan ayat Alkitab dengan orang lain.",
+      "title2": "Simpan dan Sinkronkan Daftar Putar",
+      "subtitle2": "Buat daftar konten favorit Anda di satu tempat.",
+      "title3": "Lihat Favorit Anda",
+      "subtitle3": "Simpan dan kembali dan kunjungi favorit Anda di lain waktu.",
+      "title4": "Selamat datang kembali",
+      "subtitle4": "Buat akun dan dapatkan akses ke semua fitur kami."
+    }
+  },
+  "app": {
+    "close": "Menutup",
+    "accept": "Menerima",
+    "reject": "Menolak",
+    "constructionInProgress": "KONSTRUKSI DALAM PROGRESS",
+    "downloadComplete": "Unduh selesai",
+    "downloading": "Mendownload",
+    "downloadFailed": "Download Gagal",
+    "sendAFile": "Seseorang Ingin Mengirimi Anda File"
+  },
+  "transferring": { "tryAgain": "coba lagi", "close": "Menutup" },
+  "checkDevice": {
+    "check": "Periksa Perangkat Anda",
+    "makeSure": "Harap pastikan Wifi-Direct diaktifkan di perangkat teman Anda dan berada dalam jangkauan.",
+    "continue": "Terus"
+  },
+  "connectToDevice": { "connect": "Hubungkan ke Perangkat" },
+  "pairing": {
+    "connect": "Hubungkan ke Perangkat",
+    "pairing": "Menyandingkan",
+    "success": "Berhasil Dipasangkan",
+    "failed": "Pemasangan Perangkat Gagal",
+    "makeSure": "Harap pastikan (Wifi-Direct) diaktifkan di perangkat teman Anda dan berada dalam jangkauan.",
+    "continue": "Terus",
+    "tryAgain": "Coba lagi"
+  },
+  "selectNetworkType": {
+    "connect": "Hubungkan ke perangkat",
+    "share": "Bagikan dengan Wifi Direct",
+    "send": "Kirim file melalui wifi langsung?",
+    "continue": "Terus"
+  }
+}

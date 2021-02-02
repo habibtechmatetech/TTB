@@ -1,0 +1,398 @@
+{
+  "selectLanguage": { "heading": "ඔබගේ වර්තමාන භාෂාව තෝරන්න", "mainAction": "භාෂාව තෝරන්න" },
+  "menu": {
+    "anonymousTitle": "ඔබේ ගිණුම",
+    "anonymousAction": "ඇතුල් වන්න",
+    "editProfileAction": "පැතිකඩ සංස්කරණය කරන්න",
+    "verifyProfileAction": "පැතිකඩ සත්‍යාපනය කරන්න",
+    "bibleSection": "බයිබලය",
+    "teachingsSection": "ඉගැන්වීම්",
+    "librarySection": "මගේ පුස්තකාලය",
+    "groupsSection": "කණ්ඩායම්",
+    "donateSection": "පරිත්යාග කරන්න",
+    "settingsSection": "සැකසුම්",
+    "signOut": "වරන්න",
+    "modals": {
+      "verifyProfile": {
+        "title": "ඔබ සත්‍යාපනය කර නැත",
+        "message": "ඔබගේ ලැයිස්තු සමමුහුර්ත නොවන අතර ඔබට කණ්ඩායම් සෑදිය නොහැක. ලියාපදිංචිය සම්පූර්ණ කිරීම සඳහා කරුණාකර ඔබේ විද්‍යුත් ලිපිනය පරීක්ෂා කරන්න.",
+        "firstButton": "දිගටම කරගෙන යන්න",
+        "secondButton": "නව පැතිකඩක් ලියාපදිංචි කරන්න"
+      }
+    }
+  },
+  "signIn": {
+    "header": "පුරන්න",
+    "emailPlaceholder": "ඔබේ විද්යුත් තැපැල් ලිපිනය",
+    "passwordPlaceholder": "ඔබගේ මුරපදය",
+    "forgotAction": "මුරපදය අමතක වුණා ද?",
+    "callToAction": "පුරන්න",
+    "signInAlternatives": "හෝ පුරනය වීමෙන් භාවිතා කරන්න",
+    "noAccountAction": "ගිණුමක් නැද්ද? එකක් නිර්මාණය",
+    "notifications": {
+      "invalidCredentials": "අවලංගු අක්තපත්‍ර",
+      "inProgress": "පුරනය වීම දැනටමත් ක්‍රියාත්මකයි",
+      "notAvailable": "ක්‍රීඩා සේවා නොමැත"
+    }
+  },
+  "signUp": {
+    "header": "ගිණුම තනන්න",
+    "emailPlaceholder": "ඔබේ විද්යුත් තැපැල් ලිපිනය",
+    "passwordPlaceholder": "ඔබගේ මුරපදය",
+    "privateAction": "ගිණුම පුද්ගලික කරන්න",
+    "termsDisclaimer": {
+      "pre": "ලියාපදිංචි වීම ක්ලික් කිරීමෙන් ඔබ කියවා එකඟ වූ බව පෙන්නුම් කරයි",
+      "terms": "නියමයන්",
+      "post": "."
+    },
+    "callToAction": "ලියාපදිංචි වන්න",
+    "signUpAlternatives": "නැතහොත් ලියාපදිංචි වන්න",
+    "haveAnAccountAction": "ගිණුමක් තිබේද?",
+    "notifications": {
+      "invalidUsername": "පරිශීලක නාමයන් අක්ෂර සංඛ්‍යා 20 කට සීමා වේ (අංක සහ සාමාන්‍ය අකුරු)",
+      "invalidPassword": "මුරපදයට අවම වශයෙන් අක්ෂර 3 ක් වත් තිබිය යුතු අතර අවම වශයෙන් එක් අංකයක් හෝ විශේෂ අක්ෂරයක් සහිත ඉහළ සහ පහළ අකුරු වල එකතුවක් විය යුතුය"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "ගිණුමක් සෑදිය නොහැක",
+        "message": "මෙම විද්‍යුත් තැපැල් ලිපිනය දැනටමත් පවතී.",
+        "firstButton": "පුරන්න",
+        "secondButton": "වසන්න"
+      },
+      "privateAccount": {
+        "title": "පුද්ගලික ගිණුම",
+        "message": "ඔබගේ ගිණුම පුද්ගලික කර ගැනීමෙන්, ඔබ එය අන් අය විසින් සොයා ගැනීමෙන් සඟවයි.",
+        "firstButton": "පිළිගන්න",
+        "secondButton": "පරිහානිය"
+      },
+      "success": {
+        "title": "ගිණුම නිර්මාණය කරන ලදි!",
+        "message": "ඔබගේ ගිණුම සාර්ථකව නිර්මාණය කරන ලදි. ඔබගේ ගිණුම තහවුරු කර ඔබගේ පුරනය වීමට ඔබගේ එන ලිපි පරීක්ෂා කරන්න.",
+        "firstButton": "පුරන්න"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "මුරපදය යළි සකසන්න",
+    "emailPlaceholder": "ඔබේ විද්යුත් තැපැල් ලිපිනය",
+    "message": "ඔබගේ ගිණුම සඳහා මුරපදය නැවත සැකසීමට කරුණාකර ඔබේ විද්‍යුත් ලිපිනය ඇතුළත් කරන්න.",
+    "callToAction": "මුරපදය යළි සකසන්න",
+    "notifications": {
+      "success": "අපි ඔබගේ එන ලිපි වෙත විද්‍යුත් තැපෑලක් යවා ඇත",
+      "emailNotFoundError": "විද්‍යුත් තැපෑල හමු නොවීය",
+      "invalidEmailError": "අවලංගු විද්‍යුත් තැපැල් ආකෘතිය"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "සැකසුම අවසන් කරන්න",
+    "message": "ඔබ ඇතුළත් කළ ඊමේල් ලිපිනයට විද්‍යුත් තැපෑලක් යවා ඇත. ලියාපදිංචිය සම්පූර්ණ කිරීම සඳහා කරුණාකර විද්‍යුත් තැපැල් විස්තර බලන්න.",
+    "callToAction": "දැන් මඟ හරින්න"
+  },
+  "teachings": {
+    "dailyText": "අද විකාශනය",
+    "journeyTitle": "ඔබේ ගමන ආරම්භ කරන්න",
+    "journeySubtitle": "ආරම්භයේ සිට අවසානය දක්වා සියලුම ඉගැන්වීම්",
+    "journeyCardTitle": "215 සතිය පුරා බයිබලය හරහා ගමන් කිරීම",
+    "journeyCardSubtitle": "ඔබේ වේලාවට සවන් දෙන්න",
+    "tracksLabel": "පීලි"
+  },
+  "teaching": {
+    "header": "ඉගැන්වීම්",
+    "loading": "පූරණය වෙමින් ...",
+    "player": {
+      "audioSpeed": "ශ්‍රව්‍ය වේගය",
+      "loading": "පූරණය වෙමින් පවතී",
+      "castingError": "උපාංග නොමැත"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "දිගටම සවන් දීම", "secondButton": "ඔබේ ගමන ආරම්භ කරන්න" }
+    }
+  },
+  "journey": {
+    "byDate": "දිනය අනුව",
+    "bySeries": "මාලාව අනුව",
+    "sections": { "tracksLabel": "පීලි" }
+  },
+  "library": {
+    "header": "මගේ පුස්තකාලය",
+    "tabs": { "downloads": "බාගත කිරීම්", "favorites": "ප්රියතම", "playlists": "ධාවන ලැයිස්තු" }
+  },
+  "groups": {
+    "header": "කණ්ඩායම්",
+    "createGroup": {
+      "title": "නව කණ්ඩායමක් සාදන්න",
+      "groupNameLabel": "කණ්ඩායම් නම",
+      "groupNameInputPlaceHolder": "නම",
+      "descriptionLabel": "විස්තර",
+      "descriptionInputPlaceHolder": "විස්තරය එක් කරන්න",
+      "inviteLabel": "පරිශීලකයින්ට ආරාධනා කරන්න",
+      "inviteButton": "නව පරිශීලකයින්ට ආරාධනා කරන්න",
+      "button": "සමූහයක් සාදන්න",
+      "invalidGroupName": "වලංගු නමක් ඇතුළත් කරන්න",
+      "groupNameTooLong": "කණ්ඩායමේ නම අක්ෂර 25 කට වඩා අඩංගු නොවිය යුතුය"
+    },
+    "devotionNotStartAlert": "මෙම කණ්ඩායම සඳහා භක්තියක් ආරම්භ වී නොමැත",
+    "membersLabel": "සාමාජිකයින්",
+    "chatModalMemberSubtitleLabel": "සාමාජික",
+    "chatModalMembersSubtitleLabel": "සාමාජිකයින්",
+    "chat": {
+      "listeningToLabel": "සවන් දීම",
+      "loadingTrackLabel": "ධාවන පථය පූරණය වේ ...",
+      "inputPlaceHolder": "පණිවිඩය ලියන්න",
+      "deletePost": "තනතුර මකන්න",
+      "deleteMessage": "පණිවිඩයක් මකා දමා ඇත"
+    },
+    "groupSettings": {
+      "participantsSection": "සහභාගිවන්නන්",
+      "viewAll": "සියල්ල බලන්න",
+      "invite": "නව පරිශීලකයින්ට ආරාධනා කරන්න",
+      "endDevotion": "කණ්ඩායම් භක්තිය අවසන් කරන්න",
+      "deleteGroup": "කණ්ඩායම මකන්න",
+      "leaveGroup": "කණ්ඩායමෙන් ඉවත් වන්න"
+    },
+    "userDirectory": {
+      "header": "පරිශීලක නාමාවලිය",
+      "remove": "ඉවත් කරන්න",
+      "anonymous": "නිර්නාමික",
+      "send": "යවන්න"
+    },
+    "inviteUser": { "placeHolder": "සෙවීම", "send": "යවන්න" }
+  },
+  "chat": {
+    "header": "කණ්ඩායම් නාලිකාව",
+    "settings": {
+      "header": "කණ්ඩායම් සැකසුම්",
+      "endDevotion": {
+        "alertTitle": "භක්තිය අවසන් කරන්න",
+        "alertMessage": "මෙම භක්තිය අවසන් කිරීමට ඔබට අවශ්‍ය යැයි ඔබට විශ්වාසද?",
+        "alertCancel": "අවලංගු කරන්න",
+        "alertConfirm": "ඔව්",
+        "endDevotionLabel": "මේ භක්තිය අවසන් කළා.",
+        "hasEnded": "මෙම භක්තිය අවසන් වී ඇත"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "භක්තිය ආරම්භ කරන්න",
+    "alertMessage": "% {Name} කණ්ඩායම සමඟ භක්තිය ආරම්භ කිරීමට ඔබට අවශ්‍යද?",
+    "alertCancel": "අවලංගු කරන්න",
+    "alertConfirm": "ඔව්",
+    "devotionStartedLabel": "භක්තියක් ආරම්භ කර ඇත."
+  },
+  "settings": {
+    "header": "සැකසුම්",
+    "tabs": { "profile": "පැතිකඩ", "media": "මාධ්ය", "notifications": "දැනුම්දීම්" },
+    "profile": {
+      "account": "ගිණුම",
+      "username": "පරිශීලක නාමය",
+      "email": "විද්යුත් තැපෑල",
+      "editButton": "සංස්කරණය කරන්න",
+      "edit": {
+        "save": "සුරකින්න",
+        "username": {
+          "header": "පරිශීලක නාමය",
+          "successAlert": "ඔබගේ වෙනස සුරකින ලදි.",
+          "failedAlert": "වෙනස සුරැකීමට අපොහොසත් විය."
+        },
+        "email": {
+          "header": "විද්යුත් තැපෑල",
+          "successAlert": "ඔබගේ වෙනස සුරකින ලදි.",
+          "failedAlert": "වෙනස සුරැකීමට අපොහොසත් විය."
+        }
+      },
+      "languages": "භාෂා",
+      "signIn": "පුරන්න",
+      "signOut": "ගිණුමෙන් ඉවත් වන්න",
+      "legal": "නීතිමය",
+      "termsConditions": "නියමයන් සහ කොන්දේසි",
+      "privacyPolicy": "රහස්යතා ප්රතිපත්තිය",
+      "support": "සහාය",
+      "reportAProblem": "ගැටලුවක් වාර්තා කරන්න",
+      "tutorial": "නිබන්ධනය",
+      "reportBug": {
+        "header": "ගැටලුවක් වාර්තා කරන්න",
+        "send": "යවන්න",
+        "subject": "විෂය",
+        "subjectPlaceHolder": "විෂය",
+        "description": "විස්තර",
+        "descriptionPlaceHolder": "විස්තර",
+        "successAlert": "ස්තූතියි, ඔබගේ පණිවිඩය අපට ලැබී ඇත.",
+        "failedAlert": "පණිවිඩය යැවීමට අපොහොසත් විය."
+      },
+      "version": "පිටපත"
+    },
+    "media": {
+      "audio": "ශ්රව්ය උපකරණ",
+      "autoplay": "ස්වයංක්‍රීයව ශ්‍රව්‍ය",
+      "storage": "ගබඞා",
+      "downloadWifi": "Wi-Fi මත පමණක් බාගන්න",
+      "deleteCache": "හැඹිලිය මකන්න"
+    },
+    "notifications": {
+      "notifications": "දැනුම්දීම්",
+      "groupInvitation": "කණ්ඩායම් ආරාධනය",
+      "devotions": "භක්තියට ආරාධනා කරන්න",
+      "file": "ගොනු හුවමාරු තහවුරු කිරීම"
+    }
+  },
+  "inviteUsers": { "header": "පරිශීලකයින්ට ආරාධනා කරන්න" },
+  "playlist": {
+    "header": "ධාවන ලැයිස්තුව",
+    "audioFileLabel": "ශ්‍රව්‍ය ගොනුව",
+    "audioFilesLabel": "ශ්රව්ය ලිපිගොනු"
+  },
+  "collection": { "header": "එකතු", "audioFilesLabel": "ශ්රව්ය ලිපිගොනු" },
+  "modal": {
+    "close": "වසන්න",
+    "addToPlaylist": { "title": "ධාවන ලැයිස්තුවට එක් කරන්න", "button": "ධාවන ලැයිස්තුවක් සාදන්න" },
+    "startDevotion": { "title": "භක්තිය ආරම්භ කරන්න" },
+    "createPlaylist": {
+      "title": "නව ධාවන ලැයිස්තුවක් සාදන්න",
+      "button": "ධාවන ලැයිස්තුවක් සාදන්න",
+      "inputPlaceholder": "ධාවන ලැයිස්තුවේ නම ඇතුළත් කරන්න",
+      "success": "ධාවන ලැයිස්තුවට එකතු කරන ලදි"
+    },
+    "login": "භක්තියක් ආරම්භ කිරීම සඳහා ඔබ පුරනය විය යුතුය"
+  },
+  "options": {
+    "shared": {
+      "share": "බෙදාගන්න",
+      "report": "අන්තර්ගතය වාර්තා කරන්න",
+      "shareOthers": "අන් අය සමඟ බෙදා ගන්න",
+      "copy": "සබැඳිය පිටපත් කරන්න",
+      "more": "වැඩි"
+    },
+    "audio": {
+      "download": "බාගත",
+      "addFavorite": "ප්‍රියතමයන්ට එකතු කරන්න",
+      "addPlaylist": "ධාවන ලැයිස්තුවට එක් කරන්න",
+      "removeFavorite": "ප්‍රියතමයන්ගෙන් ඉවත් කරන්න",
+      "removePlaylist": "ධාවන ලැයිස්තුවෙන් ඉවත් කරන්න",
+      "removeDownload": "බාගැනීම් වලින් ඉවත් කරන්න"
+    },
+    "playlist": { "edit": "සංස්කරණය කරන්න", "delete": "ධාවන ලැයිස්තුව මකන්න" },
+    "startDevotion": "භක්තිය ආරම්භ කරන්න"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "ධාවන ලැයිස්තුවට එකතු කරන ලදි",
+      "delete": "ධාවන ලැයිස්තුවෙන් ඉවත් කරන ලදි",
+      "create": "ධාවන ලැයිස්තුවක් නිර්මාණය කරන ලදි",
+      "destroy": "මකා දැමූ ධාවන ලැයිස්තුව"
+    },
+    "favorites": { "add": "ප්‍රියතමයන් වෙත එකතු කරන ලදි", "remove": "ප්‍රියතමයන්ගෙන් ඉවත් කර ඇත" },
+    "downloads": { "remove": "බාගැනීම් වලින් ඉවත් කරන ලදි" }
+  },
+  "buttons": { "loop": "ලූප්", "shuffle": "මාරු කරන්න" },
+  "uiControls": {
+    "searchBox": { "placeholder": "සෙවීම..." },
+    "notification": { "success": "සාර්ථකත්වය! ඔබගේ ගිණුමට විද්‍යුත් තැපෑලක් යවනු ලැබේ." },
+    "button": { "sending": "යවනවා ..." },
+    "modalSelector": { "cancel": "අවලංගු කරන්න" },
+    "loading": "පූරණය වෙමින් පවතී"
+  },
+  "bible": {
+    "header": "බයිබලය",
+    "oldTestament": "පැරණි ගිවිසුම",
+    "newTestament": "අලුත් ගිවිසුම",
+    "popularBooks": "ජනප්‍රිය පොත්"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "සෙවීම",
+    "cancelButton": "අවලංගු කරන්න",
+    "searchResults": "සෙවුම් ප්‍රති .ල",
+    "filterButton": "පෙරහන",
+    "teachings": { "title": "ඉගැන්වීම්" },
+    "bible": { "title": "බයිබලය" }
+  },
+  "addToPlaylistsModal": {
+    "title": "ධාවන ලැයිස්තුවට එක් කරන්න",
+    "button": "ධාවන ලැයිස්තුවක් සාදන්න"
+  },
+  "createPlaylistModal": {
+    "title": "නව ධාවන ලැයිස්තුවක් සාදන්න",
+    "button": "ධාවන ලැයිස්තුවක් සාදන්න",
+    "inputPlaceholder": "ධාවන ලැයිස්තුවේ නම ඇතුළත් කරන්න"
+  },
+  "alert": {
+    "playlists": {
+      "add": "ධාවන ලැයිස්තුවට එකතු කරන ලදි",
+      "remove": "ධාවන ලැයිස්තුවෙන් ඉවත් කරන ලදි",
+      "create": "ධාවන ලැයිස්තුවක් නිර්මාණය කරන ලදි",
+      "delete": "මකා දැමූ ධාවන ලැයිස්තුව"
+    },
+    "favorites": { "add": "ප්‍රියතමයන් වෙත එකතු කරන ලදි", "remove": "ප්‍රියතමයන්ගෙන් ඉවත් කර ඇත" },
+    "downloads": { "remove": "බාගැනීම් වලින් ඉවත් කරන ලදි" },
+    "facebook": { "loginError": "පුරනය වීම වැරදීමකින් අසමත් වේ" },
+    "google": { "loginError": "පුරනය වීම වැරදීමකින් අසමත් වේ" }
+  },
+  "playlists": { "trackLabel": "ලුහුබඳින්න", "tracksLabel": "පීලි" },
+  "mediaList": { "tracksLabel": "පීලි", "remove": "ඉවත් කරන්න" },
+  "tutorialPage": { "done": "සිදු විය", "skip": "මඟ හරින්න" },
+  "loginModal": { "login": "ඇතුල් වන්න" },
+  "shareModal": { "facebook": "ෆේස්බුක්", "twitter": "ට්විටර්", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "බාගත කිරීම", "complete": "බාගත කිරීම සම්පූර්ණයි" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "බයිබලය ගවේෂණය කරන්න",
+      "subtitle1": "මුළු බයිබලයම අප සමඟ ගමන් කරන්න, නැතහොත් ඔබේම ගමනක් ආරම්භ කරන්න.",
+      "title2": "සවන් දී නිරත වන්න",
+      "subtitle2": "THRU බයිබල් අන්තර්ගතයට පහසුවෙන් කිමිදීමට මාධ්‍ය වාදකය ඔබට ඉඩ දෙයි.",
+      "title3": "ඉගැන්වීම් සොයා ගන්න",
+      "subtitle3": "වෙන කවරදාකටත් වඩා බයිබලයෙහි හරස් යොමු කිරීම සහ අන්තර්ගතය ඉගැන්වීමෙහි යෙදෙන්න.",
+      "title4": "බයිබලය සාකච්ඡා කරන්න",
+      "subtitle4": "THRU බයිබල් ඉගැන්වීම් සහ මාතෘකා අන් අය සමඟ අධ්‍යයනය කිරීමට කණ්ඩායමකට සම්බන්ධ වන්න.",
+      "title5": "බාගත කර බෙදාගන්න",
+      "subtitle5": "යන අතරමගදී දේවවචනයට ඇහුම්කන් දී එය ඔබේ මිතුරන් සමඟ බෙදා ගන්න.",
+      "title6": "සුරකින්න සහ සාදන්න",
+      "subtitle6": "ඔබගේ ප්‍රියතම ඉගැන්වීම් සහ බයිබල් පද සුරකින්න හෝ අභිරුචි ධාවන ලැයිස්තුවක් සාදන්න.",
+      "title7": "කණ්ඩායම් භක්තිය",
+      "subtitle7": "දෛනික කණ්ඩායම් භක්තියෙන් අන් අයගෙන් ධෛර්යමත් වන්න."
+    },
+    "registerPage": {
+      "noThanks": "නැ ස්තුතියි",
+      "haveAccount": "ගිණුමක් තිබේද?",
+      "createAccount": "මගේ ගිණුම සකස් කරන්න",
+      "title1": "අන් අය සමඟ සාකච්ඡා කරන්න",
+      "subtitle1": "ඔබගේ ප්‍රියතම මාතෘකා සහ බයිබල් පද අන් අය සමඟ සාකච්ඡා කරන්න.",
+      "title2": "ධාවන ලැයිස්තු ගබඩා කර සමමුහුර්ත කරන්න",
+      "subtitle2": "ඔබගේ ප්‍රියතම අන්තර්ගතයේ ලැයිස්තු එක තැනක සාදන්න.",
+      "title3": "ඔබේ ප්‍රියතමයන් බලන්න",
+      "subtitle3": "ගබඩා කර නැවත පැමිණ පසු කාලයකදී ඔබේ ප්‍රියතමයන් බලන්න.",
+      "title4": "ආපසු සාදරයෙන් පිළිගනිමු",
+      "subtitle4": "ගිණුමක් සාදන්න සහ අපගේ සියලුම අංග වෙත ප්‍රවේශය ලබා ගන්න."
+    }
+  },
+  "app": {
+    "close": "වසන්න",
+    "accept": "පිළිගන්න",
+    "reject": "ප්‍රතික්ෂේප කරන්න",
+    "constructionInProgress": "ප්‍රගතියේ ඉදිකිරීම්",
+    "downloadComplete": "බාගත කිරීම සම්පූර්ණයි",
+    "downloading": "බාගත කිරීම",
+    "downloadFailed": "බාගත කිරීම අසමත් විය",
+    "sendAFile": "කවුරුහරි ඔබට ගොනුවක් එවීමට අවශ්‍යයි"
+  },
+  "transferring": { "tryAgain": "නැවත උත්සහා කරන්න", "close": "වසන්න" },
+  "checkDevice": {
+    "check": "ඔබගේ උපාංගය පරීක්ෂා කරන්න",
+    "makeSure": "කරුණාකර ඔබගේ මිතුරාගේ උපාංගය වයිෆයි-ඩිරෙක්ට් සක්‍රිය කර ඇති බවත් එය පරාසයේ ඇති බවත් තහවුරු කරගන්න.",
+    "continue": "දිගටම කරගෙන යන්න"
+  },
+  "connectToDevice": { "connect": "උපාංගයකට සම්බන්ධ වන්න" },
+  "pairing": {
+    "connect": "උපාංගයකට සම්බන්ධ වන්න",
+    "pairing": "යුගල කිරීම",
+    "success": "සාර්ථකව යුගලනය",
+    "failed": "උපාංග යුගල කිරීම අසාර්ථක විය",
+    "makeSure": "කරුණාකර (වයිෆයි-ඩිරෙක්ට්) ඔබේ මිතුරාගේ උපාංගය සක්‍රිය කර ඇති අතර එය පරාසයේ පවතින බවට වග බලා ගන්න.",
+    "continue": "දිගටම කරගෙන යන්න",
+    "tryAgain": "නැවත උත්සහා කරන්න"
+  },
+  "selectNetworkType": {
+    "connect": "උපාංගයකට සම්බන්ධ වන්න",
+    "share": "වයිෆයි ඩිරෙක්ට් සමඟ බෙදා ගන්න",
+    "send": "සෘජුවම වයිෆයි හරහා ගොනුව යවන්නද?",
+    "continue": "දිගටම කරගෙන යන්න"
+  }
+}

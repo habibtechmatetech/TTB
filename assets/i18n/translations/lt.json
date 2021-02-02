@@ -1,0 +1,399 @@
+{
+  "selectLanguage": { "heading": "Pasirinkite dabartinę kalbą", "mainAction": "Pasirinkite kalbą" },
+  "menu": {
+    "anonymousTitle": "Jūsų sąskaita",
+    "anonymousAction": "Prisijungti",
+    "editProfileAction": "Redaguoti profilį",
+    "verifyProfileAction": "Patvirtinti profilį",
+    "bibleSection": "Biblija",
+    "teachingsSection": "Mokymai",
+    "librarySection": "Mano biblioteka",
+    "groupsSection": "Grupės",
+    "donateSection": "Paaukokite",
+    "settingsSection": "Nustatymai",
+    "signOut": "Atsijungti",
+    "modals": {
+      "verifyProfile": {
+        "title": "Jūs nepatvirtintas",
+        "message": "Jūsų sąrašai nebus sinchronizuojami ir negalite kurti grupių. Norėdami užbaigti registraciją, patikrinkite savo el. Paštą.",
+        "firstButton": "Tęsti",
+        "secondButton": "Užregistruokite naują profilį"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Prisijungti",
+    "emailPlaceholder": "Tavo elektroninis paštas",
+    "passwordPlaceholder": "Jūsų slaptažodis",
+    "forgotAction": "Pamiršote slaptažodį?",
+    "callToAction": "Prisijungti",
+    "signInAlternatives": "Arba Prisijunkite naudodami",
+    "noAccountAction": "Nėra paskyros? Sukurk viena",
+    "notifications": {
+      "invalidCredentials": "Neteisingi prisijungimo duomenys",
+      "inProgress": "Prisijungti jau vykdoma",
+      "notAvailable": "„Play“ paslaugos nepasiekiamos"
+    }
+  },
+  "signUp": {
+    "header": "Sukurti paskyrą",
+    "emailPlaceholder": "Tavo elektroninis paštas",
+    "passwordPlaceholder": "Jūsų slaptažodis",
+    "privateAction": "Padarykite paskyrą privačia",
+    "termsDisclaimer": {
+      "pre": "Spustelėdami Registracija nurodote, kad perskaitėte ir sutinkate",
+      "terms": "sąlygos",
+      "post": "."
+    },
+    "callToAction": "Registruotis",
+    "signUpAlternatives": "Arba prisiregistruokite naudodami",
+    "haveAnAccountAction": "Ar turite sąskaitą?",
+    "notifications": {
+      "invalidUsername": "Vartotojų varduose gali būti ne daugiau kaip 20 raidinių ir skaitinių simbolių (skaičiai ir paprastosios raidės)",
+      "invalidPassword": "Slaptažodis turi būti sudarytas iš mažiausiai 3 simbolių ir sudarytas iš didžiųjų ir mažųjų raidžių kartu su bent vienu skaičiumi arba specialiuoju simboliu"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Nepavyko sukurti paskyros",
+        "message": "Šis el. Pašto adresas jau yra.",
+        "firstButton": "Prisijungti",
+        "secondButton": "Uždaryti"
+      },
+      "privateAccount": {
+        "title": "Privati ​​sąskaita",
+        "message": "Padarydami savo paskyrą privačią, slepiate ją nuo kitų.",
+        "firstButton": "Priimti",
+        "secondButton": "Atmesti"
+      },
+      "success": {
+        "title": "Paskyra sukurta!",
+        "message": "Jūsų paskyra sėkmingai sukurta. Patikrinkite gautuosius, kad patvirtintumėte savo paskyrą ir prisijungtumėte.",
+        "firstButton": "Prisijungti"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Atstatyti slaptažodį",
+    "emailPlaceholder": "Tavo elektroninis paštas",
+    "message": "Įveskite savo el. Pašto adresą, kad iš naujo nustatytumėte savo paskyros slaptažodį.",
+    "callToAction": "Atstatyti slaptažodį",
+    "notifications": {
+      "success": "Ką tik išsiuntėme el. Laišką į jūsų gautuosius",
+      "emailNotFoundError": "El. Pašto adresas nerastas",
+      "invalidEmailError": "Neteisingas el. Pašto formatas"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Baigti sąranką",
+    "message": "El. Laiškas išsiųstas jūsų įvestu el. Pašto adresu. Norėdami užbaigti registraciją, žiūrėkite el. Pašto adresą.",
+    "callToAction": "Kol kas praleisti"
+  },
+  "teachings": {
+    "dailyText": "Šiandienos transliacija",
+    "journeyTitle": "Pradėk savo kelionę",
+    "journeySubtitle": "Visi mokymai nuo pradžios iki pabaigos",
+    "journeyCardTitle": "215 savaitės kelionė per Bibliją",
+    "journeyCardSubtitle": "Klausykitės savo laiko",
+    "tracksLabel": "Takeliai"
+  },
+  "teaching": {
+    "header": "Mokymai",
+    "loading": "Įkeliama ...",
+    "player": {
+      "audioSpeed": "Garso greitis",
+      "loading": "Įkeliama",
+      "castingError": "Nėra jokių prietaisų"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Tęskite klausymą", "secondButton": "Pradėkite savo kelionę" }
+    }
+  },
+  "journey": {
+    "byDate": "Pagal datą",
+    "bySeries": "Pagal seriją",
+    "sections": { "tracksLabel": "Takeliai" }
+  },
+  "library": {
+    "header": "Mano biblioteka",
+    "tabs": {
+      "downloads": "Atsisiuntimai",
+      "favorites": "Mėgstamiausi",
+      "playlists": "Grojaraščiai"
+    }
+  },
+  "groups": {
+    "header": "Grupės",
+    "createGroup": {
+      "title": "Sukurti naują grupę",
+      "groupNameLabel": "GRUPĖS PAVADINIMAS",
+      "groupNameInputPlaceHolder": "vardas",
+      "descriptionLabel": "APIBŪDINIMAS",
+      "descriptionInputPlaceHolder": "Pridėti aprašą",
+      "inviteLabel": "Kviesti vartotojus",
+      "inviteButton": "Pakvieskite naujus vartotojus",
+      "button": "Sukurti grupę",
+      "invalidGroupName": "Įveskite teisingą vardą",
+      "groupNameTooLong": "Grupės pavadinime negali būti daugiau nei 25 simboliai"
+    },
+    "devotionNotStartAlert": "Šiai grupei atsidavimas neprasidėjo",
+    "membersLabel": "Nariai",
+    "chatModalMemberSubtitleLabel": "narys",
+    "chatModalMembersSubtitleLabel": "nariai",
+    "chat": {
+      "listeningToLabel": "Klausausi",
+      "loadingTrackLabel": "Įkeliama trasa ...",
+      "inputPlaceHolder": "Rašyti žinutę",
+      "deletePost": "Ištrinti įrašą",
+      "deleteMessage": "ištrynė pranešimą"
+    },
+    "groupSettings": {
+      "participantsSection": "Dalyviai",
+      "viewAll": "Peržiūrėti visus",
+      "invite": "Pakvieskite naujus vartotojus",
+      "endDevotion": "Baigti grupės atsidavimą",
+      "deleteGroup": "Ištrinti grupę",
+      "leaveGroup": "Palikti grupę"
+    },
+    "userDirectory": {
+      "header": "Vartotojų katalogas",
+      "remove": "Pašalinti",
+      "anonymous": "Anoniminis",
+      "send": "Siųsti"
+    },
+    "inviteUser": { "placeHolder": "Paieška", "send": "Siųsti" }
+  },
+  "chat": {
+    "header": "Grupės kanalas",
+    "settings": {
+      "header": "Grupės nustatymai",
+      "endDevotion": {
+        "alertTitle": "Pabaigos atsidavimas",
+        "alertMessage": "Ar tikrai norite nutraukti šį atsidavimą?",
+        "alertCancel": "Atšaukti",
+        "alertConfirm": "Taip",
+        "endDevotionLabel": "nutraukė šį atsidavimą.",
+        "hasEnded": "Šis atsidavimas baigėsi"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Pradėkite atsidavimą",
+    "alertMessage": "Ar tikrai norite pradėti atsidavimą su% {name} grupe?",
+    "alertCancel": "Atšaukti",
+    "alertConfirm": "Taip",
+    "devotionStartedLabel": "pradėjo atsidavimą."
+  },
+  "settings": {
+    "header": "Nustatymai",
+    "tabs": { "profile": "Profilis", "media": "Žiniasklaida", "notifications": "Pranešimai" },
+    "profile": {
+      "account": "Sąskaita",
+      "username": "Vartotojo vardas",
+      "email": "Elektroniniu paštu",
+      "editButton": "Redaguoti",
+      "edit": {
+        "save": "Sutaupyti",
+        "username": {
+          "header": "Vartotojo vardas",
+          "successAlert": "Jūsų pakeitimas išsaugotas.",
+          "failedAlert": "Nepavyko išsaugoti pakeitimo."
+        },
+        "email": {
+          "header": "El",
+          "successAlert": "Jūsų pakeitimas išsaugotas.",
+          "failedAlert": "Nepavyko išsaugoti pakeitimo."
+        }
+      },
+      "languages": "Kalbos",
+      "signIn": "Prisijungti",
+      "signOut": "Atsijungti nuo paskyros",
+      "legal": "Teisėta",
+      "termsConditions": "Sąlygos ir nuostatos",
+      "privacyPolicy": "Privatumo politika",
+      "support": "Parama",
+      "reportAProblem": "Pranešti apie problemą",
+      "tutorial": "Pamoka",
+      "reportBug": {
+        "header": "Pranešti apie problemą",
+        "send": "Siųsti",
+        "subject": "DALYKAS",
+        "subjectPlaceHolder": "Tema",
+        "description": "APIBŪDINIMAS",
+        "descriptionPlaceHolder": "apibūdinimas",
+        "successAlert": "Ačiū, mes gavome jūsų pranešimą.",
+        "failedAlert": "Nepavyko išsiųsti pranešimo."
+      },
+      "version": "Versija"
+    },
+    "media": {
+      "audio": "Garsas",
+      "autoplay": "Automatinis garso atkūrimas",
+      "storage": "Sandėliavimas",
+      "downloadWifi": "Atsisiųsti tik „Wi-Fi“",
+      "deleteCache": "Ištrinti talpyklą"
+    },
+    "notifications": {
+      "notifications": "Pranešimai",
+      "groupInvitation": "Grupinis kvietimas",
+      "devotions": "Kviesti į pamaldas",
+      "file": "Failo perkėlimo patvirtinimas"
+    }
+  },
+  "inviteUsers": { "header": "Kviesti vartotojus" },
+  "playlist": {
+    "header": "Grojaraštis",
+    "audioFileLabel": "Garso failas",
+    "audioFilesLabel": "Garso failai"
+  },
+  "collection": { "header": "Kolekcija", "audioFilesLabel": "Garso failai" },
+  "modal": {
+    "close": "Uždaryti",
+    "addToPlaylist": { "title": "Pridėti į grojaraštį", "button": "Sukurti grojaraštį" },
+    "startDevotion": { "title": "Pradėkite atsidavimą" },
+    "createPlaylist": {
+      "title": "Sukurti naują grojaraštį",
+      "button": "Sukurti grojaraštį",
+      "inputPlaceholder": "Įveskite grojaraščio pavadinimą",
+      "success": "Pridėta prie grojaraščio"
+    },
+    "login": "Norėdami pradėti atsidavimą, turite prisijungti"
+  },
+  "options": {
+    "shared": {
+      "share": "Dalintis",
+      "report": "Pranešti apie turinį",
+      "shareOthers": "Dalinkitės su kitais",
+      "copy": "Nukopijuoti nuorodą",
+      "more": "Daugiau"
+    },
+    "audio": {
+      "download": "parsisiųsti",
+      "addFavorite": "Įtraukti į adresyną",
+      "addPlaylist": "Pridėti į grojaraštį",
+      "removeFavorite": "Pašalinti iš parankinių",
+      "removePlaylist": "Pašalinti iš grojaraščio",
+      "removeDownload": "Pašalinti iš atsisiuntimų"
+    },
+    "playlist": { "edit": "Redaguoti", "delete": "Ištrinti grojaraštį" },
+    "startDevotion": "Pradėkite atsidavimą"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Pridėta prie grojaraščio",
+      "delete": "Pašalinta iš grojaraščio",
+      "create": "Sukurtas grojaraštis",
+      "destroy": "Ištrintas grojaraštis"
+    },
+    "favorites": { "add": "Pridėta prie mėgstamiausių", "remove": "Pašalinta iš parankinių" },
+    "downloads": { "remove": "Pašalinta iš atsisiuntimų" }
+  },
+  "buttons": { "loop": "Kilpa", "shuffle": "Maišyti" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Paieška..." },
+    "notification": { "success": "Sėkmė! El. Laiškas bus išsiųstas į jūsų sąskaitą." },
+    "button": { "sending": "Siunčiama ..." },
+    "modalSelector": { "cancel": "Atšaukti" },
+    "loading": "Įkeliama"
+  },
+  "bible": {
+    "header": "Biblija",
+    "oldTestament": "Senas testamentas",
+    "newTestament": "Naujasis Testamentas",
+    "popularBooks": "Populiarios knygos"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Paieška",
+    "cancelButton": "ATŠAUKTI",
+    "searchResults": "Paieškos rezultatai",
+    "filterButton": "Filtras",
+    "teachings": { "title": "Mokymai" },
+    "bible": { "title": "Biblija" }
+  },
+  "addToPlaylistsModal": { "title": "Pridėti į grojaraštį", "button": "Sukurti grojaraštį" },
+  "createPlaylistModal": {
+    "title": "Sukurti naują grojaraštį",
+    "button": "Sukurti grojaraštį",
+    "inputPlaceholder": "Įveskite grojaraščio pavadinimą"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Pridėta prie grojaraščio",
+      "remove": "Pašalinta iš grojaraščio",
+      "create": "Sukurtas grojaraštis",
+      "delete": "Ištrintas grojaraštis"
+    },
+    "favorites": { "add": "Pridėta prie mėgstamiausių", "remove": "Pašalinta iš parankinių" },
+    "downloads": { "remove": "Pašalinta iš atsisiuntimų" },
+    "facebook": { "loginError": "Nepavyko prisijungti per klaidą" },
+    "google": { "loginError": "Nepavyko prisijungti per klaidą" }
+  },
+  "playlists": { "trackLabel": "Trasa", "tracksLabel": "Takeliai" },
+  "mediaList": { "tracksLabel": "Takeliai", "remove": "Pašalinti" },
+  "tutorialPage": { "done": "padaryta", "skip": "Praleisti" },
+  "loginModal": { "login": "Prisijungti" },
+  "shareModal": { "facebook": "Facebook", "twitter": "„Twitter“", "whatsapp": "„WhatsApp“" },
+  "downloadModal": { "downloading": "Atsisiunčiama", "complete": "Atsisiųsti baigta" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Tyrinėkite Bibliją",
+      "subtitle1": "Keliaukite kartu su mumis per visą Bibliją arba pradėkite savo kelionę.",
+      "title2": "Klausykite ir įtraukite",
+      "subtitle2": "Medijos leistuvas leidžia lengvai pasinerti į BIBLIJOS turinį.",
+      "title3": "Atraskite mokymus",
+      "subtitle3": "Įsitraukite į Bibliją kaip niekad anksčiau, pateikdami kryžminę nuorodą į Bibliją ir mokymo turinį.",
+      "title4": "Aptarkite Bibliją",
+      "subtitle4": "Prisijunkite prie grupės ir kartu su kitais studijuokite BIBLIJOS pamokymus ir temas.",
+      "title5": "Atsisiųsti ir dalintis",
+      "subtitle5": "Maloniai klausykitės Dievo žodžio keliaudami ir pasidalykite juo su draugais.",
+      "title6": "Išsaugoti ir kurti",
+      "subtitle6": "Išsaugokite mėgstamus mokymus ir Biblijos eilutes arba sukurkite pasirinktinį grojaraštį.",
+      "title7": "Grupiniai pamaldumai",
+      "subtitle7": "Būkite paskatinti ir įkvėpti kitų žmonių kasdienių pamaldų."
+    },
+    "registerPage": {
+      "noThanks": "Ne, ačiū",
+      "haveAccount": "Ar turite sąskaitą?",
+      "createAccount": "Sukurti mano paskyra",
+      "title1": "Aptarkite su kitais",
+      "subtitle1": "Aptarkite mėgstamas temas ir Biblijos eiles su kitais.",
+      "title2": "Laikykite ir sinchronizuokite grojaraščius",
+      "subtitle2": "Kurkite mėgstamiausio turinio sąrašus vienoje vietoje.",
+      "title3": "Pamatykite savo mėgstamiausius",
+      "subtitle3": "Saugokite ir grįžkite ir aplankykite savo mėgstamiausius vėliau.",
+      "title4": "Sveikas sugrįžęs",
+      "subtitle4": "Sukurkite paskyrą ir gaukite prieigą prie visų mūsų funkcijų."
+    }
+  },
+  "app": {
+    "close": "Uždaryti",
+    "accept": "Priimti",
+    "reject": "Atmesti",
+    "constructionInProgress": "STATYBA VYKSTA",
+    "downloadComplete": "Atsisiųsti baigta",
+    "downloading": "Atsisiunčiama",
+    "downloadFailed": "Atsisiuntimas nepavyko",
+    "sendAFile": "Kažkas nori išsiųsti jums failą"
+  },
+  "transferring": { "tryAgain": "Bandyk iš naujo", "close": "Uždaryti" },
+  "checkDevice": {
+    "check": "Patikrinkite savo įrenginį",
+    "makeSure": "Įsitikinkite, kad „Wifi-Direct“ įjungtas jūsų draugo įrenginyje ir ar jis yra diapazone.",
+    "continue": "Tęsti"
+  },
+  "connectToDevice": { "connect": "Prijunkite prie įrenginio" },
+  "pairing": {
+    "connect": "Prijunkite prie įrenginio",
+    "pairing": "Susiejimas",
+    "success": "Sėkmingai suporuotas",
+    "failed": "Nepavyko susieti įrenginio",
+    "makeSure": "Įsitikinkite, kad („Wifi-Direct“) įjungtas jūsų draugo įrenginys ir ar jis yra diapazone.",
+    "continue": "Tęsti",
+    "tryAgain": "Bandyk iš naujo"
+  },
+  "selectNetworkType": {
+    "connect": "Prijunkite prie įrenginio",
+    "share": "Bendrinkite su „Wifi Direct“",
+    "send": "Siųsti failą tiesiogiai per „wifi“?",
+    "continue": "Tęsti"
+  }
+}

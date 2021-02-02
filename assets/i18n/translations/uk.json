@@ -1,0 +1,405 @@
+{
+  "selectLanguage": { "heading": "Виберіть свою поточну мову", "mainAction": "Оберіть мову" },
+  "menu": {
+    "anonymousTitle": "Ваш рахунок",
+    "anonymousAction": "Увійти",
+    "editProfileAction": "Редагувати профіль",
+    "verifyProfileAction": "Підтвердити профіль",
+    "bibleSection": "Біблія",
+    "teachingsSection": "Вчення",
+    "librarySection": "Моя бібліотека",
+    "groupsSection": "Групи",
+    "donateSection": "Пожертвувати",
+    "settingsSection": "Налаштування",
+    "signOut": "Вийти з аккаунта",
+    "modals": {
+      "verifyProfile": {
+        "title": "Вас не підтвердили",
+        "message": "Ваші списки не будуть синхронізовані, і ви не можете створювати групи. Будь ласка, перевірте свою електронну адресу, щоб завершити реєстрацію.",
+        "firstButton": "Продовжуйте",
+        "secondButton": "Зареєструйте новий профіль"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Увійти",
+    "emailPlaceholder": "Твоя електронна пошта",
+    "passwordPlaceholder": "Ваш пароль",
+    "forgotAction": "Забули пароль?",
+    "callToAction": "Увійти",
+    "signInAlternatives": "Або Увійдіть за допомогою",
+    "noAccountAction": "Немає облікового запису? Створити",
+    "notifications": {
+      "invalidCredentials": "Недійсні облікові дані",
+      "inProgress": "Вхід вже триває",
+      "notAvailable": "Служби відтворення недоступні"
+    }
+  },
+  "signUp": {
+    "header": "Створити рахунок",
+    "emailPlaceholder": "Твоя електронна пошта",
+    "passwordPlaceholder": "Ваш пароль",
+    "privateAction": "Зробіть обліковий запис приватним",
+    "termsDisclaimer": {
+      "pre": "Натискаючи кнопку Реєстрація, ви вказуєте, що прочитали та погоджуєтесь",
+      "terms": "умови",
+      "post": "."
+    },
+    "callToAction": "Зареєструйтесь",
+    "signUpAlternatives": "Або Зареєструйтесь за допомогою",
+    "haveAnAccountAction": "Є рахунок?",
+    "notifications": {
+      "invalidUsername": "Імена користувачів обмежуються 20 буквено-цифровими символами (цифрами та звичайними літерами)",
+      "invalidPassword": "Пароль повинен мати щонайменше 3 символи та містити комбінацію великих та малих символів принаймні з одним номером або спеціальним символом"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Не вдається створити обліковий запис",
+        "message": "Ця електронна адреса вже існує.",
+        "firstButton": "Увійти",
+        "secondButton": "Закрити"
+      },
+      "privateAccount": {
+        "title": "Приватний рахунок",
+        "message": "Роблячи свій обліковий запис приватним, ви приховуєте його від відкриття іншими.",
+        "firstButton": "Прийняти",
+        "secondButton": "Занепад"
+      },
+      "success": {
+        "title": "Обліковий запис створено!",
+        "message": "Ваш рахунок успішно створено. Перевірте свою поштову скриньку, щоб підтвердити свій рахунок і увійти.",
+        "firstButton": "Увійти"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Скинути пароль",
+    "emailPlaceholder": "Твоя електронна пошта",
+    "message": "Введіть адресу електронної пошти, щоб скинути пароль для свого облікового запису.",
+    "callToAction": "Скинути пароль",
+    "notifications": {
+      "success": "Щойно ми надіслали електронне повідомлення на вашу поштову скриньку",
+      "emailNotFoundError": "Електронну адресу не знайдено",
+      "invalidEmailError": "Недійсний формат електронної пошти"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Завершіть налаштування",
+    "message": "На вказану вами електронну адресу надіслано електронне повідомлення. Будь ласка, перегляньте дані електронної пошти, щоб завершити реєстрацію.",
+    "callToAction": "Пропустити зараз"
+  },
+  "teachings": {
+    "dailyText": "Сьогоднішня трансляція",
+    "journeyTitle": "Почніть свою подорож",
+    "journeySubtitle": "Усі вчення від початку до кінця",
+    "journeyCardTitle": "215 тижнева подорож Біблією",
+    "journeyCardSubtitle": "Прислухайтеся до свого часу",
+    "tracksLabel": "Доріжки"
+  },
+  "teaching": {
+    "header": "Вчення",
+    "loading": "Завантаження ...",
+    "player": {
+      "audioSpeed": "Швидкість звуку",
+      "loading": "Завантаження",
+      "castingError": "Пристроїв немає"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Продовжуйте слухати", "secondButton": "Почніть свою подорож" }
+    }
+  },
+  "journey": {
+    "byDate": "За датою",
+    "bySeries": "За серіями",
+    "sections": { "tracksLabel": "Доріжки" }
+  },
+  "library": {
+    "header": "Моя бібліотека",
+    "tabs": {
+      "downloads": "Завантаження",
+      "favorites": "Вибране",
+      "playlists": "Списки відтворення"
+    }
+  },
+  "groups": {
+    "header": "Групи",
+    "createGroup": {
+      "title": "Створити нову групу",
+      "groupNameLabel": "НАЗВА ГРУПИ",
+      "groupNameInputPlaceHolder": "Ім'я",
+      "descriptionLabel": "ОПИС",
+      "descriptionInputPlaceHolder": "Додати опис",
+      "inviteLabel": "Запросити користувачів",
+      "inviteButton": "Запросіть нових користувачів",
+      "button": "Створити групу",
+      "invalidGroupName": "Введіть дійсне ім'я",
+      "groupNameTooLong": "Назва групи не повинна містити більше 25 символів"
+    },
+    "devotionNotStartAlert": "Відданість цій групі не розпочалась",
+    "membersLabel": "Учасники",
+    "chatModalMemberSubtitleLabel": "член",
+    "chatModalMembersSubtitleLabel": "членів",
+    "chat": {
+      "listeningToLabel": "Слухати",
+      "loadingTrackLabel": "Завантаження композиції ...",
+      "inputPlaceHolder": "Написати повідомлення",
+      "deletePost": "Видалити публікацію",
+      "deleteMessage": "видалив повідомлення"
+    },
+    "groupSettings": {
+      "participantsSection": "Учасники",
+      "viewAll": "Подивитись все",
+      "invite": "Запросіть нових користувачів",
+      "endDevotion": "Кінець відданості групі",
+      "deleteGroup": "Видалити групу",
+      "leaveGroup": "Покинути групу"
+    },
+    "userDirectory": {
+      "header": "Каталог користувачів",
+      "remove": "Видалити",
+      "anonymous": "Анонім",
+      "send": "Надіслати"
+    },
+    "inviteUser": { "placeHolder": "Пошук", "send": "Надіслати" }
+  },
+  "chat": {
+    "header": "Груповий канал",
+    "settings": {
+      "header": "Налаштування групи",
+      "endDevotion": {
+        "alertTitle": "Кінець відданості",
+        "alertMessage": "Ви впевнені, що хочете закінчити цю відданість?",
+        "alertCancel": "Скасувати",
+        "alertConfirm": "Так",
+        "endDevotionLabel": "закінчив цю відданість.",
+        "hasEnded": "Ця відданість закінчилася"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Почніть відданість",
+    "alertMessage": "Ви впевнені, що хочете розпочати відданість із групою% {name}?",
+    "alertCancel": "Скасувати",
+    "alertConfirm": "Так",
+    "devotionStartedLabel": "розпочав відданість."
+  },
+  "settings": {
+    "header": "Налаштування",
+    "tabs": { "profile": "Профіль", "media": "ЗМІ", "notifications": "Повідомлення" },
+    "profile": {
+      "account": "Рахунок",
+      "username": "Ім'я користувача",
+      "email": "Електронна пошта",
+      "editButton": "Редагувати",
+      "edit": {
+        "save": "Зберегти",
+        "username": {
+          "header": "Ім'я користувача",
+          "successAlert": "Вашу зміну збережено.",
+          "failedAlert": "Не вдалося зберегти зміни."
+        },
+        "email": {
+          "header": "Електронна пошта",
+          "successAlert": "Вашу зміну збережено.",
+          "failedAlert": "Не вдалося зберегти зміни."
+        }
+      },
+      "languages": "Мови",
+      "signIn": "Увійти",
+      "signOut": "Вийти з облікового запису",
+      "legal": "Юридична",
+      "termsConditions": "Правила та умови",
+      "privacyPolicy": "Політика конфіденційності",
+      "support": "Підтримка",
+      "reportAProblem": "Повідомити про проблему",
+      "tutorial": "Підручник",
+      "reportBug": {
+        "header": "Повідомити про проблему",
+        "send": "Надіслати",
+        "subject": "ТЕМА",
+        "subjectPlaceHolder": "Тема",
+        "description": "ОПИС",
+        "descriptionPlaceHolder": "Опис",
+        "successAlert": "Дякуємо, ми отримали ваше повідомлення.",
+        "failedAlert": "Не вдалося надіслати повідомлення."
+      },
+      "version": "Версія"
+    },
+    "media": {
+      "audio": "Аудіо",
+      "autoplay": "Автовідтворення аудіо",
+      "storage": "Зберігання",
+      "downloadWifi": "Завантажувати лише через Wi-Fi",
+      "deleteCache": "Видалити кеш"
+    },
+    "notifications": {
+      "notifications": "Повідомлення",
+      "groupInvitation": "Групове запрошення",
+      "devotions": "Запрошуйте до відданих",
+      "file": "Підтвердження передачі файлів"
+    }
+  },
+  "inviteUsers": { "header": "Запросити користувачів" },
+  "playlist": {
+    "header": "Список відтворення",
+    "audioFileLabel": "Аудіофайл",
+    "audioFilesLabel": "Аудіофайли"
+  },
+  "collection": { "header": "Колекція", "audioFilesLabel": "Аудіофайли" },
+  "modal": {
+    "close": "закрити",
+    "addToPlaylist": {
+      "title": "Додати до списку відтворення",
+      "button": "Створити список відтворення"
+    },
+    "startDevotion": { "title": "Почніть відданість" },
+    "createPlaylist": {
+      "title": "Створити новий список відтворення",
+      "button": "Створити список відтворення",
+      "inputPlaceholder": "Введіть назву списку відтворення",
+      "success": "Додано до списку відтворення"
+    },
+    "login": "Вам потрібно увійти, щоб розпочати відданість"
+  },
+  "options": {
+    "shared": {
+      "share": "Поділіться",
+      "report": "Зміст звіту",
+      "shareOthers": "Поділіться з іншими",
+      "copy": "Копіювати посилання",
+      "more": "Більше"
+    },
+    "audio": {
+      "download": "Завантажити",
+      "addFavorite": "Додати в обране",
+      "addPlaylist": "Додати до списку відтворення",
+      "removeFavorite": "Вилучити з вибраного",
+      "removePlaylist": "Вилучити зі списку відтворення",
+      "removeDownload": "Видалити із завантажень"
+    },
+    "playlist": { "edit": "Редагувати", "delete": "Видалити список відтворення" },
+    "startDevotion": "Почніть відданість"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Додано до списку відтворення",
+      "delete": "Вилучено зі списку відтворення",
+      "create": "Створений список відтворення",
+      "destroy": "Видалений список відтворення"
+    },
+    "favorites": { "add": "Додано до Вибраного", "remove": "Видалено з вибраного" },
+    "downloads": { "remove": "Видалено із завантажень" }
+  },
+  "buttons": { "loop": "Петля", "shuffle": "Перемішати" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Шукати ..." },
+    "notification": { "success": "Успіху! На ваш рахунок буде надіслано електронне повідомлення." },
+    "button": { "sending": "Надсилання ..." },
+    "modalSelector": { "cancel": "Скасувати" },
+    "loading": "Завантаження"
+  },
+  "bible": {
+    "header": "Біблія",
+    "oldTestament": "Старий Завіт",
+    "newTestament": "Новий Завіт",
+    "popularBooks": "Популярні книги"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Пошук",
+    "cancelButton": "СКАСУВАТИ",
+    "searchResults": "Результати пошуку",
+    "filterButton": "Фільтр",
+    "teachings": { "title": "Вчення" },
+    "bible": { "title": "Біблія" }
+  },
+  "addToPlaylistsModal": {
+    "title": "Додати до списку відтворення",
+    "button": "Створити список відтворення"
+  },
+  "createPlaylistModal": {
+    "title": "Створити новий список відтворення",
+    "button": "Створити список відтворення",
+    "inputPlaceholder": "Введіть назву списку відтворення"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Додано до списку відтворення",
+      "remove": "Вилучено зі списку відтворення",
+      "create": "Створений список відтворення",
+      "delete": "Видалений список відтворення"
+    },
+    "favorites": { "add": "Додано до Вибраного", "remove": "Видалено з вибраного" },
+    "downloads": { "remove": "Видалено із завантажень" },
+    "facebook": { "loginError": "Помилка входу з помилкою" },
+    "google": { "loginError": "Помилка входу з помилкою" }
+  },
+  "playlists": { "trackLabel": "Трек", "tracksLabel": "Доріжки" },
+  "mediaList": { "tracksLabel": "Доріжки", "remove": "Видалити" },
+  "tutorialPage": { "done": "Готово", "skip": "Пропустити" },
+  "loginModal": { "login": "Увійти" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Завантаження", "complete": "Завантаження завершено" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Досліджуйте Біблію",
+      "subtitle1": "Подорожуйте з нами по всій Біблії або розпочніть власну подорож.",
+      "title2": "Слухайте та залучайте",
+      "subtitle2": "Медіаплеєр дозволяє з легкістю зануритися в THRU BIBLE.",
+      "title3": "Відкрийте для себе вчення",
+      "subtitle3": "Займіться Біблією, як ніколи раніше, перехресними посиланнями на Біблію та навчальний зміст.",
+      "title4": "Обговоріть Біблію",
+      "subtitle4": "Приєднуйтесь до групи, щоб вивчати вчення та теми THRU BIBLE разом з іншими.",
+      "title5": "Завантажте та поділіться",
+      "subtitle5": "Приємно слухати Слово Боже на ходу та ділитися ним із друзями.",
+      "title6": "Зберегти та створити",
+      "subtitle6": "Збережіть свої улюблені вчення та біблійні вірші або створіть власний список відтворення.",
+      "title7": "Групові відданості",
+      "subtitle7": "Будьте заохоченими та натхненними з боку щоденних прихильників групи."
+    },
+    "registerPage": {
+      "noThanks": "Ні, дякую",
+      "haveAccount": "Є рахунок?",
+      "createAccount": "Створити мій акаунт",
+      "title1": "Обговоріть з іншими",
+      "subtitle1": "Обговоріть улюблені теми та біблійні вірші з іншими.",
+      "title2": "Зберігання та синхронізація списків відтворення",
+      "subtitle2": "Складайте списки улюбленого вмісту в одному місці.",
+      "title3": "Перегляньте вибране",
+      "subtitle3": "Зберігайте і повертайтеся та відвідуйте улюблені пізніше.",
+      "title4": "З поверненням",
+      "subtitle4": "Створіть обліковий запис і отримайте доступ до всіх наших функцій."
+    }
+  },
+  "app": {
+    "close": "закрити",
+    "accept": "Прийняти",
+    "reject": "Відхилити",
+    "constructionInProgress": "БУДІВНИЦТВО В ХОДІ",
+    "downloadComplete": "Завантаження завершено",
+    "downloading": "Завантаження",
+    "downloadFailed": "Не вдалося завантажити",
+    "sendAFile": "Хтось хоче надіслати вам файл"
+  },
+  "transferring": { "tryAgain": "спробуйте ще раз", "close": "закрити" },
+  "checkDevice": {
+    "check": "Перевірте свій пристрій",
+    "makeSure": "Переконайтеся, що Wifi-Direct увімкнено на пристрої вашого друга і він знаходиться в зоні дії.",
+    "continue": "Продовжуйте"
+  },
+  "connectToDevice": { "connect": "Підключіть пристрій" },
+  "pairing": {
+    "connect": "Підключіть пристрій",
+    "pairing": "Сполучення",
+    "success": "Успішно створено пару",
+    "failed": "Не вдалося з'єднати пристрій",
+    "makeSure": "Переконайтеся, що (Wi-Fi-Direct) увімкнено пристрій вашого друга і він знаходиться в зоні дії.",
+    "continue": "Продовжуйте",
+    "tryAgain": "Спробуйте ще раз"
+  },
+  "selectNetworkType": {
+    "connect": "Підключіть пристрій",
+    "share": "Поділіться за допомогою Wifi Direct",
+    "send": "Надіслати файл через wifi прямо?",
+    "continue": "Продовжуйте"
+  }
+}

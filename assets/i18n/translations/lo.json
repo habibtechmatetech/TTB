@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "ເລືອກພາສາປະຈຸບັນຂອງທ່ານ", "mainAction": "ເລືອກພາສາ" },
+  "menu": {
+    "anonymousTitle": "ບັນ​ຊີ​ຂອງ​ທ່ານ",
+    "anonymousAction": "ເຂົ້າ​ສູ່​ລະ​ບົບ",
+    "editProfileAction": "ແກ້ໄຂໂປຣໄຟລ໌",
+    "verifyProfileAction": "ກວດສອບຂໍ້ມູນ",
+    "bibleSection": "ຄຳ ພີໄບເບິນ",
+    "teachingsSection": "ຄຳ ສອນ",
+    "librarySection": "ຫ້ອງສະມຸດຂອງຂ້ອຍ",
+    "groupsSection": "ກຸ່ມ",
+    "donateSection": "ບໍ​ລິ​ຈາກ",
+    "settingsSection": "ການຕັ້ງຄ່າ",
+    "signOut": "ອອກ​ຈາກ​ລະ​ບົບ",
+    "modals": {
+      "verifyProfile": {
+        "title": "ເຈົ້າຍັງບໍ່ໄດ້ຢືນຢັນ",
+        "message": "ລາຍຊື່ຂອງທ່ານຈະບໍ່ຖືກຊິ້ງແລະທ່ານບໍ່ສາມາດສ້າງກຸ່ມ. ກະລຸນາກວດເບິ່ງອີເມວຂອງທ່ານເພື່ອໃຫ້ ສຳ ເລັດການລົງທະບຽນ.",
+        "firstButton": "ສືບຕໍ່",
+        "secondButton": "ລົງທະບຽນໂປຼໄຟລ໌ ໃໝ່"
+      }
+    }
+  },
+  "signIn": {
+    "header": "ເຂົ້າ​ສູ່​ລະ​ບົບ",
+    "emailPlaceholder": "ອີເມວຂອງທ່ານ",
+    "passwordPlaceholder": "ລະຫັດຜ່ານຂອງທ່ານ",
+    "forgotAction": "ລືມລະຫັດຜ່ານ?",
+    "callToAction": "ເຂົ້າ​ສູ່​ລະ​ບົບ",
+    "signInAlternatives": "ຫລືເຂົ້າສູ່ລະບົບໂດຍໃຊ້",
+    "noAccountAction": "ບໍ່ມີບັນຊີບໍ? ສ້າງ ໜຶ່ງ",
+    "notifications": {
+      "invalidCredentials": "ຂໍ້ມູນປະ ຈຳ ບໍ່ຖືກຕ້ອງ",
+      "inProgress": "ເຂົ້າສູ່ລະບົບແລ້ວ",
+      "notAvailable": "ບໍລິການຫຼີ້ນບໍ່ສາມາດໃຊ້ໄດ້"
+    }
+  },
+  "signUp": {
+    "header": "ສ້າງ​ບັນ​ຊີ",
+    "emailPlaceholder": "ອີເມວຂອງທ່ານ",
+    "passwordPlaceholder": "ລະຫັດຜ່ານຂອງທ່ານ",
+    "privateAction": "ເຮັດບັນຊີສ່ວນຕົວ",
+    "termsDisclaimer": {
+      "pre": "ໂດຍການກົດເຂົ້າສະ ໝັກ ທ່ານຊີ້ບອກວ່າທ່ານໄດ້ອ່ານແລະເຫັນດີ ນຳ ແລ້ວ",
+      "terms": "ຂໍ້ ກຳ ນົດ",
+      "post": "."
+    },
+    "callToAction": "ລົງ​ທະ​ບຽນ",
+    "signUpAlternatives": "ຫລືລົງທະບຽນໃຊ້",
+    "haveAnAccountAction": "ມີບັນຊີບໍ?",
+    "notifications": {
+      "invalidUsername": "ຊື່ຜູ້ໃຊ້ຖືກ ຈຳ ກັດເຖິງ 20 ໂຕອັກສອນຕົວອັກສອນ (ຕົວເລກແລະຕົວ ໜັງ ສືປົກກະຕິ)",
+      "invalidPassword": "ລະຫັດຜ່ານຄວນມີຢ່າງ ໜ້ອຍ 3 ໂຕອັກສອນແລະເປັນການລວມຕົວອັກສອນໃຫຍ່ແລະໂຕນ້ອຍທີ່ມີຢ່າງ ໜ້ອຍ ໜຶ່ງ ໂຕຫລືຕົວອັກສອນພິເສດ"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "ບໍ່ສາມາດສ້າງບັນຊີໄດ້",
+        "message": "ທີ່ຢູ່ອີເມວນີ້ມີຢູ່ແລ້ວ.",
+        "firstButton": "ເຂົ້າ​ສູ່​ລະ​ບົບ",
+        "secondButton": "ປິດ"
+      },
+      "privateAccount": {
+        "title": "ບັນຊີສ່ວນຕົວ",
+        "message": "ໂດຍການເຮັດໃຫ້ບັນຊີຂອງທ່ານເປັນຄວາມລັບ, ທ່ານ ກຳ ລັງເຊື່ອງມັນບໍ່ໃຫ້ຖືກຄົ້ນພົບໂດຍຄົນອື່ນ.",
+        "firstButton": "ຍອມ​ຮັບ",
+        "secondButton": "ຫຼຸດລົງ"
+      },
+      "success": {
+        "title": "ສ້າງບັນຊີ!",
+        "message": "ບັນຊີຂອງທ່ານຖືກສ້າງ ສຳ ເລັດແລ້ວ. ກວດເບິ່ງກ່ອງຈົດ ໝາຍ ຂອງທ່ານເພື່ອຢືນຢັນບັນຊີຂອງທ່ານແລະເຂົ້າສູ່ລະບົບ.",
+        "firstButton": "ເຂົ້າ​ສູ່​ລະ​ບົບ"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "ຕັ້ງລະຫັດຜ່ານ ໃໝ່",
+    "emailPlaceholder": "ອີເມວຂອງທ່ານ",
+    "message": "ກະລຸນາໃສ່ອີເມວຂອງທ່ານເພື່ອຕັ້ງລະຫັດລັບ ສຳ ລັບບັນຊີຂອງທ່ານ.",
+    "callToAction": "ຕັ້ງລະຫັດຜ່ານ ໃໝ່",
+    "notifications": {
+      "success": "ພວກເຮົາພຽງແຕ່ສົ່ງອີເມວໄປທີ່ກ່ອງຈົດ ໝາຍ ຂອງທ່ານ",
+      "emailNotFoundError": "ອີເມວບໍ່ພົບ",
+      "invalidEmailError": "ຮູບແບບອີເມວບໍ່ຖືກຕ້ອງ"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "ສຳ ເລັດການຕັ້ງຄ່າ",
+    "message": "ອີເມວໄດ້ຖືກສົ່ງໄປຫາທີ່ຢູ່ອີເມວທີ່ທ່ານປ້ອນເຂົ້າ. ກະລຸນາເບິ່ງລາຍລະອຽດອີເມວເພື່ອໃຫ້ ສຳ ເລັດການລົງທະບຽນ.",
+    "callToAction": "ຂ້າມໄປດຽວນີ້"
+  },
+  "teachings": {
+    "dailyText": "ອອກອາກາດມື້ນີ້",
+    "journeyTitle": "ເລີ່ມຕົ້ນການເດີນທາງຂອງທ່ານ",
+    "journeySubtitle": "ຄຳ ສອນທັງ ໝົດ ຕັ້ງແຕ່ເລີ່ມຕົ້ນຈົນເຖິງສິ້ນສຸດ",
+    "journeyCardTitle": "215 ການເດີນທາງໃນອາທິດຜ່ານທາງພຣະ ຄຳ ພີ",
+    "journeyCardSubtitle": "ຟັງເວລາຂອງທ່ານ",
+    "tracksLabel": "ຕິດຕາມ"
+  },
+  "teaching": {
+    "header": "ຄຳ ສອນ",
+    "loading": "ກຳ ລັງໂຫລດ ...",
+    "player": {
+      "audioSpeed": "ຄວາມໄວສຽງ",
+      "loading": "ກຳ ລັງໂຫລດ",
+      "castingError": "ບໍ່ມີອຸປະກອນທີ່ມີຢູ່"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "ສືບຕໍ່ການຟັງ", "secondButton": "ເລີ່ມຕົ້ນການເດີນທາງຂອງທ່ານ" }
+    }
+  },
+  "journey": {
+    "byDate": "ຮອດວັນທີ",
+    "bySeries": "ໂດຍຊຸດ",
+    "sections": { "tracksLabel": "ຕິດຕາມ" }
+  },
+  "library": {
+    "header": "ຫ້ອງສະມຸດຂອງຂ້ອຍ",
+    "tabs": { "downloads": "ດາວໂຫລດ", "favorites": "ສິ່ງທີ່ມັກ", "playlists": "ລາຍການເພງ" }
+  },
+  "groups": {
+    "header": "ກຸ່ມ",
+    "createGroup": {
+      "title": "ສ້າງກຸ່ມ ໃໝ່",
+      "groupNameLabel": "ຊື່ກຸ່ມ",
+      "groupNameInputPlaceHolder": "ຊື່",
+      "descriptionLabel": "ລາຍລະອຽດ",
+      "descriptionInputPlaceHolder": "ເພີ່ມ ຄຳ ອະທິບາຍ",
+      "inviteLabel": "ເຊີນຜູ້ຊົມໃຊ້",
+      "inviteButton": "ເຊີນຜູ້ໃຊ້ ໃໝ່",
+      "button": "ສ້າງກຸ່ມ",
+      "invalidGroupName": "ໃສ່ຊື່ທີ່ຖືກຕ້ອງ",
+      "groupNameTooLong": "ຊື່ຂອງກຸ່ມຕ້ອງບໍ່ມີຫຼາຍກວ່າ 25 ໂຕອັກສອນ"
+    },
+    "devotionNotStartAlert": "ການອຸທິດຕົນບໍ່ໄດ້ເລີ່ມຕົ້ນ ສຳ ລັບກຸ່ມນີ້",
+    "membersLabel": "ສະມາຊິກ",
+    "chatModalMemberSubtitleLabel": "ສະມາຊິກ",
+    "chatModalMembersSubtitleLabel": "ສະມາຊິກ",
+    "chat": {
+      "listeningToLabel": "ຟັງ",
+      "loadingTrackLabel": "ກຳ ລັງໂຫລດຕິດຕາມ ...",
+      "inputPlaceHolder": "ຂຽນຂໍ້ຄວາມ",
+      "deletePost": "ລຶບ Post",
+      "deleteMessage": "ໄດ້ລຶບຂໍ້ຄວາມແລ້ວ"
+    },
+    "groupSettings": {
+      "participantsSection": "ຜູ້ເຂົ້າຮ່ວມ",
+      "viewAll": "ເບິ່ງ​ທັງ​ຫມົດ",
+      "invite": "ເຊີນຜູ້ໃຊ້ ໃໝ່",
+      "endDevotion": "ການອຸທິດຕົນກຸ່ມສຸດທ້າຍ",
+      "deleteGroup": "ລຶບກຸ່ມ",
+      "leaveGroup": "ອອກຈາກກຸ່ມ"
+    },
+    "userDirectory": {
+      "header": "ປື້ມຄູ່ມືຜູ້ໃຊ້",
+      "remove": "ເອົາອອກ",
+      "anonymous": "ບໍລິຈາກເງິນ",
+      "send": "ສົ່ງ"
+    },
+    "inviteUser": { "placeHolder": "ຄົ້ນຫາ", "send": "ສົ່ງ" }
+  },
+  "chat": {
+    "header": "ຊ່ອງທາງກຸ່ມ",
+    "settings": {
+      "header": "ການຕັ້ງຄ່າກຸ່ມ",
+      "endDevotion": {
+        "alertTitle": "ການອຸທິດຕົນສຸດທ້າຍ",
+        "alertMessage": "ທ່ານແນ່ໃຈບໍ່ວ່າທ່ານຕ້ອງການຢຸດການອຸທິດນີ້?",
+        "alertCancel": "ຍົກເລີກ",
+        "alertConfirm": "ແມ່ນແລ້ວ",
+        "endDevotionLabel": "ສິ້ນສຸດການອຸທິດຕົນນີ້.",
+        "hasEnded": "ການອຸທິດຕົນນີ້ໄດ້ສິ້ນສຸດລົງແລ້ວ"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "ເລີ່ມຕົ້ນການອຸທິດຕົນ",
+    "alertMessage": "ທ່ານແນ່ໃຈບໍ່ວ່າທ່ານຕ້ອງການເລີ່ມຕົ້ນການອຸທິດກັບກຸ່ມ% {ຊື່}?",
+    "alertCancel": "ຍົກເລີກ",
+    "alertConfirm": "ແມ່ນແລ້ວ",
+    "devotionStartedLabel": "ໄດ້ເລີ່ມຕົ້ນການອຸທິດຕົນ."
+  },
+  "settings": {
+    "header": "ການຕັ້ງຄ່າ",
+    "tabs": { "profile": "ຂໍ້ມູນ", "media": "ສື່ມວນຊົນ", "notifications": "ແຈ້ງການ" },
+    "profile": {
+      "account": "ບັນຊີ",
+      "username": "ຊື່ຜູ້ໃຊ້",
+      "email": "ອີເມລ",
+      "editButton": "ແກ້ໄຂ",
+      "edit": {
+        "save": "ບັນທຶກ",
+        "username": {
+          "header": "ຊື່ຜູ້ໃຊ້",
+          "successAlert": "ການປ່ຽນແປງຂອງທ່ານຖືກບັນທຶກແລ້ວ.",
+          "failedAlert": "ການປະຫຍັດການປ່ຽນແປງລົ້ມເຫລວ."
+        },
+        "email": {
+          "header": "ອີເມວ",
+          "successAlert": "ການປ່ຽນແປງຂອງທ່ານຖືກບັນທຶກແລ້ວ.",
+          "failedAlert": "ການປະຫຍັດການປ່ຽນແປງລົ້ມເຫລວ."
+        }
+      },
+      "languages": "ພາສາຕ່າງໆ",
+      "signIn": "ເຂົ້າ​ສູ່​ລະ​ບົບ",
+      "signOut": "ອອກຈາກບັນຊີ",
+      "legal": "ຖືກກົດ ໝາຍ",
+      "termsConditions": "ຂໍ້ ກຳ ນົດແລະເງື່ອນໄຂ",
+      "privacyPolicy": "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ",
+      "support": "ສະ ໜັບ ສະ ໜູນ",
+      "reportAProblem": "ລາຍງານປັນຫາ",
+      "tutorial": "ການສອນ",
+      "reportBug": {
+        "header": "ລາຍງານປັນຫາ",
+        "send": "ສົ່ງ",
+        "subject": "ຫົວຂໍ້",
+        "subjectPlaceHolder": "ຫົວຂໍ້",
+        "description": "ລາຍລະອຽດ",
+        "descriptionPlaceHolder": "ລາຍລະອຽດ",
+        "successAlert": "ຂອບໃຈ, ພວກເຮົາໄດ້ຮັບຂໍ້ຄວາມຂອງທ່ານແລ້ວ.",
+        "failedAlert": "ການສົ່ງຂໍ້ຄວາມລົ້ມເຫລວ."
+      },
+      "version": "ຮຸ່ນ"
+    },
+    "media": {
+      "audio": "ສຽງ",
+      "autoplay": "ສຽງອັດຕະໂນມັດ",
+      "storage": "ບ່ອນເກັບມ້ຽນ",
+      "downloadWifi": "ດາວໂລດຜ່ານ Wi-nkaus ເທົ່ານັ້ນ",
+      "deleteCache": "ລຶບ Cache"
+    },
+    "notifications": {
+      "notifications": "ແຈ້ງການ",
+      "groupInvitation": "ການເຊີນກຸ່ມ",
+      "devotions": "ເຊີນຮ່ວມງານ Devotions",
+      "file": "ການຢັ້ງຢືນການໂອນໄຟລ໌"
+    }
+  },
+  "inviteUsers": { "header": "ເຊີນຜູ້ຊົມໃຊ້" },
+  "playlist": {
+    "header": "ລາຍການເພງ",
+    "audioFileLabel": "ເອກະສານສຽງ",
+    "audioFilesLabel": "ໄຟລ໌ສຽງ"
+  },
+  "collection": { "header": "ການລວບລວມ", "audioFilesLabel": "ໄຟລ໌ສຽງ" },
+  "modal": {
+    "close": "ປິດ",
+    "addToPlaylist": { "title": "ຕື່ມໃສ່ Playlist", "button": "ສ້າງ Playlist" },
+    "startDevotion": { "title": "ເລີ່ມຕົ້ນການອຸທິດຕົນ" },
+    "createPlaylist": {
+      "title": "ສ້າງ Playlist ໃໝ່",
+      "button": "ສ້າງ Playlist",
+      "inputPlaceholder": "ໃສ່ຊື່ Playlist",
+      "success": "ເພີ່ມເຂົ້າໃນ Playlist"
+    },
+    "login": "ທ່ານຕ້ອງເຂົ້າສູ່ລະບົບເພື່ອເລີ່ມຕົ້ນການອຸທິດຕົນ"
+  },
+  "options": {
+    "shared": {
+      "share": "ແບ່ງປັນ",
+      "report": "ເນື້ອໃນລາຍງານ",
+      "shareOthers": "ແບ່ງປັນກັບຄົນອື່ນ",
+      "copy": "ສຳ ເນົາລິ້ງ",
+      "more": "ຫຼາຍ"
+    },
+    "audio": {
+      "download": "ດາວໂຫລດ",
+      "addFavorite": "ເພີ່ມເຂົ້າໃນ Favorites",
+      "addPlaylist": "ຕື່ມໃສ່ Playlist",
+      "removeFavorite": "ເອົາອອກຈາກ Favorites",
+      "removePlaylist": "ເອົາອອກຈາກ Playlist",
+      "removeDownload": "ເອົາອອກຈາກດາວໂຫລດ"
+    },
+    "playlist": { "edit": "ແກ້ໄຂ", "delete": "ລຶບ Playlist" },
+    "startDevotion": "ເລີ່ມຕົ້ນການອຸທິດຕົນ"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "ເພີ່ມເຂົ້າໃນ Playlist",
+      "delete": "ຖືກລຶບອອກຈາກ Playlist",
+      "create": "ສ້າງລາຍການ Playlist",
+      "destroy": "Playlist ທີ່ຖືກລຶບແລ້ວ"
+    },
+    "favorites": { "add": "ເພີ່ມເຂົ້າໃນ Favorites", "remove": "ຖືກລຶບອອກຈາກ Favorites" },
+    "downloads": { "remove": "ຖືກລຶບອອກຈາກການດາວໂຫລດ" }
+  },
+  "buttons": { "loop": "ວົງ", "shuffle": "ສັ່ນ" },
+  "uiControls": {
+    "searchBox": { "placeholder": "ຄົ້ນຫາ ..." },
+    "notification": { "success": "ຄວາມ​ສໍາ​ເລັດ! ອີເມວຈະຖືກສົ່ງໄປຫາບັນຊີຂອງທ່ານ." },
+    "button": { "sending": "ກຳ ລັງສົ່ງ ..." },
+    "modalSelector": { "cancel": "ຍົກເລີກ" },
+    "loading": "ກຳ ລັງໂຫລດ"
+  },
+  "bible": {
+    "header": "ຄຳ ພີໄບເບິນ",
+    "oldTestament": "ສັນຍາເກົ່າ",
+    "newTestament": "ພຣະສັນຍາ ໃໝ່",
+    "popularBooks": "ປື້ມທີ່ນິຍົມ"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "ຄົ້ນຫາ",
+    "cancelButton": "CANCEL",
+    "searchResults": "ຜົນການຄົ້ນຫາ",
+    "filterButton": "ການກັ່ນຕອງ",
+    "teachings": { "title": "ຄຳ ສອນ" },
+    "bible": { "title": "ຄຳ ພີໄບເບິນ" }
+  },
+  "addToPlaylistsModal": { "title": "ຕື່ມໃສ່ Playlist", "button": "ສ້າງ Playlist" },
+  "createPlaylistModal": {
+    "title": "ສ້າງ Playlist ໃໝ່",
+    "button": "ສ້າງ Playlist",
+    "inputPlaceholder": "ໃສ່ຊື່ Playlist"
+  },
+  "alert": {
+    "playlists": {
+      "add": "ເພີ່ມເຂົ້າໃນ Playlist",
+      "remove": "ຖືກລຶບອອກຈາກ Playlist",
+      "create": "ສ້າງລາຍການ Playlist",
+      "delete": "Playlist ທີ່ຖືກລຶບແລ້ວ"
+    },
+    "favorites": { "add": "ເພີ່ມເຂົ້າໃນ Favorites", "remove": "ຖືກລຶບອອກຈາກ Favorites" },
+    "downloads": { "remove": "ຖືກລຶບອອກຈາກການດາວໂຫລດ" },
+    "facebook": { "loginError": "ການເຂົ້າລະບົບລົ້ມເຫລວດ້ວຍຂໍ້ຜິດພາດ" },
+    "google": { "loginError": "ການເຂົ້າລະບົບລົ້ມເຫລວດ້ວຍຂໍ້ຜິດພາດ" }
+  },
+  "playlists": { "trackLabel": "ຕິດຕາມ", "tracksLabel": "ຕິດຕາມ" },
+  "mediaList": { "tracksLabel": "ຕິດຕາມ", "remove": "ເອົາອອກ" },
+  "tutorialPage": { "done": "ເຮັດແລ້ວ", "skip": "ຂ້າມ" },
+  "loginModal": { "login": "ເຂົ້າ​ສູ່​ລະ​ບົບ" },
+  "shareModal": { "facebook": "ເຟສບຸກ", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "ການດາວໂຫລດ", "complete": "ດາວໂຫລດ ສຳ ເລັດ" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "ສຳ ຫຼວດພຣະ ຄຳ ພີ",
+      "subtitle1": "ເດີນທາງຜ່ານພຣະ ຄຳ ພີທັງ ໝົດ ກັບພວກເຮົາ, ຫລືເລີ່ມຕົ້ນການເດີນທາງຂອງທ່ານເອງ.",
+      "title2": "ຟັງແລະເຂົ້າຮ່ວມ",
+      "subtitle2": "ເຄື່ອງຫຼີ້ນສື່ຊ່ວຍໃຫ້ທ່ານສາມາດເຈາະເນື້ອໃນ ຄຳ ພີໄບເບິນ THRU ດ້ວຍຄວາມສະດວກສະບາຍ.",
+      "title3": "ຄົ້ນພົບ ຄຳ ສອນ",
+      "subtitle3": "ເຂົ້າຮ່ວມໃນພຣະ ຄຳ ພີຄືກັບທີ່ບໍ່ເຄີຍມີມາກ່ອນໂດຍການອ້າງອີງເນື້ອໃນ ຄຳ ພີໄບເບິນແລະການສອນ.",
+      "title4": "ສົນທະນາກ່ຽວກັບ ຄຳ ພີໄບເບິນ",
+      "subtitle4": "ເຂົ້າຮ່ວມກຸ່ມເພື່ອສຶກສາ ຄຳ ສອນແລະຫົວຂໍ້ຕ່າງໆຂອງ THRU ກ່ຽວກັບ ຄຳ ພີໄບເບິນກັບຜູ້ອື່ນ.",
+      "title5": "ດາວໂຫລດ & ແບ່ງປັນ",
+      "subtitle5": "ເພີດເພີນໄປກັບການຟັງຖ້ອຍ ຄຳ ຂອງພະເຈົ້າໃນເວລາເດີນທາງແລະແບ່ງປັນມັນກັບ ໝູ່ ຂອງທ່ານ.",
+      "title6": "ບັນທຶກແລະສ້າງ",
+      "subtitle6": "ບັນທຶກ ຄຳ ສອນແລະຂໍ້ພຣະ ຄຳ ພີທີ່ທ່ານມັກຫລືສ້າງບັນຊີລາຍການທີ່ ກຳ ຫນົດເອງ.",
+      "title7": "ການອຸທິດຕົນເປັນກຸ່ມ",
+      "subtitle7": "ໄດ້ຮັບການສະ ໜັບ ສະ ໜູນ ແລະແຮງບັນດານໃຈຈາກຄົນອື່ນດ້ວຍການອຸທິດຕົນໃນແຕ່ລະມື້."
+    },
+    "registerPage": {
+      "noThanks": "ບໍ່​ຂອບ​ໃຈ",
+      "haveAccount": "ມີບັນຊີບໍ?",
+      "createAccount": "ສ້າງບັນຊີຂອງຂ້ອຍ",
+      "title1": "ສົນທະນາກັບຄົນອື່ນ",
+      "subtitle1": "ສົນທະນາຫົວຂໍ້ທີ່ທ່ານມັກແລະຂໍ້ພະ ຄຳ ພີໄບເບິນກັບຄົນອື່ນ.",
+      "title2": "ເກັບແລະຊິ້ງຂໍ້ມູນບັນຊີລາຍຊື່",
+      "subtitle2": "ສ້າງລາຍຊື່ຂອງເນື້ອຫາທີ່ທ່ານມັກຢູ່ບ່ອນດຽວ.",
+      "title3": "ເບິ່ງທີ່ທ່ານມັກ",
+      "subtitle3": "ເກັບແລະກັບມາແລະເຂົ້າເບິ່ງທີ່ທ່ານມັກໃນເວລາຕໍ່ມາ.",
+      "title4": "ຍິນ​ດີ​ຕ້ອນ​ຮັບ​ກັບ",
+      "subtitle4": "ສ້າງບັນຊີແລະເຂົ້າເຖິງຄຸນລັກສະນະທັງ ໝົດ ຂອງພວກເຮົາ."
+    }
+  },
+  "app": {
+    "close": "ປິດ",
+    "accept": "ຍອມ​ຮັບ",
+    "reject": "ປະຕິເສດ",
+    "constructionInProgress": "ການກໍ່ສ້າງໃນໂຄງການ",
+    "downloadComplete": "ດາວໂຫລດ ສຳ ເລັດ",
+    "downloading": "ການດາວໂຫລດ",
+    "downloadFailed": "ການດາວໂຫລດລົ້ມເຫລວ",
+    "sendAFile": "ມີບາງຄົນຕ້ອງການສົ່ງເອກະສານໃຫ້ທ່ານ"
+  },
+  "transferring": { "tryAgain": "ລອງ​ອີກ​ຄັ້ງ", "close": "ປິດ" },
+  "checkDevice": {
+    "check": "ກວດເບິ່ງອຸປະກອນຂອງທ່ານ",
+    "makeSure": "ກະລຸນາຮັບປະກັນວ່າ Wifi-Direct ຖືກເປີດໃຊ້ໃນອຸປະກອນເພື່ອນຂອງທ່ານແລະມັນຢູ່ໃນຂອບເຂດ.",
+    "continue": "ສືບຕໍ່"
+  },
+  "connectToDevice": { "connect": "ເຊື່ອມຕໍ່ກັບອຸປະກອນໃດ ໜຶ່ງ" },
+  "pairing": {
+    "connect": "ເຊື່ອມຕໍ່ກັບອຸປະກອນໃດ ໜຶ່ງ",
+    "pairing": "ການຈັບຄູ່",
+    "success": "ປະສົບຜົນ ສຳ ເລັດ",
+    "failed": "ການເຊື່ອມໂຍງອຸປະກອນລົ້ມເຫລວ",
+    "makeSure": "ກະລຸນາຮັບປະກັນວ່າ (Wifi-Direct) ຖືກເປີດໃຊ້ໃນອຸປະກອນເພື່ອນຂອງທ່ານແລະມັນຢູ່ໃນຂອບເຂດ.",
+    "continue": "ສືບຕໍ່",
+    "tryAgain": "ລອງ​ອີກ​ຄັ້ງ"
+  },
+  "selectNetworkType": {
+    "connect": "ເຊື່ອມຕໍ່ກັບອຸປະກອນໃດ ໜຶ່ງ",
+    "share": "ແບ່ງປັນກັບ Wifi Direct",
+    "send": "ສົ່ງໄຟລ໌ຜ່ານ wifi ໂດຍກົງບໍ?",
+    "continue": "ສືບຕໍ່"
+  }
+}

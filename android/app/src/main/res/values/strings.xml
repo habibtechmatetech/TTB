@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TTB</string>
+    <string name="facebook_app_id">1000964690248940</string>
+    <string name="ok">OK</string>
+    <string name="share_bluetooth">Share via Bluetooth</string>
+    <string name="err_bluetooth_not_supported">Bluetooth is not supported in your device.</string>
+</resources>

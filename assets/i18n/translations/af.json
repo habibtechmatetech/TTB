@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "Kies u huidige taal", "mainAction": "Kies taal" },
+  "menu": {
+    "anonymousTitle": "Jou rekening",
+    "anonymousAction": "Teken aan",
+    "editProfileAction": "Wysig profiel",
+    "verifyProfileAction": "Verifieer profiel",
+    "bibleSection": "Bybel",
+    "teachingsSection": "Onderrig",
+    "librarySection": "My biblioteek",
+    "groupsSection": "Groepe",
+    "donateSection": "skenk",
+    "settingsSection": "Instellings",
+    "signOut": "Teken uit",
+    "modals": {
+      "verifyProfile": {
+        "title": "U is nie geverifieer nie",
+        "message": "U lyste sal nie gesinkroniseer word nie en u kan nie groepe skep nie. Gaan u e-pos na om die registrasie te voltooi.",
+        "firstButton": "Aanhou",
+        "secondButton": "Registreer 'n nuwe profiel"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Meld aan",
+    "emailPlaceholder": "Jou epos",
+    "passwordPlaceholder": "Jou wagwoord",
+    "forgotAction": "Wagwoord vergeet?",
+    "callToAction": "Meld aan",
+    "signInAlternatives": "Of meld aan met",
+    "noAccountAction": "Geen rekening nie? Skep een",
+    "notifications": {
+      "invalidCredentials": "Ongeldige magtigingsbewyse",
+      "inProgress": "Meld aan reeds aan die gang",
+      "notAvailable": "Speeldienste is nie beskikbaar nie"
+    }
+  },
+  "signUp": {
+    "header": "Skep rekening",
+    "emailPlaceholder": "Jou epos",
+    "passwordPlaceholder": "Jou wagwoord",
+    "privateAction": "Maak rekening privaat",
+    "termsDisclaimer": {
+      "pre": "Deur op Aanmelding te klik, gee u aan dat u gelees het en daartoe instem",
+      "terms": "die bepalings",
+      "post": "."
+    },
+    "callToAction": "Teken aan",
+    "signUpAlternatives": "Of Teken in met",
+    "haveAnAccountAction": "Het u 'n rekening?",
+    "notifications": {
+      "invalidUsername": "Gebruikersname is beperk tot 20 alfanumeriese karakters (getalle en gewone letters)",
+      "invalidPassword": "Wagwoord moet minstens 3 karakters bevat en 'n kombinasie wees van hoof- en kleinletters met ten minste een nommer of spesiale karakter"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Kan nie 'n rekening skep nie",
+        "message": "Hierdie e-posadres bestaan ​​reeds.",
+        "firstButton": "Meld aan",
+        "secondButton": "Naby"
+      },
+      "privateAccount": {
+        "title": "Privaat rekening",
+        "message": "Deur u rekening privaat te maak, verberg u dat dit nie deur ander ontdek word nie.",
+        "firstButton": "Aanvaar",
+        "secondButton": "Weier"
+      },
+      "success": {
+        "title": "Rekening geskep!",
+        "message": "U rekening is suksesvol geskep. Gaan u inkassie na om u rekening te bevestig en aan te meld.",
+        "firstButton": "Meld aan"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Herstel wagwoord",
+    "emailPlaceholder": "Jou epos",
+    "message": "Voer asseblief u e-posadres in om u wagwoord vir u rekening weer in te stel.",
+    "callToAction": "Herstel wagwoord",
+    "notifications": {
+      "success": "Ons het sopas 'n e-pos na u inkassie gestuur",
+      "emailNotFoundError": "E-posadres is nie gevind nie",
+      "invalidEmailError": "Ongeldige e-posformaat"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Voltooi die opstelling",
+    "message": "'N E-pos is gestuur na die e-posadres wat u ingevoer het. Sien die e-posbesonderhede om die registrasie te voltooi.",
+    "callToAction": "Spring vir nou oor"
+  },
+  "teachings": {
+    "dailyText": "Uitsending van vandag",
+    "journeyTitle": "Begin u reis",
+    "journeySubtitle": "Alle leerstellings van begin tot einde",
+    "journeyCardTitle": "215 Weekreis deur die Bybel",
+    "journeyCardSubtitle": "Luister op u tyd",
+    "tracksLabel": "Spore"
+  },
+  "teaching": {
+    "header": "Onderrig",
+    "loading": "Laai tans ...",
+    "player": {
+      "audioSpeed": "Klanksnelheid",
+      "loading": "Laai tans",
+      "castingError": "Geen toestelle beskikbaar nie"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Gaan voort met luister", "secondButton": "Begin u reis" }
+    }
+  },
+  "journey": {
+    "byDate": "Op datum",
+    "bySeries": "Per reeks",
+    "sections": { "tracksLabel": "Spore" }
+  },
+  "library": {
+    "header": "My biblioteek",
+    "tabs": { "downloads": "Aflaai", "favorites": "Gunstelinge", "playlists": "Snitlyste" }
+  },
+  "groups": {
+    "header": "Groepe",
+    "createGroup": {
+      "title": "Skep 'n nuwe groep",
+      "groupNameLabel": "GROEPNAAM",
+      "groupNameInputPlaceHolder": "Naam",
+      "descriptionLabel": "BESKRYWING",
+      "descriptionInputPlaceHolder": "Voeg beskrywing by",
+      "inviteLabel": "Nooi gebruikers",
+      "inviteButton": "Nooi nuwe gebruikers",
+      "button": "Skep groep",
+      "invalidGroupName": "Voer 'n geldige naam in",
+      "groupNameTooLong": "Die naam van die groep mag nie meer as 25 karakters bevat nie"
+    },
+    "devotionNotStartAlert": "'N Toewyding het nie vir hierdie groep begin nie",
+    "membersLabel": "Lede",
+    "chatModalMemberSubtitleLabel": "lidmaat",
+    "chatModalMembersSubtitleLabel": "lede",
+    "chat": {
+      "listeningToLabel": "Luister na",
+      "loadingTrackLabel": "Laai tans snit ...",
+      "inputPlaceHolder": "Skryf Boodskap",
+      "deletePost": "Vee plasing uit",
+      "deleteMessage": "het 'n boodskap verwyder"
+    },
+    "groupSettings": {
+      "participantsSection": "Deelnemers",
+      "viewAll": "Sien alles",
+      "invite": "Nooi nuwe gebruikers",
+      "endDevotion": "Beëindig groeptoewyding",
+      "deleteGroup": "Vee groep uit",
+      "leaveGroup": "Verlaat die groep"
+    },
+    "userDirectory": {
+      "header": "Gebruikersgids",
+      "remove": "Verwyder",
+      "anonymous": "Anoniem",
+      "send": "Stuur"
+    },
+    "inviteUser": { "placeHolder": "Soek", "send": "Stuur" }
+  },
+  "chat": {
+    "header": "Groepskanaal",
+    "settings": {
+      "header": "Groepinstellings",
+      "endDevotion": {
+        "alertTitle": "Beëindiging van toewyding",
+        "alertMessage": "Is u seker dat u hierdie toewyding wil beëindig?",
+        "alertCancel": "Kanselleer",
+        "alertConfirm": "Ja",
+        "endDevotionLabel": "hierdie toewyding beëindig.",
+        "hasEnded": "Hierdie toewyding is beëindig"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Begin toewyding",
+    "alertMessage": "Is u seker dat u toewyding met% {name} -groep wil begin?",
+    "alertCancel": "Kanselleer",
+    "alertConfirm": "Ja",
+    "devotionStartedLabel": "het 'n toewyding begin."
+  },
+  "settings": {
+    "header": "Instellings",
+    "tabs": { "profile": "Profiel", "media": "Media", "notifications": "Kennisgewings" },
+    "profile": {
+      "account": "Rekening",
+      "username": "Gebruikersnaam",
+      "email": "E-pos",
+      "editButton": "Wysig",
+      "edit": {
+        "save": "Stoor",
+        "username": {
+          "header": "Gebruikersnaam",
+          "successAlert": "U verandering is gestoor.",
+          "failedAlert": "Kon nie die verandering stoor nie."
+        },
+        "email": {
+          "header": "E-pos",
+          "successAlert": "U verandering is gestoor.",
+          "failedAlert": "Kon nie die verandering stoor nie."
+        }
+      },
+      "languages": "Tale",
+      "signIn": "Meld aan",
+      "signOut": "Teken uit rekening",
+      "legal": "Wettig",
+      "termsConditions": "terme en voorwaardes",
+      "privacyPolicy": "Privaatheidsbeleid",
+      "support": "Ondersteuning",
+      "reportAProblem": "Rapporteer 'n probleem",
+      "tutorial": "Handleiding",
+      "reportBug": {
+        "header": "Rapporteer 'n probleem",
+        "send": "Stuur",
+        "subject": "ONDERWERP",
+        "subjectPlaceHolder": "Onderwerp",
+        "description": "BESKRYWING",
+        "descriptionPlaceHolder": "Beskrywing",
+        "successAlert": "Dankie, ons het u boodskap ontvang.",
+        "failedAlert": "Kon nie die boodskap stuur nie."
+      },
+      "version": "Weergawe"
+    },
+    "media": {
+      "audio": "Klank",
+      "autoplay": "Speel oudio outomaties",
+      "storage": "Berging",
+      "downloadWifi": "Laai net op Wi-Fi af",
+      "deleteCache": "Vee kas uit"
+    },
+    "notifications": {
+      "notifications": "Kennisgewings",
+      "groupInvitation": "Groepuitnodiging",
+      "devotions": "Nooi na toewydings",
+      "file": "Bevestiging van lêeroordrag"
+    }
+  },
+  "inviteUsers": { "header": "Nooi gebruikers" },
+  "playlist": {
+    "header": "Snitlys",
+    "audioFileLabel": "Klanklêer",
+    "audioFilesLabel": "Klanklêers"
+  },
+  "collection": { "header": "Versameling", "audioFilesLabel": "Klanklêers" },
+  "modal": {
+    "close": "naby",
+    "addToPlaylist": { "title": "Voeg by speellys", "button": "Skep snitlys" },
+    "startDevotion": { "title": "Begin toewyding" },
+    "createPlaylist": {
+      "title": "Skep nuwe snitlys",
+      "button": "Skep snitlys",
+      "inputPlaceholder": "Voer die snitlysnaam in",
+      "success": "By snitlys gevoeg"
+    },
+    "login": "U moet aanmeld om 'n toewyding te begin"
+  },
+  "options": {
+    "shared": {
+      "share": "Deel",
+      "report": "Rapporteer inhoud",
+      "shareOthers": "Deel met ander",
+      "copy": "Kopieer skakel",
+      "more": "Meer"
+    },
+    "audio": {
+      "download": "Aflaai",
+      "addFavorite": "Voeg by gunstelinge",
+      "addPlaylist": "Voeg by speellys",
+      "removeFavorite": "Verwyder uit Gunstelinge",
+      "removePlaylist": "Verwyder dit uit die snitlys",
+      "removeDownload": "Verwyder dit van downloads"
+    },
+    "playlist": { "edit": "Wysig", "delete": "Vee snitlys uit" },
+    "startDevotion": "Begin toewyding"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "By snitlys gevoeg",
+      "delete": "Uit snitlys verwyder",
+      "create": "Snitlys geskep",
+      "destroy": "Speellys uitgevee"
+    },
+    "favorites": { "add": "By gunstelinge gevoeg", "remove": "Verwyder uit gunstelinge" },
+    "downloads": { "remove": "Verwyder van aflaaie" }
+  },
+  "buttons": { "loop": "Lus", "shuffle": "Skommel" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Soek..." },
+    "notification": { "success": "Sukses! 'N E-pos sal na u rekening gestuur word." },
+    "button": { "sending": "Stuur..." },
+    "modalSelector": { "cancel": "Kanselleer" },
+    "loading": "Laai tans"
+  },
+  "bible": {
+    "header": "Bybel",
+    "oldTestament": "Ou Testament",
+    "newTestament": "Nuwe Testament",
+    "popularBooks": "Gewilde boeke"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Soek",
+    "cancelButton": "KANSELLER",
+    "searchResults": "Soek Resultate",
+    "filterButton": "Filtreer",
+    "teachings": { "title": "Onderrig" },
+    "bible": { "title": "Bybel" }
+  },
+  "addToPlaylistsModal": { "title": "Voeg by speellys", "button": "Skep snitlys" },
+  "createPlaylistModal": {
+    "title": "Skep nuwe snitlys",
+    "button": "Skep snitlys",
+    "inputPlaceholder": "Voer die snitlysnaam in"
+  },
+  "alert": {
+    "playlists": {
+      "add": "By snitlys gevoeg",
+      "remove": "Uit snitlys verwyder",
+      "create": "Snitlys geskep",
+      "delete": "Speellys uitgevee"
+    },
+    "favorites": { "add": "By gunstelinge gevoeg", "remove": "Verwyder uit gunstelinge" },
+    "downloads": { "remove": "Verwyder van aflaaie" },
+    "facebook": { "loginError": "Aanmelding misluk met fout" },
+    "google": { "loginError": "Aanmelding misluk met fout" }
+  },
+  "playlists": { "trackLabel": "Snit", "tracksLabel": "Spore" },
+  "mediaList": { "tracksLabel": "Spore", "remove": "Verwyder" },
+  "tutorialPage": { "done": "Klaar", "skip": "Huppel" },
+  "loginModal": { "login": "Teken aan" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Laai tans af", "complete": "Aflaai voltooi" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Verken die Bybel",
+      "subtitle1": "Reis saam met ons deur die hele Bybel, of begin met u eie reis.",
+      "title2": "Luister & betrek",
+      "subtitle2": "Met die mediaspeler kan u met gemak deur die BYBEL-inhoud duik.",
+      "title3": "Ontdek leringe",
+      "subtitle3": "Raak betrokke by die Bybel soos nog nooit tevore deur die Bybel- en onderriginhoud te kruisverwys nie.",
+      "title4": "Bespreek die Bybel",
+      "subtitle4": "Sluit aan by 'n groep om die leer van die BYBEL en die onderwerpe deur ander deur ander te bestudeer.",
+      "title5": "Laai af en deel",
+      "subtitle5": "Luister graag onderweg na die Woord van God en deel dit met u vriende.",
+      "title6": "Stoor en skep",
+      "subtitle6": "Stoor u gunsteling leringe en Bybelverse of skep 'n pasgemaakte snitlys.",
+      "title7": "Groepstoewydings",
+      "subtitle7": "Word aangemoedig en geïnspireer deur ander met daaglikse groeptoewydings."
+    },
+    "registerPage": {
+      "noThanks": "Nee dankie",
+      "haveAccount": "Het u 'n rekening?",
+      "createAccount": "Skep my Rekening",
+      "title1": "Bespreek met ander",
+      "subtitle1": "Bespreek u gunsteling onderwerpe en Bybelverse met ander.",
+      "title2": "Stoor en sinkroniseer snitlyste",
+      "subtitle2": "Bou lyste van u gunsteling inhoud op een plek.",
+      "title3": "Sien u gunstelinge",
+      "subtitle3": "Stoor en kom terug en besoek u gunstelinge op 'n later tydstip.",
+      "title4": "Welkom terug",
+      "subtitle4": "Skep 'n rekening en kry toegang tot al ons funksies."
+    }
+  },
+  "app": {
+    "close": "naby",
+    "accept": "Aanvaar",
+    "reject": "Verwerp",
+    "constructionInProgress": "KONSTRUKSIE IN VORDERING",
+    "downloadComplete": "Aflaai voltooi",
+    "downloading": "Laai tans af",
+    "downloadFailed": "Aflaai het misluk",
+    "sendAFile": "Iemand wil vir u 'n lêer stuur"
+  },
+  "transferring": { "tryAgain": "probeer weer", "close": "naby" },
+  "checkDevice": {
+    "check": "Gaan u toestel na",
+    "makeSure": "Maak seker dat Wifi-Direct op die toestel van u vriend aangeskakel is en dat dit binne bereik is.",
+    "continue": "Aanhou"
+  },
+  "connectToDevice": { "connect": "Koppel aan 'n toestel" },
+  "pairing": {
+    "connect": "Koppel aan 'n toestel",
+    "pairing": "Koppel",
+    "success": "Suksesvol gekoppel",
+    "failed": "Toestelpaar kon nie",
+    "makeSure": "Maak seker dat (Wifi-Direct) op u vriend se toestel aangeskakel is en dat dit binne bereik is.",
+    "continue": "Aanhou",
+    "tryAgain": "Probeer weer"
+  },
+  "selectNetworkType": {
+    "connect": "Koppel aan 'n toestel",
+    "share": "Deel met Wifi Direct",
+    "send": "Stuur lêer via wifi direk?",
+    "continue": "Aanhou"
+  }
+}

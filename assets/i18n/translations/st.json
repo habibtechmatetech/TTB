@@ -1,0 +1,403 @@
+{
+  "selectLanguage": { "heading": "Khetha puo ea hau ea hajoale", "mainAction": "Khetha Puo" },
+  "menu": {
+    "anonymousTitle": "Ak'haonte ea Hau",
+    "anonymousAction": "Kena",
+    "editProfileAction": "Fetola boemo",
+    "verifyProfileAction": "Netefatsa boemo",
+    "bibleSection": "Bibele",
+    "teachingsSection": "Lithuto",
+    "librarySection": "Laeborari ya ka",
+    "groupsSection": "Lihlopha",
+    "donateSection": "Fana ka chelete",
+    "settingsSection": "Litlhophiso",
+    "signOut": "Tsoaha",
+    "modals": {
+      "verifyProfile": {
+        "title": "Ha ua netefatsoa",
+        "message": "Manane a hau a ke ke a hokahana hape o ka se khone ho theha lihlopha. Ka kopo sheba lengolo-tsoibila la hau ho phethela ngoliso.",
+        "firstButton": "Tsoela pele",
+        "secondButton": "Ngolisa boemo bo bocha"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Kena",
+    "emailPlaceholder": "Imeile ea hau",
+    "passwordPlaceholder": "Phasewete ya hao",
+    "forgotAction": "U lebetse phasewete?",
+    "callToAction": "kena",
+    "signInAlternatives": "Kapa Kena ho kena u sebelisa",
+    "noAccountAction": "Ha u na ak'haonte? Theha e le 'ngoe",
+    "notifications": {
+      "invalidCredentials": "Bopaki bo fosahetseng",
+      "inProgress": "Kena kahare e ntse e tsoela pele",
+      "notAvailable": "Litšebeletso tsa papali ha li fumanehe"
+    }
+  },
+  "signUp": {
+    "header": "Theha ak'haonte",
+    "emailPlaceholder": "Imeile ea hau",
+    "passwordPlaceholder": "Phasewete ya hao",
+    "privateAction": "Etsa Ak'haonte Lekunutu",
+    "termsDisclaimer": {
+      "pre": "Ka ho tobetsa Signup u bonts'a hore u balile ebile u lumellane le eona",
+      "terms": "mantsoe a",
+      "post": "."
+    },
+    "callToAction": "ngolisa",
+    "signUpAlternatives": "Kapa Ingolise u sebelisa",
+    "haveAnAccountAction": "O na le ak'haonte?",
+    "notifications": {
+      "invalidUsername": "Mabitso a mosebedisi a lekanyelitsoe ho litlhaku tse 20 tsa linomoro (linomoro le litlhaku tse tloaelehileng)",
+      "invalidPassword": "Phasewete e lokela ho ba le bonyane litlhaku tse 3 mme e be motsoako oa litlhaku tse kaholimo le tse tlase tse nang le bonyane palo e le 'ngoe kapa sebapali se ikhethileng"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Ha e khone ho theha ak'haonte",
+        "message": "Aterese ena ea lengolo tsoibila e se ntse e le teng.",
+        "firstButton": "Kena",
+        "secondButton": "Haufi"
+      },
+      "privateAccount": {
+        "title": "Ak'haonte ea Botho",
+        "message": "Ka ho etsa ak'haonte ea hau e le lekunutu, oa e pata hore e se ke ea fumanoa ke batho ba bang.",
+        "firstButton": "Amohela",
+        "secondButton": "Fokotseha"
+      },
+      "success": {
+        "title": "Ak'haonte e Thehiloe!",
+        "message": "Ak'haonte ea hau e entsoe ka katleho. Lekola inbox ea hau ho netefatsa ak'haonte ea hau ebe u kena.",
+        "firstButton": "Kena"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Khutlisa phasewete",
+    "emailPlaceholder": "Imeile ea hau",
+    "message": "Ka kopo kenya imeile ea hau ho kenya phasewete ea hau bakeng sa akhaonto ea hau.",
+    "callToAction": "Khutlisa phasewete",
+    "notifications": {
+      "success": "Re sa tsoa romella lengolo tsoibila ho inbox ea hau",
+      "emailNotFoundError": "Imeile ha e fumanehe",
+      "invalidEmailError": "Sebopeho sa lengolo-tsoibila se fosahetseng"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Qetella Setup",
+    "message": "Imeile e rometsoe atereseng ea lengolo tsoibila leo u le kentseng. Ka kopo bona lintlha tsa lengolo-tsoibila ho phethela ngoliso.",
+    "callToAction": "Tlolela Hona Joale"
+  },
+  "teachings": {
+    "dailyText": "Phatlalatso ea kajeno",
+    "journeyTitle": "Qala Leeto la Hao",
+    "journeySubtitle": "Lithuto tsohle ho tloha qalong ho isa qetellong",
+    "journeyCardTitle": "Leeto la Beke la 215 Ka Bebele",
+    "journeyCardSubtitle": "Mamela ka nako ea hau",
+    "tracksLabel": "Lipina"
+  },
+  "teaching": {
+    "header": "Lithuto",
+    "loading": "--Loading ... Khotso Khotso",
+    "player": {
+      "audioSpeed": "Lebelo la Audio",
+      "loading": "Loading",
+      "castingError": "Ha ho lisebelisoa tse fumanehang"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Tsoela Pele ho Mamela", "secondButton": "Qala leeto la hau" }
+    }
+  },
+  "journey": {
+    "byDate": "Ka Letsatsi",
+    "bySeries": "Ka Series",
+    "sections": { "tracksLabel": "Lipina" }
+  },
+  "library": {
+    "header": "Laeborari ya ka",
+    "tabs": {
+      "downloads": "Lits'oants'o",
+      "favorites": "Tse ratehang",
+      "playlists": "Manane a bapalwang"
+    }
+  },
+  "groups": {
+    "header": "Lihlopha",
+    "createGroup": {
+      "title": "Theha sehlopha se secha",
+      "groupNameLabel": "LEBITSO SEHLOPHA",
+      "groupNameInputPlaceHolder": "Lebitso",
+      "descriptionLabel": "TLHALOSO MOLIMO",
+      "descriptionInputPlaceHolder": "Kenya Tlhaloso",
+      "inviteLabel": "Mema Basebelisi",
+      "inviteButton": "Mema Basebelisi ba Bacha",
+      "button": "Theha Sehlopha",
+      "invalidGroupName": "Kenya lebitso le nepahetseng",
+      "groupNameTooLong": "Lebitso la sehlopha ha lea lokela ho ba le litlhaku tse fetang 25"
+    },
+    "devotionNotStartAlert": "Boinehelo ha bo qale bakeng sa sehlopha sena",
+    "membersLabel": "Litho",
+    "chatModalMemberSubtitleLabel": "setho",
+    "chatModalMembersSubtitleLabel": "litho",
+    "chat": {
+      "listeningToLabel": "Ho mamela",
+      "loadingTrackLabel": "E kenya pina ...",
+      "inputPlaceHolder": "Ngola Molaetsa",
+      "deletePost": "Hlakola Post",
+      "deleteMessage": "e hlakotse molaetsa"
+    },
+    "groupSettings": {
+      "participantsSection": "Barupeluoa",
+      "viewAll": "Sheba Tsohle",
+      "invite": "Mema Basebelisi ba Bacha",
+      "endDevotion": "Qetella Boinehelo ba Sehlopha",
+      "deleteGroup": "Hlakola Sehlopha",
+      "leaveGroup": "Tloha Sehlopha"
+    },
+    "userDirectory": {
+      "header": "Directory ea mosebelisi",
+      "remove": "Tlosa",
+      "anonymous": "Ha a tsejoe",
+      "send": "Romella"
+    },
+    "inviteUser": { "placeHolder": "Batla", "send": "Romella" }
+  },
+  "chat": {
+    "header": "Sehlopha sa Sehlopha",
+    "settings": {
+      "header": "Litlhophiso tsa sehlopha",
+      "endDevotion": {
+        "alertTitle": "Qetella Boinehelo",
+        "alertMessage": "Na u na le bonnete ba hore u batla ho emisa boinehelo bona?",
+        "alertCancel": "Hlakola",
+        "alertConfirm": "Ho joalo",
+        "endDevotionLabel": "e felisitse boinehelo bona.",
+        "hasEnded": "Boinehelo bona bo felile"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Qala Boinehelo",
+    "alertMessage": "Na u na le bonnete ba hore u batla ho qala boinehelo le sehlopha sa% {name}?",
+    "alertCancel": "Hlakola",
+    "alertConfirm": "Ho joalo",
+    "devotionStartedLabel": "e qalile boinehelo."
+  },
+  "settings": {
+    "header": "Litlhophiso",
+    "tabs": {
+      "profile": "Pale ea Boemo",
+      "media": "Mecha ea phatlalatso",
+      "notifications": "Litsebiso"
+    },
+    "profile": {
+      "account": "Ak'haonte",
+      "username": "Lebitso la mosebedisi",
+      "email": "Imeile",
+      "editButton": "Edita",
+      "edit": {
+        "save": "Boloka",
+        "username": {
+          "header": "Lebitso la mosebedisi",
+          "successAlert": "Phetoho ea hau e bolokiloe.",
+          "failedAlert": "E hlolehile ho boloka phetoho."
+        },
+        "email": {
+          "header": "Imeile",
+          "successAlert": "Phetoho ea hau e bolokiloe.",
+          "failedAlert": "E hlolehile ho boloka phetoho."
+        }
+      },
+      "languages": "Lipuo",
+      "signIn": "Kena",
+      "signOut": "Tsoa ho Ak'haonte",
+      "legal": "Molao",
+      "termsConditions": "Lipehelo le Maemo",
+      "privacyPolicy": "leano la Lekunutu",
+      "support": "Ts'ehetso",
+      "reportAProblem": "Tlaleha bothata",
+      "tutorial": "Thupelo",
+      "reportBug": {
+        "header": "Tlaleha bothata",
+        "send": "Romella",
+        "subject": "SEHLOOHO",
+        "subjectPlaceHolder": "Sehlooho",
+        "description": "TLHALOSO MOLIMO",
+        "descriptionPlaceHolder": "Tlhaloso",
+        "successAlert": "Kea leboha, re amohetse molaetsa oa hau.",
+        "failedAlert": "E hlolehile ho romella molaetsa."
+      },
+      "version": "Mofuta"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Bapala Audio",
+      "storage": "Polokelo",
+      "downloadWifi": "Khoasolla feela ho Wi-fi",
+      "deleteCache": "Tlosa Cache"
+    },
+    "notifications": {
+      "notifications": "Litsebiso",
+      "groupInvitation": "Memo ea Sehlopha",
+      "devotions": "Mema ho Litlamo",
+      "file": "Netefatso ea Phetiso ea Faele"
+    }
+  },
+  "inviteUsers": { "header": "Mema Basebelisi" },
+  "playlist": {
+    "header": "Lenane la lipina",
+    "audioFileLabel": "Faele ea Audio",
+    "audioFilesLabel": "Lifaele tsa Audio"
+  },
+  "collection": { "header": "Pokello", "audioFilesLabel": "Lifaele tsa Audio" },
+  "modal": {
+    "close": "haufi",
+    "addToPlaylist": { "title": "Kenya lenaneng", "button": "Theha lenane la lipina" },
+    "startDevotion": { "title": "Qala Boinehelo" },
+    "createPlaylist": {
+      "title": "Theha lenane le lecha la lipina",
+      "button": "Theha lenane la lipina",
+      "inputPlaceholder": "Kenya Lebitso la Lenane la Lipina",
+      "success": "E kentsoe lenaneng la lipina"
+    },
+    "login": "U hloka ho kena ho qala boinehelo"
+  },
+  "options": {
+    "shared": {
+      "share": "Arolelana",
+      "report": "Tlaleha Litaba",
+      "shareOthers": "Abelana le ba bang",
+      "copy": "Kopitsa Khokahano",
+      "more": "Hape"
+    },
+    "audio": {
+      "download": "Khoasolla",
+      "addFavorite": "Kenya ho li ratang",
+      "addPlaylist": "Kenya lenaneng",
+      "removeFavorite": "Tlosa ho tseo u li ratang",
+      "removePlaylist": "Tlosa lenaneng la lipina",
+      "removeDownload": "Tlosa ho tse jarollotsoeng"
+    },
+    "playlist": { "edit": "Edita", "delete": "Hlakola lenane la lipina" },
+    "startDevotion": "Qala Boinehelo"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "E kentsoe lenaneng la lipina",
+      "delete": "E tlositsoe lenaneng la lipina",
+      "create": "Entsoe Playlist",
+      "destroy": "Lenane la dipina le phumutsweng"
+    },
+    "favorites": { "add": "E kentsoe ho tseo u li ratang", "remove": "E tlositsoe ho li ratang" },
+    "downloads": { "remove": "E tlositsoe ho tse jarollotsoeng" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Khutsa" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Batla ..." },
+    "notification": { "success": "Katleho! Imeile e tla romelloa akhaonteng ea hau." },
+    "button": { "sending": "E ea romella ..." },
+    "modalSelector": { "cancel": "Hlakola" },
+    "loading": "Loading"
+  },
+  "bible": {
+    "header": "Bibele",
+    "oldTestament": "Testamente ea Khale",
+    "newTestament": "Testamente e Ncha",
+    "popularBooks": "Libuka tse tummeng"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Batla",
+    "cancelButton": "KANETSA",
+    "searchResults": "Liphetho tsa Patlo",
+    "filterButton": "Sefa",
+    "teachings": { "title": "Lithuto" },
+    "bible": { "title": "Bibele" }
+  },
+  "addToPlaylistsModal": { "title": "Kenya lenaneng", "button": "Theha lenane la lipina" },
+  "createPlaylistModal": {
+    "title": "Theha lenane le lecha la lipina",
+    "button": "Theha lenane la lipina",
+    "inputPlaceholder": "Kenya Lebitso la Lenane la Lipina"
+  },
+  "alert": {
+    "playlists": {
+      "add": "E kentsoe lenaneng la lipina",
+      "remove": "E tlositsoe lenaneng la lipina",
+      "create": "Entsoe Playlist",
+      "delete": "Lenane la dipina le phumutsweng"
+    },
+    "favorites": { "add": "E kentsoe ho tseo u li ratang", "remove": "E tlositsoe ho li ratang" },
+    "downloads": { "remove": "E tlositsoe ho tse jarollotsoeng" },
+    "facebook": { "loginError": "Ho kena ho hloleha ka phoso" },
+    "google": { "loginError": "Ho kena ho hloleha ka phoso" }
+  },
+  "playlists": { "trackLabel": "Track", "tracksLabel": "Lipina" },
+  "mediaList": { "tracksLabel": "Lipina", "remove": "Tlosa" },
+  "tutorialPage": { "done": "E entsoe", "skip": "Tlola" },
+  "loginModal": { "login": "Kena" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Khoasolla", "complete": "Khoasolla e Felletse" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Ithute Bibele",
+      "subtitle1": "Tsamaea le Bibele eohle le rona, kapa u qale leeto la hao.",
+      "title2": "Mamela 'me u Kopanele",
+      "subtitle2": "Sebapali sa media se u lumella ho kenella ka har'a THRU litaba tsa BIBELE habonolo.",
+      "title3": "Tseba Lithuto",
+      "subtitle3": "Ikakhele ka setotsoana ka Bibeleng ho feta neng kapa neng ka ho supa litšupiso tsa Bibele le ho ruta.",
+      "title4": "Buisanang ka Bibele",
+      "subtitle4": "Ikopanye le sehlopha ho ithuta THRU lithuto tsa BIBELE le lihlooho le ba bang.",
+      "title5": "Khoasolla & arolelana",
+      "subtitle5": "Natefeloa ke ho mamela Lentsoe la Molimo u-ea-ea 'me u le arolelane le metsoalle ea hau.",
+      "title6": "Boloka & Theha",
+      "subtitle6": "Boloka lithuto tseo u li ratang haholo le litemana tsa Bibele kapa u iketsetse lenane la lipina.",
+      "title7": "Boinehelo ba sehlopha",
+      "subtitle7": "Khothaletsoa le ho khothatsoa ke ba bang ka boinehelo ba sehlopha sa letsatsi le letsatsi."
+    },
+    "registerPage": {
+      "noThanks": "Che kea leboha",
+      "haveAccount": "O na le ak'haonte?",
+      "createAccount": "Theha Ak'haonte ea Ka",
+      "title1": "Buisana le ba bang",
+      "subtitle1": "Buisana le ba bang ka lihlooho tseo u li ratang le litemana tsa bibele.",
+      "title2": "Lethathamo la Lipina tsa Store le Sync",
+      "subtitle2": "Haha lethathamo la lintho tseo u li ratang sebakeng se le seng.",
+      "title3": "Bona li ratang tsa hau",
+      "subtitle3": "Boloka 'me u khutle' me u etele tseo u li ratang hamorao.",
+      "title4": "Rea u amohela hape",
+      "subtitle4": "Theha ak'haonte 'me u fihlelle litšobotsi tsohle tsa rona."
+    }
+  },
+  "app": {
+    "close": "haufi",
+    "accept": "Amohela",
+    "reject": "Hana",
+    "constructionInProgress": "KAHO TSOELA-PELE",
+    "downloadComplete": "Khoasolla e Felletse",
+    "downloading": "Khoasolla",
+    "downloadFailed": "Khoasolla e hlotsoe",
+    "sendAFile": "Motho e Mong o Batla ho U Romella Faele"
+  },
+  "transferring": { "tryAgain": "leka hape", "close": "haufi" },
+  "checkDevice": {
+    "check": "Lekola Sesebelisoa sa Hau",
+    "makeSure": "Ka kopo netefatsa hore Wifi-Direct e laoloa sesebelisoa sa motsoalle oa hau 'me e maemong.",
+    "continue": "Tsoela pele"
+  },
+  "connectToDevice": { "connect": "Hokela ho sesebelisoa" },
+  "pairing": {
+    "connect": "Hokela ho sesebelisoa",
+    "pairing": "Ho kopanya",
+    "success": "Li kopantsoe ka katleho",
+    "failed": "Pairing ea Sesebelisoa e Hlotsoe",
+    "makeSure": "Ka kopo netefatsa hore (Wifi-Direct) e laoloa sesebelisoa sa motsoalle oa hau 'me e maemong.",
+    "continue": "Tsoela pele",
+    "tryAgain": "Leka hape"
+  },
+  "selectNetworkType": {
+    "connect": "Hokela sesebelisoa",
+    "share": "Abelana le Wifi Direct",
+    "send": "Romella faele ka wifi ka kotloloho?",
+    "continue": "Tsoela pele"
+  }
+}

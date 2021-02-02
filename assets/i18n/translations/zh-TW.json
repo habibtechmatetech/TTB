@@ -1,0 +1,377 @@
+{
+  "selectLanguage": { "heading": "選擇您當前的語言", "mainAction": "選擇語言" },
+  "menu": {
+    "anonymousTitle": "你的帳戶",
+    "anonymousAction": "登錄",
+    "editProfileAction": "編輯個人資料",
+    "verifyProfileAction": "驗證個人資料",
+    "bibleSection": "聖經",
+    "teachingsSection": "教s",
+    "librarySection": "我的圖書館",
+    "groupsSection": "團體",
+    "donateSection": "捐",
+    "settingsSection": "設定值",
+    "signOut": "登出",
+    "modals": {
+      "verifyProfile": {
+        "title": "您尚未驗證",
+        "message": "您的列表將不會同步，並且您無法創建組。 請檢查您的電子郵件以完成註冊。",
+        "firstButton": "繼續",
+        "secondButton": "註冊一個新的個人資料"
+      }
+    }
+  },
+  "signIn": {
+    "header": "登入",
+    "emailPlaceholder": "你的郵件",
+    "passwordPlaceholder": "你的密碼",
+    "forgotAction": "忘記密碼？",
+    "callToAction": "登入",
+    "signInAlternatives": "或使用登錄",
+    "noAccountAction": "沒有賬號？ 創建一個",
+    "notifications": {
+      "invalidCredentials": "無效證件",
+      "inProgress": "登錄已在進行中",
+      "notAvailable": "無法使用播放服務"
+    }
+  },
+  "signUp": {
+    "header": "創建帳號",
+    "emailPlaceholder": "你的郵件",
+    "passwordPlaceholder": "你的密碼",
+    "privateAction": "將帳戶設為私人",
+    "termsDisclaimer": { "pre": "點擊註冊，即表示您已閱讀並同意", "terms": "條款", "post": "。" },
+    "callToAction": "註冊",
+    "signUpAlternatives": "或使用",
+    "haveAnAccountAction": "有一個賬戶？",
+    "notifications": {
+      "invalidUsername": "用戶名限制為20個字母數字字符（數字和常規字母）",
+      "invalidPassword": "密碼至少應包含3個字符，並且由大小寫字符以及至少一個數字或特殊字符組成"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "無法建立帳戶",
+        "message": "該電子郵件地址已經存在。",
+        "firstButton": "登入",
+        "secondButton": "關"
+      },
+      "privateAccount": {
+        "title": "私人賬戶",
+        "message": "通過將您的帳戶設為私有，您可以隱藏自己的帳戶，以免他人發現。",
+        "firstButton": "接受",
+        "secondButton": "下降"
+      },
+      "success": {
+        "title": "帳戶已創建！",
+        "message": "您的帳戶已成功創建。 檢查您的收件箱以確認您的帳戶並登錄。",
+        "firstButton": "登入"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "重設密碼",
+    "emailPlaceholder": "你的郵件",
+    "message": "請輸入您的電子郵件以重置您的帳戶密碼。",
+    "callToAction": "重設密碼",
+    "notifications": {
+      "success": "我們剛剛向您的收件箱發送了一封電子郵件",
+      "emailNotFoundError": "找不到電子郵件",
+      "invalidEmailError": "無效的電子郵件格式"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "完成設置",
+    "message": "電子郵件已發送到您輸入的電子郵件地址。 請查看電子郵件詳細信息以完成註冊。",
+    "callToAction": "立即跳過"
+  },
+  "teachings": {
+    "dailyText": "今天的廣播",
+    "journeyTitle": "開始您的旅程",
+    "journeySubtitle": "從頭到尾的所有教導",
+    "journeyCardTitle": "215周聖經之旅",
+    "journeyCardSubtitle": "聽你的時間",
+    "tracksLabel": "曲目"
+  },
+  "teaching": {
+    "header": "教s",
+    "loading": "載入中...",
+    "player": { "audioSpeed": "音速", "loading": "載入中", "castingError": "沒有可用的設備" },
+    "modals": { "firstTime": { "firstButton": "繼續聽", "secondButton": "開始你的旅程" } }
+  },
+  "journey": { "byDate": "按日期", "bySeries": "按系列", "sections": { "tracksLabel": "曲目" } },
+  "library": {
+    "header": "我的圖書館",
+    "tabs": { "downloads": "資料下載", "favorites": "收藏夾", "playlists": "播放清單" }
+  },
+  "groups": {
+    "header": "團體",
+    "createGroup": {
+      "title": "建立新群組",
+      "groupNameLabel": "組的名字",
+      "groupNameInputPlaceHolder": "名稱",
+      "descriptionLabel": "描述",
+      "descriptionInputPlaceHolder": "添加說明",
+      "inviteLabel": "邀請用戶",
+      "inviteButton": "邀請新用戶",
+      "button": "創建組",
+      "invalidGroupName": "輸入一個有效的名字",
+      "groupNameTooLong": "群組名稱不得超過25個字符"
+    },
+    "devotionNotStartAlert": "該小組尚未開始奉獻",
+    "membersLabel": "會員",
+    "chatModalMemberSubtitleLabel": "會員",
+    "chatModalMembersSubtitleLabel": "成員",
+    "chat": {
+      "listeningToLabel": "聽",
+      "loadingTrackLabel": "正在載入曲目...",
+      "inputPlaceHolder": "寫信息",
+      "deletePost": "刪除帖子",
+      "deleteMessage": "已刪除一條消息"
+    },
+    "groupSettings": {
+      "participantsSection": "參加者",
+      "viewAll": "查看全部",
+      "invite": "邀請新用戶",
+      "endDevotion": "端組投入",
+      "deleteGroup": "刪除群組",
+      "leaveGroup": "離開組"
+    },
+    "userDirectory": {
+      "header": "用戶目錄",
+      "remove": "去掉",
+      "anonymous": "匿名",
+      "send": "發送"
+    },
+    "inviteUser": { "placeHolder": "搜索", "send": "發送" }
+  },
+  "chat": {
+    "header": "小組頻道",
+    "settings": {
+      "header": "組設置",
+      "endDevotion": {
+        "alertTitle": "獻身",
+        "alertMessage": "您確定要結束這種奉獻嗎？",
+        "alertCancel": "取消",
+        "alertConfirm": "是",
+        "endDevotionLabel": "結束了這個奉獻。",
+        "hasEnded": "這種奉獻已經結束"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "開始奉獻",
+    "alertMessage": "您確定要從％{name}組開始奉獻嗎？",
+    "alertCancel": "取消",
+    "alertConfirm": "是",
+    "devotionStartedLabel": "開始了虔誠。"
+  },
+  "settings": {
+    "header": "設定值",
+    "tabs": { "profile": "個人資料", "media": "媒體", "notifications": "通知事項" },
+    "profile": {
+      "account": "帳戶",
+      "username": "用戶名",
+      "email": "電子郵件",
+      "editButton": "編輯",
+      "edit": {
+        "save": "救",
+        "username": {
+          "header": "用戶名",
+          "successAlert": "您的更改已保存。",
+          "failedAlert": "無法保存更改。"
+        },
+        "email": {
+          "header": "電子郵件",
+          "successAlert": "您的更改已保存。",
+          "failedAlert": "無法保存更改。"
+        }
+      },
+      "languages": "語言能力",
+      "signIn": "登入",
+      "signOut": "登出帳戶",
+      "legal": "法律",
+      "termsConditions": "條款及細則",
+      "privacyPolicy": "隱私政策",
+      "support": "支持",
+      "reportAProblem": "報告一個問題",
+      "tutorial": "講解",
+      "reportBug": {
+        "header": "報告一個問題",
+        "send": "發送",
+        "subject": "學科",
+        "subjectPlaceHolder": "學科",
+        "description": "描述",
+        "descriptionPlaceHolder": "描述",
+        "successAlert": "謝謝，我們已經收到您的消息。",
+        "failedAlert": "無法發送消息。"
+      },
+      "version": "版"
+    },
+    "media": {
+      "audio": "音訊",
+      "autoplay": "自動播放音頻",
+      "storage": "存儲",
+      "downloadWifi": "僅在Wi-fi上下載",
+      "deleteCache": "刪除緩存"
+    },
+    "notifications": {
+      "notifications": "通知事項",
+      "groupInvitation": "團體邀請",
+      "devotions": "邀請奉獻",
+      "file": "文件傳輸確認"
+    }
+  },
+  "inviteUsers": { "header": "邀請用戶" },
+  "playlist": { "header": "播放清單", "audioFileLabel": "音頻文件", "audioFilesLabel": "音頻文件" },
+  "collection": { "header": "採集", "audioFilesLabel": "音頻文件" },
+  "modal": {
+    "close": "關",
+    "addToPlaylist": { "title": "添加到播放列表", "button": "建立播放清單" },
+    "startDevotion": { "title": "開始奉獻" },
+    "createPlaylist": {
+      "title": "建立新的播放清單",
+      "button": "建立播放清單",
+      "inputPlaceholder": "輸入播放列表名稱",
+      "success": "已添加到播放列表"
+    },
+    "login": "您需要登錄才能開始"
+  },
+  "options": {
+    "shared": {
+      "share": "分享",
+      "report": "報告內容",
+      "shareOthers": "與他人分享",
+      "copy": "複製鏈接",
+      "more": "更多"
+    },
+    "audio": {
+      "download": "下載",
+      "addFavorite": "添加到收藏夾",
+      "addPlaylist": "添加到播放列表",
+      "removeFavorite": "從收藏夾中刪除",
+      "removePlaylist": "從播放列表中刪除",
+      "removeDownload": "從下載中刪除"
+    },
+    "playlist": { "edit": "編輯", "delete": "刪除播放列表" },
+    "startDevotion": "開始奉獻"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "已添加到播放列表",
+      "delete": "從播放列表中刪除",
+      "create": "創建的播放列表",
+      "destroy": "刪除的播放列表"
+    },
+    "favorites": { "add": "添加到收藏夾", "remove": "從收藏夾中刪除" },
+    "downloads": { "remove": "從下載中刪除" }
+  },
+  "buttons": { "loop": "循環", "shuffle": "隨機播放" },
+  "uiControls": {
+    "searchBox": { "placeholder": "搜索..." },
+    "notification": { "success": "成功！ 電子郵件將發送到您的帳戶。" },
+    "button": { "sending": "正在發送..." },
+    "modalSelector": { "cancel": "取消" },
+    "loading": "載入中"
+  },
+  "bible": {
+    "header": "聖經",
+    "oldTestament": "舊約",
+    "newTestament": "新約",
+    "popularBooks": "熱門書籍"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "搜索",
+    "cancelButton": "取消",
+    "searchResults": "搜索結果",
+    "filterButton": "過濾",
+    "teachings": { "title": "教s" },
+    "bible": { "title": "聖經" }
+  },
+  "addToPlaylistsModal": { "title": "添加到播放列表", "button": "建立播放清單" },
+  "createPlaylistModal": {
+    "title": "建立新的播放清單",
+    "button": "建立播放清單",
+    "inputPlaceholder": "輸入播放列表名稱"
+  },
+  "alert": {
+    "playlists": {
+      "add": "已添加到播放列表",
+      "remove": "從播放列表中刪除",
+      "create": "創建的播放列表",
+      "delete": "刪除的播放列表"
+    },
+    "favorites": { "add": "添加到收藏夾", "remove": "從收藏夾中刪除" },
+    "downloads": { "remove": "從下載中刪除" },
+    "facebook": { "loginError": "登錄失敗並出現錯誤" },
+    "google": { "loginError": "登錄失敗並出現錯誤" }
+  },
+  "playlists": { "trackLabel": "跟踪", "tracksLabel": "曲目" },
+  "mediaList": { "tracksLabel": "曲目", "remove": "去掉" },
+  "tutorialPage": { "done": "完成了", "skip": "跳躍" },
+  "loginModal": { "login": "登錄" },
+  "shareModal": { "facebook": "臉書", "twitter": "推特", "whatsapp": "WhatsApp的" },
+  "downloadModal": { "downloading": "正在下載", "complete": "下載完成" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "探索聖經",
+      "subtitle1": "與我們一起閱讀整本聖經，或者開始自己的旅程。",
+      "title2": "傾聽和參與",
+      "subtitle2": "媒體播放器使您可以輕鬆瀏覽“聖經”內容。",
+      "title3": "探索教義",
+      "subtitle3": "通過交叉引用聖經和教學內容，以前所未有的方式參與聖經。",
+      "title4": "討論聖經",
+      "subtitle4": "加入一個小組，與他人一起學習通透聖經的教義和主題。",
+      "title5": "下載與分享",
+      "subtitle5": "隨時隨地享受神的道，並與您的朋友分享。",
+      "title6": "保存並創建",
+      "subtitle6": "保存您最喜歡的教義和聖經經文，或創建自定義播放列表。",
+      "title7": "團體奉獻",
+      "subtitle7": "每天由小組奉獻，受到他人的鼓勵和啟發。"
+    },
+    "registerPage": {
+      "noThanks": "不用了，謝謝",
+      "haveAccount": "有一個賬戶？",
+      "createAccount": "創建我的賬戶",
+      "title1": "與他人討論",
+      "subtitle1": "與他人討論您最喜歡的主題和聖經經文。",
+      "title2": "存儲和同步播放列表",
+      "subtitle2": "在一個地方建立您喜歡的內容的列表。",
+      "title3": "查看您的收藏夾",
+      "subtitle3": "存儲並稍後再訪問您的收藏夾。",
+      "title4": "歡迎回來",
+      "subtitle4": "創建一個帳戶並訪問我們所有的功能。"
+    }
+  },
+  "app": {
+    "close": "關",
+    "accept": "接受",
+    "reject": "拒絕",
+    "constructionInProgress": "在建工程",
+    "downloadComplete": "下載完成",
+    "downloading": "正在下載",
+    "downloadFailed": "下載失敗",
+    "sendAFile": "有人想向您發送文件"
+  },
+  "transferring": { "tryAgain": "再試一次", "close": "關" },
+  "checkDevice": {
+    "check": "檢查您的設備",
+    "makeSure": "請確保Wifi-Direct已打開您朋友的設備並且在範圍內。",
+    "continue": "繼續"
+  },
+  "connectToDevice": { "connect": "連接到設備" },
+  "pairing": {
+    "connect": "連接到設備",
+    "pairing": "配對",
+    "success": "成功配對",
+    "failed": "設備配對失敗",
+    "makeSure": "請確保（Wifi-Direct）已打開您朋友的設備並且在範圍內。",
+    "continue": "繼續",
+    "tryAgain": "再試一次"
+  },
+  "selectNetworkType": {
+    "connect": "連接到設備",
+    "share": "與Wifi Direct分享",
+    "send": "通過wifi直接發送文件？",
+    "continue": "繼續"
+  }
+}

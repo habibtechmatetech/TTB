@@ -1,0 +1,415 @@
+{
+  "selectLanguage": {
+    "heading": "Seleccioneu el vostre idioma actual",
+    "mainAction": "Seleccionar idioma"
+  },
+  "menu": {
+    "anonymousTitle": "El teu compte",
+    "anonymousAction": "iniciar Sessió",
+    "editProfileAction": "Edita el perfil",
+    "verifyProfileAction": "Verifiqueu el perfil",
+    "bibleSection": "Bíblia",
+    "teachingsSection": "Ensenyaments",
+    "librarySection": "La meva biblioteca",
+    "groupsSection": "Grups",
+    "donateSection": "Donar",
+    "settingsSection": "Configuració",
+    "signOut": "Tanca sessió",
+    "modals": {
+      "verifyProfile": {
+        "title": "No esteu verificat",
+        "message": "Les vostres llistes no se sincronitzaran i no podeu crear grups. Consulteu el vostre correu electrònic per completar el registre.",
+        "firstButton": "Continua",
+        "secondButton": "Registra un perfil nou"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Inicieu la sessió",
+    "emailPlaceholder": "El teu email",
+    "passwordPlaceholder": "La teva contrasenya",
+    "forgotAction": "Has oblidat la contrasenya?",
+    "callToAction": "Inicieu la sessió",
+    "signInAlternatives": "O inicieu la sessió amb",
+    "noAccountAction": "Cap compte? Creeu-ne un",
+    "notifications": {
+      "invalidCredentials": "Credencials no vàlides",
+      "inProgress": "Inicieu la sessió ja en curs",
+      "notAvailable": "Els serveis de reproducció no estan disponibles"
+    }
+  },
+  "signUp": {
+    "header": "Crear compte",
+    "emailPlaceholder": "El teu email",
+    "passwordPlaceholder": "La teva contrasenya",
+    "privateAction": "Feu que el compte sigui privat",
+    "termsDisclaimer": {
+      "pre": "En fer clic a Registre, indiqueu que heu llegit i que esteu d'acord",
+      "terms": "els termes",
+      "post": "."
+    },
+    "callToAction": "Registra't",
+    "signUpAlternatives": "O registreu-vos mitjançant",
+    "haveAnAccountAction": "Ja tens un compte?",
+    "notifications": {
+      "invalidUsername": "Els noms d'usuari estan limitats a 20 caràcters alfanumèrics (números i lletres regulars)",
+      "invalidPassword": "La contrasenya ha de tenir com a mínim 3 caràcters i ha de ser una combinació de majúscules i minúscules amb almenys un número o un caràcter especial"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "No es pot crear un compte",
+        "message": "Aquesta adreça de correu electrònic ja existeix.",
+        "firstButton": "Inicieu la sessió",
+        "secondButton": "Tanca"
+      },
+      "privateAccount": {
+        "title": "Compte privat",
+        "message": "En fer el vostre compte privat, l’amagareu perquè altres persones no el descobrin.",
+        "firstButton": "Accepta",
+        "secondButton": "Declinació"
+      },
+      "success": {
+        "title": "Compte creat",
+        "message": "El vostre compte s'ha creat correctament. Consulteu la safata d'entrada per confirmar el compte i inicieu la sessió.",
+        "firstButton": "Inicieu la sessió"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Restablir la contrasenya",
+    "emailPlaceholder": "El teu email",
+    "message": "Introduïu el vostre correu electrònic per restablir la contrasenya del vostre compte.",
+    "callToAction": "Restablir la contrasenya",
+    "notifications": {
+      "success": "Acabem d’enviar un correu electrònic a la safata d’entrada",
+      "emailNotFoundError": "No s'ha trobat el correu electrònic",
+      "invalidEmailError": "El format de correu electrònic no és vàlid"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Finalitza la configuració",
+    "message": "S'ha enviat un correu electrònic a l'adreça de correu electrònic que heu introduït. Consulteu els detalls del correu electrònic per completar el registre.",
+    "callToAction": "Omet ara"
+  },
+  "teachings": {
+    "dailyText": "Emissió d’avui",
+    "journeyTitle": "Comenceu el vostre viatge",
+    "journeySubtitle": "Tots els ensenyaments de principi a fi",
+    "journeyCardTitle": "Viatge de 215 setmanes per la Bíblia",
+    "journeyCardSubtitle": "Escolta el teu temps",
+    "tracksLabel": "Pistes"
+  },
+  "teaching": {
+    "header": "Ensenyaments",
+    "loading": "S'està carregant ...",
+    "player": {
+      "audioSpeed": "Velocitat d'àudio",
+      "loading": "S'està carregant",
+      "castingError": "No hi ha dispositius disponibles"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Continua escoltant",
+        "secondButton": "Comenceu el vostre viatge"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Per data",
+    "bySeries": "Per sèries",
+    "sections": { "tracksLabel": "Pistes" }
+  },
+  "library": {
+    "header": "La meva biblioteca",
+    "tabs": {
+      "downloads": "Descàrregues",
+      "favorites": "Preferits",
+      "playlists": "Llistes de reproducció"
+    }
+  },
+  "groups": {
+    "header": "Grups",
+    "createGroup": {
+      "title": "Crea un grup nou",
+      "groupNameLabel": "NOM DEL GRUP",
+      "groupNameInputPlaceHolder": "Nom",
+      "descriptionLabel": "DESCRIPCIÓ",
+      "descriptionInputPlaceHolder": "Afegeix una descripció",
+      "inviteLabel": "Convidar usuaris",
+      "inviteButton": "Convidar usuaris nous",
+      "button": "Crea un grup",
+      "invalidGroupName": "Introduïu un nom vàlid",
+      "groupNameTooLong": "El nom del grup no pot contenir més de 25 caràcters"
+    },
+    "devotionNotStartAlert": "No s’ha iniciat cap devoció per a aquest grup",
+    "membersLabel": "Membres",
+    "chatModalMemberSubtitleLabel": "membre",
+    "chatModalMembersSubtitleLabel": "membres",
+    "chat": {
+      "listeningToLabel": "Escoltar",
+      "loadingTrackLabel": "S'està carregant la pista ...",
+      "inputPlaceHolder": "Escriu missatge",
+      "deletePost": "Suprimeix la publicació",
+      "deleteMessage": "ha suprimit un missatge"
+    },
+    "groupSettings": {
+      "participantsSection": "Participants",
+      "viewAll": "Veure tot",
+      "invite": "Convidar usuaris nous",
+      "endDevotion": "Fi de la devoció del grup",
+      "deleteGroup": "Suprimeix el grup",
+      "leaveGroup": "Marxar del grup"
+    },
+    "userDirectory": {
+      "header": "Directori d’usuaris",
+      "remove": "Elimina",
+      "anonymous": "Anònim",
+      "send": "Envia"
+    },
+    "inviteUser": { "placeHolder": "Cerca", "send": "Envia" }
+  },
+  "chat": {
+    "header": "Canal de grup",
+    "settings": {
+      "header": "Configuració del grup",
+      "endDevotion": {
+        "alertTitle": "Acabar amb la devoció",
+        "alertMessage": "Esteu segur que voleu acabar amb aquesta devoció?",
+        "alertCancel": "Cancel · lar",
+        "alertConfirm": "Sí",
+        "endDevotionLabel": "va acabar amb aquesta devoció.",
+        "hasEnded": "Aquesta devoció ha acabat"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Comença la devoció",
+    "alertMessage": "Esteu segur que voleu començar la devoció amb% {name} group?",
+    "alertCancel": "Cancel · lar",
+    "alertConfirm": "Sí",
+    "devotionStartedLabel": "ha començat una devoció."
+  },
+  "settings": {
+    "header": "Configuració",
+    "tabs": {
+      "profile": "Perfil",
+      "media": "Mitjans de comunicació",
+      "notifications": "Notificacions"
+    },
+    "profile": {
+      "account": "Compte",
+      "username": "Nom d'usuari",
+      "email": "Correu electrònic",
+      "editButton": "Edita",
+      "edit": {
+        "save": "Desa",
+        "username": {
+          "header": "Nom d'usuari",
+          "successAlert": "El vostre canvi s'ha desat.",
+          "failedAlert": "No s'ha pogut desar el canvi."
+        },
+        "email": {
+          "header": "Correu electrònic",
+          "successAlert": "El vostre canvi s'ha desat.",
+          "failedAlert": "No s'ha pogut desar el canvi."
+        }
+      },
+      "languages": "Idiomes",
+      "signIn": "Inicieu la sessió",
+      "signOut": "Tanqueu la sessió del compte",
+      "legal": "Legal",
+      "termsConditions": "Termes i Condicions",
+      "privacyPolicy": "Política de privacitat",
+      "support": "Suport",
+      "reportAProblem": "Informar d'un problema",
+      "tutorial": "Tutorial",
+      "reportBug": {
+        "header": "Informar d'un problema",
+        "send": "Envia",
+        "subject": "ASSIGNATURA",
+        "subjectPlaceHolder": "Assignatura",
+        "description": "DESCRIPCIÓ",
+        "descriptionPlaceHolder": "Descripció",
+        "successAlert": "Gràcies, hem rebut el vostre missatge.",
+        "failedAlert": "No s'ha pogut enviar el missatge."
+      },
+      "version": "Versió"
+    },
+    "media": {
+      "audio": "Àudio",
+      "autoplay": "Reproducció automàtica d’àudio",
+      "storage": "Emmagatzematge",
+      "downloadWifi": "Baixeu només amb Wi-Fi",
+      "deleteCache": "Suprimeix la memòria cau"
+    },
+    "notifications": {
+      "notifications": "Notificacions",
+      "groupInvitation": "Invitació de grup",
+      "devotions": "Convidar a devocions",
+      "file": "Confirmació de la transferència de fitxers"
+    }
+  },
+  "inviteUsers": { "header": "Convidar usuaris" },
+  "playlist": {
+    "header": "Llista de reproducció",
+    "audioFileLabel": "Fitxer d’àudio",
+    "audioFilesLabel": "Fitxers d'àudio"
+  },
+  "collection": { "header": "Col · lecció", "audioFilesLabel": "Fitxers d'àudio" },
+  "modal": {
+    "close": "Tanca",
+    "addToPlaylist": {
+      "title": "Afegir a la llista de reproducció",
+      "button": "Crea una llista de reproducció"
+    },
+    "startDevotion": { "title": "Comença la devoció" },
+    "createPlaylist": {
+      "title": "Crea una nova llista de reproducció",
+      "button": "Crea una llista de reproducció",
+      "inputPlaceholder": "Introduïu el nom de la llista de reproducció",
+      "success": "Afegit a la llista de reproducció"
+    },
+    "login": "Cal iniciar sessió per iniciar una devoció"
+  },
+  "options": {
+    "shared": {
+      "share": "Compartir",
+      "report": "Informe de contingut",
+      "shareOthers": "Comparteix amb altres",
+      "copy": "Copia l'enllaç",
+      "more": "Més"
+    },
+    "audio": {
+      "download": "descarregar",
+      "addFavorite": "Afegir a preferits",
+      "addPlaylist": "Afegir a la llista de reproducció",
+      "removeFavorite": "Elimina de Preferits",
+      "removePlaylist": "Elimina de la llista de reproducció",
+      "removeDownload": "Elimina de les baixades"
+    },
+    "playlist": { "edit": "Edita", "delete": "Suprimeix la llista de reproducció" },
+    "startDevotion": "Comença la devoció"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Afegit a la llista de reproducció",
+      "delete": "S'ha suprimit de la llista de reproducció",
+      "create": "Llista de reproducció creada",
+      "destroy": "S'ha suprimit la llista de reproducció"
+    },
+    "favorites": { "add": "Afegit a Favorits", "remove": "Eliminat de Preferits" },
+    "downloads": { "remove": "Eliminat de les baixades" }
+  },
+  "buttons": { "loop": "Bucle", "shuffle": "Barreja" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Cerca..." },
+    "notification": { "success": "Èxit! S’enviarà un correu electrònic al vostre compte." },
+    "button": { "sending": "S'està enviant ..." },
+    "modalSelector": { "cancel": "Cancel · lar" },
+    "loading": "S'està carregant"
+  },
+  "bible": {
+    "header": "Bíblia",
+    "oldTestament": "Antic testament",
+    "newTestament": "Nou Testament",
+    "popularBooks": "Llibres populars"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Cerca",
+    "cancelButton": "CANCEL · LAR",
+    "searchResults": "Resultats de la cerca",
+    "filterButton": "Filtre",
+    "teachings": { "title": "Ensenyaments" },
+    "bible": { "title": "Bíblia" }
+  },
+  "addToPlaylistsModal": {
+    "title": "Afegir a la llista de reproducció",
+    "button": "Crea una llista de reproducció"
+  },
+  "createPlaylistModal": {
+    "title": "Crea una nova llista de reproducció",
+    "button": "Crea una llista de reproducció",
+    "inputPlaceholder": "Introduïu el nom de la llista de reproducció"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Afegit a la llista de reproducció",
+      "remove": "S'ha suprimit de la llista de reproducció",
+      "create": "Llista de reproducció creada",
+      "delete": "S'ha suprimit la llista de reproducció"
+    },
+    "favorites": { "add": "Afegit a Favorits", "remove": "Eliminat de Preferits" },
+    "downloads": { "remove": "Eliminat de les baixades" },
+    "facebook": { "loginError": "Error d’inici de sessió amb error" },
+    "google": { "loginError": "Error d’inici de sessió amb error" }
+  },
+  "playlists": { "trackLabel": "Seguiment", "tracksLabel": "Pistes" },
+  "mediaList": { "tracksLabel": "Pistes", "remove": "Elimina" },
+  "tutorialPage": { "done": "Fet", "skip": "Omet" },
+  "loginModal": { "login": "iniciar Sessió" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "Què tal" },
+  "downloadModal": { "downloading": "S'està descarregant", "complete": "Descàrrega completa" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Exploreu la Bíblia",
+      "subtitle1": "Viatgeu per tota la Bíblia amb nosaltres o comenceu un viatge propi.",
+      "title2": "Escolta i participa",
+      "subtitle2": "El reproductor multimèdia us permet endinsar-vos fàcilment en el contingut de la BIBLIA.",
+      "title3": "Descobreix Ensenyaments",
+      "subtitle3": "Participa a la Bíblia com mai abans fent referències creuades entre el contingut de la Bíblia i l’ensenyament.",
+      "title4": "Discuteix la Bíblia",
+      "subtitle4": "Uniu-vos a un grup per estudiar els temes i les ensenyances BIBLIQUES amb altres persones.",
+      "title5": "Baixa i comparteix",
+      "subtitle5": "Gaudeix escoltant la Paraula de Déu sobre la marxa i comparteix-la amb els teus amics.",
+      "title6": "Desa i crea",
+      "subtitle6": "Deseu els vostres ensenyaments i versos bíblics preferits o creeu una llista de reproducció personalitzada.",
+      "title7": "Devocions grupals",
+      "subtitle7": "Animeu-vos i inspireu-vos per altres persones amb devocionals grupals diaris."
+    },
+    "registerPage": {
+      "noThanks": "No gràcies",
+      "haveAccount": "Ja tens un compte?",
+      "createAccount": "Crear el meu compte",
+      "title1": "Parleu amb altres persones",
+      "subtitle1": "Comenteu els vostres temes i versos bíblics preferits amb altres persones.",
+      "title2": "Emmagatzema i sincronitza llistes de reproducció",
+      "subtitle2": "Feu llistes del vostre contingut preferit en un sol lloc.",
+      "title3": "Vegeu els vostres preferits",
+      "subtitle3": "Emmagatzemeu i torneu a visitar els vostres preferits més endavant.",
+      "title4": "Benvingut de nou",
+      "subtitle4": "Creeu un compte i tingueu accés a totes les nostres funcions."
+    }
+  },
+  "app": {
+    "close": "Tanca",
+    "accept": "Accepta",
+    "reject": "Rebutjar",
+    "constructionInProgress": "CONSTRUCCIÓ EN PROGRÉS",
+    "downloadComplete": "Descàrrega completa",
+    "downloading": "S'està descarregant",
+    "downloadFailed": "S'ha produït un error en baixar",
+    "sendAFile": "Algú us vol enviar un fitxer"
+  },
+  "transferring": { "tryAgain": "torna-ho a provar", "close": "Tanca" },
+  "checkDevice": {
+    "check": "Comproveu el dispositiu",
+    "makeSure": "Assegureu-vos que Wifi-Direct estigui activat al dispositiu del vostre amic i que estigui al seu abast.",
+    "continue": "Continua"
+  },
+  "connectToDevice": { "connect": "Connecteu-vos a un dispositiu" },
+  "pairing": {
+    "connect": "Connecteu-vos a un dispositiu",
+    "pairing": "Emparellament",
+    "success": "Emparellat correctament",
+    "failed": "Error de sincronització del dispositiu",
+    "makeSure": "Assegureu-vos que (Wifi-Direct) estigui activat al dispositiu del vostre amic i que estigui al seu abast.",
+    "continue": "Continua",
+    "tryAgain": "Torna-ho a provar"
+  },
+  "selectNetworkType": {
+    "connect": "Connecteu-vos a un dispositiu",
+    "share": "Comparteix amb Wifi Direct",
+    "send": "Vols enviar directament el fitxer per wifi?",
+    "continue": "Continua"
+  }
+}

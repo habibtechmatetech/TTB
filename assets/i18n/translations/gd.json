@@ -1,0 +1,407 @@
+{
+  "selectLanguage": { "heading": "Tagh do chànan gnàthach", "mainAction": "Tagh Cànan" },
+  "menu": {
+    "anonymousTitle": "Do chunntas",
+    "anonymousAction": "Log a-steach",
+    "editProfileAction": "Deasaich pròifil",
+    "verifyProfileAction": "Dearbhaich pròifil",
+    "bibleSection": "Bìoball",
+    "teachingsSection": "Teagasg",
+    "librarySection": "An Leabharlann agam",
+    "groupsSection": "Buidhnean",
+    "donateSection": "Thoir seachad",
+    "settingsSection": "Suidhichidhean",
+    "signOut": "Soidhnig a-mach",
+    "modals": {
+      "verifyProfile": {
+        "title": "Chan eil thu air do dhearbhadh",
+        "message": "Cha tèid na liostaichean agad a cho-fhilleadh agus chan urrainn dhut buidhnean a chruthachadh. Feuch an toir thu sùil air a ’phost-d agad gus clàradh a chrìochnachadh.",
+        "firstButton": "Lean air adhart",
+        "secondButton": "Clàraich pròifil ùr"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Soidhnig a-steach",
+    "emailPlaceholder": "Do phost-d",
+    "passwordPlaceholder": "Am facal-faire agad",
+    "forgotAction": "An do dhìochuimhnich thu facal-faire?",
+    "callToAction": "Soidhnig a-steach",
+    "signInAlternatives": "No Clàraich a-steach a ’cleachdadh",
+    "noAccountAction": "Gun chunntas? Cruthaich aon",
+    "notifications": {
+      "invalidCredentials": "Teisteanasan mì-dhligheach",
+      "inProgress": "Clàraich a-steach mu thràth",
+      "notAvailable": "Seirbheisean cluich nach eil rim faighinn"
+    }
+  },
+  "signUp": {
+    "header": "Cruthaich cunntas",
+    "emailPlaceholder": "Do phost-d",
+    "passwordPlaceholder": "Am facal-faire agad",
+    "privateAction": "Dèan cunntas prìobhaideach",
+    "termsDisclaimer": {
+      "pre": "Le bhith a ’briogadh Signup tha thu a’ nochdadh gu bheil thu air leughadh agus ag aontachadh",
+      "terms": "na cumhachan",
+      "post": "."
+    },
+    "callToAction": "Cuir d'ainm ris",
+    "signUpAlternatives": "No Clàraich le bhith a ’cleachdadh",
+    "haveAnAccountAction": "A bheil cunntas agad?",
+    "notifications": {
+      "invalidUsername": "Tha ainmean-cleachdaidh cuibhrichte gu 20 caractar alphanumeric (àireamhan agus litrichean cunbhalach)",
+      "invalidPassword": "Bu chòir co-dhiù 3 caractaran a bhith ann am facal-faire agus a bhith na mheasgachadh de charactaran àrd is ìosal le co-dhiù aon àireamh no caractar sònraichte"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Cha ghabh cunntas a chruthachadh",
+        "message": "Tha an seòladh puist-d seo ann mu thràth.",
+        "firstButton": "Soidhnig a-steach",
+        "secondButton": "Dùin"
+      },
+      "privateAccount": {
+        "title": "Cunntas Prìobhaideach",
+        "message": "Le bhith a ’dèanamh do chunntas prìobhaideach, tha thu ga fhalach bho bhith air a lorg le feadhainn eile.",
+        "firstButton": "Gabhail",
+        "secondButton": "Crìonadh"
+      },
+      "success": {
+        "title": "Cunntas air a chruthachadh!",
+        "message": "Chaidh do chunntas a chruthachadh gu soirbheachail. Thoir sùil air a ’bhogsa a-steach agad gus do chunntas a dhearbhadh agus log a-steach.",
+        "firstButton": "Soidhnig a-steach"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Ath-shuidheachadh facal-faire",
+    "emailPlaceholder": "Do phost-d",
+    "message": "Cuir a-steach am post-d agad gus am facal-faire agad ath-shuidheachadh airson do chunntas.",
+    "callToAction": "Ath-shuidheachadh facal-faire",
+    "notifications": {
+      "success": "Chuir sinn dìreach post-d chun bhogsa a-steach agad",
+      "emailNotFoundError": "Cha deach post-d a lorg",
+      "invalidEmailError": "Cruth post-d neo-dhligheach"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Crìochnaich rèiteachadh",
+    "message": "Chaidh post-d a chuir chun t-seòladh post-d a chuir thu a-steach. Feuch an toir thu sùil air mion-fhiosrachadh post-d gus clàradh a chrìochnachadh.",
+    "callToAction": "Thoir leum airson a-nis"
+  },
+  "teachings": {
+    "dailyText": "Craoladh an-diugh",
+    "journeyTitle": "Tòisich air do thuras",
+    "journeySubtitle": "A h-uile teagasg bho thoiseach gu deireadh",
+    "journeyCardTitle": "Turas 215 seachdain tron ​​Bhìoball",
+    "journeyCardSubtitle": "Èist air an ùine agad",
+    "tracksLabel": "Ceòl"
+  },
+  "teaching": {
+    "header": "Teagasg",
+    "loading": "A ’luchdachadh ...",
+    "player": {
+      "audioSpeed": "Astar claisneachd",
+      "loading": "A ’luchdachadh",
+      "castingError": "Chan eil innealan ri fhaighinn"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Lean air adhart ag èisteachd",
+        "secondButton": "Tòisich air do thuras"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Ro cheann-latha",
+    "bySeries": "Le Sreath",
+    "sections": { "tracksLabel": "Ceòl" }
+  },
+  "library": {
+    "header": "An Leabharlann agam",
+    "tabs": { "downloads": "Luchdaich sìos", "favorites": "Favorites", "playlists": "Playlists" }
+  },
+  "groups": {
+    "header": "Buidhnean",
+    "createGroup": {
+      "title": "Cruthaich Buidheann Ùr",
+      "groupNameLabel": "AINM A ’BHUIDHE",
+      "groupNameInputPlaceHolder": "Ainm",
+      "descriptionLabel": "TUIREADH",
+      "descriptionInputPlaceHolder": "Cuir Tuairisgeul ris",
+      "inviteLabel": "Thoir cuireadh do luchd-cleachdaidh",
+      "inviteButton": "Thoir cuireadh do luchd-cleachdaidh ùr",
+      "button": "Cruthaich Buidheann",
+      "invalidGroupName": "Cuir a-steach ainm dligheach",
+      "groupNameTooLong": "Chan fhaod barrachd air 25 caractar a bhith ann an ainm na buidhne"
+    },
+    "devotionNotStartAlert": "Chan eil diadhachd air tòiseachadh airson a ’bhuidheann seo",
+    "membersLabel": "Buill",
+    "chatModalMemberSubtitleLabel": "ball",
+    "chatModalMembersSubtitleLabel": "buill",
+    "chat": {
+      "listeningToLabel": "Ag èisteachd ri",
+      "loadingTrackLabel": "A ’luchdachadh slighe ...",
+      "inputPlaceHolder": "Sgrìobh Teachdaireachd",
+      "deletePost": "Cuir às do phost",
+      "deleteMessage": "air teachdaireachd a dhubhadh às"
+    },
+    "groupSettings": {
+      "participantsSection": "Com-pàirtichean",
+      "viewAll": "Faic na h-uile",
+      "invite": "Thoir cuireadh do luchd-cleachdaidh ùr",
+      "endDevotion": "Tiomnadh Buidheann Deireadh",
+      "deleteGroup": "Cuir às do bhuidheann",
+      "leaveGroup": "Buidheann Fàg"
+    },
+    "userDirectory": {
+      "header": "Directory cleachdaiche",
+      "remove": "Thoir air falbh",
+      "anonymous": "Gun urra",
+      "send": "Cuir"
+    },
+    "inviteUser": { "placeHolder": "Rannsaich", "send": "Cuir" }
+  },
+  "chat": {
+    "header": "Sianal buidhne",
+    "settings": {
+      "header": "Suidhichidhean buidhne",
+      "endDevotion": {
+        "alertTitle": "Cuir crìoch air tiomnadh",
+        "alertMessage": "A bheil thu cinnteach gu bheil thu airson crìoch a chuir air an dànachd seo?",
+        "alertCancel": "Sguir dheth",
+        "alertConfirm": "Tha",
+        "endDevotionLabel": "chuir e crìoch air an diadhachd seo.",
+        "hasEnded": "Tha an diadhachd seo air tighinn gu crìch"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Tòisich Devotion",
+    "alertMessage": "A bheil thu cinnteach gu bheil thu airson tòiseachadh air diadhachd le buidheann% {name}?",
+    "alertCancel": "Sguir dheth",
+    "alertConfirm": "Tha",
+    "devotionStartedLabel": "air tòiseachadh diadhachd."
+  },
+  "settings": {
+    "header": "Suidhichidhean",
+    "tabs": { "profile": "Pròifil", "media": "Meadhanan", "notifications": "Brathan" },
+    "profile": {
+      "account": "Cunntas",
+      "username": "Ainm-cleachdaidh",
+      "email": "Post-d",
+      "editButton": "Deasaich",
+      "edit": {
+        "save": "Sàbhail",
+        "username": {
+          "header": "Ainm-cleachdaidh",
+          "successAlert": "Chaidh an t-atharrachadh agad a shàbhaladh.",
+          "failedAlert": "Dh ’fhàillig an t-atharrachadh a shàbhaladh."
+        },
+        "email": {
+          "header": "Post-d",
+          "successAlert": "Chaidh an t-atharrachadh agad a shàbhaladh.",
+          "failedAlert": "Dh'fhàillig an atharrachadh a shàbhaladh."
+        }
+      },
+      "languages": "Cànanan",
+      "signIn": "Soidhnig a-steach",
+      "signOut": "Clàraich a-mach às a ’chunntas",
+      "legal": "Laghail",
+      "termsConditions": "Cumhachan is Cùmhnantan",
+      "privacyPolicy": "Poileasaidh Dìomhaireachd",
+      "support": "Taic",
+      "reportAProblem": "Dèan aithris air duilgheadas",
+      "tutorial": "Oideachadh",
+      "reportBug": {
+        "header": "Dèan aithris air duilgheadas",
+        "send": "Cuir",
+        "subject": "URNUIGH",
+        "subjectPlaceHolder": "Cuspair",
+        "description": "TUIREADH",
+        "descriptionPlaceHolder": "Tuairisgeul",
+        "successAlert": "Tapadh leibh, tha sinn air do theachdaireachd fhaighinn.",
+        "failedAlert": "Dh ’fhàillig an teachdaireachd a chuir."
+      },
+      "version": "Tionndadh"
+    },
+    "media": {
+      "audio": "Fuaim",
+      "autoplay": "Fuaim autoplay",
+      "storage": "Stòradh",
+      "downloadWifi": "Luchdaich sìos a-mhàin air Wi-fi",
+      "deleteCache": "Cuir às do Cache"
+    },
+    "notifications": {
+      "notifications": "Brathan",
+      "groupInvitation": "Cuireadh buidhne",
+      "devotions": "Thoir cuireadh do dhiathan",
+      "file": "Dearbhadh gluasad faidhle"
+    }
+  },
+  "inviteUsers": { "header": "Thoir cuireadh do luchd-cleachdaidh" },
+  "playlist": {
+    "header": "Liosta-cluiche",
+    "audioFileLabel": "Faidhle claisneachd",
+    "audioFilesLabel": "Faidhlichean claisneachd"
+  },
+  "collection": { "header": "Cruinneachadh", "audioFilesLabel": "Faidhlichean claisneachd" },
+  "modal": {
+    "close": "dlùth",
+    "addToPlaylist": { "title": "Cuir ri liosta-cluiche", "button": "Cruthaich Liosta-cluiche" },
+    "startDevotion": { "title": "Tòisich Devotion" },
+    "createPlaylist": {
+      "title": "Cruthaich Liosta-cluiche Ùr",
+      "button": "Cruthaich Liosta-cluiche",
+      "inputPlaceholder": "Cuir a-steach ainm liosta-cluiche",
+      "success": "Air a chur ris an liosta-cluiche"
+    },
+    "login": "Feumaidh tu logadh a-steach gus tòiseachadh air diadhachd"
+  },
+  "options": {
+    "shared": {
+      "share": "Co-roinn",
+      "report": "Dèan aithris air susbaint",
+      "shareOthers": "Co-roinn le càch",
+      "copy": "Dèan lethbhreac den cheangal",
+      "more": "Barrachd"
+    },
+    "audio": {
+      "download": "Luchdaich sìos",
+      "addFavorite": "Cuir ri Favorites",
+      "addPlaylist": "Cuir ri liosta-cluiche",
+      "removeFavorite": "Thoir air falbh bho Favorites",
+      "removePlaylist": "Thoir air falbh bhon Liosta-cluiche",
+      "removeDownload": "Thoir air falbh bho luchdachadh sìos"
+    },
+    "playlist": { "edit": "Deasaich", "delete": "Cuir às do Liosta-cluiche" },
+    "startDevotion": "Tòisich Devotion"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Air a chur ris an liosta-cluiche",
+      "delete": "Air a thoirt air falbh bho Liosta-cluiche",
+      "create": "Liosta-cluiche cruthaichte",
+      "destroy": "Liosta-cluiche air a dhubhadh às"
+    },
+    "favorites": {
+      "add": "Air a chur ri Favorites",
+      "remove": "Air a thoirt air falbh bho Favorites"
+    },
+    "downloads": { "remove": "Air a thoirt air falbh bho luchdachadh sìos" }
+  },
+  "buttons": { "loop": "Lùb", "shuffle": "Sguab" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Lorg ..." },
+    "notification": { "success": "Soirbheachas! Thèid post-d a chuir chun chunntas agad." },
+    "button": { "sending": "A ’cur ..." },
+    "modalSelector": { "cancel": "Sguir dheth" },
+    "loading": "A ’luchdachadh"
+  },
+  "bible": {
+    "header": "Bìoball",
+    "oldTestament": "Seann Tiomnadh",
+    "newTestament": "Tiomnadh Nuadh",
+    "popularBooks": "Leabhraichean mòr-chòrdte"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Rannsaich",
+    "cancelButton": "CANCEL",
+    "searchResults": "Toraidhean rannsachaidh",
+    "filterButton": "Filter",
+    "teachings": { "title": "Teagasg" },
+    "bible": { "title": "Bìoball" }
+  },
+  "addToPlaylistsModal": {
+    "title": "Cuir ri liosta-cluiche",
+    "button": "Cruthaich Liosta-cluiche"
+  },
+  "createPlaylistModal": {
+    "title": "Cruthaich Liosta-cluiche Ùr",
+    "button": "Cruthaich Liosta-cluiche",
+    "inputPlaceholder": "Cuir a-steach ainm liosta-cluiche"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Air a chur ris an liosta-cluiche",
+      "remove": "Air a thoirt air falbh bho Liosta-cluiche",
+      "create": "Liosta-cluiche cruthaichte",
+      "delete": "Liosta-cluiche air a dhubhadh às"
+    },
+    "favorites": {
+      "add": "Air a chur ri Favorites",
+      "remove": "Air a thoirt air falbh bho Favorites"
+    },
+    "downloads": { "remove": "Air a thoirt air falbh bho luchdachadh sìos" },
+    "facebook": { "loginError": "Log a-steach fàilligeadh le mearachd" },
+    "google": { "loginError": "Log a-steach fàilligeadh le mearachd" }
+  },
+  "playlists": { "trackLabel": "Rian", "tracksLabel": "Ceòl" },
+  "mediaList": { "tracksLabel": "Ceòl", "remove": "Thoir air falbh" },
+  "tutorialPage": { "done": "Dèanta", "skip": "Thoir leum" },
+  "loginModal": { "login": "Log a-steach" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "A ’luchdachadh sìos", "complete": "Luchdaich sìos coileanta" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Rannsaich am Bìoball",
+      "subtitle1": "Siubhail tron ​​Bhìoball gu lèir còmhla rinn, no tòisich air turas dhut fhèin.",
+      "title2": "Èist & Engage",
+      "subtitle2": "Leigidh cluicheadair nam meadhanan dhut dàibheadh ​​a-steach gu susbaint THRU a ’Bhìobaill gu furasta.",
+      "title3": "Faigh a-mach teagasg",
+      "subtitle3": "Gabh pàirt anns a ’Bhìoball mar nach robh riamh roimhe le bhith a’ dèanamh tar-iomradh air susbaint a ’Bhìobaill & Teagaisg.",
+      "title4": "Beachdaich air a ’Bhìoball",
+      "subtitle4": "Thig còmhla ri buidheann gus sgrùdadh a dhèanamh air teagasg agus cuspairean THRU the BIBLE le daoine eile.",
+      "title5": "Luchdaich sìos & co-roinn",
+      "subtitle5": "Faigh tlachd bho bhith ag èisteachd ri Facal Dhè air-falbh agus roinn e le do charaidean.",
+      "title6": "Sàbhail & Cruthaich",
+      "subtitle6": "Sàbhail na teagasg agus na rannan Bìobaill as fheàrr leat no cruthaich liosta-cluiche àbhaisteach.",
+      "title7": "Tiomnadh buidhne",
+      "subtitle7": "A bhith air am brosnachadh agus air am brosnachadh le feadhainn eile le buidhnean làitheil làitheil."
+    },
+    "registerPage": {
+      "noThanks": "Chan eil taing",
+      "haveAccount": "A bheil cunntas agad?",
+      "createAccount": "Cruthaich mo chunntas",
+      "title1": "Bruidhinn ri feadhainn eile",
+      "subtitle1": "Bruidhinn mu na cuspairean as fheàrr leat agus rannan a ’Bhìobaill le daoine eile.",
+      "title2": "Clàran-ciùil Stòr is Sync",
+      "subtitle2": "Tog liostaichean den t-susbaint as fheàrr leat ann an aon àite.",
+      "title3": "Faic na Favourites agad",
+      "subtitle3": "Glèidh is till air ais agus tadhal air na rudan as fheàrr leat aig àm eile.",
+      "title4": "Fàilte air ais",
+      "subtitle4": "Cruthaich cunntas agus faigh cothrom air na feartan againn uile."
+    }
+  },
+  "app": {
+    "close": "dlùth",
+    "accept": "Gabhail",
+    "reject": "Dhiùlt",
+    "constructionInProgress": "DONNACHADH ANN AN ADHARTAS",
+    "downloadComplete": "Luchdaich sìos coileanta",
+    "downloading": "A ’luchdachadh sìos",
+    "downloadFailed": "Luchdaich sìos fàiligeadh",
+    "sendAFile": "Tha cuideigin ag iarraidh faidhle a chuir thugad"
+  },
+  "transferring": { "tryAgain": "Feuch a-rithist", "close": "dlùth" },
+  "checkDevice": {
+    "check": "Thoir sùil air an inneal agad",
+    "makeSure": "Feuch an dèan thu cinnteach gu bheil Wifi-Direct air a thionndadh air inneal do charaid agus gu bheil e ann an raon.",
+    "continue": "Lean air adhart"
+  },
+  "connectToDevice": { "connect": "Ceangail ri inneal" },
+  "pairing": {
+    "connect": "Ceangail ri inneal",
+    "pairing": "Càraid",
+    "success": "Paidhir gu soirbheachail",
+    "failed": "Dh'fhàillig paidhir innealan",
+    "makeSure": "Feuch an dèan thu cinnteach (Wifi-Direct) air a thionndadh air inneal do charaid agus gu bheil e ann an raon.",
+    "continue": "Lean air adhart",
+    "tryAgain": "Feuch a-rithist"
+  },
+  "selectNetworkType": {
+    "connect": "Ceangail ri inneal",
+    "share": "Co-roinn le Wifi Direct",
+    "send": "Cuir faidhle thairis air wifi gu dìreach?",
+    "continue": "Lean air adhart"
+  }
+}

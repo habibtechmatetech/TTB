@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "Veldu núverandi tungumál", "mainAction": "Veldu tungumál" },
+  "menu": {
+    "anonymousTitle": "Notandinn þinn",
+    "anonymousAction": "Skrá inn",
+    "editProfileAction": "Breyta prófíl",
+    "verifyProfileAction": "Staðfestu prófíl",
+    "bibleSection": "Biblían",
+    "teachingsSection": "Kennsla",
+    "librarySection": "Bókasafnið mitt",
+    "groupsSection": "Hópar",
+    "donateSection": "Styrkja",
+    "settingsSection": "Stillingar",
+    "signOut": "Útskrá",
+    "modals": {
+      "verifyProfile": {
+        "title": "Þú ert ekki staðfest",
+        "message": "Listarnir þínir verða ekki samstilltir og þú getur ekki búið til hópa. Vinsamlegast athugaðu tölvupóstinn þinn til að ljúka skráningu.",
+        "firstButton": "Haltu áfram",
+        "secondButton": "Skráðu nýtt prófíl"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Skráðu þig inn",
+    "emailPlaceholder": "Netfangið þitt",
+    "passwordPlaceholder": "Lykilorð þitt",
+    "forgotAction": "Gleymt lykilorð?",
+    "callToAction": "Skráðu þig inn",
+    "signInAlternatives": "Eða Skráðu þig inn með",
+    "noAccountAction": "Enginn reikningur? Búðu til einn",
+    "notifications": {
+      "invalidCredentials": "Ógild skilríki",
+      "inProgress": "Skráðu þig inn þegar í vinnslu",
+      "notAvailable": "Leikaþjónusta ekki tiltæk"
+    }
+  },
+  "signUp": {
+    "header": "Búðu til reikning",
+    "emailPlaceholder": "Netfangið þitt",
+    "passwordPlaceholder": "Lykilorð þitt",
+    "privateAction": "Gerðu reikninginn persónulegan",
+    "termsDisclaimer": {
+      "pre": "Með því að smella á Skráning gefurðu til kynna að þú hafir lesið og samþykkt",
+      "terms": "skilmálana",
+      "post": "."
+    },
+    "callToAction": "Skráðu þig",
+    "signUpAlternatives": "Eða skráðu þig með",
+    "haveAnAccountAction": "Ertu með reikning?",
+    "notifications": {
+      "invalidUsername": "Notendanöfn eru takmörkuð við 20 tölustafi (tölustafir og venjulegir stafir)",
+      "invalidPassword": "Lykilorð ætti að innihalda að minnsta kosti 3 stafi og vera sambland af stórum og lágstöfum með að minnsta kosti einni tölu eða sérstöfum"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Ekki er hægt að stofna reikning",
+        "message": "Þetta netfang er þegar til.",
+        "firstButton": "Skráðu þig inn",
+        "secondButton": "Lokaðu"
+      },
+      "privateAccount": {
+        "title": "Einkareikningur",
+        "message": "Með því að gera reikninginn þinn lokaðan leynirðu því að aðrir uppgötvi hann.",
+        "firstButton": "Samþykkja",
+        "secondButton": "Hafna"
+      },
+      "success": {
+        "title": "Reikningur stofnaður!",
+        "message": "Reikningurinn þinn var búinn til. Athugaðu pósthólfið þitt til að staðfesta reikninginn þinn og skráðu þig inn.",
+        "firstButton": "Skráðu þig inn"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Endur stilla lykilorð",
+    "emailPlaceholder": "Netfangið þitt",
+    "message": "Vinsamlegast sláðu inn netfangið þitt til að endurstilla lykilorðið fyrir reikninginn þinn.",
+    "callToAction": "Endur stilla lykilorð",
+    "notifications": {
+      "success": "Við sendum tölvupóst í pósthólfið þitt",
+      "emailNotFoundError": "Netfang fannst ekki",
+      "invalidEmailError": "Ógilt snið tölvupósts"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Ljúktu við uppsetningu",
+    "message": "Tölvupóstur hefur verið sendur á netfangið sem þú slóst inn. Vinsamlegast sjáðu upplýsingar í tölvupósti til að ljúka skráningu.",
+    "callToAction": "Slepptu í bili"
+  },
+  "teachings": {
+    "dailyText": "Útsending dagsins",
+    "journeyTitle": "Byrjaðu ferð þína",
+    "journeySubtitle": "Allar kenningar frá upphafi til enda",
+    "journeyCardTitle": "215 vikna ferð í gegnum Biblíuna",
+    "journeyCardSubtitle": "Hlustaðu á þinn tíma",
+    "tracksLabel": "Lög"
+  },
+  "teaching": {
+    "header": "Kennsla",
+    "loading": "Hleður ...",
+    "player": {
+      "audioSpeed": "Hljóðhraði",
+      "loading": "Hleðsla",
+      "castingError": "Engar tæki í boði"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Halda áfram að hlusta", "secondButton": "Byrjaðu ferð þína" }
+    }
+  },
+  "journey": {
+    "byDate": "Eftir dagsetningu",
+    "bySeries": "Eftir röð",
+    "sections": { "tracksLabel": "Lög" }
+  },
+  "library": {
+    "header": "Bókasafnið mitt",
+    "tabs": { "downloads": "Niðurhal", "favorites": "Uppáhald", "playlists": "Lagalistar" }
+  },
+  "groups": {
+    "header": "Hópar",
+    "createGroup": {
+      "title": "Búðu til nýjan hóp",
+      "groupNameLabel": "HÓPNEFNI",
+      "groupNameInputPlaceHolder": "Nafn",
+      "descriptionLabel": "LÝSING",
+      "descriptionInputPlaceHolder": "Bæta við lýsingu",
+      "inviteLabel": "Bjóddu notendum",
+      "inviteButton": "Bjóddu nýjum notendum",
+      "button": "Búðu til hóp",
+      "invalidGroupName": "Sláðu inn gilt nafn",
+      "groupNameTooLong": "Heiti hópsins má ekki innihalda meira en 25 stafi"
+    },
+    "devotionNotStartAlert": "Hollusta er ekki hafin fyrir þennan hóp",
+    "membersLabel": "Félagar",
+    "chatModalMemberSubtitleLabel": "meðlimur",
+    "chatModalMembersSubtitleLabel": "meðlimir",
+    "chat": {
+      "listeningToLabel": "Hlusta á",
+      "loadingTrackLabel": "Hleður lag ...",
+      "inputPlaceHolder": "Skrifaðu skilaboð",
+      "deletePost": "Eyða færslu",
+      "deleteMessage": "hefur eytt skilaboðum"
+    },
+    "groupSettings": {
+      "participantsSection": "Þátttakendur",
+      "viewAll": "Sjá allt",
+      "invite": "Bjóddu nýjum notendum",
+      "endDevotion": "Ljúka hóphollustu",
+      "deleteGroup": "Eyða hópi",
+      "leaveGroup": "Fara úr hóp"
+    },
+    "userDirectory": {
+      "header": "Notendaskrá",
+      "remove": "Fjarlægðu",
+      "anonymous": "Nafnlaus",
+      "send": "Senda"
+    },
+    "inviteUser": { "placeHolder": "Leitaðu", "send": "Senda" }
+  },
+  "chat": {
+    "header": "Group Channel",
+    "settings": {
+      "header": "Hópsstillingar",
+      "endDevotion": {
+        "alertTitle": "Enda hollusta",
+        "alertMessage": "Ertu viss um að þú viljir ljúka þessari hollustu?",
+        "alertCancel": "Hætta við",
+        "alertConfirm": "Já",
+        "endDevotionLabel": "lauk þessari hollustu.",
+        "hasEnded": "Þessari hollustu er lokið"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Byrja hollustu",
+    "alertMessage": "Ertu viss um að þú viljir hefja hollustu með% {name} hópnum?",
+    "alertCancel": "Hætta við",
+    "alertConfirm": "Já",
+    "devotionStartedLabel": "hefur hafið hollustu."
+  },
+  "settings": {
+    "header": "Stillingar",
+    "tabs": { "profile": "Prófíll", "media": "Fjölmiðlar", "notifications": "Tilkynningar" },
+    "profile": {
+      "account": "Reikningur",
+      "username": "Notendanafn",
+      "email": "Tölvupóstur",
+      "editButton": "Breyta",
+      "edit": {
+        "save": "Vista",
+        "username": {
+          "header": "Notendanafn",
+          "successAlert": "Breytingin þín hefur verið vistuð.",
+          "failedAlert": "Mistókst að vista breytinguna."
+        },
+        "email": {
+          "header": "Tölvupóstur",
+          "successAlert": "Breytingin þín hefur verið vistuð.",
+          "failedAlert": "Mistókst að vista breytinguna."
+        }
+      },
+      "languages": "Tungumál",
+      "signIn": "Skráðu þig inn",
+      "signOut": "Skráðu þig út af reikningi",
+      "legal": "Löglegt",
+      "termsConditions": "Skilmálar",
+      "privacyPolicy": "Friðhelgisstefna",
+      "support": "Stuðningur",
+      "reportAProblem": "Tilkynntu vandamál",
+      "tutorial": "Kennsla",
+      "reportBug": {
+        "header": "Tilkynntu vandamál",
+        "send": "Senda",
+        "subject": "EFNI",
+        "subjectPlaceHolder": "Efni",
+        "description": "LÝSING",
+        "descriptionPlaceHolder": "Lýsing",
+        "successAlert": "Takk fyrir, við höfum fengið skilaboðin þín.",
+        "failedAlert": "Mistókst að senda skilaboðin."
+      },
+      "version": "Útgáfa"
+    },
+    "media": {
+      "audio": "Hljóð",
+      "autoplay": "Spilaðu hljóð sjálfkrafa",
+      "storage": "Geymsla",
+      "downloadWifi": "Aðeins halað niður á Wi-Fi",
+      "deleteCache": "Eyða skyndiminni"
+    },
+    "notifications": {
+      "notifications": "Tilkynningar",
+      "groupInvitation": "Hópboð",
+      "devotions": "Bjóddu til hollustu",
+      "file": "Staðfesting á skráaflutningi"
+    }
+  },
+  "inviteUsers": { "header": "Bjóddu notendum" },
+  "playlist": {
+    "header": "Lagalisti",
+    "audioFileLabel": "Hljóðskrá",
+    "audioFilesLabel": "Hljóðskrár"
+  },
+  "collection": { "header": "Söfnun", "audioFilesLabel": "Hljóðskrár" },
+  "modal": {
+    "close": "loka",
+    "addToPlaylist": { "title": "Bæta við á lagalista", "button": "Búðu til lagalista" },
+    "startDevotion": { "title": "Byrja hollustu" },
+    "createPlaylist": {
+      "title": "Búðu til nýjan lagalista",
+      "button": "Búðu til lagalista",
+      "inputPlaceholder": "Sláðu inn heiti spilunarlista",
+      "success": "Bætt við lagalista"
+    },
+    "login": "Þú þarft að skrá þig inn til að hefja hollustu"
+  },
+  "options": {
+    "shared": {
+      "share": "Deildu",
+      "report": "Tilkynna innihald",
+      "shareOthers": "Deildu með öðrum",
+      "copy": "Afrita hlekk",
+      "more": "Meira"
+    },
+    "audio": {
+      "download": "Niðurhal",
+      "addFavorite": "Bæta við Uppáhalds",
+      "addPlaylist": "Bæta við á lagalista",
+      "removeFavorite": "Fjarlægja úr eftirlæti",
+      "removePlaylist": "Fjarlægja af spilunarlista",
+      "removeDownload": "Fjarlægja úr niðurhali"
+    },
+    "playlist": { "edit": "Breyta", "delete": "Eyða lagalista" },
+    "startDevotion": "Byrja hollustu"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Bætt við lagalista",
+      "delete": "Fjarlægð af spilunarlista",
+      "create": "Búinn til lagalisti",
+      "destroy": "Eytt spilunarlista"
+    },
+    "favorites": { "add": "Bætt við eftirlæti", "remove": "Fjarlægð úr eftirlæti" },
+    "downloads": { "remove": "Fjarlægð úr niðurhali" }
+  },
+  "buttons": { "loop": "Lykkja", "shuffle": "Stokka" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Leita ..." },
+    "notification": { "success": "Árangur! Tölvupóstur verður sendur á reikninginn þinn." },
+    "button": { "sending": "Sendir ..." },
+    "modalSelector": { "cancel": "Hætta við" },
+    "loading": "Hleðsla"
+  },
+  "bible": {
+    "header": "Biblían",
+    "oldTestament": "Gamla testamentið",
+    "newTestament": "Nýja testamentið",
+    "popularBooks": "Vinsælar bækur"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Leitaðu",
+    "cancelButton": "HÆTTA",
+    "searchResults": "leitarniðurstöður",
+    "filterButton": "Sía",
+    "teachings": { "title": "Kennsla" },
+    "bible": { "title": "Biblían" }
+  },
+  "addToPlaylistsModal": { "title": "Bæta við á lagalista", "button": "Búðu til lagalista" },
+  "createPlaylistModal": {
+    "title": "Búðu til nýjan lagalista",
+    "button": "Búðu til lagalista",
+    "inputPlaceholder": "Sláðu inn heiti spilunarlista"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Bætt við lagalista",
+      "remove": "Fjarlægð af spilunarlista",
+      "create": "Búinn til lagalisti",
+      "delete": "Eytt spilunarlista"
+    },
+    "favorites": { "add": "Bætt við eftirlæti", "remove": "Fjarlægð úr eftirlæti" },
+    "downloads": { "remove": "Fjarlægð úr niðurhali" },
+    "facebook": { "loginError": "Innskráning mistókst með villu" },
+    "google": { "loginError": "Innskráning mistókst með villu" }
+  },
+  "playlists": { "trackLabel": "Braut", "tracksLabel": "Lög" },
+  "mediaList": { "tracksLabel": "Lög", "remove": "Fjarlægðu" },
+  "tutorialPage": { "done": "Gjört", "skip": "Slepptu" },
+  "loginModal": { "login": "Skrá inn" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Sækir", "complete": "Niðurhal lokið" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Kannaðu Biblíuna",
+      "subtitle1": "Ferðu um alla Biblíuna með okkur, eða hafðu eigin ferð.",
+      "title2": "Hlustaðu & Taktu þátt",
+      "subtitle2": "Media player gerir þér kleift að kafa í THRU BIBLE innihaldsins með auðveldum hætti.",
+      "title3": "Uppgötvaðu kennslu",
+      "subtitle3": "Taktu þátt í Biblíunni sem aldrei fyrr með því að vísa í biblíuna og kennsluefnið.",
+      "title4": "Ræddu Biblíuna",
+      "subtitle4": "Taktu þátt í hópi til að kynna þér THRU Biblíuna kenningar og efni með öðrum.",
+      "title5": "Sækja og deila",
+      "subtitle5": "Njóttu þess að hlusta á orð Guðs á ferðinni og deila því með vinum þínum.",
+      "title6": "Vista og búa til",
+      "subtitle6": "Vistaðu uppáhalds kenningar þínar og biblíuvers eða búðu til sérsniðinn lagalista.",
+      "title7": "Hollustuhópar",
+      "subtitle7": "Vertu hvattur og innblásinn af öðrum með daglegum hópum."
+    },
+    "registerPage": {
+      "noThanks": "Nei takk",
+      "haveAccount": "Ertu með reikning?",
+      "createAccount": "Búðu til reikninginn minn",
+      "title1": "Ræðið við aðra",
+      "subtitle1": "Ræddu uppáhalds umfjöllunarefni þín og biblíuvers við aðra.",
+      "title2": "Geymdu og samstilltu spilunarlista",
+      "subtitle2": "Búðu til lista yfir uppáhalds efnið þitt á einum stað.",
+      "title3": "Sjáðu eftirlæti þitt",
+      "subtitle3": "Geymdu og komdu aftur og heimsóttu eftirlæti þitt seinna.",
+      "title4": "Velkominn aftur",
+      "subtitle4": "Stofnaðu aðgang og fáðu aðgang að öllum eiginleikum okkar."
+    }
+  },
+  "app": {
+    "close": "loka",
+    "accept": "Samþykkja",
+    "reject": "Hafnaðu",
+    "constructionInProgress": "FRAMKVÆMDIR",
+    "downloadComplete": "Niðurhal lokið",
+    "downloading": "Sækir",
+    "downloadFailed": "Niðurhal mistókst",
+    "sendAFile": "Einhver vill senda þér skrá"
+  },
+  "transferring": { "tryAgain": "reyndu aftur", "close": "loka" },
+  "checkDevice": {
+    "check": "Athugaðu tækið þitt",
+    "makeSure": "Gakktu úr skugga um að kveikt sé á Wifi-Direct á tæki vinar þíns og að það sé innan sviðs.",
+    "continue": "Haltu áfram"
+  },
+  "connectToDevice": { "connect": "Tengdu við tæki" },
+  "pairing": {
+    "connect": "Tengdu við tæki",
+    "pairing": "Pörun",
+    "success": "Pörun tókst",
+    "failed": "Pörun tækis mistókst",
+    "makeSure": "Gakktu úr skugga um að kveikt sé á (Wifi-Direct) á tæki vinar þíns og að það sé innan sviðs.",
+    "continue": "Haltu áfram",
+    "tryAgain": "Reyndu aftur"
+  },
+  "selectNetworkType": {
+    "connect": "Tengdu við tæki",
+    "share": "Deildu með Wifi Direct",
+    "send": "Senda skrá yfir WiFi beint?",
+    "continue": "Haltu áfram"
+  }
+}

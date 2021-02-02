@@ -1,0 +1,398 @@
+{
+  "selectLanguage": { "heading": "Roghnaigh do theanga reatha", "mainAction": "Roghnaigh Teanga" },
+  "menu": {
+    "anonymousTitle": "Do Chuntas",
+    "anonymousAction": "Logáil isteach",
+    "editProfileAction": "Cuir próifíl in eagar",
+    "verifyProfileAction": "Fíoraigh próifíl",
+    "bibleSection": "Bíobla",
+    "teachingsSection": "Teachings",
+    "librarySection": "Mo Leabharlann",
+    "groupsSection": "Grúpaí",
+    "donateSection": "Deonaigh",
+    "settingsSection": "Socruithe",
+    "signOut": "Logáil Amach",
+    "modals": {
+      "verifyProfile": {
+        "title": "Níl tú fíoraithe",
+        "message": "Ní dhéanfar sioncrónú ar do liostaí agus ní féidir leat grúpaí a chruthú. Seiceáil do r-phost le do thoil chun clárú a chríochnú.",
+        "firstButton": "Leanúint ar aghaidh",
+        "secondButton": "Próifíl nua a chlárú"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Sínigh isteach",
+    "emailPlaceholder": "Do r-phost",
+    "passwordPlaceholder": "Do Pasfhocal",
+    "forgotAction": "Dearmad ar pasfhocal?",
+    "callToAction": "Sínigh isteach",
+    "signInAlternatives": "Nó Sínigh Isteach ag úsáid",
+    "noAccountAction": "Gan cuntas? Cruthaigh ceann",
+    "notifications": {
+      "invalidCredentials": "Dintiúir neamhbhailí",
+      "inProgress": "Sínigh isteach cheana féin",
+      "notAvailable": "Níl seirbhísí súgartha ar fáil"
+    }
+  },
+  "signUp": {
+    "header": "Cruthaigh Cuntas",
+    "emailPlaceholder": "Do r-phost",
+    "passwordPlaceholder": "Do Pasfhocal",
+    "privateAction": "Déan Cuntas Príobháideach",
+    "termsDisclaimer": {
+      "pre": "Trí Signup a chliceáil tugann tú le fios go bhfuil léamh agus aontaithe agat",
+      "terms": "na téarmaí",
+      "post": "."
+    },
+    "callToAction": "Clarú",
+    "signUpAlternatives": "Nó Cláraigh ag baint úsáide as",
+    "haveAnAccountAction": "An bhfuil cuntas agat?",
+    "notifications": {
+      "invalidUsername": "Tá ainmneacha úsáideora teoranta do 20 carachtar alfa-uimhriúla (uimhreacha agus litreacha rialta)",
+      "invalidPassword": "Ba chóir go mbeadh 3 charachtar ar a laghad ag an bhfocal faire agus go mbeadh sé ina theaglaim de charachtair chás uachtair agus íochtair le huimhir amháin nó carachtar speisialta ar a laghad"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Ní féidir cuntas a chruthú",
+        "message": "Tá an seoladh ríomhphoist seo ann cheana féin.",
+        "firstButton": "Sínigh isteach",
+        "secondButton": "Dún"
+      },
+      "privateAccount": {
+        "title": "Cuntas Príobháideach",
+        "message": "Trí do chuntas a dhéanamh príobháideach, tá tú i bhfolach é ó dhaoine eile.",
+        "firstButton": "Glac",
+        "secondButton": "Meath"
+      },
+      "success": {
+        "title": "Cruthaíodh Cuntas!",
+        "message": "Cruthaíodh do chuntas go rathúil. Seiceáil do bhosca isteach chun do chuntas a dhearbhú agus síniú isteach.",
+        "firstButton": "Sínigh isteach"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Athshocraigh pasfhocal",
+    "emailPlaceholder": "Do r-phost",
+    "message": "Iontráil do r-phost le do phasfhocal a athshocrú do do chuntas.",
+    "callToAction": "Athshocraigh pasfhocal",
+    "notifications": {
+      "success": "Níor sheol muid ach r-phost chuig do bhosca isteach",
+      "emailNotFoundError": "Ní bhfuarthas ríomhphost",
+      "invalidEmailError": "Formáid ríomhphoist neamhbhailí"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Críochnaigh Socrú",
+    "message": "Tá r-phost seolta chuig an seoladh ríomhphoist a d’iontráil tú. Féach na sonraí ríomhphoist chun an clárú a chríochnú.",
+    "callToAction": "Scipeáil le haghaidh Anois"
+  },
+  "teachings": {
+    "dailyText": "Craoladh an lae inniu",
+    "journeyTitle": "Tosaigh Do Thuras",
+    "journeySubtitle": "Gach teagasc ó thús go deireadh",
+    "journeyCardTitle": "Turas 215 Seachtain Tríd an mBíobla",
+    "journeyCardSubtitle": "Éist ar do chuid ama",
+    "tracksLabel": "Rianta"
+  },
+  "teaching": {
+    "header": "Teachings",
+    "loading": "Ag luchtú ...",
+    "player": {
+      "audioSpeed": "Luas Fuaime",
+      "loading": "Ag luchtú",
+      "castingError": "Níl aon ghaireas ar fáil"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Lean ar aghaidh ag éisteacht",
+        "secondButton": "Cuir tús le do thuras"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Faoi Dáta",
+    "bySeries": "De réir Sraith",
+    "sections": { "tracksLabel": "Rianta" }
+  },
+  "library": {
+    "header": "Mo Leabharlann",
+    "tabs": { "downloads": "Íoslódálacha", "favorites": "Favorites", "playlists": "Seinmliostaí" }
+  },
+  "groups": {
+    "header": "Grúpaí",
+    "createGroup": {
+      "title": "Cruthaigh Grúpa Nua",
+      "groupNameLabel": "AINM AN GHRÚPA",
+      "groupNameInputPlaceHolder": "Ainm",
+      "descriptionLabel": "CUR SÍOS",
+      "descriptionInputPlaceHolder": "Cuir Tuairisc leis",
+      "inviteLabel": "Tabhair cuireadh d’úsáideoirí",
+      "inviteButton": "Tabhair cuireadh d’úsáideoirí nua",
+      "button": "Cruthaigh Grúpa",
+      "invalidGroupName": "Iontráil ainm bailí",
+      "groupNameTooLong": "Ní mór nach mbeidh níos mó ná 25 carachtar in ainm an ghrúpa"
+    },
+    "devotionNotStartAlert": "Níor thosaigh deabhóid don ghrúpa seo",
+    "membersLabel": "Baill",
+    "chatModalMemberSubtitleLabel": "ball",
+    "chatModalMembersSubtitleLabel": "baill",
+    "chat": {
+      "listeningToLabel": "Ag éisteacht le",
+      "loadingTrackLabel": "Rian luchtaithe ...",
+      "inputPlaceHolder": "Scríobh Teachtaireacht",
+      "deletePost": "Scrios Post",
+      "deleteMessage": "tar éis teachtaireacht a scriosadh"
+    },
+    "groupSettings": {
+      "participantsSection": "Rannpháirtithe",
+      "viewAll": "Féach ar Gach",
+      "invite": "Tabhair cuireadh d’úsáideoirí nua",
+      "endDevotion": "Deireadh Deabhóid an Ghrúpa",
+      "deleteGroup": "Scrios Grúpa",
+      "leaveGroup": "Grúpa Saoire"
+    },
+    "userDirectory": {
+      "header": "Eolaire Úsáideora",
+      "remove": "Bain",
+      "anonymous": "Gan ainm",
+      "send": "Seol"
+    },
+    "inviteUser": { "placeHolder": "Cuardaigh", "send": "Seol" }
+  },
+  "chat": {
+    "header": "Cainéal Grúpa",
+    "settings": {
+      "header": "Socruithe Grúpa",
+      "endDevotion": {
+        "alertTitle": "Deireadh Devotion",
+        "alertMessage": "An bhfuil tú cinnte gur mhaith leat deireadh a chur leis an deabhóid seo?",
+        "alertCancel": "Cealaigh",
+        "alertConfirm": "Sea",
+        "endDevotionLabel": "chuir sé deireadh leis an deabhóid seo.",
+        "hasEnded": "Tá deireadh leis an deabhóid seo"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Tosaigh Devotion",
+    "alertMessage": "An bhfuil tú cinnte go dteastaíonn uait deabhóid a thosú le grúpa% {name}?",
+    "alertCancel": "Cealaigh",
+    "alertConfirm": "Sea",
+    "devotionStartedLabel": "tá deabhóid tosaithe."
+  },
+  "settings": {
+    "header": "Socruithe",
+    "tabs": { "profile": "Próifíl", "media": "Meáin", "notifications": "Fógraí" },
+    "profile": {
+      "account": "Cuntas",
+      "username": "Ainm úsáideora",
+      "email": "R-phost",
+      "editButton": "Cuir in Eagar",
+      "edit": {
+        "save": "Sábháil",
+        "username": {
+          "header": "Ainm úsáideora",
+          "successAlert": "Sábháladh d’athrú.",
+          "failedAlert": "Theip ar an athrú a shábháil."
+        },
+        "email": {
+          "header": "Ríomhphost",
+          "successAlert": "Sábháladh d’athrú.",
+          "failedAlert": "Theip ar an athrú a shábháil."
+        }
+      },
+      "languages": "Teangacha",
+      "signIn": "Sínigh isteach",
+      "signOut": "Sínigh as an gCuntas",
+      "legal": "Dlí",
+      "termsConditions": "Téarmaí ⁊ Coinníollacha",
+      "privacyPolicy": "Beartas Príobháideachais",
+      "support": "Tacaíocht",
+      "reportAProblem": "Fadhb a Thuairisciú",
+      "tutorial": "Teagaisc",
+      "reportBug": {
+        "header": "Fadhb a Thuairisciú",
+        "send": "Seol",
+        "subject": "ÁBHAR",
+        "subjectPlaceHolder": "Ábhar",
+        "description": "CUR SÍOS",
+        "descriptionPlaceHolder": "Cur síos",
+        "successAlert": "Go raibh maith agat, fuaireamar do theachtaireacht.",
+        "failedAlert": "Theip ar an teachtaireacht a sheoladh."
+      },
+      "version": "Leagan"
+    },
+    "media": {
+      "audio": "Fuaim",
+      "autoplay": "Fuaim Autoplay",
+      "storage": "Stóráil",
+      "downloadWifi": "Íoslódáil ach ar Wi-fi",
+      "deleteCache": "Scrios Cache"
+    },
+    "notifications": {
+      "notifications": "Fógraí",
+      "groupInvitation": "Cuireadh Grúpa",
+      "devotions": "Tabhair cuireadh do Dheabhóidí",
+      "file": "Deimhniú Aistriú Comhad"
+    }
+  },
+  "inviteUsers": { "header": "Tabhair cuireadh d’úsáideoirí" },
+  "playlist": {
+    "header": "Seinmliosta",
+    "audioFileLabel": "Comhad Fuaime",
+    "audioFilesLabel": "Comhaid Fuaime"
+  },
+  "collection": { "header": "Bailiúchán", "audioFilesLabel": "Comhaid Fuaime" },
+  "modal": {
+    "close": "dhúnadh",
+    "addToPlaylist": { "title": "Cuir le Seinmliosta", "button": "Cruthaigh Seinmliosta" },
+    "startDevotion": { "title": "Tosaigh Devotion" },
+    "createPlaylist": {
+      "title": "Cruthaigh Seinmliosta Nua",
+      "button": "Cruthaigh Seinmliosta",
+      "inputPlaceholder": "Iontráil Ainm Seinmliosta",
+      "success": "Curtha leis an Seinmliosta"
+    },
+    "login": "Ní mór duit logáil isteach chun deabhóid a thosú"
+  },
+  "options": {
+    "shared": {
+      "share": "Comhroinn",
+      "report": "Ábhar na Tuarascála",
+      "shareOthers": "Comhroinn le Daoine Eile",
+      "copy": "Nasc Cóipeála",
+      "more": "Níos mó"
+    },
+    "audio": {
+      "download": "Íoslódáil",
+      "addFavorite": "Cuir le Favorites",
+      "addPlaylist": "Cuir le Seinmliosta",
+      "removeFavorite": "Bain as Favorites",
+      "removePlaylist": "Bain as an Seinmliosta",
+      "removeDownload": "Bain as Íoslódálacha"
+    },
+    "playlist": { "edit": "Cuir in Eagar", "delete": "Scrios Seinmliosta" },
+    "startDevotion": "Tosaigh Devotion"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Curtha leis an Seinmliosta",
+      "delete": "Bainte as an Seinmliosta",
+      "create": "Seinmliosta Cruthaithe",
+      "destroy": "Seinmliosta Scriosta"
+    },
+    "favorites": { "add": "Curtha le Favorites", "remove": "Bainte as Favorites" },
+    "downloads": { "remove": "Bainte as Íoslódálacha" }
+  },
+  "buttons": { "loop": "Lúb", "shuffle": "Suaitheadh" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Cuardaigh ..." },
+    "notification": { "success": "Rath! Seolfar r-phost chuig do chuntas." },
+    "button": { "sending": "Ag seoladh ..." },
+    "modalSelector": { "cancel": "Cealaigh" },
+    "loading": "Ag luchtú"
+  },
+  "bible": {
+    "header": "Bíobla",
+    "oldTestament": "Sean-Tiomna",
+    "newTestament": "Tiomna Nua",
+    "popularBooks": "Leabhair choitianta"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Cuardaigh",
+    "cancelButton": "CANCEL",
+    "searchResults": "Torthaí Cuardaigh",
+    "filterButton": "Scagaire",
+    "teachings": { "title": "Teachings" },
+    "bible": { "title": "Bíobla" }
+  },
+  "addToPlaylistsModal": { "title": "Cuir le Seinmliosta", "button": "Cruthaigh Seinmliosta" },
+  "createPlaylistModal": {
+    "title": "Cruthaigh Seinmliosta Nua",
+    "button": "Cruthaigh Seinmliosta",
+    "inputPlaceholder": "Iontráil Ainm Seinmliosta"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Curtha leis an Seinmliosta",
+      "remove": "Bainte as an Seinmliosta",
+      "create": "Seinmliosta Cruthaithe",
+      "delete": "Seinmliosta Scriosta"
+    },
+    "favorites": { "add": "Curtha le Favorites", "remove": "Bainte as Favorites" },
+    "downloads": { "remove": "Bainte as Íoslódálacha" },
+    "facebook": { "loginError": "Teip logála isteach le earráid" },
+    "google": { "loginError": "Teip logála isteach le earráid" }
+  },
+  "playlists": { "trackLabel": "Rian", "tracksLabel": "Rianta" },
+  "mediaList": { "tracksLabel": "Rianta", "remove": "Bain" },
+  "tutorialPage": { "done": "Arna dhéanamh", "skip": "Scipeáil" },
+  "loginModal": { "login": "Logáil isteach" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Íoslódáil", "complete": "Íoslódáil Comhlánaithe" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Déan iniúchadh ar an mBíobla",
+      "subtitle1": "Taisteal tríd an mBíobla iomlán linn, nó cuir tús le turas de do chuid féin.",
+      "title2": "Éist & Dul i nGníomh",
+      "subtitle2": "Ligeann an seinnteoir meán duit tumadh isteach i THRU an t-ábhar BIBLE gan stró.",
+      "title3": "Faigh amach Teachings",
+      "subtitle3": "Glac páirt sa Bhíobla mar nach raibh riamh cheana trí chrostagairt a dhéanamh don ábhar Bíobla & Teagaisc.",
+      "title4": "Pléigh an Bíobla",
+      "subtitle4": "Bí le grúpa chun staidéar a dhéanamh ar theagasc agus ábhair THRU an Bhíobla le daoine eile.",
+      "title5": "Íoslódáil & Comhroinn",
+      "subtitle5": "Bain sult as a bheith ag éisteacht le Briathar Dé ar an láthair agus é a roinnt le do chairde.",
+      "title6": "Sábháil & Cruthaigh",
+      "subtitle6": "Sábháil na teachtaí agus na véarsaí Bíobla is fearr leat nó cruthaigh seinmliosta saincheaptha.",
+      "title7": "Deabhóidí Grúpa",
+      "subtitle7": "A bheith spreagtha agus spreagtha ag daoine eile a bhfuil deabhóidí laethúla grúpa acu."
+    },
+    "registerPage": {
+      "noThanks": "Níl sé uaim go raibh maith agat",
+      "haveAccount": "An bhfuil cuntas agat?",
+      "createAccount": "Cruthaigh Mo Chuntas",
+      "title1": "Pléigh le Daoine Eile",
+      "subtitle1": "Pléigh na hábhair is fearr leat agus véarsaí an Bhíobla le daoine eile.",
+      "title2": "Seinmliostaí Stórála agus Sync",
+      "subtitle2": "Tóg liostaí den ábhar is fearr leat in aon áit amháin.",
+      "title3": "Féach Do Favorites",
+      "subtitle3": "Déan stóráil agus teacht ar ais agus cuairt a thabhairt ar do chuid Favorites níos déanaí.",
+      "title4": "Fáilte ar ais",
+      "subtitle4": "Cruthaigh cuntas agus faigh rochtain ar ár ngnéithe uile."
+    }
+  },
+  "app": {
+    "close": "dhúnadh",
+    "accept": "Glac",
+    "reject": "Diúltaigh",
+    "constructionInProgress": "TÓGÁIL SA CHLÁR",
+    "downloadComplete": "Íoslódáil Comhlánaithe",
+    "downloading": "Íoslódáil",
+    "downloadFailed": "Íoslódáil Theip ar",
+    "sendAFile": "Teastaíonn ó dhuine éigin comhad a sheoladh chugat"
+  },
+  "transferring": { "tryAgain": "Déan iarracht arís", "close": "dhúnadh" },
+  "checkDevice": {
+    "check": "Seiceáil Do Ghléas",
+    "makeSure": "Cinntigh le do thoil go ndéantar Wifi-Direct a chasadh ar ghléas do chara agus go bhfuil sé sa raon.",
+    "continue": "Leanúint ar aghaidh"
+  },
+  "connectToDevice": { "connect": "Ceangail le Gléas" },
+  "pairing": {
+    "connect": "Ceangail le Gléas",
+    "pairing": "Péireáil",
+    "success": "Péireáilte go rathúil",
+    "failed": "Theip ar Phéireáil Gléas",
+    "makeSure": "Cinntigh le do thoil (Wifi-Direct) go ndéantar é a chasadh ar ghléas do chara agus go bhfuil sé sa raon.",
+    "continue": "Leanúint ar aghaidh",
+    "tryAgain": "Déan iarracht arís"
+  },
+  "selectNetworkType": {
+    "connect": "Ceangail le feiste",
+    "share": "Comhroinn le Wifi Direct",
+    "send": "Seol comhad thar wifi go díreach?",
+    "continue": "Leanúint ar aghaidh"
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "selectLanguage": { "heading": "Selectați limba curentă", "mainAction": "Selecteaza limba" },
+  "menu": {
+    "anonymousTitle": "Contul tău",
+    "anonymousAction": "Autentificare",
+    "editProfileAction": "Editează profilul",
+    "verifyProfileAction": "Verificați profilul",
+    "bibleSection": "Biblie",
+    "teachingsSection": "Învățături",
+    "librarySection": "Biblioteca mea",
+    "groupsSection": "Grupuri",
+    "donateSection": "Donează",
+    "settingsSection": "Setări",
+    "signOut": "Sign out",
+    "modals": {
+      "verifyProfile": {
+        "title": "Nu sunteți verificat",
+        "message": "Listele dvs. nu vor fi sincronizate și nu puteți crea grupuri. Vă rugăm să verificați adresa de e-mail pentru a finaliza înregistrarea.",
+        "firstButton": "Continua",
+        "secondButton": "Înregistrați un profil nou"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Conectare",
+    "emailPlaceholder": "Email-ul tau",
+    "passwordPlaceholder": "Parola Dvs",
+    "forgotAction": "Ați uitat parola?",
+    "callToAction": "conectare",
+    "signInAlternatives": "Sau conectați-vă folosind",
+    "noAccountAction": "Fără cont? Creeaza una",
+    "notifications": {
+      "invalidCredentials": "Acreditări nevalide",
+      "inProgress": "Conectați-vă deja în desfășurare",
+      "notAvailable": "Serviciile de redare nu sunt disponibile"
+    }
+  },
+  "signUp": {
+    "header": "Creează cont",
+    "emailPlaceholder": "Email-ul tau",
+    "passwordPlaceholder": "Parola Dvs",
+    "privateAction": "Faceți contul privat",
+    "termsDisclaimer": {
+      "pre": "Dând clic pe Înscriere, indicați că ați citit și că sunteți de acord",
+      "terms": "termenii",
+      "post": "."
+    },
+    "callToAction": "Inscrie-te",
+    "signUpAlternatives": "Sau Înscrieți-vă folosind",
+    "haveAnAccountAction": "Are un cont?",
+    "notifications": {
+      "invalidUsername": "Numele de utilizator sunt limitate la 20 de caractere alfanumerice (cifre și litere obișnuite)",
+      "invalidPassword": "Parola trebuie să aibă cel puțin 3 caractere și să fie o combinație de caractere majuscule și minuscule cu cel puțin un număr sau un caracter special"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Imposibil de creat un cont",
+        "message": "Această adresă de e-mail există deja.",
+        "firstButton": "Conectare",
+        "secondButton": "Închide"
+      },
+      "privateAccount": {
+        "title": "Cont privat",
+        "message": "Făcând contul dvs. privat, îl ascundeți pentru a nu fi descoperit de alții.",
+        "firstButton": "Accept",
+        "secondButton": "Declin"
+      },
+      "success": {
+        "title": "Cont creat!",
+        "message": "Contul dvs. a fost creat cu succes. Verificați căsuța de e-mail pentru a vă confirma contul și conectați-vă.",
+        "firstButton": "Conectare"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Reseteaza parola",
+    "emailPlaceholder": "Email-ul tau",
+    "message": "Vă rugăm să introduceți adresa de e-mail pentru a reseta parola contului dvs.",
+    "callToAction": "Reseteaza parola",
+    "notifications": {
+      "success": "Tocmai am trimis un e-mail în căsuța de e-mail",
+      "emailNotFoundError": "E-mailul nu a fost găsit",
+      "invalidEmailError": "format de email invalid"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Finalizați configurarea",
+    "message": "Un e-mail a fost trimis la adresa de e-mail pe care ați introdus-o. Vă rugăm să consultați detaliile de e-mail pentru a finaliza înregistrarea.",
+    "callToAction": "Săriți acum"
+  },
+  "teachings": {
+    "dailyText": "Transmisiunea de astăzi",
+    "journeyTitle": "Începeți-vă călătoria",
+    "journeySubtitle": "Toate învățăturile de la început până la sfârșit",
+    "journeyCardTitle": "Călătorie de 215 săptămâni prin Biblie",
+    "journeyCardSubtitle": "Ascultă-ți timpul",
+    "tracksLabel": "Piste"
+  },
+  "teaching": {
+    "header": "Învățături",
+    "loading": "Se încarcă...",
+    "player": {
+      "audioSpeed": "Viteza audio",
+      "loading": "Se încarcă",
+      "castingError": "Nu există dispozitive disponibile"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Continuați să ascultați",
+        "secondButton": "Începeți-vă călătoria"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "După dată",
+    "bySeries": "După serii",
+    "sections": { "tracksLabel": "Piste" }
+  },
+  "library": {
+    "header": "Biblioteca mea",
+    "tabs": { "downloads": "Descărcări", "favorites": "Favorite", "playlists": "Playlisturi" }
+  },
+  "groups": {
+    "header": "Grupuri",
+    "createGroup": {
+      "title": "Creați un grup nou",
+      "groupNameLabel": "NUMELE GRUPULUI",
+      "groupNameInputPlaceHolder": "Nume",
+      "descriptionLabel": "DESCRIERE",
+      "descriptionInputPlaceHolder": "Adauga descriere",
+      "inviteLabel": "Invitați utilizatori",
+      "inviteButton": "Invitați noi utilizatori",
+      "button": "Creați un grup",
+      "invalidGroupName": "Introduceți un nume valid",
+      "groupNameTooLong": "Numele grupului nu trebuie să conțină mai mult de 25 de caractere"
+    },
+    "devotionNotStartAlert": "O devoțiune nu a început pentru acest grup",
+    "membersLabel": "Membri",
+    "chatModalMemberSubtitleLabel": "membru",
+    "chatModalMembersSubtitleLabel": "membrii",
+    "chat": {
+      "listeningToLabel": "Ascultand",
+      "loadingTrackLabel": "Se încarcă piesa ...",
+      "inputPlaceHolder": "Scrie mesaj",
+      "deletePost": "Ștergeți postarea",
+      "deleteMessage": "a șters un mesaj"
+    },
+    "groupSettings": {
+      "participantsSection": "Participanți",
+      "viewAll": "A vedea tot",
+      "invite": "Invitați noi utilizatori",
+      "endDevotion": "Sfârșitul devoțiunii de grup",
+      "deleteGroup": "Ștergeți grupul",
+      "leaveGroup": "Paraseste grupul"
+    },
+    "userDirectory": {
+      "header": "Director utilizator",
+      "remove": "Elimina",
+      "anonymous": "Anonim",
+      "send": "Trimite"
+    },
+    "inviteUser": { "placeHolder": "Căutare", "send": "Trimite" }
+  },
+  "chat": {
+    "header": "Canal de grup",
+    "settings": {
+      "header": "Setări grup",
+      "endDevotion": {
+        "alertTitle": "Încetează devotamentul",
+        "alertMessage": "Sunteți sigur că doriți să puneți capăt acestei devoțiuni?",
+        "alertCancel": "Anulare",
+        "alertConfirm": "da",
+        "endDevotionLabel": "a pus capăt acestei devoțiuni.",
+        "hasEnded": "Această devotament s-a încheiat"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Începeți Devoțiunea",
+    "alertMessage": "Sigur doriți să începeți devotamentul cu% {name} group?",
+    "alertCancel": "Anulare",
+    "alertConfirm": "da",
+    "devotionStartedLabel": "a început o devotament."
+  },
+  "settings": {
+    "header": "Setări",
+    "tabs": { "profile": "Profil", "media": "Mass-media", "notifications": "Notificări" },
+    "profile": {
+      "account": "Cont",
+      "username": "Nume de utilizator",
+      "email": "E-mail",
+      "editButton": "Editați | ×",
+      "edit": {
+        "save": "salva",
+        "username": {
+          "header": "Nume de utilizator",
+          "successAlert": "Schimbarea dvs. a fost salvată.",
+          "failedAlert": "Salvarea modificării nu a reușit."
+        },
+        "email": {
+          "header": "E-mail",
+          "successAlert": "Schimbarea dvs. a fost salvată.",
+          "failedAlert": "Salvarea modificării nu a reușit."
+        }
+      },
+      "languages": "Limbi",
+      "signIn": "Conectare",
+      "signOut": "Deconectați-vă de la cont",
+      "legal": "Legal",
+      "termsConditions": "termeni si conditii",
+      "privacyPolicy": "Politica de Confidențialitate",
+      "support": "A sustine",
+      "reportAProblem": "Raporteaza o problema",
+      "tutorial": "Tutorial",
+      "reportBug": {
+        "header": "Raporteaza o problema",
+        "send": "Trimite",
+        "subject": "SUBIECT",
+        "subjectPlaceHolder": "Subiect",
+        "description": "DESCRIERE",
+        "descriptionPlaceHolder": "Descriere",
+        "successAlert": "Vă mulțumim, am primit mesajul dvs.",
+        "failedAlert": "Trimiterea mesajului nu a reușit."
+      },
+      "version": "Versiune"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Redare automată audio",
+      "storage": "Depozitare",
+      "downloadWifi": "Descărcați numai pe Wi-Fi",
+      "deleteCache": "Ștergeți memoria cache"
+    },
+    "notifications": {
+      "notifications": "Notificări",
+      "groupInvitation": "Invitație de grup",
+      "devotions": "Invitați la devoțiuni",
+      "file": "Confirmarea transferului de fișiere"
+    }
+  },
+  "inviteUsers": { "header": "Invitați utilizatori" },
+  "playlist": {
+    "header": "Playlist",
+    "audioFileLabel": "Fișier audio",
+    "audioFilesLabel": "Fișiere audio"
+  },
+  "collection": { "header": "Colectie", "audioFilesLabel": "Fișiere audio" },
+  "modal": {
+    "close": "închide",
+    "addToPlaylist": { "title": "Adauga la lista de redare", "button": "Creați o listă de redare" },
+    "startDevotion": { "title": "Începeți Devoțiunea" },
+    "createPlaylist": {
+      "title": "Creați o nouă listă de redare",
+      "button": "Creați o listă de redare",
+      "inputPlaceholder": "Introduceți numele listei de redare",
+      "success": "Adăugat la Playlist"
+    },
+    "login": "Trebuie să vă conectați pentru a începe o devotament"
+  },
+  "options": {
+    "shared": {
+      "share": "Acțiune",
+      "report": "Raportează conținutul",
+      "shareOthers": "Distribuiți altora",
+      "copy": "Copiază legătură",
+      "more": "Mai Mult"
+    },
+    "audio": {
+      "download": "Descarca",
+      "addFavorite": "Adauga la favorite",
+      "addPlaylist": "Adauga la lista de redare",
+      "removeFavorite": "Eliminați din Favorite",
+      "removePlaylist": "Eliminați din Playlist",
+      "removeDownload": "Eliminați din Descărcări"
+    },
+    "playlist": { "edit": "Editați | ×", "delete": "Ștergeți lista de redare" },
+    "startDevotion": "Începeți Devoțiunea"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Adăugat la Playlist",
+      "delete": "Eliminat din Playlist",
+      "create": "Lista de redare creată",
+      "destroy": "Lista de redare ștearsă"
+    },
+    "favorites": { "add": "Adăugat la Favorite", "remove": "Eliminat din Favorite" },
+    "downloads": { "remove": "Eliminat din Descărcări" }
+  },
+  "buttons": { "loop": "Buclă", "shuffle": "Amesteca" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Căutare..." },
+    "notification": { "success": "Succes! Va fi trimis un e-mail în contul dvs." },
+    "button": { "sending": "Se trimite ..." },
+    "modalSelector": { "cancel": "Anulare" },
+    "loading": "Se încarcă"
+  },
+  "bible": {
+    "header": "Biblie",
+    "oldTestament": "Vechiul Testament",
+    "newTestament": "Noul Testament",
+    "popularBooks": "Cărți populare"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Căutare",
+    "cancelButton": "ANULARE",
+    "searchResults": "rezultatele cautarii",
+    "filterButton": "Filtru",
+    "teachings": { "title": "Învățături" },
+    "bible": { "title": "Biblie" }
+  },
+  "addToPlaylistsModal": {
+    "title": "Adauga la lista de redare",
+    "button": "Creați o listă de redare"
+  },
+  "createPlaylistModal": {
+    "title": "Creați o nouă listă de redare",
+    "button": "Creați o listă de redare",
+    "inputPlaceholder": "Introduceți numele listei de redare"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Adăugat la Playlist",
+      "remove": "Eliminat din Playlist",
+      "create": "Lista de redare creată",
+      "delete": "Lista de redare ștearsă"
+    },
+    "favorites": { "add": "Adăugat la Favorite", "remove": "Eliminat din Favorite" },
+    "downloads": { "remove": "Eliminat din Descărcări" },
+    "facebook": { "loginError": "Conectarea eșuează cu eroare" },
+    "google": { "loginError": "Conectarea eșuează cu eroare" }
+  },
+  "playlists": { "trackLabel": "Urmări", "tracksLabel": "Piste" },
+  "mediaList": { "tracksLabel": "Piste", "remove": "Elimina" },
+  "tutorialPage": { "done": "Terminat", "skip": "Ocolire" },
+  "loginModal": { "login": "Autentificare" },
+  "shareModal": {
+    "facebook": "Facebook",
+    "twitter": "Stare de nervozitate",
+    "whatsapp": "WhatsApp"
+  },
+  "downloadModal": { "downloading": "Descărcarea", "complete": "Descarcare completa" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Explorează Biblia",
+      "subtitle1": "Călătorește prin întreaga Biblie cu noi sau începe o călătorie a ta.",
+      "title2": "Ascultă și implică",
+      "subtitle2": "Playerul media vă permite să vă scufundați cu ușurință în conținutul BIBLIEI.",
+      "title3": "Descoperiți învățăturile",
+      "subtitle3": "Angajați-vă în Biblie, ca niciodată, prin referințe încrucișate la conținutul biblic și didactic.",
+      "title4": "Discută Biblia",
+      "subtitle4": "Alăturați-vă unui grup pentru a studia învățăturile și subiectele prin intermediul BIBLIEI împreună cu alții.",
+      "title5": "Descărcați și distribuiți",
+      "subtitle5": "Bucurați-vă de ascultarea Cuvântului lui Dumnezeu din mers și împărtășiți-o prietenilor.",
+      "title6": "Salvați și creați",
+      "subtitle6": "Salvați învățăturile și versetele biblice preferate sau creați o listă de redare personalizată.",
+      "title7": "Devoțiuni de grup",
+      "subtitle7": "Fiți încurajați și inspirați de ceilalți cu devoționale de grup zilnice."
+    },
+    "registerPage": {
+      "noThanks": "Nu multumesc",
+      "haveAccount": "Are un cont?",
+      "createAccount": "Crează-mi contul",
+      "title1": "Discutați cu alții",
+      "subtitle1": "Discutați subiectele preferate și versetele biblice cu alții.",
+      "title2": "Stocați și sincronizați playlisturile",
+      "subtitle2": "Construiți liste de conținut preferat într-un singur loc.",
+      "title3": "Vedeți Favorite",
+      "subtitle3": "Stocați și reveniți și vizitați preferatele dvs. ulterior.",
+      "title4": "Bine ai revenit",
+      "subtitle4": "Creați un cont și obțineți acces la toate funcțiile noastre."
+    }
+  },
+  "app": {
+    "close": "închide",
+    "accept": "Accept",
+    "reject": "Respinge",
+    "constructionInProgress": "CONSTRUCTIE IN PROGRES",
+    "downloadComplete": "Descarcare completa",
+    "downloading": "Descărcarea",
+    "downloadFailed": "Descarcare esuata",
+    "sendAFile": "Cineva vrea să vă trimită un fișier"
+  },
+  "transferring": { "tryAgain": "încearcă din nou", "close": "închide" },
+  "checkDevice": {
+    "check": "Verificați dispozitivul",
+    "makeSure": "Vă rugăm să vă asigurați că Wifi-Direct este pornit pe dispozitivul prietenului dvs. și că este în raza de acțiune.",
+    "continue": "Continua"
+  },
+  "connectToDevice": { "connect": "Conectați-vă la un dispozitiv" },
+  "pairing": {
+    "connect": "Conectați-vă la un dispozitiv",
+    "pairing": "Împerecherea",
+    "success": "Asociat cu succes",
+    "failed": "Asocierea dispozitivului a eșuat",
+    "makeSure": "Vă rugăm să vă asigurați că (Wifi-Direct) este pornit pe dispozitivul prietenului dvs. și se află în raza de acțiune.",
+    "continue": "Continua",
+    "tryAgain": "Încearcă din nou"
+  },
+  "selectNetworkType": {
+    "connect": "Conectați-vă la un dispozitiv",
+    "share": "Distribuiți cu Wifi Direct",
+    "send": "Trimiteți fișier prin Wi-Fi direct?",
+    "continue": "Continua"
+  }
+}

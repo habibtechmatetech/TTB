@@ -1,0 +1,398 @@
+{
+  "selectLanguage": {
+    "heading": "Agħżel il-lingwa kurrenti tiegħek",
+    "mainAction": "Agħżel Lingwa"
+  },
+  "menu": {
+    "anonymousTitle": "Il-Kont Tiegħek",
+    "anonymousAction": "Idħol",
+    "editProfileAction": "Editja l-profil",
+    "verifyProfileAction": "Ivverifika l-profil",
+    "bibleSection": "Bibbja",
+    "teachingsSection": "Tagħlim",
+    "librarySection": "Il-Librerija Tiegħi",
+    "groupsSection": "Gruppi",
+    "donateSection": "Donazzjoni",
+    "settingsSection": "Settings",
+    "signOut": "Iffirma",
+    "modals": {
+      "verifyProfile": {
+        "title": "M'intix verifikat",
+        "message": "Il-listi tiegħek ma jiġux sinkronizzati u ma tistax toħloq gruppi. Jekk jogħġbok iċċekkja l-email tiegħek biex tlesti r-reġistrazzjoni.",
+        "firstButton": "Kompli",
+        "secondButton": "Irreġistra profil ġdid"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Iffirma",
+    "emailPlaceholder": "L-email tieghek",
+    "passwordPlaceholder": "Il-Password tiegħek",
+    "forgotAction": "Insejt il-password?",
+    "callToAction": "Iffirma",
+    "signInAlternatives": "Jew Iffirma billi tuża",
+    "noAccountAction": "L-ebda kont? Oħloq waħda",
+    "notifications": {
+      "invalidCredentials": "Kredenzjali invalidi",
+      "inProgress": "Iffirma diġà għaddej",
+      "notAvailable": "Servizzi tal-logħob mhux disponibbli"
+    }
+  },
+  "signUp": {
+    "header": "Oħloq Kont",
+    "emailPlaceholder": "L-email tieghek",
+    "passwordPlaceholder": "Il-Password tiegħek",
+    "privateAction": "Agħmel il-Kont Privat",
+    "termsDisclaimer": {
+      "pre": "Billi tikklikkja Signup tindika li qrajt u taqbel magħha",
+      "terms": "it-termini",
+      "post": "."
+    },
+    "callToAction": "Irregistra",
+    "signUpAlternatives": "Jew Irreġistra billi tuża",
+    "haveAnAccountAction": "Għandek kont?",
+    "notifications": {
+      "invalidUsername": "L-ismijiet tal-utenti huma limitati għal 20 karattru alfanumeriku (numri u ittri regolari)",
+      "invalidPassword": "Il-password għandu jkollha mill-inqas 3 karattri u tkun taħlita ta 'karattri kbar u minuskoli b'mill-inqas numru wieħed jew karattru speċjali"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Ma tistax toħloq kont",
+        "message": "Dan l-indirizz elettroniku diġà jeżisti.",
+        "firstButton": "Iffirma",
+        "secondButton": "Agħlaq"
+      },
+      "privateAccount": {
+        "title": "Kont Privat",
+        "message": "Billi tagħmel il-kont tiegħek privat, qed taħbi milli jiġi skopert minn oħrajn.",
+        "firstButton": "Aċċetta",
+        "secondButton": "Tnaqqis"
+      },
+      "success": {
+        "title": "Kont Maħluq!",
+        "message": "Il-kont tiegħek inħoloq b'suċċess. Iċċekkja l-inbox tiegħek biex tikkonferma l-kont tiegħek u ffirma.",
+        "firstButton": "Iffirma"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Irrisettja l-password",
+    "emailPlaceholder": "L-email tieghek",
+    "message": "Jekk jogħġbok daħħal l-email tiegħek biex tirrisettja l-password tiegħek għall-kont tiegħek.",
+    "callToAction": "Irrisettja l-password",
+    "notifications": {
+      "success": "Aħna għadna kemm bgħatt email lill-inbox tiegħek",
+      "emailNotFoundError": "L-email ma nstabitx",
+      "invalidEmailError": "Format tal-email invalidu"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Finish Setup",
+    "message": "Intbagħtet email lill-indirizz tal-email li daħħalt. Jekk jogħġbok ara d-dettalji tal-email biex tlesti r-reġistrazzjoni.",
+    "callToAction": "Aqbeż għal issa"
+  },
+  "teachings": {
+    "dailyText": "Ix-Xandir tal-lum",
+    "journeyTitle": "Ibda l-Vjaġġ Tiegħek",
+    "journeySubtitle": "It-tagħlim kollu mill-bidu sat-tmiem",
+    "journeyCardTitle": "215 Ġimgħa Vjaġġ Permezz tal-Bibbja",
+    "journeyCardSubtitle": "Isma 'fil-ħin tiegħek",
+    "tracksLabel": "Binarji"
+  },
+  "teaching": {
+    "header": "Tagħlim",
+    "loading": "Tagħbija...",
+    "player": {
+      "audioSpeed": "Veloċità tal-Awdjo",
+      "loading": "Tagħbija",
+      "castingError": "Ebda Mezzi Disponibbli"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Kompli Jisma '", "secondButton": "Ibda l-vjaġġ tiegħek" }
+    }
+  },
+  "journey": {
+    "byDate": "Skond id-Data",
+    "bySeries": "Skond is-Serje",
+    "sections": { "tracksLabel": "Binarji" }
+  },
+  "library": {
+    "header": "Il-Librerija Tiegħi",
+    "tabs": { "downloads": "Tniżżil", "favorites": "Favourites", "playlists": "Playlists" }
+  },
+  "groups": {
+    "header": "Gruppi",
+    "createGroup": {
+      "title": "Oħloq Grupp Ġdid",
+      "groupNameLabel": "ISEM TAL-GRUPP",
+      "groupNameInputPlaceHolder": "Isem",
+      "descriptionLabel": "DESKRIZZJONI",
+      "descriptionInputPlaceHolder": "Żid Deskrizzjoni",
+      "inviteLabel": "Stieden lill-Utenti",
+      "inviteButton": "Stieden Utenti Ġodda",
+      "button": "Oħloq Grupp",
+      "invalidGroupName": "Daħħal isem validu",
+      "groupNameTooLong": "L-isem tal-grupp m'għandux ikun fih aktar minn 25 karattru"
+    },
+    "devotionNotStartAlert": "Ma bdietx devozzjoni għal dan il-grupp",
+    "membersLabel": "Membri",
+    "chatModalMemberSubtitleLabel": "Membru",
+    "chatModalMembersSubtitleLabel": "membri",
+    "chat": {
+      "listeningToLabel": "Nisma '",
+      "loadingTrackLabel": "Tagħbija tal-binarju ...",
+      "inputPlaceHolder": "Ikteb Messaġġ",
+      "deletePost": "Ħassar Post",
+      "deleteMessage": "ħassar messaġġ"
+    },
+    "groupSettings": {
+      "participantsSection": "Parteċipanti",
+      "viewAll": "Ara Kollox",
+      "invite": "Stieden Utenti Ġodda",
+      "endDevotion": "Tmiem id-Devozzjoni tal-Grupp",
+      "deleteGroup": "Ħassar Grupp",
+      "leaveGroup": "Ħalli Grupp"
+    },
+    "userDirectory": {
+      "header": "Direttorju tal-Utenti",
+      "remove": "Neħħi",
+      "anonymous": "Anonimu",
+      "send": "Ibgħat"
+    },
+    "inviteUser": { "placeHolder": "Fittex", "send": "Ibgħat" }
+  },
+  "chat": {
+    "header": "Channel Channel",
+    "settings": {
+      "header": "Settings tal-Grupp",
+      "endDevotion": {
+        "alertTitle": "Tmiem id-Devozzjoni",
+        "alertMessage": "Int żgur li trid ittemm din id-devozzjoni?",
+        "alertCancel": "Ikkanċella",
+        "alertConfirm": "Iva",
+        "endDevotionLabel": "temmet din id-devozzjoni.",
+        "hasEnded": "Din id-devozzjoni spiċċat"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Ibda Devozzjoni",
+    "alertMessage": "Int żgur li trid tibda d-devozzjoni bil-grupp% {name}?",
+    "alertCancel": "Ikkanċella",
+    "alertConfirm": "Iva",
+    "devotionStartedLabel": "bdiet devozzjoni."
+  },
+  "settings": {
+    "header": "Settings",
+    "tabs": { "profile": "Profil", "media": "Midja", "notifications": "Notifiki" },
+    "profile": {
+      "account": "Kont",
+      "username": "Username",
+      "email": "E-mail",
+      "editButton": "Editja",
+      "edit": {
+        "save": "Ħlief",
+        "username": {
+          "header": "Username",
+          "successAlert": "Il-bidla tiegħek ġiet salvata.",
+          "failedAlert": "Ma rnexxilekx issalva l-bidla."
+        },
+        "email": {
+          "header": "Email",
+          "successAlert": "Il-bidla tiegħek ġiet salvata.",
+          "failedAlert": "Ma rnexxilekx issalva l-bidla."
+        }
+      },
+      "languages": "Lingwi",
+      "signIn": "Iffirma",
+      "signOut": "Iffirma mill-Kont",
+      "legal": "Legali",
+      "termsConditions": "Termini u Kundizzjonijiet",
+      "privacyPolicy": "Regoli tal-privatezza",
+      "support": "Appoġġ",
+      "reportAProblem": "Irrapporta Problema",
+      "tutorial": "Tutorial",
+      "reportBug": {
+        "header": "Irrapporta Problema",
+        "send": "Ibgħat",
+        "subject": "SUĠĠETT",
+        "subjectPlaceHolder": "Suġġett",
+        "description": "DESKRIZZJONI",
+        "descriptionPlaceHolder": "Deskrizzjoni",
+        "successAlert": "Grazzi, irċevejna l-messaġġ tiegħek.",
+        "failedAlert": "Naqas milli jibgħat il-messaġġ."
+      },
+      "version": "Verżjoni"
+    },
+    "media": {
+      "audio": "Awdjo",
+      "autoplay": "L-Awdjo tal-Logħob Awtomatiku",
+      "storage": "Ħażna",
+      "downloadWifi": "Niżżel biss fuq il-Wi-fi",
+      "deleteCache": "Ħassar Cache"
+    },
+    "notifications": {
+      "notifications": "Notifiki",
+      "groupInvitation": "Stedina għall-Grupp",
+      "devotions": "Stieden għad-Devozzjonijiet",
+      "file": "Konferma tat-Trasferiment tal-Fajl"
+    }
+  },
+  "inviteUsers": { "header": "Stieden lill-Utenti" },
+  "playlist": {
+    "header": "Playlist",
+    "audioFileLabel": "Audio File",
+    "audioFilesLabel": "Fajls tal-Awdjo"
+  },
+  "collection": { "header": "Ġbir", "audioFilesLabel": "Fajls tal-Awdjo" },
+  "modal": {
+    "close": "qrib",
+    "addToPlaylist": { "title": "Żid mal-Playlist", "button": "Oħloq Playlist" },
+    "startDevotion": { "title": "Ibda Devozzjoni" },
+    "createPlaylist": {
+      "title": "Oħloq Playlist Ġdid",
+      "button": "Oħloq Playlist",
+      "inputPlaceholder": "Daħħal l-Isem tal-Playlist",
+      "success": "Miżjud mal-Playlist"
+    },
+    "login": "Trid tilloggja biex tibda devozzjoni"
+  },
+  "options": {
+    "shared": {
+      "share": "Aqsam",
+      "report": "Irrapporta l-Kontenut",
+      "shareOthers": "Aqsam ma 'Oħrajn",
+      "copy": "Kopja Rabta",
+      "more": "Aktar"
+    },
+    "audio": {
+      "download": "Niżżel",
+      "addFavorite": "Żid mal-Favourites",
+      "addPlaylist": "Żid mal-Playlist",
+      "removeFavorite": "Neħħi mill-Favourites",
+      "removePlaylist": "Neħħi mill-Playlist",
+      "removeDownload": "Neħħi minn Downloads"
+    },
+    "playlist": { "edit": "Editja", "delete": "Ħassar il-Playlist" },
+    "startDevotion": "Ibda Devozzjoni"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Miżjud mal-Playlist",
+      "delete": "Imneħħi mil-Playlist",
+      "create": "Maħluq Playlist",
+      "destroy": "Playlist imħassar"
+    },
+    "favorites": { "add": "Miżjud mal-Favourites", "remove": "Imneħħi mill-Favourites" },
+    "downloads": { "remove": "Imneħħi mid-Downloads" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Shuffle" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Fittex ..." },
+    "notification": { "success": "Suċċess! Tintbagħat email fuq il-kont tiegħek." },
+    "button": { "sending": "Mittenti ..." },
+    "modalSelector": { "cancel": "Ikkanċella" },
+    "loading": "Tagħbija"
+  },
+  "bible": {
+    "header": "Bibbja",
+    "oldTestament": "Testment il-Qadim",
+    "newTestament": "Testment il-Ġdid",
+    "popularBooks": "Kotba popolari"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Fittex",
+    "cancelButton": "IĊĊANNJA",
+    "searchResults": "Riżultati tat-Tiftix",
+    "filterButton": "Iffiltra",
+    "teachings": { "title": "Tagħlim" },
+    "bible": { "title": "Bibbja" }
+  },
+  "addToPlaylistsModal": { "title": "Żid mal-Playlist", "button": "Oħloq Playlist" },
+  "createPlaylistModal": {
+    "title": "Oħloq Playlist Ġdid",
+    "button": "Oħloq Playlist",
+    "inputPlaceholder": "Daħħal l-Isem tal-Playlist"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Miżjud mal-Playlist",
+      "remove": "Imneħħi mil-Playlist",
+      "create": "Maħluq Playlist",
+      "delete": "Playlist imħassar"
+    },
+    "favorites": { "add": "Miżjud mal-Favourites", "remove": "Imneħħi mill-Favourites" },
+    "downloads": { "remove": "Imneħħi mid-Downloads" },
+    "facebook": { "loginError": "Il-login jonqos bi żball" },
+    "google": { "loginError": "Il-login jonqos bi żball" }
+  },
+  "playlists": { "trackLabel": "Track", "tracksLabel": "Binarji" },
+  "mediaList": { "tracksLabel": "Binarji", "remove": "Neħħi" },
+  "tutorialPage": { "done": "Magħmul", "skip": "Aqbeż" },
+  "loginModal": { "login": "Idħol" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Tniżżil", "complete": "Niżżel Tlesti" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Esplora l-Bibbja",
+      "subtitle1": "Ivvjaġġa permezz tal-Bibbja kollha magħna, jew ibda vjaġġ tiegħek.",
+      "title2": "Isma 'u Impenja",
+      "subtitle2": "Il-media player jippermettilek tgħaddas fil-kontenut tal-BIBBJA bil-faċilità.",
+      "title3": "Skopri t-Tagħlim",
+      "subtitle3": "Involvi ruħek fil-Bibbja bħal qatt qabel billi tirreferenzja l-kontenut tal-Bibbja u t-Tagħlim.",
+      "title4": "Iddiskuti l-Bibbja",
+      "subtitle4": "Ingħaqad ma 'grupp biex tistudja IT-TAGĦLIM u l-temi tal-BIBBJA ma' oħrajn.",
+      "title5": "Niżżel u Aqsam",
+      "subtitle5": "Ħu pjaċir tisma 'l-Kelma ta' Alla waqt il-go u taqsamha ma 'sħabek.",
+      "title6": "Iffranka u Oħloq",
+      "subtitle6": "Ħlief it-tagħlim favorit tiegħek u l-versi tal-Bibbja jew oħloq playlist apposta.",
+      "title7": "Devozzjonijiet tal-Grupp",
+      "subtitle7": "Kun imħeġġeġ u ispirat minn oħrajn b'devozzjonali ta 'grupp ta' kuljum."
+    },
+    "registerPage": {
+      "noThanks": "Le grazzi",
+      "haveAccount": "Għandek kont?",
+      "createAccount": "Oħloq il-Kont Tiegħi",
+      "title1": "Iddiskuti ma ’Oħrajn",
+      "subtitle1": "Iddiskuti s-suġġetti favoriti tiegħek u l-versi tal-bibbja ma 'oħrajn.",
+      "title2": "Aħżen u Issinkronizza Playlists",
+      "subtitle2": "Ibni listi tal-kontenut favorit tiegħek f'post wieħed.",
+      "title3": "Ara l-Favourites Tiegħek",
+      "subtitle3": "Aħżen u erġa 'lura u żur il-favoriti tiegħek aktar tard.",
+      "title4": "Merħba lura",
+      "subtitle4": "Oħloq kont u ġġib aċċess għall-karatteristiċi kollha tagħna."
+    }
+  },
+  "app": {
+    "close": "qrib",
+    "accept": "Aċċetta",
+    "reject": "Irrifjuta",
+    "constructionInProgress": "KOSTRUZZJONI FIL-PROGRESS",
+    "downloadComplete": "Niżżel Tlesti",
+    "downloading": "Tniżżil",
+    "downloadFailed": "Id-Download ma rnexxiex",
+    "sendAFile": "Xi ħadd Irid Jibgħatlek Fajl"
+  },
+  "transferring": { "tryAgain": "erġa 'pprova", "close": "qrib" },
+  "checkDevice": {
+    "check": "Iċċekkja t-Tagħmir Tiegħek",
+    "makeSure": "Jekk jogħġbok kun żgur li Wifi-Direct huwa mixgħul it-tagħmir tal-ħabib tiegħek u huwa fil-firxa.",
+    "continue": "Kompli"
+  },
+  "connectToDevice": { "connect": "Qabbad ma 'Apparat" },
+  "pairing": {
+    "connect": "Qabbad ma 'Apparat",
+    "pairing": "Tqabbil",
+    "success": "Imqabbad b'suċċess",
+    "failed": "It-Tqabbil tat-Tagħmir Falla",
+    "makeSure": "Jekk jogħġbok kun żgur li (Wifi-Direct) huwa mixgħul it-tagħmir tal-ħabib tiegħek u huwa fil-firxa.",
+    "continue": "Kompli",
+    "tryAgain": "Erġa 'pprova"
+  },
+  "selectNetworkType": {
+    "connect": "Qabbad ma 'apparat",
+    "share": "Aqsam ma 'Wifi Direct",
+    "send": "Ibgħat fajl fuq wifi direttament?",
+    "continue": "Kompli"
+  }
+}

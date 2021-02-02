@@ -1,0 +1,411 @@
+{
+  "selectLanguage": {
+    "heading": "သင်၏လက်ရှိဘာသာစကားကိုရွေးချယ်ပါ",
+    "mainAction": "ဘာသာစကားရွေးပါ"
+  },
+  "menu": {
+    "anonymousTitle": "သင်၏အကောင့်",
+    "anonymousAction": "လော့ဂ်အင်",
+    "editProfileAction": "သင့်ရဲ့ကိုယ့်ရေးကိုယ်တာကိုပြုပြင်ရန်",
+    "verifyProfileAction": "ပရိုဖိုင်းကိုအတည်ပြုပါ",
+    "bibleSection": "သမ္မာကျမ်းစာ",
+    "teachingsSection": "သင်ကြားမှု",
+    "librarySection": "ကျွန်တော့်စာကြည့်တိုက်",
+    "groupsSection": "အဖွဲ့များ",
+    "donateSection": "လှူဒါန်းပါ",
+    "settingsSection": "ချိန်ညှိချက်များ",
+    "signOut": "ဆိုင်းအောက်",
+    "modals": {
+      "verifyProfile": {
+        "title": "သင်အတည်မပြုရပါ",
+        "message": "သင်၏စာရင်းအားတစ်ပြိုင်တည်းချိန်ကိုက်မှုမပြုနိုင်ပါ။ အုပ်စုများကိုသင်မဖန်တီးနိုင်ပါ။ ကျေးဇူးပြု၍ သင်၏အီးမေးလ်ကိုမှတ်ပုံတင်ခြင်းပြီးဆုံးရန်စစ်ဆေးပါ။",
+        "firstButton": "ဆက်လက်",
+        "secondButton": "ပရိုဖိုင်းအသစ်တစ်ခုကိုမှတ်ပုံတင်ပါ"
+      }
+    }
+  },
+  "signIn": {
+    "header": "ဆိုင်းအင်လုပ်ခြင်း",
+    "emailPlaceholder": "သင်၏အီးမေးလ်",
+    "passwordPlaceholder": "သင်၏စကားဝှက်",
+    "forgotAction": "စကားဝှက်ကိုမေ့နေပါသလား?",
+    "callToAction": "ဆိုင်းအင်လုပ်ခြင်း",
+    "signInAlternatives": "သို့မဟုတ်ဆိုင်းအင်လုပ်ပါ",
+    "noAccountAction": "အကောင့်မရှိဘူးလား တစ်ခုဖန်တီးပါ",
+    "notifications": {
+      "invalidCredentials": "မမှန်ကန်သောအထောက်အထားများ",
+      "inProgress": "တိုးတက်နေပြီးသားဝင်ပါ",
+      "notAvailable": "Play ဝန်ဆောင်မှုများမရနိုင်ပါ"
+    }
+  },
+  "signUp": {
+    "header": "အကောင့်ပြုလုပ်ပါ",
+    "emailPlaceholder": "သင်၏အီးမေးလ်",
+    "passwordPlaceholder": "သင်၏စကားဝှက်",
+    "privateAction": "အကောင့်သီးသန့်လုပ်ပါ",
+    "termsDisclaimer": {
+      "pre": "Signup ကိုနှိပ်ခြင်းအားဖြင့်သင်ကဖတ်ပြီးသဘောတူကြောင်းဖော်ပြသည်",
+      "terms": "စည်းကမ်းချက်များ",
+      "post": "။"
+    },
+    "callToAction": "ဆိုင်းအပ်",
+    "signUpAlternatives": "သို့မဟုတ် အသုံးပြု၍ စာရင်းသွင်းပါ",
+    "haveAnAccountAction": "အကောင့်ရှိပါသလား။",
+    "notifications": {
+      "invalidUsername": "သုံးစွဲသူအမည်များသည်အက္ခရာနံပါတ် ၂၀ လုံးသာရှိပြီးကိန်းဂဏန်းများနှင့်ပုံမှန်စာလုံးများဖြစ်သည်။",
+      "invalidPassword": "စကားဝှက်မှာအနည်းဆုံးအက္ခရာ ၃ လုံးရှိသင့်ပြီးအနည်းဆုံးနံပါတ်တစ်ခုသို့မဟုတ်အထူးအက္ခရာများပါရှိသည့်အကြီးနှင့်အသေးစာလုံးများပေါင်းစပ်ထားသင့်သည်"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "အကောင့်တစ်ခု ဖန်တီး၍ မရပါ",
+        "message": "ဤအီးမေးလိပ်စာရှိပြီးသား",
+        "firstButton": "ဆိုင်းအင်လုပ်ခြင်း",
+        "secondButton": "ပိတ်"
+      },
+      "privateAccount": {
+        "title": "ကိုယ်ပိုင်အကောင့်",
+        "message": "သင်၏အကောင့်ကိုလျှို့ဝှက်ထားခြင်းအားဖြင့်သင်သည်အခြားသူများမှရှာဖွေတွေ့ရှိခြင်းကိုမပြုလုပ်နိုင်ပါ။",
+        "firstButton": "လက်ခံသည်",
+        "secondButton": "ငြင်း"
+      },
+      "success": {
+        "title": "အကောင့်ဖန်တီးထားသည်။",
+        "message": "သင်၏အကောင့်ကိုအောင်မြင်စွာဖန်တီးခဲ့သည် သင်၏အကောင့်ကိုအတည်ပြုရန်နှင့်ဆိုင်းအင်ဝင်ရန်သင်၏အဝင်စာအားစစ်ဆေးပါ။",
+        "firstButton": "ဆိုင်းအင်လုပ်ခြင်း"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "လျှို့ဝှတ်နံပါတ်အားမူလအတိုင်းပြန်လုပ်သည်",
+    "emailPlaceholder": "သင်၏အီးမေးလ်",
+    "message": "သင်၏အကောင့်အတွက်သင်၏စကားဝှက်ကိုပြန်လည်သတ်မှတ်ရန်သင့်အီးမေးလ်ကိုထည့်ပါ။",
+    "callToAction": "လျှို့ဝှတ်နံပါတ်အားမူလအတိုင်းပြန်လုပ်သည်",
+    "notifications": {
+      "success": "သင့်အီးမေးလ်ကိုသာသင်၏စာစာထဲသို့ပို့လိုက်သည်",
+      "emailNotFoundError": "အီးမေးလ်မတွေ့ပါ",
+      "invalidEmailError": "မမှန်ကန်သောအီးမေးလ်ပုံစံ"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Setup ပြီးစီးပါ",
+    "message": "သင်ထည့်သွင်းခဲ့သောအီးမေးလ်လိပ်စာသို့အီးမေးလ်တစ်စောင်ပို့ထားသည် ကျေးဇူးပြု၍ မှတ်ပုံတင်ခြင်းပြီးဆုံးရန်အီးမေးလ်အသေးစိတ်ကိုကြည့်ပါ။",
+    "callToAction": "ယခုကျော်သွားပါ"
+  },
+  "teachings": {
+    "dailyText": "ဒီနေ့ထုတ်လွှင့်",
+    "journeyTitle": "သင်၏ခရီးစတင်ပါ",
+    "journeySubtitle": "အစမှအဆုံးသင်ကြားမှုအားလုံး",
+    "journeyCardTitle": "၂၁၅ အပတ်ကျမ်းစာမှတစ်ဆင့်ခရီး",
+    "journeyCardSubtitle": "သင်၏အချိန်ကိုနားထောင်ပါ",
+    "tracksLabel": "လမ်းကြောင်း"
+  },
+  "teaching": {
+    "header": "သင်ကြားမှု",
+    "loading": "ဖွင့်နေသည် ...",
+    "player": {
+      "audioSpeed": "အသံမြန်နှုန်း",
+      "loading": "တင်နေသည်",
+      "castingError": "ရရှိနိုင်သည့်ကိရိယာများမရှိပါ"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "ဆက်လက်နားထောင်ပါ", "secondButton": "ခရီးစတင်လိုက်ပါ" }
+    }
+  },
+  "journey": {
+    "byDate": "နေ့စွဲအားဖြင့်",
+    "bySeries": "စီးရီးအားဖြင့်",
+    "sections": { "tracksLabel": "လမ်းကြောင်း" }
+  },
+  "library": {
+    "header": "ကျွန်တော့်စာကြည့်တိုက်",
+    "tabs": {
+      "downloads": "downloads",
+      "favorites": "အကြိုက်ဆုံးများ",
+      "playlists": "Playlist များ"
+    }
+  },
+  "groups": {
+    "header": "အဖွဲ့များ",
+    "createGroup": {
+      "title": "အုပ်စုအသစ်ဖွဲ့ပါ",
+      "groupNameLabel": "အဖွဲ့နာမည်",
+      "groupNameInputPlaceHolder": "နာမည်",
+      "descriptionLabel": "ဖော်ပြချက်",
+      "descriptionInputPlaceHolder": "ဖော်ပြချက်ထည့်ပါ",
+      "inviteLabel": "အသုံးပြုသူများကိုဖိတ်ကြားပါ",
+      "inviteButton": "အသုံးပြုသူများကိုဖိတ်ပါ",
+      "button": "အုပ်စုဖွဲ့ပါ",
+      "invalidGroupName": "မှန်ကန်သောအမည်ထည့်ပါ",
+      "groupNameTooLong": "အုပ်စုအမည်တွင်စာလုံးရေ ၂၅ လုံးထက်မပိုစေရ"
+    },
+    "devotionNotStartAlert": "ဤအုပ်စုအတွက်ဆည်းကပ်ဝတ်ပြုမှုမစတင်ပါ",
+    "membersLabel": "အဖွဲ့ဝင်များ",
+    "chatModalMemberSubtitleLabel": "အဖွဲ့ဝင်",
+    "chatModalMembersSubtitleLabel": "အဖွဲ့ဝင်များ",
+    "chat": {
+      "listeningToLabel": "နားထောင်ခြင်း",
+      "loadingTrackLabel": "လမ်းကြောင်းဖွင့်နေသည် ...",
+      "inputPlaceHolder": "စာရေးရန်",
+      "deletePost": "Post ကိုဖျက်မည်",
+      "deleteMessage": "မက်ဆေ့ခ်ျကိုဖျက်ပစ်လိုက်သည်"
+    },
+    "groupSettings": {
+      "participantsSection": "ပါဝင်သူများ",
+      "viewAll": "အားလုံးကြည့်ပါ",
+      "invite": "အသုံးပြုသူများကိုဖိတ်ပါ",
+      "endDevotion": "Group မှဆည်းကပ်အဆုံးသတ်",
+      "deleteGroup": "အုပ်စုကိုဖျက်ပါ",
+      "leaveGroup": "ထွက်ခွာအုပ်စု"
+    },
+    "userDirectory": {
+      "header": "အသုံးပြုသူလမ်းညွှန်",
+      "remove": "ဖယ်ရှားပါ",
+      "anonymous": "အမည်မသိ",
+      "send": "ပို့ပါ"
+    },
+    "inviteUser": { "placeHolder": "ရှာပါ", "send": "ပို့ပါ" }
+  },
+  "chat": {
+    "header": "Group Channel",
+    "settings": {
+      "header": "အုပ်စုဖွဲ့ညှိခြင်း",
+      "endDevotion": {
+        "alertTitle": "ဆည်းကပ်အဆုံးသတ်",
+        "alertMessage": "ဒီဆည်းကပ်ဝတ်ပြုမှုကိုသင်အဆုံးသတ်ချင်တာသေချာလား။",
+        "alertCancel": "ပယ်ဖျက်ပါ",
+        "alertConfirm": "ဟုတ်တယ်",
+        "endDevotionLabel": "ဒီဆည်းကပ်အဆုံးသတ်ခဲ့သည်။",
+        "hasEnded": "ဒီဆည်းကပ်အဆုံးသတ်ခဲ့သည်"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "ဆည်းကပ်စတင်ပါ",
+    "alertMessage": "% {name} အုပ်စုဖြင့်ဆည်းကပ်ဝတ်ပြုမှုကိုသင်စတင်လိုသလား။",
+    "alertCancel": "ပယ်ဖျက်ပါ",
+    "alertConfirm": "ဟုတ်တယ်",
+    "devotionStartedLabel": "တစ် ဦး ဆည်းကပ်စတင်ခဲ့သည်။"
+  },
+  "settings": {
+    "header": "ချိန်ညှိချက်များ",
+    "tabs": { "profile": "ကိုယ်ရေးအကျဉ်း", "media": "မီဒီယာ", "notifications": "အသိပေးချက်များ" },
+    "profile": {
+      "account": "အကောင့်",
+      "username": "အသုံးပြုသူအမည်",
+      "email": "အီးမေးလ်",
+      "editButton": "တည်းဖြတ်ပါ",
+      "edit": {
+        "save": "သိမ်းဆည်းပါ",
+        "username": {
+          "header": "အသုံးပြုသူအမည်",
+          "successAlert": "သင့်ပြောင်းလဲမှုကိုသိမ်းပြီးပြီ",
+          "failedAlert": "ပြောင်းလဲမှုကိုသိမ်းရန်မအောင်မြင်ပါ။"
+        },
+        "email": {
+          "header": "အီးမေးလ်",
+          "successAlert": "သင့်ပြောင်းလဲမှုကိုသိမ်းပြီးပြီ",
+          "failedAlert": "ပြောင်းလဲမှုကိုသိမ်းရန်မအောင်မြင်ပါ။"
+        }
+      },
+      "languages": "ဘာသာစကားများ",
+      "signIn": "ဆိုင်းအင်လုပ်ခြင်း",
+      "signOut": "အကောင့်မှထွက်မည်",
+      "legal": "တရားဝင်",
+      "termsConditions": "စည်းမျဉ်းများနဲ့အခြေအနေများ",
+      "privacyPolicy": "ကိုယ်ရေးအချက်အလက်မူဝါဒ",
+      "support": "ပံ့ပိုးမှု",
+      "reportAProblem": "ပြaနာတစ်ခုသတင်းပို့ပါ",
+      "tutorial": "သင်ခန်းစာ",
+      "reportBug": {
+        "header": "ပြaနာတစ်ခုသတင်းပို့ပါ",
+        "send": "ပို့ပါ",
+        "subject": "အကြောင်းအရာ",
+        "subjectPlaceHolder": "ဘာသာရပ်",
+        "description": "ဖော်ပြချက်",
+        "descriptionPlaceHolder": "ဖော်ပြချက်",
+        "successAlert": "ကျေးဇူးတင်ပါတယ်၊ ကျွန်ုပ်တို့သင့်သတင်းစကားကိုလက်ခံရရှိပါပြီ",
+        "failedAlert": "မက်ဆေ့ခ်ျပို့ရန်မအောင်မြင်ပါ"
+      },
+      "version": "ဗားရှင်း"
+    },
+    "media": {
+      "audio": "အသံ",
+      "autoplay": "အော်ဒီယိုဖွင့်အသံ",
+      "storage": "သိုလှောင်ခြင်း",
+      "downloadWifi": "ဝိုင်ဖိုင်ပေါ်တွင်သာဒေါင်းလုပ်လုပ်ပါ",
+      "deleteCache": "Cache ကိုဖျက်ပါ"
+    },
+    "notifications": {
+      "notifications": "အသိပေးချက်များ",
+      "groupInvitation": "အုပ်စုဖိတ်ကြားမှု",
+      "devotions": "ကိုးကွယ်ရန်ဖိတ်ကြားပါ",
+      "file": "ဖိုင်လွှဲပြောင်းအတည်ပြုချက်"
+    }
+  },
+  "inviteUsers": { "header": "အသုံးပြုသူများကိုဖိတ်ကြားပါ" },
+  "playlist": {
+    "header": "Playlist စာရင်း",
+    "audioFileLabel": "အသံဖိုင်",
+    "audioFilesLabel": "အသံဖိုင်များ"
+  },
+  "collection": { "header": "စုဆောင်းမှု", "audioFilesLabel": "အသံဖိုင်များ" },
+  "modal": {
+    "close": "ပိတ်",
+    "addToPlaylist": { "title": "Playlist ထဲသို့ထည့်ပါ", "button": "Playlist ဖန်တီးပါ" },
+    "startDevotion": { "title": "ဆည်းကပ်စတင်ပါ" },
+    "createPlaylist": {
+      "title": "Playlist အသစ်ဖန်တီးပါ",
+      "button": "Playlist ဖန်တီးပါ",
+      "inputPlaceholder": "Playlist အမည်ထည့်ပါ",
+      "success": "Playlist ထဲထည့်သည်"
+    },
+    "login": "ဆည်းကပ်ဝတ်ပြုမှုတစ်ခုစတင်ရန်သင်ဝင်ရောက်ရန်လိုအပ်သည်"
+  },
+  "options": {
+    "shared": {
+      "share": "မျှဝေပါ",
+      "report": "အစီရင်ခံစာအကြောင်းအရာ",
+      "shareOthers": "အခြားသူများနှင့်မျှဝေပါ",
+      "copy": "Link ကိုကူးပါ",
+      "more": "နောက်ထပ်"
+    },
+    "audio": {
+      "download": "ဒေါင်းလုပ်",
+      "addFavorite": "အကြိုက်ဆုံးထဲထည့်ပါ",
+      "addPlaylist": "Playlist ထဲသို့ထည့်ပါ",
+      "removeFavorite": "အနှစ်သက်ဆုံးမှဖယ်ရှားပါ",
+      "removePlaylist": "Playlist မှဖယ်ထုတ်ပါ",
+      "removeDownload": "Downloads မှဖယ်ထုတ်ပါ"
+    },
+    "playlist": { "edit": "တည်းဖြတ်ပါ", "delete": "Playlist အားဖျက်ပါ" },
+    "startDevotion": "ဆည်းကပ်စတင်ပါ"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Playlist ထဲထည့်သည်",
+      "delete": "Playlist မှဖယ်ထုတ်ပြီး",
+      "create": "Playlist ဖန်တီးထားသည်",
+      "destroy": "ဖျက်ပစ်ရန်စာရင်း"
+    },
+    "favorites": {
+      "add": "အနှစ်သက်ဆုံးသို့ထည့်သွင်းခဲ့သည်",
+      "remove": "အနှစ်သက်ဆုံးမှဖယ်ရှားခဲ့သည်"
+    },
+    "downloads": { "remove": "Downloads မှဖယ်ထုတ်ပြီး" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "ရောမ" },
+  "uiControls": {
+    "searchBox": { "placeholder": "ရှာရန် ..." },
+    "notification": { "success": "အောင်မြင်ပြီ သင်၏အကောင့်သို့အီးမေးလ်တစ်ခုပို့လိမ့်မည်" },
+    "button": { "sending": "ပို့နေသည် ..." },
+    "modalSelector": { "cancel": "ပယ်ဖျက်ပါ" },
+    "loading": "တင်နေသည်"
+  },
+  "bible": {
+    "header": "သမ္မာကျမ်းစာ",
+    "oldTestament": "ဓမ္မဟောင်းကျမ်း",
+    "newTestament": "ဓမ္မသစ်ကျမ်း",
+    "popularBooks": "လူကြိုက်များသောစာအုပ်များ"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "ရှာပါ",
+    "cancelButton": "ဖျက်သိမ်းခြင်း",
+    "searchResults": "ရှာဖွေမှုရလဒ်များ",
+    "filterButton": "စစ်ထုတ်သည်",
+    "teachings": { "title": "သင်ကြားမှု" },
+    "bible": { "title": "သမ္မာကျမ်းစာ" }
+  },
+  "addToPlaylistsModal": { "title": "Playlist ထဲသို့ထည့်ပါ", "button": "Playlist ဖန်တီးပါ" },
+  "createPlaylistModal": {
+    "title": "Playlist အသစ်ဖန်တီးပါ",
+    "button": "Playlist ဖန်တီးပါ",
+    "inputPlaceholder": "Playlist အမည်ထည့်ပါ"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Playlist ထဲထည့်သည်",
+      "remove": "Playlist မှဖယ်ထုတ်ပြီး",
+      "create": "Playlist ဖန်တီးထားသည်",
+      "delete": "ဖျက်ပစ်ရန်စာရင်း"
+    },
+    "favorites": {
+      "add": "အနှစ်သက်ဆုံးသို့ထည့်သွင်းခဲ့သည်",
+      "remove": "အနှစ်သက်ဆုံးမှဖယ်ရှားခဲ့သည်"
+    },
+    "downloads": { "remove": "Downloads မှဖယ်ထုတ်ပြီး" },
+    "facebook": { "loginError": "အမှားနှင့်ဝင်မည်" },
+    "google": { "loginError": "အမှားနှင့်ဝင်မည်" }
+  },
+  "playlists": { "trackLabel": "လမ်းကြောင်း", "tracksLabel": "လမ်းကြောင်း" },
+  "mediaList": { "tracksLabel": "လမ်းကြောင်း", "remove": "ဖယ်ရှားပါ" },
+  "tutorialPage": { "done": "ပြီးပြီ", "skip": "ကျော်သွား" },
+  "loginModal": { "login": "လော့ဂ်အင်" },
+  "shareModal": { "facebook": "Facebook", "twitter": "တွစ်တာ", "whatsapp": "နင်" },
+  "downloadModal": {
+    "downloading": "ဒေါင်းလုပ်ရယူပါ",
+    "complete": "ပြီးပြည့်စုံစွာ download လုပ်ပါ"
+  },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "သမ္မာကျမ်းစာကိုလေ့လာပါ",
+      "subtitle1": "ကျွန်ုပ်တို့နှင့်အတူကျမ်းစာတစ်ခုလုံးကိုလေ့လာပါ၊ သို့မဟုတ်သင်၏ကိုယ်ပိုင်ခရီးတစ်ခုစတင်ပါ။",
+      "title2": "နားထောင်ပြီးပါ",
+      "subtitle2": "မီဒီယာဖွင့်စက်သည်သင့်အားသမ္မာကျမ်းစာပါအကြောင်းအရာများကိုလွယ်လွယ်ကူကူရေငုပ်နိုင်သည်။",
+      "title3": "သွန်သင်ချက်များကိုရှာဖွေပါ",
+      "subtitle3": "သမ္မာကျမ်းစာနှင့်သွန်သင်ခြင်းအကြောင်းအရာများကိုအပြန်အလှန်ကိုးကားခြင်းအားဖြင့်သမ္မာကျမ်းစာကိုတစ်ခါမှမလုပ်ဖူးပါ။",
+      "title4": "သမ္မာကျမ်းစာကိုဆွေးနွေးပါ",
+      "subtitle4": "THRU - သမ္မာကျမ်းစာသွန်သင်ချက်များနှင့်အကြောင်းအရာများကိုအခြားသူများနှင့်လေ့လာရန်အဖွဲ့တစ်ဖွဲ့နှင့်ပူးပေါင်းပါ။",
+      "title5": "Download & Share",
+      "subtitle5": "ဘုရားသခင့်နှုတ်ကပါဌ်တော်ကိုအဝေးကနေနားထောင်ပြီးသူငယ်ချင်းများနှင့်မျှဝေပါ။",
+      "title6": "သိမ်းပြီးဖန်တီးပါ",
+      "subtitle6": "သင်ကြိုက်နှစ်သက်သောသင်ကြားမှုများနှင့်ကျမ်းစာအခန်းငယ်များကိုသိမ်းဆည်းပါ။",
+      "title7": "အဖွဲ့လိုက်",
+      "subtitle7": "နေ့စဉ်အုပ်စုလိုက်ဆည်းကပ်ကိုးကွယ်သူများနှင့်အတူအခြားသူများကအားပေးပြီးမှုတ်သွင်းခံပါ။"
+    },
+    "registerPage": {
+      "noThanks": "ရပါတယ်ကျေးဇူးပါ",
+      "haveAccount": "အကောင့်ရှိပါသလား။",
+      "createAccount": "ငါ့အကောင့်ကိုဖန်တီးပါ",
+      "title1": "အခြားသူများနှင့်ဆွေးနွေးပါ",
+      "subtitle1": "သင်အကြိုက်ဆုံးအကြောင်းအရာများနှင့်သမ္မာကျမ်းစာအခန်းငယ်များကိုအခြားသူများနှင့်ဆွေးနွေးပါ။",
+      "title2": "ဖွင့်စရာစာရင်းများကိုသိမ်းပြီးစည်းညှိပါ",
+      "subtitle2": "သင်ကြိုက်နှစ်သက်သောအကြောင်းအရာစာရင်းများကိုတစ်နေရာတည်းတွင်တည်ဆောက်ပါ",
+      "title3": "သင်အနှစ်သက်ဆုံးကိုကြည့်ပါ",
+      "subtitle3": "သိမ်းပြီးပြန်လာပြီးသင်အကြိုက်ဆုံးများကိုနောင်အချိန်တွင်လည်ပတ်ပါ။",
+      "title4": "ပြန်လည်ကြိုဆိုပါတယ်",
+      "subtitle4": "အကောင့်တစ်ခုဖွင့်ပြီးကျွန်ုပ်တို့ရဲ့အင်္ဂါရပ်အားလုံးကိုရယူသုံးစွဲပါ။"
+    }
+  },
+  "app": {
+    "close": "ပိတ်",
+    "accept": "လက်ခံသည်",
+    "reject": "ငြင်းပါ",
+    "constructionInProgress": "တိုးတက်မှုအတွက်ဆောက်လုပ်ရေး",
+    "downloadComplete": "ပြီးပြည့်စုံစွာ download လုပ်ပါ",
+    "downloading": "ဒေါင်းလုပ်ရယူပါ",
+    "downloadFailed": "ဒေါင်းလုပ်မအောင်မြင်ပါ",
+    "sendAFile": "တစ်စုံတစ်ယောက်ကသင့်ကိုဖိုင်တစ်ခုပို့ချင်သည်"
+  },
+  "transferring": { "tryAgain": "ထပ်ကြိုးစားပါ", "close": "ပိတ်" },
+  "checkDevice": {
+    "check": "သင့်ကိရိယာကိုစစ်ဆေးပါ",
+    "makeSure": "ကျေးဇူးပြု၍ Wifi-Direct သည်သင်၏သူငယ်ချင်း၏စက်ကိုဖွင့်ထားကြောင်းသေချာအောင်လုပ်ပါ။",
+    "continue": "ဆက်လက်"
+  },
+  "connectToDevice": { "connect": "ကိရိယာတစ်ခုနှင့်ချိတ်ဆက်ပါ" },
+  "pairing": {
+    "connect": "ကိရိယာတစ်ခုနှင့်ချိတ်ဆက်ပါ",
+    "pairing": "တွဲဖက်",
+    "success": "တွဲဖက်ပြီးပါပြီ",
+    "failed": "ကိရိယာတွဲဖက်မှုမအောင်မြင်ပါ",
+    "makeSure": "ကျေးဇူးပြုပြီး (Wifi-Direct) သင့်သူငယ်ချင်း၏စက်ကိုဖွင့်ထားပါ။",
+    "continue": "ဆက်လက်",
+    "tryAgain": "ထပ်ကြိုးစားပါ"
+  },
+  "selectNetworkType": {
+    "connect": "ကိရိယာတစ်ခုနှင့်ချိတ်ဆက်ပါ",
+    "share": "Wifi Direct နှင့်မျှဝေပါ",
+    "send": "ဖိုင်ကိုဝိုင်ဖိုင်မှတစ်ဆင့်တိုက်ရိုက်ပို့ပေးပါသလား။",
+    "continue": "ဆက်လက်"
+  }
+}

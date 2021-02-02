@@ -1,0 +1,399 @@
+{
+  "selectLanguage": { "heading": "ھازىرقى تىلىڭىزنى تاللاڭ", "mainAction": "تىل تاللاڭ" },
+  "menu": {
+    "anonymousTitle": "ھېساباتىڭىز",
+    "anonymousAction": "كىرىش",
+    "editProfileAction": "ئارخىپنى تەھرىرلەش",
+    "verifyProfileAction": "ئارخىپنى دەلىللەڭ",
+    "bibleSection": "ئىنجىل",
+    "teachingsSection": "تەلىمات",
+    "librarySection": "مېنىڭ كۇتۇپخانىم",
+    "groupsSection": "گۇرۇپپىلار",
+    "donateSection": "ئىئانە قىلىڭ",
+    "settingsSection": "تەڭشەك",
+    "signOut": "چېكىنىش",
+    "modals": {
+      "verifyProfile": {
+        "title": "دەلىللەنمىدىڭىز",
+        "message": "تىزىملىكلىرىڭىز ماسلاشمايدۇ ، گۇرۇپپا قۇرالمايسىز. تىزىملىتىشنى تاماملاش ئۈچۈن ئېلېكترونلۇق خەتنى تەكشۈرۈڭ.",
+        "firstButton": "داۋاملاشتۇر",
+        "secondButton": "يېڭى ئارخىپنى تىزىملىتىڭ"
+      }
+    }
+  },
+  "signIn": {
+    "header": "تىزىملىتىڭ",
+    "emailPlaceholder": "ئېلېكترونلۇق خەت",
+    "passwordPlaceholder": "پارولىڭىز",
+    "forgotAction": "پارولنى ئۇنتۇپ قالدىڭىزمۇ؟",
+    "callToAction": "تىزىملىتىڭ",
+    "signInAlternatives": "ياكى ئىشلىتىپ كىرىڭ",
+    "noAccountAction": "ھېسابات يوق؟ بىرنى قۇر",
+    "notifications": {
+      "invalidCredentials": "ئىناۋەتسىز",
+      "inProgress": "تىزىملىتىڭ",
+      "notAvailable": "مۇلازىمەتلەرنى ئىشلەتكىلى بولمايدۇ"
+    }
+  },
+  "signUp": {
+    "header": "ھېسابات قۇر",
+    "emailPlaceholder": "ئېلېكترونلۇق خەت",
+    "passwordPlaceholder": "پارولىڭىز",
+    "privateAction": "ھېساباتنى شەخسىي قىلىڭ",
+    "termsDisclaimer": {
+      "pre": "تىزىملاشنى چېكىش ئارقىلىق ئوقۇغانلىقىڭىزنى ۋە قوشۇلغانلىقىڭىزنى كۆرسىتىدۇ",
+      "terms": "شەرتلەر",
+      "post": "."
+    },
+    "callToAction": "تىزىملىتىڭ",
+    "signUpAlternatives": "ياكى ئىشلىتىپ تىزىملىتىڭ",
+    "haveAnAccountAction": "ھېساباتىڭىز بارمۇ؟",
+    "notifications": {
+      "invalidUsername": "ئىشلەتكۈچى ئىسمى 20 ھەرپ-بەلگە (سان ۋە دائىملىق ھەرپ) بىلەنلا چەكلىنىدۇ",
+      "invalidPassword": "پارولدا كەم دېگەندە 3 ھەرپ بولۇشى ھەمدە ئاز دېگەندە بىر سان ياكى ئالاھىدە ھەرپ بىلەن چوڭ ۋە كىچىك ھەرپلەرنىڭ بىرىكىشى بولۇشى كېرەك"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "ھېسابات قۇرالمىدى",
+        "message": "بۇ ئېلېكترونلۇق خەت ئادرېسى مەۋجۇت.",
+        "firstButton": "تىزىملىتىڭ",
+        "secondButton": "تاقاش"
+      },
+      "privateAccount": {
+        "title": "شەخسىي ھېسابات",
+        "message": "ھېساباتىڭىزنى شەخسىيلەشتۈرۈش ئارقىلىق ئۇنى باشقىلارنىڭ بايقىشىدىن يوشۇرىسىز.",
+        "firstButton": "قوبۇل قىلىڭ",
+        "secondButton": "رەت قىلىش"
+      },
+      "success": {
+        "title": "ھېسابات قۇرۇلدى!",
+        "message": "ھېساباتىڭىز مۇۋەپپەقىيەتلىك قۇرۇلدى. ھېساباتىڭىزنى جەزملەشتۈرۈڭ ۋە تىزىملىتىڭ.",
+        "firstButton": "تىزىملىتىڭ"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "پارولنى ئەسلىگە قايتۇرۇش",
+    "emailPlaceholder": "ئېلېكترونلۇق خەت",
+    "message": "ھېساباتىڭىزغا پارولىڭىزنى قايتا بەلگىلەش ئۈچۈن ئېلېكترونلۇق خەتنى كىرگۈزۈڭ.",
+    "callToAction": "پارولنى ئەسلىگە قايتۇرۇش",
+    "notifications": {
+      "success": "بىز پەقەت خەت ساندۇقىڭىزغا ئېلېكترونلۇق خەت ئەۋەتتۇق",
+      "emailNotFoundError": "ئېلېكترونلۇق خەت تېپىلمىدى",
+      "invalidEmailError": "ئېلېكترونلۇق خەت شەكلى ئىناۋەتسىز"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "تەڭشەشنى تاماملاڭ",
+    "message": "سىز كىرگۈزگەن ئېلېكترونلۇق خەت ئادرېسىغا ئېلېكترونلۇق خەت ئەۋەتىلدى. تىزىملاشنى تاماملاش ئۈچۈن ئېلېكترونلۇق خەت تەپسىلاتلىرىنى كۆرۈڭ.",
+    "callToAction": "ھازىر ئاتلاڭ"
+  },
+  "teachings": {
+    "dailyText": "بۈگۈنكى تارقىتىش",
+    "journeyTitle": "سەپىرىڭىزنى باشلاڭ",
+    "journeySubtitle": "بارلىق تەلىماتلار باشتىن-ئاخىر",
+    "journeyCardTitle": "215 ئىنجىل ئارقىلىق ھەپتىلىك سەپەر",
+    "journeyCardSubtitle": "ۋاقتىڭىزنى ئاڭلاڭ",
+    "tracksLabel": "ئىزلار"
+  },
+  "teaching": {
+    "header": "تەلىمات",
+    "loading": "Loading ...",
+    "player": {
+      "audioSpeed": "Audio Speed",
+      "loading": "يۈكلەۋاتىدۇ",
+      "castingError": "ئۈسكۈنىلەر يوق"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "داۋاملىق ئاڭلاڭ", "secondButton": "سەپىرىڭىزنى باشلاڭ" }
+    }
+  },
+  "journey": {
+    "byDate": "چېسلا",
+    "bySeries": "By Series",
+    "sections": { "tracksLabel": "ئىزلار" }
+  },
+  "library": {
+    "header": "مېنىڭ كۇتۇپخانىم",
+    "tabs": {
+      "downloads": "چۈشۈرۈش",
+      "favorites": "ياقتۇرىدىغانلار",
+      "playlists": "قويۇش تىزىملىكى"
+    }
+  },
+  "groups": {
+    "header": "گۇرۇپپىلار",
+    "createGroup": {
+      "title": "يېڭى گۇرۇپپا قۇرۇش",
+      "groupNameLabel": "GROUP NAME",
+      "groupNameInputPlaceHolder": "ئىسمى",
+      "descriptionLabel": "DESCRIPTION",
+      "descriptionInputPlaceHolder": "چۈشەندۈرۈش قوشۇڭ",
+      "inviteLabel": "ئىشلەتكۈچىنى تەكلىپ قىلىڭ",
+      "inviteButton": "يېڭى ئىشلەتكۈچىلەرنى تەكلىپ قىلىڭ",
+      "button": "گۇرۇپپا قۇرۇش",
+      "invalidGroupName": "ئىناۋەتلىك ئىسىم كىرگۈزۈڭ",
+      "groupNameTooLong": "گۇرۇپپىنىڭ ئىسمى 25 ھەرپتىن ئېشىپ كەتمەسلىكى كېرەك"
+    },
+    "devotionNotStartAlert": "بۇ توپ ئۈچۈن ساداقەت باشلانمىدى",
+    "membersLabel": "ئەزالار",
+    "chatModalMemberSubtitleLabel": "ئەزا",
+    "chatModalMembersSubtitleLabel": "ئەزالار",
+    "chat": {
+      "listeningToLabel": "ئاڭلاش",
+      "loadingTrackLabel": "يۈكلەش يولى ...",
+      "inputPlaceHolder": "ئۇچۇر يېزىڭ",
+      "deletePost": "يازمىنى ئۆچۈرۈڭ",
+      "deleteMessage": "بىر ئۇچۇرنى ئۆچۈردى"
+    },
+    "groupSettings": {
+      "participantsSection": "قاتناشقۇچىلار",
+      "viewAll": "ھەممىنى كۆرۈش",
+      "invite": "يېڭى ئىشلەتكۈچىلەرنى تەكلىپ قىلىڭ",
+      "endDevotion": "گۇرۇپپا تەقدىم قىلىش",
+      "deleteGroup": "گۇرۇپپىنى ئۆچۈرۈش",
+      "leaveGroup": "گۇرۇپپىدىن ئايرىلىش"
+    },
+    "userDirectory": {
+      "header": "ئىشلەتكۈچى مۇندەرىجىسى",
+      "remove": "ئۆچۈرۈڭ",
+      "anonymous": "نامسىز",
+      "send": "ئەۋەتىڭ"
+    },
+    "inviteUser": { "placeHolder": "ئىزدەش", "send": "ئەۋەتىڭ" }
+  },
+  "chat": {
+    "header": "گۇرۇپپا قانىلى",
+    "settings": {
+      "header": "گۇرۇپپا تەڭشىكى",
+      "endDevotion": {
+        "alertTitle": "ئاخىرلىشىش",
+        "alertMessage": "بۇ ساداقەتنى ئاخىرلاشتۇرغۇڭىز بارمۇ؟",
+        "alertCancel": "بىكار قىلىش",
+        "alertConfirm": "ھەئە",
+        "endDevotionLabel": "بۇ ساداقەتنى ئاخىرلاشتۇردى.",
+        "hasEnded": "بۇ ساداقەت ئاخىرلاشتى"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "تەقۋالىقنى باشلاڭ",
+    "alertMessage": "% {Name} گۇرۇپپىسى بىلەن ساداقەتنى باشلاشنى خالامسىز؟",
+    "alertCancel": "بىكار قىلىش",
+    "alertConfirm": "ھەئە",
+    "devotionStartedLabel": "تەقۋالىقنى باشلىدى."
+  },
+  "settings": {
+    "header": "تەڭشەك",
+    "tabs": { "profile": "ئارخىپ", "media": "Media", "notifications": "ئۇقتۇرۇش" },
+    "profile": {
+      "account": "ھېسابات",
+      "username": "ئىشلەتكۈچى ئىسمى",
+      "email": "ئېلېكترونلۇق خەت",
+      "editButton": "تەھرىر",
+      "edit": {
+        "save": "ساقلاش",
+        "username": {
+          "header": "ئىشلەتكۈچى ئىسمى",
+          "successAlert": "ئۆزگەرتىشىڭىز ساقلاندى.",
+          "failedAlert": "ئۆزگەرتىشنى ساقلىيالمىدى."
+        },
+        "email": {
+          "header": "ئېلخەت",
+          "successAlert": "ئۆزگەرتىشىڭىز ساقلاندى.",
+          "failedAlert": "ئۆزگەرتىشنى ساقلىيالمىدى."
+        }
+      },
+      "languages": "تىللار",
+      "signIn": "تىزىملىتىڭ",
+      "signOut": "ھېساباتتىن چېكىنىش",
+      "legal": "قانۇنلۇق",
+      "termsConditions": "شەرت ۋە شەرت",
+      "privacyPolicy": "مەخپىيەتلىك تۈزۈمى",
+      "support": "قوللاش",
+      "reportAProblem": "بىر مەسىلىنى دوكلات قىلىڭ",
+      "tutorial": "Tutorial",
+      "reportBug": {
+        "header": "بىر مەسىلىنى دوكلات قىلىڭ",
+        "send": "ئەۋەتىڭ",
+        "subject": "SUBJECT",
+        "subjectPlaceHolder": "تېما",
+        "description": "DESCRIPTION",
+        "descriptionPlaceHolder": "چۈشەندۈرۈش",
+        "successAlert": "رەھمەت سىزگە ، ئۇچۇرىڭىزنى تاپشۇرۇۋالدۇق.",
+        "failedAlert": "ئۇچۇر ئەۋەتەلمىدى."
+      },
+      "version": "نەشرى"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Autoplay Audio",
+      "storage": "ساقلاش",
+      "downloadWifi": "پەقەت Wi-Fi دىن چۈشۈرۈڭ",
+      "deleteCache": "Cache نى ئۆچۈرۈڭ"
+    },
+    "notifications": {
+      "notifications": "ئۇقتۇرۇش",
+      "groupInvitation": "گۇرۇپپا تەكلىپنامىسى",
+      "devotions": "تەقۋادارلارغا تەكلىپ قىلىڭ",
+      "file": "ھۆججەت يوللاشنى جەزملەشتۈرۈش"
+    }
+  },
+  "inviteUsers": { "header": "ئىشلەتكۈچىنى تەكلىپ قىلىڭ" },
+  "playlist": {
+    "header": "قويۇش تىزىملىكى",
+    "audioFileLabel": "Audio File",
+    "audioFilesLabel": "Audio Files"
+  },
+  "collection": { "header": "Collection", "audioFilesLabel": "Audio Files" },
+  "modal": {
+    "close": "close",
+    "addToPlaylist": { "title": "قويۇش تىزىملىكىگە قوشۇڭ", "button": "قويۇش تىزىملىكى قۇرۇش" },
+    "startDevotion": { "title": "تەقۋالىقنى باشلاڭ" },
+    "createPlaylist": {
+      "title": "يېڭى قويۇش تىزىملىكى قۇرۇش",
+      "button": "قويۇش تىزىملىكى قۇرۇش",
+      "inputPlaceholder": "قويۇش تىزىملىكى نامىنى كىرگۈزۈڭ",
+      "success": "Playlist غا قوشۇلدى"
+    },
+    "login": "ساداقەتنى باشلاش ئۈچۈن تىزىملىتىشىڭىز كېرەك"
+  },
+  "options": {
+    "shared": {
+      "share": "ھەمبەھىرلەش",
+      "report": "دوكلات مەزمۇنى",
+      "shareOthers": "باشقىلار بىلەن ئورتاقلىشىڭ",
+      "copy": "ئۇلانمىنى كۆچۈرۈڭ",
+      "more": "تېخىمۇ كۆپ"
+    },
+    "audio": {
+      "download": "چۈشۈرۈش",
+      "addFavorite": "ياقتۇرىدىغانلارغا قوشۇڭ",
+      "addPlaylist": "قويۇش تىزىملىكىگە قوشۇڭ",
+      "removeFavorite": "ياقتۇرىدىغانلاردىن ئۆچۈرۈڭ",
+      "removePlaylist": "قويۇش تىزىملىكىدىن ئۆچۈرۈڭ",
+      "removeDownload": "چۈشۈرۈشتىن ئۆچۈرۈڭ"
+    },
+    "playlist": { "edit": "تەھرىر", "delete": "Playlist نى ئۆچۈرۈڭ" },
+    "startDevotion": "تەقۋالىقنى باشلاڭ"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Playlist غا قوشۇلدى",
+      "delete": "قويۇش تىزىملىكىدىن ئۆچۈرۈلدى",
+      "create": "Playlist قۇرۇلدى",
+      "destroy": "ئۆچۈرۈلگەن تىزىملىك"
+    },
+    "favorites": { "add": "ياقتۇرىدىغانلارغا قوشۇلدى", "remove": "ياقتۇرىدىغانلاردىن ئۆچۈرۈلدى" },
+    "downloads": { "remove": "چۈشۈرۈشتىن ئۆچۈرۈلدى" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Shuffle" },
+  "uiControls": {
+    "searchBox": { "placeholder": "ئىزدەش ..." },
+    "notification": { "success": "مۇۋەپپەقىيەت! ھېساباتىڭىزغا ئېلېكترونلۇق خەت ئەۋەتىلىدۇ." },
+    "button": { "sending": "ئەۋەتىش ..." },
+    "modalSelector": { "cancel": "بىكار قىلىش" },
+    "loading": "يۈكلەۋاتىدۇ"
+  },
+  "bible": {
+    "header": "ئىنجىل",
+    "oldTestament": "كونا ئەھدە",
+    "newTestament": "يېڭى ئەھدە",
+    "popularBooks": "داڭلىق كىتابلار"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "ئىزدەش",
+    "cancelButton": "CANCEL",
+    "searchResults": "ئىزدەش نەتىجىسى",
+    "filterButton": "سۈزگۈچ",
+    "teachings": { "title": "تەلىمات" },
+    "bible": { "title": "ئىنجىل" }
+  },
+  "addToPlaylistsModal": { "title": "قويۇش تىزىملىكىگە قوشۇڭ", "button": "قويۇش تىزىملىكى قۇرۇش" },
+  "createPlaylistModal": {
+    "title": "يېڭى قويۇش تىزىملىكى قۇرۇش",
+    "button": "قويۇش تىزىملىكى قۇرۇش",
+    "inputPlaceholder": "قويۇش تىزىملىكى نامىنى كىرگۈزۈڭ"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Playlist غا قوشۇلدى",
+      "remove": "قويۇش تىزىملىكىدىن ئۆچۈرۈلدى",
+      "create": "Playlist قۇرۇلدى",
+      "delete": "ئۆچۈرۈلگەن تىزىملىك"
+    },
+    "favorites": { "add": "ياقتۇرىدىغانلارغا قوشۇلدى", "remove": "ياقتۇرىدىغانلاردىن ئۆچۈرۈلدى" },
+    "downloads": { "remove": "چۈشۈرۈشتىن ئۆچۈرۈلدى" },
+    "facebook": { "loginError": "كىرىش خاتا" },
+    "google": { "loginError": "كىرىش خاتا" }
+  },
+  "playlists": { "trackLabel": "ئىز قوغلاش", "tracksLabel": "ئىزلار" },
+  "mediaList": { "tracksLabel": "ئىزلار", "remove": "ئۆچۈرۈڭ" },
+  "tutorialPage": { "done": "تامام", "skip": "ئاتلاش" },
+  "loginModal": { "login": "كىرىش" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "چۈشۈرۈش", "complete": "چۈشۈرۈش تامام" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "ئىنجىل ئۈستىدە ئىزدىنىڭ",
+      "subtitle1": "پۈتۈن ئىنجىلنى بىز بىلەن بىللە ساياھەت قىلىڭ ياكى ئۆزىڭىزنىڭ ساياھىتىنى باشلاڭ.",
+      "title2": "ئاڭلاڭ ۋە قاتنىشىڭ",
+      "subtitle2": "مېدىيا قويغۇچ سىزنىڭ THRU BIBLE مەزمۇنىغا ئوڭايلا شۇڭغۇيالايسىز.",
+      "title3": "تەلىماتلارنى بايقاش",
+      "subtitle3": "ئىنجىل ۋە ئوقۇتۇش مەزمۇنىنى ئۆزئارا ئۇلىنىش ئارقىلىق ئىلگىرىكىگە ئوخشاش ئىنجىلغا قاتنىشىڭ.",
+      "title4": "ئىنجىلنى مۇلاھىزە قىلىڭ",
+      "subtitle4": "بىر گۇرۇپپىغا قوشۇلۇڭ ، THRU ئىنجىلدىكى تەلىمات ۋە تېمىلارنى باشقىلار بىلەن بىللە ئۆگىنىڭ.",
+      "title5": "چۈشۈرۈش ۋە ئورتاقلىشىش",
+      "subtitle5": "خۇدانىڭ سۆزىنى نەق مەيداندىلا ئاڭلاڭ ۋە دوستلىرىڭىز بىلەن ئورتاقلىشىڭ.",
+      "title6": "ساقلاش ۋە قۇرۇش",
+      "subtitle6": "ئۆزىڭىز ياقتۇرىدىغان تەلىمات ۋە ئىنجىل ئايەتلىرىنى ساقلىۋېلىڭ ياكى ئىختىيارىي تىزىملىك ​​قۇرالايسىز.",
+      "title7": "گۇرۇپپا تەقدىم قىلىش",
+      "subtitle7": "كۈندىلىك گۇرۇپپا ساداقەتمەنلىكى بىلەن باشقىلاردىن ئىلھام ۋە ئىلھام بولۇڭ."
+    },
+    "registerPage": {
+      "noThanks": "ياق رەھمەت",
+      "haveAccount": "ھېساباتىڭىز بارمۇ؟",
+      "createAccount": "ھېساباتىمنى قۇر",
+      "title1": "باشقىلار بىلەن مۇنازىرە قىلىڭ",
+      "subtitle1": "ئۆزىڭىز ياقتۇرىدىغان تېما ۋە ئىنجىل ئايەتلىرىنى باشقىلار بىلەن مۇنازىرە قىلىڭ.",
+      "title2": "قويۇش تىزىملىكى ۋە ماسقەدەملەش تىزىملىكى",
+      "subtitle2": "ئۆزىڭىز ياقتۇرىدىغان مەزمۇنلارنىڭ تىزىملىكىنى بىر يەرگە قۇرۇڭ.",
+      "title3": "ياقتۇرىدىغانلىرىڭىزنى كۆرۈڭ",
+      "subtitle3": "ساقلاڭ ۋە قايتىپ كېلىپ كېيىن ياقتۇرىدىغانلىرىڭىزنى زىيارەت قىلىڭ.",
+      "title4": "قايتىپ كەلگىنىڭىزنى قارشى ئالىمىز",
+      "subtitle4": "ھېسابات قۇرۇڭ ۋە بارلىق ئىقتىدارلىرىمىزنى زىيارەت قىلىڭ."
+    }
+  },
+  "app": {
+    "close": "close",
+    "accept": "قوبۇل قىلىڭ",
+    "reject": "رەت قىلىش",
+    "constructionInProgress": "تەرەققىياتتىكى قۇرۇلۇش",
+    "downloadComplete": "چۈشۈرۈش تامام",
+    "downloading": "چۈشۈرۈش",
+    "downloadFailed": "چۈشۈرۈش مەغلۇب بولدى",
+    "sendAFile": "بەزىلەر سىزگە ھۆججەت ئەۋەتمەكچى"
+  },
+  "transferring": { "tryAgain": "قايتا سىناڭ", "close": "close" },
+  "checkDevice": {
+    "check": "ئۈسكۈنىڭىزنى تەكشۈرۈڭ",
+    "makeSure": "Wifi-Direct نىڭ دوستىڭىزنىڭ ئۈسكۈنىسىدە ئېچىلغانلىقىنى جەزملەشتۈرۈڭ.",
+    "continue": "داۋاملاشتۇر"
+  },
+  "connectToDevice": { "connect": "ئۈسكۈنىگە ئۇلاڭ" },
+  "pairing": {
+    "connect": "ئۈسكۈنىگە ئۇلاڭ",
+    "pairing": "Pairing",
+    "success": "مۇۋەپپەقىيەتلىك جۈپلەندى",
+    "failed": "ئۈسكۈنىلەرنى جۈپلەش مەغلۇب بولدى",
+    "makeSure": "(Wifi-Direct) دوستىڭىزنىڭ ئۈسكۈنىسىدە ئېچىلغانلىقىنى جەزملەشتۈرۈڭ.",
+    "continue": "داۋاملاشتۇر",
+    "tryAgain": "قايتا سىناڭ"
+  },
+  "selectNetworkType": {
+    "connect": "ئۈسكۈنىگە ئۇلاڭ",
+    "share": "Wifi Direct بىلەن ئورتاقلىشىڭ",
+    "send": "ھۆججەتنى wifi غا بىۋاسىتە ئەۋەتىڭ؟",
+    "continue": "داۋاملاشتۇر"
+  }
+}

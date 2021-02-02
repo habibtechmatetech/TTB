@@ -1,0 +1,401 @@
+{
+  "selectLanguage": { "heading": "Выберыце сваю бягучую мову", "mainAction": "Выберыце Мова" },
+  "menu": {
+    "anonymousTitle": "Ваш рахунак",
+    "anonymousAction": "Увайсці",
+    "editProfileAction": "Рэдагаваць профіль",
+    "verifyProfileAction": "Пацвердзіць профіль",
+    "bibleSection": "Біблія",
+    "teachingsSection": "Вучэнні",
+    "librarySection": "Мая бібліятэка",
+    "groupsSection": "Групы",
+    "donateSection": "Ахвяруйце",
+    "settingsSection": "Налады",
+    "signOut": "Выйсці",
+    "modals": {
+      "verifyProfile": {
+        "title": "Вы не правераны",
+        "message": "Вашы спісы не будуць сінхранізаваны, і вы не можаце ствараць групы. Калі ласка, праверце сваю электронную пошту, каб завяршыць рэгістрацыю.",
+        "firstButton": "Працягвайце",
+        "secondButton": "Зарэгістраваць новы профіль"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Увайсці",
+    "emailPlaceholder": "Ваша электронная пошта",
+    "passwordPlaceholder": "Ваш пароль",
+    "forgotAction": "Забыліся на пароль?",
+    "callToAction": "Увайсці",
+    "signInAlternatives": "Або ўвайдзіце, выкарыстоўваючы",
+    "noAccountAction": "Няма ўліковага запісу? Стварыце адзін",
+    "notifications": {
+      "invalidCredentials": "Несапраўдныя ўліковыя дадзеныя",
+      "inProgress": "Уваход ужо выконваецца",
+      "notAvailable": "Службы Play недаступныя"
+    }
+  },
+  "signUp": {
+    "header": "Стварыць уліковы запіс",
+    "emailPlaceholder": "Ваша электронная пошта",
+    "passwordPlaceholder": "Ваш пароль",
+    "privateAction": "Зрабіце рахунак прыватным",
+    "termsDisclaimer": {
+      "pre": "Націскаючы кнопку \"Рэгістрацыя\", вы паказваеце, што прачыталі і згодныя",
+      "terms": "тэрміны",
+      "post": "."
+    },
+    "callToAction": "Зарэгістравацца",
+    "signUpAlternatives": "Або падпішыцеся, выкарыстоўваючы",
+    "haveAnAccountAction": "Ёсць уліковы запіс?",
+    "notifications": {
+      "invalidUsername": "Імёны карыстальнікаў абмежаваныя 20 літарна-лічбавымі знакамі (лічбамі і звычайнымі літарамі)",
+      "invalidPassword": "Пароль павінен мець не менш за 3 сімвалы і ўяўляць сабой камбінацыю верхніх і малых сімвалаў, прынамсі, з адным нумарам альбо спецыяльным сімвалам"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Немагчыма стварыць уліковы запіс",
+        "message": "Гэты адрас электроннай пошты ўжо існуе.",
+        "firstButton": "Увайсці",
+        "secondButton": "Зачыніць"
+      },
+      "privateAccount": {
+        "title": "Прыватны рахунак",
+        "message": "Робячы свой рахунак прыватным, вы хаваеце яго ад адкрыцця іншымі.",
+        "firstButton": "Прыняць",
+        "secondButton": "Заняпад"
+      },
+      "success": {
+        "title": "Уліковы запіс створаны!",
+        "message": "Ваш рахунак быў паспяхова створаны. Праверце паштовую скрыню, каб пацвердзіць свой рахунак і ўвайсці.",
+        "firstButton": "Увайсці"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Скід пароля",
+    "emailPlaceholder": "Ваша электронная пошта",
+    "message": "Калі ласка, увядзіце свой адрас электроннай пошты, каб аднавіць пароль для ўліковага запісу.",
+    "callToAction": "Скід пароля",
+    "notifications": {
+      "success": "Мы толькі што адправілі ліст на вашу паштовую скрыню",
+      "emailNotFoundError": "Адрас электроннай пошты не знойдзены",
+      "invalidEmailError": "Няправільны фармат электроннай пошты"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Завяршыце наладку",
+    "message": "На ўведзены вамі адрас электроннай пошты адпраўлены ліст. Калі ласка, прачытайце дадзеныя электроннай пошты, каб завяршыць рэгістрацыю.",
+    "callToAction": "Прапусціце зараз"
+  },
+  "teachings": {
+    "dailyText": "Сённяшняя трансляцыя",
+    "journeyTitle": "Пачні сваё падарожжа",
+    "journeySubtitle": "Усе вучэнні ад пачатку да канца",
+    "journeyCardTitle": "215-тыднёвае падарожжа па Бібліі",
+    "journeyCardSubtitle": "Слухайце свой час",
+    "tracksLabel": "Дарожкі"
+  },
+  "teaching": {
+    "header": "Вучэнні",
+    "loading": "Загрузка ...",
+    "player": {
+      "audioSpeed": "Хуткасць гуку",
+      "loading": "Загрузка",
+      "castingError": "Прылады недаступныя"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Працягвайце слухаць", "secondButton": "Пачні сваё падарожжа" }
+    }
+  },
+  "journey": {
+    "byDate": "Па даце",
+    "bySeries": "Па серыях",
+    "sections": { "tracksLabel": "Дарожкі" }
+  },
+  "library": {
+    "header": "Мая бібліятэка",
+    "tabs": { "downloads": "Загрузкі", "favorites": "Выбранае", "playlists": "Спісы прайгравання" }
+  },
+  "groups": {
+    "header": "Групы",
+    "createGroup": {
+      "title": "Стварыць новую групу",
+      "groupNameLabel": "НАЗВА ГРУПЫ",
+      "groupNameInputPlaceHolder": "Імя",
+      "descriptionLabel": "АПІСАННЕ",
+      "descriptionInputPlaceHolder": "Дадаць апісанне",
+      "inviteLabel": "Запрасіць карыстальнікаў",
+      "inviteButton": "Запрасіце новых карыстальнікаў",
+      "button": "Стварыць групу",
+      "invalidGroupName": "Увядзіце сапраўднае імя",
+      "groupNameTooLong": "Назва групы не павінна змяшчаць больш за 25 сімвалаў"
+    },
+    "devotionNotStartAlert": "Адданасць для гэтай групы не пачалася",
+    "membersLabel": "Сябры",
+    "chatModalMemberSubtitleLabel": "член",
+    "chatModalMembersSubtitleLabel": "членаў",
+    "chat": {
+      "listeningToLabel": "Слухаць",
+      "loadingTrackLabel": "Загрузка трэка ...",
+      "inputPlaceHolder": "Напісаць паведамленне",
+      "deletePost": "Выдаліць паведамленне",
+      "deleteMessage": "выдаліў паведамленне"
+    },
+    "groupSettings": {
+      "participantsSection": "Удзельнікі",
+      "viewAll": "Паглядзець усе",
+      "invite": "Запрасіце новых карыстальнікаў",
+      "endDevotion": "Скончыць адданасць групы",
+      "deleteGroup": "Выдаліць групу",
+      "leaveGroup": "Пакінуць групу"
+    },
+    "userDirectory": {
+      "header": "Каталог карыстальнікаў",
+      "remove": "Выдаліць",
+      "anonymous": "Ананім",
+      "send": "Адправіць"
+    },
+    "inviteUser": { "placeHolder": "Пошук", "send": "Адправіць" }
+  },
+  "chat": {
+    "header": "Групавы канал",
+    "settings": {
+      "header": "Налады групы",
+      "endDevotion": {
+        "alertTitle": "Канец адданасці",
+        "alertMessage": "Вы ўпэўнены, што хочаце спыніць гэтую адданасць?",
+        "alertCancel": "Адмяніць",
+        "alertConfirm": "Так",
+        "endDevotionLabel": "скончыў гэтую адданасць.",
+        "hasEnded": "Гэта адданасць скончылася"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Пачніце адданасць",
+    "alertMessage": "Вы ўпэўнены, што хочаце пачаць адданасць з групай% {name}?",
+    "alertCancel": "Адмяніць",
+    "alertConfirm": "Так",
+    "devotionStartedLabel": "пачаў адданасць."
+  },
+  "settings": {
+    "header": "Налады",
+    "tabs": { "profile": "Профіль", "media": "СМІ", "notifications": "Апавяшчэнні" },
+    "profile": {
+      "account": "Рахунак",
+      "username": "Імя карыстальніка",
+      "email": "Электронная пошта",
+      "editButton": "Рэдагаваць",
+      "edit": {
+        "save": "Захаваць",
+        "username": {
+          "header": "Імя карыстальніка",
+          "successAlert": "Змены захаваны.",
+          "failedAlert": "Не ўдалося захаваць змяненне."
+        },
+        "email": {
+          "header": "Электронная пошта",
+          "successAlert": "Змены захаваны.",
+          "failedAlert": "Не ўдалося захаваць змяненне."
+        }
+      },
+      "languages": "Мовы",
+      "signIn": "Увайсці",
+      "signOut": "Выйсці з уліковага запісу",
+      "legal": "Юрыдычны",
+      "termsConditions": "Умовы",
+      "privacyPolicy": "Палітыка прыватнасці",
+      "support": "Падтрымка",
+      "reportAProblem": "Паведаміць пра праблему",
+      "tutorial": "Падручнік",
+      "reportBug": {
+        "header": "Паведаміць пра праблему",
+        "send": "Адправіць",
+        "subject": "ТЭМА",
+        "subjectPlaceHolder": "Тэма",
+        "description": "АПІСАННЕ",
+        "descriptionPlaceHolder": "Апісанне",
+        "successAlert": "Дзякуй, мы атрымалі ваша паведамленне.",
+        "failedAlert": "Не атрымалася адправіць паведамленне."
+      },
+      "version": "Версія"
+    },
+    "media": {
+      "audio": "Аўдыё",
+      "autoplay": "Аўтапрайграванне аўдыя",
+      "storage": "Захоўванне",
+      "downloadWifi": "Загружаць толькі па Wi-Fi",
+      "deleteCache": "Выдаліць кэш"
+    },
+    "notifications": {
+      "notifications": "Апавяшчэнні",
+      "groupInvitation": "Групавае запрашэнне",
+      "devotions": "Запрасіць на Адданні",
+      "file": "Пацверджанне перадачы файлаў"
+    }
+  },
+  "inviteUsers": { "header": "Запрасіць карыстальнікаў" },
+  "playlist": {
+    "header": "Плэй-ліст",
+    "audioFileLabel": "Аўдыяфайл",
+    "audioFilesLabel": "Аўдыяфайлы"
+  },
+  "collection": { "header": "Калекцыя", "audioFilesLabel": "Аўдыяфайлы" },
+  "modal": {
+    "close": "блізка",
+    "addToPlaylist": {
+      "title": "Дадаць у спіс прайгравання",
+      "button": "Стварыць спіс прайгравання"
+    },
+    "startDevotion": { "title": "Пачніце адданасць" },
+    "createPlaylist": {
+      "title": "Стварыце новы спіс прайгравання",
+      "button": "Стварыць спіс прайгравання",
+      "inputPlaceholder": "Увядзіце імя плэйліста",
+      "success": "Дададзена ў спіс прайгравання"
+    },
+    "login": "Вам трэба ўвайсці, каб пачаць адданасць"
+  },
+  "options": {
+    "shared": {
+      "share": "Падзяліцеся",
+      "report": "Змест справаздачы",
+      "shareOthers": "Падзяліцеся з іншымі",
+      "copy": "Капіраваць спасылку",
+      "more": "Больш"
+    },
+    "audio": {
+      "download": "Спампаваць",
+      "addFavorite": "Дадаць у абранае",
+      "addPlaylist": "Дадаць у спіс прайгравання",
+      "removeFavorite": "Выдаліць з абранага",
+      "removePlaylist": "Выдаліць са спісу прайгравання",
+      "removeDownload": "Выдаліць з загрузак"
+    },
+    "playlist": { "edit": "Рэдагаваць", "delete": "Выдаліць спіс прайгравання" },
+    "startDevotion": "Пачніце адданасць"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Дададзена ў спіс прайгравання",
+      "delete": "Выдалена са спісу прайгравання",
+      "create": "Створаны спіс прайгравання",
+      "destroy": "Выдалены спіс прайгравання"
+    },
+    "favorites": { "add": "Дададзена ў Выбранае", "remove": "Выдалена з абранага" },
+    "downloads": { "remove": "Выдалена з загрузак" }
+  },
+  "buttons": { "loop": "Пятля", "shuffle": "Ператасаваць" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Шукаць ..." },
+    "notification": { "success": "Поспех! На ваш уліковы запіс будзе адпраўлены ліст." },
+    "button": { "sending": "Адпраўка ..." },
+    "modalSelector": { "cancel": "Адмяніць" },
+    "loading": "Загрузка"
+  },
+  "bible": {
+    "header": "Біблія",
+    "oldTestament": "Стары Запавет",
+    "newTestament": "Новы Запавет",
+    "popularBooks": "Папулярныя кнігі"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Пошук",
+    "cancelButton": "АДМЕНА",
+    "searchResults": "Вынікі пошуку",
+    "filterButton": "Фільтр",
+    "teachings": { "title": "Вучэнні" },
+    "bible": { "title": "Біблія" }
+  },
+  "addToPlaylistsModal": {
+    "title": "Дадаць у спіс прайгравання",
+    "button": "Стварыць спіс прайгравання"
+  },
+  "createPlaylistModal": {
+    "title": "Стварыце новы спіс прайгравання",
+    "button": "Стварыць спіс прайгравання",
+    "inputPlaceholder": "Увядзіце імя плэйліста"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Дададзена ў спіс прайгравання",
+      "remove": "Выдалена са спісу прайгравання",
+      "create": "Створаны спіс прайгравання",
+      "delete": "Выдалены спіс прайгравання"
+    },
+    "favorites": { "add": "Дададзена ў Выбранае", "remove": "Выдалена з абранага" },
+    "downloads": { "remove": "Выдалена з загрузак" },
+    "facebook": { "loginError": "Памылка ўваходу з памылкай" },
+    "google": { "loginError": "Памылка ўваходу з памылкай" }
+  },
+  "playlists": { "trackLabel": "Трэк", "tracksLabel": "Дарожкі" },
+  "mediaList": { "tracksLabel": "Дарожкі", "remove": "Выдаліць" },
+  "tutorialPage": { "done": "Гатова", "skip": "Прапусціць" },
+  "loginModal": { "login": "Увайсці" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Загрузка", "complete": "Загрузка завершана" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Даследуйце Біблію",
+      "subtitle1": "Падарожнічайце па ўсёй Бібліі разам з намі альбо пачніце сваё падарожжа.",
+      "title2": "Слухайце і прыцягвайце",
+      "subtitle2": "Медыяпрайгравальнік дазваляе з лёгкасцю акунуцца ў THRU BIBLE.",
+      "title3": "Адкрыйце для сябе вучэнні",
+      "subtitle3": "Займайцеся Бібліяй, як ніколі раней, перакрыжоўваючы спасылкі на Біблію і навучальны змест.",
+      "title4": "Абмяркуйце Біблію",
+      "subtitle4": "Далучайцеся да групы, каб разам з іншымі вывучаць вучэнні і тэмы THRU BIBLE.",
+      "title5": "Спампаваць і падзяліцца",
+      "subtitle5": "Прыемна слухаць Слова Божае на хаду і дзяліцца ім з сябрамі.",
+      "title6": "Захаваць і стварыць",
+      "subtitle6": "Захавайце свае любімыя вучэнні і біблейскія вершы альбо стварыце ўласны спіс прайгравання.",
+      "title7": "Групавыя адданасці",
+      "subtitle7": "Будзьце заахвочаны і натхнёны іншымі з штодзённымі прыхільнікамі групы."
+    },
+    "registerPage": {
+      "noThanks": "Не, дзякуй",
+      "haveAccount": "Ёсць уліковы запіс?",
+      "createAccount": "Стварыць мой уліковы запіс",
+      "title1": "Абмяркуйце з іншымі",
+      "subtitle1": "Абмяркуйце з іншымі любімыя тэмы і біблейскія вершы.",
+      "title2": "Захоўваць і сінхранізаваць плэйлісты",
+      "subtitle2": "Стварайце спісы ўлюбёнага змесціва ў адным месцы.",
+      "title3": "Глядзіце выбранае",
+      "subtitle3": "Захоўвайце і вяртайцеся і наведвайце ўлюбёныя пазней.",
+      "title4": "Сардэчна запрашаем назад",
+      "subtitle4": "Стварыце ўліковы запіс і атрымайце доступ да ўсіх нашых функцый."
+    }
+  },
+  "app": {
+    "close": "блізка",
+    "accept": "Прыняць",
+    "reject": "Адхіліць",
+    "constructionInProgress": "Будаўніцтва ў працэсе",
+    "downloadComplete": "Загрузка завершана",
+    "downloading": "Загрузка",
+    "downloadFailed": "Не атрымалася загрузіць",
+    "sendAFile": "Хтосьці хоча адправіць вам файл"
+  },
+  "transferring": { "tryAgain": "паспрабуй яшчэ", "close": "блізка" },
+  "checkDevice": {
+    "check": "Праверце прыладу",
+    "makeSure": "Пераканайцеся, што Wi-Fi Direct уключаны на прыладзе вашага сябра і знаходзіцца ў зоне дзеяння.",
+    "continue": "Працягвайце"
+  },
+  "connectToDevice": { "connect": "Падключыце прыладу" },
+  "pairing": {
+    "connect": "Падключыце прыладу",
+    "pairing": "Спалучэнне",
+    "success": "Паспяхова спалучана",
+    "failed": "Памылка спалучэння прылады",
+    "makeSure": "Калі ласка, пераканайцеся, што (Wi-Fi-Direct) уключаны на прыладзе вашага сябра і знаходзіцца ў зоне дзеяння.",
+    "continue": "Працягвайце",
+    "tryAgain": "Паспрабуй яшчэ"
+  },
+  "selectNetworkType": {
+    "connect": "Падключыце прыладу",
+    "share": "Падзяліцеся з Wi-Fi Direct",
+    "send": "Адправіць файл па Wi-Fi прама?",
+    "continue": "Працягвайце"
+  }
+}

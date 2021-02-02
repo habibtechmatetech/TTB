@@ -1,0 +1,400 @@
+{
+  "selectLanguage": { "heading": "Joriy tilingizni tanlang", "mainAction": "Tilni tanlang" },
+  "menu": {
+    "anonymousTitle": "Sizning hisob qaydnomangiz",
+    "anonymousAction": "Kirish",
+    "editProfileAction": "Profilni tahrirlash",
+    "verifyProfileAction": "Profilni tasdiqlang",
+    "bibleSection": "Injil",
+    "teachingsSection": "Ta'limlar",
+    "librarySection": "Mening kutubxonam",
+    "groupsSection": "Guruhlar",
+    "donateSection": "Xayriya qiling",
+    "settingsSection": "Sozlamalar",
+    "signOut": "Chiqish",
+    "modals": {
+      "verifyProfile": {
+        "title": "Siz tasdiqlanmagansiz",
+        "message": "Sizning ro'yxatlaringiz sinxronlanmaydi va siz guruhlar yarata olmaysiz. Ro'yxatdan o'tishni yakunlash uchun elektron pochtangizni tekshiring.",
+        "firstButton": "Davom eting",
+        "secondButton": "Yangi profilni ro'yxatdan o'tkazing"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Tizimga kirish",
+    "emailPlaceholder": "Sizning elektron manzilingiz",
+    "passwordPlaceholder": "Parolingiz",
+    "forgotAction": "Parolni unutdingizmi?",
+    "callToAction": "tizimga kirish",
+    "signInAlternatives": "Yoki foydalanib tizimga kiring",
+    "noAccountAction": "Hisob yo'qmi? Yarating",
+    "notifications": {
+      "invalidCredentials": "Noto'g'ri ma'lumot",
+      "inProgress": "Kirish allaqachon amalga oshirilmoqda",
+      "notAvailable": "Play xizmatlari mavjud emas"
+    }
+  },
+  "signUp": {
+    "header": "Hisob yaratish",
+    "emailPlaceholder": "Sizning elektron manzilingiz",
+    "passwordPlaceholder": "Parolingiz",
+    "privateAction": "Hisobni shaxsiy qiling",
+    "termsDisclaimer": {
+      "pre": "Ro'yxatdan o'tishni bosish orqali siz o'qiganingizni va unga rozi ekanligingizni bildirasiz",
+      "terms": "shartlar",
+      "post": "."
+    },
+    "callToAction": "Ro'yxatdan o'tish",
+    "signUpAlternatives": "Yoki yordamida ro'yxatdan o'ting",
+    "haveAnAccountAction": "Hisobingiz bormi?",
+    "notifications": {
+      "invalidUsername": "Foydalanuvchi nomlari 20 ta alfasayısal belgilar bilan cheklangan (raqamlar va oddiy harflar)",
+      "invalidPassword": "Parol kamida 3 ta belgidan iborat bo'lishi va kamida bitta raqam yoki maxsus belgi bilan katta va kichik harflarning kombinatsiyasi bo'lishi kerak"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Hisob yaratib bo'lmadi",
+        "message": "Ushbu elektron pochta manzili allaqachon mavjud.",
+        "firstButton": "Tizimga kirish",
+        "secondButton": "Yoping"
+      },
+      "privateAccount": {
+        "title": "Shaxsiy hisob",
+        "message": "Hisobingizni shaxsiy qilib, uni boshqalar kashf etishidan yashirasiz.",
+        "firstButton": "Qabul qiling",
+        "secondButton": "Rad etish"
+      },
+      "success": {
+        "title": "Hisob yaratildi!",
+        "message": "Sizning hisobingiz muvaffaqiyatli yaratildi. Hisobingizni tasdiqlash va kirish uchun kirish qutisini tekshiring.",
+        "firstButton": "Tizimga kirish"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Parolni tiklash",
+    "emailPlaceholder": "Sizning elektron manzilingiz",
+    "message": "Hisobingiz uchun parolingizni tiklash uchun elektron pochtangizni kiriting.",
+    "callToAction": "Parolni tiklash",
+    "notifications": {
+      "success": "Biz sizning elektron pochtangizga elektron pochta xabarini yubordik",
+      "emailNotFoundError": "Elektron pochta topilmadi",
+      "invalidEmailError": "Elektron pochta formati yaroqsiz"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Sozlashni tugatish",
+    "message": "Siz kiritgan elektron pochta manziliga elektron pochta xabar yuborildi. Ro'yxatdan o'tishni yakunlash uchun elektron pochta ma'lumotlarini ko'ring.",
+    "callToAction": "Hozir o‘tish"
+  },
+  "teachings": {
+    "dailyText": "Bugungi translyatsiya",
+    "journeyTitle": "Safaringizni boshlang",
+    "journeySubtitle": "Barcha ta'limotlar boshidan oxirigacha",
+    "journeyCardTitle": "215 haftalik Injil orqali sayohat",
+    "journeyCardSubtitle": "Vaqtingizni tinglang",
+    "tracksLabel": "Treklar"
+  },
+  "teaching": {
+    "header": "Ta'limlar",
+    "loading": "Yuklanmoqda ...",
+    "player": {
+      "audioSpeed": "Ovoz tezligi",
+      "loading": "Yuklanmoqda",
+      "castingError": "Hech qanday qurilma mavjud emas"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Tinglashni davom eting",
+        "secondButton": "Safaringizni boshlang"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Sana bo'yicha",
+    "bySeries": "Seriyalar bo'yicha",
+    "sections": { "tracksLabel": "Treklar" }
+  },
+  "library": {
+    "header": "Mening kutubxonam",
+    "tabs": { "downloads": "Yuklamalar", "favorites": "Sevimlilar", "playlists": "Pleylistlar" }
+  },
+  "groups": {
+    "header": "Guruhlar",
+    "createGroup": {
+      "title": "Yangi guruh yarating",
+      "groupNameLabel": "GURUH NOMI",
+      "groupNameInputPlaceHolder": "Ism",
+      "descriptionLabel": "TA'RIFI",
+      "descriptionInputPlaceHolder": "Tavsif qo'shish",
+      "inviteLabel": "Foydalanuvchilarni taklif qiling",
+      "inviteButton": "Yangi foydalanuvchilarni taklif qiling",
+      "button": "Guruh yarating",
+      "invalidGroupName": "Yaroqli ismni kiriting",
+      "groupNameTooLong": "Guruh nomi 25 belgidan oshmasligi kerak"
+    },
+    "devotionNotStartAlert": "Ushbu guruh uchun sadoqat boshlanmadi",
+    "membersLabel": "A'zolar",
+    "chatModalMemberSubtitleLabel": "a'zo",
+    "chatModalMembersSubtitleLabel": "a'zolar",
+    "chat": {
+      "listeningToLabel": "Tinglash",
+      "loadingTrackLabel": "Trek yuklanmoqda ...",
+      "inputPlaceHolder": "Xabar yozing",
+      "deletePost": "Postni o'chirish",
+      "deleteMessage": "xabarni o'chirib tashladi"
+    },
+    "groupSettings": {
+      "participantsSection": "Ishtirokchilar",
+      "viewAll": "Hammasini ko'rish",
+      "invite": "Yangi foydalanuvchilarni taklif qiling",
+      "endDevotion": "Guruhga sadoqatni yakunlang",
+      "deleteGroup": "Guruhni o'chirish",
+      "leaveGroup": "Guruhdan chiqish"
+    },
+    "userDirectory": {
+      "header": "Foydalanuvchi katalogi",
+      "remove": "Olib tashlash",
+      "anonymous": "Anonim",
+      "send": "Yuborish"
+    },
+    "inviteUser": { "placeHolder": "Qidirmoq", "send": "Yuborish" }
+  },
+  "chat": {
+    "header": "Guruh kanali",
+    "settings": {
+      "header": "Guruh sozlamalari",
+      "endDevotion": {
+        "alertTitle": "Sadoqatni tugatish",
+        "alertMessage": "Ushbu sadoqatni tugatmoqchi ekanligingizga aminmisiz?",
+        "alertCancel": "Bekor qilish",
+        "alertConfirm": "Ha",
+        "endDevotionLabel": "bu sadoqatni tugatdi.",
+        "hasEnded": "Ushbu sadoqat tugadi"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Sadoqatni boshlang",
+    "alertMessage": "Siz sadoqatni% {name} guruhidan boshlashni xohlaysizmi?",
+    "alertCancel": "Bekor qilish",
+    "alertConfirm": "Ha",
+    "devotionStartedLabel": "sadoqatni boshladi."
+  },
+  "settings": {
+    "header": "Sozlamalar",
+    "tabs": { "profile": "Profil", "media": "OAV", "notifications": "Bildirishnomalar" },
+    "profile": {
+      "account": "Hisob qaydnomasi",
+      "username": "Foydalanuvchi nomi",
+      "email": "Elektron pochta",
+      "editButton": "Tahrirlash",
+      "edit": {
+        "save": "Saqlash",
+        "username": {
+          "header": "Foydalanuvchi nomi",
+          "successAlert": "O'zgarishingiz saqlandi.",
+          "failedAlert": "O'zgarish saqlanmadi."
+        },
+        "email": {
+          "header": "Elektron pochta",
+          "successAlert": "O'zgarishingiz saqlandi.",
+          "failedAlert": "O'zgarish saqlanmadi."
+        }
+      },
+      "languages": "Tillar",
+      "signIn": "Tizimga kirish",
+      "signOut": "Hisobdan chiqish",
+      "legal": "Huquqiy",
+      "termsConditions": "Qoidalar va shartlar",
+      "privacyPolicy": "Maxfiylik siyosati",
+      "support": "Qo'llab-quvvatlash",
+      "reportAProblem": "Muammo haqida xabar bering",
+      "tutorial": "Qo'llanma",
+      "reportBug": {
+        "header": "Muammo haqida xabar bering",
+        "send": "Yuborish",
+        "subject": "MAVZU",
+        "subjectPlaceHolder": "Mavzu",
+        "description": "TA'RIFI",
+        "descriptionPlaceHolder": "Tavsif",
+        "successAlert": "Rahmat, biz sizning xabaringizni oldik.",
+        "failedAlert": "Xabar yuborilmadi."
+      },
+      "version": "Versiya"
+    },
+    "media": {
+      "audio": "Ovoz",
+      "autoplay": "Avtomatik ijro audio",
+      "storage": "Saqlash",
+      "downloadWifi": "Faqat Wi-fi orqali yuklab oling",
+      "deleteCache": "Keshni o'chirish"
+    },
+    "notifications": {
+      "notifications": "Bildirishnomalar",
+      "groupInvitation": "Guruhga taklifnoma",
+      "devotions": "Bag'ishlanishlarga taklif qiling",
+      "file": "Fayl uzatishni tasdiqlash"
+    }
+  },
+  "inviteUsers": { "header": "Foydalanuvchilarni taklif qiling" },
+  "playlist": {
+    "header": "Pleylist",
+    "audioFileLabel": "Ovozli fayl",
+    "audioFilesLabel": "Audio fayllar"
+  },
+  "collection": { "header": "To'plam", "audioFilesLabel": "Audio fayllar" },
+  "modal": {
+    "close": "yaqin",
+    "addToPlaylist": { "title": "Pleylistga qo'shish", "button": "Pleylist yarating" },
+    "startDevotion": { "title": "Sadoqatni boshlang" },
+    "createPlaylist": {
+      "title": "Yangi pleylist yarating",
+      "button": "Pleylist yarating",
+      "inputPlaceholder": "Pleylist nomini kiriting",
+      "success": "Pleylistga qo'shildi"
+    },
+    "login": "Fidoyilikni boshlash uchun kirish kerak"
+  },
+  "options": {
+    "shared": {
+      "share": "Baham ko'ring",
+      "report": "Hisobot tarkibi",
+      "shareOthers": "Boshqalar bilan baham ko'ring",
+      "copy": "Havolani nusxalash",
+      "more": "Ko'proq"
+    },
+    "audio": {
+      "download": "Yuklab olish",
+      "addFavorite": "Sevimlilarga qo'shish",
+      "addPlaylist": "Pleylistga qo'shish",
+      "removeFavorite": "Saralanganlardan olib tashlash",
+      "removePlaylist": "Pleylistdan olib tashlash",
+      "removeDownload": "Yuklanmalardan olib tashlash"
+    },
+    "playlist": { "edit": "Tahrirlash", "delete": "Pleylistni o'chirish" },
+    "startDevotion": "Sadoqatni boshlang"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Pleylistga qo'shildi",
+      "delete": "Pleylistdan olib tashlandi",
+      "create": "Pleylist yaratildi",
+      "destroy": "Pleylist o'chirildi"
+    },
+    "favorites": { "add": "Sevimlilarga qo'shildi", "remove": "Saralanganlardan olib tashlandi" },
+    "downloads": { "remove": "Yuklanmalardan olib tashlandi" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Aralash" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Qidirmoq..." },
+    "notification": {
+      "success": "Muvaffaqiyat! Hisobingizga elektron pochta orqali xabar yuboriladi."
+    },
+    "button": { "sending": "Yuborilmoqda ..." },
+    "modalSelector": { "cancel": "Bekor qilish" },
+    "loading": "Yuklanmoqda"
+  },
+  "bible": {
+    "header": "Injil",
+    "oldTestament": "Eski Ahd",
+    "newTestament": "Yangi Ahd",
+    "popularBooks": "Ommabop kitoblar"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Qidirmoq",
+    "cancelButton": "Bekor qilish",
+    "searchResults": "Qidiruv natijalari",
+    "filterButton": "Filtr",
+    "teachings": { "title": "Ta'limlar" },
+    "bible": { "title": "Injil" }
+  },
+  "addToPlaylistsModal": { "title": "Pleylistga qo'shish", "button": "Pleylist yarating" },
+  "createPlaylistModal": {
+    "title": "Yangi pleylist yarating",
+    "button": "Pleylist yarating",
+    "inputPlaceholder": "Pleylist nomini kiriting"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Pleylistga qo'shildi",
+      "remove": "Pleylistdan olib tashlandi",
+      "create": "Pleylist yaratildi",
+      "delete": "Pleylist o'chirildi"
+    },
+    "favorites": { "add": "Sevimlilarga qo'shildi", "remove": "Saralanganlardan olib tashlandi" },
+    "downloads": { "remove": "Yuklanmalardan olib tashlandi" },
+    "facebook": { "loginError": "Kirish xato bilan amalga oshmadi" },
+    "google": { "loginError": "Kirish xato bilan amalga oshmadi" }
+  },
+  "playlists": { "trackLabel": "Trek", "tracksLabel": "Treklar" },
+  "mediaList": { "tracksLabel": "Treklar", "remove": "Olib tashlash" },
+  "tutorialPage": { "done": "Bajarildi", "skip": "O'tkazib yuborish" },
+  "loginModal": { "login": "Kirish" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Yuklab olinmoqda", "complete": "Yuklab olish tugallandi" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Muqaddas Kitobni o'rganing",
+      "subtitle1": "Biz bilan butun Muqaddas Kitob bo'ylab sayohat qiling yoki o'zingizning sayohatingizni boshlang.",
+      "title2": "Tinglang va jalb qiling",
+      "subtitle2": "Media pleer sizga BIBLE tarkibini THRU-ga osonlikcha sho'ng'ishga imkon beradi.",
+      "title3": "Ta'limlarni kashf eting",
+      "subtitle3": "Muqaddas Kitob va Ta'lim mazmuniga o'zaro bog'lanish orqali avvalgi kabi Muqaddas Kitob bilan shug'ullaning.",
+      "title4": "Muqaddas Kitobni muhokama qiling",
+      "subtitle4": "THRU orqali MUQADDAS KITOB ta'limotlarini va boshqalarni o'rganish uchun guruhga qo'shiling.",
+      "title5": "Yuklab olish va ulashish",
+      "subtitle5": "Yo'lda Xudoning Kalomini tinglashdan zavqlaning va do'stlaringiz bilan baham ko'ring.",
+      "title6": "Saqlash va yaratish",
+      "subtitle6": "O'zingizning sevimli ta'limotlaringizni va Injil oyatlarini saqlang yoki maxsus pleylist yarating.",
+      "title7": "Guruhga bag'ishlanishlar",
+      "subtitle7": "Kundalik guruh sadoqati bilan boshqalar tomonidan rag'batlantirilib, ilhomlaning."
+    },
+    "registerPage": {
+      "noThanks": "Yo'q, rahmat",
+      "haveAccount": "Hisobingiz bormi?",
+      "createAccount": "Mening hisobimni yarating",
+      "title1": "Boshqalar bilan muhokama qiling",
+      "subtitle1": "O'zingiz yoqtirgan mavzular va Injil oyatlarini boshqalar bilan muhokama qiling.",
+      "title2": "Pleylistlarni saqlash va sinxronlashtirish",
+      "subtitle2": "Sevimli tarkibingiz ro'yxatlarini bitta joyda yarating.",
+      "title3": "Sevimlilaringizni ko'ring",
+      "subtitle3": "Saqlang va qaytib keling, keyinroq sevimlilaringizga tashrif buyuring.",
+      "title4": "Xush kelibsiz",
+      "subtitle4": "Hisob qaydnomasini yarating va barcha xususiyatlarimizga kiring."
+    }
+  },
+  "app": {
+    "close": "yaqin",
+    "accept": "Qabul qiling",
+    "reject": "Rad etish",
+    "constructionInProgress": "Qurilish jarayoni davom etmoqda",
+    "downloadComplete": "Yuklab olish tugallandi",
+    "downloading": "Yuklab olinmoqda",
+    "downloadFailed": "Yuklab olish amalga oshmadi",
+    "sendAFile": "Kimdir sizga fayl yuborishni xohlaydi"
+  },
+  "transferring": { "tryAgain": "qayta urinib ko'ring", "close": "yaqin" },
+  "checkDevice": {
+    "check": "Qurilmangizni tekshiring",
+    "makeSure": "Do'stingizning qurilmasida Wifi-Direct yoqilganligiga ishonch hosil qiling.",
+    "continue": "Davom eting"
+  },
+  "connectToDevice": { "connect": "Qurilmaga ulaning" },
+  "pairing": {
+    "connect": "Qurilmaga ulaning",
+    "pairing": "Ulanish",
+    "success": "Muvaffaqiyatli juftlik",
+    "failed": "Qurilmani ulab bo‘lmadi",
+    "makeSure": "Do'stingizning qurilmasida (Wifi-Direct) yoqilganligini va uning oralig'ida ekanligiga ishonch hosil qiling.",
+    "continue": "Davom eting",
+    "tryAgain": "Qayta urinib ko'ring"
+  },
+  "selectNetworkType": {
+    "connect": "Qurilmaga ulaning",
+    "share": "Wifi Direct bilan ulashing",
+    "send": "Faylni wifi Direct orqali yuborasizmi?",
+    "continue": "Davom eting"
+  }
+}

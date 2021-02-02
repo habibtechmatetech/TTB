@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "Хәзерге телегезне сайлагыз", "mainAction": "Телне сайлагыз" },
+  "menu": {
+    "anonymousTitle": "Сезнең хисап",
+    "anonymousAction": "Керергә",
+    "editProfileAction": "Профильне үзгәртү",
+    "verifyProfileAction": "Профильне тикшерегез",
+    "bibleSection": "Библия",
+    "teachingsSection": "Укыту",
+    "librarySection": "Минем китапханә",
+    "groupsSection": "Төркемнәр",
+    "donateSection": "Бүләк итегез",
+    "settingsSection": "Көйләүләр",
+    "signOut": "Чыгарга",
+    "modals": {
+      "verifyProfile": {
+        "title": "Сез тикшерелмәгән",
+        "message": "Сезнең исемлекләр синхрон булмаячак һәм сез төркемнәр булдыра алмыйсыз. Зинһар, теркәлүне тәмамлау өчен электрон почтагызны тикшерегез.",
+        "firstButton": "Дәвам итегез",
+        "secondButton": "Яңа профильне теркәгез"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Керегез",
+    "emailPlaceholder": "Сезнең электрон почта",
+    "passwordPlaceholder": "Сезнең серсүз",
+    "forgotAction": "Серсүзне оныттыгызмы?",
+    "callToAction": "Керегез",
+    "signInAlternatives": "Яисә кулланып керегез",
+    "noAccountAction": "Хисап юк? Берсен ясагыз",
+    "notifications": {
+      "invalidCredentials": "Яраксыз таныклык",
+      "inProgress": "Керегез инде",
+      "notAvailable": "Хезмәтләрне уйнап булмый"
+    }
+  },
+  "signUp": {
+    "header": "Хисап язма ясарга",
+    "emailPlaceholder": "Сезнең электрон почта",
+    "passwordPlaceholder": "Сезнең серсүз",
+    "privateAction": "Хисапны шәхси ит",
+    "termsDisclaimer": {
+      "pre": "Керү төймәсенә басып, сез укыганыгызны һәм риза булуыгызны күрсәтәсез",
+      "terms": "терминнары",
+      "post": "."
+    },
+    "callToAction": "Теркәлергә",
+    "signUpAlternatives": "Яисә кулланып язылу",
+    "haveAnAccountAction": "Хисап языгыз бармы?",
+    "notifications": {
+      "invalidUsername": "Кулланучы исемнәре 20 хәреф саннары белән чикләнгән (саннар һәм даими хәрефләр)",
+      "invalidPassword": "Серсүз ким дигәндә 3 символ булырга тиеш һәм ким дигәндә бер сан яки махсус символ белән зур һәм кечкенә хәрефләрнең кушылмасы булырга тиеш"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Хисап яза алмый",
+        "message": "Бу электрон почта адресы бар.",
+        "firstButton": "Керегез",
+        "secondButton": "Ябу"
+      },
+      "privateAccount": {
+        "title": "Шәхси счет",
+        "message": "Сезнең счетыгызны шәхси итеп, сез аны башкалар ачудан яшерәсез.",
+        "firstButton": "Кабул ит",
+        "secondButton": "Баш тарту"
+      },
+      "success": {
+        "title": "Хисап ясалды!",
+        "message": "Сезнең хисап уңышлы ясалды. Хисап язмагызны раслау һәм керү өчен кертүегезне тикшерегез.",
+        "firstButton": "Керегез"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Серсүзне яңадан урнаштыру",
+    "emailPlaceholder": "Сезнең электрон почта",
+    "message": "Хисап язмагыз өчен серсүзне яңадан урнаштыру өчен зинһар.",
+    "callToAction": "Серсүзне яңадан урнаштыру",
+    "notifications": {
+      "success": "Без сезнең почтагызга электрон почта җибәрдек",
+      "emailNotFoundError": "Электрон почта табылмады",
+      "invalidEmailError": "Электрон почта форматы дөрес түгел"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Урнаштыру",
+    "message": "Сез кергән электрон почта адресына электрон почта җибәрелде. Зинһар, теркәлүне тәмамлау өчен электрон почта детальләрен карагыз.",
+    "callToAction": "Хәзерге вакытта атла"
+  },
+  "teachings": {
+    "dailyText": "Бүгенге Трансляция",
+    "journeyTitle": "Сәяхәтегезне башлап җибәрегез",
+    "journeySubtitle": "Барлык тәгълиматлар башыннан ахырына кадәр",
+    "journeyCardTitle": "215 Библия аша атналык сәяхәт",
+    "journeyCardSubtitle": "Вакытыңны тыңла",
+    "tracksLabel": "Acksллар"
+  },
+  "teaching": {
+    "header": "Укыту",
+    "loading": "Йөкләү ...",
+    "player": {
+      "audioSpeed": "Аудио тизлек",
+      "loading": "Йөкләү",
+      "castingError": "Devайланмалар юк"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Тыңлагыз", "secondButton": "Сәяхәтегезне башлап җибәрегез" }
+    }
+  },
+  "journey": {
+    "byDate": "Дата буенча",
+    "bySeries": "Серияләр буенча",
+    "sections": { "tracksLabel": "Acksллар" }
+  },
+  "library": {
+    "header": "Минем китапханә",
+    "tabs": { "downloads": "Йөкләүләр", "favorites": "Фаворитлар", "playlists": "Плейлистлар" }
+  },
+  "groups": {
+    "header": "Төркемнәр",
+    "createGroup": {
+      "title": "Яңа төркем булдырыгыз",
+      "groupNameLabel": "Группа исеме",
+      "groupNameInputPlaceHolder": "Исем",
+      "descriptionLabel": "ТӘРESЕМӘ",
+      "descriptionInputPlaceHolder": "Тасвирлау өстәү",
+      "inviteLabel": "Кулланучыларны чакырыгыз",
+      "inviteButton": "Яңа кулланучыларны чакырыгыз",
+      "button": "Төркем булдыру",
+      "invalidGroupName": "Дөрес исем кертегез",
+      "groupNameTooLong": "Төркемнең исеме 25 символдан артмаска тиеш"
+    },
+    "devotionNotStartAlert": "Бу төркем өчен тугрылык башланмады",
+    "membersLabel": "Әгъзалар",
+    "chatModalMemberSubtitleLabel": "әгъзасы",
+    "chatModalMembersSubtitleLabel": "әгъзалары",
+    "chat": {
+      "listeningToLabel": "Тыңлау",
+      "loadingTrackLabel": "Трекны йөкләү ...",
+      "inputPlaceHolder": "Хәбәр языгыз",
+      "deletePost": "Постны бетерү",
+      "deleteMessage": "хәбәр бетерде"
+    },
+    "groupSettings": {
+      "participantsSection": "Катнашучылар",
+      "viewAll": "Барысын да карау",
+      "invite": "Яңа кулланучыларны чакырыгыз",
+      "endDevotion": "Төркемгә тугрылык",
+      "deleteGroup": "Төркемне бетерү",
+      "leaveGroup": "Төркемнән китү"
+    },
+    "userDirectory": {
+      "header": "Кулланучылар белешмәсе",
+      "remove": "Чыгар",
+      "anonymous": "Аноним",
+      "send": "Sendибәр"
+    },
+    "inviteUser": { "placeHolder": "Эзләү", "send": "Sendибәр" }
+  },
+  "chat": {
+    "header": "Төркем каналы",
+    "settings": {
+      "header": "Төркем көйләүләре",
+      "endDevotion": {
+        "alertTitle": "Ахыр тугрылык",
+        "alertMessage": "Сез бу тугрылыкны туктатырга телисезме?",
+        "alertCancel": "Баш тарту",
+        "alertConfirm": "Әйе",
+        "endDevotionLabel": "бу тугрылыкны тәмамлады.",
+        "hasEnded": "Бу тугрылык бетте"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Тугрылыкны башлау",
+    "alertMessage": "Сез% {исем} төркеме белән тугрылыкны башларга телисезме?",
+    "alertCancel": "Баш тарту",
+    "alertConfirm": "Әйе",
+    "devotionStartedLabel": "тугрылык башлады."
+  },
+  "settings": {
+    "header": "Көйләүләр",
+    "tabs": { "profile": "Профиль", "media": "Медиа", "notifications": "Хәбәрләр" },
+    "profile": {
+      "account": "Хисап",
+      "username": "Кулланучы исеме",
+      "email": "Электрон почта",
+      "editButton": "Редакцияләү",
+      "edit": {
+        "save": "Саклагыз",
+        "username": {
+          "header": "Кулланучы исеме",
+          "successAlert": "Сезнең үзгәртү сакланды.",
+          "failedAlert": "Changeзгәрешне саклап кала алмады."
+        },
+        "email": {
+          "header": "Электрон почта",
+          "successAlert": "Сезнең үзгәртү сакланды.",
+          "failedAlert": "Changeзгәрешне саклап кала алмады."
+        }
+      },
+      "languages": "Телләр",
+      "signIn": "Керегез",
+      "signOut": "Хисаптан чыгу",
+      "legal": "Legalридик",
+      "termsConditions": "Шартлар",
+      "privacyPolicy": "Шәхсилек сәясәте",
+      "support": "Ярдәм",
+      "reportAProblem": "Проблема турында хәбәр итегез",
+      "tutorial": "Дәреслек",
+      "reportBug": {
+        "header": "Проблема турында хәбәр итегез",
+        "send": "Sendибәр",
+        "subject": "Тема",
+        "subjectPlaceHolder": "Тема",
+        "description": "ТӘРESЕМӘ",
+        "descriptionPlaceHolder": "Тасвирлау",
+        "successAlert": "Рәхмәт, без сезнең хәбәрне алдык.",
+        "failedAlert": "Хәбәр җибәрә алмады."
+      },
+      "version": "Вариант"
+    },
+    "media": {
+      "audio": "Аудио",
+      "autoplay": "Аудио автоплей",
+      "storage": "Саклау",
+      "downloadWifi": "Wi-fi аша гына йөкләү",
+      "deleteCache": "Кэшны бетерегез"
+    },
+    "notifications": {
+      "notifications": "Хәбәрләр",
+      "groupInvitation": "Төркем чакыруы",
+      "devotions": "Диннәргә чакырыгыз",
+      "file": "Файлны күчерүне раслау"
+    }
+  },
+  "inviteUsers": { "header": "Кулланучыларны чакырыгыз" },
+  "playlist": {
+    "header": "Плейлист",
+    "audioFileLabel": "Аудио файл",
+    "audioFilesLabel": "Аудио файллар"
+  },
+  "collection": { "header": "Коллекция", "audioFilesLabel": "Аудио файллар" },
+  "modal": {
+    "close": "ябык",
+    "addToPlaylist": { "title": "Плейлистка өстәргә", "button": "Плейлист яса" },
+    "startDevotion": { "title": "Тугрылыкны башлау" },
+    "createPlaylist": {
+      "title": "Яңа плейлист төзегез",
+      "button": "Плейлист яса",
+      "inputPlaceholder": "Плейлист исемен кертегез",
+      "success": "Плейлистка өстәлде"
+    },
+    "login": "Тугрылык башлау өчен керергә кирәк"
+  },
+  "options": {
+    "shared": {
+      "share": "Бүлешү",
+      "report": "Отчет эчтәлеге",
+      "shareOthers": "Башкалар белән бүлешегез",
+      "copy": "Күчермә сылтама",
+      "more": "Күбрәк"
+    },
+    "audio": {
+      "download": "Йөкләү",
+      "addFavorite": "Фаворитларга өстәргә",
+      "addPlaylist": "Плейлистка өстәргә",
+      "removeFavorite": "Фаворитлардан бетерегез",
+      "removePlaylist": "Плейлисттан чыгар",
+      "removeDownload": "Йөкләүләрдән бетерегез"
+    },
+    "playlist": { "edit": "Редакцияләү", "delete": "Плейлистны бетерегез" },
+    "startDevotion": "Тугрылыкны башлау"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Плейлистка өстәлде",
+      "delete": "Плейлисттан алынды",
+      "create": "Плейлист булдырылды",
+      "destroy": "Плейлист бетерелде"
+    },
+    "favorites": { "add": "Фаворитларга өстәлде", "remove": "Фаворитлардан алынды" },
+    "downloads": { "remove": "Йөкләүләрдән алынды" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Көтү" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Эзләү ..." },
+    "notification": { "success": "Уңыш! Сезнең хисапка электрон почта җибәреләчәк." },
+    "button": { "sending": "Ибәрү ..." },
+    "modalSelector": { "cancel": "Баш тарту" },
+    "loading": "Йөкләү"
+  },
+  "bible": {
+    "header": "Библия",
+    "oldTestament": "Иске Васыять",
+    "newTestament": "Яңа Васыять",
+    "popularBooks": "Популяр китаплар"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Эзләү",
+    "cancelButton": "БАСТЫРУ",
+    "searchResults": "Эзләү нәтиҗәләре",
+    "filterButton": "Фильтр",
+    "teachings": { "title": "Укыту" },
+    "bible": { "title": "Библия" }
+  },
+  "addToPlaylistsModal": { "title": "Плейлистка өстәргә", "button": "Плейлист яса" },
+  "createPlaylistModal": {
+    "title": "Яңа плейлист төзегез",
+    "button": "Плейлист яса",
+    "inputPlaceholder": "Плейлист исемен кертегез"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Плейлистка өстәлде",
+      "remove": "Плейлисттан алынды",
+      "create": "Плейлист булдырылды",
+      "delete": "Плейлист бетерелде"
+    },
+    "favorites": { "add": "Фаворитларга өстәлде", "remove": "Фаворитлардан алынды" },
+    "downloads": { "remove": "Йөкләүләрдән алынды" },
+    "facebook": { "loginError": "Керү хата белән уңышсыз" },
+    "google": { "loginError": "Керү хата белән уңышсыз" }
+  },
+  "playlists": { "trackLabel": "Трек", "tracksLabel": "Acksллар" },
+  "mediaList": { "tracksLabel": "Acksллар", "remove": "Чыгар" },
+  "tutorialPage": { "done": "Булды", "skip": "Сикереп тор" },
+  "loginModal": { "login": "Керергә" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Твиттер", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Йөкләү", "complete": "Йөкләү" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Изге Язмаларны өйрәнегез",
+      "subtitle1": "Безнең белән бөтен Библияне сәяхәт итегез, яисә үзегезнең сәяхәтегезне башлап җибәрегез.",
+      "title2": "Тыңла һәм катнаш",
+      "subtitle2": "Медиа плеер сезгә җиңеллек белән Библия эчтәлегенә керергә мөмкинлек бирә.",
+      "title3": "Укыту",
+      "subtitle3": "Библиядә катнашыгыз, Библияне һәм укыту эчтәлеген үзара бәйләп.",
+      "title4": "Изге Язмалар турында сөйләшегез",
+      "subtitle4": "THRU Библия тәгълиматларын һәм темаларын башкалар белән өйрәнү өчен төркемгә кушылыгыз.",
+      "title5": "Йөкләү һәм бүлешү",
+      "subtitle5": "Godлда Алла Сүзен тыңлагыз һәм аны дусларыгыз белән бүлешегез.",
+      "title6": "Саклагыз һәм булдырыгыз",
+      "subtitle6": "Яраткан тәгълиматларыгызны һәм Изге Язмалардагы шигырьләрне саклагыз яки махсус плейлист төзегез.",
+      "title7": "Төркемгә багышлау",
+      "subtitle7": "Көндәлек группа тугрылыгы белән башкалар белән дәртләндерегез."
+    },
+    "registerPage": {
+      "noThanks": "Юк, рәхмәт",
+      "haveAccount": "Хисап языгыз бармы?",
+      "createAccount": "Минем счетымны яса",
+      "title1": "Башкалар белән сөйләшегез",
+      "subtitle1": "Яраткан темаларыгызны һәм Библия шигырьләрен башкалар белән сөйләшегез.",
+      "title2": "Плейлистларны саклау һәм синхронлаштыру",
+      "subtitle2": "Бер урында яраткан эчтәлек исемлекләрен төзегез.",
+      "title3": "Сезнең яратканнарыгызны карагыз",
+      "subtitle3": "Саклагыз, кайтыгыз һәм соңрак яратканнарыгызга керегез.",
+      "title4": "Кирегә рәхим ит",
+      "subtitle4": "Хисап язмасы төзегез һәм безнең барлык үзенчәлекләргә рөхсәт алыгыз."
+    }
+  },
+  "app": {
+    "close": "ябык",
+    "accept": "Кабул ит",
+    "reject": "Баш тарт",
+    "constructionInProgress": "PRсештә төзелеш",
+    "downloadComplete": "Йөкләү",
+    "downloading": "Йөкләү",
+    "downloadFailed": "Йөкләү уңышсыз",
+    "sendAFile": "Кемдер сезгә файл җибәрергә тели"
+  },
+  "transferring": { "tryAgain": "кабатларга", "close": "ябык" },
+  "checkDevice": {
+    "check": "Devайланмагызны тикшерегез",
+    "makeSure": "Зинһар, Wifi-Direct дустыгызның җайланмасында кабызылган һәм ул диапазонда.",
+    "continue": "Дәвам итегез"
+  },
+  "connectToDevice": { "connect": "Aайланмага тоташыгыз" },
+  "pairing": {
+    "connect": "Aайланмага тоташыгыз",
+    "pairing": "Парлашу",
+    "success": "Уңышлы парланган",
+    "failed": "Devайланма парлашу уңышсыз",
+    "makeSure": "Зинһар, (Wifi-Direct) дустыгызның җайланмасында кабызылган һәм ул диапазонда.",
+    "continue": "Дәвам итегез",
+    "tryAgain": "Кабатларга"
+  },
+  "selectNetworkType": {
+    "connect": "Aайланмага тоташыгыз",
+    "share": "Wifi Direct белән бүлешегез",
+    "send": "Wifi аша файл җибәрегез?",
+    "continue": "Дәвам итегез"
+  }
+}

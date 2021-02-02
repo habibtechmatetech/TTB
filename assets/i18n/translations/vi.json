@@ -1,0 +1,402 @@
+{
+  "selectLanguage": { "heading": "Chọn ngôn ngữ hiện tại của bạn", "mainAction": "Chọn ngôn ngữ" },
+  "menu": {
+    "anonymousTitle": "Tài khoản của bạn",
+    "anonymousAction": "Đăng nhập",
+    "editProfileAction": "Chỉnh sửa hồ sơ",
+    "verifyProfileAction": "Xác minh hồ sơ",
+    "bibleSection": "Kinh thánh",
+    "teachingsSection": "Lời dạy",
+    "librarySection": "Thư viện của tôi",
+    "groupsSection": "Các nhóm",
+    "donateSection": "Quyên góp",
+    "settingsSection": "Cài đặt",
+    "signOut": "Đăng xuất",
+    "modals": {
+      "verifyProfile": {
+        "title": "Bạn chưa được xác minh",
+        "message": "Danh sách của bạn sẽ không được đồng bộ hóa và bạn không thể tạo nhóm. Hãy kiểm tra email của bạn để hoàn tất đăng ký.",
+        "firstButton": "Tiếp tục",
+        "secondButton": "Đăng ký một hồ sơ mới"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Đăng nhập",
+    "emailPlaceholder": "Email của bạn",
+    "passwordPlaceholder": "Mật khẩu của bạn",
+    "forgotAction": "Quên mật khẩu?",
+    "callToAction": "Đăng nhập",
+    "signInAlternatives": "Hoặc Đăng nhập bằng",
+    "noAccountAction": "Không tài khoản? Tạo một cái",
+    "notifications": {
+      "invalidCredentials": "Thông tin không hợp lệ",
+      "inProgress": "Đăng nhập đã được tiến hành",
+      "notAvailable": "Dịch vụ Play không khả dụng"
+    }
+  },
+  "signUp": {
+    "header": "Tạo tài khoản",
+    "emailPlaceholder": "Email của bạn",
+    "passwordPlaceholder": "Mật khẩu của bạn",
+    "privateAction": "Đặt tài khoản ở chế độ riêng tư",
+    "termsDisclaimer": {
+      "pre": "Bằng cách nhấp vào Đăng ký, bạn cho biết rằng bạn đã đọc và đồng ý",
+      "terms": "các điều khoản",
+      "post": "."
+    },
+    "callToAction": "Đăng ký",
+    "signUpAlternatives": "Hoặc Đăng ký bằng",
+    "haveAnAccountAction": "Có một tài khoản?",
+    "notifications": {
+      "invalidUsername": "Tên người dùng được giới hạn trong 20 ký tự chữ và số (số và chữ cái thông thường)",
+      "invalidPassword": "Mật khẩu phải có ít nhất 3 ký tự và là sự kết hợp của ký tự viết hoa và viết thường với ít nhất một số hoặc ký tự đặc biệt"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Không thể tạo tài khoản",
+        "message": "Địa chỉ email này đã tồn tại.",
+        "firstButton": "Đăng nhập",
+        "secondButton": "Đóng"
+      },
+      "privateAccount": {
+        "title": "Tài khoản cá nhân",
+        "message": "Bằng cách đặt tài khoản của bạn ở chế độ riêng tư, bạn đang che giấu tài khoản để không bị người khác phát hiện.",
+        "firstButton": "Chấp nhận",
+        "secondButton": "Từ chối"
+      },
+      "success": {
+        "title": "Tài khoản đã được tạo!",
+        "message": "Tài khoản của bạn đã được tạo thành công. Kiểm tra hộp thư đến của bạn để xác nhận tài khoản của bạn và đăng nhập.",
+        "firstButton": "Đăng nhập"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Đặt lại mật khẩu",
+    "emailPlaceholder": "Email của bạn",
+    "message": "Vui lòng nhập email của bạn để đặt lại mật khẩu cho tài khoản của bạn.",
+    "callToAction": "Đặt lại mật khẩu",
+    "notifications": {
+      "success": "Chúng tôi vừa gửi một email đến hộp thư đến của bạn",
+      "emailNotFoundError": "Không tìm thấy email",
+      "invalidEmailError": "Định dạng email không hợp lệ"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Hoàn tất thiết lập",
+    "message": "Một email đã được gửi đến địa chỉ email bạn đã nhập. Vui lòng xem chi tiết email để hoàn tất đăng ký.",
+    "callToAction": "Bỏ qua ngay bây giờ"
+  },
+  "teachings": {
+    "dailyText": "Phát sóng hôm nay",
+    "journeyTitle": "Bắt đầu hành trình của bạn",
+    "journeySubtitle": "Tất cả các bài giảng từ đầu đến cuối",
+    "journeyCardTitle": "Hành trình 215 tuần qua Kinh thánh",
+    "journeyCardSubtitle": "Nghe vào thời gian của bạn",
+    "tracksLabel": "Bản nhạc"
+  },
+  "teaching": {
+    "header": "Lời dạy",
+    "loading": "Đang tải...",
+    "player": {
+      "audioSpeed": "Tốc độ âm thanh",
+      "loading": "Đang tải",
+      "castingError": "Không có thiết bị nào"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Tiếp tục nghe",
+        "secondButton": "Bắt đầu cuộc hành trình của bạn"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Theo ngày",
+    "bySeries": "Theo loạt",
+    "sections": { "tracksLabel": "Bản nhạc" }
+  },
+  "library": {
+    "header": "Thư viện của tôi",
+    "tabs": { "downloads": "Tải xuống", "favorites": "Yêu thích", "playlists": "Danh sách phát" }
+  },
+  "groups": {
+    "header": "Các nhóm",
+    "createGroup": {
+      "title": "Tạo nhóm mới",
+      "groupNameLabel": "TÊN NHÓM",
+      "groupNameInputPlaceHolder": "Tên",
+      "descriptionLabel": "SỰ MIÊU TẢ",
+      "descriptionInputPlaceHolder": "Thêm mô tả",
+      "inviteLabel": "Mời người dùng",
+      "inviteButton": "Mời người dùng mới",
+      "button": "Tạo nhóm",
+      "invalidGroupName": "Nhập tên hợp lệ",
+      "groupNameTooLong": "Tên của nhóm không được chứa nhiều hơn 25 ký tự"
+    },
+    "devotionNotStartAlert": "Một sự tận tâm đã không bắt đầu cho nhóm này",
+    "membersLabel": "Các thành viên",
+    "chatModalMemberSubtitleLabel": "hội viên",
+    "chatModalMembersSubtitleLabel": "các thành viên",
+    "chat": {
+      "listeningToLabel": "Nghe",
+      "loadingTrackLabel": "Đang tải bản nhạc ...",
+      "inputPlaceHolder": "Viết tin nhắn",
+      "deletePost": "Xóa bài đăng",
+      "deleteMessage": "đã xóa một tin nhắn"
+    },
+    "groupSettings": {
+      "participantsSection": "Những người tham gia",
+      "viewAll": "Xem tất cả",
+      "invite": "Mời người dùng mới",
+      "endDevotion": "Kết thúc sự cống hiến của nhóm",
+      "deleteGroup": "Xóa nhóm",
+      "leaveGroup": "Rời khỏi nhóm"
+    },
+    "userDirectory": {
+      "header": "Thư mục người dùng",
+      "remove": "Tẩy",
+      "anonymous": "Vô danh",
+      "send": "Gửi"
+    },
+    "inviteUser": { "placeHolder": "Tìm kiếm", "send": "Gửi" }
+  },
+  "chat": {
+    "header": "Kênh nhóm",
+    "settings": {
+      "header": "Cài đặt nhóm",
+      "endDevotion": {
+        "alertTitle": "Kết thúc sự cống hiến",
+        "alertMessage": "Bạn có chắc chắn muốn kết thúc sự sùng kính này không?",
+        "alertCancel": "Huỷ bỏ",
+        "alertConfirm": "Đúng",
+        "endDevotionLabel": "đã kết thúc sự tận tâm này.",
+        "hasEnded": "Sự tận tâm này đã kết thúc"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Bắt đầu cống hiến",
+    "alertMessage": "Bạn có chắc chắn muốn bắt đầu cống hiến với nhóm% {name} không?",
+    "alertCancel": "Huỷ bỏ",
+    "alertConfirm": "Đúng",
+    "devotionStartedLabel": "đã bắt đầu một sự tận tâm."
+  },
+  "settings": {
+    "header": "Cài đặt",
+    "tabs": {
+      "profile": "Hồ sơ",
+      "media": "Phương tiện truyền thông",
+      "notifications": "Thông báo"
+    },
+    "profile": {
+      "account": "Tài khoản",
+      "username": "tên tài khoản",
+      "email": "E-mail",
+      "editButton": "Biên tập",
+      "edit": {
+        "save": "Tiết kiệm",
+        "username": {
+          "header": "tên tài khoản",
+          "successAlert": "Thay đổi của bạn đã được lưu.",
+          "failedAlert": "Không thể lưu thay đổi."
+        },
+        "email": {
+          "header": "E-mail",
+          "successAlert": "Thay đổi của bạn đã được lưu.",
+          "failedAlert": "Không thể lưu thay đổi."
+        }
+      },
+      "languages": "Ngôn ngữ",
+      "signIn": "Đăng nhập",
+      "signOut": "Đăng xuất khỏi tài khoản",
+      "legal": "Hợp pháp",
+      "termsConditions": "Điều khoản và điều kiện",
+      "privacyPolicy": "Chính sách bảo mật",
+      "support": "Ủng hộ",
+      "reportAProblem": "Báo cáo sự cố",
+      "tutorial": "Hướng dẫn",
+      "reportBug": {
+        "header": "Báo cáo sự cố",
+        "send": "Gửi",
+        "subject": "MÔN HỌC",
+        "subjectPlaceHolder": "Môn học",
+        "description": "SỰ MIÊU TẢ",
+        "descriptionPlaceHolder": "Sự miêu tả",
+        "successAlert": "Cảm ơn bạn, chúng tôi đã nhận được tin nhắn của bạn.",
+        "failedAlert": "Không gửi được tin nhắn."
+      },
+      "version": "Phiên bản"
+    },
+    "media": {
+      "audio": "Âm thanh",
+      "autoplay": "Tự động phát âm thanh",
+      "storage": "Lưu trữ",
+      "downloadWifi": "Chỉ tải xuống trên Wi-fi",
+      "deleteCache": "Xóa bộ nhớ cache"
+    },
+    "notifications": {
+      "notifications": "Thông báo",
+      "groupInvitation": "Lời mời nhóm",
+      "devotions": "Mời tham gia cống hiến",
+      "file": "Xác nhận truyền tệp"
+    }
+  },
+  "inviteUsers": { "header": "Mời người dùng" },
+  "playlist": {
+    "header": "Danh sách phát",
+    "audioFileLabel": "Tập tin âm thanh",
+    "audioFilesLabel": "Tập tin âm thanh"
+  },
+  "collection": { "header": "Bộ sưu tập", "audioFilesLabel": "Tập tin âm thanh" },
+  "modal": {
+    "close": "đóng",
+    "addToPlaylist": { "title": "Thêm vào danh sách phát", "button": "Tạo danh sách phát" },
+    "startDevotion": { "title": "Bắt đầu cống hiến" },
+    "createPlaylist": {
+      "title": "Tạo danh sách mới",
+      "button": "Tạo danh sách phát",
+      "inputPlaceholder": "Nhập tên danh sách phát",
+      "success": "Đã thêm vào danh sách phát"
+    },
+    "login": "Bạn cần đăng nhập để bắt đầu cống hiến"
+  },
+  "options": {
+    "shared": {
+      "share": "Chia sẻ",
+      "report": "Báo cáo nội dung",
+      "shareOthers": "Chia sẻ với người khác",
+      "copy": "Sao chép đường dẫn",
+      "more": "Hơn"
+    },
+    "audio": {
+      "download": "Tải xuống",
+      "addFavorite": "Thêm vào mục yêu thích",
+      "addPlaylist": "Thêm vào danh sách phát",
+      "removeFavorite": "Loại bỏ khỏi mục ưa thích",
+      "removePlaylist": "Xóa khỏi danh sách phát",
+      "removeDownload": "Xóa khỏi Tải xuống"
+    },
+    "playlist": { "edit": "Biên tập", "delete": "Xóa danh sách phát" },
+    "startDevotion": "Bắt đầu cống hiến"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Đã thêm vào danh sách phát",
+      "delete": "Đã xóa khỏi danh sách phát",
+      "create": "Danh sách phát đã tạo",
+      "destroy": "Danh sách phát đã xóa"
+    },
+    "favorites": { "add": "Đã thêm vào Mục yêu thích", "remove": "Đã xóa khỏi Mục yêu thích" },
+    "downloads": { "remove": "Đã xóa khỏi Tải xuống" }
+  },
+  "buttons": { "loop": "Vòng", "shuffle": "Xáo trộn" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Tìm kiếm..." },
+    "notification": { "success": "Sự thành công! Một email sẽ được gửi đến tài khoản của bạn." },
+    "button": { "sending": "Gửi..." },
+    "modalSelector": { "cancel": "Huỷ bỏ" },
+    "loading": "Đang tải"
+  },
+  "bible": {
+    "header": "Kinh thánh",
+    "oldTestament": "Di chúc cũ",
+    "newTestament": "Di chúc mới",
+    "popularBooks": "Sách phổ biến"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Tìm kiếm",
+    "cancelButton": "HỦY",
+    "searchResults": "kết quả tìm kiếm",
+    "filterButton": "Bộ lọc",
+    "teachings": { "title": "Lời dạy" },
+    "bible": { "title": "Kinh thánh" }
+  },
+  "addToPlaylistsModal": { "title": "Thêm vào danh sách phát", "button": "Tạo danh sách phát" },
+  "createPlaylistModal": {
+    "title": "Tạo danh sách mới",
+    "button": "Tạo danh sách phát",
+    "inputPlaceholder": "Nhập tên danh sách phát"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Đã thêm vào danh sách phát",
+      "remove": "Đã xóa khỏi danh sách phát",
+      "create": "Danh sách phát đã tạo",
+      "delete": "Danh sách phát đã xóa"
+    },
+    "favorites": { "add": "Đã thêm vào Mục yêu thích", "remove": "Đã xóa khỏi Mục yêu thích" },
+    "downloads": { "remove": "Đã xóa khỏi Tải xuống" },
+    "facebook": { "loginError": "Đăng nhập không thành công với lỗi" },
+    "google": { "loginError": "Đăng nhập không thành công với lỗi" }
+  },
+  "playlists": { "trackLabel": "Theo dõi", "tracksLabel": "Bản nhạc" },
+  "mediaList": { "tracksLabel": "Bản nhạc", "remove": "Tẩy" },
+  "tutorialPage": { "done": "Làm xong", "skip": "Nhảy" },
+  "loginModal": { "login": "Đăng nhập" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Đang tải xuống", "complete": "Hoan thanh tải" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Khám phá Kinh thánh",
+      "subtitle1": "Cùng chúng tôi du hành toàn bộ Kinh thánh hoặc bắt đầu một cuộc hành trình của riêng bạn.",
+      "title2": "Lắng nghe và tương tác",
+      "subtitle2": "Trình phát đa phương tiện cho phép bạn tìm hiểu nội dung KINH THÁNH một cách dễ dàng.",
+      "title3": "Khám phá những lời dạy",
+      "subtitle3": "Tham gia vào Kinh Thánh hơn bao giờ hết bằng cách tham khảo chéo Kinh Thánh và nội dung Giảng dạy.",
+      "title4": "Thảo luận về Kinh thánh",
+      "subtitle4": "Tham gia một nhóm để nghiên cứu các chủ đề và giáo lý THRU the BIBLE với những người khác.",
+      "title5": "Chia sẻ tải xuống",
+      "subtitle5": "Thích lắng nghe Lời Chúa khi đang di chuyển và chia sẻ với bạn bè của bạn.",
+      "title6": "Lưu & Tạo",
+      "subtitle6": "Lưu những lời dạy và câu Kinh thánh yêu thích của bạn hoặc tạo một danh sách phát tùy chỉnh.",
+      "title7": "Cống hiến nhóm",
+      "subtitle7": "Được khuyến khích và truyền cảm hứng từ những người khác với sự tận tâm của nhóm hàng ngày."
+    },
+    "registerPage": {
+      "noThanks": "Không, cám ơn",
+      "haveAccount": "Có một tài khoản?",
+      "createAccount": "Tạo tài khoản của tôi",
+      "title1": "Thảo luận với những người khác",
+      "subtitle1": "Thảo luận các chủ đề yêu thích của bạn và những câu kinh thánh với những người khác.",
+      "title2": "Lưu trữ và đồng bộ hóa danh sách phát",
+      "subtitle2": "Xây dựng danh sách nội dung yêu thích của bạn ở một nơi.",
+      "title3": "Xem mục yêu thích của bạn",
+      "subtitle3": "Lưu trữ và quay lại và truy cập các mục yêu thích của bạn sau đó.",
+      "title4": "Chào mừng trở lại",
+      "subtitle4": "Tạo một tài khoản và có quyền truy cập vào tất cả các tính năng của chúng tôi."
+    }
+  },
+  "app": {
+    "close": "đóng",
+    "accept": "Chấp nhận",
+    "reject": "Từ chối",
+    "constructionInProgress": "XÂY DỰNG TRONG TIẾN ĐỘ",
+    "downloadComplete": "Hoan thanh tải",
+    "downloading": "Đang tải xuống",
+    "downloadFailed": "Tải xuống không thành công",
+    "sendAFile": "Ai đó muốn gửi cho bạn một tệp"
+  },
+  "transferring": { "tryAgain": "thử lại", "close": "đóng" },
+  "checkDevice": {
+    "check": "Kiểm tra thiết bị của bạn",
+    "makeSure": "Hãy đảm bảo rằng Wifi-Direct đã được bật trên thiết bị của bạn bè bạn và thiết bị đó nằm trong vùng phủ sóng.",
+    "continue": "Tiếp tục"
+  },
+  "connectToDevice": { "connect": "Kết nối với thiết bị" },
+  "pairing": {
+    "connect": "Kết nối với thiết bị",
+    "pairing": "Ghép nối",
+    "success": "Đã ghép nối thành công",
+    "failed": "Ghép nối thiết bị không thành công",
+    "makeSure": "Hãy đảm bảo rằng (Wifi-Direct) đã được bật trên thiết bị của bạn bè bạn và thiết bị đó nằm trong vùng phủ sóng.",
+    "continue": "Tiếp tục",
+    "tryAgain": "Thử lại"
+  },
+  "selectNetworkType": {
+    "connect": "Kết nối với thiết bị",
+    "share": "Chia sẻ với Wifi Direct",
+    "send": "Gửi tệp qua wifi trực tiếp?",
+    "continue": "Tiếp tục"
+  }
+}

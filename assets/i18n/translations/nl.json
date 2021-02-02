@@ -1,0 +1,393 @@
+{
+  "selectLanguage": { "heading": "Selecteer uw huidige taal", "mainAction": "Selecteer taal" },
+  "menu": {
+    "anonymousTitle": "Jouw rekening",
+    "anonymousAction": "Log in",
+    "editProfileAction": "Bewerk profiel",
+    "verifyProfileAction": "Verifieer het profiel",
+    "bibleSection": "Bijbel",
+    "teachingsSection": "Leringen",
+    "librarySection": "Mijn bibliotheek",
+    "groupsSection": "Groepen",
+    "donateSection": "Doneer",
+    "settingsSection": "Instellingen",
+    "signOut": "Afmelden",
+    "modals": {
+      "verifyProfile": {
+        "title": "U bent niet geverifieerd",
+        "message": "Uw lijsten worden niet gesynchroniseerd en u kunt geen groepen maken. Controleer alstublieft uw email om de registratie af te ronden.",
+        "firstButton": "Doorgaan met",
+        "secondButton": "Registreer een nieuw profiel"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Inloggen",
+    "emailPlaceholder": "Jouw email",
+    "passwordPlaceholder": "Uw wachtwoord",
+    "forgotAction": "Wachtwoord vergeten?",
+    "callToAction": "Aanmelden",
+    "signInAlternatives": "Of log in met",
+    "noAccountAction": "Geen account? Creëer er een",
+    "notifications": {
+      "invalidCredentials": "Ongeldige inloggegevens",
+      "inProgress": "Aanmelden wordt al uitgevoerd",
+      "notAvailable": "Play-services niet beschikbaar"
+    }
+  },
+  "signUp": {
+    "header": "Maak een account aan",
+    "emailPlaceholder": "Jouw email",
+    "passwordPlaceholder": "Uw wachtwoord",
+    "privateAction": "Maak account privé",
+    "termsDisclaimer": {
+      "pre": "Door op Aanmelden te klikken geeft u aan dat u deze heeft gelezen en hiermee akkoord gaat",
+      "terms": "de voorwaarden",
+      "post": "."
+    },
+    "callToAction": "Aanmelden",
+    "signUpAlternatives": "Of meld je aan met",
+    "haveAnAccountAction": "Een account hebben?",
+    "notifications": {
+      "invalidUsername": "Gebruikersnamen zijn beperkt tot 20 alfanumerieke tekens (cijfers en gewone letters)",
+      "invalidPassword": "Wachtwoord moet minimaal 3 tekens lang zijn en een combinatie zijn van hoofdletters en kleine letters met ten minste één cijfer of speciaal teken"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Kan geen account aanmaken",
+        "message": "Dit email adres bestaat al.",
+        "firstButton": "Inloggen",
+        "secondButton": "Dichtbij"
+      },
+      "privateAccount": {
+        "title": "Prive account",
+        "message": "Door uw account privé te maken, verbergt u het zodat anderen het niet kunnen ontdekken.",
+        "firstButton": "Aanvaarden",
+        "secondButton": "Afwijzen"
+      },
+      "success": {
+        "title": "Account aangemaakt!",
+        "message": "Uw account is succesvol aangemaakt. Controleer uw inbox om uw account te bevestigen en log in.",
+        "firstButton": "Inloggen"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Wachtwoord opnieuw instellen",
+    "emailPlaceholder": "Jouw email",
+    "message": "Voer uw e-mailadres in om uw wachtwoord voor uw account opnieuw in te stellen.",
+    "callToAction": "Wachtwoord opnieuw instellen",
+    "notifications": {
+      "success": "We hebben zojuist een e-mail naar uw inbox gestuurd",
+      "emailNotFoundError": "E-mail is niet gevonden",
+      "invalidEmailError": "ongeldige email formaat"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Voltooi de installatie",
+    "message": "Er is een e-mail verzonden naar het e-mailadres dat u heeft ingevoerd. Raadpleeg de e-mailgegevens om de registratie te voltooien.",
+    "callToAction": "Nu overslaan"
+  },
+  "teachings": {
+    "dailyText": "De uitzending van vandaag",
+    "journeyTitle": "Begin uw reis",
+    "journeySubtitle": "Alle leringen van begin tot eind",
+    "journeyCardTitle": "215 weken durende reis door de Bijbel",
+    "journeyCardSubtitle": "Luister op je tijd",
+    "tracksLabel": "Sporen"
+  },
+  "teaching": {
+    "header": "Leringen",
+    "loading": "Bezig met laden...",
+    "player": {
+      "audioSpeed": "Audiosnelheid",
+      "loading": "Bezig met laden",
+      "castingError": "Geen apparaten beschikbaar"
+    },
+    "modals": { "firstTime": { "firstButton": "Blijf luisteren", "secondButton": "Begin uw reis" } }
+  },
+  "journey": {
+    "byDate": "Op datum",
+    "bySeries": "Op serie",
+    "sections": { "tracksLabel": "Sporen" }
+  },
+  "library": {
+    "header": "Mijn bibliotheek",
+    "tabs": { "downloads": "Downloads", "favorites": "Favorieten", "playlists": "Afspeellijsten" }
+  },
+  "groups": {
+    "header": "Groepen",
+    "createGroup": {
+      "title": "Maak een nieuwe groep",
+      "groupNameLabel": "GROEPSNAAM",
+      "groupNameInputPlaceHolder": "Naam",
+      "descriptionLabel": "OMSCHRIJVING",
+      "descriptionInputPlaceHolder": "Voeg beschrijving toe",
+      "inviteLabel": "Nodig gebruikers uit",
+      "inviteButton": "Nodig nieuwe gebruikers uit",
+      "button": "Groep maken",
+      "invalidGroupName": "Voer een geldige naam in",
+      "groupNameTooLong": "De naam van de groep mag niet meer dan 25 karakters bevatten"
+    },
+    "devotionNotStartAlert": "Een devotie is niet begonnen voor deze groep",
+    "membersLabel": "Leden",
+    "chatModalMemberSubtitleLabel": "lid",
+    "chatModalMembersSubtitleLabel": "leden",
+    "chat": {
+      "listeningToLabel": "Luisteren naar",
+      "loadingTrackLabel": "Track laden ...",
+      "inputPlaceHolder": "Schrijf een bericht",
+      "deletePost": "Verwijder gepost bericht",
+      "deleteMessage": "heeft een bericht verwijderd"
+    },
+    "groupSettings": {
+      "participantsSection": "Deelnemers",
+      "viewAll": "Bekijk alles",
+      "invite": "Nodig nieuwe gebruikers uit",
+      "endDevotion": "Einde groepstoewijzing",
+      "deleteGroup": "Groep verwijderen",
+      "leaveGroup": "Verlaat groep"
+    },
+    "userDirectory": {
+      "header": "Gebruikerslijst",
+      "remove": "Verwijderen",
+      "anonymous": "Anoniem",
+      "send": "Sturen"
+    },
+    "inviteUser": { "placeHolder": "Zoeken", "send": "Sturen" }
+  },
+  "chat": {
+    "header": "Groepskanaal",
+    "settings": {
+      "header": "Groepsinstellingen",
+      "endDevotion": {
+        "alertTitle": "Beëindig toewijding",
+        "alertMessage": "Weet u zeker dat u deze toewijding wilt beëindigen?",
+        "alertCancel": "Annuleer",
+        "alertConfirm": "Ja",
+        "endDevotionLabel": "eindigde deze toewijding.",
+        "hasEnded": "Deze toewijding is beëindigd"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Begin met toewijding",
+    "alertMessage": "Weet u zeker dat u toewijding wilt starten met de% {name} groep?",
+    "alertCancel": "Annuleer",
+    "alertConfirm": "Ja",
+    "devotionStartedLabel": "is een toewijding begonnen."
+  },
+  "settings": {
+    "header": "Instellingen",
+    "tabs": { "profile": "Profiel", "media": "Media", "notifications": "Meldingen" },
+    "profile": {
+      "account": "Account",
+      "username": "Gebruikersnaam",
+      "email": "E-mail",
+      "editButton": "Bewerk",
+      "edit": {
+        "save": "Sparen",
+        "username": {
+          "header": "Gebruikersnaam",
+          "successAlert": "Uw wijziging is opgeslagen.",
+          "failedAlert": "Opslaan van de wijziging is mislukt."
+        },
+        "email": {
+          "header": "E-mail",
+          "successAlert": "Uw wijziging is opgeslagen.",
+          "failedAlert": "Opslaan van de wijziging is mislukt."
+        }
+      },
+      "languages": "Talen",
+      "signIn": "Inloggen",
+      "signOut": "Afmelden bij account",
+      "legal": "Juridisch",
+      "termsConditions": "algemene voorwaarden",
+      "privacyPolicy": "Privacybeleid",
+      "support": "Ondersteuning",
+      "reportAProblem": "Meld een probleem",
+      "tutorial": "Zelfstudie",
+      "reportBug": {
+        "header": "Meld een probleem",
+        "send": "Sturen",
+        "subject": "ONDERWERPEN",
+        "subjectPlaceHolder": "Onderwerpen",
+        "description": "OMSCHRIJVING",
+        "descriptionPlaceHolder": "Omschrijving",
+        "successAlert": "Bedankt, we hebben uw bericht ontvangen.",
+        "failedAlert": "Het bericht is niet verzonden."
+      },
+      "version": "Versie"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Audio automatisch afspelen",
+      "storage": "Opslag",
+      "downloadWifi": "Alleen downloaden via wifi",
+      "deleteCache": "Cache verwijderen"
+    },
+    "notifications": {
+      "notifications": "Meldingen",
+      "groupInvitation": "Groepsuitnodiging",
+      "devotions": "Nodig uit voor devoties",
+      "file": "Bevestiging van bestandsoverdracht"
+    }
+  },
+  "inviteUsers": { "header": "Nodig gebruikers uit" },
+  "playlist": {
+    "header": "afspeellijst",
+    "audioFileLabel": "Geluidsbestand",
+    "audioFilesLabel": "Geluidsbestanden"
+  },
+  "collection": { "header": "Verzameling", "audioFilesLabel": "Geluidsbestanden" },
+  "modal": {
+    "close": "dichtbij",
+    "addToPlaylist": { "title": "Toevoegen aan afspeellijst", "button": "Maak afspeellijst" },
+    "startDevotion": { "title": "Begin met toewijding" },
+    "createPlaylist": {
+      "title": "Maak een nieuwe afspeellijst",
+      "button": "Maak afspeellijst",
+      "inputPlaceholder": "Voer de naam van de afspeellijst in",
+      "success": "Toegevoegd aan afspeellijst"
+    },
+    "login": "U moet inloggen om een ​​devotie te starten"
+  },
+  "options": {
+    "shared": {
+      "share": "Delen",
+      "report": "Rapporteer inhoud",
+      "shareOthers": "Deel met anderen",
+      "copy": "Kopieer link",
+      "more": "Meer"
+    },
+    "audio": {
+      "download": "Downloaden",
+      "addFavorite": "Toevoegen aan favorieten",
+      "addPlaylist": "Toevoegen aan afspeellijst",
+      "removeFavorite": "Verwijder van favorieten",
+      "removePlaylist": "Verwijderen uit afspeellijst",
+      "removeDownload": "Verwijderen uit downloads"
+    },
+    "playlist": { "edit": "Bewerk", "delete": "Afspeellijst verwijderen" },
+    "startDevotion": "Begin met toewijding"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Toegevoegd aan afspeellijst",
+      "delete": "Verwijderd uit afspeellijst",
+      "create": "Afspeellijst gemaakt",
+      "destroy": "Verwijderde afspeellijst"
+    },
+    "favorites": { "add": "Toegevoegd aan favorieten", "remove": "Verwijderd uit favorieten" },
+    "downloads": { "remove": "Verwijderd uit downloads" }
+  },
+  "buttons": { "loop": "Lus", "shuffle": "Shuffle" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Zoeken..." },
+    "notification": { "success": "Succes! Er wordt een e-mail naar uw account gestuurd." },
+    "button": { "sending": "Bezig met verzenden..." },
+    "modalSelector": { "cancel": "Annuleer" },
+    "loading": "Bezig met laden"
+  },
+  "bible": {
+    "header": "Bijbel",
+    "oldTestament": "Oude Testament",
+    "newTestament": "Nieuwe Testament",
+    "popularBooks": "Populaire boeken"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Zoeken",
+    "cancelButton": "ANNULEREN",
+    "searchResults": "Zoekresultaten",
+    "filterButton": "Filter",
+    "teachings": { "title": "Leringen" },
+    "bible": { "title": "Bijbel" }
+  },
+  "addToPlaylistsModal": { "title": "Toevoegen aan afspeellijst", "button": "Maak afspeellijst" },
+  "createPlaylistModal": {
+    "title": "Maak een nieuwe afspeellijst",
+    "button": "Maak afspeellijst",
+    "inputPlaceholder": "Voer de naam van de afspeellijst in"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Toegevoegd aan afspeellijst",
+      "remove": "Verwijderd uit afspeellijst",
+      "create": "Afspeellijst gemaakt",
+      "delete": "Verwijderde afspeellijst"
+    },
+    "favorites": { "add": "Toegevoegd aan favorieten", "remove": "Verwijderd uit favorieten" },
+    "downloads": { "remove": "Verwijderd uit downloads" },
+    "facebook": { "loginError": "Inloggen mislukt met fout" },
+    "google": { "loginError": "Inloggen mislukt met fout" }
+  },
+  "playlists": { "trackLabel": "Track", "tracksLabel": "Sporen" },
+  "mediaList": { "tracksLabel": "Sporen", "remove": "Verwijderen" },
+  "tutorialPage": { "done": "Gedaan", "skip": "Overspringen" },
+  "loginModal": { "login": "Log in" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Downloaden", "complete": "Download compleet" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Verken de Bijbel",
+      "subtitle1": "Reis met ons door de hele Bijbel, of begin zelf aan een reis.",
+      "title2": "Luister en betrek",
+      "subtitle2": "Met de mediaspeler kun je gemakkelijk in THRU the BIBLE-inhoud duiken.",
+      "title3": "Ontdek leringen",
+      "subtitle3": "Neem deel aan de Bijbel als nooit tevoren door kruisverwijzingen te maken naar de inhoud van Bijbel en onderwijs.",
+      "title4": "Bespreek de Bijbel",
+      "subtitle4": "Word lid van een groep om de THRU the BIBLE leringen en onderwerpen met anderen te bestuderen.",
+      "title5": "Downloaden en delen",
+      "subtitle5": "Geniet onderweg van het luisteren naar het Woord van God en deel het met je vrienden.",
+      "title6": "Opslaan en maken",
+      "subtitle6": "Sla uw favoriete leringen en bijbelverzen op of maak een aangepaste afspeellijst.",
+      "title7": "Groepsoverdenkingen",
+      "subtitle7": "Laat u aanmoedigen en inspireren door anderen met dagelijkse groepsoverwinningen."
+    },
+    "registerPage": {
+      "noThanks": "Nee bedankt",
+      "haveAccount": "Een account hebben?",
+      "createAccount": "Maak mijn account",
+      "title1": "Bespreek met anderen",
+      "subtitle1": "Bespreek uw favoriete onderwerpen en bijbelverzen met anderen.",
+      "title2": "Bewaar en synchroniseer afspeellijsten",
+      "subtitle2": "Maak lijsten met uw favoriete inhoud op één plek.",
+      "title3": "Zie uw favorieten",
+      "subtitle3": "Bewaar en kom later terug en bezoek uw favorieten op een later tijdstip.",
+      "title4": "Welkom terug",
+      "subtitle4": "Maak een account aan en krijg toegang tot al onze functies."
+    }
+  },
+  "app": {
+    "close": "dichtbij",
+    "accept": "Aanvaarden",
+    "reject": "Weigeren",
+    "constructionInProgress": "WERK IN UITVOERING",
+    "downloadComplete": "Download compleet",
+    "downloading": "Downloaden",
+    "downloadFailed": "Download mislukt",
+    "sendAFile": "Iemand wil u een bestand sturen"
+  },
+  "transferring": { "tryAgain": "probeer het nog eens", "close": "dichtbij" },
+  "checkDevice": {
+    "check": "Controleer uw apparaat",
+    "makeSure": "Zorg ervoor dat Wifi-Direct is ingeschakeld op het apparaat van je vriend en dat het binnen bereik is.",
+    "continue": "Doorgaan met"
+  },
+  "connectToDevice": { "connect": "Maak verbinding met een apparaat" },
+  "pairing": {
+    "connect": "Maak verbinding met een apparaat",
+    "pairing": "Koppelen",
+    "success": "Succesvol gekoppeld",
+    "failed": "Apparaat koppelen mislukt",
+    "makeSure": "Zorg ervoor dat (Wifi-Direct) is ingeschakeld op het apparaat van je vriend en dat het binnen bereik is.",
+    "continue": "Doorgaan met",
+    "tryAgain": "Probeer het opnieuw"
+  },
+  "selectNetworkType": {
+    "connect": "Maak verbinding met een apparaat",
+    "share": "Deel met Wifi Direct",
+    "send": "Bestand direct via wifi verzenden?",
+    "continue": "Doorgaan met"
+  }
+}

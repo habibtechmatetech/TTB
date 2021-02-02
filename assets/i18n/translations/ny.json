@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "Sankhani chilankhulo chanu", "mainAction": "Sankhani Chinenero" },
+  "menu": {
+    "anonymousTitle": "Akaunti Yanu",
+    "anonymousAction": "Lowani muakaunti",
+    "editProfileAction": "Sinthani mbiri",
+    "verifyProfileAction": "Tsimikizani mbiri yanu",
+    "bibleSection": "Baibulo",
+    "teachingsSection": "Ziphunzitso",
+    "librarySection": "Laibulale yanga",
+    "groupsSection": "Magulu",
+    "donateSection": "Perekani",
+    "settingsSection": "Zokonzera",
+    "signOut": "Tulukani",
+    "modals": {
+      "verifyProfile": {
+        "title": "Simukutsimikiziridwa",
+        "message": "Mndandanda wanu sungagwirizane ndipo simungathe kupanga magulu. Chonde onani imelo yanu kuti mumalize kulembetsa.",
+        "firstButton": "Pitirizani",
+        "secondButton": "Lembetsani mbiri yatsopano"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Lowani muakaunti",
+    "emailPlaceholder": "Imelo Yanu",
+    "passwordPlaceholder": "Chinsinsi Chanu",
+    "forgotAction": "Mwayiwala mawu achinsinsi olowera?",
+    "callToAction": "Lowani muakaunti",
+    "signInAlternatives": "Kapena Lowani muakaunti pogwiritsa ntchito",
+    "noAccountAction": "Palibe akaunti? Pangani imodzi",
+    "notifications": {
+      "invalidCredentials": "Zizindikiro zosayenera",
+      "inProgress": "Lowani kale mkati",
+      "notAvailable": "Ntchito zamasewera sizikupezeka"
+    }
+  },
+  "signUp": {
+    "header": "Pangani akaunti",
+    "emailPlaceholder": "Imelo Yanu",
+    "passwordPlaceholder": "Chinsinsi Chanu",
+    "privateAction": "Pangani Akaunti Payekha",
+    "termsDisclaimer": {
+      "pre": "Podina Signup mukuwonetsa kuti mwawerenga ndikuvomereza",
+      "terms": "mawu",
+      "post": "."
+    },
+    "callToAction": "Lowani",
+    "signUpAlternatives": "Kapena Lowani pogwiritsa ntchito",
+    "haveAnAccountAction": "Kodi muli ndi akaunti?",
+    "notifications": {
+      "invalidUsername": "Maina ogwiritsa ntchito amangokhala ndi zilembo 20 (manambala ndi zilembo)",
+      "invalidPassword": "Mawu achinsinsi ayenera kukhala ndi zilembo zosachepera 3 ndikukhala osakanikirana ndi apamwamba komanso ocheperako omwe ali ndi nambala imodzi kapena wapadera"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Takanika kupanga akaunti",
+        "message": "Imelo iyi ilipo kale.",
+        "firstButton": "Lowani muakaunti",
+        "secondButton": "Tsekani"
+      },
+      "privateAccount": {
+        "title": "Akaunti Yachinsinsi",
+        "message": "Mukapanga akaunti yanu kukhala yachinsinsi, mukubisala kuti ena asayione.",
+        "firstButton": "Landirani",
+        "secondButton": "Chepetsani"
+      },
+      "success": {
+        "title": "Akaunti Yapangidwa!",
+        "message": "Akaunti yanu idapangidwa bwino. Chongani anu Makalata Obwera kutsimikizira akaunti yanu ndi lowani.",
+        "firstButton": "Lowani muakaunti"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Bwezeretsani mawu achinsinsi",
+    "emailPlaceholder": "Imelo Yanu",
+    "message": "Chonde lowetsani imelo kuti musinthe mawu anu achinsinsi ku akaunti yanu.",
+    "callToAction": "Bwezeretsani mawu achinsinsi",
+    "notifications": {
+      "success": "Tangotumiza imelo ku imelo yanu",
+      "emailNotFoundError": "Imelo sinapezeke",
+      "invalidEmailError": "Maimelo olakwika"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Malizitsani Kukonzekera",
+    "message": "Imelo yatumizidwa ku imelo yomwe mudalemba. Chonde onani imelo kuti mumalize kulembetsa.",
+    "callToAction": "Pitani Tsopano"
+  },
+  "teachings": {
+    "dailyText": "Lero Lofalitsidwa",
+    "journeyTitle": "Yambitsani Ulendo Wanu",
+    "journeySubtitle": "Ziphunzitso zonse kuyambira koyamba mpaka kotsiriza",
+    "journeyCardTitle": "Ulendo Wamasabata 215 Kudzera M'baibulo",
+    "journeyCardSubtitle": "Mverani pa nthawi yanu",
+    "tracksLabel": "Nyimbo"
+  },
+  "teaching": {
+    "header": "Ziphunzitso",
+    "loading": "... ... + - Loading ... ChinthakaPublic",
+    "player": {
+      "audioSpeed": "Kuthamanga Kwa Audio",
+      "loading": "Kutsegula",
+      "castingError": "Palibe Zipangizo Zomwe Zikupezeka"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Pitirizani Kumvetsera", "secondButton": "Yambani ulendo wanu" }
+    }
+  },
+  "journey": {
+    "byDate": "Pofika Tsiku",
+    "bySeries": "Ndi Mndandanda",
+    "sections": { "tracksLabel": "Nyimbo" }
+  },
+  "library": {
+    "header": "Laibulale yanga",
+    "tabs": { "downloads": "Zotsitsa", "favorites": "Zosangalatsa", "playlists": "Zosewerera" }
+  },
+  "groups": {
+    "header": "Magulu",
+    "createGroup": {
+      "title": "Pangani Gulu Latsopano",
+      "groupNameLabel": "DZINA LA GULU",
+      "groupNameInputPlaceHolder": "Dzina",
+      "descriptionLabel": "KUFOTOKOZEDWA",
+      "descriptionInputPlaceHolder": "Onjezani Kufotokozera",
+      "inviteLabel": "Itanani Ogwiritsa Ntchito",
+      "inviteButton": "Itanani Omwe Akugwiritsa Ntchito",
+      "button": "Pangani Gulu",
+      "invalidGroupName": "Lowetsani dzina lovomerezeka",
+      "groupNameTooLong": "Dzinali liyenera kukhala ndi zilembo zoposa 25"
+    },
+    "devotionNotStartAlert": "Kudzipereka sikunayambire gulu ili",
+    "membersLabel": "Mamembala",
+    "chatModalMemberSubtitleLabel": "membala",
+    "chatModalMembersSubtitleLabel": "mamembala",
+    "chat": {
+      "listeningToLabel": "Kumvera",
+      "loadingTrackLabel": "Kutsegula njira ...",
+      "inputPlaceHolder": "Lembani Uthenga",
+      "deletePost": "Chotsani Post",
+      "deleteMessage": "wachotsa uthenga"
+    },
+    "groupSettings": {
+      "participantsSection": "Ophunzira",
+      "viewAll": "Onani Zonse",
+      "invite": "Itanani Omwe Akugwiritsa Ntchito",
+      "endDevotion": "Kutsiriza Kudzipereka Kwa Gulu",
+      "deleteGroup": "Chotsani Gulu",
+      "leaveGroup": "Siyani Gulu"
+    },
+    "userDirectory": {
+      "header": "Directory Wosuta",
+      "remove": "Chotsani",
+      "anonymous": "Osadziwika",
+      "send": "Tumizani"
+    },
+    "inviteUser": { "placeHolder": "Sakani", "send": "Tumizani" }
+  },
+  "chat": {
+    "header": "Gulu la Channel",
+    "settings": {
+      "header": "Zokonzera Gulu",
+      "endDevotion": {
+        "alertTitle": "Kutsiriza Kudzipereka",
+        "alertMessage": "Mukutsimikiza kuti mukufuna kuthetsa kudzipereka uku?",
+        "alertCancel": "Kuletsa",
+        "alertConfirm": "Inde",
+        "endDevotionLabel": "adamaliza kudzipereka uku.",
+        "hasEnded": "Kudzipereka kumeneku kwatha"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Yambani Kudzipereka",
+    "alertMessage": "Mukutsimikiza kuti mukufuna kuyambitsa kudzipereka ndi gulu la% {name}?",
+    "alertCancel": "Kuletsa",
+    "alertConfirm": "Inde",
+    "devotionStartedLabel": "wayamba kudzipereka."
+  },
+  "settings": {
+    "header": "Zokonzera",
+    "tabs": { "profile": "Mbiri", "media": "Media", "notifications": "Zidziwitso" },
+    "profile": {
+      "account": "Akaunti",
+      "username": "Lolowera",
+      "email": "Imelo",
+      "editButton": "Sinthani",
+      "edit": {
+        "save": "Sungani",
+        "username": {
+          "header": "Lolowera",
+          "successAlert": "Kusintha kwanu kwasungidwa.",
+          "failedAlert": "Takanika kusunga zosinthazo."
+        },
+        "email": {
+          "header": "Imelo",
+          "successAlert": "Kusintha kwanu kwasungidwa.",
+          "failedAlert": "Takanika kusunga zosinthazo."
+        }
+      },
+      "languages": "Zinenero",
+      "signIn": "Lowani muakaunti",
+      "signOut": "Lowani mu Akaunti",
+      "legal": "Zamalamulo",
+      "termsConditions": "Migwirizano & zokwaniritsa",
+      "privacyPolicy": "mfundo Zazinsinsi",
+      "support": "Thandizo",
+      "reportAProblem": "Nenani Zovuta",
+      "tutorial": "Maphunziro",
+      "reportBug": {
+        "header": "Nenani Zovuta",
+        "send": "Tumizani",
+        "subject": "NKHANI",
+        "subjectPlaceHolder": "Mutu",
+        "description": "KUFOTOKOZEDWA",
+        "descriptionPlaceHolder": "Kufotokozera",
+        "successAlert": "Zikomo, talandira uthenga wanu.",
+        "failedAlert": "Takanika kutumiza uthengawu."
+      },
+      "version": "Mtundu"
+    },
+    "media": {
+      "audio": "Zomvera",
+      "autoplay": "Autoplay Audio",
+      "storage": "Yosungirako",
+      "downloadWifi": "Tsitsani kokha pa Wi-fi",
+      "deleteCache": "Chotsani Cache"
+    },
+    "notifications": {
+      "notifications": "Zidziwitso",
+      "groupInvitation": "Kuyitanira Gulu",
+      "devotions": "Itanirani ku Mapemphero",
+      "file": "Chitsimikiziro Chosintha Fayilo"
+    }
+  },
+  "inviteUsers": { "header": "Itanani Ogwiritsa Ntchito" },
+  "playlist": {
+    "header": "Mndandanda Wosewerera",
+    "audioFileLabel": "Fayilo Ya Audio",
+    "audioFilesLabel": "Mafayilo A Audio"
+  },
+  "collection": { "header": "Kutolere", "audioFilesLabel": "Mafayilo A Audio" },
+  "modal": {
+    "close": "kutseka",
+    "addToPlaylist": { "title": "Onjezani ku playlist", "button": "Pangani playlist" },
+    "startDevotion": { "title": "Yambani Kudzipereka" },
+    "createPlaylist": {
+      "title": "Pangani Mndandanda Watsopano",
+      "button": "Pangani playlist",
+      "inputPlaceholder": "Lowetsani dzina la playlist",
+      "success": "Awonjezedwa ku Playlist"
+    },
+    "login": "Muyenera kulowa kuti muyambe kudzipereka"
+  },
+  "options": {
+    "shared": {
+      "share": "Gawani",
+      "report": "Nenani Zamkatimu",
+      "shareOthers": "Gawani ndi Ena",
+      "copy": "Lembani Ulalo",
+      "more": "Zambiri"
+    },
+    "audio": {
+      "download": "Tsitsani",
+      "addFavorite": "Onjezani ku Makonda",
+      "addPlaylist": "Onjezani ku playlist",
+      "removeFavorite": "Chotsani ku Makonda",
+      "removePlaylist": "Chotsani pa Mndandanda",
+      "removeDownload": "Chotsani pa Zotsitsa"
+    },
+    "playlist": { "edit": "Sinthani", "delete": "Chotsani playlist" },
+    "startDevotion": "Yambani Kudzipereka"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Awonjezedwa ku Playlist",
+      "delete": "Kuchotsedwa pa Mndandanda",
+      "create": "Adapanga playlist",
+      "destroy": "Fufutidwa"
+    },
+    "favorites": { "add": "Awonjezedwa ku Makonda", "remove": "Kuchotsedwa ku Makonda" },
+    "downloads": { "remove": "Zachotsedwa pa Zotsitsidwa" }
+  },
+  "buttons": { "loop": "Chingwe", "shuffle": "Sulani" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Fufuzani ..." },
+    "notification": { "success": "Kupambana! Imelo idzatumizidwa ku akaunti yanu." },
+    "button": { "sending": "Kutumiza ..." },
+    "modalSelector": { "cancel": "Kuletsa" },
+    "loading": "Kutsegula"
+  },
+  "bible": {
+    "header": "Baibulo",
+    "oldTestament": "Chipangano Chakale",
+    "newTestament": "Chipangano Chatsopano",
+    "popularBooks": "Mabuku Otchuka"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Sakani",
+    "cancelButton": "FUFUTANI",
+    "searchResults": "Zotsatira zakusaka",
+    "filterButton": "Sefani",
+    "teachings": { "title": "Ziphunzitso" },
+    "bible": { "title": "Baibulo" }
+  },
+  "addToPlaylistsModal": { "title": "Onjezani ku playlist", "button": "Pangani playlist" },
+  "createPlaylistModal": {
+    "title": "Pangani Mndandanda Watsopano",
+    "button": "Pangani playlist",
+    "inputPlaceholder": "Lowetsani dzina la playlist"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Awonjezedwa ku Playlist",
+      "remove": "Kuchotsedwa pa Mndandanda",
+      "create": "Adapanga playlist",
+      "delete": "Fufutidwa"
+    },
+    "favorites": { "add": "Awonjezedwa ku Makonda", "remove": "Kuchotsedwa ku Makonda" },
+    "downloads": { "remove": "Zachotsedwa pa Zotsitsidwa" },
+    "facebook": { "loginError": "Malowedwe alephera ndi cholakwika" },
+    "google": { "loginError": "Malowedwe alephera ndi cholakwika" }
+  },
+  "playlists": { "trackLabel": "Tsatirani", "tracksLabel": "Nyimbo" },
+  "mediaList": { "tracksLabel": "Nyimbo", "remove": "Chotsani" },
+  "tutorialPage": { "done": "Zatheka", "skip": "Pitani" },
+  "loginModal": { "login": "Lowani muakaunti" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Kutsitsa", "complete": "Tsitsani Kutsiriza" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Onani Baibulo",
+      "subtitle1": "Yendani nafe Baibulo lonse, kapena yambani ulendo wanu.",
+      "title2": "Mverani & Chitani",
+      "subtitle2": "Wosewerera makanema amakulolani kuti mulowe mu THRU zomwe zili mu BAIBULO mosavuta.",
+      "title3": "Dziwani Ziphunzitso",
+      "subtitle3": "Yesetsani kuchita zomwe zili mu Baibulo ngati kale mwa kutchulapo zomwe zili mu Bible & Teaching.",
+      "title4": "Kambiranani za m'Baibulo",
+      "subtitle4": "Lowani nawo gulu kuti muphunzire za THRU ZIMENE BAIBULO limaphunzitsa komanso mitu ndi ena.",
+      "title5": "Tsitsani & Gawani",
+      "subtitle5": "Sangalalani kumvera Mawu a Mulungu pompopompo ndikugawana ndi anzanu.",
+      "title6": "Sungani & Pangani",
+      "subtitle6": "Sungani ziphunzitso zomwe mumakonda komanso mavesi a m'Baibulo kapena pangani mndandanda wazomwe mumakonda.",
+      "title7": "Kudzipereka kwamagulu",
+      "subtitle7": "Limbikitsani ndikulimbikitsidwa ndi ena odzipereka pagulu tsiku lililonse."
+    },
+    "registerPage": {
+      "noThanks": "Ayi zikomo",
+      "haveAccount": "Kodi muli ndi akaunti?",
+      "createAccount": "Pangani Akaunti Yanga",
+      "title1": "Kambiranani ndi ena",
+      "subtitle1": "Kambiranani ndi ena mitu yomwe mumakonda komanso mavesi a m'Baibulo.",
+      "title2": "Sungani ndi Kuyanjanitsa Zosewerera",
+      "subtitle2": "Pangani mndandanda wazomwe mumakonda pamalo amodzi.",
+      "title3": "Onani Zomwe Mumakonda",
+      "subtitle3": "Sungani ndikubweranso kudzayendera okondedwa anu nthawi ina.",
+      "title4": "Takulandilaninso",
+      "subtitle4": "Pangani akaunti ndikupeza mawonekedwe athu onse."
+    }
+  },
+  "app": {
+    "close": "kutseka",
+    "accept": "Landirani",
+    "reject": "Kanani",
+    "constructionInProgress": "KUMANGA MU KUKULA",
+    "downloadComplete": "Tsitsani Kutsiriza",
+    "downloading": "Kutsitsa",
+    "downloadFailed": "Koperani Yakanika",
+    "sendAFile": "Wina Akufuna Kukutumizirani Fayilo"
+  },
+  "transferring": { "tryAgain": "yesaninso", "close": "kutseka" },
+  "checkDevice": {
+    "check": "Onani Chida Chanu",
+    "makeSure": "Chonde onetsetsani kuti Wifi-Direct yayatsidwa chipangizo cha mnzanuyo ndipo ili mkati.",
+    "continue": "Pitirizani"
+  },
+  "connectToDevice": { "connect": "Lumikizani ku Chipangizo" },
+  "pairing": {
+    "connect": "Lumikizani ku Chipangizo",
+    "pairing": "Kuyanjana",
+    "success": "Kuphatikizidwa bwino",
+    "failed": "Kujambula Zipangizo kwalephera",
+    "makeSure": "Chonde onetsetsani (Wifi-Direct) yatsegulidwa chida cha mnzanu ndipo ili mkati.",
+    "continue": "Pitirizani",
+    "tryAgain": "Yesaninso"
+  },
+  "selectNetworkType": {
+    "connect": "Lumikizani ku chipangizo",
+    "share": "Gawani ndi Wifi Direct",
+    "send": "Tumizani fayilo pa wifi direct?",
+    "continue": "Pitirizani"
+  }
+}

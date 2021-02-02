@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "Valige oma praegune keel", "mainAction": "Vali keel" },
+  "menu": {
+    "anonymousTitle": "Sinu konto",
+    "anonymousAction": "Logi sisse",
+    "editProfileAction": "Muuda profiili",
+    "verifyProfileAction": "Profiili kinnitamine",
+    "bibleSection": "Piibel",
+    "teachingsSection": "Õpetused",
+    "librarySection": "Minu raamatukogu",
+    "groupsSection": "Grupid",
+    "donateSection": "Anneta",
+    "settingsSection": "Seaded",
+    "signOut": "Logi välja",
+    "modals": {
+      "verifyProfile": {
+        "title": "Teid pole kinnitatud",
+        "message": "Teie loendeid ei sünkroonita ja te ei saa gruppe luua. Registreerimise lõpuleviimiseks kontrollige oma e-posti aadressi.",
+        "firstButton": "Jätka",
+        "secondButton": "Registreerige uus profiil"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Logi sisse",
+    "emailPlaceholder": "Sinu email",
+    "passwordPlaceholder": "Teie parool",
+    "forgotAction": "Unustasid parooli?",
+    "callToAction": "Logi sisse",
+    "signInAlternatives": "Või logige sisse kasutades",
+    "noAccountAction": "Pole kontot? Looge üks",
+    "notifications": {
+      "invalidCredentials": "Vale mandaat",
+      "inProgress": "Logi sisse juba pooleli",
+      "notAvailable": "Play teenused pole saadaval"
+    }
+  },
+  "signUp": {
+    "header": "Loo konto",
+    "emailPlaceholder": "Sinu email",
+    "passwordPlaceholder": "Teie parool",
+    "privateAction": "Muuda konto privaatseks",
+    "termsDisclaimer": {
+      "pre": "Klõpsates nupul Registreerimine, märkite, et olete lugenud ja nõustute",
+      "terms": "tingimused",
+      "post": "."
+    },
+    "callToAction": "Registreeri",
+    "signUpAlternatives": "Või registreeruge, kasutades",
+    "haveAnAccountAction": "Kas teil on konto?",
+    "notifications": {
+      "invalidUsername": "Kasutajanimed võivad olla piiratud 20 tähtnumbrilise tähemärgiga (numbrid ja tavalised tähed)",
+      "invalidPassword": "Parool peaks sisaldama vähemalt 3 tähemärki ja olema kombinatsioon suurtest ja väikestest tähtedest, millel on vähemalt üks number või erimärk"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Konto loomine nurjus",
+        "message": "See e-posti aadress on juba olemas.",
+        "firstButton": "Logi sisse",
+        "secondButton": "Sulge"
+      },
+      "privateAccount": {
+        "title": "Privaatne konto",
+        "message": "Oma konto privaatseks muutmisega varjatakse seda teiste avastamise eest.",
+        "firstButton": "Nõus",
+        "secondButton": "Keeldu"
+      },
+      "success": {
+        "title": "Konto on loodud!",
+        "message": "Teie konto loomine õnnestus. Konto kinnitamiseks ja sisselogimiseks kontrollige postkasti.",
+        "firstButton": "Logi sisse"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Lähtesta parool",
+    "emailPlaceholder": "Sinu email",
+    "message": "Konto parooli lähtestamiseks sisestage oma e-posti aadress.",
+    "callToAction": "Lähtesta parool",
+    "notifications": {
+      "success": "Saatsime just teie postkasti meili",
+      "emailNotFoundError": "E-posti aadressi ei leitud",
+      "invalidEmailError": "Vale e-posti vorming"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Lõpeta seadistamine",
+    "message": "Teie sisestatud e-posti aadressile on saadetud e-kiri. Registreerimise lõpuleviimiseks vaadake e-posti üksikasju.",
+    "callToAction": "Jäta praegu vahele"
+  },
+  "teachings": {
+    "dailyText": "Tänane saade",
+    "journeyTitle": "Alustage oma teekonda",
+    "journeySubtitle": "Kõik õpetused algusest lõpuni",
+    "journeyCardTitle": "215. nädala teekond Piibli kaudu",
+    "journeyCardSubtitle": "Kuula oma aega",
+    "tracksLabel": "Rajad"
+  },
+  "teaching": {
+    "header": "Õpetused",
+    "loading": "Laadimine ...",
+    "player": {
+      "audioSpeed": "Heli kiirus",
+      "loading": "Laadimine",
+      "castingError": "Seadmeid pole saadaval"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Jätka kuulamist", "secondButton": "Alustage oma teekonda" }
+    }
+  },
+  "journey": {
+    "byDate": "Kuupäeva järgi",
+    "bySeries": "Seeria kaupa",
+    "sections": { "tracksLabel": "Rajad" }
+  },
+  "library": {
+    "header": "Minu raamatukogu",
+    "tabs": { "downloads": "Allalaadimised", "favorites": "Lemmikud", "playlists": "Esitusloendid" }
+  },
+  "groups": {
+    "header": "Grupid",
+    "createGroup": {
+      "title": "Loo uus rühm",
+      "groupNameLabel": "GRUPI NIMI",
+      "groupNameInputPlaceHolder": "Nimi",
+      "descriptionLabel": "KIRJELDUS",
+      "descriptionInputPlaceHolder": "Lisa kirjeldus",
+      "inviteLabel": "Kutsu kasutajad",
+      "inviteButton": "Kutsuge uusi kasutajaid",
+      "button": "Loo rühm",
+      "invalidGroupName": "Sisestage kehtiv nimi",
+      "groupNameTooLong": "Grupi nimi ei tohi sisaldada rohkem kui 25 tähemärki"
+    },
+    "devotionNotStartAlert": "Selle grupi jaoks pole pühendumist alustatud",
+    "membersLabel": "Liikmed",
+    "chatModalMemberSubtitleLabel": "liige",
+    "chatModalMembersSubtitleLabel": "liikmed",
+    "chat": {
+      "listeningToLabel": "Kuulates",
+      "loadingTrackLabel": "Raja laadimine ...",
+      "inputPlaceHolder": "Kirjutage sõnum",
+      "deletePost": "Kustuta postitus",
+      "deleteMessage": "kustutas kirja"
+    },
+    "groupSettings": {
+      "participantsSection": "Osalejad",
+      "viewAll": "Vaata kõiki",
+      "invite": "Kutsuge uusi kasutajaid",
+      "endDevotion": "Lõpeta grupi pühendumus",
+      "deleteGroup": "Kustuta rühm",
+      "leaveGroup": "Rühmast lahkumine"
+    },
+    "userDirectory": {
+      "header": "Kasutajate kataloog",
+      "remove": "Eemalda",
+      "anonymous": "Anonüümne",
+      "send": "Saada"
+    },
+    "inviteUser": { "placeHolder": "Otsing", "send": "Saada" }
+  },
+  "chat": {
+    "header": "Grupikanal",
+    "settings": {
+      "header": "Grupi seaded",
+      "endDevotion": {
+        "alertTitle": "Pühendumus lõpule",
+        "alertMessage": "Kas soovite kindlasti selle pühendumise lõpetada?",
+        "alertCancel": "Tühista",
+        "alertConfirm": "Jah",
+        "endDevotionLabel": "lõpetas selle pühendumise.",
+        "hasEnded": "See pühendumus on lõppenud"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Käivitage pühendumus",
+    "alertMessage": "Kas olete kindel, et soovite alustada pühendumist rühmaga% {name}?",
+    "alertCancel": "Tühista",
+    "alertConfirm": "Jah",
+    "devotionStartedLabel": "on alustanud pühendumist."
+  },
+  "settings": {
+    "header": "Seaded",
+    "tabs": { "profile": "Profiil", "media": "Meedia", "notifications": "Teatised" },
+    "profile": {
+      "account": "Konto",
+      "username": "Kasutajanimi",
+      "email": "E-post",
+      "editButton": "Muuda",
+      "edit": {
+        "save": "Salvesta",
+        "username": {
+          "header": "Kasutajanimi",
+          "successAlert": "Teie muudatus on salvestatud.",
+          "failedAlert": "Muudatuse salvestamine ebaõnnestus."
+        },
+        "email": {
+          "header": "E-post",
+          "successAlert": "Teie muudatus on salvestatud.",
+          "failedAlert": "Muudatuse salvestamine ebaõnnestus."
+        }
+      },
+      "languages": "Keeled",
+      "signIn": "Logi sisse",
+      "signOut": "Logige kontolt välja",
+      "legal": "Seaduslik",
+      "termsConditions": "Tingimused",
+      "privacyPolicy": "Privaatsuspoliitika",
+      "support": "Toetus",
+      "reportAProblem": "Teavita probleemist",
+      "tutorial": "Õpetus",
+      "reportBug": {
+        "header": "Teavita probleemist",
+        "send": "Saada",
+        "subject": "TEEMA",
+        "subjectPlaceHolder": "Teema",
+        "description": "KIRJELDUS",
+        "descriptionPlaceHolder": "Kirjeldus",
+        "successAlert": "Aitäh, oleme teie sõnumi kätte saanud.",
+        "failedAlert": "Sõnumi saatmine ebaõnnestus."
+      },
+      "version": "Versioon"
+    },
+    "media": {
+      "audio": "Heli",
+      "autoplay": "Automaatne heli esitamine",
+      "storage": "Ladustamine",
+      "downloadWifi": "Laadige alla ainult WiFi kaudu",
+      "deleteCache": "Kustuta vahemälu"
+    },
+    "notifications": {
+      "notifications": "Teatised",
+      "groupInvitation": "Grupi kutse",
+      "devotions": "Kutsu pühendumiste juurde",
+      "file": "Failiedastuse kinnitus"
+    }
+  },
+  "inviteUsers": { "header": "Kutsu kasutajad" },
+  "playlist": {
+    "header": "Esitusloend",
+    "audioFileLabel": "Helifail",
+    "audioFilesLabel": "Helifailid"
+  },
+  "collection": { "header": "Kogumine", "audioFilesLabel": "Helifailid" },
+  "modal": {
+    "close": "Sulge",
+    "addToPlaylist": { "title": "Lisa esitusloendisse", "button": "Loo esitusloend" },
+    "startDevotion": { "title": "Käivitage pühendumus" },
+    "createPlaylist": {
+      "title": "Loo uus esitusloend",
+      "button": "Loo esitusloend",
+      "inputPlaceholder": "Sisestage esitusloendi nimi",
+      "success": "Lisatud esitusloendisse"
+    },
+    "login": "Pühendumise alustamiseks peate sisse logima"
+  },
+  "options": {
+    "shared": {
+      "share": "Jaga",
+      "report": "Teata sisust",
+      "shareOthers": "Jagage teistega",
+      "copy": "Kopeeri link",
+      "more": "Veel"
+    },
+    "audio": {
+      "download": "Lae alla",
+      "addFavorite": "Lisa lemmikutesse",
+      "addPlaylist": "Lisa esitusloendisse",
+      "removeFavorite": "Eemalda lemmikute hulgast",
+      "removePlaylist": "Eemalda esitusloendist",
+      "removeDownload": "Eemalda jaotisest Allalaadimised"
+    },
+    "playlist": { "edit": "Muuda", "delete": "Kustuta esitusloend" },
+    "startDevotion": "Käivitage pühendumus"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Lisatud esitusloendisse",
+      "delete": "Eemaldatud esitusloendist",
+      "create": "Loodud esitusloend",
+      "destroy": "Esitusloend on kustutatud"
+    },
+    "favorites": { "add": "Lisatud lemmikute hulka", "remove": "Eemaldatud lemmikute hulgast" },
+    "downloads": { "remove": "Eemaldatud jaotisest Allalaadimised" }
+  },
+  "buttons": { "loop": "Silmus", "shuffle": "Shuffle" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Otsing..." },
+    "notification": { "success": "Edu! Teie kontole saadetakse e-kiri." },
+    "button": { "sending": "Saadan ..." },
+    "modalSelector": { "cancel": "Tühista" },
+    "loading": "Laadimine"
+  },
+  "bible": {
+    "header": "Piibel",
+    "oldTestament": "Vana Testament",
+    "newTestament": "Uus Testament",
+    "popularBooks": "Populaarsed raamatud"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Otsing",
+    "cancelButton": "TÜHISTA",
+    "searchResults": "Otsingu tulemused",
+    "filterButton": "Filtreeri",
+    "teachings": { "title": "Õpetused" },
+    "bible": { "title": "Piibel" }
+  },
+  "addToPlaylistsModal": { "title": "Lisa esitusloendisse", "button": "Loo esitusloend" },
+  "createPlaylistModal": {
+    "title": "Loo uus esitusloend",
+    "button": "Loo esitusloend",
+    "inputPlaceholder": "Sisestage esitusloendi nimi"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Lisatud esitusloendisse",
+      "remove": "Eemaldatud esitusloendist",
+      "create": "Loodud esitusloend",
+      "delete": "Esitusloend on kustutatud"
+    },
+    "favorites": { "add": "Lisatud lemmikute hulka", "remove": "Eemaldatud lemmikute hulgast" },
+    "downloads": { "remove": "Eemaldatud jaotisest Allalaadimised" },
+    "facebook": { "loginError": "Sisselogimine ebaõnnestus veaga" },
+    "google": { "loginError": "Sisselogimine ebaõnnestus veaga" }
+  },
+  "playlists": { "trackLabel": "Rada", "tracksLabel": "Rajad" },
+  "mediaList": { "tracksLabel": "Rajad", "remove": "Eemalda" },
+  "tutorialPage": { "done": "Valmis", "skip": "Vahele jätma" },
+  "loginModal": { "login": "Logi sisse" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Allalaadimine", "complete": "Allalaadimine on lõpetatud" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Uurige Piiblit",
+      "subtitle1": "Vaadake koos meiega kogu Piiblit või alustage omaette reisi.",
+      "title2": "Kuula ja kaasake",
+      "subtitle2": "Meediumipleier võimaldab teil hõlpsalt sukelduda PIIBLI sisusse.",
+      "title3": "Avastage õpetused",
+      "subtitle3": "Tegelege Piibliga nagu kunagi varem, viidates Piibli ja õpetuse sisule.",
+      "title4": "Arutage Piiblit",
+      "subtitle4": "Liitu grupiga, et uurida koos teiste inimestega Piibli õpetusi ja teemasid.",
+      "title5": "Laadige alla ja jagage",
+      "subtitle5": "Nautige liikvel olles Jumala Sõna ja jagage seda oma sõpradega.",
+      "title6": "Salvesta ja loo",
+      "subtitle6": "Salvestage oma lemmikõpetused ja piiblisalmid või looge kohandatud esitusloend.",
+      "title7": "Rühma pühendused",
+      "subtitle7": "Olge teiste igapäevaste rühmituste pühendumiste abil julgustatud ja inspireeritud."
+    },
+    "registerPage": {
+      "noThanks": "Ei aitäh",
+      "haveAccount": "Kas teil on konto?",
+      "createAccount": "Loo minu konto",
+      "title1": "Arutage teistega",
+      "subtitle1": "Arutage teistega oma lemmikteemasid ja piiblisalme.",
+      "title2": "Esitusloendite salvestamine ja sünkroonimine",
+      "subtitle2": "Koostage oma lemmiksisu loendid ühes kohas.",
+      "title3": "Vaadake oma lemmikuid",
+      "subtitle3": "Hoidke ja tulge tagasi ja külastage oma lemmikuid hiljem.",
+      "title4": "Tere tulemast tagasi",
+      "subtitle4": "Looge konto ja saate juurdepääsu kõigile meie funktsioonidele."
+    }
+  },
+  "app": {
+    "close": "Sulge",
+    "accept": "Nõus",
+    "reject": "Keeldu",
+    "constructionInProgress": "EHITUS EDASI",
+    "downloadComplete": "Allalaadimine on lõpetatud",
+    "downloading": "Allalaadimine",
+    "downloadFailed": "Allalaadimine ebaõnnestus",
+    "sendAFile": "Keegi soovib teile faili saata"
+  },
+  "transferring": { "tryAgain": "proovi uuesti", "close": "Sulge" },
+  "checkDevice": {
+    "check": "Kontrollige oma seadet",
+    "makeSure": "Veenduge, et Wifi-Direct on teie sõbra seadmes sisse lülitatud ja see on levialas.",
+    "continue": "Jätka"
+  },
+  "connectToDevice": { "connect": "Ühendage seadmega" },
+  "pairing": {
+    "connect": "Ühendage seadmega",
+    "pairing": "Sidumine",
+    "success": "Sidumine õnnestus",
+    "failed": "Seadme sidumine ebaõnnestus",
+    "makeSure": "Veenduge, et (Wifi-Direct) on teie sõbra seade sisse lülitatud ja see on levialas.",
+    "continue": "Jätka",
+    "tryAgain": "Proovi uuesti"
+  },
+  "selectNetworkType": {
+    "connect": "Ühendage seadmega",
+    "share": "Jagage Wifi Directiga",
+    "send": "Kas saata fail otse wifi kaudu?",
+    "continue": "Jätka"
+  }
+}

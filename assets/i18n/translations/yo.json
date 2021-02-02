@@ -1,0 +1,402 @@
+{
+  "selectLanguage": { "heading": "Yan ede rẹ lọwọlọwọ", "mainAction": "Yan Ede" },
+  "menu": {
+    "anonymousTitle": "Iwe akọọlẹ rẹ",
+    "anonymousAction": "Wo ile",
+    "editProfileAction": "Ṣatunkọ profaili",
+    "verifyProfileAction": "Ṣayẹwo profaili",
+    "bibleSection": "Bibeli",
+    "teachingsSection": "Awọn ẹkọ",
+    "librarySection": "Mi Library",
+    "groupsSection": "Awọn ẹgbẹ",
+    "donateSection": "Ṣetọrẹ",
+    "settingsSection": "Ètò",
+    "signOut": "Ifowosi jada",
+    "modals": {
+      "verifyProfile": {
+        "title": "A ko wadi rẹ",
+        "message": "Awọn atokọ rẹ ko ni muuṣiṣẹpọ ati pe o ko le ṣẹda awọn ẹgbẹ. Jọwọ ṣayẹwo imeeli rẹ lati pari iforukọsilẹ.",
+        "firstButton": "Tẹsiwaju",
+        "secondButton": "Forukọsilẹ profaili tuntun kan"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Wọle",
+    "emailPlaceholder": "Imeeli Rẹ",
+    "passwordPlaceholder": "Ọrọigbaniwọle rẹ",
+    "forgotAction": "Gbagbe ọrọ aṣina bi?",
+    "callToAction": "wọle",
+    "signInAlternatives": "Tabi Wọle Ni lilo",
+    "noAccountAction": "Ko si akọọlẹ? Ṣẹda ọkan",
+    "notifications": {
+      "invalidCredentials": "Awọn iwe eri ti ko wulo",
+      "inProgress": "Wọle tẹlẹ ni ilọsiwaju",
+      "notAvailable": "Ko si awọn iṣẹ ere"
+    }
+  },
+  "signUp": {
+    "header": "Se akanti fun ra re",
+    "emailPlaceholder": "Imeeli Rẹ",
+    "passwordPlaceholder": "Ọrọigbaniwọle rẹ",
+    "privateAction": "Ṣe Ikọkọ Aladani",
+    "termsDisclaimer": {
+      "pre": "Nipa titẹ Iforukosile o fihan pe o ti ka ati gba lati",
+      "terms": "awọn ofin",
+      "post": "."
+    },
+    "callToAction": "forukọsilẹ",
+    "signUpAlternatives": "Tabi Wọlé Up nipa lilo",
+    "haveAnAccountAction": "Ni iroyin kan?",
+    "notifications": {
+      "invalidUsername": "Awọn orukọ olumulo lo ni opin si awọn ohun kikọ nọmba 20 (awọn nọmba ati awọn lẹta deede)",
+      "invalidPassword": "Ọrọ igbaniwọle yẹ ki o ni o kere ju awọn ohun kikọ mẹta 3 ki o jẹ apapo awọn ohun kikọ kekere ati kekere pẹlu o kere ju nọmba kan tabi ohun kikọ pataki"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Ko le ṣẹda akọọlẹ kan",
+        "message": "Adirẹsi imeeli yii ti wa tẹlẹ.",
+        "firstButton": "Wọle",
+        "secondButton": "Pade"
+      },
+      "privateAccount": {
+        "title": "Ikọkọ Aladani",
+        "message": "Nipa ṣiṣe akọọlẹ rẹ ni ikọkọ, o n fi pamọ lati ṣe awari rẹ nipasẹ awọn miiran.",
+        "firstButton": "Gba",
+        "secondButton": "Kọ silẹ"
+      },
+      "success": {
+        "title": "Iroyin Ti Ṣẹda!",
+        "message": "A ti ṣẹda akọọlẹ rẹ ni aṣeyọri. Ṣayẹwo apo-iwọle rẹ lati jẹrisi akọọlẹ rẹ ki o wọle.",
+        "firstButton": "Wọle"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Tun ọrọ igbaniwọle tunto",
+    "emailPlaceholder": "Imeeli Rẹ",
+    "message": "Jọwọ tẹ imeeli rẹ lati tun ọrọ aṣínà rẹ fun àkọọlẹ rẹ.",
+    "callToAction": "Tun ọrọ igbaniwọle tunto",
+    "notifications": {
+      "success": "A kan fi imeeli ranṣẹ si apo-iwọle rẹ",
+      "emailNotFoundError": "Imeeli ko rii",
+      "invalidEmailError": "Ọna kika imeeli ti ko wulo"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Ipari Ipari",
+    "message": "Ti fi imeeli ranṣẹ si adirẹsi imeeli ti o tẹ sii. Jọwọ wo awọn alaye imeeli lati pari iforukọsilẹ.",
+    "callToAction": "Foo fun Bayi"
+  },
+  "teachings": {
+    "dailyText": "Oniroyin",
+    "journeyTitle": "Bẹrẹ Irin-ajo Rẹ",
+    "journeySubtitle": "Gbogbo awọn ẹkọ lati ibẹrẹ si ipari",
+    "journeyCardTitle": "215 Irin-ajo Ọsẹ Nipasẹ Bibeli",
+    "journeyCardSubtitle": "Gbọ lori akoko rẹ",
+    "tracksLabel": "Awọn orin"
+  },
+  "teaching": {
+    "header": "Awọn ẹkọ",
+    "loading": "Nkojọpọ ...",
+    "player": {
+      "audioSpeed": "Iyara ohun",
+      "loading": "Ikojọpọ",
+      "castingError": "Ko si Awọn Ẹrọ Wa"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Tẹsiwaju Tẹtisi", "secondButton": "Bẹrẹ irin ajo rẹ" }
+    }
+  },
+  "journey": {
+    "byDate": "Nipa Ọjọ",
+    "bySeries": "Nipasẹ jara",
+    "sections": { "tracksLabel": "Awọn orin" }
+  },
+  "library": {
+    "header": "Mi Library",
+    "tabs": {
+      "downloads": "Gbigba lati ayelujara",
+      "favorites": "Awọn ayanfẹ",
+      "playlists": "Awọn akojọ orin"
+    }
+  },
+  "groups": {
+    "header": "Awọn ẹgbẹ",
+    "createGroup": {
+      "title": "Ṣẹda Ẹgbẹ Tuntun",
+      "groupNameLabel": "ORUKO GROUP",
+      "groupNameInputPlaceHolder": "Orukọ",
+      "descriptionLabel": "Apejuwe",
+      "descriptionInputPlaceHolder": "Ṣafikun Apejuwe",
+      "inviteLabel": "Pe Awọn olumulo",
+      "inviteButton": "Pe Awọn olumulo Tuntun",
+      "button": "Ṣẹda Ẹgbẹ",
+      "invalidGroupName": "Tẹ orukọ to wulo sii",
+      "groupNameTooLong": "Orukọ ẹgbẹ ko gbọdọ ni diẹ sii ju awọn ohun kikọ 25 lọ"
+    },
+    "devotionNotStartAlert": "Ifarabalẹ ko ti bẹrẹ fun ẹgbẹ yii",
+    "membersLabel": "Awọn ọmọ ẹgbẹ",
+    "chatModalMemberSubtitleLabel": "egbe",
+    "chatModalMembersSubtitleLabel": "awọn ọmọ ẹgbẹ",
+    "chat": {
+      "listeningToLabel": "Nfeti si",
+      "loadingTrackLabel": "Nkojọpọ orin ...",
+      "inputPlaceHolder": "Kọ Ifiranṣẹ",
+      "deletePost": "Paarẹ Ifiranṣẹ",
+      "deleteMessage": "ti paarẹ ifiranṣẹ kan"
+    },
+    "groupSettings": {
+      "participantsSection": "Olukopa",
+      "viewAll": "Wo Gbogbo rẹ",
+      "invite": "Pe Awọn olumulo Tuntun",
+      "endDevotion": "Ipari Ẹgbẹ kanwa",
+      "deleteGroup": "Paarẹ Ẹgbẹ",
+      "leaveGroup": "Fi Ẹgbẹ silẹ"
+    },
+    "userDirectory": {
+      "header": "Itọsọna Olumulo",
+      "remove": "Yọ",
+      "anonymous": "Anonymous",
+      "send": "Firanṣẹ"
+    },
+    "inviteUser": { "placeHolder": "Ṣawari", "send": "Firanṣẹ" }
+  },
+  "chat": {
+    "header": "Ẹgbẹ ikanni",
+    "settings": {
+      "header": "Awọn Eto Ẹgbẹ",
+      "endDevotion": {
+        "alertTitle": "Ipari Ifọkanbalẹ",
+        "alertMessage": "Ṣe o da ọ loju pe o fẹ mu ifọkansin yii dopin?",
+        "alertCancel": "Fagilee",
+        "alertConfirm": "Bẹẹni",
+        "endDevotionLabel": "pari ifọkanbalẹ yii.",
+        "hasEnded": "Ifarabalẹ yii ti pari"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Bẹrẹ Ifarasin",
+    "alertMessage": "Ṣe o da ọ loju pe o fẹ bẹrẹ ifọkanbalẹ pẹlu ẹgbẹ% {orukọ}?",
+    "alertCancel": "Fagilee",
+    "alertConfirm": "Bẹẹni",
+    "devotionStartedLabel": "ti bẹ̀rẹ̀ ìfọkànsìn."
+  },
+  "settings": {
+    "header": "Ètò",
+    "tabs": { "profile": "Profaili", "media": "Media", "notifications": "Awọn iwifunni" },
+    "profile": {
+      "account": "Iroyin",
+      "username": "Orukọ olumulo",
+      "email": "Imeeli",
+      "editButton": "Ṣatunkọ",
+      "edit": {
+        "save": "Fipamọ",
+        "username": {
+          "header": "Orukọ olumulo",
+          "successAlert": "A ti fi ayipada rẹ pamọ.",
+          "failedAlert": "Kuna lati fi iyipada pamọ."
+        },
+        "email": {
+          "header": "Imeeli",
+          "successAlert": "A ti fi ayipada rẹ pamọ.",
+          "failedAlert": "Kuna lati fi iyipada pamọ."
+        }
+      },
+      "languages": "Awọn ede",
+      "signIn": "Wọle",
+      "signOut": "Wọlé Jade kuro ninu Apamọ",
+      "legal": "Ofin",
+      "termsConditions": "Awọn ofin & Awọn ipo",
+      "privacyPolicy": "Asiri Afihan",
+      "support": "Atilẹyin",
+      "reportAProblem": "Jabo Isoro kan",
+      "tutorial": "Tutorial",
+      "reportBug": {
+        "header": "Jabo Isoro kan",
+        "send": "Firanṣẹ",
+        "subject": "KỌKỌ",
+        "subjectPlaceHolder": "Koko-ọrọ",
+        "description": "Apejuwe",
+        "descriptionPlaceHolder": "Apejuwe",
+        "successAlert": "O ṣeun, a ti gba ifiranṣẹ rẹ.",
+        "failedAlert": "Kuna lati fi ifiranṣẹ naa ranṣẹ."
+      },
+      "version": "Ẹya"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Autoplay Audio",
+      "storage": "Ibi ipamọ",
+      "downloadWifi": "Ṣe igbasilẹ lori Wi-fi nikan",
+      "deleteCache": "Pa Kaṣe rẹ"
+    },
+    "notifications": {
+      "notifications": "Awọn iwifunni",
+      "groupInvitation": "Pipe si Ẹgbẹ",
+      "devotions": "Pe si Awọn ifarabalẹ",
+      "file": "Ijẹrisi Gbigbe Faili"
+    }
+  },
+  "inviteUsers": { "header": "Pe Awọn olumulo" },
+  "playlist": {
+    "header": "Akojọ orin",
+    "audioFileLabel": "Audio Faili",
+    "audioFilesLabel": "Audio Awọn faili"
+  },
+  "collection": { "header": "Gbigba", "audioFilesLabel": "Audio Awọn faili" },
+  "modal": {
+    "close": "sunmọ",
+    "addToPlaylist": { "title": "Ṣafikun si Akojọ orin", "button": "Ṣẹda Akojọ orin" },
+    "startDevotion": { "title": "Bẹrẹ Ifarasin" },
+    "createPlaylist": {
+      "title": "Ṣẹda Akojọ orin titun",
+      "button": "Ṣẹda Akojọ orin",
+      "inputPlaceholder": "Tẹ Orukọ Akojọ orin",
+      "success": "Ṣafikun si Akojọ orin"
+    },
+    "login": "O nilo lati buwolu wọle lati bẹrẹ kanwa"
+  },
+  "options": {
+    "shared": {
+      "share": "Pin",
+      "report": "Akoonu Iroyin",
+      "shareOthers": "Pin pẹlu Awọn miiran",
+      "copy": "Ẹda Ọna asopọ",
+      "more": "Diẹ sii"
+    },
+    "audio": {
+      "download": "Ṣe igbasilẹ",
+      "addFavorite": "Fi kun si Awọn ayanfẹ",
+      "addPlaylist": "Ṣafikun si Akojọ orin",
+      "removeFavorite": "Yọ kuro lati Awọn ayanfẹ",
+      "removePlaylist": "Yọ kuro ninu Akojọ orin",
+      "removeDownload": "Yọ kuro lati Awọn gbigba lati ayelujara"
+    },
+    "playlist": { "edit": "Ṣatunkọ", "delete": "Pa Akojọ orin rẹ" },
+    "startDevotion": "Bẹrẹ Ifarasin"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Ṣafikun si Akojọ orin",
+      "delete": "Yọ kuro ninu Akojọ orin",
+      "create": "Ṣẹda Akojọ orin",
+      "destroy": "Ti parẹ Akojọ orin"
+    },
+    "favorites": { "add": "Ṣafikun si Awọn ayanfẹ", "remove": "Yọ kuro lati Awọn ayanfẹ" },
+    "downloads": { "remove": "Yọ kuro lati Awọn igbasilẹ" }
+  },
+  "buttons": { "loop": "Yipo", "shuffle": "Daarapọmọra" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Wa ..." },
+    "notification": { "success": "Aṣeyọri! Imeeli yoo ranṣẹ si akọọlẹ rẹ." },
+    "button": { "sending": "Fifiranṣẹ ..." },
+    "modalSelector": { "cancel": "Fagilee" },
+    "loading": "Ikojọpọ"
+  },
+  "bible": {
+    "header": "Bibeli",
+    "oldTestament": "Majẹmu Lailai",
+    "newTestament": "Majẹmu Titun",
+    "popularBooks": "Awọn iwe olokiki"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Ṣawari",
+    "cancelButton": "FAGỌ́",
+    "searchResults": "Awọn abajade Wiwa",
+    "filterButton": "Àlẹmọ",
+    "teachings": { "title": "Awọn ẹkọ" },
+    "bible": { "title": "Bibeli" }
+  },
+  "addToPlaylistsModal": { "title": "Ṣafikun si Akojọ orin", "button": "Ṣẹda Akojọ orin" },
+  "createPlaylistModal": {
+    "title": "Ṣẹda Akojọ orin titun",
+    "button": "Ṣẹda Akojọ orin",
+    "inputPlaceholder": "Tẹ Orukọ Akojọ orin"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Ṣafikun si Akojọ orin",
+      "remove": "Yọ kuro ninu Akojọ orin",
+      "create": "Ṣẹda Akojọ orin",
+      "delete": "Ti parẹ Akojọ orin"
+    },
+    "favorites": { "add": "Ṣafikun si Awọn ayanfẹ", "remove": "Yọ kuro lati Awọn ayanfẹ" },
+    "downloads": { "remove": "Yọ kuro lati Awọn igbasilẹ" },
+    "facebook": { "loginError": "Wọle wọle kuna pẹlu aṣiṣe" },
+    "google": { "loginError": "Wọle wọle kuna pẹlu aṣiṣe" }
+  },
+  "playlists": { "trackLabel": "Orin", "tracksLabel": "Awọn orin" },
+  "mediaList": { "tracksLabel": "Awọn orin", "remove": "Yọ" },
+  "tutorialPage": { "done": "Ṣe", "skip": "Foo" },
+  "loginModal": { "login": "Wo ile" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": {
+    "downloading": "Gbigba lati ayelujara",
+    "complete": "Gbaa lati ayelujara Pari"
+  },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Ṣawari Bibeli",
+      "subtitle1": "Rin nipasẹ gbogbo Bibeli pẹlu wa, tabi bẹrẹ irin-ajo ti tirẹ.",
+      "title2": "Gbọ & Jeki",
+      "subtitle2": "Ẹrọ orin media n gba ọ laaye lati sọ sinu THRU akoonu BIBELI pẹlu irọrun.",
+      "title3": "Ṣawari Awọn ẹkọ",
+      "subtitle3": "Ṣe alabapin ninu Bibeli bi ko ṣe ṣaaju nipa gbigbeka tọka si Bibeli & Ẹkọ akoonu.",
+      "title4": "Ṣe ijiroro lori Bibeli",
+      "subtitle4": "Darapọ mọ ẹgbẹ kan lati kọ ẹkọ awọn ẹkọ BIBELI THRU ati awọn akọle pẹlu awọn miiran.",
+      "title5": "Ṣe igbasilẹ & Pin",
+      "subtitle5": "Gbadun tẹtisi Ọrọ Ọlọrun lori-lọ ki o pin pẹlu awọn ọrẹ rẹ.",
+      "title6": "Fipamọ & Ṣẹda",
+      "subtitle6": "Fipamọ awọn ẹkọ ayanfẹ rẹ ati awọn ẹsẹ Bibeli tabi ṣẹda akojọ orin aṣa.",
+      "title7": "Awọn ifarabalẹ Ẹgbẹ",
+      "subtitle7": "Ṣe iwuri ati atilẹyin nipasẹ awọn miiran pẹlu awọn ifọkansin ẹgbẹ ojoojumọ."
+    },
+    "registerPage": {
+      "noThanks": "Rara o se",
+      "haveAccount": "Ni iroyin kan?",
+      "createAccount": "Ṣẹda Account Mi",
+      "title1": "Ṣe ijiroro pẹlu Awọn miiran",
+      "subtitle1": "Ṣe ijiroro lori awọn akọle ayanfẹ rẹ ati awọn ẹsẹ Bibeli pẹlu awọn omiiran.",
+      "title2": "Fipamọ ati Ṣiṣẹpọ Awọn akojọ orin",
+      "subtitle2": "Kọ awọn atokọ ti akoonu ayanfẹ rẹ ni ibi kan.",
+      "title3": "Wo Awọn ayanfẹ Rẹ",
+      "subtitle3": "Ṣe fipamọ ki o pada wa ki o ṣabẹwo si awọn ayanfẹ rẹ ni akoko nigbamii.",
+      "title4": "Ku aabọ pada",
+      "subtitle4": "Ṣẹda akọọlẹ kan ki o wọle si gbogbo awọn ẹya wa."
+    }
+  },
+  "app": {
+    "close": "sunmọ",
+    "accept": "Gba",
+    "reject": "Kọ",
+    "constructionInProgress": "IKỌ NI Ilọsiwaju",
+    "downloadComplete": "Gbaa lati ayelujara Pari",
+    "downloading": "Gbigba lati ayelujara",
+    "downloadFailed": "Igbasilẹ Ti kuna",
+    "sendAFile": "Ẹnikan Fẹ Lati Fi Faili Kan ranṣẹ si Ọ"
+  },
+  "transferring": { "tryAgain": "gbiyanju lẹẹkansi", "close": "sunmọ" },
+  "checkDevice": {
+    "check": "Ṣayẹwo Ẹrọ Rẹ",
+    "makeSure": "Jọwọ rii daju Wifi-Direct ti wa ni titan lori ẹrọ ọrẹ rẹ ati pe o wa ni ibiti o wa.",
+    "continue": "Tẹsiwaju"
+  },
+  "connectToDevice": { "connect": "Sopọ si Ẹrọ kan" },
+  "pairing": {
+    "connect": "Sopọ si Ẹrọ kan",
+    "pairing": "Sisopọ",
+    "success": "Ti sopọ ni aṣeyọri",
+    "failed": "Sisopọ Ẹrọ kuna",
+    "makeSure": "Jọwọ rii daju (Wifi-Direct) ti wa ni titan lori ẹrọ ọrẹ rẹ ati pe o wa ni ibiti o wa.",
+    "continue": "Tẹsiwaju",
+    "tryAgain": "Gbiyanju Lẹẹkansi"
+  },
+  "selectNetworkType": {
+    "connect": "Sopọ si ẹrọ kan",
+    "share": "Pin pẹlu Wifi Direct",
+    "send": "Fi faili ranṣẹ lori wifi taara?",
+    "continue": "Tẹsiwaju"
+  }
+}

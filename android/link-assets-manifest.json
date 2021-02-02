@@ -1,0 +1,49 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/.DS_Store",
+      "sha1": "df2fbeb1400acda0909a32c1cf6bf492f1121e07"
+    },
+    {
+      "path": "assets/fonts/FontAwesome.ttf",
+      "sha1": "13b1eab65a983c7a73bc7997c479d66943f7c6cb"
+    },
+    {
+      "path": "assets/fonts/MaterialIcons.ttf",
+      "sha1": "fc05de31234e0090f7ddc28ce1b23af4026cb1da"
+    },
+    {
+      "path": "assets/fonts/NotoSans-Bold.ttf",
+      "sha1": "a063702bfcc720d5bfa1bba00706e0296ddf4523"
+    },
+    {
+      "path": "assets/fonts/NotoSans-BoldItalic.ttf",
+      "sha1": "d036074b51a1e264711e8494c686f9a3406096b1"
+    },
+    {
+      "path": "assets/fonts/NotoSans-Italic.ttf",
+      "sha1": "d82bb6d75645f745ae902c1db10e4ef3d8062437"
+    },
+    {
+      "path": "assets/fonts/NotoSans-Regular.ttf",
+      "sha1": "1a17c06f6feb06281dc9b524c24fcf05abb82c35"
+    },
+    {
+      "path": "assets/fonts/NotoSerif-Bold.ttf",
+      "sha1": "ec29fa8f2923852d96750dbdfb88338bb3528280"
+    },
+    {
+      "path": "assets/fonts/NotoSerif-BoldItalic.ttf",
+      "sha1": "efc0d8d6cb82660da8b9005774fd17714bf2c2f5"
+    },
+    {
+      "path": "assets/fonts/NotoSerif-Italic.ttf",
+      "sha1": "3e0049c30e015608530d8f2130269952f5b62e80"
+    },
+    {
+      "path": "assets/fonts/NotoSerif-Regular.ttf",
+      "sha1": "c321818aee83249fa702f042852a60937d71ad73"
+    }
+  ]
+}

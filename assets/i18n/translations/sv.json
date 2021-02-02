@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "Välj ditt aktuella språk", "mainAction": "Välj språk" },
+  "menu": {
+    "anonymousTitle": "Ditt konto",
+    "anonymousAction": "Logga in",
+    "editProfileAction": "Redigera profil",
+    "verifyProfileAction": "Verifiera profilen",
+    "bibleSection": "Bibeln",
+    "teachingsSection": "Läror",
+    "librarySection": "Mitt bibliotek",
+    "groupsSection": "Grupper",
+    "donateSection": "Donera",
+    "settingsSection": "inställningar",
+    "signOut": "Logga ut",
+    "modals": {
+      "verifyProfile": {
+        "title": "Du är inte verifierad",
+        "message": "Dina listor synkroniseras inte och du kan inte skapa grupper. Kontrollera din e-postadress för att slutföra registreringen.",
+        "firstButton": "Fortsätta",
+        "secondButton": "Registrera en ny profil"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Logga in",
+    "emailPlaceholder": "Din email",
+    "passwordPlaceholder": "Ditt lösenord",
+    "forgotAction": "Glömt ditt lösenord?",
+    "callToAction": "Logga in",
+    "signInAlternatives": "Eller logga in med",
+    "noAccountAction": "Inget konto? Skapa en",
+    "notifications": {
+      "invalidCredentials": "Ogiltiga uppgifter",
+      "inProgress": "Logga in pågår redan",
+      "notAvailable": "Speltjänster är inte tillgängliga"
+    }
+  },
+  "signUp": {
+    "header": "Skapa konto",
+    "emailPlaceholder": "Din email",
+    "passwordPlaceholder": "Ditt lösenord",
+    "privateAction": "Gör kontot privat",
+    "termsDisclaimer": {
+      "pre": "Genom att klicka på Registrering anger du att du har läst och godkänner",
+      "terms": "villkoren",
+      "post": "."
+    },
+    "callToAction": "Bli Medlem",
+    "signUpAlternatives": "Eller registrera dig med",
+    "haveAnAccountAction": "Har ett konto?",
+    "notifications": {
+      "invalidUsername": "Användarnamn är begränsat till 20 alfanumeriska tecken (siffror och vanliga bokstäver)",
+      "invalidPassword": "Lösenordet ska innehålla minst tre tecken och vara en kombination av stora och små bokstäver med minst ett nummer eller specialtecken"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Det går inte att skapa ett konto",
+        "message": "Den här e-postadressen finns redan.",
+        "firstButton": "Logga in",
+        "secondButton": "Stänga"
+      },
+      "privateAccount": {
+        "title": "Privat konto",
+        "message": "Genom att göra ditt konto privat döljer du det från att upptäckas av andra.",
+        "firstButton": "Acceptera",
+        "secondButton": "Nedgång"
+      },
+      "success": {
+        "title": "Konto skapat!",
+        "message": "Ditt konto skapades. Kontrollera din inkorg för att bekräfta ditt konto och logga in.",
+        "firstButton": "Logga in"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Återställ lösenord",
+    "emailPlaceholder": "Din email",
+    "message": "Ange din e-postadress för att återställa lösenordet för ditt konto.",
+    "callToAction": "Återställ lösenord",
+    "notifications": {
+      "success": "Vi skickade precis ett e-postmeddelande till din inkorg",
+      "emailNotFoundError": "E-postmeddelandet hittades inte",
+      "invalidEmailError": "Ogiltigt e-postformat"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Avsluta installationen",
+    "message": "Ett e-postmeddelande har skickats till den e-postadress du angav. Se e-postinformationen för att slutföra registreringen.",
+    "callToAction": "Hoppa för nu"
+  },
+  "teachings": {
+    "dailyText": "Dagens sändning",
+    "journeyTitle": "Starta din resa",
+    "journeySubtitle": "All lärdom från början till slut",
+    "journeyCardTitle": "215 veckors resa genom Bibeln",
+    "journeyCardSubtitle": "Lyssna på din tid",
+    "tracksLabel": "Spår"
+  },
+  "teaching": {
+    "header": "Läror",
+    "loading": "Läser in...",
+    "player": {
+      "audioSpeed": "Ljudhastighet",
+      "loading": "Läser in",
+      "castingError": "Inga enheter tillgängliga"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Fortsätt lyssna", "secondButton": "Börja din resa" }
+    }
+  },
+  "journey": {
+    "byDate": "Efter datum",
+    "bySeries": "Efter serie",
+    "sections": { "tracksLabel": "Spår" }
+  },
+  "library": {
+    "header": "Mitt bibliotek",
+    "tabs": { "downloads": "Nedladdningar", "favorites": "Favoriter", "playlists": "Spellistor" }
+  },
+  "groups": {
+    "header": "Grupper",
+    "createGroup": {
+      "title": "Skapa ny grupp",
+      "groupNameLabel": "GRUPP NAMN",
+      "groupNameInputPlaceHolder": "namn",
+      "descriptionLabel": "BESKRIVNING",
+      "descriptionInputPlaceHolder": "Lägg till beskrivning",
+      "inviteLabel": "Bjud in användare",
+      "inviteButton": "Bjud in nya användare",
+      "button": "Skapa grupp",
+      "invalidGroupName": "Ange ett giltigt namn",
+      "groupNameTooLong": "Gruppens namn får inte innehålla mer än 25 tecken"
+    },
+    "devotionNotStartAlert": "En hängivenhet har inte startat för denna grupp",
+    "membersLabel": "Medlemmar",
+    "chatModalMemberSubtitleLabel": "medlem",
+    "chatModalMembersSubtitleLabel": "medlemmar",
+    "chat": {
+      "listeningToLabel": "Lyssnar på",
+      "loadingTrackLabel": "Laddar spår ...",
+      "inputPlaceHolder": "Skriv meddelande",
+      "deletePost": "Ta bort inlägg",
+      "deleteMessage": "har tagit bort ett meddelande"
+    },
+    "groupSettings": {
+      "participantsSection": "Deltagare",
+      "viewAll": "Visa alla",
+      "invite": "Bjud in nya användare",
+      "endDevotion": "Avsluta grupphängivenhet",
+      "deleteGroup": "Ta bort grupp",
+      "leaveGroup": "Lämna gruppen"
+    },
+    "userDirectory": {
+      "header": "Användarkatalog",
+      "remove": "Ta bort",
+      "anonymous": "Anonym",
+      "send": "Skicka"
+    },
+    "inviteUser": { "placeHolder": "Sök", "send": "Skicka" }
+  },
+  "chat": {
+    "header": "Gruppkanal",
+    "settings": {
+      "header": "Gruppinställningar",
+      "endDevotion": {
+        "alertTitle": "Avsluta hängivenhet",
+        "alertMessage": "Är du säker på att du vill avsluta denna hängivenhet?",
+        "alertCancel": "Annullera",
+        "alertConfirm": "Ja",
+        "endDevotionLabel": "avslutade denna hängivenhet.",
+        "hasEnded": "Denna hängivenhet har upphört"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Starta hängivenhet",
+    "alertMessage": "Är du säker på att du vill starta hängivenhet med gruppen% {name}?",
+    "alertCancel": "Annullera",
+    "alertConfirm": "Ja",
+    "devotionStartedLabel": "har startat en hängivenhet."
+  },
+  "settings": {
+    "header": "inställningar",
+    "tabs": { "profile": "Profil", "media": "Media", "notifications": "Meddelanden" },
+    "profile": {
+      "account": "konto",
+      "username": "Användarnamn",
+      "email": "E-post",
+      "editButton": "Redigera",
+      "edit": {
+        "save": "Spara",
+        "username": {
+          "header": "Användarnamn",
+          "successAlert": "Din ändring har sparats.",
+          "failedAlert": "Det gick inte att spara ändringen."
+        },
+        "email": {
+          "header": "E-post",
+          "successAlert": "Din ändring har sparats.",
+          "failedAlert": "Det gick inte att spara ändringen."
+        }
+      },
+      "languages": "språk",
+      "signIn": "Logga in",
+      "signOut": "Logga ut från kontot",
+      "legal": "Rättslig",
+      "termsConditions": "Allmänna Villkor",
+      "privacyPolicy": "Integritetspolicy",
+      "support": "Stöd",
+      "reportAProblem": "Rapportera ett problem",
+      "tutorial": "Handledning",
+      "reportBug": {
+        "header": "Rapportera ett problem",
+        "send": "Skicka",
+        "subject": "ÄMNE",
+        "subjectPlaceHolder": "Ämne",
+        "description": "BESKRIVNING",
+        "descriptionPlaceHolder": "Beskrivning",
+        "successAlert": "Tack, vi har fått ditt meddelande.",
+        "failedAlert": "Det gick inte att skicka meddelandet."
+      },
+      "version": "Version"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Spela upp ljud automatiskt",
+      "storage": "Lagring",
+      "downloadWifi": "Ladda bara ned på Wi-Fi",
+      "deleteCache": "Ta bort cache"
+    },
+    "notifications": {
+      "notifications": "Meddelanden",
+      "groupInvitation": "Gruppinbjudan",
+      "devotions": "Bjud in till hängivenhet",
+      "file": "Bekräftelse av filöverföring"
+    }
+  },
+  "inviteUsers": { "header": "Bjud in användare" },
+  "playlist": {
+    "header": "Spellista",
+    "audioFileLabel": "Ljudfil",
+    "audioFilesLabel": "Ljudfiler"
+  },
+  "collection": { "header": "Samling", "audioFilesLabel": "Ljudfiler" },
+  "modal": {
+    "close": "stänga",
+    "addToPlaylist": { "title": "Lägg till i spellista", "button": "Skapa spellista" },
+    "startDevotion": { "title": "Starta hängivenhet" },
+    "createPlaylist": {
+      "title": "Skapa ny spellista",
+      "button": "Skapa spellista",
+      "inputPlaceholder": "Ange spellistans namn",
+      "success": "Lagt till i spellistan"
+    },
+    "login": "Du måste logga in för att starta en hängivenhet"
+  },
+  "options": {
+    "shared": {
+      "share": "Dela med sig",
+      "report": "Rapportera innehåll",
+      "shareOthers": "Dela med andra",
+      "copy": "Kopiera länk",
+      "more": "Mer"
+    },
+    "audio": {
+      "download": "Ladda ner",
+      "addFavorite": "Lägg till i favoriter",
+      "addPlaylist": "Lägg till i spellista",
+      "removeFavorite": "Ta bort från favoriter",
+      "removePlaylist": "Ta bort från spellistan",
+      "removeDownload": "Ta bort från nedladdningar"
+    },
+    "playlist": { "edit": "Redigera", "delete": "Ta bort spellista" },
+    "startDevotion": "Starta hängivenhet"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Lagt till i spellistan",
+      "delete": "Borttagen från spellistan",
+      "create": "Skapad spellista",
+      "destroy": "Borttagen spellista"
+    },
+    "favorites": { "add": "Lagt till i Favoriter", "remove": "Borttagen från favoriter" },
+    "downloads": { "remove": "Borttagen från nedladdningar" }
+  },
+  "buttons": { "loop": "Slinga", "shuffle": "Blanda" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Sök..." },
+    "notification": { "success": "Framgång! Ett e-postmeddelande skickas till ditt konto." },
+    "button": { "sending": "Sändning..." },
+    "modalSelector": { "cancel": "Annullera" },
+    "loading": "Läser in"
+  },
+  "bible": {
+    "header": "Bibeln",
+    "oldTestament": "Gamla testamentet",
+    "newTestament": "Nya testamentet",
+    "popularBooks": "Populära böcker"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Sök",
+    "cancelButton": "AVBRYT",
+    "searchResults": "sökresultat",
+    "filterButton": "Filtrera",
+    "teachings": { "title": "Läror" },
+    "bible": { "title": "Bibeln" }
+  },
+  "addToPlaylistsModal": { "title": "Lägg till i spellista", "button": "Skapa spellista" },
+  "createPlaylistModal": {
+    "title": "Skapa ny spellista",
+    "button": "Skapa spellista",
+    "inputPlaceholder": "Ange spellistans namn"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Lagt till i spellistan",
+      "remove": "Borttagen från spellistan",
+      "create": "Skapad spellista",
+      "delete": "Borttagen spellista"
+    },
+    "favorites": { "add": "Lagt till i Favoriter", "remove": "Borttagen från favoriter" },
+    "downloads": { "remove": "Borttagen från nedladdningar" },
+    "facebook": { "loginError": "Inloggning misslyckades med fel" },
+    "google": { "loginError": "Inloggning misslyckades med fel" }
+  },
+  "playlists": { "trackLabel": "Spår", "tracksLabel": "Spår" },
+  "mediaList": { "tracksLabel": "Spår", "remove": "Ta bort" },
+  "tutorialPage": { "done": "Gjort", "skip": "Hoppa" },
+  "loginModal": { "login": "Logga in" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Laddar ner", "complete": "Nedladdning klar" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Utforska Bibeln",
+      "subtitle1": "Res med hela Bibeln eller starta en egen resa.",
+      "title2": "Lyssna & engagera",
+      "subtitle2": "Mediaspelaren låter dig enkelt dyka in i THRU BIBLE-innehållet.",
+      "title3": "Upptäck läror",
+      "subtitle3": "Engagera dig i Bibeln som aldrig tidigare genom att korsreferera till Bibelns och undervisningsinnehållet.",
+      "title4": "Diskutera Bibeln",
+      "subtitle4": "Gå med i en grupp för att studera THRU BIBELS lärdomar och ämnen med andra.",
+      "title5": "Ladda ner och dela",
+      "subtitle5": "Njut av att lyssna på Guds ord när du är på språng och dela det med dina vänner.",
+      "title6": "Spara och skapa",
+      "subtitle6": "Spara dina favoritläror och bibelverser eller skapa en anpassad spellista.",
+      "title7": "Grupphängivenheter",
+      "subtitle7": "Bli uppmuntrad och inspirerad av andra med dagliga grupphängivenheter."
+    },
+    "registerPage": {
+      "noThanks": "Nej tack",
+      "haveAccount": "Har ett konto?",
+      "createAccount": "Skapa mitt konto",
+      "title1": "Diskutera med andra",
+      "subtitle1": "Diskutera dina favoritämnen och bibelverser med andra.",
+      "title2": "Lagra och synkronisera spellistor",
+      "subtitle2": "Bygg listor med ditt favoritinnehåll på ett ställe.",
+      "title3": "Se dina favoriter",
+      "subtitle3": "Lagra och kom tillbaka och besök dina favoriter vid ett senare tillfälle.",
+      "title4": "Välkommen tillbaka",
+      "subtitle4": "Skapa ett konto och få tillgång till alla våra funktioner."
+    }
+  },
+  "app": {
+    "close": "stänga",
+    "accept": "Acceptera",
+    "reject": "Avvisa",
+    "constructionInProgress": "BYGGNADSARBETE PÅGÅR",
+    "downloadComplete": "Nedladdning klar",
+    "downloading": "Laddar ner",
+    "downloadFailed": "Nedladdning misslyckad",
+    "sendAFile": "Någon vill skicka en fil till dig"
+  },
+  "transferring": { "tryAgain": "försök igen", "close": "stänga" },
+  "checkDevice": {
+    "check": "Kontrollera din enhet",
+    "makeSure": "Se till att Wifi-Direct är aktiverat på din väns enhet och att det är inom räckhåll.",
+    "continue": "Fortsätta"
+  },
+  "connectToDevice": { "connect": "Anslut till en enhet" },
+  "pairing": {
+    "connect": "Anslut till en enhet",
+    "pairing": "Parning",
+    "success": "Paired framgångsrikt",
+    "failed": "Enhetsparning misslyckades",
+    "makeSure": "Se till att (Wifi-Direct) är aktiverad på din väns enhet och att den är inom räckhåll.",
+    "continue": "Fortsätta",
+    "tryAgain": "Försök igen"
+  },
+  "selectNetworkType": {
+    "connect": "Anslut till en enhet",
+    "share": "Dela med Wifi Direct",
+    "send": "Skicka fil via wifi direkt?",
+    "continue": "Fortsätta"
+  }
+}

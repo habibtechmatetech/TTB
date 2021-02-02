@@ -1,0 +1,393 @@
+{
+  "selectLanguage": { "heading": "Velg ditt nåværende språk", "mainAction": "Velg språk" },
+  "menu": {
+    "anonymousTitle": "Kontoen din",
+    "anonymousAction": "Logg Inn",
+    "editProfileAction": "Rediger profil",
+    "verifyProfileAction": "Bekreft profilen",
+    "bibleSection": "bibel",
+    "teachingsSection": "Undervisninger",
+    "librarySection": "Mitt bibliotek",
+    "groupsSection": "Grupper",
+    "donateSection": "Donere",
+    "settingsSection": "Innstillinger",
+    "signOut": "Logg ut",
+    "modals": {
+      "verifyProfile": {
+        "title": "Du er ikke bekreftet",
+        "message": "Listene dine blir ikke synkronisert, og du kan ikke opprette grupper. Sjekk e-postadressen din for å fullføre registreringen.",
+        "firstButton": "Fortsette",
+        "secondButton": "Registrer en ny profil"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Logg inn",
+    "emailPlaceholder": "Din epost",
+    "passwordPlaceholder": "Ditt passord",
+    "forgotAction": "Glemt passord?",
+    "callToAction": "Logg inn",
+    "signInAlternatives": "Eller logg på med",
+    "noAccountAction": "Ingen konto? Lag en",
+    "notifications": {
+      "invalidCredentials": "Ugyldige legitimasjon",
+      "inProgress": "Logg på allerede pågår",
+      "notAvailable": "Spilltjenester er ikke tilgjengelige"
+    }
+  },
+  "signUp": {
+    "header": "Opprett konto",
+    "emailPlaceholder": "Din epost",
+    "passwordPlaceholder": "Ditt passord",
+    "privateAction": "Gjør kontoen privat",
+    "termsDisclaimer": {
+      "pre": "Ved å klikke på Registrering indikerer du at du har lest og godtar",
+      "terms": "vilkårene",
+      "post": "."
+    },
+    "callToAction": "Melde deg på",
+    "signUpAlternatives": "Eller registrer deg ved hjelp av",
+    "haveAnAccountAction": "Har en konto?",
+    "notifications": {
+      "invalidUsername": "Brukernavn er begrenset til 20 alfanumeriske tegn (tall og vanlige bokstaver)",
+      "invalidPassword": "Passordet skal inneholde minst tre tegn og være en kombinasjon av store og små bokstaver med minst ett tall eller spesialtegn"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Kan ikke opprette en konto",
+        "message": "Denne e-postadressen eksisterer allerede.",
+        "firstButton": "Logg inn",
+        "secondButton": "Lukk"
+      },
+      "privateAccount": {
+        "title": "Privat konto",
+        "message": "Ved å gjøre kontoen din privat, skjuler du den fra å bli oppdaget av andre.",
+        "firstButton": "Aksepterer",
+        "secondButton": "Avslå"
+      },
+      "success": {
+        "title": "Konto opprettet!",
+        "message": "Kontoen din ble opprettet. Sjekk innboksen din for å bekrefte kontoen din og logge på.",
+        "firstButton": "Logg inn"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "tilbakestille passord",
+    "emailPlaceholder": "Din epost",
+    "message": "Vennligst skriv inn e-postadressen din for å tilbakestille passordet for kontoen din.",
+    "callToAction": "tilbakestille passord",
+    "notifications": {
+      "success": "Vi har nettopp sendt en e-post til innboksen din",
+      "emailNotFoundError": "E-post ble ikke funnet",
+      "invalidEmailError": "Ugyldig e-postformat"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Fullfør oppsett",
+    "message": "Det er sendt en e-post til e-postadressen du skrev inn. Vennligst se e-postinformasjonen for å fullføre registreringen.",
+    "callToAction": "Hopp over for nå"
+  },
+  "teachings": {
+    "dailyText": "Dagens kringkasting",
+    "journeyTitle": "Start reisen",
+    "journeySubtitle": "All lære fra start til slutt",
+    "journeyCardTitle": "215 ukers reise gjennom Bibelen",
+    "journeyCardSubtitle": "Lytt på tiden din",
+    "tracksLabel": "Spor"
+  },
+  "teaching": {
+    "header": "Undervisninger",
+    "loading": "Laster inn ...",
+    "player": {
+      "audioSpeed": "Lydhastighet",
+      "loading": "Laster inn",
+      "castingError": "Ingen enheter tilgjengelig"
+    },
+    "modals": { "firstTime": { "firstButton": "Fortsett å lytte", "secondButton": "Start reisen" } }
+  },
+  "journey": {
+    "byDate": "Etter dato",
+    "bySeries": "Etter serie",
+    "sections": { "tracksLabel": "Spor" }
+  },
+  "library": {
+    "header": "Mitt bibliotek",
+    "tabs": { "downloads": "Nedlastinger", "favorites": "Favoritter", "playlists": "Spillelister" }
+  },
+  "groups": {
+    "header": "Grupper",
+    "createGroup": {
+      "title": "Opprett ny gruppe",
+      "groupNameLabel": "GRUPPENAVN",
+      "groupNameInputPlaceHolder": "Navn",
+      "descriptionLabel": "BESKRIVELSE",
+      "descriptionInputPlaceHolder": "Legg til beskrivelse",
+      "inviteLabel": "Inviter brukere",
+      "inviteButton": "Inviter nye brukere",
+      "button": "Lag gruppe",
+      "invalidGroupName": "Skriv inn et gyldig navn",
+      "groupNameTooLong": "Gruppenavnet må ikke inneholde mer enn 25 tegn"
+    },
+    "devotionNotStartAlert": "En hengivenhet har ikke startet for denne gruppen",
+    "membersLabel": "Medlemmer",
+    "chatModalMemberSubtitleLabel": "medlem",
+    "chatModalMembersSubtitleLabel": "medlemmer",
+    "chat": {
+      "listeningToLabel": "Lytte til",
+      "loadingTrackLabel": "Laster inn spor ...",
+      "inputPlaceHolder": "Skriv melding",
+      "deletePost": "Slett innlegg",
+      "deleteMessage": "har slettet en melding"
+    },
+    "groupSettings": {
+      "participantsSection": "Deltakere",
+      "viewAll": "Se alt",
+      "invite": "Inviter nye brukere",
+      "endDevotion": "Avslutt gruppehengivenhet",
+      "deleteGroup": "Slett gruppe",
+      "leaveGroup": "Forlat gruppe"
+    },
+    "userDirectory": {
+      "header": "Brukerkatalog",
+      "remove": "Ta vekk",
+      "anonymous": "Anonym",
+      "send": "Sende"
+    },
+    "inviteUser": { "placeHolder": "Søk", "send": "Sende" }
+  },
+  "chat": {
+    "header": "Gruppekanal",
+    "settings": {
+      "header": "Gruppeinnstillinger",
+      "endDevotion": {
+        "alertTitle": "Slutt andakten",
+        "alertMessage": "Er du sikker på at du vil avslutte denne andakten?",
+        "alertCancel": "Avbryt",
+        "alertConfirm": "Ja",
+        "endDevotionLabel": "avsluttet denne hengivenheten.",
+        "hasEnded": "Denne hengivenheten er avsluttet"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Start andakt",
+    "alertMessage": "Er du sikker på at du vil starte hengivenhet med% {name} -gruppen?",
+    "alertCancel": "Avbryt",
+    "alertConfirm": "Ja",
+    "devotionStartedLabel": "har startet en andakt."
+  },
+  "settings": {
+    "header": "Innstillinger",
+    "tabs": { "profile": "Profil", "media": "Media", "notifications": "Varsler" },
+    "profile": {
+      "account": "Regnskap",
+      "username": "Brukernavn",
+      "email": "E-post",
+      "editButton": "Redigere",
+      "edit": {
+        "save": "Lagre",
+        "username": {
+          "header": "Brukernavn",
+          "successAlert": "Endringen din er lagret.",
+          "failedAlert": "Kunne ikke lagre endringen."
+        },
+        "email": {
+          "header": "E-post",
+          "successAlert": "Endringen din er lagret.",
+          "failedAlert": "Kunne ikke lagre endringen."
+        }
+      },
+      "languages": "Språk",
+      "signIn": "Logg inn",
+      "signOut": "Logg av kontoen",
+      "legal": "Lovlig",
+      "termsConditions": "Betingelser og vilkår",
+      "privacyPolicy": "Personvernregler",
+      "support": "Brukerstøtte",
+      "reportAProblem": "Rapporter et problem",
+      "tutorial": "Opplæringen",
+      "reportBug": {
+        "header": "Rapporter et problem",
+        "send": "Sende",
+        "subject": "EMNE",
+        "subjectPlaceHolder": "Emne",
+        "description": "BESKRIVELSE",
+        "descriptionPlaceHolder": "Beskrivelse",
+        "successAlert": "Takk, vi har mottatt meldingen din.",
+        "failedAlert": "Kunne ikke sende meldingen."
+      },
+      "version": "Versjon"
+    },
+    "media": {
+      "audio": "Lyd",
+      "autoplay": "Autospill lyd",
+      "storage": "Oppbevaring",
+      "downloadWifi": "Bare last ned på Wi-fi",
+      "deleteCache": "Slett hurtigbuffer"
+    },
+    "notifications": {
+      "notifications": "Varsler",
+      "groupInvitation": "Gruppeinvitasjon",
+      "devotions": "Inviter til andakter",
+      "file": "Bekreftelse av filoverføring"
+    }
+  },
+  "inviteUsers": { "header": "Inviter brukere" },
+  "playlist": {
+    "header": "Spilleliste",
+    "audioFileLabel": "Lydfil",
+    "audioFilesLabel": "Lydfiler"
+  },
+  "collection": { "header": "Samling", "audioFilesLabel": "Lydfiler" },
+  "modal": {
+    "close": "Lukk",
+    "addToPlaylist": { "title": "Legg til i spilleliste", "button": "Lag spilleliste" },
+    "startDevotion": { "title": "Start andakt" },
+    "createPlaylist": {
+      "title": "Opprett ny spilleliste",
+      "button": "Lag spilleliste",
+      "inputPlaceholder": "Skriv inn spillelistenavn",
+      "success": "Lagt til i spillelisten"
+    },
+    "login": "Du må logge inn for å starte en andakt"
+  },
+  "options": {
+    "shared": {
+      "share": "Dele",
+      "report": "Rapporter innhold",
+      "shareOthers": "Del med andre",
+      "copy": "Kopier link",
+      "more": "Mer"
+    },
+    "audio": {
+      "download": "nedlasting",
+      "addFavorite": "Legg til i favoritter",
+      "addPlaylist": "Legg til i spilleliste",
+      "removeFavorite": "Fjern fra favoritter",
+      "removePlaylist": "Fjern fra spillelisten",
+      "removeDownload": "Fjern fra nedlastinger"
+    },
+    "playlist": { "edit": "Redigere", "delete": "Slett spilleliste" },
+    "startDevotion": "Start andakt"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Lagt til i spillelisten",
+      "delete": "Fjernet fra spillelisten",
+      "create": "Opprettet spilleliste",
+      "destroy": "Slettet spilleliste"
+    },
+    "favorites": { "add": "Lagt til i Favoritter", "remove": "Fjernet fra favorittene" },
+    "downloads": { "remove": "Fjernet fra nedlastinger" }
+  },
+  "buttons": { "loop": "Løkke", "shuffle": "Tilfeldig rekkefølge" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Søk..." },
+    "notification": { "success": "Suksess! En e-post vil bli sendt til kontoen din." },
+    "button": { "sending": "Sender ..." },
+    "modalSelector": { "cancel": "Avbryt" },
+    "loading": "Laster inn"
+  },
+  "bible": {
+    "header": "bibel",
+    "oldTestament": "Det gamle testamentet",
+    "newTestament": "Nytt testament",
+    "popularBooks": "Populære bøker"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Søk",
+    "cancelButton": "AVBRYT",
+    "searchResults": "Søkeresultater",
+    "filterButton": "Filter",
+    "teachings": { "title": "Undervisninger" },
+    "bible": { "title": "bibel" }
+  },
+  "addToPlaylistsModal": { "title": "Legg til i spilleliste", "button": "Lag spilleliste" },
+  "createPlaylistModal": {
+    "title": "Opprett ny spilleliste",
+    "button": "Lag spilleliste",
+    "inputPlaceholder": "Skriv inn spillelistenavn"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Lagt til i spillelisten",
+      "remove": "Fjernet fra spillelisten",
+      "create": "Opprettet spilleliste",
+      "delete": "Slettet spilleliste"
+    },
+    "favorites": { "add": "Lagt til i Favoritter", "remove": "Fjernet fra favorittene" },
+    "downloads": { "remove": "Fjernet fra nedlastinger" },
+    "facebook": { "loginError": "Innlogging mislyktes med feil" },
+    "google": { "loginError": "Innlogging mislyktes med feil" }
+  },
+  "playlists": { "trackLabel": "Spor", "tracksLabel": "Spor" },
+  "mediaList": { "tracksLabel": "Spor", "remove": "Ta vekk" },
+  "tutorialPage": { "done": "Ferdig", "skip": "Hopp over" },
+  "loginModal": { "login": "Logg Inn" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "Hva skjer" },
+  "downloadModal": { "downloading": "Laster ned", "complete": "Nedlasting ferdig" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Utforsk Bibelen",
+      "subtitle1": "Reis gjennom hele Bibelen med oss, eller start en egen reise.",
+      "title2": "Lytt og engasjer",
+      "subtitle2": "Mediespilleren lar deg enkelt dykke ned i THRU BIBLE-innholdet.",
+      "title3": "Oppdag læresetninger",
+      "subtitle3": "Engasjer deg i Bibelen som aldri før ved å kryssreferere innholdet i Bibelen og undervisningen.",
+      "title4": "Diskuter Bibelen",
+      "subtitle4": "Bli med i en gruppe for å studere THRU BIBEL-læren og emnene med andre.",
+      "title5": "Last ned og del",
+      "subtitle5": "Kos deg med å lytte til Guds ord mens du er på farten, og del det med vennene dine.",
+      "title6": "Lagre og lag",
+      "subtitle6": "Lagre favorittlærene dine og bibelversene, eller lag en tilpasset spilleliste.",
+      "title7": "Gruppehengivenheter",
+      "subtitle7": "Bli oppmuntret og inspirert av andre med daglige gruppeandragelser."
+    },
+    "registerPage": {
+      "noThanks": "Nei takk",
+      "haveAccount": "Har en konto?",
+      "createAccount": "Opprett min konto",
+      "title1": "Diskuter med andre",
+      "subtitle1": "Diskuter favorittemnene dine og bibelversene med andre.",
+      "title2": "Lagre og synkroniser spillelister",
+      "subtitle2": "Bygg lister over favorittinnholdet ditt på ett sted.",
+      "title3": "Se favorittene dine",
+      "subtitle3": "Lagre og kom tilbake og besøk favorittene dine på et senere tidspunkt.",
+      "title4": "Velkommen tilbake",
+      "subtitle4": "Opprett en konto og få tilgang til alle funksjonene våre."
+    }
+  },
+  "app": {
+    "close": "Lukk",
+    "accept": "Aksepterer",
+    "reject": "Avvis",
+    "constructionInProgress": "BYGGING PÅGÅR",
+    "downloadComplete": "Nedlasting ferdig",
+    "downloading": "Laster ned",
+    "downloadFailed": "Nedlasting mislyktes",
+    "sendAFile": "Noen vil sende deg en fil"
+  },
+  "transferring": { "tryAgain": "Prøv igjen", "close": "Lukk" },
+  "checkDevice": {
+    "check": "Sjekk enheten",
+    "makeSure": "Forsikre deg om at Wifi-Direct er slått på din venns enhet og at det er innen rekkevidde.",
+    "continue": "Fortsette"
+  },
+  "connectToDevice": { "connect": "Koble til en enhet" },
+  "pairing": {
+    "connect": "Koble til en enhet",
+    "pairing": "Paring",
+    "success": "Koble sammen",
+    "failed": "Enhetsparing mislyktes",
+    "makeSure": "Forsikre deg om at (Wifi-Direct) er slått på enhetens venn og at det er innen rekkevidde.",
+    "continue": "Fortsette",
+    "tryAgain": "Prøv igjen"
+  },
+  "selectNetworkType": {
+    "connect": "Koble til en enhet",
+    "share": "Del med Wifi Direct",
+    "send": "Vil du sende filen via wifi direkte?",
+    "continue": "Fortsette"
+  }
+}

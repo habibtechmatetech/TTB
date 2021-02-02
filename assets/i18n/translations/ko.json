@@ -1,0 +1,393 @@
+{
+  "selectLanguage": { "heading": "현재 언어 선택", "mainAction": "언어 선택" },
+  "menu": {
+    "anonymousTitle": "귀하의 계정",
+    "anonymousAction": "로그인",
+    "editProfileAction": "프로필 수정",
+    "verifyProfileAction": "프로필 확인",
+    "bibleSection": "성경",
+    "teachingsSection": "가르침",
+    "librarySection": "내 라이브러리",
+    "groupsSection": "여러 떼",
+    "donateSection": "기부",
+    "settingsSection": "설정",
+    "signOut": "로그 아웃",
+    "modals": {
+      "verifyProfile": {
+        "title": "확인되지 않았습니다.",
+        "message": "목록이 동기화되지 않으며 그룹을 만들 수 없습니다. 등록을 완료하려면 이메일을 확인하십시오.",
+        "firstButton": "계속하다",
+        "secondButton": "새 프로필 등록"
+      }
+    }
+  },
+  "signIn": {
+    "header": "로그인",
+    "emailPlaceholder": "귀하의 이메일",
+    "passwordPlaceholder": "너의 비밀번호",
+    "forgotAction": "비밀번호를 잊으 셨나요?",
+    "callToAction": "로그인",
+    "signInAlternatives": "또는 다음을 사용하여 로그인",
+    "noAccountAction": "계정이 없습니까? 하나 만들기",
+    "notifications": {
+      "invalidCredentials": "잘못된 자격 증명",
+      "inProgress": "이미 진행중인 로그인",
+      "notAvailable": "Play 서비스를 사용할 수 없습니다."
+    }
+  },
+  "signUp": {
+    "header": "계정 생성",
+    "emailPlaceholder": "귀하의 이메일",
+    "passwordPlaceholder": "너의 비밀번호",
+    "privateAction": "계정을 비공개로 설정",
+    "termsDisclaimer": {
+      "pre": "가입을 클릭하면 다음 내용을 읽고 동의 함을 나타냅니다.",
+      "terms": "용어",
+      "post": "."
+    },
+    "callToAction": "가입하기",
+    "signUpAlternatives": "또는 다음을 사용하여 가입하십시오.",
+    "haveAnAccountAction": "계정이있다?",
+    "notifications": {
+      "invalidUsername": "사용자 이름은 20 자의 영숫자 (숫자 및 일반 문자)로 제한됩니다.",
+      "invalidPassword": "비밀번호는 3 자 이상이어야하며 대문자와 소문자와 하나 이상의 숫자 또는 특수 문자의 조합이어야합니다."
+    },
+    "modals": {
+      "emailExists": {
+        "title": "계정을 만들 수 없습니다.",
+        "message": "이미 존재하는 이메일 주소입니다.",
+        "firstButton": "로그인",
+        "secondButton": "닫기"
+      },
+      "privateAccount": {
+        "title": "개인 계정",
+        "message": "귀하의 계정을 비공개로 설정하면 다른 사람이 발견하지 못하도록 숨 깁니다.",
+        "firstButton": "동의하기",
+        "secondButton": "쇠퇴"
+      },
+      "success": {
+        "title": "계정이 생성되었습니다!",
+        "message": "귀하의 계정이 성공적으로 생성되었습니다. 받은 편지함을 확인하여 계정을 확인하고 로그인하십시오.",
+        "firstButton": "로그인"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "암호를 재설정",
+    "emailPlaceholder": "귀하의 이메일",
+    "message": "계정 비밀번호를 재설정하려면 이메일을 입력하세요.",
+    "callToAction": "암호를 재설정",
+    "notifications": {
+      "success": "받은 편지함으로 이메일을 보냈습니다.",
+      "emailNotFoundError": "이메일을 찾을 수 없습니다",
+      "invalidEmailError": "잘못된 이메일 형식"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "설정 완료",
+    "message": "입력하신 이메일 주소로 이메일이 발송되었습니다. 등록을 완료하려면 이메일 세부 정보를 참조하십시오.",
+    "callToAction": "일단은 스킵"
+  },
+  "teachings": {
+    "dailyText": "오늘의 방송",
+    "journeyTitle": "여정 시작",
+    "journeySubtitle": "처음부터 끝까지 모든 가르침",
+    "journeyCardTitle": "성경을 통한 215 주 여행",
+    "journeyCardSubtitle": "당신의 시간에 들어",
+    "tracksLabel": "트랙"
+  },
+  "teaching": {
+    "header": "가르침",
+    "loading": "로드 중 ...",
+    "player": {
+      "audioSpeed": "오디오 속도",
+      "loading": "로딩 중",
+      "castingError": "사용 가능한 장치 없음"
+    },
+    "modals": { "firstTime": { "firstButton": "계속 듣기", "secondButton": "여행을 시작하세요" } }
+  },
+  "journey": {
+    "byDate": "날짜 별",
+    "bySeries": "시리즈 별",
+    "sections": { "tracksLabel": "트랙" }
+  },
+  "library": {
+    "header": "내 라이브러리",
+    "tabs": { "downloads": "다운로드", "favorites": "즐겨 찾기", "playlists": "재생 목록" }
+  },
+  "groups": {
+    "header": "여러 떼",
+    "createGroup": {
+      "title": "새 그룹 만들기",
+      "groupNameLabel": "그룹 이름",
+      "groupNameInputPlaceHolder": "이름",
+      "descriptionLabel": "기술",
+      "descriptionInputPlaceHolder": "설명 추가",
+      "inviteLabel": "사용자 초대",
+      "inviteButton": "신규 사용자 초대",
+      "button": "그룹 생성",
+      "invalidGroupName": "유효한 이름을 입력하세요.",
+      "groupNameTooLong": "그룹 이름은 25자를 초과 할 수 없습니다."
+    },
+    "devotionNotStartAlert": "이 그룹에 대한 헌신이 시작되지 않았습니다.",
+    "membersLabel": "회원",
+    "chatModalMemberSubtitleLabel": "회원",
+    "chatModalMembersSubtitleLabel": "회원",
+    "chat": {
+      "listeningToLabel": "듣기",
+      "loadingTrackLabel": "트랙로드 중 ...",
+      "inputPlaceHolder": "메시지 쓰기",
+      "deletePost": "게시물 삭제",
+      "deleteMessage": "메시지를 삭제했습니다"
+    },
+    "groupSettings": {
+      "participantsSection": "참가자",
+      "viewAll": "모두보기",
+      "invite": "신규 사용자 초대",
+      "endDevotion": "최종 그룹 헌신",
+      "deleteGroup": "그룹 삭제",
+      "leaveGroup": "그룹을 떠나다"
+    },
+    "userDirectory": {
+      "header": "사용자 디렉토리",
+      "remove": "풀다",
+      "anonymous": "익명",
+      "send": "보내다"
+    },
+    "inviteUser": { "placeHolder": "검색", "send": "보내다" }
+  },
+  "chat": {
+    "header": "그룹 채널",
+    "settings": {
+      "header": "그룹 설정",
+      "endDevotion": {
+        "alertTitle": "헌신 종료",
+        "alertMessage": "이 헌신을 끝내시겠습니까?",
+        "alertCancel": "취소",
+        "alertConfirm": "예",
+        "endDevotionLabel": "이 헌신을 끝냈습니다.",
+        "hasEnded": "이 헌신은 끝났습니다"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "헌신 시작",
+    "alertMessage": "% {name} 그룹과 함께 헌신 하시겠습니까?",
+    "alertCancel": "취소",
+    "alertConfirm": "예",
+    "devotionStartedLabel": "헌신을 시작했습니다."
+  },
+  "settings": {
+    "header": "설정",
+    "tabs": { "profile": "프로필", "media": "미디어", "notifications": "알림" },
+    "profile": {
+      "account": "계정",
+      "username": "사용자 이름",
+      "email": "이메일",
+      "editButton": "편집하다",
+      "edit": {
+        "save": "저장",
+        "username": {
+          "header": "사용자 이름",
+          "successAlert": "변경 사항이 저장되었습니다.",
+          "failedAlert": "변경 사항을 저장하지 못했습니다."
+        },
+        "email": {
+          "header": "이메일",
+          "successAlert": "변경 사항이 저장되었습니다.",
+          "failedAlert": "변경 사항을 저장하지 못했습니다."
+        }
+      },
+      "languages": "언어",
+      "signIn": "로그인",
+      "signOut": "계정에서 로그 아웃",
+      "legal": "적법한",
+      "termsConditions": "이용 약관",
+      "privacyPolicy": "개인 정보 정책",
+      "support": "지원하다",
+      "reportAProblem": "문제 신고",
+      "tutorial": "지도 시간",
+      "reportBug": {
+        "header": "문제 신고",
+        "send": "보내다",
+        "subject": "제목",
+        "subjectPlaceHolder": "제목",
+        "description": "기술",
+        "descriptionPlaceHolder": "기술",
+        "successAlert": "감사합니다. 귀하의 메시지를 받았습니다.",
+        "failedAlert": "메시지를 보내지 못했습니다."
+      },
+      "version": "버전"
+    },
+    "media": {
+      "audio": "오디오",
+      "autoplay": "오디오 자동 재생",
+      "storage": "저장",
+      "downloadWifi": "Wi-Fi에서만 다운로드",
+      "deleteCache": "캐시 삭제"
+    },
+    "notifications": {
+      "notifications": "알림",
+      "groupInvitation": "그룹 초대",
+      "devotions": "헌신에 초대",
+      "file": "파일 전송 확인"
+    }
+  },
+  "inviteUsers": { "header": "사용자 초대" },
+  "playlist": {
+    "header": "재생 목록",
+    "audioFileLabel": "오디오 파일",
+    "audioFilesLabel": "오디오 파일"
+  },
+  "collection": { "header": "수집", "audioFilesLabel": "오디오 파일" },
+  "modal": {
+    "close": "닫기",
+    "addToPlaylist": { "title": "재생 목록에 추가", "button": "재생 목록 만들기" },
+    "startDevotion": { "title": "헌신 시작" },
+    "createPlaylist": {
+      "title": "새 재생 목록 만들기",
+      "button": "재생 목록 만들기",
+      "inputPlaceholder": "재생 목록 이름 입력",
+      "success": "재생 목록에 추가됨"
+    },
+    "login": "헌신을 시작하려면 로그인해야합니다"
+  },
+  "options": {
+    "shared": {
+      "share": "공유",
+      "report": "보고 내용",
+      "shareOthers": "다른 사람과 공유",
+      "copy": "링크 복사",
+      "more": "더"
+    },
+    "audio": {
+      "download": "다운로드",
+      "addFavorite": "즐겨 찾기에 추가",
+      "addPlaylist": "재생 목록에 추가",
+      "removeFavorite": "즐겨 찾기에서 삭제하기",
+      "removePlaylist": "재생 목록에서 제거",
+      "removeDownload": "다운로드에서 제거"
+    },
+    "playlist": { "edit": "편집하다", "delete": "재생 목록 삭제" },
+    "startDevotion": "헌신 시작"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "재생 목록에 추가됨",
+      "delete": "재생 목록에서 제거됨",
+      "create": "생성 된 재생 목록",
+      "destroy": "삭제 된 재생 목록"
+    },
+    "favorites": { "add": "즐겨 찾기에 추가", "remove": "즐겨 찾기에서 제거됨" },
+    "downloads": { "remove": "다운로드에서 제거됨" }
+  },
+  "buttons": { "loop": "고리", "shuffle": "혼합" },
+  "uiControls": {
+    "searchBox": { "placeholder": "검색..." },
+    "notification": { "success": "성공! 귀하의 계정으로 이메일이 전송됩니다." },
+    "button": { "sending": "배상..." },
+    "modalSelector": { "cancel": "취소" },
+    "loading": "로딩 중"
+  },
+  "bible": {
+    "header": "성경",
+    "oldTestament": "구약 성서",
+    "newTestament": "신약 성서",
+    "popularBooks": "인기 도서"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "검색",
+    "cancelButton": "취소",
+    "searchResults": "검색 결과",
+    "filterButton": "필터",
+    "teachings": { "title": "가르침" },
+    "bible": { "title": "성경" }
+  },
+  "addToPlaylistsModal": { "title": "재생 목록에 추가", "button": "재생 목록 만들기" },
+  "createPlaylistModal": {
+    "title": "새 재생 목록 만들기",
+    "button": "재생 목록 만들기",
+    "inputPlaceholder": "재생 목록 이름 입력"
+  },
+  "alert": {
+    "playlists": {
+      "add": "재생 목록에 추가됨",
+      "remove": "재생 목록에서 제거됨",
+      "create": "생성 된 재생 목록",
+      "delete": "삭제 된 재생 목록"
+    },
+    "favorites": { "add": "즐겨 찾기에 추가", "remove": "즐겨 찾기에서 제거됨" },
+    "downloads": { "remove": "다운로드에서 제거됨" },
+    "facebook": { "loginError": "오류로 인해 로그인 실패" },
+    "google": { "loginError": "오류로 인해 로그인 실패" }
+  },
+  "playlists": { "trackLabel": "과정", "tracksLabel": "트랙" },
+  "mediaList": { "tracksLabel": "트랙", "remove": "풀다" },
+  "tutorialPage": { "done": "끝난", "skip": "건너 뛰기" },
+  "loginModal": { "login": "로그인" },
+  "shareModal": { "facebook": "페이스 북", "twitter": "트위터", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "다운로드 중", "complete": "다운로드를 완료하였습니다" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "성경 탐색",
+      "subtitle1": "우리와 함께 성경 전체를 여행하거나 자신 만의 여행을 시작하십시오.",
+      "title2": "듣고 참여",
+      "subtitle2": "미디어 플레이어를 사용하면 THRU 성경 콘텐츠에 쉽게 뛰어들 수 있습니다.",
+      "title3": "가르침 발견",
+      "subtitle3": "Bible & Teaching 콘텐츠를 상호 참조하여 이전과는 전혀 다른 방식으로 성경에 참여하십시오.",
+      "title4": "성경 토론",
+      "subtitle4": "그룹에 가입하여 다른 사람들과 함께 THRU the Bible의 가르침과 주제를 공부하십시오.",
+      "title5": "다운로드 및 공유",
+      "subtitle5": "이동 중에도 하나님의 말씀을 듣고 친구들과 공유하십시오.",
+      "title6": "저장 및 생성",
+      "subtitle6": "좋아하는 가르침과 성경 구절을 저장하거나 사용자 지정 재생 목록을 만듭니다.",
+      "title7": "그룹 헌신",
+      "subtitle7": "매일 그룹 영적 모임을 통해 다른 사람들의 격려와 영감을 받으세요."
+    },
+    "registerPage": {
+      "noThanks": "고맙지 만 사양 할게",
+      "haveAccount": "계정이있다?",
+      "createAccount": "내 계정 만들기",
+      "title1": "다른 사람들과 토론",
+      "subtitle1": "좋아하는 주제와 성경 구절에 대해 다른 사람들과 토론하십시오.",
+      "title2": "재생 목록 저장 및 동기화",
+      "subtitle2": "한 곳에서 좋아하는 콘텐츠 목록을 작성합니다.",
+      "title3": "즐겨 찾기보기",
+      "subtitle3": "나중에 저장하고 돌아와 즐겨 찾기를 방문하십시오.",
+      "title4": "환영합니다",
+      "subtitle4": "계정을 만들고 모든 기능에 액세스하십시오."
+    }
+  },
+  "app": {
+    "close": "닫기",
+    "accept": "동의하기",
+    "reject": "받지 않다",
+    "constructionInProgress": "진행중인 건설",
+    "downloadComplete": "다운로드를 완료하였습니다",
+    "downloading": "다운로드 중",
+    "downloadFailed": "다운로드 실패",
+    "sendAFile": "누군가 당신에게 파일을 보내고 싶어합니다"
+  },
+  "transferring": { "tryAgain": "다시 시도하십시오", "close": "닫기" },
+  "checkDevice": {
+    "check": "장치 확인",
+    "makeSure": "친구의 기기에서 Wifi-Direct가 켜져 있고 범위 내에 있는지 확인하세요.",
+    "continue": "계속하다"
+  },
+  "connectToDevice": { "connect": "장치에 연결" },
+  "pairing": {
+    "connect": "장치에 연결",
+    "pairing": "편성",
+    "success": "성공적으로 페어링되었습니다.",
+    "failed": "장치 페어링 실패",
+    "makeSure": "친구의 기기에서 (Wifi-Direct)가 켜져 있고 범위 내에 있는지 확인하세요.",
+    "continue": "계속하다",
+    "tryAgain": "다시 시도하십시오"
+  },
+  "selectNetworkType": {
+    "connect": "장치에 연결",
+    "share": "Wifi Direct로 공유",
+    "send": "Wi-Fi를 통해 직접 파일을 보내시겠습니까?",
+    "continue": "계속하다"
+  }
+}

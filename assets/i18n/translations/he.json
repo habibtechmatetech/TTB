@@ -1,0 +1,389 @@
+{
+  "selectLanguage": { "heading": "בחר את השפה הנוכחית שלך", "mainAction": "בחר שפה" },
+  "menu": {
+    "anonymousTitle": "החשבון שלך",
+    "anonymousAction": "התחברות",
+    "editProfileAction": "ערוך פרופיל",
+    "verifyProfileAction": "אמת את הפרופיל",
+    "bibleSection": "כִּתבֵי הַקוֹדֶשׁ",
+    "teachingsSection": "הוראה",
+    "librarySection": "הספריה שלי",
+    "groupsSection": "קבוצות",
+    "donateSection": "לִתְרוֹם",
+    "settingsSection": "הגדרות",
+    "signOut": "התנתק",
+    "modals": {
+      "verifyProfile": {
+        "title": "אתה לא מאומת",
+        "message": "הרשימות שלך לא יסונכרנו ולא תוכל ליצור קבוצות. אנא בדוק את הדוא\"ל שלך להשלמת ההרשמה.",
+        "firstButton": "לְהַמשִׁיך",
+        "secondButton": "רשום פרופיל חדש"
+      }
+    }
+  },
+  "signIn": {
+    "header": "להתחבר",
+    "emailPlaceholder": "האימייל שלך",
+    "passwordPlaceholder": "הסיסמה שלך",
+    "forgotAction": "שכחת ססמא?",
+    "callToAction": "להתחבר",
+    "signInAlternatives": "או היכנס באמצעות",
+    "noAccountAction": "אין חשבון? תיצור אחד",
+    "notifications": {
+      "invalidCredentials": "אישורים לא חוקיים",
+      "inProgress": "הכניסה כבר מתבצעת",
+      "notAvailable": "שירותי הפעלה אינם זמינים"
+    }
+  },
+  "signUp": {
+    "header": "צור חשבון",
+    "emailPlaceholder": "האימייל שלך",
+    "passwordPlaceholder": "הסיסמה שלך",
+    "privateAction": "הפוך חשבון לפרטי",
+    "termsDisclaimer": {
+      "pre": "בלחיצה על הרשמה אתה מציין שקראת והסכמת לכך",
+      "terms": "התנאים",
+      "post": "."
+    },
+    "callToAction": "הירשם",
+    "signUpAlternatives": "או הירשם באמצעות",
+    "haveAnAccountAction": "יש לך חשבון?",
+    "notifications": {
+      "invalidUsername": "שמות משתמש מוגבלים ל -20 תווים אלפאנומריים (מספרים ואותיות רגילות)",
+      "invalidPassword": "על הסיסמה לכלול לפחות 3 תווים ולהיות שילוב של תווים גדולים וקטנים עם מספר אחד לפחות או תו מיוחד"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "לא ניתן ליצור חשבון",
+        "message": "כתובת האימייל הזו כבר קיימת.",
+        "firstButton": "להתחבר",
+        "secondButton": "סגור"
+      },
+      "privateAccount": {
+        "title": "חשבון פרטי",
+        "message": "על ידי הפיכת חשבונך לפרטי אתה מסתיר את גילויו על ידי אחרים.",
+        "firstButton": "לְקַבֵּל",
+        "secondButton": "יְרִידָה"
+      },
+      "success": {
+        "title": "חשבון נוצר!",
+        "message": "חשבונך נוצר בהצלחה. בדוק את תיבת הדואר הנכנס שלך כדי לאשר את חשבונך והיכנס.",
+        "firstButton": "להתחבר"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "לאפס את הסיסמה",
+    "emailPlaceholder": "האימייל שלך",
+    "message": "אנא הזן את הדוא\"ל שלך כדי לאפס את הסיסמה שלך לחשבונך.",
+    "callToAction": "לאפס את הסיסמה",
+    "notifications": {
+      "success": "פשוט שלחנו אימייל לתיבת הדואר הנכנס שלך",
+      "emailNotFoundError": "הדוא\"ל לא נמצא",
+      "invalidEmailError": "פורמט דוא\"ל לא חוקי"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "סיים את ההתקנה",
+    "message": "דוא\"ל נשלח לכתובת הדוא\"ל שהזנת. אנא עיין בפרטי הדוא\"ל להשלמת ההרשמה.",
+    "callToAction": "דלג לעת עתה"
+  },
+  "teachings": {
+    "dailyText": "שידור היום",
+    "journeyTitle": "התחל את המסע שלך",
+    "journeySubtitle": "כל התורות מההתחלה ועד הסוף",
+    "journeyCardTitle": "מסע שבועי 215 בתנ\"ך",
+    "journeyCardSubtitle": "הקשיב בזמן שלך",
+    "tracksLabel": "מסלולים"
+  },
+  "teaching": {
+    "header": "הוראה",
+    "loading": "טוען...",
+    "player": {
+      "audioSpeed": "מהירות שמע",
+      "loading": "טוען",
+      "castingError": "אין מכשירים זמינים"
+    },
+    "modals": { "firstTime": { "firstButton": "המשך האזנה", "secondButton": "התחל את המסע שלך" } }
+  },
+  "journey": {
+    "byDate": "לפי תאריך",
+    "bySeries": "לפי סדרות",
+    "sections": { "tracksLabel": "מסלולים" }
+  },
+  "library": {
+    "header": "הספריה שלי",
+    "tabs": { "downloads": "הורדות", "favorites": "מועדפים", "playlists": "פלייליסטים" }
+  },
+  "groups": {
+    "header": "קבוצות",
+    "createGroup": {
+      "title": "צור קבוצה חדשה",
+      "groupNameLabel": "שם קבוצה",
+      "groupNameInputPlaceHolder": "שֵׁם",
+      "descriptionLabel": "תיאור",
+      "descriptionInputPlaceHolder": "הוסף תיאור",
+      "inviteLabel": "הזמן משתמשים",
+      "inviteButton": "הזמן משתמשים חדשים",
+      "button": "צור קבוצה",
+      "invalidGroupName": "הזן שם חוקי",
+      "groupNameTooLong": "שם הקבוצה לא יכול להכיל יותר מ -25 תווים"
+    },
+    "devotionNotStartAlert": "מסירות נפש לא החלה עבור הקבוצה הזו",
+    "membersLabel": "חברים",
+    "chatModalMemberSubtitleLabel": "חבר",
+    "chatModalMembersSubtitleLabel": "חברים",
+    "chat": {
+      "listeningToLabel": "האזנה ל",
+      "loadingTrackLabel": "טוען מסלול ...",
+      "inputPlaceHolder": "כתוב הודעה",
+      "deletePost": "מחק הודעה",
+      "deleteMessage": "מחק הודעה"
+    },
+    "groupSettings": {
+      "participantsSection": "משתתפים",
+      "viewAll": "צפה בהכל",
+      "invite": "הזמן משתמשים חדשים",
+      "endDevotion": "סוף מסירות קבוצתית",
+      "deleteGroup": "מחק קבוצה",
+      "leaveGroup": "לעזוב קבוצה"
+    },
+    "userDirectory": {
+      "header": "מדריך משתמשים",
+      "remove": "לְהַסִיר",
+      "anonymous": "בעילום שם",
+      "send": "לִשְׁלוֹחַ"
+    },
+    "inviteUser": { "placeHolder": "לחפש", "send": "לִשְׁלוֹחַ" }
+  },
+  "chat": {
+    "header": "ערוץ קבוצתי",
+    "settings": {
+      "header": "הגדרות קבוצתיות",
+      "endDevotion": {
+        "alertTitle": "סוף מסירות",
+        "alertMessage": "האם אתה בטוח שאתה רוצה לסיים את המסירות הזו?",
+        "alertCancel": "לְבַטֵל",
+        "alertConfirm": "כן",
+        "endDevotionLabel": "סיים את המסירות הזו.",
+        "hasEnded": "המסירות הזו הסתיימה"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "התחל במסירות",
+    "alertMessage": "האם אתה בטוח שברצונך להתחיל להתמסר עם קבוצת% {name}?",
+    "alertCancel": "לְבַטֵל",
+    "alertConfirm": "כן",
+    "devotionStartedLabel": "התחיל מסירות נפש."
+  },
+  "settings": {
+    "header": "הגדרות",
+    "tabs": { "profile": "פּרוֹפִיל", "media": "כְּלֵי תִקְשׁוֹרֶת", "notifications": "התראות" },
+    "profile": {
+      "account": "חֶשְׁבּוֹן",
+      "username": "שם משתמש",
+      "email": "אימייל",
+      "editButton": "לַעֲרוֹך",
+      "edit": {
+        "save": "להציל",
+        "username": {
+          "header": "שם משתמש",
+          "successAlert": "השינוי שלך נשמר.",
+          "failedAlert": "שמירת השינוי נכשלה."
+        },
+        "email": {
+          "header": "אימייל",
+          "successAlert": "השינוי שלך נשמר.",
+          "failedAlert": "שמירת השינוי נכשלה."
+        }
+      },
+      "languages": "שפות",
+      "signIn": "להתחבר",
+      "signOut": "צא מהחשבון",
+      "legal": "משפטי",
+      "termsConditions": "תנאים והגבלות",
+      "privacyPolicy": "מדיניות פרטיות",
+      "support": "תמיכה",
+      "reportAProblem": "לדווח על בעיה",
+      "tutorial": "הדרכה",
+      "reportBug": {
+        "header": "לדווח על בעיה",
+        "send": "לִשְׁלוֹחַ",
+        "subject": "נושא",
+        "subjectPlaceHolder": "נושא",
+        "description": "תיאור",
+        "descriptionPlaceHolder": "תיאור",
+        "successAlert": "תודה, קיבלנו את ההודעה שלך.",
+        "failedAlert": "שליחת ההודעה נכשלה."
+      },
+      "version": "גִרְסָה"
+    },
+    "media": {
+      "audio": "שֶׁמַע",
+      "autoplay": "הפעל אודיו אוטומטי",
+      "storage": "אִחסוּן",
+      "downloadWifi": "הורד רק ב- Wi-Fi",
+      "deleteCache": "מחק מטמון"
+    },
+    "notifications": {
+      "notifications": "התראות",
+      "groupInvitation": "הזמנה קבוצתית",
+      "devotions": "הזמן למסירות",
+      "file": "אישור העברת קבצים"
+    }
+  },
+  "inviteUsers": { "header": "הזמן משתמשים" },
+  "playlist": { "header": "פלייליסט", "audioFileLabel": "קובץ שמע", "audioFilesLabel": "קבצי שמע" },
+  "collection": { "header": "אוסף", "audioFilesLabel": "קבצי שמע" },
+  "modal": {
+    "close": "סגור",
+    "addToPlaylist": { "title": "הוסף לרשימת ההשמעה", "button": "צור פלייליסט" },
+    "startDevotion": { "title": "התחל במסירות" },
+    "createPlaylist": {
+      "title": "צור רשימת השמעה חדשה",
+      "button": "צור פלייליסט",
+      "inputPlaceholder": "הזן את שם הפלייליסט",
+      "success": "נוסף לפלייליסט"
+    },
+    "login": "אתה צריך להתחבר כדי להתחיל מסירות"
+  },
+  "options": {
+    "shared": {
+      "share": "לַחֲלוֹק",
+      "report": "דווח על תוכן",
+      "shareOthers": "שתף עם אחרים",
+      "copy": "העתק קישור",
+      "more": "יותר"
+    },
+    "audio": {
+      "download": "הורד",
+      "addFavorite": "הוסף למועדפים",
+      "addPlaylist": "הוסף לרשימת ההשמעה",
+      "removeFavorite": "הסר מהמועדפים",
+      "removePlaylist": "הסר מפלייליסט",
+      "removeDownload": "הסר מהורדות"
+    },
+    "playlist": { "edit": "לַעֲרוֹך", "delete": "מחק פלייליסט" },
+    "startDevotion": "התחל במסירות"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "נוסף לפלייליסט",
+      "delete": "הוסר מפלייליסט",
+      "create": "נוצר פלייליסט",
+      "destroy": "מחיקת הפלייליסט נמחקה"
+    },
+    "favorites": { "add": "נוסף למועדפים", "remove": "הוסר מהמועדפים" },
+    "downloads": { "remove": "הוסר מההורדות" }
+  },
+  "buttons": { "loop": "לוּלָאָה", "shuffle": "לְעַרְבֵּב" },
+  "uiControls": {
+    "searchBox": { "placeholder": "לחפש..." },
+    "notification": { "success": "הַצלָחָה! דוא\"ל יישלח לחשבונך." },
+    "button": { "sending": "שְׁלִיחָה..." },
+    "modalSelector": { "cancel": "לְבַטֵל" },
+    "loading": "טוען"
+  },
+  "bible": {
+    "header": "כִּתבֵי הַקוֹדֶשׁ",
+    "oldTestament": "הברית הישנה",
+    "newTestament": "עדות חדשה",
+    "popularBooks": "ספרים פופולריים"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "לחפש",
+    "cancelButton": "לְבַטֵל",
+    "searchResults": "תוצאות חיפוש",
+    "filterButton": "לְסַנֵן",
+    "teachings": { "title": "הוראה" },
+    "bible": { "title": "כִּתבֵי הַקוֹדֶשׁ" }
+  },
+  "addToPlaylistsModal": { "title": "הוסף לרשימת ההשמעה", "button": "צור פלייליסט" },
+  "createPlaylistModal": {
+    "title": "צור רשימת השמעה חדשה",
+    "button": "צור פלייליסט",
+    "inputPlaceholder": "הזן את שם הפלייליסט"
+  },
+  "alert": {
+    "playlists": {
+      "add": "נוסף לפלייליסט",
+      "remove": "הוסר מפלייליסט",
+      "create": "נוצר פלייליסט",
+      "delete": "נמחק פלייליסט"
+    },
+    "favorites": { "add": "נוסף למועדפים", "remove": "הוסר מהמועדפים" },
+    "downloads": { "remove": "הוסר מההורדות" },
+    "facebook": { "loginError": "הכניסה נכשלה עם שגיאה" },
+    "google": { "loginError": "הכניסה נכשלה עם שגיאה" }
+  },
+  "playlists": { "trackLabel": "מַסלוּל", "tracksLabel": "מסלולים" },
+  "mediaList": { "tracksLabel": "מסלולים", "remove": "לְהַסִיר" },
+  "tutorialPage": { "done": "בוצע", "skip": "לדלג" },
+  "loginModal": { "login": "התחברות" },
+  "shareModal": { "facebook": "פייסבוק", "twitter": "טוויטר", "whatsapp": "ווטסאפ" },
+  "downloadModal": { "downloading": "מוריד", "complete": "ההורדה הושלמה" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "חקור את התנ\"ך",
+      "subtitle1": "טייל איתנו בתנ\"ך כולו, או התחל מסע משלך.",
+      "title2": "האזן והתעסק",
+      "subtitle2": "נגן המדיה מאפשר לכם לצלול בקלות דרך תוכן ה- BIBLE.",
+      "title3": "גלה תורות",
+      "subtitle3": "התעסק בתנ\"ך כמו שמעולם לא על ידי הצלבת תוכן תנ\"ך והוראה.",
+      "title4": "דנו בתנ\"ך",
+      "subtitle4": "הצטרף לקבוצה כדי ללמוד את תורת הנושא בתנ\"ך עם אחרים.",
+      "title5": "הורד ושיתוף",
+      "subtitle5": "תיהנו מהאזנה למילת האל תוך כדי תנועה ושתפו אותה עם חבריכם.",
+      "title6": "שמור ויצור",
+      "subtitle6": "שמור את התורות והפסוקים התנ\"כיים המועדפים עליך או צור רשימת השמעה מותאמת אישית.",
+      "title7": "מסירות קבוצתיות",
+      "subtitle7": "היו מעודדים ומעוררים השראה מאחרים עם מסירות קבוצתיות יומיות."
+    },
+    "registerPage": {
+      "noThanks": "לא תודה",
+      "haveAccount": "יש לך חשבון?",
+      "createAccount": "צור חשבון שלי",
+      "title1": "שוחח עם אחרים",
+      "subtitle1": "שוחח עם אחרים על הנושאים והפסוקים התנ\"כיים המועדפים עליך.",
+      "title2": "חנות וסנכרן פלייליסטים",
+      "subtitle2": "בנה רשימות של התוכן המועדף עליך במקום אחד.",
+      "title3": "ראה את המועדפים שלך",
+      "subtitle3": "אחסן וחזור ובקר במועדפים שלך במועד מאוחר יותר.",
+      "title4": "ברוך שובך",
+      "subtitle4": "צור חשבון וקבל גישה לכל התכונות שלנו."
+    }
+  },
+  "app": {
+    "close": "סגור",
+    "accept": "לְקַבֵּל",
+    "reject": "לִדחוֹת",
+    "constructionInProgress": "בנייה בהתקדמות",
+    "downloadComplete": "ההורדה הושלמה",
+    "downloading": "מוריד",
+    "downloadFailed": "הורדה נכשלה",
+    "sendAFile": "מישהו רוצה לשלוח לך קובץ"
+  },
+  "transferring": { "tryAgain": "נסה שוב", "close": "סגור" },
+  "checkDevice": {
+    "check": "בדוק את המכשיר שלך",
+    "makeSure": "אנא ודא ש- Wifi-Direct מופעל במכשיר של חברך והוא בטווח.",
+    "continue": "לְהַמשִׁיך"
+  },
+  "connectToDevice": { "connect": "התחבר למכשיר" },
+  "pairing": {
+    "connect": "התחבר למכשיר",
+    "pairing": "צִמוּד",
+    "success": "הותאם בהצלחה",
+    "failed": "התאמת המכשיר נכשלה",
+    "makeSure": "אנא ודא ש- Wifi-Direct מופעל במכשיר של חברך והוא נמצא בטווח.",
+    "continue": "לְהַמשִׁיך",
+    "tryAgain": "נסה שוב"
+  },
+  "selectNetworkType": {
+    "connect": "התחבר למכשיר",
+    "share": "שתף עם Wifi Direct",
+    "send": "לשלוח קובץ באמצעות wifi ישיר?",
+    "continue": "לְהַמשִׁיך"
+  }
+}

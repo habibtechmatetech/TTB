@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "आपली सद्य भाषा निवडा", "mainAction": "भाषा निवडा" },
+  "menu": {
+    "anonymousTitle": "तुमचे खाते",
+    "anonymousAction": "लॉगिन",
+    "editProfileAction": "प्रोफाईल संपादित करा",
+    "verifyProfileAction": "प्रोफाइल सत्यापित करा",
+    "bibleSection": "बायबल",
+    "teachingsSection": "शिकवते",
+    "librarySection": "माझे वाचनालय",
+    "groupsSection": "गट",
+    "donateSection": "दान करा",
+    "settingsSection": "सेटिंग्ज",
+    "signOut": "साइन आउट",
+    "modals": {
+      "verifyProfile": {
+        "title": "आपण सत्यापित नाही",
+        "message": "आपल्या याद्या संकालित केल्या जाणार नाहीत आणि आपण गट तयार करू शकत नाही. कृपया नोंदणी पूर्ण करण्यासाठी आपले ईमेल तपासा.",
+        "firstButton": "सुरू",
+        "secondButton": "नवीन प्रोफाइल नोंदवा"
+      }
+    }
+  },
+  "signIn": {
+    "header": "साइन इन करा",
+    "emailPlaceholder": "आपला ई - मेल",
+    "passwordPlaceholder": "आपला संकेतशब्द",
+    "forgotAction": "संकेतशब्द विसरलात?",
+    "callToAction": "साइन इन करा",
+    "signInAlternatives": "किंवा वापरून साइन इन करा",
+    "noAccountAction": "खाते नाही? एक बनव",
+    "notifications": {
+      "invalidCredentials": "अवैध क्रेडेन्शियल",
+      "inProgress": "साइन इन आधीच प्रगतीपथावर आहे",
+      "notAvailable": "प्ले सेवा अनुपलब्ध"
+    }
+  },
+  "signUp": {
+    "header": "खाते तयार करा",
+    "emailPlaceholder": "आपला ई - मेल",
+    "passwordPlaceholder": "आपला संकेतशब्द",
+    "privateAction": "खाते खाजगी करा",
+    "termsDisclaimer": {
+      "pre": "साइन अप क्लिक करून आपण सूचित केले आहे की आपण वाचले आहे आणि सहमत आहात",
+      "terms": "अटी",
+      "post": "."
+    },
+    "callToAction": "साइन अप करा",
+    "signUpAlternatives": "किंवा वापरून साइन अप करा",
+    "haveAnAccountAction": "खाते आहे का?",
+    "notifications": {
+      "invalidUsername": "वापरकर्तानावे 20 अक्षरे मर्यादित आहेत (संख्या आणि नियमित अक्षरे)",
+      "invalidPassword": "संकेतशब्दामध्ये कमीत कमी 3 वर्ण असावेत आणि अपर आणि लोअर केस वर्णांचे संयोजन कमीतकमी एक संख्या किंवा विशेष वर्ण असावे"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "खाते तयार करण्यात अक्षम",
+        "message": "हा ईमेल पत्ता आधीपासून विद्यमान आहे.",
+        "firstButton": "साइन इन करा",
+        "secondButton": "बंद"
+      },
+      "privateAccount": {
+        "title": "खाजगी खाते",
+        "message": "आपले खाते खाजगी करून, आपण ते इतरांकडून शोधण्यापासून लपवत आहात.",
+        "firstButton": "स्वीकारा",
+        "secondButton": "नाकारणे"
+      },
+      "success": {
+        "title": "खाते तयार केले!",
+        "message": "आपले खाते यशस्वीरित्या तयार केले गेले. आपल्या खात्याची पुष्टी करण्यासाठी आपला साइन इन तपासा आणि साइन इन करा.",
+        "firstButton": "साइन इन करा"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "संकेतशब्द रीसेट करा",
+    "emailPlaceholder": "आपला ई - मेल",
+    "message": "कृपया आपल्या खात्यासाठी आपला संकेतशब्द रीसेट करण्यासाठी आपला ईमेल प्रविष्ट करा.",
+    "callToAction": "संकेतशब्द रीसेट करा",
+    "notifications": {
+      "success": "आम्ही नुकताच आपल्या इनबॉक्सवर ईमेल पाठविला आहे",
+      "emailNotFoundError": "ईमेल सापडला नाही",
+      "invalidEmailError": "अवैध ईमेल स्वरूप"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "सेटअप समाप्त करा",
+    "message": "आपण प्रविष्ट केलेल्या ईमेल पत्त्यावर ईमेल पाठविला गेला आहे. कृपया नोंदणी पूर्ण करण्यासाठी ईमेल तपशील पहा.",
+    "callToAction": "आता वगळा"
+  },
+  "teachings": {
+    "dailyText": "आजचे प्रसारण",
+    "journeyTitle": "आपला प्रवास सुरू करा",
+    "journeySubtitle": "सुरुवातीपासून सर्व शिकवणी समाप्त",
+    "journeyCardTitle": "215 बायबलमार्फत आठवडा प्रवास",
+    "journeyCardSubtitle": "आपल्या वेळेवर ऐका",
+    "tracksLabel": "ट्रॅक"
+  },
+  "teaching": {
+    "header": "शिकवते",
+    "loading": "लोड करीत आहे ...",
+    "player": {
+      "audioSpeed": "ऑडिओ गती",
+      "loading": "लोड करीत आहे",
+      "castingError": "कोणतीही साधने उपलब्ध नाहीत"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "ऐकणे सुरू ठेवा", "secondButton": "आपला प्रवास सुरू करा" }
+    }
+  },
+  "journey": {
+    "byDate": "तारखेनुसार",
+    "bySeries": "मालिकेद्वारे",
+    "sections": { "tracksLabel": "ट्रॅक" }
+  },
+  "library": {
+    "header": "माझे वाचनालय",
+    "tabs": { "downloads": "डाउनलोड", "favorites": "आवडी", "playlists": "प्लेलिस्ट" }
+  },
+  "groups": {
+    "header": "गट",
+    "createGroup": {
+      "title": "नवीन गट तयार करा",
+      "groupNameLabel": "गटाचे नाव",
+      "groupNameInputPlaceHolder": "नाव",
+      "descriptionLabel": "वर्णन",
+      "descriptionInputPlaceHolder": "वर्णन जोडा",
+      "inviteLabel": "वापरकर्त्यांना आमंत्रित करा",
+      "inviteButton": "नवीन वापरकर्त्यांना आमंत्रित करा",
+      "button": "गट तयार करा",
+      "invalidGroupName": "वैध नाव प्रविष्ट करा",
+      "groupNameTooLong": "गटाच्या नावात 25 पेक्षा जास्त वर्ण नसावेत"
+    },
+    "devotionNotStartAlert": "या गटासाठी एक भक्ती सुरू झालेली नाही",
+    "membersLabel": "सभासद",
+    "chatModalMemberSubtitleLabel": "सदस्य",
+    "chatModalMembersSubtitleLabel": "सदस्य",
+    "chat": {
+      "listeningToLabel": "ऐकत आहे",
+      "loadingTrackLabel": "ट्रॅक लोड करीत आहे ...",
+      "inputPlaceHolder": "संदेश लिहा",
+      "deletePost": "पोस्ट हटवा",
+      "deleteMessage": "एक संदेश हटविला आहे"
+    },
+    "groupSettings": {
+      "participantsSection": "सहभागी",
+      "viewAll": "सर्व पहा",
+      "invite": "नवीन वापरकर्त्यांना आमंत्रित करा",
+      "endDevotion": "एंड ग्रुप भक्ती",
+      "deleteGroup": "गट हटवा",
+      "leaveGroup": "सोडा गट"
+    },
+    "userDirectory": {
+      "header": "वापरकर्ता निर्देशिका",
+      "remove": "काढा",
+      "anonymous": "अनामिक",
+      "send": "पाठवा"
+    },
+    "inviteUser": { "placeHolder": "शोधा", "send": "पाठवा" }
+  },
+  "chat": {
+    "header": "गट वाहिनी",
+    "settings": {
+      "header": "गट सेटिंग्ज",
+      "endDevotion": {
+        "alertTitle": "भक्ती संपवा",
+        "alertMessage": "आपली खात्री आहे की आपण ही भक्ती संपवू इच्छिता?",
+        "alertCancel": "रद्द करा",
+        "alertConfirm": "होय",
+        "endDevotionLabel": "ही भक्ती संपवली.",
+        "hasEnded": "ही भक्ती संपली"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "भक्ती प्रारंभ करा",
+    "alertMessage": "आपली खात्री आहे की आपण% {name {गटासह भक्ती सुरू करू इच्छिता?",
+    "alertCancel": "रद्द करा",
+    "alertConfirm": "होय",
+    "devotionStartedLabel": "एक भक्ती सुरू केली आहे."
+  },
+  "settings": {
+    "header": "सेटिंग्ज",
+    "tabs": { "profile": "प्रोफाइल", "media": "माध्यम", "notifications": "अधिसूचना" },
+    "profile": {
+      "account": "खाते",
+      "username": "वापरकर्तानाव",
+      "email": "ई-मेल",
+      "editButton": "सुधारणे",
+      "edit": {
+        "save": "जतन करा",
+        "username": {
+          "header": "वापरकर्तानाव",
+          "successAlert": "आपला बदल जतन झाला आहे.",
+          "failedAlert": "बदल जतन करण्यात अयशस्वी."
+        },
+        "email": {
+          "header": "ईमेल",
+          "successAlert": "आपला बदल जतन झाला आहे.",
+          "failedAlert": "बदल जतन करण्यात अयशस्वी."
+        }
+      },
+      "languages": "भाषा",
+      "signIn": "साइन इन करा",
+      "signOut": "खात्यातून साइन आउट करा",
+      "legal": "कायदेशीर",
+      "termsConditions": "अटी व शर्ती",
+      "privacyPolicy": "गोपनीयता धोरण",
+      "support": "आधार",
+      "reportAProblem": "अडचण कळवा",
+      "tutorial": "प्रशिक्षण",
+      "reportBug": {
+        "header": "अडचण कळवा",
+        "send": "पाठवा",
+        "subject": "विषय",
+        "subjectPlaceHolder": "विषय",
+        "description": "वर्णन",
+        "descriptionPlaceHolder": "वर्णन",
+        "successAlert": "धन्यवाद, आम्हाला तुमचा संदेश मिळाला आहे.",
+        "failedAlert": "संदेश पाठविण्यात अयशस्वी."
+      },
+      "version": "आवृत्ती"
+    },
+    "media": {
+      "audio": "ऑडिओ",
+      "autoplay": "ऑटोप्ले ऑडिओ",
+      "storage": "साठवण",
+      "downloadWifi": "केवळ वाय-फाय वर डाउनलोड करा",
+      "deleteCache": "कॅशे हटवा"
+    },
+    "notifications": {
+      "notifications": "अधिसूचना",
+      "groupInvitation": "गट आमंत्रण",
+      "devotions": "भक्तांना आमंत्रित करा",
+      "file": "फाइल स्थानांतरणाची पुष्टीकरण"
+    }
+  },
+  "inviteUsers": { "header": "वापरकर्त्यांना आमंत्रित करा" },
+  "playlist": {
+    "header": "प्लेलिस्ट",
+    "audioFileLabel": "ऑडिओ फाइल",
+    "audioFilesLabel": "ऑडिओ फायली"
+  },
+  "collection": { "header": "संग्रह", "audioFilesLabel": "ऑडिओ फायली" },
+  "modal": {
+    "close": "बंद",
+    "addToPlaylist": { "title": "प्लेलिस्टमध्ये जोडा", "button": "प्लेलिस्ट तयार करा" },
+    "startDevotion": { "title": "भक्ती प्रारंभ करा" },
+    "createPlaylist": {
+      "title": "नवीन प्लेलिस्ट तयार करा",
+      "button": "प्लेलिस्ट तयार करा",
+      "inputPlaceholder": "प्लेलिस्ट नाव प्रविष्ट करा",
+      "success": "प्लेलिस्टमध्ये जोडले"
+    },
+    "login": "भक्ती सुरू करण्यासाठी आपल्याला लॉगिन करणे आवश्यक आहे"
+  },
+  "options": {
+    "shared": {
+      "share": "सामायिक करा",
+      "report": "सामग्री नोंदवा",
+      "shareOthers": "इतरांसह सामायिक करा",
+      "copy": "दुवा कॉपी करा",
+      "more": "अधिक"
+    },
+    "audio": {
+      "download": "डाउनलोड करा",
+      "addFavorite": "आवडीमध्ये जोडा",
+      "addPlaylist": "प्लेलिस्टमध्ये जोडा",
+      "removeFavorite": "आवडीमधून काढा",
+      "removePlaylist": "प्लेलिस्टमधून काढा",
+      "removeDownload": "डाउनलोडमधून काढा"
+    },
+    "playlist": { "edit": "सुधारणे", "delete": "प्लेलिस्ट हटवा" },
+    "startDevotion": "भक्ती प्रारंभ करा"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "प्लेलिस्टमध्ये जोडले",
+      "delete": "प्लेलिस्टमधून काढले",
+      "create": "प्लेलिस्ट तयार केली",
+      "destroy": "हटविलेले प्लेलिस्ट"
+    },
+    "favorites": { "add": "आवडीमध्ये जोडले", "remove": "आवडींमधून काढले" },
+    "downloads": { "remove": "डाउनलोडमधून काढले" }
+  },
+  "buttons": { "loop": "पळवाट", "shuffle": "शफल" },
+  "uiControls": {
+    "searchBox": { "placeholder": "शोधा ..." },
+    "notification": { "success": "यश! आपल्या खात्यावर ईमेल पाठविला जाईल." },
+    "button": { "sending": "पाठवून..." },
+    "modalSelector": { "cancel": "रद्द करा" },
+    "loading": "लोड करीत आहे"
+  },
+  "bible": {
+    "header": "बायबल",
+    "oldTestament": "जुना करार",
+    "newTestament": "नवा करार",
+    "popularBooks": "लोकप्रिय पुस्तके"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "शोधा",
+    "cancelButton": "रद्द करा",
+    "searchResults": "शोध परिणाम",
+    "filterButton": "फिल्टर करा",
+    "teachings": { "title": "शिकवते" },
+    "bible": { "title": "बायबल" }
+  },
+  "addToPlaylistsModal": { "title": "प्लेलिस्टमध्ये जोडा", "button": "प्लेलिस्ट तयार करा" },
+  "createPlaylistModal": {
+    "title": "नवीन प्लेलिस्ट तयार करा",
+    "button": "प्लेलिस्ट तयार करा",
+    "inputPlaceholder": "प्लेलिस्ट नाव प्रविष्ट करा"
+  },
+  "alert": {
+    "playlists": {
+      "add": "प्लेलिस्टमध्ये जोडले",
+      "remove": "प्लेलिस्टमधून काढले",
+      "create": "प्लेलिस्ट तयार केली",
+      "delete": "हटविलेले प्लेलिस्ट"
+    },
+    "favorites": { "add": "आवडीमध्ये जोडले", "remove": "आवडींमधून काढले" },
+    "downloads": { "remove": "डाउनलोडमधून काढले" },
+    "facebook": { "loginError": "लॉगिन त्रुटीसह अयशस्वी" },
+    "google": { "loginError": "लॉगिन त्रुटीसह अयशस्वी" }
+  },
+  "playlists": { "trackLabel": "ट्रॅक", "tracksLabel": "ट्रॅक" },
+  "mediaList": { "tracksLabel": "ट्रॅक", "remove": "काढा" },
+  "tutorialPage": { "done": "पूर्ण झाले", "skip": "वगळा" },
+  "loginModal": { "login": "लॉगिन" },
+  "shareModal": { "facebook": "फेसबुक", "twitter": "ट्विटर", "whatsapp": "व्हॉट्सअ‍ॅप" },
+  "downloadModal": { "downloading": "डाउनलोड करत आहे", "complete": "डाउनलोड पूर्ण" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "बायबल एक्सप्लोर करा",
+      "subtitle1": "आमच्यासह संपूर्ण बायबलमधून प्रवास करा किंवा आपल्या स्वतःचा प्रवास सुरू करा.",
+      "title2": "ऐका आणि व्यस्त रहा",
+      "subtitle2": "मीडिया प्लेअर आपल्याला सहजपणे बायबल सामग्री THRU मध्ये बुडविण्याची परवानगी देतो.",
+      "title3": "शिकवा",
+      "subtitle3": "बायबलमध्ये आधी कधीही यासारख्या बायबलमध्ये व्यस्त रहा आणि अध्यापनाचा संदर्भ घ्या.",
+      "title4": "बायबलवर चर्चा करा",
+      "subtitle4": "THRU बायबलच्या शिकवणीचा आणि इतरांसह विषयांचा अभ्यास करण्यासाठी गटामध्ये सामील व्हा.",
+      "title5": "डाउनलोड आणि सामायिक करा",
+      "subtitle5": "जाता जाता देवाचे वचन ऐकण्याचा आनंद घ्या आणि आपल्या मित्रांसह सामायिक करा.",
+      "title6": "जतन करा आणि तयार करा",
+      "subtitle6": "आपली आवडती शिकवण आणि बायबलमधील वचने जतन करा किंवा एक सानुकूल प्लेलिस्ट तयार करा.",
+      "title7": "गट भक्ती",
+      "subtitle7": "दररोज गटभक्तीसह इतरांना प्रोत्साहित करा आणि प्रेरित करा."
+    },
+    "registerPage": {
+      "noThanks": "नको धन्यवाद",
+      "haveAccount": "खाते आहे का?",
+      "createAccount": "माझे खाते तयार करा",
+      "title1": "इतरांशी चर्चा करा",
+      "subtitle1": "इतरांसह आपल्या आवडत्या विषयांवर आणि बायबलमधील वचनांविषयी चर्चा करा.",
+      "title2": "प्लेलिस्ट स्टोअर आणि संकालित करा",
+      "subtitle2": "आपल्या आवडत्या सामग्रीच्या याद्या एकाच ठिकाणी तयार करा.",
+      "title3": "आपले आवडते पहा",
+      "subtitle3": "संचयित करा आणि परत या आणि नंतर आपल्या पसंतीस भेट द्या.",
+      "title4": "वेलकम बॅक",
+      "subtitle4": "एक खाते तयार करा आणि आमच्या सर्व वैशिष्ट्यांमध्ये प्रवेश मिळवा."
+    }
+  },
+  "app": {
+    "close": "बंद",
+    "accept": "स्वीकारा",
+    "reject": "नाकारणे",
+    "constructionInProgress": "प्रगती मध्ये बांधकाम",
+    "downloadComplete": "डाउनलोड पूर्ण",
+    "downloading": "डाउनलोड करत आहे",
+    "downloadFailed": "डाउनलोड अयशस्वी",
+    "sendAFile": "कोणीतरी आपल्याला फाईल पाठवू इच्छित आहे"
+  },
+  "transferring": { "tryAgain": "पुन्हा प्रयत्न करा", "close": "बंद" },
+  "checkDevice": {
+    "check": "आपले डिव्हाइस तपासा",
+    "makeSure": "कृपया खात्री करा की आपल्या मित्रांच्या डिव्हाइसवर वायफाय-डायरेक्ट चालू आहे आणि ते श्रेणीमध्ये आहे.",
+    "continue": "सुरू"
+  },
+  "connectToDevice": { "connect": "डिव्हाइसशी कनेक्ट करा" },
+  "pairing": {
+    "connect": "डिव्हाइसशी कनेक्ट करा",
+    "pairing": "जोडी बनवित आहे",
+    "success": "यशस्वीरित्या पेअर केले",
+    "failed": "डिव्हाइस जोडणी अयशस्वी",
+    "makeSure": "कृपया खात्री करा (वायफाय-डायरेक्ट) आपल्या मित्राच्या डिव्हाइसवर चालू केले आहे आणि ते श्रेणीमध्ये आहे.",
+    "continue": "सुरू",
+    "tryAgain": "पुन्हा प्रयत्न करा"
+  },
+  "selectNetworkType": {
+    "connect": "डिव्हाइसशी कनेक्ट करा",
+    "share": "वायफाय डायरेक्टसह सामायिक करा",
+    "send": "वायफाय डायरेक्ट वर फाईल पाठवायची?",
+    "continue": "सुरू"
+  }
+}

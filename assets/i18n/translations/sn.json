@@ -1,0 +1,395 @@
+{
+  "selectLanguage": { "heading": "Sarudza mutauro wako wazvino", "mainAction": "Sarudza Mutauro" },
+  "menu": {
+    "anonymousTitle": "Akaundi Yako",
+    "anonymousAction": "Login",
+    "editProfileAction": "Hora nhoroondo",
+    "verifyProfileAction": "Tarisa uone",
+    "bibleSection": "Bhaibheri",
+    "teachingsSection": "Dzidziso",
+    "librarySection": "Raibhurari Yangu",
+    "groupsSection": "Mapoka",
+    "donateSection": "Batsira",
+    "settingsSection": "Zvirongwa",
+    "signOut": "Buda",
+    "modals": {
+      "verifyProfile": {
+        "title": "Iwe hauna kusimbiswa",
+        "message": "Zvinyorwa zvako hazvizoenderana uye haugone kuumba mapoka. Ndokumbira utarise email yako kuti upedze kunyoresa.",
+        "firstButton": "Enderera",
+        "secondButton": "Bhalisa purogiramu itsva"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Nyorera mu",
+    "emailPlaceholder": "Yako Email",
+    "passwordPlaceholder": "Your Password",
+    "forgotAction": "Forgot Password?",
+    "callToAction": "Nyorera mu",
+    "signInAlternatives": "Kana Saina Uchipinda uchishandisa",
+    "noAccountAction": "Hapana account? Gadzira imwe",
+    "notifications": {
+      "invalidCredentials": "Zviratidzo zvisiri izvo",
+      "inProgress": "Saina iri kutoenderera",
+      "notAvailable": "Mitambo yekutamba haiwanikwe"
+    }
+  },
+  "signUp": {
+    "header": "Gadzira Akaundi",
+    "emailPlaceholder": "Yako Email",
+    "passwordPlaceholder": "Your Password",
+    "privateAction": "Ita Akaunti Yakavanzika",
+    "termsDisclaimer": {
+      "pre": "Nekudzvanya Signup iwe unoratidza kuti iwe waverenga uye unobvumirana nazvo",
+      "terms": "mazwi",
+      "post": "."
+    },
+    "callToAction": "Nyorera",
+    "signUpAlternatives": "Kana Sign Up uchishandisa",
+    "haveAnAccountAction": "Une account?",
+    "notifications": {
+      "invalidUsername": "Mazita emushandisi anongogumira kune makumi maviri alphanumeric mavara (manhamba uye mavara enguva dzose)",
+      "invalidPassword": "Pasiwedhi inofanirwa kuve neanenge matatu mavara uye kuve mubatanidzwa wepamusoro uye wezasi kesi mavara ane imwechete nhamba kana yakasarudzika hunhu"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Kutadza kugadzira account",
+        "message": "Iyi email kero yatovepo.",
+        "firstButton": "Nyorera mu",
+        "secondButton": "Vhara"
+      },
+      "privateAccount": {
+        "title": "Yakavanzika Account",
+        "message": "Nekuita yako account yakavanzika, urikuiviga kuti irege kuwanikwa nevamwe.",
+        "firstButton": "Gamuchira",
+        "secondButton": "Kuramba"
+      },
+      "success": {
+        "title": "Akaunti Yakagadzirwa!",
+        "message": "Akaundi yako yakabudirira kugadzirwa. Tarisa yako inbox kuti uone account yako uye pinda.",
+        "firstButton": "Nyorera mu"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Dzosera password",
+    "emailPlaceholder": "Yako Email",
+    "message": "Ndokumbirawo kuti upinze email yako kuti utangezve password yako kuaccount yako",
+    "callToAction": "Dzosera password",
+    "notifications": {
+      "success": "Isu tangotumira email kuinbox yako",
+      "emailNotFoundError": "Email haina kuwanikwa",
+      "invalidEmailError": "Fomu yeemail isiriyo"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Pedzisa Setup",
+    "message": "E-mail yatumirwa kukero yeemail yawakanyora. Ndokumbira kuti uone iwo email nhoroondo kuti upedze kunyoresa.",
+    "callToAction": "Darika Izvozvi"
+  },
+  "teachings": {
+    "dailyText": "Nhepfenyuro yanhasi",
+    "journeyTitle": "Tanga Rwendo Rwako",
+    "journeySubtitle": "Dzidziso dzese kubva pakutanga kusvika pakupedzisira",
+    "journeyCardTitle": "215 Svondo Rwendo Kuburikidza neBhaibheri",
+    "journeyCardSubtitle": "Teerera pane yako nguva",
+    "tracksLabel": "Makwara"
+  },
+  "teaching": {
+    "header": "Dzidziso",
+    "loading": "Loading ...",
+    "player": {
+      "audioSpeed": "Speed ​​Speed",
+      "loading": "Loading",
+      "castingError": "Hapana Midziyo Inowanikwa"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Ramba Uchiteerera", "secondButton": "Tanga rwendo rwako" }
+    }
+  },
+  "journey": {
+    "byDate": "Nezuva",
+    "bySeries": "Ne Series",
+    "sections": { "tracksLabel": "Makwara" }
+  },
+  "library": {
+    "header": "Raibhurari Yangu",
+    "tabs": { "downloads": "Downloads", "favorites": "Favorites", "playlists": "Playlists" }
+  },
+  "groups": {
+    "header": "Mapoka",
+    "createGroup": {
+      "title": "Gadzira Nyowani Boka",
+      "groupNameLabel": "ZITA REBOKA",
+      "groupNameInputPlaceHolder": "Zita",
+      "descriptionLabel": "KUTSANANGURWA",
+      "descriptionInputPlaceHolder": "Wedzera Tsananguro",
+      "inviteLabel": "Koka Vashandisi",
+      "inviteButton": "Koka Vashandisi Vatsva",
+      "button": "Gadzira Boka",
+      "invalidGroupName": "Isa zita rakakodzera",
+      "groupNameTooLong": "Zita reboka harifanire kunge riine mavara anodarika makumi maviri neshanu"
+    },
+    "devotionNotStartAlert": "Kuzvipira hakuna kutanga kune iri boka",
+    "membersLabel": "Nhengo",
+    "chatModalMemberSubtitleLabel": "nhengo",
+    "chatModalMembersSubtitleLabel": "nhengo",
+    "chat": {
+      "listeningToLabel": "Kuteerera",
+      "loadingTrackLabel": "Loading track ...",
+      "inputPlaceHolder": "Nyora Meseji",
+      "deletePost": "Delete Post",
+      "deleteMessage": "yabvisa meseji"
+    },
+    "groupSettings": {
+      "participantsSection": "Vatori vechikamu",
+      "viewAll": "Wona Zvese",
+      "invite": "Koka Vashandisi Vatsva",
+      "endDevotion": "End Boka Kuzvipira",
+      "deleteGroup": "Delete Boka",
+      "leaveGroup": "Siya Boka"
+    },
+    "userDirectory": {
+      "header": "Dhairekitori reMushandisi",
+      "remove": "Bvisa",
+      "anonymous": "Asingazivikanwe",
+      "send": "Tumira"
+    },
+    "inviteUser": { "placeHolder": "Tsvaga", "send": "Tumira" }
+  },
+  "chat": {
+    "header": "Boka Chiteshi",
+    "settings": {
+      "header": "Zvirongwa zveboka",
+      "endDevotion": {
+        "alertTitle": "End Devotion",
+        "alertMessage": "Une chokwadi here kuti unoda kupedza kuzvipira uku?",
+        "alertCancel": "Kanzura",
+        "alertConfirm": "Ehe",
+        "endDevotionLabel": "kwakapedza kuzvipira uku.",
+        "hasEnded": "Kunamata uku kwapera"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Kutanga Kuzvipira",
+    "alertMessage": "Une chokwadi here kuti unoda kutanga kuzvipira ne% {name} boka?",
+    "alertCancel": "Kanzura",
+    "alertConfirm": "Ehe",
+    "devotionStartedLabel": "yatanga kuzvipira."
+  },
+  "settings": {
+    "header": "Zvirongwa",
+    "tabs": { "profile": "Nhoroondo", "media": "Midhiya", "notifications": "Notifications" },
+    "profile": {
+      "account": "Akaundi",
+      "username": "Username",
+      "email": "E-mail",
+      "editButton": "Hora",
+      "edit": {
+        "save": "Sevha",
+        "username": {
+          "header": "Username",
+          "successAlert": "Shanduko yako yachengetedzwa.",
+          "failedAlert": "Yakundikana kuchengetedza shanduko."
+        },
+        "email": {
+          "header": "Email",
+          "successAlert": "Shanduko yako yachengetedzwa.",
+          "failedAlert": "Yakundikana kuchengetedza shanduko."
+        }
+      },
+      "languages": "Mitauro",
+      "signIn": "Nyorera mu",
+      "signOut": "Saina Kunze kweAccount",
+      "legal": "Zvepamutemo",
+      "termsConditions": "Mitemo & Maitiro",
+      "privacyPolicy": "Yakavanzika Mutemo",
+      "support": "Tsigiro",
+      "reportAProblem": "Mhan'ara Dambudziko",
+      "tutorial": "Dzidziso",
+      "reportBug": {
+        "header": "Mhan'ara Dambudziko",
+        "send": "Tumira",
+        "subject": "CHIKAMU",
+        "subjectPlaceHolder": "Musoro",
+        "description": "KUTSANANGURWA",
+        "descriptionPlaceHolder": "Tsananguro",
+        "successAlert": "Ndatenda, tagamuchira meseji yako.",
+        "failedAlert": "Akundikana kutumira meseji."
+      },
+      "version": "Shanduro"
+    },
+    "media": {
+      "audio": "Sravana Sameeralu Serial 4th Audio",
+      "autoplay": "Autoplay Audio",
+      "storage": "Kuchengetedza",
+      "downloadWifi": "Chete Tora paWi-fi",
+      "deleteCache": "Delete Cache"
+    },
+    "notifications": {
+      "notifications": "Notifications",
+      "groupInvitation": "Kukoka Kweboka",
+      "devotions": "Koka kuDzidziso",
+      "file": "Faira Kutamisa Chivimbiso"
+    }
+  },
+  "inviteUsers": { "header": "Koka Vashandisi" },
+  "playlist": {
+    "header": "Playlist",
+    "audioFileLabel": "Audio Faira",
+    "audioFilesLabel": "Audio Mafaira"
+  },
+  "collection": { "header": "Kuunganidza", "audioFilesLabel": "Audio Mafaira" },
+  "modal": {
+    "close": "pedyo",
+    "addToPlaylist": { "title": "Wedzera ku Playlist", "button": "Gadzira Runyorwa" },
+    "startDevotion": { "title": "Kutanga Kuzvipira" },
+    "createPlaylist": {
+      "title": "Gadzira Nyowani Runyorwa",
+      "button": "Gadzira Runyorwa",
+      "inputPlaceholder": "Pinda Playlist Zita",
+      "success": "Yakawedzerwa ku Playlist"
+    },
+    "login": "Iwe unofanirwa kupinda kuti utange kuzvipira"
+  },
+  "options": {
+    "shared": {
+      "share": "Goverana",
+      "report": "Report Content",
+      "shareOthers": "Goverana nevamwe",
+      "copy": "Kopa Unganidzo",
+      "more": "Zvimwe"
+    },
+    "audio": {
+      "download": "Download",
+      "addFavorite": "Isa kunezvaunofarira",
+      "addPlaylist": "Wedzera ku Playlist",
+      "removeFavorite": "Bvisa kubva kuFavorites",
+      "removePlaylist": "Bvisa kubva Playlist",
+      "removeDownload": "Bvisa kubva kuDownload"
+    },
+    "playlist": { "edit": "Hora", "delete": "Delete Playlist" },
+    "startDevotion": "Kutanga Kuzvipira"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Yakawedzerwa ku Playlist",
+      "delete": "Kubviswa kubva Playlist",
+      "create": "Yakagadzirwa Playlist",
+      "destroy": "Dzadzimwa Runyorwa"
+    },
+    "favorites": { "add": "Yakawedzerwa kune Favorites", "remove": "Kubviswa kubva kuFavorites" },
+    "downloads": { "remove": "Kubviswa kubva Mukurodha pasi" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Shuva" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Tsvaga ..." },
+    "notification": { "success": "Kubudirira! E-mail ichatumirwa kuaccount yako." },
+    "button": { "sending": "Kutumira ..." },
+    "modalSelector": { "cancel": "Kanzura" },
+    "loading": "Loading"
+  },
+  "bible": {
+    "header": "Bhaibheri",
+    "oldTestament": "Testamente Yekare",
+    "newTestament": "Testamente Itsva",
+    "popularBooks": "Mabhuku akakurumbira"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Tsvaga",
+    "cancelButton": "KANZURA",
+    "searchResults": "Kutsvaga Zviwanikwa",
+    "filterButton": "Sefa",
+    "teachings": { "title": "Dzidziso" },
+    "bible": { "title": "Bhaibheri" }
+  },
+  "addToPlaylistsModal": { "title": "Wedzera ku Playlist", "button": "Gadzira Runyorwa" },
+  "createPlaylistModal": {
+    "title": "Gadzira Nyowani Runyorwa",
+    "button": "Gadzira Runyorwa",
+    "inputPlaceholder": "Pinda Playlist Zita"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Yakawedzerwa ku Playlist",
+      "remove": "Kubviswa kubva Playlist",
+      "create": "Yakagadzirwa Playlist",
+      "delete": "Dzadzimwa Runyorwa"
+    },
+    "favorites": { "add": "Yakawedzerwa kune Favorites", "remove": "Kubviswa kubva kuFavorites" },
+    "downloads": { "remove": "Kubviswa kubva Mukurodha pasi" },
+    "facebook": { "loginError": "Kupinda kwakundikana nekanganiso" },
+    "google": { "loginError": "Kupinda kwakundikana nekanganiso" }
+  },
+  "playlists": { "trackLabel": "Track", "tracksLabel": "Makwara" },
+  "mediaList": { "tracksLabel": "Makwara", "remove": "Bvisa" },
+  "tutorialPage": { "done": "Zvaitwa", "skip": "Darika" },
+  "loginModal": { "login": "Login" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Kudhanilodha", "complete": "Dhawunirodha Zadzisa" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Ongorora Bhaibheri",
+      "subtitle1": "Famba neBhaibheri rese nesu, kana tanga rwendo rwako.",
+      "title2": "Teerera & Shingairira",
+      "subtitle2": "Iyo midhiya inoridza inobvumidza iwe kudhira mune THRU iyo BHAIBHERI zvemukati zviri nyore.",
+      "title3": "Tsvaga Dzidziso",
+      "subtitle3": "Shingairira muBhaibheri zvisati zvamboitika nekutarisa muchinjikwa Bhaibheri & Kudzidzisa zvemukati.",
+      "title4": "Kurukurai nezveBhaibheri",
+      "subtitle4": "Joinha boka kuti udzidze THRU iyo BHAIBHERI dzidziso uye misoro nevamwe.",
+      "title5": "Dhawunirodha & Govana",
+      "subtitle5": "Nakidzwa nekuteerera kuIzwi raMwari pa-iyo-kuenda uye ugogovana naro neshamwari dzako.",
+      "title6": "Sevha & Gadzira",
+      "subtitle6": "Sevha dzidziso dzako dzaunofarira uye mavhesi eBhaibheri kana kugadzira runyorwa rwekutamba.",
+      "title7": "Mapoka Ekuzvipira",
+      "subtitle7": "Kurudzirwa uye kukurudzirwa nevamwe vane mazuva ese mapoka ekuzvipira."
+    },
+    "registerPage": {
+      "noThanks": "Kwete Thanks",
+      "haveAccount": "Une account?",
+      "createAccount": "Gadzira Akaundi Yangu",
+      "title1": "Kurukura nevamwe",
+      "subtitle1": "Kurukurai nyaya dzamunofarira uye mavhesi ebhaibheri nevamwe.",
+      "title2": "Chitoro uye Sync Playlists",
+      "subtitle2": "Vaka zvinyorwa zvezvinhu zvako zvaunofarira mune imwe nzvimbo.",
+      "title3": "Ona Zvaunofarira",
+      "subtitle3": "Chengetedza uye dzoka uye unoshanyira vaunoda pane imwe nguva inotevera.",
+      "title4": "Munogamuchirwazve",
+      "subtitle4": "Gadzira account uye uwane mukana kune ese edu maficha."
+    }
+  },
+  "app": {
+    "close": "pedyo",
+    "accept": "Gamuchira",
+    "reject": "Ramba",
+    "constructionInProgress": "KUVAKA MUKUFAMBIRA MBERI",
+    "downloadComplete": "Dhawunirodha Zadzisa",
+    "downloading": "Kudhanilodha",
+    "downloadFailed": "Download Yakundikana",
+    "sendAFile": "Mumwe Munhu Anoda Kukutumira Iwe Faira"
+  },
+  "transferring": { "tryAgain": "edza zvakare", "close": "pedyo" },
+  "checkDevice": {
+    "check": "Tarisa Chishandiso Chako",
+    "makeSure": "Ndokumbirawo muve nechokwadi chekuti Wifi-Direct yakavhurwa mudziyo weshamwari yako uye iri munzvimbo.",
+    "continue": "Enderera"
+  },
+  "connectToDevice": { "connect": "Unganidza kune Chishandiso" },
+  "pairing": {
+    "connect": "Unganidza kune Chishandiso",
+    "pairing": "Kubatanidza",
+    "success": "Akabudirira Paired",
+    "failed": "Kugadziridza Midziyo Kwakundikana",
+    "makeSure": "Ndokumbirawo muve nechokwadi (Wifi-Direct) yakavhurwa mudziyo weshamwari yako uye iri munzvimbo.",
+    "continue": "Enderera",
+    "tryAgain": "Edza zvakare"
+  },
+  "selectNetworkType": {
+    "connect": "Unganidza kune mudziyo",
+    "share": "Goverana neWifi Direct",
+    "send": "Tumira faira pamusoro pe wifi yakananga?",
+    "continue": "Enderera"
+  }
+}

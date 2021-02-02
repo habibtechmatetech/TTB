@@ -1,0 +1,402 @@
+{
+  "selectLanguage": { "heading": "Zgjidhni gjuhën tuaj aktuale", "mainAction": "Zgjidh gjuhen" },
+  "menu": {
+    "anonymousTitle": "Llogaria juaj",
+    "anonymousAction": "Hyrja",
+    "editProfileAction": "Redakto profilin",
+    "verifyProfileAction": "Verifiko profilin",
+    "bibleSection": "Bibla",
+    "teachingsSection": "Mësime",
+    "librarySection": "Biblioteka ime",
+    "groupsSection": "Grupet",
+    "donateSection": "Dhuroni",
+    "settingsSection": "Cilësimet",
+    "signOut": "Dilni",
+    "modals": {
+      "verifyProfile": {
+        "title": "Ju nuk jeni verifikuar",
+        "message": "Listat tuaja nuk do të sinkronizohen dhe nuk mund të krijoni grupe. Ju lutemi kontrolloni emailin tuaj për të përfunduar regjistrimin.",
+        "firstButton": "Vazhdoni",
+        "secondButton": "Regjistro një profil të ri"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Hyni",
+    "emailPlaceholder": "Emaili juaj",
+    "passwordPlaceholder": "Fjalëkalimi juaj",
+    "forgotAction": "Keni harruar fjalëkalimin?",
+    "callToAction": "Hyni",
+    "signInAlternatives": "Ose Hyni duke përdorur",
+    "noAccountAction": "Nuk ka llogari? Krijo nje",
+    "notifications": {
+      "invalidCredentials": "Kredenciale të pavlefshme",
+      "inProgress": "Identifikohu tashmë në progres",
+      "notAvailable": "Shërbimet e Play nuk ofrohen"
+    }
+  },
+  "signUp": {
+    "header": "Krijo llogari",
+    "emailPlaceholder": "Emaili juaj",
+    "passwordPlaceholder": "Fjalëkalimi juaj",
+    "privateAction": "Bëni llogarinë private",
+    "termsDisclaimer": {
+      "pre": "Duke klikuar Regjistrohuni ju tregoni se keni lexuar dhe jeni dakord me të",
+      "terms": "termat",
+      "post": "."
+    },
+    "callToAction": "Regjistrohu",
+    "signUpAlternatives": "Ose Regjistrohuni duke përdorur",
+    "haveAnAccountAction": "Keni llogari?",
+    "notifications": {
+      "invalidUsername": "Emrat e përdoruesve janë të kufizuar në 20 karaktere alfanumerike (numra dhe shkronja të rregullta)",
+      "invalidPassword": "Fjalëkalimi duhet të ketë të paktën 3 karaktere dhe të jetë një kombinim i karaktereve të mëdha dhe të vogla me të paktën një numër ose karakter të veçantë"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Nuk mund të krijohet një llogari",
+        "message": "Kjo adresë e-mail tashmë ekziston.",
+        "firstButton": "Hyni",
+        "secondButton": "Mbylle"
+      },
+      "privateAccount": {
+        "title": "Llogari private",
+        "message": "Duke e bërë llogarinë tuaj private, ju po e fshehni atë nga zbulimi nga të tjerët.",
+        "firstButton": "Pranoj",
+        "secondButton": "Rënie"
+      },
+      "success": {
+        "title": "Llogaria u krijua!",
+        "message": "Llogaria juaj u krijua me sukses. Kontrolloni kutinë tuaj për të konfirmuar llogarinë tuaj dhe identifikohuni.",
+        "firstButton": "Hyni"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Rivendosni fjalëkalimin",
+    "emailPlaceholder": "Emaili juaj",
+    "message": "Ju lutemi shkruani emailin tuaj për të rivendosur fjalëkalimin tuaj për llogarinë tuaj.",
+    "callToAction": "Rivendosni fjalëkalimin",
+    "notifications": {
+      "success": "Ne sapo kemi dërguar një email në kutinë tuaj",
+      "emailNotFoundError": "Emaili nuk u gjet",
+      "invalidEmailError": "Format i pavlefshëm i postës elektronike"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Përfundo konfigurimin",
+    "message": "Një email është dërguar në adresën e postës elektronike që keni futur. Ju lutemi shikoni detajet e postës elektronike për të përfunduar regjistrimin.",
+    "callToAction": "Kalo tani"
+  },
+  "teachings": {
+    "dailyText": "Transmetimi i sotëm",
+    "journeyTitle": "Filloni Udhëtimin Tuaj",
+    "journeySubtitle": "Të gjitha mësimet nga fillimi në fund",
+    "journeyCardTitle": "Udhëtim Java 215 nëpër Bibël",
+    "journeyCardSubtitle": "Dëgjoni kohën tuaj",
+    "tracksLabel": "Gjurmët"
+  },
+  "teaching": {
+    "header": "Mësime",
+    "loading": "Po ngarkohet ...",
+    "player": {
+      "audioSpeed": "Shpejtësia e audios",
+      "loading": "Po ngarkohet",
+      "castingError": "Nuk ka pajisje të disponueshme"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Vazhdoni të dëgjoni",
+        "secondButton": "Filloni udhëtimin tuaj"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Sipas datës",
+    "bySeries": "Sipas Serive",
+    "sections": { "tracksLabel": "Gjurmët" }
+  },
+  "library": {
+    "header": "Biblioteka ime",
+    "tabs": {
+      "downloads": "Shkarkime",
+      "favorites": "Të preferuarat",
+      "playlists": "Listat e dëgjimit"
+    }
+  },
+  "groups": {
+    "header": "Grupet",
+    "createGroup": {
+      "title": "Krijoni një grup të ri",
+      "groupNameLabel": "EMRI I GRUPIT",
+      "groupNameInputPlaceHolder": "Emrin",
+      "descriptionLabel": "PËRSHKRIM",
+      "descriptionInputPlaceHolder": "Shto përshkrimin",
+      "inviteLabel": "Fto Përdoruesit",
+      "inviteButton": "Fto përdorues të rinj",
+      "button": "Krijo një grup",
+      "invalidGroupName": "Vendosni një emër të vlefshëm",
+      "groupNameTooLong": "Emri i grupit nuk duhet të përmbajë më shumë se 25 karaktere"
+    },
+    "devotionNotStartAlert": "Një devocion nuk ka filluar për këtë grup",
+    "membersLabel": "Anëtarët",
+    "chatModalMemberSubtitleLabel": "anëtar",
+    "chatModalMembersSubtitleLabel": "anëtarët",
+    "chat": {
+      "listeningToLabel": "Duke dëgjuar",
+      "loadingTrackLabel": "Po ngarkon pistën ...",
+      "inputPlaceHolder": "Shkruaj mesazh",
+      "deletePost": "Fshi postimin",
+      "deleteMessage": "ka fshirë një mesazh"
+    },
+    "groupSettings": {
+      "participantsSection": "Pjesëmarrësit",
+      "viewAll": "Shiko te gjitha",
+      "invite": "Fto përdorues të rinj",
+      "endDevotion": "Fundi i Devotshmërisë së Grupit",
+      "deleteGroup": "Fshi grupin",
+      "leaveGroup": "Largohu nga grupi"
+    },
+    "userDirectory": {
+      "header": "Drejtoria e Përdoruesve",
+      "remove": "Hiq",
+      "anonymous": "Anonim",
+      "send": "Dërgoni"
+    },
+    "inviteUser": { "placeHolder": "Kërko", "send": "Dërgoni" }
+  },
+  "chat": {
+    "header": "Kanali i grupit",
+    "settings": {
+      "header": "Cilësimet e grupit",
+      "endDevotion": {
+        "alertTitle": "Fundi i Devotshmërisë",
+        "alertMessage": "A jeni i sigurt që doni t'i jepni fund kësaj devocioni?",
+        "alertCancel": "Anulo",
+        "alertConfirm": "po",
+        "endDevotionLabel": "i dha fund kësaj devocioni.",
+        "hasEnded": "Kjo devotshmëri ka marrë fund"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Filloni devocionin",
+    "alertMessage": "Je i sigurt që dëshiron të fillosh devocionin me grupin% {name}?",
+    "alertCancel": "Anulo",
+    "alertConfirm": "po",
+    "devotionStartedLabel": "ka filluar një devocion."
+  },
+  "settings": {
+    "header": "Cilësimet",
+    "tabs": { "profile": "Profili", "media": "Media", "notifications": "Njoftimet" },
+    "profile": {
+      "account": "Llogari",
+      "username": "Emri i përdoruesit",
+      "email": "Posta elektronike",
+      "editButton": "Redakto",
+      "edit": {
+        "save": "Ruaj",
+        "username": {
+          "header": "Emri i përdoruesit",
+          "successAlert": "Ndryshimi juaj është ruajtur.",
+          "failedAlert": "Ruajtja e ndryshimit dështoi."
+        },
+        "email": {
+          "header": "Email",
+          "successAlert": "Ndryshimi juaj është ruajtur.",
+          "failedAlert": "Ruajtja e ndryshimit dështoi."
+        }
+      },
+      "languages": "Gjuhët",
+      "signIn": "Hyni",
+      "signOut": "Dilni nga llogaria",
+      "legal": "Ligjore",
+      "termsConditions": "Kushtet dhe Kushtet",
+      "privacyPolicy": "Politika e privatësisë",
+      "support": "Mbështetje",
+      "reportAProblem": "Raporto nje problem",
+      "tutorial": "Tutorial",
+      "reportBug": {
+        "header": "Raporto nje problem",
+        "send": "Dërgoni",
+        "subject": "L SNDA",
+        "subjectPlaceHolder": "Lënda",
+        "description": "PËRSHKRIM",
+        "descriptionPlaceHolder": "Përshkrim",
+        "successAlert": "Faleminderit, ne kemi marrë mesazhin tuaj.",
+        "failedAlert": "Dërgimi i mesazhit dështoi."
+      },
+      "version": "Version"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Audio automatike",
+      "storage": "Magazinimi",
+      "downloadWifi": "Shkarkoni vetëm në Wi-fi",
+      "deleteCache": "Fshi Cache"
+    },
+    "notifications": {
+      "notifications": "Njoftimet",
+      "groupInvitation": "Ftesa ne grup",
+      "devotions": "Fto në Devotions",
+      "file": "Konfirmimi i transferimit të skedarit"
+    }
+  },
+  "inviteUsers": { "header": "Fto Përdoruesit" },
+  "playlist": {
+    "header": "Lista për luajtje",
+    "audioFileLabel": "Skedari Audio",
+    "audioFilesLabel": "Skedarët audio"
+  },
+  "collection": { "header": "Mbledhja", "audioFilesLabel": "Skedarët audio" },
+  "modal": {
+    "close": "afër",
+    "addToPlaylist": { "title": "Shto në listë për luajtje", "button": "Krijo listë dëgjimi" },
+    "startDevotion": { "title": "Filloni devocionin" },
+    "createPlaylist": {
+      "title": "Krijo një listë të re për luajtje",
+      "button": "Krijo listë dëgjimi",
+      "inputPlaceholder": "Fut emrin e listës për luajtje",
+      "success": "Shtuar në listën e dëgjimit"
+    },
+    "login": "Duhet të identifikohesh për të filluar një devocion"
+  },
+  "options": {
+    "shared": {
+      "share": "Ndani",
+      "report": "Raporto përmbajtjen",
+      "shareOthers": "Ndani me të tjerët",
+      "copy": "Kopjo Lidhjen",
+      "more": "Më shumë"
+    },
+    "audio": {
+      "download": "Shkarko",
+      "addFavorite": "Shto te të preferuarat",
+      "addPlaylist": "Shto në listë për luajtje",
+      "removeFavorite": "Hiq nga Favorites",
+      "removePlaylist": "Hiq nga lista për luajtje",
+      "removeDownload": "Hiq nga Shkarkimet"
+    },
+    "playlist": { "edit": "Redakto", "delete": "Fshi listën e dëgjimit" },
+    "startDevotion": "Filloni devocionin"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Shtuar në listën e dëgjimit",
+      "delete": "Hequr nga lista për luajtje",
+      "create": "Krijuar listë dëgjimi",
+      "destroy": "Lista e leximit u fshi"
+    },
+    "favorites": { "add": "Shtuar te Favoritet", "remove": "Hequr nga të preferuarat" },
+    "downloads": { "remove": "Hequr nga Shkarkimet" }
+  },
+  "buttons": { "loop": "Lak", "shuffle": "Shkartisje" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Kërko ..." },
+    "notification": { "success": "Sukses! Një email do të dërgohet në llogarinë tuaj." },
+    "button": { "sending": "Po dërgon ..." },
+    "modalSelector": { "cancel": "Anulo" },
+    "loading": "Po ngarkohet"
+  },
+  "bible": {
+    "header": "Bibla",
+    "oldTestament": "Dhiata e Vjetër",
+    "newTestament": "Dhjata e Re",
+    "popularBooks": "Libra të njohur"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Kërko",
+    "cancelButton": "ANULOJ",
+    "searchResults": "Rezultatet e Kërkimit",
+    "filterButton": "Filtri",
+    "teachings": { "title": "Mësime" },
+    "bible": { "title": "Bibla" }
+  },
+  "addToPlaylistsModal": { "title": "Shto në listë për luajtje", "button": "Krijo listë dëgjimi" },
+  "createPlaylistModal": {
+    "title": "Krijo një listë të re për luajtje",
+    "button": "Krijo listë dëgjimi",
+    "inputPlaceholder": "Fut emrin e listës për luajtje"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Shtuar në listën e dëgjimit",
+      "remove": "Hequr nga lista për luajtje",
+      "create": "Krijuar listë dëgjimi",
+      "delete": "Lista e leximit u fshi"
+    },
+    "favorites": { "add": "Shtuar te Favoritet", "remove": "Hequr nga të preferuarat" },
+    "downloads": { "remove": "Hequr nga Shkarkimet" },
+    "facebook": { "loginError": "Identifikimi dështon me gabim" },
+    "google": { "loginError": "Identifikimi dështon me gabim" }
+  },
+  "playlists": { "trackLabel": "Pista", "tracksLabel": "Gjurmët" },
+  "mediaList": { "tracksLabel": "Gjurmët", "remove": "Hiq" },
+  "tutorialPage": { "done": "Bërë", "skip": "Kapërce" },
+  "loginModal": { "login": "Hyrja" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Cicëroj", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Po shkarkohet", "complete": "Shkarkimi përfundoi" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Eksploroni Biblën",
+      "subtitle1": "Udhëtoni nëpër të gjithë Biblën me ne, ose filloni një udhëtim tuajin.",
+      "title2": "Dëgjo dhe angazhohu",
+      "subtitle2": "Media player ju lejon të zhyteni në THRU me përmbajtje BIBLE me lehtësi.",
+      "title3": "Zbuloni Mësimet",
+      "subtitle3": "Merrni pjesë në Bibël si kurrë më parë duke referuar ndërthurur Biblën dhe Përmbajtjen Mësimore.",
+      "title4": "Diskutoni për Biblën",
+      "subtitle4": "Bashkohuni me një grup për të studiuar me të tjerët mësimet dhe temat THRU të BIBLS.",
+      "title5": "Shkarkoni & Ndani",
+      "subtitle5": "Kënaquni të dëgjoni Fjalën e Zotit gjatë lëvizjes dhe ndani atë me miqtë tuaj.",
+      "title6": "Ruaj & Krijo",
+      "subtitle6": "Ruani mësimet tuaja të preferuara dhe vargjet biblike ose krijoni një listë dëgjimi të personalizuar.",
+      "title7": "Devocionet në grup",
+      "subtitle7": "Jini të inkurajuar dhe frymëzuar nga të tjerët me përkushtime të përditshme në grup."
+    },
+    "registerPage": {
+      "noThanks": "Jo faleminderit",
+      "haveAccount": "Keni llogari?",
+      "createAccount": "Krijoni llogarinë time",
+      "title1": "Diskutoni me të tjerët",
+      "subtitle1": "Diskutoni mbi temat tuaja të preferuara dhe vargjet biblike me të tjerët.",
+      "title2": "Ruaj dhe sinkronizo listat e dëgjimit",
+      "subtitle2": "Ndërtoni listat e përmbajtjes tuaj të preferuar në një vend.",
+      "title3": "Shihni Favoritet tuaja",
+      "subtitle3": "Ruani dhe kthehuni dhe vizitoni të preferuarat tuaja në një kohë më vonë.",
+      "title4": "Mirëse u ktheve",
+      "subtitle4": "Krijoni një llogari dhe merrni qasje në të gjitha tiparet tona."
+    }
+  },
+  "app": {
+    "close": "afër",
+    "accept": "Pranoj",
+    "reject": "Refuzo",
+    "constructionInProgress": "NDERTIMI NE PROGRES",
+    "downloadComplete": "Shkarkimi përfundoi",
+    "downloading": "Po shkarkohet",
+    "downloadFailed": "Shkarkimi deshtoi",
+    "sendAFile": "Dikush dëshiron t'ju dërgojë një skedar"
+  },
+  "transferring": { "tryAgain": "Provo përsëri", "close": "afër" },
+  "checkDevice": {
+    "check": "Kontrolloni pajisjen tuaj",
+    "makeSure": "Ju lutemi sigurohuni që Wifi-Direct është ndezur në pajisjen e mikut tuaj dhe se është në distancë.",
+    "continue": "Vazhdoni"
+  },
+  "connectToDevice": { "connect": "Lidhu me një pajisje" },
+  "pairing": {
+    "connect": "Lidhu me një pajisje",
+    "pairing": "Çiftimi",
+    "success": "Çiftëzohet me sukses",
+    "failed": "Çiftimi i pajisjes dështoi",
+    "makeSure": "Ju lutemi sigurohuni që (Wifi-Direct) është i ndezur në pajisjen e mikut tuaj dhe është në diapazon.",
+    "continue": "Vazhdoni",
+    "tryAgain": "Provo përsëri"
+  },
+  "selectNetworkType": {
+    "connect": "Lidhu me një pajisje",
+    "share": "Ndani me Wifi Direct",
+    "send": "Të dërgohet skedari përmes wifi direkt?",
+    "continue": "Vazhdoni"
+  }
+}

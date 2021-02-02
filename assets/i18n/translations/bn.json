@@ -1,0 +1,398 @@
+{
+  "selectLanguage": {
+    "heading": "আপনার বর্তমান ভাষা নির্বাচন করুন",
+    "mainAction": "ভাষা নির্বাচন কর"
+  },
+  "menu": {
+    "anonymousTitle": "আপনার অ্যাকাউন্ট",
+    "anonymousAction": "প্রবেশ করুন",
+    "editProfileAction": "জীবন বৃত্তান্ত সম্পাদনা",
+    "verifyProfileAction": "প্রোফাইল যাচাই করুন",
+    "bibleSection": "বাইবেল",
+    "teachingsSection": "শিক্ষা",
+    "librarySection": "আমার গ্রন্থাগার",
+    "groupsSection": "দল",
+    "donateSection": "দান করুন",
+    "settingsSection": "সেটিংস",
+    "signOut": "সাইন আউট",
+    "modals": {
+      "verifyProfile": {
+        "title": "আপনি যাচাই করা হয় না",
+        "message": "আপনার তালিকাগুলি সিঙ্ক হবে না এবং আপনি গ্রুপ তৈরি করতে পারবেন না। নিবন্ধন সম্পূর্ণ করতে আপনার ইমেল চেক করুন।",
+        "firstButton": "চালিয়ে যান",
+        "secondButton": "একটি নতুন প্রোফাইল নিবন্ধন করুন"
+      }
+    }
+  },
+  "signIn": {
+    "header": "সাইন ইন করুন",
+    "emailPlaceholder": "তোমার ইমেইল",
+    "passwordPlaceholder": "আপনার পাসওয়ার্ড",
+    "forgotAction": "পাসওয়ার্ড ভুলে গেছেন?",
+    "callToAction": "সাইন ইন করুন",
+    "signInAlternatives": "অথবা সাইন ইন ব্যবহার করে",
+    "noAccountAction": "কোন অ্যাকাউন্ট নেই? একটি তৈরী কর",
+    "notifications": {
+      "invalidCredentials": "অবৈধ প্রশংসাপত্র",
+      "inProgress": "সাইন ইন ইতিমধ্যে চলছে in",
+      "notAvailable": "প্লে পরিষেবাদি অনুপলব্ধ"
+    }
+  },
+  "signUp": {
+    "header": "হিসাব তৈরি কর",
+    "emailPlaceholder": "তোমার ইমেইল",
+    "passwordPlaceholder": "আপনার পাসওয়ার্ড",
+    "privateAction": "অ্যাকাউন্টটি ব্যক্তিগত করুন Make",
+    "termsDisclaimer": {
+      "pre": "সাইনআপ ক্লিক করে আপনি ইঙ্গিত করেন যে আপনি পড়েছেন এবং এতে সম্মত হয়েছেন",
+      "terms": "শর্ত সমূহ",
+      "post": "।"
+    },
+    "callToAction": "নিবন্ধন করুন",
+    "signUpAlternatives": "অথবা ব্যবহার করে সাইন আপ করুন",
+    "haveAnAccountAction": "একাউন্ট আছে?",
+    "notifications": {
+      "invalidUsername": "ব্যবহারকারীর নামগুলি 20 বর্ণমালার অক্ষরে সীমাবদ্ধ (সংখ্যা এবং নিয়মিত অক্ষর)",
+      "invalidPassword": "পাসওয়ার্ডে কমপক্ষে 3 টি অক্ষর থাকতে হবে এবং কমপক্ষে একটি নম্বর বা বিশেষ অক্ষরের সাথে বড় এবং নিম্নতর অক্ষরের সংমিশ্রণ হওয়া উচিত"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "একটি অ্যাকাউন্ট তৈরি করতে অক্ষম",
+        "message": "এই ইমেইল ঠিকানাটি ইতিমধ্যেই বিদ্যমান.",
+        "firstButton": "সাইন ইন করুন",
+        "secondButton": "বন্ধ"
+      },
+      "privateAccount": {
+        "title": "ব্যক্তিগত অ্যাকাউন্ট",
+        "message": "আপনার অ্যাকাউন্টটি ব্যক্তিগত করে, আপনি এটি অন্যের দ্বারা আবিষ্কার হতে আড়াল করছেন।",
+        "firstButton": "গ্রহণ করুন",
+        "secondButton": "অস্বীকার"
+      },
+      "success": {
+        "title": "অ্যাকাউন্ট তৈরি!",
+        "message": "আপনার অ্যাকাউন্ট সফলভাবে তৈরি হয়েছে. আপনার অ্যাকাউন্টটি নিশ্চিত করতে এবং সাইন ইন করতে আপনার ইনবক্সটি দেখুন।",
+        "firstButton": "সাইন ইন করুন"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "পাসওয়ার্ড রিসেট করুন",
+    "emailPlaceholder": "তোমার ইমেইল",
+    "message": "আপনার অ্যাকাউন্টের জন্য আপনার পাসওয়ার্ডটি পুনরায় সেট করতে দয়া করে আপনার ইমেল প্রবেশ করান।",
+    "callToAction": "পাসওয়ার্ড রিসেট করুন",
+    "notifications": {
+      "success": "আমরা কেবলমাত্র আপনার ইনবক্সে একটি ইমেল প্রেরণ করেছি",
+      "emailNotFoundError": "ইমেল পাওয়া যায় নি",
+      "invalidEmailError": "অবৈধ ইমেল বিন্যাস"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "সেটআপ শেষ করুন",
+    "message": "আপনার প্রবেশ করা ইমেল ঠিকানায় একটি ইমেল প্রেরণ করা হয়েছে। নিবন্ধকরণ সম্পূর্ণ করতে ইমেল বিবরণ দেখুন।",
+    "callToAction": "যথোপযুক্ত সৃষ্টিকর্তা"
+  },
+  "teachings": {
+    "dailyText": "আজকের সম্প্রচার",
+    "journeyTitle": "আপনার যাত্রা শুরু করুন",
+    "journeySubtitle": "শুরু থেকে শেষ পর্যন্ত সমস্ত শিক্ষা",
+    "journeyCardTitle": "বাইবেল মাধ্যমে 215 সপ্তাহ যাত্রা",
+    "journeyCardSubtitle": "আপনার সময় শুনুন",
+    "tracksLabel": "ট্র্যাক"
+  },
+  "teaching": {
+    "header": "শিক্ষা",
+    "loading": "লোড হচ্ছে ...",
+    "player": {
+      "audioSpeed": "অডিও গতি",
+      "loading": "লোড হচ্ছে",
+      "castingError": "কোনও ডিভাইস উপলব্ধ নেই"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "শোনা চালিয়ে যান", "secondButton": "আপনার যাত্রা শুরু করুন" }
+    }
+  },
+  "journey": {
+    "byDate": "তারিখ অনুসারে",
+    "bySeries": "সিরিজ দ্বারা",
+    "sections": { "tracksLabel": "ট্র্যাক" }
+  },
+  "library": {
+    "header": "আমার গ্রন্থাগার",
+    "tabs": { "downloads": "ডাউনলোড", "favorites": "পছন্দসই", "playlists": "প্লেলিস্ট" }
+  },
+  "groups": {
+    "header": "দল",
+    "createGroup": {
+      "title": "নতুন গ্রুপ তৈরি করুন",
+      "groupNameLabel": "দলের নাম",
+      "groupNameInputPlaceHolder": "নাম",
+      "descriptionLabel": "বর্ণনা",
+      "descriptionInputPlaceHolder": "বর্ণনা যোগ",
+      "inviteLabel": "ব্যবহারকারীদের আমন্ত্রণ করুন",
+      "inviteButton": "নতুন ব্যবহারকারীদের আমন্ত্রণ জানান",
+      "button": "দল গঠন",
+      "invalidGroupName": "একটি বৈধ নাম লিখুন",
+      "groupNameTooLong": "গোষ্ঠীর নামটিতে 25 টিরও বেশি অক্ষর থাকতে হবে না"
+    },
+    "devotionNotStartAlert": "এই গোষ্ঠীর জন্য কোনও ভক্তি শুরু হয়নি",
+    "membersLabel": "সদস্যরা",
+    "chatModalMemberSubtitleLabel": "সদস্য",
+    "chatModalMembersSubtitleLabel": "সদস্য",
+    "chat": {
+      "listeningToLabel": "শোনা",
+      "loadingTrackLabel": "ট্র্যাক লোড হচ্ছে ...",
+      "inputPlaceHolder": "বার্তা লিখুন",
+      "deletePost": "পোস্ট মুছুন",
+      "deleteMessage": "একটি বার্তা মুছে ফেলেছে"
+    },
+    "groupSettings": {
+      "participantsSection": "অংশগ্রহণকারীরা",
+      "viewAll": "সব দেখ",
+      "invite": "নতুন ব্যবহারকারীদের আমন্ত্রণ জানান",
+      "endDevotion": "সমাপ্ত গ্রুপ ভক্তি",
+      "deleteGroup": "দল মুছুন",
+      "leaveGroup": "দল পরিত্যাগ করুন"
+    },
+    "userDirectory": {
+      "header": "ব্যবহারকারী ডিরেক্টরি",
+      "remove": "অপসারণ",
+      "anonymous": "নামবিহীন",
+      "send": "প্রেরণ"
+    },
+    "inviteUser": { "placeHolder": "অনুসন্ধান করুন", "send": "প্রেরণ" }
+  },
+  "chat": {
+    "header": "গ্রুপ চ্যানেল",
+    "settings": {
+      "header": "গ্রুপ সেটিংস",
+      "endDevotion": {
+        "alertTitle": "ভক্তি শেষ",
+        "alertMessage": "আপনি কি এই নিষ্ঠাটি শেষ করতে চান?",
+        "alertCancel": "বাতিল",
+        "alertConfirm": "হ্যাঁ",
+        "endDevotionLabel": "এই নিষ্ঠা শেষ।",
+        "hasEnded": "এই ভক্তি শেষ হয়েছে"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "ভক্তি শুরু করুন",
+    "alertMessage": "আপনি কি নিশ্চিত যে% {নাম} গোষ্ঠী দিয়ে ভক্তি শুরু করতে চান?",
+    "alertCancel": "বাতিল",
+    "alertConfirm": "হ্যাঁ",
+    "devotionStartedLabel": "একটি ভক্তি শুরু করেছে।"
+  },
+  "settings": {
+    "header": "সেটিংস",
+    "tabs": { "profile": "প্রোফাইল", "media": "মিডিয়া", "notifications": "বিজ্ঞপ্তি" },
+    "profile": {
+      "account": "হিসাব",
+      "username": "ব্যবহারকারীর নাম",
+      "email": "ই-মেইল",
+      "editButton": "সম্পাদনা করুন",
+      "edit": {
+        "save": "সংরক্ষণ",
+        "username": {
+          "header": "ব্যবহারকারীর নাম",
+          "successAlert": "আপনার পরিবর্তন সংরক্ষণ করা হয়েছে।",
+          "failedAlert": "পরিবর্তনটি সংরক্ষণ করতে ব্যর্থ।"
+        },
+        "email": {
+          "header": "ইমেল",
+          "successAlert": "আপনার পরিবর্তন সংরক্ষণ করা হয়েছে।",
+          "failedAlert": "পরিবর্তনটি সংরক্ষণ করতে ব্যর্থ।"
+        }
+      },
+      "languages": "ভাষা",
+      "signIn": "সাইন ইন করুন",
+      "signOut": "সাইন আউট অ্যাকাউন্ট",
+      "legal": "আইনী",
+      "termsConditions": "শর্তাবলী",
+      "privacyPolicy": "গোপনীয়তা নীতি",
+      "support": "সমর্থন",
+      "reportAProblem": "একটি সমস্যা রিপোর্ট করুন",
+      "tutorial": "টিউটোরিয়াল",
+      "reportBug": {
+        "header": "একটি সমস্যা রিপোর্ট করুন",
+        "send": "প্রেরণ",
+        "subject": "সাবজেক্ট CT",
+        "subjectPlaceHolder": "বিষয়",
+        "description": "বর্ণনা",
+        "descriptionPlaceHolder": "বর্ণনা",
+        "successAlert": "আপনাকে ধন্যবাদ, আমরা আপনার বার্তা পেয়েছি।",
+        "failedAlert": "বার্তা প্রেরণে ব্যর্থ।"
+      },
+      "version": "সংস্করণ"
+    },
+    "media": {
+      "audio": "শ্রুতি",
+      "autoplay": "অটোপ্লে অডিও",
+      "storage": "স্টোরেজ",
+      "downloadWifi": "কেবলমাত্র Wi-Fi এ ডাউনলোড করুন",
+      "deleteCache": "ক্যাশে মুছুন"
+    },
+    "notifications": {
+      "notifications": "বিজ্ঞপ্তি",
+      "groupInvitation": "গ্রুপ আমন্ত্রণ",
+      "devotions": "ভক্তিতে আমন্ত্রণ জানান",
+      "file": "ফাইল স্থানান্তর নিশ্চিতকরণ"
+    }
+  },
+  "inviteUsers": { "header": "ব্যবহারকারীদের আমন্ত্রণ করুন" },
+  "playlist": {
+    "header": "প্লেলিস্ট",
+    "audioFileLabel": "অডিও ফাইল",
+    "audioFilesLabel": "অডিও ফাইল"
+  },
+  "collection": { "header": "সংগ্রহ", "audioFilesLabel": "অডিও ফাইল" },
+  "modal": {
+    "close": "বন্ধ",
+    "addToPlaylist": { "title": "প্লেলিস্টে যুক্ত করুন", "button": "প্লেলিস্ট তৈরি করুন" },
+    "startDevotion": { "title": "ভক্তি শুরু করুন" },
+    "createPlaylist": {
+      "title": "নতুন প্লেলিস্ট তৈরি",
+      "button": "প্লেলিস্ট তৈরি করুন",
+      "inputPlaceholder": "প্লেলিস্ট নাম লিখুন",
+      "success": "প্লেলিস্টে যুক্ত হয়েছে"
+    },
+    "login": "একটি নিষ্ঠা শুরু করার জন্য আপনাকে লগইন করতে হবে"
+  },
+  "options": {
+    "shared": {
+      "share": "ভাগ করুন",
+      "report": "বিষয়বস্তু রিপোর্ট করুন",
+      "shareOthers": "অন্যদের সাথে ভাগ করুন",
+      "copy": "লিংক কপি করুন",
+      "more": "আরও"
+    },
+    "audio": {
+      "download": "ডাউনলোড করুন",
+      "addFavorite": "ফেভারিটে যোগ করুন",
+      "addPlaylist": "প্লেলিস্টে যুক্ত করুন",
+      "removeFavorite": "পছন্দের তালিকা থেকে অপসারণ",
+      "removePlaylist": "প্লেলিস্ট থেকে সরান",
+      "removeDownload": "ডাউনলোডগুলি থেকে সরান"
+    },
+    "playlist": { "edit": "সম্পাদনা করুন", "delete": "প্লেলিস্ট মুছুন" },
+    "startDevotion": "ভক্তি শুরু করুন"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "প্লেলিস্টে যুক্ত হয়েছে",
+      "delete": "প্লেলিস্ট থেকে সরানো হয়েছে",
+      "create": "প্লেলিস্ট তৈরি হয়েছে",
+      "destroy": "মোছা প্লেলিস্ট"
+    },
+    "favorites": { "add": "প্রিয়তে যুক্ত হয়েছে", "remove": "পছন্দসই থেকে সরানো হয়েছে" },
+    "downloads": { "remove": "ডাউনলোডগুলি থেকে সরানো হয়েছে" }
+  },
+  "buttons": { "loop": "লুপ", "shuffle": "অদলবদল" },
+  "uiControls": {
+    "searchBox": { "placeholder": "অনুসন্ধান করুন ..." },
+    "notification": { "success": "সাফল্য! আপনার অ্যাকাউন্টে একটি ইমেল প্রেরণ করা হবে।" },
+    "button": { "sending": "পাঠানো হচ্ছে ..." },
+    "modalSelector": { "cancel": "বাতিল" },
+    "loading": "লোড হচ্ছে"
+  },
+  "bible": {
+    "header": "বাইবেল",
+    "oldTestament": "ওল্ড টেস্টামেন্ট",
+    "newTestament": "নববিধান",
+    "popularBooks": "জনপ্রিয় বই"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "অনুসন্ধান করুন",
+    "cancelButton": "বাতিল",
+    "searchResults": "অনুসন্ধান ফলাফল",
+    "filterButton": "ছাঁকনি",
+    "teachings": { "title": "শিক্ষা" },
+    "bible": { "title": "বাইবেল" }
+  },
+  "addToPlaylistsModal": { "title": "প্লেলিস্টে যুক্ত করুন", "button": "প্লেলিস্ট তৈরি করুন" },
+  "createPlaylistModal": {
+    "title": "নতুন প্লেলিস্ট তৈরি",
+    "button": "প্লেলিস্ট তৈরি করুন",
+    "inputPlaceholder": "প্লেলিস্ট নাম লিখুন"
+  },
+  "alert": {
+    "playlists": {
+      "add": "প্লেলিস্টে যুক্ত হয়েছে",
+      "remove": "প্লেলিস্ট থেকে সরানো হয়েছে",
+      "create": "প্লেলিস্ট তৈরি হয়েছে",
+      "delete": "মোছা প্লেলিস্ট"
+    },
+    "favorites": { "add": "প্রিয়তে যুক্ত হয়েছে", "remove": "পছন্দসই থেকে সরানো হয়েছে" },
+    "downloads": { "remove": "ডাউনলোডগুলি থেকে সরানো হয়েছে" },
+    "facebook": { "loginError": "লগইন ত্রুটি সহ ব্যর্থ" },
+    "google": { "loginError": "লগইন ত্রুটি সহ ব্যর্থ" }
+  },
+  "playlists": { "trackLabel": "ট্র্যাক", "tracksLabel": "ট্র্যাক" },
+  "mediaList": { "tracksLabel": "ট্র্যাক", "remove": "অপসারণ" },
+  "tutorialPage": { "done": "সম্পন্ন", "skip": "এড়িয়ে যান" },
+  "loginModal": { "login": "প্রবেশ করুন" },
+  "shareModal": { "facebook": "ফেসবুক", "twitter": "টুইটার", "whatsapp": "হোয়াটসঅ্যাপ" },
+  "downloadModal": { "downloading": "ডাউনলোড হচ্ছে", "complete": "ডাউনলোড শেষ" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "বাইবেল অন্বেষণ করুন",
+      "subtitle1": "আমাদের সাথে পুরো বাইবেল জুড়ে ভ্রমণ করুন, বা আপনার নিজস্ব যাত্রা শুরু করুন।",
+      "title2": "শোনো ও নিযুক্ত কর",
+      "subtitle2": "মিডিয়া প্লেয়ারটি আপনাকে স্বাচ্ছন্দ্যে বাইবেলের বিষয়বস্তু THRU এ ডুব দিতে দেয়।",
+      "title3": "শিক্ষণগুলি আবিষ্কার করুন",
+      "subtitle3": "বাইবেল ও শিক্ষণীয় বিষয়বস্তুকে ক্রস-রেফারেন্সের মাধ্যমে আগে কখনও বাইবেলে নিযুক্ত করুন।",
+      "title4": "বাইবেল আলোচনা",
+      "subtitle4": "THRU বাইবেল শিক্ষা এবং অন্যদের সাথে বিষয়গুলি অধ্যয়ন করতে একটি গ্রুপে যোগদান করুন।",
+      "title5": "ডাউনলোড এবং ভাগ করুন",
+      "subtitle5": "চলতে চলতে ofশ্বরের বাক্য শোনার উপভোগ করুন এবং এটি আপনার বন্ধুদের সাথে ভাগ করুন।",
+      "title6": "সংরক্ষণ করুন এবং তৈরি করুন",
+      "subtitle6": "আপনার পছন্দসই শিক্ষা এবং বাইবেলের আয়াতগুলি সংরক্ষণ করুন বা একটি কাস্টম প্লেলিস্ট তৈরি করুন।",
+      "title7": "গ্রুপ ভক্তি",
+      "subtitle7": "প্রতিদিনের গ্রুপ ভক্তি সহ অন্যদের দ্বারা উত্সাহিত এবং অনুপ্রাণিত হন।"
+    },
+    "registerPage": {
+      "noThanks": "না ধন্যবাদ",
+      "haveAccount": "একাউন্ট আছে?",
+      "createAccount": "আমার একাউন্ট তৈরি কর",
+      "title1": "অন্যদের সাথে আলোচনা করুন",
+      "subtitle1": "আপনার প্রিয় বিষয় এবং বাইবেলের আয়াতগুলি অন্যদের সাথে আলোচনা করুন।",
+      "title2": "প্লেলিস্টগুলি স্টোর এবং সিঙ্ক করুন",
+      "subtitle2": "আপনার প্রিয় সামগ্রীর তালিকাগুলি এক জায়গায় তৈরি করুন।",
+      "title3": "আপনার প্রিয় দেখুন",
+      "subtitle3": "সংরক্ষণ করুন এবং ফিরে আসুন এবং পরে আপনার প্রিয় পছন্দগুলি দেখুন visit",
+      "title4": "ফিরে আসার জন্য স্বাগতম",
+      "subtitle4": "একটি অ্যাকাউন্ট তৈরি করুন এবং আমাদের সমস্ত বৈশিষ্ট্যে অ্যাক্সেস পান।"
+    }
+  },
+  "app": {
+    "close": "বন্ধ",
+    "accept": "গ্রহণ করুন",
+    "reject": "প্রত্যাখ্যান",
+    "constructionInProgress": "অগ্রগতি নির্মাণ",
+    "downloadComplete": "ডাউনলোড শেষ",
+    "downloading": "ডাউনলোড হচ্ছে",
+    "downloadFailed": "ডাউনলোড ব্যর্থ হয়েছে",
+    "sendAFile": "কেউ আপনাকে ফাইল পাঠাতে চায় W"
+  },
+  "transferring": { "tryAgain": "আবার চেষ্টা কর", "close": "বন্ধ" },
+  "checkDevice": {
+    "check": "আপনার ডিভাইসটি পরীক্ষা করুন",
+    "makeSure": "দয়া করে নিশ্চিত করুন যে আপনার বন্ধুটির ডিভাইসটি ওয়াইফাই-ডাইরেক্ট চালু হয়েছে এবং এটি সীমার মধ্যে রয়েছে।",
+    "continue": "চালিয়ে যান"
+  },
+  "connectToDevice": { "connect": "একটি ডিভাইসে সংযুক্ত করুন" },
+  "pairing": {
+    "connect": "একটি ডিভাইসে সংযুক্ত করুন",
+    "pairing": "জুটি বাঁধছে",
+    "success": "সফলভাবে পেয়ার করা হয়েছে",
+    "failed": "ডিভাইস যুক্ত করা ব্যর্থ হয়েছে",
+    "makeSure": "দয়া করে নিশ্চিত করুন (ওয়াইফাই-ডাইরেক্ট) আপনার বন্ধুর ডিভাইস চালু আছে এবং এটি সীমার মধ্যে রয়েছে।",
+    "continue": "চালিয়ে যান",
+    "tryAgain": "আবার চেষ্টা কর"
+  },
+  "selectNetworkType": {
+    "connect": "একটি ডিভাইসে সংযুক্ত করুন",
+    "share": "ওয়াইফাই ডাইরেক্টের সাথে ভাগ করুন",
+    "send": "ওয়াইফাইয়ের মাধ্যমে ফাইল সরাসরি পাঠাবেন?",
+    "continue": "চালিয়ে যান"
+  }
+}

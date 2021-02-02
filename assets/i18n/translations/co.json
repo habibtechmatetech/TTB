@@ -1,0 +1,401 @@
+{
+  "selectLanguage": {
+    "heading": "Sceglite a vostra lingua attuale",
+    "mainAction": "Selezziunà Lingua"
+  },
+  "menu": {
+    "anonymousTitle": "U vostru contu",
+    "anonymousAction": "Cunnessione",
+    "editProfileAction": "Mudificà u prufilu",
+    "verifyProfileAction": "Verificate u prufilu",
+    "bibleSection": "Bibbia",
+    "teachingsSection": "Insignamenti",
+    "librarySection": "A mo Bibliuteca",
+    "groupsSection": "Gruppi",
+    "donateSection": "Donate",
+    "settingsSection": "Impostazioni",
+    "signOut": "Sorte",
+    "modals": {
+      "verifyProfile": {
+        "title": "Ùn site micca verificatu",
+        "message": "E vostre liste ùn seranu micca sincronizate è ùn pudete micca creà gruppi. Per piacè verificate u vostru email per cumplettà a registrazione.",
+        "firstButton": "Cuntinuà",
+        "secondButton": "Arregistrà un novu prufilu"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Firmà lu",
+    "emailPlaceholder": "U vostru email",
+    "passwordPlaceholder": "U vostru Password",
+    "forgotAction": "Dimenticatu u Password?",
+    "callToAction": "Firmà lu",
+    "signInAlternatives": "O Accedi cù",
+    "noAccountAction": "Mancu contu? Creà unu",
+    "notifications": {
+      "invalidCredentials": "Credenziali invalide",
+      "inProgress": "Accedi dighjà in corsu",
+      "notAvailable": "I servizii di ghjocu ùn sò micca dispunibili"
+    }
+  },
+  "signUp": {
+    "header": "Creà un contu",
+    "emailPlaceholder": "U vostru email",
+    "passwordPlaceholder": "U vostru Password",
+    "privateAction": "Rende u Contu Privatu",
+    "termsDisclaimer": {
+      "pre": "Clicchendu Iscriviti indichi chì avete lettu è accettatu",
+      "terms": "i termini",
+      "post": "."
+    },
+    "callToAction": "Firma",
+    "signUpAlternatives": "O Iscriviti aduprendu",
+    "haveAnAccountAction": "Avete un contu?",
+    "notifications": {
+      "invalidUsername": "I nomi d'utilizatori sò limitati à 20 caratteri alfanumerici (numeri è lettere regulare)",
+      "invalidPassword": "A parolla d'intesa duveria avè almenu 3 caratteri è esse una cumbinazione di caratteri maiusculi è minusculi cù almenu un numeru o un caratteru speciale"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Impussibule di creà un contu",
+        "message": "St'indirizzu email esiste dighjà.",
+        "firstButton": "Firmà lu",
+        "secondButton": "Vicinu"
+      },
+      "privateAccount": {
+        "title": "Contu Privatu",
+        "message": "Facendu u vostru contu privatu, u piattate da ch'ellu sia scupertu da altri.",
+        "firstButton": "Accetta",
+        "secondButton": "Calà"
+      },
+      "success": {
+        "title": "Cuntu creatu!",
+        "message": "U vostru contu hè statu creatu cù successu. Verificate a vostra casella di ricezione per cunfirmà u vostru contu è accede.",
+        "firstButton": "Firmà lu"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Resettate a password",
+    "emailPlaceholder": "U vostru email",
+    "message": "Inserite u vostru email per resettà a vostra password per u vostru contu.",
+    "callToAction": "Resettate a password",
+    "notifications": {
+      "success": "Avemu ghjustu mandatu un email à a vostra casella di ricezione",
+      "emailNotFoundError": "L'email ùn hè micca stata trovata",
+      "invalidEmailError": "Formatu d'email invalidu"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Finisci a Configurazione",
+    "message": "Un email hè statu mandatu à l'indirizzu email chì avete inseritu. Per piacè vede l'infurmazioni per e-mail per cumplettà a registrazione.",
+    "callToAction": "Saltate per Avà"
+  },
+  "teachings": {
+    "dailyText": "Trasmissione d'oghje",
+    "journeyTitle": "Principià u vostru viaghju",
+    "journeySubtitle": "Tutti l'insignamenti da u principiu à a fine",
+    "journeyCardTitle": "215 Settimana Viaghju attraversu a Bibbia",
+    "journeyCardSubtitle": "State à sente u vostru tempu",
+    "tracksLabel": "Piste"
+  },
+  "teaching": {
+    "header": "Insignamenti",
+    "loading": "Caricamentu ...",
+    "player": {
+      "audioSpeed": "Velocità Audio",
+      "loading": "Caricamentu",
+      "castingError": "Nisun Dispositivu Disponibile"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Cuntinuà à sente",
+        "secondButton": "Principià u vostru viaghju"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Per Data",
+    "bySeries": "Per Serie",
+    "sections": { "tracksLabel": "Piste" }
+  },
+  "library": {
+    "header": "A mo Bibliuteca",
+    "tabs": { "downloads": "Scaricamenti", "favorites": "Favuriti", "playlists": "Playlists" }
+  },
+  "groups": {
+    "header": "Gruppi",
+    "createGroup": {
+      "title": "Creà Novu Gruppu",
+      "groupNameLabel": "NOME DI U GRUPPU",
+      "groupNameInputPlaceHolder": "Nome",
+      "descriptionLabel": "DESCRIZIONE",
+      "descriptionInputPlaceHolder": "Aghjunghje descrizzione",
+      "inviteLabel": "Invite l'utilizatori",
+      "inviteButton": "Invita Usuarii Novi",
+      "button": "Crea Gruppu",
+      "invalidGroupName": "Inserite un nome validu",
+      "groupNameTooLong": "U nome di u gruppu ùn deve cuntene più di 25 caratteri"
+    },
+    "devotionNotStartAlert": "Una devozione ùn hè micca principiata per stu gruppu",
+    "membersLabel": "Membri",
+    "chatModalMemberSubtitleLabel": "membru",
+    "chatModalMembersSubtitleLabel": "membri",
+    "chat": {
+      "listeningToLabel": "Ascultendu",
+      "loadingTrackLabel": "Caricamentu di a pista ...",
+      "inputPlaceHolder": "Scrive Messaghju",
+      "deletePost": "Sguassà u Post",
+      "deleteMessage": "hà sguassatu un missaghju"
+    },
+    "groupSettings": {
+      "participantsSection": "Participanti",
+      "viewAll": "Vede Tuttu",
+      "invite": "Invita Usuarii Novi",
+      "endDevotion": "End Devozione di Gruppu",
+      "deleteGroup": "Sguassà u Gruppu",
+      "leaveGroup": "Lascià u Gruppu"
+    },
+    "userDirectory": {
+      "header": "Directory di l'utilizatori",
+      "remove": "Cacciate",
+      "anonymous": "Anonimu",
+      "send": "Mandà"
+    },
+    "inviteUser": { "placeHolder": "Cerca", "send": "Mandà" }
+  },
+  "chat": {
+    "header": "Canale di Gruppu",
+    "settings": {
+      "header": "Impostazioni di Gruppu",
+      "endDevotion": {
+        "alertTitle": "Fine Devozione",
+        "alertMessage": "Site sicuru di vulè finisce sta devozione?",
+        "alertCancel": "Annulla",
+        "alertConfirm": "Iè",
+        "endDevotionLabel": "finita sta devozione.",
+        "hasEnded": "Sta devozione hè finita"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Principià Devozione",
+    "alertMessage": "Site sicuru di vulè principià a devozione cù u gruppu% {name}?",
+    "alertCancel": "Annulla",
+    "alertConfirm": "Iè",
+    "devotionStartedLabel": "hà iniziatu una devozione."
+  },
+  "settings": {
+    "header": "Impostazioni",
+    "tabs": { "profile": "Prufilu", "media": "Media", "notifications": "Notificazioni" },
+    "profile": {
+      "account": "Contu",
+      "username": "Nome d'utilizatore",
+      "email": "E-mail",
+      "editButton": "Mudificà",
+      "edit": {
+        "save": "Salvà",
+        "username": {
+          "header": "Nome d'utilizatore",
+          "successAlert": "U vostru cambiamentu hè statu salvatu.",
+          "failedAlert": "Fallimentu à salvà u cambiamentu."
+        },
+        "email": {
+          "header": "Email",
+          "successAlert": "U vostru cambiamentu hè statu salvatu.",
+          "failedAlert": "Fallimentu à salvà u cambiamentu."
+        }
+      },
+      "languages": "Lingue",
+      "signIn": "Firmà lu",
+      "signOut": "Scunnettà si da u contu",
+      "legal": "Legale",
+      "termsConditions": "Termini è Cundizioni",
+      "privacyPolicy": "Pulitica di Privacidad",
+      "support": "Supportu",
+      "reportAProblem": "Segnala un prublema",
+      "tutorial": "Tutoriale",
+      "reportBug": {
+        "header": "Segnala un prublema",
+        "send": "Mandà",
+        "subject": "OGGETTI",
+        "subjectPlaceHolder": "Sughjettu",
+        "description": "DESCRIZIONE",
+        "descriptionPlaceHolder": "Description",
+        "successAlert": "Grazie, avemu ricevutu u vostru messagiu.",
+        "failedAlert": "Impussibule di mandà u messagiu."
+      },
+      "version": "Versione"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Riproduce automaticamente l'Audio",
+      "storage": "Storage",
+      "downloadWifi": "Scaricà solu nantu à Wi-fi",
+      "deleteCache": "Sguassà Cache"
+    },
+    "notifications": {
+      "notifications": "Notificazioni",
+      "groupInvitation": "Invitu di Gruppu",
+      "devotions": "Invite à e Devozioni",
+      "file": "Cunferma di Trasferimentu di File"
+    }
+  },
+  "inviteUsers": { "header": "Invite l'utilizatori" },
+  "playlist": {
+    "header": "Playlist",
+    "audioFileLabel": "File Audio",
+    "audioFilesLabel": "Lime Audio"
+  },
+  "collection": { "header": "Cullezzione", "audioFilesLabel": "Lime Audio" },
+  "modal": {
+    "close": "vicinu",
+    "addToPlaylist": { "title": "Aghjunghje à Playlist", "button": "Crea Playlist" },
+    "startDevotion": { "title": "Principià Devozione" },
+    "createPlaylist": {
+      "title": "Crea una nova Playlist",
+      "button": "Crea una Playlist",
+      "inputPlaceholder": "Ingressu u nome di a Playlist",
+      "success": "Aghjuntu à a Playlist"
+    },
+    "login": "Duvete cunnettavvi per inizià una devozione"
+  },
+  "options": {
+    "shared": {
+      "share": "Sparte",
+      "report": "Rapportu Cuntenutu",
+      "shareOthers": "Sparte cù l'altri",
+      "copy": "Copia Link",
+      "more": "Più"
+    },
+    "audio": {
+      "download": "Scaricà",
+      "addFavorite": "Aghjunghje à i Favoriti",
+      "addPlaylist": "Aghjunghje à Playlist",
+      "removeFavorite": "Eliminà da i Favoriti",
+      "removePlaylist": "Eliminà da a Playlist",
+      "removeDownload": "Cacciate da i Downloads"
+    },
+    "playlist": { "edit": "Mudificà", "delete": "Sguassà a Playlist" },
+    "startDevotion": "Principià Devozione"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Aghjuntu à a Playlist",
+      "delete": "Cacciatu da a Playlist",
+      "create": "Playlist creata",
+      "destroy": "Playlist eliminata"
+    },
+    "favorites": { "add": "Aghjuntu in Favuriti", "remove": "Cacciatu da i Favoriti" },
+    "downloads": { "remove": "Cacciatu da i Downloads" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Shuffle" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Cerca ..." },
+    "notification": { "success": "Successu! Un email serà inviatu à u vostru contu." },
+    "button": { "sending": "Mandendu ..." },
+    "modalSelector": { "cancel": "Annulla" },
+    "loading": "Caricamentu"
+  },
+  "bible": {
+    "header": "Bibbia",
+    "oldTestament": "Vechju Testamentu",
+    "newTestament": "Novu Testamentu",
+    "popularBooks": "Libri pupulari"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Cerca",
+    "cancelButton": "ANNULA",
+    "searchResults": "Risultati di ricerca",
+    "filterButton": "Filtru",
+    "teachings": { "title": "Insignamenti" },
+    "bible": { "title": "Bibbia" }
+  },
+  "addToPlaylistsModal": { "title": "Aghjunghje à Playlist", "button": "Crea una Playlist" },
+  "createPlaylistModal": {
+    "title": "Crea una nova Playlist",
+    "button": "Crea una Playlist",
+    "inputPlaceholder": "Ingressu u nome di a Playlist"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Aghjuntu à a Playlist",
+      "remove": "Cacciatu da a Playlist",
+      "create": "Playlist creata",
+      "delete": "Playlist eliminata"
+    },
+    "favorites": { "add": "Aghjuntu in Favuriti", "remove": "Cacciatu da i Favoriti" },
+    "downloads": { "remove": "Cacciatu da i Downloads" },
+    "facebook": { "loginError": "U login falla cù errore" },
+    "google": { "loginError": "U login falla cù errore" }
+  },
+  "playlists": { "trackLabel": "Pista", "tracksLabel": "Piste" },
+  "mediaList": { "tracksLabel": "Piste", "remove": "Cacciate" },
+  "tutorialPage": { "done": "Fattu", "skip": "Saltà" },
+  "loginModal": { "login": "Cunnessione" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Scaricamentu", "complete": "Scaricamentu cumpletu" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Esplora a Bibbia",
+      "subtitle1": "Viaghjate per tutta a Bibbia cun noi, o cuminciate un vostru viaghju.",
+      "title2": "Ascolta è Impegni",
+      "subtitle2": "U lettore multimediale vi permette di tuffassi in THRU u cuntenutu BIBLIU cun facilità.",
+      "title3": "Scuprite Insignamenti",
+      "subtitle3": "Impegnatevi in ​​a Bibbia cum'è mai prima incruciendu u cuntenutu Bibbia & Insegnamentu.",
+      "title4": "Discutite a Bibbia",
+      "subtitle4": "Unisciti à un gruppu per studià attraversu l'insignamenti è l'argumenti di a BIBBIA cù l'altri.",
+      "title5": "Scaricate è Sparte",
+      "subtitle5": "Prufittate à sente a Parolla di Diu in viaghju è sparte cù i vostri amichi.",
+      "title6": "Salvà & Crea",
+      "subtitle6": "Salvate i vostri insegnamenti preferiti è i versi biblichi o create una playlist persunalizata.",
+      "title7": "Devozioni di Gruppu",
+      "subtitle7": "Esse incuragitu è ​​ispiratu da l'altri cun devozionali di u gruppu ogni ghjornu."
+    },
+    "registerPage": {
+      "noThanks": "Innò Grazie",
+      "haveAccount": "Avete un contu?",
+      "createAccount": "Creà u mo contu",
+      "title1": "Discute cù l'altri",
+      "subtitle1": "Discutite cù i vostri sughjetti preferiti è versi biblichi.",
+      "title2": "Store è Sync Playlists",
+      "subtitle2": "Custruisce elenchi di u vostru cuntenutu preferitu in un locu.",
+      "title3": "Vede i Vostri Preferiti",
+      "subtitle3": "Guardate è tornate è visitate i vostri preferiti in un mumentu dopu.",
+      "title4": "Benvenuta di ritornu",
+      "subtitle4": "Creà un contu è uttene l'accessu à tutte e nostre funzioni."
+    }
+  },
+  "app": {
+    "close": "vicinu",
+    "accept": "Accetta",
+    "reject": "Ricusà",
+    "constructionInProgress": "COSTRUZIONE IN PROGRESSU",
+    "downloadComplete": "Scaricamentu cumpletu",
+    "downloading": "Scaricamentu",
+    "downloadFailed": "Scaricamentu hà fiascatu",
+    "sendAFile": "Qualchissia Vole Mandà Un File"
+  },
+  "transferring": { "tryAgain": "prova dinò", "close": "vicinu" },
+  "checkDevice": {
+    "check": "Verificate u vostru Dispositivu",
+    "makeSure": "Assicuratevi puru chì Wifi-Direct hè attivatu nantu à u dispositivu di u vostru amicu è chì hè in portata.",
+    "continue": "Cuntinuà"
+  },
+  "connectToDevice": { "connect": "Cunnette vi à un Dispositivu" },
+  "pairing": {
+    "connect": "Cunnette vi à un Dispositivu",
+    "pairing": "Abbinamentu",
+    "success": "Abbinatu cù successu",
+    "failed": "Assucià u Dispositivu Fiascu",
+    "makeSure": "Assicuratevi puru (Wifi-Direct) hè attivatu nantu à u dispositivu di u vostru amicu è hè in portata.",
+    "continue": "Cuntinuà",
+    "tryAgain": "Prova dinò"
+  },
+  "selectNetworkType": {
+    "connect": "Cunnette vi à un dispositivu",
+    "share": "Sparte cù Wifi Direct",
+    "send": "Mandà u fugliale nantu à u wifi direttu?",
+    "continue": "Cuntinuà"
+  }
+}

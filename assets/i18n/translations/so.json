@@ -1,0 +1,405 @@
+{
+  "selectLanguage": { "heading": "Xulo luqaddaada hadda", "mainAction": "Xullo Luqad" },
+  "menu": {
+    "anonymousTitle": "Koontadaada",
+    "anonymousAction": "Soo gal",
+    "editProfileAction": "Tafatir astaanta",
+    "verifyProfileAction": "Hubi astaanta",
+    "bibleSection": "Kitaabka Quduuska ah",
+    "teachingsSection": "Waxbarista",
+    "librarySection": "Maktabaddayda",
+    "groupsSection": "Kooxaha",
+    "donateSection": "Ku deeqo",
+    "settingsSection": "Dejinta",
+    "signOut": "Ka Bax",
+    "modals": {
+      "verifyProfile": {
+        "title": "Adiga laguma xaqiijin",
+        "message": "Liisaskaaga lama midoobi doono mana abuuri kartid kooxo. Fadlan hubi emaylkaaga si aad u buuxiso diiwaangelinta.",
+        "firstButton": "Sii wad",
+        "secondButton": "Diiwaangeli astaan ​​cusub"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Gal",
+    "emailPlaceholder": "Emailkaaga",
+    "passwordPlaceholder": "Furahaaga",
+    "forgotAction": "Ilowday Furaha",
+    "callToAction": "Soo gal",
+    "signInAlternatives": "Ama Saxeex Ku gal adigoo isticmaalaya",
+    "noAccountAction": "Xisaab ma laha? Hal abuur",
+    "notifications": {
+      "invalidCredentials": "Aqoonsiyada aan ansax ahayn",
+      "inProgress": "Saxeex hore u sii soco",
+      "notAvailable": "Adeegyada ciyaar lama heli karo"
+    }
+  },
+  "signUp": {
+    "header": "Abuur Akoon",
+    "emailPlaceholder": "Emailkaaga",
+    "passwordPlaceholder": "Furahaaga",
+    "privateAction": "Samee Xisaab Gaar ah",
+    "termsDisclaimer": {
+      "pre": "Adiga oo gujinaya Saxeex waxaad muujineysaa inaad aqrisay oo aad ogolaatay",
+      "terms": "shuruudaha",
+      "post": "."
+    },
+    "callToAction": "Saxiix",
+    "signUpAlternatives": "Ama Saxiix ku qor adigoo isticmaalaya",
+    "haveAnAccountAction": "Xisaab ma leedahay?",
+    "notifications": {
+      "invalidUsername": "Magacyada isticmaaleyaashu waxay ku eg yihiin 20 xarfood oo xarfo isugu jira (lambarro iyo xarfo caadi ah)",
+      "invalidPassword": "Furaha sirta ahi waa inuu lahaadaa ugu yaraan 3 xaraf oo noqda isku dhaf xarfaha kore iyo hoose oo uguyaraan hal lambar ama dabeecad gaar ah"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Aan awoodin in la sameeyo xisaab",
+        "message": "Cinwaankan emaylku horeba wuu u jiray.",
+        "firstButton": "Gal",
+        "secondButton": "Xidh"
+      },
+      "privateAccount": {
+        "title": "Xisaab Gaar ah",
+        "message": "Adoo ka dhigaya koontadaada mid gaar ah, waxaad ka qarinaysaa inay dadka kale ogaadaan.",
+        "firstButton": "Aqbal",
+        "secondButton": "Hoos u dhac"
+      },
+      "success": {
+        "title": "Xisaab abuur!",
+        "message": "Koontadaada ayaa si guul leh loo abuuray. Hubi sanduuqaaga si aad u xaqiijiso koontadaada oo aad u soo gasho.",
+        "firstButton": "Gal"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Dib u cusbooneysii ereyga sirta ah",
+    "emailPlaceholder": "Emailkaaga",
+    "message": "Fadlan qor emaylkaaga si aad dib ugu dajiso lambarkaaga sirta ah koontadaada.",
+    "callToAction": "Dib u cusbooneysii ereyga sirta ah",
+    "notifications": {
+      "success": "Waxaan kaliya u dirnay emayl sanduuqaaga",
+      "emailNotFoundError": "Email lama helin",
+      "invalidEmailError": "Qaabka emaylka aan ansax ahayn"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Dhammaystirka Dejinta",
+    "message": "Email ayaa loo diray cinwaanka e-mayl ee aad soo gashay. Fadlan eeg faahfaahinta emaylka si aad u dhammaystirto diiwaangelinta.",
+    "callToAction": "Ka bood Hada"
+  },
+  "teachings": {
+    "dailyText": "Baahinta Maanta",
+    "journeyTitle": "Bilow Safarkaaga",
+    "journeySubtitle": "Waxbarista oo dhan min bilow ilaa dhamaad",
+    "journeyCardTitle": "Safarka Toddobaadka 215 ee Kitaabka Quduuska ah",
+    "journeyCardSubtitle": "Dhageyso waqtigaaga",
+    "tracksLabel": "Raadadka"
+  },
+  "teaching": {
+    "header": "Waxbarista",
+    "loading": "Raadinaya ...",
+    "player": {
+      "audioSpeed": "Xawaaraha Maqalka",
+      "loading": "Raadinta",
+      "castingError": "Wax Qalab Ah Oo La Heli Karo"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Sii wad Dhageysiga", "secondButton": "Safarkaaga bilow" }
+    }
+  },
+  "journey": {
+    "byDate": "Taariikhda",
+    "bySeries": "By Taxanaha",
+    "sections": { "tracksLabel": "Raadadka" }
+  },
+  "library": {
+    "header": "Maktabaddayda",
+    "tabs": {
+      "downloads": "Soo dejisan",
+      "favorites": "Ugu cadcad",
+      "playlists": "Liiska Ciyaarta"
+    }
+  },
+  "groups": {
+    "header": "Kooxaha",
+    "createGroup": {
+      "title": "Abuur Koox Cusub",
+      "groupNameLabel": "MAGACA KOOXDA",
+      "groupNameInputPlaceHolder": "Magaca",
+      "descriptionLabel": "SHARAXAAD",
+      "descriptionInputPlaceHolder": "Ku dar Sharaxaad",
+      "inviteLabel": "Martiqaad Users",
+      "inviteButton": "Martiqaad Users Cusub",
+      "button": "Abuur Koox",
+      "invalidGroupName": "Gali magac sax ah",
+      "groupNameTooLong": "Magaca kooxda waa inuusan ka koobnayn wax ka badan 25 xaraf"
+    },
+    "devotionNotStartAlert": "Cibaado uma bilaabin kooxdan",
+    "membersLabel": "Xubnaha",
+    "chatModalMemberSubtitleLabel": "xubin",
+    "chatModalMembersSubtitleLabel": "xubnaha",
+    "chat": {
+      "listeningToLabel": "Dhageysanaya",
+      "loadingTrackLabel": "Raadinta wadada ...",
+      "inputPlaceHolder": "Qor Fariin",
+      "deletePost": "Tirtir Boostada",
+      "deleteMessage": "ayaa tirtiray fariin"
+    },
+    "groupSettings": {
+      "participantsSection": "Kaqeybgalayaasha",
+      "viewAll": "Fiiri Dhamaan",
+      "invite": "Martiqaad Users Cusub",
+      "endDevotion": "Dhamee Diidmada Kooxda",
+      "deleteGroup": "Tirtir Kooxda",
+      "leaveGroup": "Ka Bax Kooxda"
+    },
+    "userDirectory": {
+      "header": "Tusaha Isticmaalaha",
+      "remove": "Ka saar",
+      "anonymous": "Qarsoodi",
+      "send": "Dir"
+    },
+    "inviteUser": { "placeHolder": "Raadi", "send": "Dir" }
+  },
+  "chat": {
+    "header": "Kooxda Channel",
+    "settings": {
+      "header": "Dejinta Kooxda",
+      "endDevotion": {
+        "alertTitle": "Dhamee Cibaadada",
+        "alertMessage": "Ma hubtaa inaad rabto inaad joojiso cibaadadaas?",
+        "alertCancel": "Jooji",
+        "alertConfirm": "Haa",
+        "endDevotionLabel": "dhameeyay cibaadadan",
+        "hasEnded": "Cibaadadaani way dhammaatay"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Bilow Daacadnimo",
+    "alertMessage": "Ma hubtaa inaad rabto inaad ku biloowdo cibaado% {magaca} koox?",
+    "alertCancel": "Jooji",
+    "alertConfirm": "Haa",
+    "devotionStartedLabel": "wuxuu bilaabay cibaado"
+  },
+  "settings": {
+    "header": "Dejinta",
+    "tabs": { "profile": "Astaan", "media": "Warbaahinta", "notifications": "Ogeysiisyada" },
+    "profile": {
+      "account": "Xisaab",
+      "username": "Magaca isticmaalaha",
+      "email": "E-mayl",
+      "editButton": "Tafatir",
+      "edit": {
+        "save": "Keydso",
+        "username": {
+          "header": "Magaca isticmaalaha",
+          "successAlert": "Beddelkaagii waa la keydiyay.",
+          "failedAlert": "Ku guuldareystay inuu badbaadiyo isbedelka."
+        },
+        "email": {
+          "header": "Email",
+          "successAlert": "Beddelkaagii waa la keydiyay.",
+          "failedAlert": "Ku guuldareystay inuu badbaadiyo isbedelka."
+        }
+      },
+      "languages": "Luqadaha",
+      "signIn": "Gal",
+      "signOut": "Ka Bax Diiwaanka",
+      "legal": "Sharci",
+      "termsConditions": "Shuruudaha & Shuruudaha",
+      "privacyPolicy": "Qaanuunka Arrimaha Khaaska ah",
+      "support": "Taageero",
+      "reportAProblem": "Ka Warbixi Dhibaato",
+      "tutorial": "Casharro",
+      "reportBug": {
+        "header": "Ka Warbixi Dhibaato",
+        "send": "Dir",
+        "subject": "SHAQADA",
+        "subjectPlaceHolder": "Mawduuca",
+        "description": "SHARAXAAD",
+        "descriptionPlaceHolder": "Sharaxaad",
+        "successAlert": "Mahadsanid, waxaan helnay fariintaada.",
+        "failedAlert": "Ku guuldaraystay dirida fariinta."
+      },
+      "version": "Nooc"
+    },
+    "media": {
+      "audio": "Codka",
+      "autoplay": "Autoplay Audio",
+      "storage": "Kaydinta",
+      "downloadWifi": "Kaliya Soo Degso Wi-fi",
+      "deleteCache": "Tirtir Kayd"
+    },
+    "notifications": {
+      "notifications": "Ogeysiisyada",
+      "groupInvitation": "Martiqaad kooxeed",
+      "devotions": "Ku martiqaad cibaado",
+      "file": "Xaqiijinta Wareejinta Faylka"
+    }
+  },
+  "inviteUsers": { "header": "Martiqaad Users" },
+  "playlist": {
+    "header": "Liiska Ciyaarta",
+    "audioFileLabel": "Faylka maqalka",
+    "audioFilesLabel": "Faylasha maqalka"
+  },
+  "collection": { "header": "Uruurinta", "audioFilesLabel": "Faylasha maqalka" },
+  "modal": {
+    "close": "xirid",
+    "addToPlaylist": { "title": "Ku dar Liiska Ciyaaraha", "button": "Samee Liis-Ciyaar" },
+    "startDevotion": { "title": "Bilow Daacadnimo" },
+    "createPlaylist": {
+      "title": "Samee Liis-Ciyaar Cusub",
+      "button": "Samee Liis-Ciyaar",
+      "inputPlaceholder": "Gali Magaca Liistada",
+      "success": "Lagu daray liiska cayaaraha"
+    },
+    "login": "Waxaad u baahan tahay inaad gasho si aad u bilowdo cibaado"
+  },
+  "options": {
+    "shared": {
+      "share": "La wadaag",
+      "report": "Ka warbixi nuxurka",
+      "shareOthers": "La Wadaag Dadka Kale",
+      "copy": "Nuqul Xiriir",
+      "more": "Inbadan"
+    },
+    "audio": {
+      "download": "Soo Degso",
+      "addFavorite": "Ku dar kuwa aad jeceshahay",
+      "addPlaylist": "Ku dar Liiska Ciyaaraha",
+      "removeFavorite": "Ka saar waxyaabaha aad ugu jeceshahay",
+      "removePlaylist": "Ka saar Liiska Ciyaarta",
+      "removeDownload": "Ka saar Downloads"
+    },
+    "playlist": { "edit": "Tafatir", "delete": "Tirtir liiska Ciyaaraha" },
+    "startDevotion": "Bilow Daacadnimo"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Lagu daray liiska cayaaraha",
+      "delete": "Laga saaray Liiska Ciyaarta",
+      "create": "Liiska Ciyaaraha la Sameeyay",
+      "destroy": "Liistada Ciyaarta la tirtiray"
+    },
+    "favorites": {
+      "add": "Lagu Daray Kuwa Loogu Jecelyahay",
+      "remove": "Laga saaray kuwa ugu cadcad"
+    },
+    "downloads": { "remove": "Laga saaray Soo degsashada" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Isku shaandheyn" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Raadi ..." },
+    "notification": { "success": "Guul! Email ayaa loo diri doonaa koontadaada." },
+    "button": { "sending": "Diraya ..." },
+    "modalSelector": { "cancel": "Jooji" },
+    "loading": "Raadinta"
+  },
+  "bible": {
+    "header": "Kitaabka Quduuska ah",
+    "oldTestament": "Axdiga Hore",
+    "newTestament": "Axdiga Cusub",
+    "popularBooks": "Buugaag caan ah"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Raadi",
+    "cancelButton": "LA SOO JOOJIYO",
+    "searchResults": "Natiijooyinka Raadinta",
+    "filterButton": "Sifee",
+    "teachings": { "title": "Waxbarista" },
+    "bible": { "title": "Kitaabka Quduuska ah" }
+  },
+  "addToPlaylistsModal": { "title": "Ku dar Liiska Ciyaaraha", "button": "Samee Liis-Ciyaar" },
+  "createPlaylistModal": {
+    "title": "Samee Liis-Ciyaar Cusub",
+    "button": "Samee Liis-Ciyaar",
+    "inputPlaceholder": "Gali Magaca Liistada"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Lagu daray liiska cayaaraha",
+      "remove": "Laga saaray Liiska Ciyaarta",
+      "create": "Liiska Ciyaaraha la Sameeyay",
+      "delete": "Liistada Ciyaarta la tirtiray"
+    },
+    "favorites": {
+      "add": "Lagu Daray Kuwa Loogu Jecelyahay",
+      "remove": "Laga saaray kuwa ugu cadcad"
+    },
+    "downloads": { "remove": "Laga saaray Soo degsashada" },
+    "facebook": { "loginError": "Soo galida ayaa ku dhacday qalad" },
+    "google": { "loginError": "Soo galida ayaa ku dhacday qalad" }
+  },
+  "playlists": { "trackLabel": "Raad-raac", "tracksLabel": "Raadadka" },
+  "mediaList": { "tracksLabel": "Raadadka", "remove": "Ka saar" },
+  "tutorialPage": { "done": "La dhammeeyay", "skip": "Ka bood" },
+  "loginModal": { "login": "Soo gal" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Soo dejinaya", "complete": "Soo Degso Dhamaystiran" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Baadh Kitaabka Quduuska ah",
+      "subtitle1": "Nagala soo dhex bax Kitaabka oo dhan, ama bilow safar aad adigu iska leedahay.",
+      "title2": "Dhageyso & Wadahadal",
+      "subtitle2": "Qalabka warbaahinta wuxuu kuu ogolaanayaa inaad ku quusto THRU nuxurka KITAABKA si fudud.",
+      "title3": "Baro Waxbarista",
+      "subtitle3": "Ka qaybgal Kitaabka Qudduuska ah sidii hore oo kale adoo tixraacaya Kitaabka Quduuska ah & Waxbaridda.",
+      "title4": "Kala hadal Kitaabka Quduuska ah",
+      "subtitle4": "Ku biir koox si aad u baratid THRU waxbarista Kitaabka Quduuska ah iyo mawduucyada kuwa kale.",
+      "title5": "Degso & Share",
+      "subtitle5": "Ku raaxayso dhagaysiga Erayga Ilaah ee socdaalka ah oo la wadaag saaxiibbadaa.",
+      "title6": "Kaydi & Abuur",
+      "subtitle6": "Keydso waxbaristaada aad jeceshahay iyo aayadaha Kitaabka Qudduuska ah ama samee liis-garayn caadays ah",
+      "title7": "Daacad kooxeed",
+      "subtitle7": "Ku dhiirigeli oo ku dhiirrigeliya kuwa kale oo leh cibaado kooxeed maalinle ah."
+    },
+    "registerPage": {
+      "noThanks": "Maya mahadsanid",
+      "haveAccount": "Xisaab ma leedahay?",
+      "createAccount": "Abuur Koontadayda",
+      "title1": "Kala hadal Dadka kale",
+      "subtitle1": "Kala hadal mawduucyada aad ugu jeceshahay iyo aayadaha buuggaagta kuwa kale.",
+      "title2": "Dukaanka iyo Nidaamyada Ciyaaraha",
+      "subtitle2": "Samee liisaska waxyaabaha aad ka hesho ee aad jeceshahay hal meel.",
+      "title3": "Arag kuwa aad ugu jeceshahay",
+      "subtitle3": "Kaydi oo soo noqo oo booqo kuwa aad ugu jeceshahay waqti dambe.",
+      "title4": "Kusoo Dhawaada",
+      "subtitle4": "Abuur akoon oo marin u hel dhammaan astaamaheena."
+    }
+  },
+  "app": {
+    "close": "xirid",
+    "accept": "Aqbal",
+    "reject": "Diid",
+    "constructionInProgress": "DHISMAHA HORUMAR",
+    "downloadComplete": "Soo Degso Dhamaystiran",
+    "downloading": "Soo dejinaya",
+    "downloadFailed": "Soo dejiso Fashilmay",
+    "sendAFile": "Qof Ayaa Doonaya Inuu kuu Soo Diro Fayl"
+  },
+  "transferring": { "tryAgain": "mar kale isku day", "close": "xirid" },
+  "checkDevice": {
+    "check": "Hubi Qalabkaaga",
+    "makeSure": "Fadlan hubso in Wifi-Direct uu daarantahay aaladda saaxiibkaa oo ay ku kala duwan yihiin.",
+    "continue": "Sii wad"
+  },
+  "connectToDevice": { "connect": "Ku xir aalad" },
+  "pairing": {
+    "connect": "Ku xir aalad",
+    "pairing": "Isbarbar dhigga",
+    "success": "Si Guul Leh",
+    "failed": "Ku Xidhnaanta Qalabka Waa Fashilantay",
+    "makeSure": "Fadlan hubso in (Wifi-Direct) uu daaran yahay qalabka saaxiibkaa oo ay ku kala duwan yihiin.",
+    "continue": "Sii wad",
+    "tryAgain": "Mar kale isku day"
+  },
+  "selectNetworkType": {
+    "connect": "Ku xir qalab",
+    "share": "La wadaag Wifi Direct",
+    "send": "U dir feyl ka badan wifi toos?",
+    "continue": "Sii wad"
+  }
+}

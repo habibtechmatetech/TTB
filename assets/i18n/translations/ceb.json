@@ -1,0 +1,405 @@
+{
+  "selectLanguage": {
+    "heading": "Pilia ang imong karon nga sinultian",
+    "mainAction": "Pilia ang Sinultian"
+  },
+  "menu": {
+    "anonymousTitle": "Imong Account",
+    "anonymousAction": "Sulod",
+    "editProfileAction": "Pag-edit sa profile",
+    "verifyProfileAction": "Pagpanghimatuud sa profile",
+    "bibleSection": "Bibliya",
+    "teachingsSection": "Mga Pagtulun-an",
+    "librarySection": "Akong Library",
+    "groupsSection": "Mga grupo",
+    "donateSection": "Paghatag",
+    "settingsSection": "Mga setting",
+    "signOut": "Pag-sign Out",
+    "modals": {
+      "verifyProfile": {
+        "title": "Wala ka mapamatud-an",
+        "message": "Ang imong mga lista dili madungan ug dili ka makahimo og mga grupo. Palihug susihon ang imong email aron makompleto ang pagrehistro.",
+        "firstButton": "Padayon",
+        "secondButton": "Pagrehistro usa ka bag-ong profile"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Pag-sign In",
+    "emailPlaceholder": "Imong email",
+    "passwordPlaceholder": "Imong password",
+    "forgotAction": "Nakalimtan ang Password?",
+    "callToAction": "Pag-sign in",
+    "signInAlternatives": "O Pag-sign In gamit ang",
+    "noAccountAction": "Wala’y account? Paghimo usa",
+    "notifications": {
+      "invalidCredentials": "Dili husto nga mga kredensyal",
+      "inProgress": "Pag-sign in na nga nagpadayon",
+      "notAvailable": "Dili magamit ang mga serbisyo sa pagdula"
+    }
+  },
+  "signUp": {
+    "header": "Paghimo Account",
+    "emailPlaceholder": "Imong email",
+    "passwordPlaceholder": "Imong password",
+    "privateAction": "Himua nga Pribado ang Account",
+    "termsDisclaimer": {
+      "pre": "Pinaagi sa pag-klik sa Pag-sign up gipakita nimo nga nabasa na nimo ug uyon ka",
+      "terms": "ang mga termino",
+      "post": "."
+    },
+    "callToAction": "Pag-sign up",
+    "signUpAlternatives": "O Pag-sign Up gamit ang",
+    "haveAnAccountAction": "Adunay usa ka asoy?",
+    "notifications": {
+      "invalidUsername": "Limitado ang mga username sa 20 ka mga alphanumeric character (mga numero ug naandan nga letra)",
+      "invalidPassword": "Ang password kinahanglan adunay dili moubus sa 3 nga mga karakter ug usa ka kombinasyon sa mga pang-itaas ug gagmay nga mga karakter nga adunay labing menos usa ka numero o espesyal nga karakter"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Dili makahimo paghimo usa ka account",
+        "message": "Naa na kini email address.",
+        "firstButton": "Pag-sign In",
+        "secondButton": "Suod nga"
+      },
+      "privateAccount": {
+        "title": "Pribado nga Account",
+        "message": "Pinaagi sa paghimo nga pribado sa imong account, imong gitagoan kini gikan madiskobrehan sa uban.",
+        "firstButton": "Dawata",
+        "secondButton": "Pagdumili"
+      },
+      "success": {
+        "title": "Gibuhat ang Account!",
+        "message": "Malampuson nga nahimo ang imong account. Susiha ang imong inbox aron makumpirma ang imong account ug pag-sign in.",
+        "firstButton": "Pag-sign In"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Reset password",
+    "emailPlaceholder": "Imong email",
+    "message": "Palihug isulud ang imong email aron ma-reset ang imong password alang sa imong account.",
+    "callToAction": "Reset password",
+    "notifications": {
+      "success": "Nagpadala lang kami usa ka email sa imong inbox",
+      "emailNotFoundError": "Wala makita ang email",
+      "invalidEmailError": "Dili husto nga format sa email"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Tapuson ang Pag-set up",
+    "message": "Usa ka email ang gipadala sa email address nga imong gisulud. Palihug kitaa ang mga detalye sa email aron makompleto ang pagrehistro.",
+    "callToAction": "Laktaw sa Karon"
+  },
+  "teachings": {
+    "dailyText": "Broadcast karon",
+    "journeyTitle": "Sugdi ang Imong Panaw",
+    "journeySubtitle": "Tanan nga mga pagtulun-an gikan sa pagsugod hangtod sa katapusan",
+    "journeyCardTitle": "215 Semana nga Pagbiyahe Pinaagi sa Bibliya",
+    "journeyCardSubtitle": "Paminaw sa imong oras",
+    "tracksLabel": "Mga track"
+  },
+  "teaching": {
+    "header": "Mga Pagtulun-an",
+    "loading": "Nag-load ...",
+    "player": {
+      "audioSpeed": "Kadali sa Audio",
+      "loading": "Pagkarga",
+      "castingError": "Wala Magamit nga mga Device"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Padayon sa pagpamati",
+        "secondButton": "Sugdi ang imong panaw"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Pinaagi sa Petsa",
+    "bySeries": "Pinaagi sa Serye",
+    "sections": { "tracksLabel": "Mga track" }
+  },
+  "library": {
+    "header": "Akong Library",
+    "tabs": {
+      "downloads": "Mga Pag-download",
+      "favorites": "Mga pinalabi",
+      "playlists": "Mga playlist"
+    }
+  },
+  "groups": {
+    "header": "Mga grupo",
+    "createGroup": {
+      "title": "Paghimo Bag-ong Grupo",
+      "groupNameLabel": "NGALAN SA GRUPO",
+      "groupNameInputPlaceHolder": "Ngalan",
+      "descriptionLabel": "PAGHULAGWAY",
+      "descriptionInputPlaceHolder": "Pagdugang Paghulagway",
+      "inviteLabel": "Pagdapit Mga Gumagamit",
+      "inviteButton": "Pagdapit og Bag-ong Mga Gumagamit",
+      "button": "Paghimo Grupo",
+      "invalidGroupName": "Pagsulud sa usa ka balido nga ngalan",
+      "groupNameTooLong": "Ang ngalan sa grupo kinahanglan dili maglangkob labaw pa sa 25 ka mga karakter"
+    },
+    "devotionNotStartAlert": "Ang usa ka debosyon wala magsugod alang sa kini nga grupo",
+    "membersLabel": "Mga myembro",
+    "chatModalMemberSubtitleLabel": "myembro",
+    "chatModalMembersSubtitleLabel": "mga myembro",
+    "chat": {
+      "listeningToLabel": "Pagpamati sa",
+      "loadingTrackLabel": "Nag-load nga track ...",
+      "inputPlaceHolder": "Pagsulat Mensahe",
+      "deletePost": "Pagtangtang sa Post",
+      "deleteMessage": "gitangtang usa ka mensahe"
+    },
+    "groupSettings": {
+      "participantsSection": "Mga sumasalmot",
+      "viewAll": "Tan-awa tanan",
+      "invite": "Pagdapit og Bag-ong Mga Gumagamit",
+      "endDevotion": "Pagtapos sa Debosyon sa Grupo",
+      "deleteGroup": "Delete Group",
+      "leaveGroup": "Biya nga Grupo"
+    },
+    "userDirectory": {
+      "header": "Direktoryo sa Gumagamit",
+      "remove": "Kuhaa",
+      "anonymous": "Dili nagpaila",
+      "send": "Ipadala"
+    },
+    "inviteUser": { "placeHolder": "Pagpangita", "send": "Ipadala" }
+  },
+  "chat": {
+    "header": "Channel sa Grupo",
+    "settings": {
+      "header": "Mga setting sa Grupo",
+      "endDevotion": {
+        "alertTitle": "Pagtapos sa Pagkamahinalaron",
+        "alertMessage": "Sigurado ka nga gusto nimong tapuson kini nga debosyon?",
+        "alertCancel": "Kanselahon",
+        "alertConfirm": "Oo",
+        "endDevotionLabel": "natapos kini nga debosyon.",
+        "hasEnded": "Natapos na kini nga debosyon"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Pagsugod sa Pagkamahinalaron",
+    "alertMessage": "Sigurado ka nga gusto nimong sugdan ang debosyon sa% {ngalan} nga grupo?",
+    "alertCancel": "Kanselahon",
+    "alertConfirm": "Oo",
+    "devotionStartedLabel": "nagsugod sa usa ka debosyon."
+  },
+  "settings": {
+    "header": "Mga setting",
+    "tabs": { "profile": "Profile", "media": "Media", "notifications": "Mga Pahibalo" },
+    "profile": {
+      "account": "Account",
+      "username": "Username",
+      "email": "E-mail",
+      "editButton": "Pag-edit",
+      "edit": {
+        "save": "Pagtipig",
+        "username": {
+          "header": "Username",
+          "successAlert": "Ang imong pagbag-o naluwas.",
+          "failedAlert": "Napakyas sa pagtipig sa pagbag-o."
+        },
+        "email": {
+          "header": "Email",
+          "successAlert": "Ang imong pagbag-o naluwas.",
+          "failedAlert": "Napakyas sa pagtipig sa pagbag-o."
+        }
+      },
+      "languages": "Mga sinultian",
+      "signIn": "Pag-sign In",
+      "signOut": "Pag-sign Out sa Account",
+      "legal": "Ligal",
+      "termsConditions": "Mga Termino ug Kondisyon",
+      "privacyPolicy": "Patakaran sa Pagkapribado",
+      "support": "Pagsuporta",
+      "reportAProblem": "Pagreport usa ka Suliran",
+      "tutorial": "Panudlo",
+      "reportBug": {
+        "header": "Pagreport usa ka Suliran",
+        "send": "Ipadala",
+        "subject": "TOPIKO",
+        "subjectPlaceHolder": "Hilisgutan",
+        "description": "PAGHULAGWAY",
+        "descriptionPlaceHolder": "Paghulagway",
+        "successAlert": "Salamat, nadawat namon ang imong mensahe.",
+        "failedAlert": "Napakyas sa pagpadala sa mensahe."
+      },
+      "version": "Bersyon"
+    },
+    "media": {
+      "audio": "Audio",
+      "autoplay": "Autoplay Audio",
+      "storage": "Pagtipig",
+      "downloadWifi": "Pag-download ra sa Wi-fi",
+      "deleteCache": "Pagtangtang sa Cache"
+    },
+    "notifications": {
+      "notifications": "Mga Pahibalo",
+      "groupInvitation": "Pagdapit sa Grupo",
+      "devotions": "Pagdapit sa Mga Debosyon",
+      "file": "Pagkumpirma sa Pagbalhin sa File"
+    }
+  },
+  "inviteUsers": { "header": "Pagdapit Mga Gumagamit" },
+  "playlist": {
+    "header": "Playlist",
+    "audioFileLabel": "Audio File",
+    "audioFilesLabel": "Mga Audio Files"
+  },
+  "collection": { "header": "Koleksyon", "audioFilesLabel": "Mga Audio Files" },
+  "modal": {
+    "close": "suod nga",
+    "addToPlaylist": { "title": "Idugang sa Playlist", "button": "Paghimo Playlist" },
+    "startDevotion": { "title": "Pagsugod sa Pagkamahinalaron" },
+    "createPlaylist": {
+      "title": "Paghimo Bag-ong Playlist",
+      "button": "Paghimo Playlist",
+      "inputPlaceholder": "Pagsulud sa Ngalan sa Playlist",
+      "success": "Gidugang sa Playlist"
+    },
+    "login": "Kinahanglan nimo nga mag-login aron magsugod ang usa ka debosyon"
+  },
+  "options": {
+    "shared": {
+      "share": "Pag-ambit",
+      "report": "Isulat ang Sulud",
+      "shareOthers": "Pagpaambit sa Uban",
+      "copy": "Kopya nga Link",
+      "more": "Daghan pa"
+    },
+    "audio": {
+      "download": "Pag-download",
+      "addFavorite": "Idugang sa Mga Paborito",
+      "addPlaylist": "Idugang sa Playlist",
+      "removeFavorite": "Kuhaa gikan sa Favorites",
+      "removePlaylist": "Kuhaa gikan sa Playlist",
+      "removeDownload": "Kuhaa gikan sa Mga Pag-download"
+    },
+    "playlist": { "edit": "Pag-edit", "delete": "Pagtangtang sa Playlist" },
+    "startDevotion": "Pagsugod sa Pagkamahinalaron"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Gidugang sa Playlist",
+      "delete": "Gikuha gikan sa Playlist",
+      "create": "Gibuhat nga Playlist",
+      "destroy": "Gitangtang ang Playlist"
+    },
+    "favorites": { "add": "Gidugang sa Mga Paborito", "remove": "Gikuha gikan sa Favorites" },
+    "downloads": { "remove": "Gikuha gikan sa Mga Pag-download" }
+  },
+  "buttons": { "loop": "Loop", "shuffle": "Pagbalhinbalhin" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Pagpangita ..." },
+    "notification": { "success": "Malampuson! Usa ka email ang ipadala sa imong account." },
+    "button": { "sending": "Nagpadala ..." },
+    "modalSelector": { "cancel": "Kanselahon" },
+    "loading": "Pagkarga"
+  },
+  "bible": {
+    "header": "Bibliya",
+    "oldTestament": "Daang Tugon",
+    "newTestament": "Bag-ong Tugon",
+    "popularBooks": "Popular nga mga libro"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Pagpangita",
+    "cancelButton": "CANCEL",
+    "searchResults": "Mga Resulta sa Pagpangita",
+    "filterButton": "Pagsala",
+    "teachings": { "title": "Mga Pagtulun-an" },
+    "bible": { "title": "Bibliya" }
+  },
+  "addToPlaylistsModal": { "title": "Idugang sa Playlist", "button": "Paghimo Playlist" },
+  "createPlaylistModal": {
+    "title": "Paghimo Bag-ong Playlist",
+    "button": "Paghimo Playlist",
+    "inputPlaceholder": "Pagsulud sa Ngalan sa Playlist"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Gidugang sa Playlist",
+      "remove": "Gikuha gikan sa Playlist",
+      "create": "Gibuhat nga Playlist",
+      "delete": "Gitangtang ang Playlist"
+    },
+    "favorites": { "add": "Gidugang sa Mga Paborito", "remove": "Gikuha gikan sa Favorites" },
+    "downloads": { "remove": "Gikuha gikan sa Mga Pag-download" },
+    "facebook": { "loginError": "Ang pagkapakyas sa pag-login adunay kasaypanan" },
+    "google": { "loginError": "Ang pagkapakyas sa pag-login adunay kasaypanan" }
+  },
+  "playlists": { "trackLabel": "Pagsubay", "tracksLabel": "Mga track" },
+  "mediaList": { "tracksLabel": "Mga track", "remove": "Kuhaa" },
+  "tutorialPage": { "done": "Nahimo", "skip": "Laktaw" },
+  "loginModal": { "login": "Sulod" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Pag-download", "complete": "Nahuman ang Pag-download" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Susiha ang Bibliya",
+      "subtitle1": "Pagpanaw sa tibuuk nga Bibliya uban kanamo, o pagsugod sa imong kaugalingon nga pagbiyahe.",
+      "title2": "Pamati ug Pakigbahin",
+      "subtitle2": "Gitugotan ka sa media player nga mosalom sa THRU sa sulud sa Bibliya nga dali ra.",
+      "title3": "Pagpangita Mga Panudlo",
+      "subtitle3": "Pag-apil sa Bibliya nga dili sama kaniadto pinaagi sa pag-cross-refer sa sulud sa Bibliya ug Pagtudlo.",
+      "title4": "Hisguti ang Bibliya",
+      "subtitle4": "Pag-apil sa usa ka grupo aron tun-an ang THRU sa mga pagtulon-an sa BIBLIYA ug mga hilisgutan sa uban.",
+      "title5": "Pag-download ug Pagpakigbahin",
+      "subtitle5": "Malingaw sa pagpamati sa Pulong sa Diyos nga on-the-go ug ipaambit kini sa imong mga higala.",
+      "title6": "Pagtipig ug Paghimo",
+      "subtitle6": "Tipigi ang imong pinalabi nga mga pagtulun-an ug mga bersikulo sa Bibliya o paghimo usa ka batasan nga playlist.",
+      "title7": "Mga Debosyon sa Grupo",
+      "subtitle7": "Pagdasig ug pagdasig sa uban nga adunay adlaw-adlaw nga mga debosyonal sa grupo."
+    },
+    "registerPage": {
+      "noThanks": "Dili Salamat",
+      "haveAccount": "Adunay usa ka asoy?",
+      "createAccount": "Paghimo Akong Account",
+      "title1": "Pakigsulti sa Uban",
+      "subtitle1": "Hisguti ang imong mga pinalabi nga hilisgutan ug bersikulo sa bibliya sa uban.",
+      "title2": "Mga Playlist sa Tindahan ug Pag-sync",
+      "subtitle2": "Paghimo mga lista sa imong pinalabi nga sulud sa usa ka lugar.",
+      "title3": "Kitaa ang Imong mga Pinalabi",
+      "subtitle3": "Pagtipig ug pagbalik ug pagbisita sa imong mga pinalabi sa ulahi nga panahon.",
+      "title4": "Maayong pagbalik",
+      "subtitle4": "Paghimo usa ka account ug pag-access sa tanan namon nga mga dagway."
+    }
+  },
+  "app": {
+    "close": "suod nga",
+    "accept": "Dawata",
+    "reject": "Isalikway",
+    "constructionInProgress": "KONSTRUKSYON SA PAG-uswag",
+    "downloadComplete": "Nahuman ang Pag-download",
+    "downloading": "Pag-download",
+    "downloadFailed": "Napakyas ang pag-download",
+    "sendAFile": "Adunay Adunay Gusto nga Magpadala Kanimo Usa ka File"
+  },
+  "transferring": { "tryAgain": "pagsulay usab", "close": "suod nga" },
+  "checkDevice": {
+    "check": "Susiha ang Imong Device",
+    "makeSure": "Palihug siguruha nga ang Wifi-Direct nabukas sa aparato sa imong higala ug naa kini sa sakup.",
+    "continue": "Padayon"
+  },
+  "connectToDevice": { "connect": "Sumpaysumpaya ang usa ka lalang" },
+  "pairing": {
+    "connect": "Sumpaysumpaya ang usa ka lalang",
+    "pairing": "Pagpares",
+    "success": "Malampuson nga Gipares",
+    "failed": "Napakyas ang Pagpares sa Device",
+    "makeSure": "Palihug siguruha nga ang (Wifi-Direct) nakabukas sa aparato sa imong higala ug naa kini sa sakup.",
+    "continue": "Padayon",
+    "tryAgain": "Sulayi Pag-usab"
+  },
+  "selectNetworkType": {
+    "connect": "Pagkonektar sa usa ka aparato",
+    "share": "Pakigbahin sa Wifi Direct",
+    "send": "Ipadala ang file sa direkta nga wifi?",
+    "continue": "Padayon"
+  }
+}

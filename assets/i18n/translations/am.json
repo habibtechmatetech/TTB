@@ -1,0 +1,385 @@
+{
+  "selectLanguage": { "heading": "የአሁኑ ቋንቋዎን ይምረጡ", "mainAction": "ቋንቋ ይምረጡ" },
+  "menu": {
+    "anonymousTitle": "የእርስዎ መለያ",
+    "anonymousAction": "ግባ",
+    "editProfileAction": "መገለጫ አርትዕ",
+    "verifyProfileAction": "መገለጫውን ያረጋግጡ",
+    "bibleSection": "መጽሐፍ ቅዱስ",
+    "teachingsSection": "ትምህርቶች",
+    "librarySection": "የእኔ ቤተ-መጽሐፍት",
+    "groupsSection": "ቡድኖች",
+    "donateSection": "ለግስ",
+    "settingsSection": "ቅንብሮች",
+    "signOut": "ዛግተ ውጣ",
+    "modals": {
+      "verifyProfile": {
+        "title": "አልተረጋገጡም",
+        "message": "የእርስዎ ዝርዝሮች አይመሳሰሉም እና ቡድኖችን መፍጠር አይችሉም። ምዝገባውን ለማጠናቀቅ እባክዎ ኢሜልዎን ያረጋግጡ ፡፡",
+        "firstButton": "ቀጥል",
+        "secondButton": "አዲስ መገለጫ ይመዝገቡ"
+      }
+    }
+  },
+  "signIn": {
+    "header": "ስግን እን",
+    "emailPlaceholder": "የእርስዎ ኢሜይል",
+    "passwordPlaceholder": "የእርስዎ የይለፍ ቃል",
+    "forgotAction": "መክፈቻ ቁልፉን ረሳኽው?",
+    "callToAction": "ስግን እን",
+    "signInAlternatives": "ወይም በመጠቀም ይግቡ",
+    "noAccountAction": "መለያ የለም? አንድ ይፍጠሩ",
+    "notifications": {
+      "invalidCredentials": "ልክ ያልሆኑ ምስክርነቶች",
+      "inProgress": "በመለያ ይግቡ በሂደት ላይ",
+      "notAvailable": "የ Play አገልግሎቶች አይገኙም"
+    }
+  },
+  "signUp": {
+    "header": "መለያ ፍጠር",
+    "emailPlaceholder": "የእርስዎ ኢሜይል",
+    "passwordPlaceholder": "የእርስዎ የይለፍ ቃል",
+    "privateAction": "መለያ የግል ያድርጉት",
+    "termsDisclaimer": {
+      "pre": "ምዝገባን ጠቅ በማድረግ እንዳነበቡ እና እንደተስማሙ ይጠቁማሉ",
+      "terms": "ውሎቹ",
+      "post": "."
+    },
+    "callToAction": "ተመዝገቢ",
+    "signUpAlternatives": "ወይም በመጠቀም ይመዝገቡ",
+    "haveAnAccountAction": "መለያ አለዎት?",
+    "notifications": {
+      "invalidUsername": "የተጠቃሚ ስሞች በ 20 የቁጥር ቁጥሮች (ቁጥሮች እና መደበኛ ፊደላት) የተገደቡ ናቸው",
+      "invalidPassword": "የይለፍ ቃል ቢያንስ 3 ቁምፊዎች ሊኖሩት እና ቢያንስ አንድ ቁጥር ወይም ልዩ ቁምፊ ያላቸው የከፍተኛ እና ዝቅተኛ ፊደላት ቁምፊዎች ጥምረት መሆን አለበት"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "መለያ መፍጠር አልተቻለም",
+        "message": "ይህ የኢሜይል አድራሻ አስቀድሞ አለ",
+        "firstButton": "ስግን እን",
+        "secondButton": "ገጠመ"
+      },
+      "privateAccount": {
+        "title": "የግል መለያ",
+        "message": "መለያዎን የግል በማድረግ በሌሎች እንዳይገኝ ይደብቃሉ ፡፡",
+        "firstButton": "ተቀበል",
+        "secondButton": "ውድቅ አድርግ"
+      },
+      "success": {
+        "title": "መለያ ተፈጠረ!",
+        "message": "መለያዎ በተሳካ ሁኔታ ተፈጥሯል። መለያዎን ለማረጋገጥ የገቢ መልዕክት ሳጥንዎን ይፈትሹ እና በመለያ ይግቡ ፡፡",
+        "firstButton": "ስግን እን"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "የይለፍ ቃል ዳግም ያስጀምሩ",
+    "emailPlaceholder": "የእርስዎ ኢሜይል",
+    "message": "ለመለያዎ የይለፍ ቃልዎን እንደገና ለማስጀመር እባክዎ ኢሜልዎን ያስገቡ ፡፡",
+    "callToAction": "የይለፍ ቃል ዳግም ያስጀምሩ",
+    "notifications": {
+      "success": "አሁን ኢሜል ወደ የመልዕክት ሳጥንዎ ልከናል",
+      "emailNotFoundError": "ኢሜል አልተገኘም",
+      "invalidEmailError": "ልክ ያልሆነ የኢሜል ቅርጸት"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "ማጠናቀቅን ጨርስ",
+    "message": "ላስገቡት የኢሜል አድራሻ ኢሜል ተልኳል ፡፡ ምዝገባውን ለማጠናቀቅ እባክዎ የኢሜል ዝርዝሮችን ይመልከቱ ፡፡",
+    "callToAction": "ለጊዜው ዝለል"
+  },
+  "teachings": {
+    "dailyText": "የዛሬ ስርጭት",
+    "journeyTitle": "ጉዞዎን ይጀምሩ",
+    "journeySubtitle": "ሁሉም ትምህርቶች ከመጀመሪያ እስከ መጨረሻ",
+    "journeyCardTitle": "በመጽሐፍ ቅዱስ አማካይነት የ 215 ሳምንት ጉዞ",
+    "journeyCardSubtitle": "በሰዓትዎ ያዳምጡ",
+    "tracksLabel": "ትራኮች"
+  },
+  "teaching": {
+    "header": "ትምህርቶች",
+    "loading": "በመጫን ላይ ...",
+    "player": { "audioSpeed": "የድምጽ ፍጥነት", "loading": "በመጫን ላይ", "castingError": "ምንም መሣሪያዎች የሉም" },
+    "modals": { "firstTime": { "firstButton": "ማዳመጥዎን ይቀጥሉ", "secondButton": "ጉዞዎን ይጀምሩ" } }
+  },
+  "journey": { "byDate": "በቀን", "bySeries": "በተከታታይ", "sections": { "tracksLabel": "ትራኮች" } },
+  "library": {
+    "header": "የእኔ ቤተ-መጽሐፍት",
+    "tabs": { "downloads": "ውርዶች", "favorites": "ተወዳጆች", "playlists": "አጫዋች ዝርዝሮች" }
+  },
+  "groups": {
+    "header": "ቡድኖች",
+    "createGroup": {
+      "title": "አዲስ ቡድን ይፍጠሩ",
+      "groupNameLabel": "የቡድን ስም",
+      "groupNameInputPlaceHolder": "ስም",
+      "descriptionLabel": "መግለጫ",
+      "descriptionInputPlaceHolder": "መግለጫ አክል",
+      "inviteLabel": "ተጠቃሚዎችን ይጋብዙ",
+      "inviteButton": "አዲስ ተጠቃሚዎችን ይጋብዙ",
+      "button": "ቡድን ይፍጠሩ",
+      "invalidGroupName": "ትክክለኛ ስም ያስገቡ",
+      "groupNameTooLong": "የቡድኑ ስም ከ 25 በላይ ቁምፊዎችን መያዝ የለበትም"
+    },
+    "devotionNotStartAlert": "ለዚህ ቡድን መሰጠት አልተጀመረም",
+    "membersLabel": "አባላት",
+    "chatModalMemberSubtitleLabel": "አባል",
+    "chatModalMembersSubtitleLabel": "አባላት",
+    "chat": {
+      "listeningToLabel": "በማዳመጥ ላይ",
+      "loadingTrackLabel": "ትራክን በመጫን ላይ ...",
+      "inputPlaceHolder": "መልእክት ፃፍ",
+      "deletePost": "ልጥፍን ሰርዝ",
+      "deleteMessage": "መልእክት ሰርዘዋል"
+    },
+    "groupSettings": {
+      "participantsSection": "ተሳታፊዎች",
+      "viewAll": "ሁሉንም ይመልከቱ",
+      "invite": "አዲስ ተጠቃሚዎችን ይጋብዙ",
+      "endDevotion": "የቡድን አምልኮን ያጠናቅቁ",
+      "deleteGroup": "ቡድንን ሰርዝ",
+      "leaveGroup": "ከቡድን ውጣ"
+    },
+    "userDirectory": {
+      "header": "የተጠቃሚ ማውጫ",
+      "remove": "አስወግድ",
+      "anonymous": "ስም-አልባ",
+      "send": "ላክ"
+    },
+    "inviteUser": { "placeHolder": "ፈልግ", "send": "ላክ" }
+  },
+  "chat": {
+    "header": "የቡድን ሰርጥ",
+    "settings": {
+      "header": "የቡድን ቅንብሮች",
+      "endDevotion": {
+        "alertTitle": "አምልኮን ጨርስ",
+        "alertMessage": "እርግጠኛ ነዎት ይህንን አምልኮ ማቆም ይፈልጋሉ?",
+        "alertCancel": "ሰርዝ",
+        "alertConfirm": "አዎ",
+        "endDevotionLabel": "ይህን መሰጠት አበቃ ፡፡",
+        "hasEnded": "ይህ መሰጠት አብቅቷል"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "አምልኮን ይጀምሩ",
+    "alertMessage": "እርግጠኛ ነዎት በ% {name} ቡድን ውስጥ መሰጠት መጀመር ይፈልጋሉ?",
+    "alertCancel": "ሰርዝ",
+    "alertConfirm": "አዎ",
+    "devotionStartedLabel": "የሚል አምልኮ ጀምሯል ፡፡"
+  },
+  "settings": {
+    "header": "ቅንብሮች",
+    "tabs": { "profile": "መገለጫ", "media": "ሚዲያ", "notifications": "ማሳወቂያዎች" },
+    "profile": {
+      "account": "መለያ",
+      "username": "የተጠቃሚ ስም",
+      "email": "ኢሜል",
+      "editButton": "አርትዕ",
+      "edit": {
+        "save": "አስቀምጥ",
+        "username": {
+          "header": "የተጠቃሚ ስም",
+          "successAlert": "የእርስዎ ለውጥ ተቀምጧል።",
+          "failedAlert": "ለውጡን ማስቀመጥ አልተሳካም።"
+        },
+        "email": {
+          "header": "ኢሜል",
+          "successAlert": "የእርስዎ ለውጥ ተቀምጧል።",
+          "failedAlert": "ለውጡን ማስቀመጥ አልተሳካም።"
+        }
+      },
+      "languages": "ቋንቋዎች",
+      "signIn": "ስግን እን",
+      "signOut": "ከሂሳብ ውጣ",
+      "legal": "ሕጋዊ",
+      "termsConditions": "ውሎች እና ሁኔታዎች",
+      "privacyPolicy": "የ ግል የሆነ",
+      "support": "ድጋፍ",
+      "reportAProblem": "አንድ ችግር ሪፖርት ያድርጉ",
+      "tutorial": "አጋዥ ስልጠና",
+      "reportBug": {
+        "header": "አንድ ችግር ሪፖርት ያድርጉ",
+        "send": "ላክ",
+        "subject": "ርዕሰ ጉዳይ",
+        "subjectPlaceHolder": "ርዕሰ ጉዳይ",
+        "description": "መግለጫ",
+        "descriptionPlaceHolder": "መግለጫ",
+        "successAlert": "አመሰግናለሁ ፣ መልእክትዎን ተቀብለናል ፡፡",
+        "failedAlert": "መልዕክቱን መላክ አልተሳካም"
+      },
+      "version": "ስሪት"
+    },
+    "media": {
+      "audio": "ኦዲዮ",
+      "autoplay": "የራስ-አጫውት ኦዲዮ",
+      "storage": "ማከማቻ",
+      "downloadWifi": "በ Wi-fi ላይ ብቻ ያውርዱ",
+      "deleteCache": "መሸጎጫውን ሰርዝ"
+    },
+    "notifications": {
+      "notifications": "ማሳወቂያዎች",
+      "groupInvitation": "የቡድን ግብዣ",
+      "devotions": "ወደ አምልኮዎች ይጋብዙ",
+      "file": "የፋይል ማስተላለፍ ማረጋገጫ"
+    }
+  },
+  "inviteUsers": { "header": "ተጠቃሚዎችን ይጋብዙ" },
+  "playlist": {
+    "header": "አጫዋች ዝርዝር",
+    "audioFileLabel": "የድምጽ ፋይል",
+    "audioFilesLabel": "የድምፅ ፋይሎች"
+  },
+  "collection": { "header": "ስብስብ", "audioFilesLabel": "የድምፅ ፋይሎች" },
+  "modal": {
+    "close": "ገጠመ",
+    "addToPlaylist": { "title": "ወደ አጫዋች ዝርዝር አክል", "button": "አጫዋች ዝርዝር ይፍጠሩ" },
+    "startDevotion": { "title": "አምልኮን ይጀምሩ" },
+    "createPlaylist": {
+      "title": "አዲስ አጫዋች ዝርዝር ይፍጠሩ",
+      "button": "አጫዋች ዝርዝር ይፍጠሩ",
+      "inputPlaceholder": "የአጫዋች ዝርዝር ስም ያስገቡ",
+      "success": "ወደ አጫዋች ዝርዝር ታክሏል"
+    },
+    "login": "መሰጠት ለመጀመር በመለያ መግባት ያስፈልግዎታል"
+  },
+  "options": {
+    "shared": {
+      "share": ".ር ያድርጉ",
+      "report": "የሪፖርት ይዘት",
+      "shareOthers": "ለሌሎች ያጋሩ",
+      "copy": "የቅጅ አገናኝ",
+      "more": "ተጨማሪ"
+    },
+    "audio": {
+      "download": "አውርድ",
+      "addFavorite": "ወደ ተወዳጆች ያክሉ",
+      "addPlaylist": "ወደ አጫዋች ዝርዝር አክል",
+      "removeFavorite": "ከተወዳጅዎች ውስጥ ያስወግዱ",
+      "removePlaylist": "ከአጫዋች ዝርዝር ውስጥ ያስወግዱ",
+      "removeDownload": "ከውርዶች ያስወግዱ"
+    },
+    "playlist": { "edit": "አርትዕ", "delete": "አጫዋች ዝርዝርን ሰርዝ" },
+    "startDevotion": "አምልኮን ይጀምሩ"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "ወደ አጫዋች ዝርዝር ታክሏል",
+      "delete": "ከአጫዋች ዝርዝር ተወግዷል",
+      "create": "የተፈጠረ አጫዋች ዝርዝር",
+      "destroy": "የተሰረዘ አጫዋች ዝርዝር"
+    },
+    "favorites": { "add": "ወደ ተወዳጆች ታክሏል", "remove": "ከተወዳጅዎች ተወግዷል" },
+    "downloads": { "remove": "ከውርዶች ተወግዷል" }
+  },
+  "buttons": { "loop": "ሉፕ", "shuffle": "በውዝ" },
+  "uiControls": {
+    "searchBox": { "placeholder": "ፈልግ ..." },
+    "notification": { "success": "ስኬት! ኢሜል ወደ ሂሳብዎ ይላካል ፡፡" },
+    "button": { "sending": "በመላክ ላይ ..." },
+    "modalSelector": { "cancel": "ሰርዝ" },
+    "loading": "በመጫን ላይ"
+  },
+  "bible": {
+    "header": "መጽሐፍ ቅዱስ",
+    "oldTestament": "ብሉይ ኪዳን",
+    "newTestament": "አዲስ ኪዳን",
+    "popularBooks": "ታዋቂ መጽሐፍት"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "ፈልግ",
+    "cancelButton": "መሰረዝ",
+    "searchResults": "የፍለጋ ውጤቶች",
+    "filterButton": "ማጣሪያ",
+    "teachings": { "title": "ትምህርቶች" },
+    "bible": { "title": "መጽሐፍ ቅዱስ" }
+  },
+  "addToPlaylistsModal": { "title": "ወደ አጫዋች ዝርዝር አክል", "button": "አጫዋች ዝርዝር ይፍጠሩ" },
+  "createPlaylistModal": {
+    "title": "አዲስ አጫዋች ዝርዝር ይፍጠሩ",
+    "button": "አጫዋች ዝርዝር ይፍጠሩ",
+    "inputPlaceholder": "የአጫዋች ዝርዝር ስም ያስገቡ"
+  },
+  "alert": {
+    "playlists": {
+      "add": "ወደ አጫዋች ዝርዝር ታክሏል",
+      "remove": "ከአጫዋች ዝርዝር ተወግዷል",
+      "create": "የተፈጠረ አጫዋች ዝርዝር",
+      "delete": "የተሰረዘ አጫዋች ዝርዝር"
+    },
+    "favorites": { "add": "ወደ ተወዳጆች ታክሏል", "remove": "ከተወዳጅዎች ተወግዷል" },
+    "downloads": { "remove": "ከውርዶች ተወግዷል" },
+    "facebook": { "loginError": "በመለያ መግባት ከስህተት ጋር አልተሳካም" },
+    "google": { "loginError": "በመለያ መግባት ከስህተት ጋር አልተሳካም" }
+  },
+  "playlists": { "trackLabel": "ትራክ", "tracksLabel": "ትራኮች" },
+  "mediaList": { "tracksLabel": "ትራኮች", "remove": "አስወግድ" },
+  "tutorialPage": { "done": "ተከናውኗል", "skip": "ዝለል" },
+  "loginModal": { "login": "ግባ" },
+  "shareModal": { "facebook": "ፌስቡክ", "twitter": "ትዊተር", "whatsapp": "ዋትስአፕ" },
+  "downloadModal": { "downloading": "በማውረድ ላይ", "complete": "አውርድ ተጠናቅቋል" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "መጽሐፍ ቅዱስን ያስሱ",
+      "subtitle1": "መላውን መጽሐፍ ቅዱስ ከእኛ ጋር ይጓዙ ወይም የራስዎን ጉዞ ይጀምሩ።",
+      "title2": "ያዳምጡ እና ይሳተፉ",
+      "subtitle2": "የሚዲያ ማጫወቻው በቀላሉ በመጽሐፍ ቅዱስ ይዘቱ THRU ውስጥ እንዲሰምጡ ያስችልዎታል።",
+      "title3": "ትምህርቶችን ያግኙ",
+      "subtitle3": "የመጽሐፍ ቅዱስን እና የማስተማር ይዘትን በመጥቀስ ከመቼውም ጊዜ በበለጠ በመጽሐፍ ቅዱስ ውስጥ ይሳተፉ ፡፡",
+      "title4": "በመጽሐፍ ቅዱስ ላይ ተወያዩ",
+      "subtitle4": "የመጽሐፍ ቅዱስ ትምህርቶችን (THRU) እና ርዕሶችን ከሌሎች ጋር ለማጥናት ቡድንን ይቀላቀሉ።",
+      "title5": "ያውርዱ እና ያጋሩ",
+      "subtitle5": "በጉዞ ላይ የእግዚአብሔርን ቃል በማዳመጥ ይደሰቱ እና ለጓደኞችዎ ያጋሩ ፡፡",
+      "title6": "አስቀምጥ እና ፍጠር",
+      "subtitle6": "ተወዳጅ ትምህርቶችዎን እና የመጽሐፍ ቅዱስ ጥቅሶችን ያስቀምጡ ወይም ብጁ አጫዋች ዝርዝር ይፍጠሩ።",
+      "title7": "የቡድን አድናቆት",
+      "subtitle7": "በየቀኑ የቡድን አምልኮዎችን ከሌሎች ጋር ይበረታቱ እና ያነሳሱ ፡፡"
+    },
+    "registerPage": {
+      "noThanks": "አይ አመሰግናለሁ",
+      "haveAccount": "መለያ አለዎት?",
+      "createAccount": "የእኔ መለያ ፍጠር",
+      "title1": "ከሌሎች ጋር ይወያዩ",
+      "subtitle1": "ከሚወዷቸው ርዕሶች እና የመጽሐፍ ቅዱስ ጥቅሶች ጋር ከሌሎች ጋር ይወያዩ ፡፡",
+      "title2": "አጫዋች ዝርዝሮችን ማከማቸት እና ማመሳሰል",
+      "subtitle2": "በአንድ ቦታ ላይ የእርስዎን ተወዳጅ ይዘቶች ይገንቡ።",
+      "title3": "ተወዳጆችዎን ይመልከቱ",
+      "subtitle3": "ያከማቹ እና ተመልሰው ይምጡ እና በኋላ ላይ ተወዳጆችዎን ይጎብኙ።",
+      "title4": "እንኳን በደህና መጣህ",
+      "subtitle4": "መለያ ይፍጠሩ እና ለሁሉም ባህሪያችን መዳረሻ ያግኙ።"
+    }
+  },
+  "app": {
+    "close": "ገጠመ",
+    "accept": "ተቀበል",
+    "reject": "እምቢ",
+    "constructionInProgress": "ግንባታ በሂደት ላይ",
+    "downloadComplete": "አውርድ ተጠናቅቋል",
+    "downloading": "በማውረድ ላይ",
+    "downloadFailed": "ማውረድ አልተሳካም",
+    "sendAFile": "አንድ ሰው ፋይል ሊልክልዎ ይፈልጋል"
+  },
+  "transferring": { "tryAgain": "ድጋሚ ሞክር", "close": "ገጠመ" },
+  "checkDevice": {
+    "check": "መሣሪያዎን ይፈትሹ",
+    "makeSure": "እባክዎ Wifi-Direct የጓደኛዎን መሣሪያ እንደበራ እና በክልል ውስጥ መሆኑን ያረጋግጡ።",
+    "continue": "ቀጥል"
+  },
+  "connectToDevice": { "connect": "ከአንድ መሣሪያ ጋር ይገናኙ" },
+  "pairing": {
+    "connect": "ከአንድ መሣሪያ ጋር ይገናኙ",
+    "pairing": "ማጣመር",
+    "success": "በተሳካ ሁኔታ ተጣምሯል",
+    "failed": "የመሣሪያ ማጣመር አልተሳካም",
+    "makeSure": "እባክዎን (Wifi-Direct) የጓደኛዎን መሣሪያ እንደበራ እና በክልል ውስጥ መሆኑን ያረጋግጡ።",
+    "continue": "ቀጥል",
+    "tryAgain": "ድጋሚ ሞክር"
+  },
+  "selectNetworkType": {
+    "connect": "ከአንድ መሣሪያ ጋር ይገናኙ",
+    "share": "ለ Wifi Direct ያጋሩ",
+    "send": "በቀጥታ ፋይል በ wifi ይላክ?",
+    "continue": "ቀጥል"
+  }
+}

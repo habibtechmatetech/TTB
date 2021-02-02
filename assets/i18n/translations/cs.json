@@ -1,0 +1,402 @@
+{
+  "selectLanguage": { "heading": "Vyberte svůj aktuální jazyk", "mainAction": "Zvolte jazyk" },
+  "menu": {
+    "anonymousTitle": "Váš účet",
+    "anonymousAction": "Přihlásit se",
+    "editProfileAction": "Upravit profil",
+    "verifyProfileAction": "Ověřte profil",
+    "bibleSection": "bible",
+    "teachingsSection": "Učení",
+    "librarySection": "Moje knihovna",
+    "groupsSection": "Skupiny",
+    "donateSection": "Darovat",
+    "settingsSection": "Nastavení",
+    "signOut": "Odhlásit se",
+    "modals": {
+      "verifyProfile": {
+        "title": "Nejste ověřeni",
+        "message": "Vaše seznamy nebudou synchronizovány a nebudete moci vytvářet skupiny. Dokončete registraci kontrolou svého e-mailu.",
+        "firstButton": "Pokračovat",
+        "secondButton": "Zaregistrujte nový profil"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Přihlásit se",
+    "emailPlaceholder": "Tvůj e-mail",
+    "passwordPlaceholder": "Vaše heslo",
+    "forgotAction": "Zapomenuté heslo?",
+    "callToAction": "Přihlásit se",
+    "signInAlternatives": "Nebo se přihlaste pomocí",
+    "noAccountAction": "Žádný účet? Vytvořit jeden",
+    "notifications": {
+      "invalidCredentials": "Neplatná pověření",
+      "inProgress": "Přihlášení již probíhá",
+      "notAvailable": "Služby Play nejsou k dispozici"
+    }
+  },
+  "signUp": {
+    "header": "Vytvořit účet",
+    "emailPlaceholder": "Tvůj e-mail",
+    "passwordPlaceholder": "Vaše heslo",
+    "privateAction": "Nastavit účet jako soukromý",
+    "termsDisclaimer": {
+      "pre": "Kliknutím na Zaregistrovat vyjadřujete, že jste si přečetli a souhlasíte s nimi",
+      "terms": "podmínky",
+      "post": "."
+    },
+    "callToAction": "Přihlásit se",
+    "signUpAlternatives": "Nebo se zaregistrujte pomocí",
+    "haveAnAccountAction": "Mít účet?",
+    "notifications": {
+      "invalidUsername": "Uživatelská jména jsou omezena na 20 alfanumerických znaků (čísla a běžná písmena)",
+      "invalidPassword": "Heslo by mělo mít alespoň 3 znaky a mělo by být kombinací malých a velkých písmen s alespoň jedním číslem nebo zvláštním znakem"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Účet se nepodařilo vytvořit",
+        "message": "Tato e-mailová adresa již existuje.",
+        "firstButton": "Přihlásit se",
+        "secondButton": "Zavřít"
+      },
+      "privateAccount": {
+        "title": "Soukromý účet",
+        "message": "Tím, že svůj účet nastavíte jako soukromý, skrýváte jej před objevením ostatními.",
+        "firstButton": "Akceptovat",
+        "secondButton": "Pokles"
+      },
+      "success": {
+        "title": "Účet založen!",
+        "message": "Váš účet byl úspěšně vytvořen. Zkontrolujte svou doručenou poštu, abyste potvrdili svůj účet a přihlaste se.",
+        "firstButton": "Přihlásit se"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Obnovit heslo",
+    "emailPlaceholder": "Tvůj e-mail",
+    "message": "Zadejte prosím svůj e-mail a resetujte heslo pro svůj účet.",
+    "callToAction": "Obnovit heslo",
+    "notifications": {
+      "success": "Právě jsme poslali e-mail do vaší doručené pošty",
+      "emailNotFoundError": "E-mail nebyl nalezen",
+      "invalidEmailError": "Neplatný formát e-mailu"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Dokončete nastavení",
+    "message": "Na zadanou e-mailovou adresu byl zaslán e-mail. Registraci dokončíte pomocí e-mailových údajů.",
+    "callToAction": "Přeskočit"
+  },
+  "teachings": {
+    "dailyText": "Dnešní vysílání",
+    "journeyTitle": "Začněte svou cestu",
+    "journeySubtitle": "Všechna učení od začátku do konce",
+    "journeyCardTitle": "215 týdenní cesta Biblí",
+    "journeyCardSubtitle": "Poslouchejte svůj čas",
+    "tracksLabel": "stopy"
+  },
+  "teaching": {
+    "header": "Učení",
+    "loading": "Načítání...",
+    "player": {
+      "audioSpeed": "Rychlost zvuku",
+      "loading": "načítání",
+      "castingError": "Žádná zařízení nejsou k dispozici"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Pokračovat v poslechu", "secondButton": "Začněte svou cestu" }
+    }
+  },
+  "journey": {
+    "byDate": "Podle data",
+    "bySeries": "Podle série",
+    "sections": { "tracksLabel": "stopy" }
+  },
+  "library": {
+    "header": "Moje knihovna",
+    "tabs": {
+      "downloads": "Soubory ke stažení",
+      "favorites": "Oblíbené",
+      "playlists": "Seznamy skladeb"
+    }
+  },
+  "groups": {
+    "header": "Skupiny",
+    "createGroup": {
+      "title": "Vytvořit novou skupinu",
+      "groupNameLabel": "SKUPINOVÉ JMÉNO",
+      "groupNameInputPlaceHolder": "název",
+      "descriptionLabel": "POPIS",
+      "descriptionInputPlaceHolder": "Přidat popis",
+      "inviteLabel": "Pozvat uživatele",
+      "inviteButton": "Pozvěte nové uživatele",
+      "button": "Vytvořit skupinu",
+      "invalidGroupName": "Zadejte platné jméno",
+      "groupNameTooLong": "Název skupiny nesmí obsahovat více než 25 znaků"
+    },
+    "devotionNotStartAlert": "Oddanost této skupině nezačala",
+    "membersLabel": "Členové",
+    "chatModalMemberSubtitleLabel": "člen",
+    "chatModalMembersSubtitleLabel": "členů",
+    "chat": {
+      "listeningToLabel": "Poslouchat",
+      "loadingTrackLabel": "Načítání stopy ...",
+      "inputPlaceHolder": "Napsat zprávu",
+      "deletePost": "Smazat příspěvek",
+      "deleteMessage": "Uživatel odstranil zprávu"
+    },
+    "groupSettings": {
+      "participantsSection": "Účastníci",
+      "viewAll": "Zobrazit vše",
+      "invite": "Pozvěte nové uživatele",
+      "endDevotion": "Ukončete oddanou skupinu",
+      "deleteGroup": "Odstranit skupinu",
+      "leaveGroup": "Opustit skupinu"
+    },
+    "userDirectory": {
+      "header": "Uživatelský adresář",
+      "remove": "Odstranit",
+      "anonymous": "Anonymní",
+      "send": "Poslat"
+    },
+    "inviteUser": { "placeHolder": "Vyhledávání", "send": "Poslat" }
+  },
+  "chat": {
+    "header": "Skupinový kanál",
+    "settings": {
+      "header": "Nastavení skupiny",
+      "endDevotion": {
+        "alertTitle": "Konec oddanosti",
+        "alertMessage": "Opravdu chcete tuto oddanost ukončit?",
+        "alertCancel": "zrušení",
+        "alertConfirm": "Ano",
+        "endDevotionLabel": "ukončil tuto oddanost.",
+        "hasEnded": "Tato oddanost skončila"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Začněte oddanost",
+    "alertMessage": "Opravdu chcete zahájit oddanost skupině% {name}?",
+    "alertCancel": "zrušení",
+    "alertConfirm": "Ano",
+    "devotionStartedLabel": "zahájil oddanost."
+  },
+  "settings": {
+    "header": "Nastavení",
+    "tabs": { "profile": "Profil", "media": "Média", "notifications": "Oznámení" },
+    "profile": {
+      "account": "Účet",
+      "username": "Uživatelské jméno",
+      "email": "E-mailem",
+      "editButton": "Upravit",
+      "edit": {
+        "save": "Uložit",
+        "username": {
+          "header": "Uživatelské jméno",
+          "successAlert": "Vaše změna byla uložena.",
+          "failedAlert": "Uložení změny se nezdařilo."
+        },
+        "email": {
+          "header": "E-mailem",
+          "successAlert": "Vaše změna byla uložena.",
+          "failedAlert": "Uložení změny se nezdařilo."
+        }
+      },
+      "languages": "Jazyky",
+      "signIn": "Přihlásit se",
+      "signOut": "Odhlásit se z účtu",
+      "legal": "Právní",
+      "termsConditions": "Všeobecné obchodní podmínky",
+      "privacyPolicy": "Zásady ochrany osobních údajů",
+      "support": "Podpěra, podpora",
+      "reportAProblem": "Nahlásit problém",
+      "tutorial": "Tutorial",
+      "reportBug": {
+        "header": "Nahlásit problém",
+        "send": "Poslat",
+        "subject": "PŘEDMĚT",
+        "subjectPlaceHolder": "Předmět",
+        "description": "POPIS",
+        "descriptionPlaceHolder": "Popis",
+        "successAlert": "Děkujeme, obdrželi jsme vaši zprávu.",
+        "failedAlert": "Zprávu se nepodařilo odeslat."
+      },
+      "version": "Verze"
+    },
+    "media": {
+      "audio": "Zvuk",
+      "autoplay": "Automatické přehrávání zvuku",
+      "storage": "Úložný prostor",
+      "downloadWifi": "Stahovat pouze přes Wi-fi",
+      "deleteCache": "Smazat mezipaměť"
+    },
+    "notifications": {
+      "notifications": "Oznámení",
+      "groupInvitation": "Skupinová pozvánka",
+      "devotions": "Pozvěte na pobožnosti",
+      "file": "Potvrzení přenosu souborů"
+    }
+  },
+  "inviteUsers": { "header": "Pozvat uživatele" },
+  "playlist": {
+    "header": "Seznam skladeb",
+    "audioFileLabel": "Zvukový soubor",
+    "audioFilesLabel": "Zvukové soubory"
+  },
+  "collection": { "header": "Sbírka", "audioFilesLabel": "Zvukové soubory" },
+  "modal": {
+    "close": "zavřít",
+    "addToPlaylist": { "title": "Přidat do seznamu skladeb", "button": "Vytvořit seznam skladeb" },
+    "startDevotion": { "title": "Začněte oddanost" },
+    "createPlaylist": {
+      "title": "Vytvořit nový seznam skladeb",
+      "button": "Vytvořit seznam skladeb",
+      "inputPlaceholder": "Zadejte název seznamu skladeb",
+      "success": "Přidáno do seznamu videí"
+    },
+    "login": "Chcete-li zahájit oddanost, musíte se přihlásit"
+  },
+  "options": {
+    "shared": {
+      "share": "Podíl",
+      "report": "Nahlásit obsah",
+      "shareOthers": "Sdílet s ostatními",
+      "copy": "Kopírovat odkaz",
+      "more": "Více"
+    },
+    "audio": {
+      "download": "Stažení",
+      "addFavorite": "Přidat k oblíbeným",
+      "addPlaylist": "Přidat do seznamu skladeb",
+      "removeFavorite": "Odstranit z oblíbených",
+      "removePlaylist": "Odebrat ze seznamu skladeb",
+      "removeDownload": "Odebrat ze stahování"
+    },
+    "playlist": { "edit": "Upravit", "delete": "Odstranit seznam skladeb" },
+    "startDevotion": "Začněte oddanost"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Přidáno do seznamu videí",
+      "delete": "Odebráno ze seznamu videí",
+      "create": "Vytvořený seznam skladeb",
+      "destroy": "Smazaný seznam skladeb"
+    },
+    "favorites": { "add": "Přidáno do oblíbených", "remove": "Odebráno z oblíbených" },
+    "downloads": { "remove": "Odebráno ze Stažených souborů" }
+  },
+  "buttons": { "loop": "Smyčka", "shuffle": "Zamíchat" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Vyhledávání..." },
+    "notification": { "success": "Úspěch! Na váš účet bude zaslán e-mail." },
+    "button": { "sending": "Odesílání ..." },
+    "modalSelector": { "cancel": "zrušení" },
+    "loading": "načítání"
+  },
+  "bible": {
+    "header": "bible",
+    "oldTestament": "Starý zákon",
+    "newTestament": "Nový zákon",
+    "popularBooks": "Populární knihy"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Vyhledávání",
+    "cancelButton": "ZRUŠENÍ",
+    "searchResults": "Výsledky vyhledávání",
+    "filterButton": "Filtr",
+    "teachings": { "title": "Učení" },
+    "bible": { "title": "bible" }
+  },
+  "addToPlaylistsModal": {
+    "title": "Přidat do seznamu skladeb",
+    "button": "Vytvořit seznam skladeb"
+  },
+  "createPlaylistModal": {
+    "title": "Vytvořit nový seznam skladeb",
+    "button": "Vytvořit seznam skladeb",
+    "inputPlaceholder": "Zadejte název seznamu skladeb"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Přidáno do seznamu videí",
+      "remove": "Odebráno ze seznamu videí",
+      "create": "Vytvořený seznam skladeb",
+      "delete": "Smazaný seznam skladeb"
+    },
+    "favorites": { "add": "Přidáno do oblíbených", "remove": "Odebráno z oblíbených" },
+    "downloads": { "remove": "Odebráno ze Stažených souborů" },
+    "facebook": { "loginError": "Přihlášení se nezdařilo s chybou" },
+    "google": { "loginError": "Přihlášení se nezdařilo s chybou" }
+  },
+  "playlists": { "trackLabel": "Dráha", "tracksLabel": "stopy" },
+  "mediaList": { "tracksLabel": "stopy", "remove": "Odstranit" },
+  "tutorialPage": { "done": "Hotovo", "skip": "Přeskočit" },
+  "loginModal": { "login": "Přihlásit se" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Cvrlikání", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Stahování", "complete": "Stahování dokončeno" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Prozkoumejte Bibli",
+      "subtitle1": "Procestujte s námi celou Bibli nebo se vydejte na vlastní cestu.",
+      "title2": "Poslouchejte a zapojte se",
+      "subtitle2": "Přehrávač médií vám umožní snadno se ponořit do THRU obsahu BIBLE.",
+      "title3": "Objevte učení",
+      "subtitle3": "Zapojte se do Bible jako nikdy předtím křížovými odkazy na obsah Bible a výuky.",
+      "title4": "Diskutujte o Bibli",
+      "subtitle4": "Připojte se ke skupině a společně s ostatními studujte THRU nauky a témata BIBLE.",
+      "title5": "Stáhnout a sdílet",
+      "subtitle5": "Užívejte si poslech Božího slova na cestách a sdílejte ho se svými přáteli.",
+      "title6": "Uložit a vytvořit",
+      "subtitle6": "Uložte si své oblíbené učení a biblické verše nebo si vytvořte vlastní seznam skladeb.",
+      "title7": "Skupinové oddanosti",
+      "subtitle7": "Nechte se povzbuzovat a inspirovat ostatními každodenními skupinovými oddanými."
+    },
+    "registerPage": {
+      "noThanks": "Ne, díky",
+      "haveAccount": "Mít účet?",
+      "createAccount": "Vytvořit můj účet",
+      "title1": "Diskutujte s ostatními",
+      "subtitle1": "Diskutujte o svých oblíbených tématech a biblických verších s ostatními.",
+      "title2": "Ukládejte a synchronizujte seznamy skladeb",
+      "subtitle2": "Vytvářejte seznamy svého oblíbeného obsahu na jednom místě.",
+      "title3": "Podívejte se na své oblíbené",
+      "subtitle3": "Uložte a vraťte se a navštivte své oblíbené později.",
+      "title4": "Vítej zpět",
+      "subtitle4": "Vytvořte si účet a získejte přístup ke všem našim funkcím."
+    }
+  },
+  "app": {
+    "close": "zavřít",
+    "accept": "Akceptovat",
+    "reject": "Odmítnout",
+    "constructionInProgress": "PROBÍHÁ VÝSTAVBA",
+    "downloadComplete": "Stahování dokončeno",
+    "downloading": "Stahování",
+    "downloadFailed": "Stažení se nezdařilo",
+    "sendAFile": "Někdo vám chce poslat soubor"
+  },
+  "transferring": { "tryAgain": "Zkus to znovu", "close": "zavřít" },
+  "checkDevice": {
+    "check": "Zkontrolujte své zařízení",
+    "makeSure": "Ujistěte se, že je Wifi-Direct zapnuto na zařízení vašeho přítele a je v dosahu.",
+    "continue": "Pokračovat"
+  },
+  "connectToDevice": { "connect": "Připojte se k zařízení" },
+  "pairing": {
+    "connect": "Připojte se k zařízení",
+    "pairing": "Párování",
+    "success": "Úspěšně spárováno",
+    "failed": "Párování zařízení se nezdařilo",
+    "makeSure": "Zkontrolujte, zda je (Wifi-Direct) zapnuto zařízení vašeho přítele a zda je v dosahu.",
+    "continue": "Pokračovat",
+    "tryAgain": "Zkus to znovu"
+  },
+  "selectNetworkType": {
+    "connect": "Připojte se k zařízení",
+    "share": "Sdílejte s Wifi Direct",
+    "send": "Odeslat soubor přes wifi direct?",
+    "continue": "Pokračovat"
+  }
+}

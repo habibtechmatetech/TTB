@@ -1,0 +1,377 @@
+{
+  "selectLanguage": { "heading": "选择您当前的语言", "mainAction": "选择语言" },
+  "menu": {
+    "anonymousTitle": "你的帐户",
+    "anonymousAction": "登录",
+    "editProfileAction": "编辑个人资料",
+    "verifyProfileAction": "验证个人资料",
+    "bibleSection": "圣经",
+    "teachingsSection": "教s",
+    "librarySection": "我的图书馆",
+    "groupsSection": "团体",
+    "donateSection": "捐",
+    "settingsSection": "设定值",
+    "signOut": "登出",
+    "modals": {
+      "verifyProfile": {
+        "title": "您尚未验证",
+        "message": "您的列表将不会同步，并且您无法创建组。 请检查您的电子邮件以完成注册。",
+        "firstButton": "继续",
+        "secondButton": "注册一个新的个人资料"
+      }
+    }
+  },
+  "signIn": {
+    "header": "登入",
+    "emailPlaceholder": "你的邮件",
+    "passwordPlaceholder": "你的密码",
+    "forgotAction": "忘记密码？",
+    "callToAction": "登入",
+    "signInAlternatives": "或使用登录",
+    "noAccountAction": "没有账号？ 创建一个",
+    "notifications": {
+      "invalidCredentials": "无效证件",
+      "inProgress": "登录已在进行中",
+      "notAvailable": "无法使用播放服务"
+    }
+  },
+  "signUp": {
+    "header": "创建帐号",
+    "emailPlaceholder": "你的邮件",
+    "passwordPlaceholder": "你的密码",
+    "privateAction": "将帐户设为私人",
+    "termsDisclaimer": { "pre": "点击注册，即表示您已阅读并同意", "terms": "条款", "post": "。" },
+    "callToAction": "注册",
+    "signUpAlternatives": "或使用",
+    "haveAnAccountAction": "有一个账户？",
+    "notifications": {
+      "invalidUsername": "用户名限制为20个字母数字字符（数字和常规字母）",
+      "invalidPassword": "密码至少应包含3个字符，并且由大小写字符以及至少一个数字或特殊字符组成"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "无法建立帐户",
+        "message": "该电子邮件地址已经存在。",
+        "firstButton": "登入",
+        "secondButton": "关"
+      },
+      "privateAccount": {
+        "title": "私人账户",
+        "message": "通过将您的帐户设为私有，您可以隐藏自己的帐户，以免他人发现。",
+        "firstButton": "接受",
+        "secondButton": "下降"
+      },
+      "success": {
+        "title": "帐户已创建！",
+        "message": "您的帐户已成功创建。 检查您的收件箱以确认您的帐户并登录。",
+        "firstButton": "登入"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "重设密码",
+    "emailPlaceholder": "你的邮件",
+    "message": "请输入您的电子邮件以重置您的帐户密码。",
+    "callToAction": "重设密码",
+    "notifications": {
+      "success": "我们刚刚向您的收件箱发送了一封电子邮件",
+      "emailNotFoundError": "找不到电子邮件",
+      "invalidEmailError": "无效的电子邮件格式"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "完成设置",
+    "message": "电子邮件已发送到您输入的电子邮件地址。 请查看电子邮件详细信息以完成注册。",
+    "callToAction": "立即跳过"
+  },
+  "teachings": {
+    "dailyText": "今天的广播",
+    "journeyTitle": "开始您的旅程",
+    "journeySubtitle": "从头到尾的所有教导",
+    "journeyCardTitle": "215周圣经之旅",
+    "journeyCardSubtitle": "听你的时间",
+    "tracksLabel": "曲目"
+  },
+  "teaching": {
+    "header": "教s",
+    "loading": "载入中...",
+    "player": { "audioSpeed": "音速", "loading": "载入中", "castingError": "没有可用的设备" },
+    "modals": { "firstTime": { "firstButton": "继续听", "secondButton": "开始你的旅程" } }
+  },
+  "journey": { "byDate": "按日期", "bySeries": "按系列", "sections": { "tracksLabel": "曲目" } },
+  "library": {
+    "header": "我的图书馆",
+    "tabs": { "downloads": "资料下载", "favorites": "收藏夹", "playlists": "播放清单" }
+  },
+  "groups": {
+    "header": "团体",
+    "createGroup": {
+      "title": "建立新群组",
+      "groupNameLabel": "组的名字",
+      "groupNameInputPlaceHolder": "名称",
+      "descriptionLabel": "描述",
+      "descriptionInputPlaceHolder": "添加说明",
+      "inviteLabel": "邀请用户",
+      "inviteButton": "邀请新用户",
+      "button": "创建组",
+      "invalidGroupName": "输入一个有效的名字",
+      "groupNameTooLong": "群组名称不得超过25个字符"
+    },
+    "devotionNotStartAlert": "该小组尚未开始奉献",
+    "membersLabel": "会员",
+    "chatModalMemberSubtitleLabel": "会员",
+    "chatModalMembersSubtitleLabel": "成员",
+    "chat": {
+      "listeningToLabel": "听",
+      "loadingTrackLabel": "正在载入曲目...",
+      "inputPlaceHolder": "写信息",
+      "deletePost": "删除帖子",
+      "deleteMessage": "已删除一条消息"
+    },
+    "groupSettings": {
+      "participantsSection": "参加者",
+      "viewAll": "查看全部",
+      "invite": "邀请新用户",
+      "endDevotion": "端组投入",
+      "deleteGroup": "删除群组",
+      "leaveGroup": "离开组"
+    },
+    "userDirectory": {
+      "header": "用户目录",
+      "remove": "去掉",
+      "anonymous": "匿名",
+      "send": "发送"
+    },
+    "inviteUser": { "placeHolder": "搜索", "send": "发送" }
+  },
+  "chat": {
+    "header": "小组频道",
+    "settings": {
+      "header": "组设置",
+      "endDevotion": {
+        "alertTitle": "献身",
+        "alertMessage": "您确定要结束这种奉献吗？",
+        "alertCancel": "取消",
+        "alertConfirm": "是",
+        "endDevotionLabel": "结束了这个奉献。",
+        "hasEnded": "这种奉献已经结束"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "开始奉献",
+    "alertMessage": "您确定要从％{name}组开始奉献吗？",
+    "alertCancel": "取消",
+    "alertConfirm": "是",
+    "devotionStartedLabel": "开始了虔诚。"
+  },
+  "settings": {
+    "header": "设定值",
+    "tabs": { "profile": "个人资料", "media": "媒体", "notifications": "通知事项" },
+    "profile": {
+      "account": "帐户",
+      "username": "用户名",
+      "email": "电子邮件",
+      "editButton": "编辑",
+      "edit": {
+        "save": "救",
+        "username": {
+          "header": "用户名",
+          "successAlert": "您的更改已保存。",
+          "failedAlert": "无法保存更改。"
+        },
+        "email": {
+          "header": "电子邮件",
+          "successAlert": "您的更改已保存。",
+          "failedAlert": "无法保存更改。"
+        }
+      },
+      "languages": "语言能力",
+      "signIn": "登入",
+      "signOut": "登出帐户",
+      "legal": "法律",
+      "termsConditions": "条款及细则",
+      "privacyPolicy": "隐私政策",
+      "support": "支持",
+      "reportAProblem": "报告一个问题",
+      "tutorial": "讲解",
+      "reportBug": {
+        "header": "报告一个问题",
+        "send": "发送",
+        "subject": "学科",
+        "subjectPlaceHolder": "学科",
+        "description": "描述",
+        "descriptionPlaceHolder": "描述",
+        "successAlert": "谢谢，我们已经收到您的消息。",
+        "failedAlert": "无法发送消息。"
+      },
+      "version": "版"
+    },
+    "media": {
+      "audio": "音讯",
+      "autoplay": "自动播放音频",
+      "storage": "存储",
+      "downloadWifi": "仅在Wi-fi上下载",
+      "deleteCache": "删除缓存"
+    },
+    "notifications": {
+      "notifications": "通知事项",
+      "groupInvitation": "团体邀请",
+      "devotions": "邀请奉献",
+      "file": "文件传输确认"
+    }
+  },
+  "inviteUsers": { "header": "邀请用户" },
+  "playlist": { "header": "播放清单", "audioFileLabel": "音频文件", "audioFilesLabel": "音频文件" },
+  "collection": { "header": "采集", "audioFilesLabel": "音频文件" },
+  "modal": {
+    "close": "关",
+    "addToPlaylist": { "title": "添加到播放列表", "button": "建立播放清单" },
+    "startDevotion": { "title": "开始奉献" },
+    "createPlaylist": {
+      "title": "建立新的播放清单",
+      "button": "建立播放清单",
+      "inputPlaceholder": "输入播放列表名称",
+      "success": "已添加到播放列表"
+    },
+    "login": "您需要登录才能开始"
+  },
+  "options": {
+    "shared": {
+      "share": "分享",
+      "report": "报告内容",
+      "shareOthers": "与他人分享",
+      "copy": "复制链接",
+      "more": "更多"
+    },
+    "audio": {
+      "download": "下载",
+      "addFavorite": "添加到收藏夹",
+      "addPlaylist": "添加到播放列表",
+      "removeFavorite": "从收藏夹中删除",
+      "removePlaylist": "从播放列表中删除",
+      "removeDownload": "从下载中删除"
+    },
+    "playlist": { "edit": "编辑", "delete": "删除播放列表" },
+    "startDevotion": "开始奉献"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "已添加到播放列表",
+      "delete": "从播放列表中删除",
+      "create": "创建的播放列表",
+      "destroy": "删除的播放列表"
+    },
+    "favorites": { "add": "添加到收藏夹", "remove": "从收藏夹中删除" },
+    "downloads": { "remove": "从下载中删除" }
+  },
+  "buttons": { "loop": "循环", "shuffle": "随机播放" },
+  "uiControls": {
+    "searchBox": { "placeholder": "搜索..." },
+    "notification": { "success": "成功！ 电子邮件将发送到您的帐户。" },
+    "button": { "sending": "正在发送..." },
+    "modalSelector": { "cancel": "取消" },
+    "loading": "载入中"
+  },
+  "bible": {
+    "header": "圣经",
+    "oldTestament": "旧约",
+    "newTestament": "新约",
+    "popularBooks": "热门书籍"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "搜索",
+    "cancelButton": "取消",
+    "searchResults": "搜索结果",
+    "filterButton": "过滤",
+    "teachings": { "title": "教s" },
+    "bible": { "title": "圣经" }
+  },
+  "addToPlaylistsModal": { "title": "添加到播放列表", "button": "建立播放清单" },
+  "createPlaylistModal": {
+    "title": "建立新的播放清单",
+    "button": "建立播放清单",
+    "inputPlaceholder": "输入播放列表名称"
+  },
+  "alert": {
+    "playlists": {
+      "add": "已添加到播放列表",
+      "remove": "从播放列表中删除",
+      "create": "创建的播放列表",
+      "delete": "删除的播放列表"
+    },
+    "favorites": { "add": "添加到收藏夹", "remove": "从收藏夹中删除" },
+    "downloads": { "remove": "从下载中删除" },
+    "facebook": { "loginError": "登录失败并出现错误" },
+    "google": { "loginError": "登录失败并出现错误" }
+  },
+  "playlists": { "trackLabel": "跟踪", "tracksLabel": "曲目" },
+  "mediaList": { "tracksLabel": "曲目", "remove": "去掉" },
+  "tutorialPage": { "done": "完成了", "skip": "跳跃" },
+  "loginModal": { "login": "登录" },
+  "shareModal": { "facebook": "脸书", "twitter": "推特", "whatsapp": "WhatsApp的" },
+  "downloadModal": { "downloading": "正在下载", "complete": "下载完成" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "探索圣经",
+      "subtitle1": "与我们一起阅读整本圣经，或者开始自己的旅程。",
+      "title2": "倾听和参与",
+      "subtitle2": "媒体播放器使您可以轻松浏览“圣经”内容。",
+      "title3": "探索教义",
+      "subtitle3": "通过交叉引用圣经和教学内容，以前所未有的方式参与圣经。",
+      "title4": "讨论圣经",
+      "subtitle4": "加入一个小组，与他人一起学习通透圣经的教义和主题。",
+      "title5": "下载与分享",
+      "subtitle5": "随时随地享受神的道，并与您的朋友分享。",
+      "title6": "保存并创建",
+      "subtitle6": "保存您最喜欢的教义和圣经经文，或创建自定义播放列表。",
+      "title7": "团体奉献",
+      "subtitle7": "每天由小组奉献，受到他人的鼓励和启发。"
+    },
+    "registerPage": {
+      "noThanks": "不用了，谢谢",
+      "haveAccount": "有一个账户？",
+      "createAccount": "创建我的账户",
+      "title1": "与他人讨论",
+      "subtitle1": "与他人讨论您最喜欢的主题和圣经经文。",
+      "title2": "存储和同步播放列表",
+      "subtitle2": "在一个地方建立您喜欢的内容的列表。",
+      "title3": "查看您的收藏夹",
+      "subtitle3": "存储并稍后再访问您的收藏夹。",
+      "title4": "欢迎回来",
+      "subtitle4": "创建一个帐户并访问我们所有的功能。"
+    }
+  },
+  "app": {
+    "close": "关",
+    "accept": "接受",
+    "reject": "拒绝",
+    "constructionInProgress": "在建工程",
+    "downloadComplete": "下载完成",
+    "downloading": "正在下载",
+    "downloadFailed": "下载失败",
+    "sendAFile": "有人想向您发送文件"
+  },
+  "transferring": { "tryAgain": "再试一次", "close": "关" },
+  "checkDevice": {
+    "check": "检查您的设备",
+    "makeSure": "请确保Wifi-Direct已打开您朋友的设备并且在范围内。",
+    "continue": "继续"
+  },
+  "connectToDevice": { "connect": "连接到设备" },
+  "pairing": {
+    "connect": "连接到设备",
+    "pairing": "配对",
+    "success": "成功配对",
+    "failed": "设备配对失败",
+    "makeSure": "请确保（Wifi-Direct）已打开您朋友的设备并且在范围内。",
+    "continue": "继续",
+    "tryAgain": "再试一次"
+  },
+  "selectNetworkType": {
+    "connect": "连接到设备",
+    "share": "与Wifi Direct分享",
+    "send": "通过wifi直接发送文件？",
+    "continue": "继续"
+  }
+}

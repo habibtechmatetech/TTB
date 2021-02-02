@@ -1,0 +1,396 @@
+{
+  "selectLanguage": {
+    "heading": "اپنی موجودہ زبان کا انتخاب کریں",
+    "mainAction": "زبان منتخب کریں"
+  },
+  "menu": {
+    "anonymousTitle": "آپ کا کھاتہ",
+    "anonymousAction": "لاگ ان کریں",
+    "editProfileAction": "پروفائل میں ترمیم کریں",
+    "verifyProfileAction": "پروفائل کی تصدیق کریں",
+    "bibleSection": "بائبل",
+    "teachingsSection": "تعلیمات",
+    "librarySection": "میری لائبریری",
+    "groupsSection": "گروہ",
+    "donateSection": "عطیہ کریں",
+    "settingsSection": "ترتیبات",
+    "signOut": "باہر جائیں",
+    "modals": {
+      "verifyProfile": {
+        "title": "آپ کی تصدیق نہیں ہوئی ہے",
+        "message": "آپ کی فہرستوں کا مطابقت پذیر نہیں ہوگا اور آپ گروپس نہیں بناسکتے ہیں۔ رجسٹریشن مکمل کرنے کے لئے براہ کرم اپنا ای میل چیک کریں۔",
+        "firstButton": "جاری رہے",
+        "secondButton": "ایک نیا پروفائل رجسٹر کریں"
+      }
+    }
+  },
+  "signIn": {
+    "header": "سائن ان",
+    "emailPlaceholder": "آپ کا ای میل",
+    "passwordPlaceholder": "آپ کا پاس ورڈ",
+    "forgotAction": "پاسورڈ بھول گے؟",
+    "callToAction": "سائن ان",
+    "signInAlternatives": "یا استعمال کرتے ہوئے سائن ان کریں",
+    "noAccountAction": "کوئی اکاؤنٹ نہیں ہے؟ ایک بناؤ",
+    "notifications": {
+      "invalidCredentials": "جعلی اسناد",
+      "inProgress": "سائن ان پہلے ہی جاری ہے",
+      "notAvailable": "پلے سروسز دستیاب نہیں"
+    }
+  },
+  "signUp": {
+    "header": "اکاؤنٹ بنائیں",
+    "emailPlaceholder": "آپ کا ای میل",
+    "passwordPlaceholder": "آپ کا پاس ورڈ",
+    "privateAction": "اکاؤنٹ کو نجی بنائیں",
+    "termsDisclaimer": {
+      "pre": "سائن اپ پر کلک کرکے آپ یہ ظاہر کرتے ہیں کہ آپ نے پڑھ لیا ہے اور اس سے اتفاق کیا ہے",
+      "terms": "شرائط",
+      "post": "."
+    },
+    "callToAction": "سائن اپ",
+    "signUpAlternatives": "یا استعمال کرکے سائن اپ کریں",
+    "haveAnAccountAction": "کیا آپ کا اکاؤنٹ ہے؟",
+    "notifications": {
+      "invalidUsername": "صارف نام 20 حروف شماری کے حروف (تعداد اور باقاعدہ حروف) تک محدود ہیں",
+      "invalidPassword": "پاس ورڈ میں کم از کم 3 حرف ہونے چاہئیں اور کم از کم ایک نمبر یا خصوصی حرف کے ساتھ اوپری اور لوئر کیس حروف کا مجموعہ ہونا چاہئے"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "اکاؤنٹ بنانے سے قاصر ہے",
+        "message": "یہ ای میل پتہ پہلے ہی موجود ہے۔",
+        "firstButton": "سائن ان",
+        "secondButton": "بند کریں"
+      },
+      "privateAccount": {
+        "title": "نجی اکاؤنٹ",
+        "message": "اپنا اکاؤنٹ نجی بنا کر ، آپ اسے دوسروں کے ذریعہ دریافت ہونے سے چھپا رہے ہیں۔",
+        "firstButton": "قبول کریں",
+        "secondButton": "رد"
+      },
+      "success": {
+        "title": "اکاؤنٹ بنایا گیا!",
+        "message": "آپ کا اکاؤنٹ کامیابی کے ساتھ تشکیل دے دیا گیا تھا۔ اپنے اکاؤنٹ کی تصدیق اور سائن ان کرنے کیلئے اپنے ان باکس کو چیک کریں۔",
+        "firstButton": "سائن ان"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "پاس ورڈ ری سیٹ",
+    "emailPlaceholder": "آپ کا ای میل",
+    "message": "براہ کرم اپنے اکاؤنٹ کیلئے اپنا پاس ورڈ دوبارہ ترتیب دینے کیلئے اپنا ای میل درج کریں۔",
+    "callToAction": "پاس ورڈ ری سیٹ",
+    "notifications": {
+      "success": "ہم نے ابھی ابھی آپ کے ان باکس میں ایک ای میل بھیجا ہے",
+      "emailNotFoundError": "ای میل نہیں ملی",
+      "invalidEmailError": "غلط ای میل شکل"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "سیٹ اپ ختم کریں",
+    "message": "آپ کے داخل کردہ ای میل پتے پر ایک ای میل بھیجا گیا ہے۔ رجسٹریشن مکمل کرنے کے لئے ای میل کی تفصیلات دیکھیں۔",
+    "callToAction": "اب کے لئے چھوڑ دیں"
+  },
+  "teachings": {
+    "dailyText": "آج کا نشریہ",
+    "journeyTitle": "اپنا سفر شروع کریں",
+    "journeySubtitle": "شروع سے ختم ہونے تک تمام تعلیمات",
+    "journeyCardTitle": "بائبل کے ذریعہ 215 ہفتہ کا سفر",
+    "journeyCardSubtitle": "اپنے وقت پر سنو",
+    "tracksLabel": "پٹریوں"
+  },
+  "teaching": {
+    "header": "تعلیمات",
+    "loading": "لوڈ ہو رہا ہے…",
+    "player": {
+      "audioSpeed": "آڈیو سپیڈ",
+      "loading": "لوڈ ہو رہا ہے",
+      "castingError": "کوئی آلہ دستیاب نہیں ہے"
+    },
+    "modals": { "firstTime": { "firstButton": "سنتے رہیں", "secondButton": "اپنا سفر شروع کریں" } }
+  },
+  "journey": {
+    "byDate": "تاریخ کے لحاظ سے",
+    "bySeries": "بذریعہ سیریز",
+    "sections": { "tracksLabel": "پٹریوں" }
+  },
+  "library": {
+    "header": "میری لائبریری",
+    "tabs": { "downloads": "ڈاؤن لوڈ", "favorites": "پسندیدہ", "playlists": "پلے لسٹس" }
+  },
+  "groups": {
+    "header": "گروہ",
+    "createGroup": {
+      "title": "نیا گروپ بنائیں",
+      "groupNameLabel": "گروہ کا نام",
+      "groupNameInputPlaceHolder": "نام",
+      "descriptionLabel": "تفصیل",
+      "descriptionInputPlaceHolder": "تفصیل شامل کریں",
+      "inviteLabel": "صارفین کو مدعو کریں",
+      "inviteButton": "نئے صارفین کو مدعو کریں",
+      "button": "گروپ بنائیں",
+      "invalidGroupName": "ایک درست نام درج کریں",
+      "groupNameTooLong": "اس گروپ کے نام میں 25 سے زیادہ حرف نہیں ہوں گے"
+    },
+    "devotionNotStartAlert": "اس گروپ کے لئے عقیدت کا آغاز نہیں ہوا ہے",
+    "membersLabel": "ممبران",
+    "chatModalMemberSubtitleLabel": "رکن",
+    "chatModalMembersSubtitleLabel": "ممبران",
+    "chat": {
+      "listeningToLabel": "سننے کے",
+      "loadingTrackLabel": "ٹریک لوڈ ہورہا ہے…",
+      "inputPlaceHolder": "پیغام لکھیں",
+      "deletePost": "پوسٹ کو حذف کریں",
+      "deleteMessage": "ایک پیغام حذف کردیا ہے"
+    },
+    "groupSettings": {
+      "participantsSection": "امیدوار",
+      "viewAll": "سب دیکھیں",
+      "invite": "نئے صارفین کو مدعو کریں",
+      "endDevotion": "گروپ عقیدت ختم کریں",
+      "deleteGroup": "گروپ کو حذف کریں",
+      "leaveGroup": "گروپ چھوڑو"
+    },
+    "userDirectory": {
+      "header": "صارف کی ڈائرکٹری",
+      "remove": "دور",
+      "anonymous": "گمنام",
+      "send": "بھیجیں"
+    },
+    "inviteUser": { "placeHolder": "تلاش کریں", "send": "بھیجیں" }
+  },
+  "chat": {
+    "header": "گروپ چینل",
+    "settings": {
+      "header": "گروپ کی ترتیبات",
+      "endDevotion": {
+        "alertTitle": "عقیدت ختم کریں",
+        "alertMessage": "کیا آپ واقعی اس عقیدت کو ختم کرنا چاہتے ہیں؟",
+        "alertCancel": "منسوخ کریں",
+        "alertConfirm": "جی ہاں",
+        "endDevotionLabel": "اس عقیدت کو ختم کیا۔",
+        "hasEnded": "یہ عقیدت ختم ہوگئی"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "عقیدت شروع کریں",
+    "alertMessage": "کیا آپ واقعی٪ {name} گروپ کے ساتھ عقیدت شروع کرنا چاہتے ہیں؟",
+    "alertCancel": "منسوخ کریں",
+    "alertConfirm": "جی ہاں",
+    "devotionStartedLabel": "ایک عقیدت کا آغاز کیا ہے۔"
+  },
+  "settings": {
+    "header": "ترتیبات",
+    "tabs": { "profile": "پروفائل", "media": "میڈیا", "notifications": "اطلاعات" },
+    "profile": {
+      "account": "کھاتہ",
+      "username": "صارف نام",
+      "email": "ای میل",
+      "editButton": "ترمیم",
+      "edit": {
+        "save": "محفوظ کریں",
+        "username": {
+          "header": "صارف نام",
+          "successAlert": "آپ کی تبدیلی محفوظ ہوگئی ہے۔",
+          "failedAlert": "تبدیلی کو بچانے میں ناکام۔"
+        },
+        "email": {
+          "header": "ای میل",
+          "successAlert": "آپ کی تبدیلی محفوظ ہوگئی ہے۔",
+          "failedAlert": "تبدیلی کو بچانے میں ناکام۔"
+        }
+      },
+      "languages": "زبانیں",
+      "signIn": "سائن ان",
+      "signOut": "اکاؤنٹ سے سائن آؤٹ کریں",
+      "legal": "قانونی",
+      "termsConditions": "شرائط و ضوابط",
+      "privacyPolicy": "رازداری کی پالیسی",
+      "support": "مدد کریں",
+      "reportAProblem": "مسئلے کے بارے میں بتائیے",
+      "tutorial": "سبق",
+      "reportBug": {
+        "header": "مسئلے کے بارے میں بتائیے",
+        "send": "بھیجیں",
+        "subject": "مضمون",
+        "subjectPlaceHolder": "مضمون",
+        "description": "تفصیل",
+        "descriptionPlaceHolder": "تفصیل",
+        "successAlert": "آپ کا شکریہ ، ہمیں آپ کا پیغام موصول ہوا ہے۔",
+        "failedAlert": "پیغام بھیجنے میں ناکام۔"
+      },
+      "version": "ورژن"
+    },
+    "media": {
+      "audio": "آڈیو",
+      "autoplay": "آٹو پلے آڈیو",
+      "storage": "ذخیرہ",
+      "downloadWifi": "صرف وائی فائی پر ڈاؤن لوڈ کریں",
+      "deleteCache": "کیشے کو حذف کریں"
+    },
+    "notifications": {
+      "notifications": "اطلاعات",
+      "groupInvitation": "گروپ دعوت نامہ",
+      "devotions": "عقیدتوں کو مدعو کریں",
+      "file": "فائل کی منتقلی کی تصدیق"
+    }
+  },
+  "inviteUsers": { "header": "صارفین کو مدعو کریں" },
+  "playlist": {
+    "header": "پلے لسٹ",
+    "audioFileLabel": "آڈیو فائل",
+    "audioFilesLabel": "آڈیو فائلیں"
+  },
+  "collection": { "header": "جمع کرنا", "audioFilesLabel": "آڈیو فائلیں" },
+  "modal": {
+    "close": "بند کریں",
+    "addToPlaylist": { "title": "پلے لسٹ میں شامل", "button": "پلے لسٹ بنائیں" },
+    "startDevotion": { "title": "عقیدت شروع کریں" },
+    "createPlaylist": {
+      "title": "نئی پلے لسٹ بنائیں",
+      "button": "پلے لسٹ بنائیں",
+      "inputPlaceholder": "پلے لسٹ کا نام درج کریں",
+      "success": "پلے لسٹ میں شامل"
+    },
+    "login": "عقیدت شروع کرنے کے ل You آپ کو لاگ ان کرنا ہوگا"
+  },
+  "options": {
+    "shared": {
+      "share": "بانٹیں",
+      "report": "مواد کی اطلاع دیں",
+      "shareOthers": "دوسروں کے ساتھ شیئر کریں",
+      "copy": "لنک کاپی کریں",
+      "more": "مزید"
+    },
+    "audio": {
+      "download": "ڈاؤن لوڈ کریں",
+      "addFavorite": "پسندیدہ میں شامل کریں",
+      "addPlaylist": "پلے لسٹ میں شامل",
+      "removeFavorite": "پسندیدہ سے ہٹائیں",
+      "removePlaylist": "پلے لسٹ سے ہٹائیں",
+      "removeDownload": "ڈاؤن لوڈز سے ہٹائیں"
+    },
+    "playlist": { "edit": "ترمیم", "delete": "پلے لسٹ حذف کریں" },
+    "startDevotion": "عقیدت شروع کریں"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "پلے لسٹ میں شامل",
+      "delete": "پلے لسٹ سے ہٹا دیا گیا",
+      "create": "پلے لسٹ بنائی گئی",
+      "destroy": "حذف شدہ پلے لسٹ"
+    },
+    "favorites": { "add": "پسندیدہ میں شامل", "remove": "پسندیدہ سے ہٹا دیا گیا" },
+    "downloads": { "remove": "ڈاؤن لوڈ سے ہٹا دیا گیا" }
+  },
+  "buttons": { "loop": "لوپ", "shuffle": "شفل کرنا" },
+  "uiControls": {
+    "searchBox": { "placeholder": "تلاش کریں ..." },
+    "notification": { "success": "کامیابی! آپ کے اکاؤنٹ پر ایک ای میل بھیجا جائے گا۔" },
+    "button": { "sending": "بھیج رہا ہے…" },
+    "modalSelector": { "cancel": "منسوخ کریں" },
+    "loading": "لوڈ ہو رہا ہے"
+  },
+  "bible": {
+    "header": "بائبل",
+    "oldTestament": "عہد نامہ قدیم",
+    "newTestament": "نیا عہد نامہ",
+    "popularBooks": "مشہور کتابیں"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "تلاش کریں",
+    "cancelButton": "کینسل",
+    "searchResults": "تلاش کے نتائج",
+    "filterButton": "فلٹر کریں",
+    "teachings": { "title": "تعلیمات" },
+    "bible": { "title": "بائبل" }
+  },
+  "addToPlaylistsModal": { "title": "پلے لسٹ میں شامل", "button": "پلے لسٹ بنائیں" },
+  "createPlaylistModal": {
+    "title": "نئی پلے لسٹ بنائیں",
+    "button": "پلے لسٹ بنائیں",
+    "inputPlaceholder": "پلے لسٹ کا نام درج کریں"
+  },
+  "alert": {
+    "playlists": {
+      "add": "پلے لسٹ میں شامل",
+      "remove": "پلے لسٹ سے ہٹا دیا گیا",
+      "create": "پلے لسٹ بنائی گئی",
+      "delete": "حذف شدہ پلے لسٹ"
+    },
+    "favorites": { "add": "پسندیدہ میں شامل", "remove": "پسندیدہ سے ہٹا دیا گیا" },
+    "downloads": { "remove": "ڈاؤن لوڈ سے ہٹا دیا گیا" },
+    "facebook": { "loginError": "لاگ ان غلطی سے ناکام" },
+    "google": { "loginError": "لاگ ان غلطی سے ناکام" }
+  },
+  "playlists": { "trackLabel": "ٹریک", "tracksLabel": "پٹریوں" },
+  "mediaList": { "tracksLabel": "پٹریوں", "remove": "دور" },
+  "tutorialPage": { "done": "ہو گیا", "skip": "چھوڑ دو" },
+  "loginModal": { "login": "لاگ ان کریں" },
+  "shareModal": { "facebook": "فیس بک", "twitter": "ٹویٹر", "whatsapp": "واٹس ایپ" },
+  "downloadModal": { "downloading": "ڈاؤن لوڈ ہو رہا ہے", "complete": "ڈاؤن لوڈ مکمل" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "بائبل کو دریافت کریں",
+      "subtitle1": "ہمارے ساتھ پوری بائبل میں سفر کریں ، یا اپنا سفر شروع کریں۔",
+      "title2": "سنو اور مشغول رہو",
+      "subtitle2": "میڈیا پلیئر آپ کو آسانی سے بائبل کے مواد کو THRU میں ڈوبنے کی اجازت دیتا ہے۔",
+      "title3": "دریافتیں دریافت کریں",
+      "subtitle3": "بائبل میں مشغول ہوجائیں جیسا کہ پہلے کبھی بھی بائبل اور درس و تدریس کے مشورے کا حوالہ نہیں دیتے تھے۔",
+      "title4": "بائبل پر بحث کریں",
+      "subtitle4": "دوسروں کے ساتھ THRU بائبل تعلیمات اور عنوانات کا مطالعہ کرنے کے لئے ایک گروپ میں شامل ہوں۔",
+      "title5": "ڈاؤن لوڈ اور شیئر کریں",
+      "subtitle5": "چلتے چلتے خدا کا کلام سننے سے لطف اٹھائیں اور اپنے دوستوں کے ساتھ اس کا اشتراک کریں۔",
+      "title6": "محفوظ کریں اور بنائیں",
+      "subtitle6": "اپنی پسندیدہ تعلیمات اور بائبل کی آیات کو محفوظ کریں یا اپنی مرضی کے مطابق پلے لسٹ بنائیں۔",
+      "title7": "گروہی جذبات",
+      "subtitle7": "روزانہ اجتماعی عقیدت کے ساتھ دوسروں کی حوصلہ افزائی اور حوصلہ افزائی کریں۔"
+    },
+    "registerPage": {
+      "noThanks": "نہیں شکریہ",
+      "haveAccount": "کیا آپ کا اکاؤنٹ ہے؟",
+      "createAccount": "میرا کھاتہ کھولیں",
+      "title1": "دوسروں کے ساتھ تبادلہ خیال کریں",
+      "subtitle1": "دوسروں کے ساتھ اپنے پسندیدہ عنوانات اور بائبل کی آیات پر گفتگو کریں۔",
+      "title2": "اسٹور اور ہم آہنگی پلے لسٹس",
+      "subtitle2": "اپنے پسندیدہ مواد کی فہرستیں ایک جگہ بنائیں۔",
+      "title3": "اپنے پسندیدہ دیکھیں",
+      "subtitle3": "ذخیرہ کریں اور واپس آئیں اور بعد میں اپنی پسندیدگیاں دیکھیں۔",
+      "title4": "خوش آمدید",
+      "subtitle4": "ایک اکاؤنٹ بنائیں اور ہماری تمام خصوصیات تک رسائی حاصل کریں۔"
+    }
+  },
+  "app": {
+    "close": "بند کریں",
+    "accept": "قبول کریں",
+    "reject": "مسترد کریں",
+    "constructionInProgress": "ترقی میں تعمیر",
+    "downloadComplete": "ڈاؤن لوڈ مکمل",
+    "downloading": "ڈاؤن لوڈ ہو رہا ہے",
+    "downloadFailed": "ڈاؤن لوڈ ناکام",
+    "sendAFile": "کوئی آپ کو فائل بھیجنا چاہتا ہے"
+  },
+  "transferring": { "tryAgain": "دوبارہ کوشش کریں", "close": "بند کریں" },
+  "checkDevice": {
+    "check": "اپنے آلے کو چیک کریں",
+    "makeSure": "براہ کرم یقینی بنائیں کہ آپ کے دوست کے آلے پر وائی فائی ڈائرکٹ آن ہے اور اس کی حد ہے۔",
+    "continue": "جاری رہے"
+  },
+  "connectToDevice": { "connect": "کسی آلہ سے جڑیں" },
+  "pairing": {
+    "connect": "کسی آلہ سے جڑیں",
+    "pairing": "جوڑا لگانا",
+    "success": "کامیابی کے ساتھ جوڑا بنایا گیا",
+    "failed": "آلہ جوڑنا ناکام ہوگیا",
+    "makeSure": "براہ کرم یقینی بنائیں کہ (وائی فائی-ڈائرکٹ) آپ کے دوست کے آلے کو آن کیا گیا ہے اور اس کی حد ہے۔",
+    "continue": "جاری رہے",
+    "tryAgain": "دوبارہ کوشش کریں"
+  },
+  "selectNetworkType": {
+    "connect": "کسی آلہ سے جڑیں",
+    "share": "وائی ​​فائی ڈائرکٹ کے ساتھ شیئر کریں",
+    "send": "براہ راست وائی فائی پر فائل بھیجیں؟",
+    "continue": "جاری رہے"
+  }
+}

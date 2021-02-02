@@ -1,0 +1,404 @@
+{
+  "selectLanguage": { "heading": "Ағымдағы тілді таңдаңыз", "mainAction": "Тілді таңдаңыз" },
+  "menu": {
+    "anonymousTitle": "Сіздің тіркелгіңіз",
+    "anonymousAction": "Кіру",
+    "editProfileAction": "Профильді өңдеу",
+    "verifyProfileAction": "Профильді растаңыз",
+    "bibleSection": "Інжіл",
+    "teachingsSection": "Оқыту",
+    "librarySection": "Менің кітапханам",
+    "groupsSection": "Топтар",
+    "donateSection": "Қайырымдылық жасаңыз",
+    "settingsSection": "Параметрлер",
+    "signOut": "Шығу",
+    "modals": {
+      "verifyProfile": {
+        "title": "Сіз расталмағансыз",
+        "message": "Тізімдер синхрондалмайды және сіз топтар жасай алмайсыз. Тіркеуді аяқтау үшін электрондық поштаңызды тексеріңіз.",
+        "firstButton": "Жалғастыру",
+        "secondButton": "Жаңа профильді тіркеңіз"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Кіру",
+    "emailPlaceholder": "Сіздің электрондық поштаңыз",
+    "passwordPlaceholder": "Құпия сөз",
+    "forgotAction": "Құпия сөзді ұмыттыңыз ба?",
+    "callToAction": "Кіру",
+    "signInAlternatives": "Немесе пайдаланып кіріңіз",
+    "noAccountAction": "Есептік жазба жоқ па? Біреуін жасаңыз",
+    "notifications": {
+      "invalidCredentials": "Жарамсыз тіркелгі деректері",
+      "inProgress": "Кіру орындалуда",
+      "notAvailable": "Ойнату қызметтері қол жетімді емес"
+    }
+  },
+  "signUp": {
+    "header": "Аккаунт құру",
+    "emailPlaceholder": "Сіздің электрондық поштаңыз",
+    "passwordPlaceholder": "Құпия сөз",
+    "privateAction": "Есептік жазбаны жеке етіп жасаңыз",
+    "termsDisclaimer": {
+      "pre": "Тіркелуді басу арқылы сіз оқығаныңызды және келісетініңізді білдіресіз",
+      "terms": "шарттар",
+      "post": "."
+    },
+    "callToAction": "Тіркелу",
+    "signUpAlternatives": "Немесе пайдаланып тіркеліңіз",
+    "haveAnAccountAction": "Есептік жазбаңыз бар ма?",
+    "notifications": {
+      "invalidUsername": "Пайдаланушы аттары 20 әріптік-сандық белгілермен шектеледі (сандар мен қарапайым әріптер)",
+      "invalidPassword": "Құпия сөз кем дегенде 3 таңбадан тұруы керек және кем дегенде бір саннан тұратын немесе арнайы таңбадан тұратын үлкен және кіші әріптердің тіркесімі болуы керек"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Тіркелгі жасау мүмкін емес",
+        "message": "Бұл электрондық пошта мекенжайы бұрыннан бар.",
+        "firstButton": "Кіру",
+        "secondButton": "Жабық"
+      },
+      "privateAccount": {
+        "title": "Жеке шот",
+        "message": "Есептік жазбаңызды жеке ету арқылы сіз оны басқалардың ашқанынан жасырасыз.",
+        "firstButton": "Қабылдау",
+        "secondButton": "Қабылдамау"
+      },
+      "success": {
+        "title": "Тіркелгі жасалды!",
+        "message": "Тіркелгіңіз сәтті құрылды. Тіркелгіні растау және кіру үшін кіріс жәшігін тексеріңіз.",
+        "firstButton": "Кіру"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Құпия сөзді қалпына келтіріңіз",
+    "emailPlaceholder": "Сіздің электрондық поштаңыз",
+    "message": "Есептік жазбаңыздың паролін қалпына келтіру үшін электрондық поштаңызды енгізіңіз.",
+    "callToAction": "Құпия сөзді қалпына келтіріңіз",
+    "notifications": {
+      "success": "Біз сіздің электрондық поштаңызға электрондық хат жібердік",
+      "emailNotFoundError": "Электрондық пошта табылмады",
+      "invalidEmailError": "Электрондық пошта форматы жарамсыз"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Орнатуды аяқтаңыз",
+    "message": "Электрондық пошта сіз енгізген электрондық пошта мекен-жайына жіберілді. Тіркелуді аяқтау үшін электронды пошта мәліметтерін қараңыз.",
+    "callToAction": "Қазір өткізіп жіберу"
+  },
+  "teachings": {
+    "dailyText": "Бүгінгі хабар",
+    "journeyTitle": "Сапарды бастаңыз",
+    "journeySubtitle": "Барлық ілімдер басынан аяғына дейін",
+    "journeyCardTitle": "215 апта Інжіл бойынша саяхат",
+    "journeyCardSubtitle": "Уақытыңызды тыңдаңыз",
+    "tracksLabel": "Жолдар"
+  },
+  "teaching": {
+    "header": "Оқыту",
+    "loading": "Жүктелуде ...",
+    "player": {
+      "audioSpeed": "Аудио жылдамдығы",
+      "loading": "Жүктелуде",
+      "castingError": "Құрылғылар жоқ"
+    },
+    "modals": {
+      "firstTime": {
+        "firstButton": "Тыңдауды жалғастырыңыз",
+        "secondButton": "Саяхатыңызды бастаңыз"
+      }
+    }
+  },
+  "journey": {
+    "byDate": "Күні бойынша",
+    "bySeries": "Серия бойынша",
+    "sections": { "tracksLabel": "Жолдар" }
+  },
+  "library": {
+    "header": "Менің кітапханам",
+    "tabs": {
+      "downloads": "Жүктеулер",
+      "favorites": "Таңдаулылар",
+      "playlists": "Ойнату тізімдері"
+    }
+  },
+  "groups": {
+    "header": "Топтар",
+    "createGroup": {
+      "title": "Жаңа топ құру",
+      "groupNameLabel": "ТОП АТЫ",
+      "groupNameInputPlaceHolder": "Аты-жөні",
+      "descriptionLabel": "СИПАТТАМА",
+      "descriptionInputPlaceHolder": "Сипаттама қосыңыз",
+      "inviteLabel": "Пайдаланушыларды шақырыңыз",
+      "inviteButton": "Жаңа қолданушыларды шақырыңыз",
+      "button": "Топ құру",
+      "invalidGroupName": "Жарамды атауды енгізіңіз",
+      "groupNameTooLong": "Топтың атауы 25 символдан аспауы керек"
+    },
+    "devotionNotStartAlert": "Бұл топ үшін адалдық басталған жоқ",
+    "membersLabel": "Мүшелер",
+    "chatModalMemberSubtitleLabel": "мүше",
+    "chatModalMembersSubtitleLabel": "мүшелер",
+    "chat": {
+      "listeningToLabel": "Тыңдау",
+      "loadingTrackLabel": "Жол жүктелуде ...",
+      "inputPlaceHolder": "Хабар жазу",
+      "deletePost": "Постты жою",
+      "deleteMessage": "хабарламаны жойды"
+    },
+    "groupSettings": {
+      "participantsSection": "Қатысушылар",
+      "viewAll": "Барлығын көру",
+      "invite": "Жаңа қолданушыларды шақырыңыз",
+      "endDevotion": "Топтық берілгендікті аяқтаңыз",
+      "deleteGroup": "Топты жою",
+      "leaveGroup": "Топтан шығу"
+    },
+    "userDirectory": {
+      "header": "Пайдаланушы каталогы",
+      "remove": "Жою",
+      "anonymous": "Аноним",
+      "send": "Жіберу"
+    },
+    "inviteUser": { "placeHolder": "Іздеу", "send": "Жіберу" }
+  },
+  "chat": {
+    "header": "Топтық арна",
+    "settings": {
+      "header": "Топтық параметрлер",
+      "endDevotion": {
+        "alertTitle": "Берілгендікті аяқтаңыз",
+        "alertMessage": "Осы адалдықты аяқтағыңыз келетініне сенімдісіз бе?",
+        "alertCancel": "Бас тарту",
+        "alertConfirm": "Иә",
+        "endDevotionLabel": "осы адалдықты аяқтады.",
+        "hasEnded": "Бұл берілгендік аяқталды"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Берілісті бастаңыз",
+    "alertMessage": "% {Name} тобынан адалдықты бастағыңыз келетініне сенімдісіз бе?",
+    "alertCancel": "Бас тарту",
+    "alertConfirm": "Иә",
+    "devotionStartedLabel": "адалдықты бастады."
+  },
+  "settings": {
+    "header": "Параметрлер",
+    "tabs": { "profile": "Профиль", "media": "БАҚ", "notifications": "Хабарландырулар" },
+    "profile": {
+      "account": "Тіркелгі",
+      "username": "Пайдаланушы аты",
+      "email": "Электрондық пошта",
+      "editButton": "Өңдеу",
+      "edit": {
+        "save": "Сақтау",
+        "username": {
+          "header": "Пайдаланушы аты",
+          "successAlert": "Сіздің өзгеріс сақталды.",
+          "failedAlert": "Өзгеріс сақталмады."
+        },
+        "email": {
+          "header": "Электрондық пошта",
+          "successAlert": "Сіздің өзгеріс сақталды.",
+          "failedAlert": "Өзгеріс сақталмады."
+        }
+      },
+      "languages": "Тілдер",
+      "signIn": "Кіру",
+      "signOut": "Есептік жазбадан шығу",
+      "legal": "Заңды",
+      "termsConditions": "Шарттар",
+      "privacyPolicy": "Құпиялылық саясаты",
+      "support": "Қолдау",
+      "reportAProblem": "Мәселе туралы хабарлау",
+      "tutorial": "Оқулық",
+      "reportBug": {
+        "header": "Мәселе туралы хабарлау",
+        "send": "Жіберу",
+        "subject": "ПӘН",
+        "subjectPlaceHolder": "Тақырып",
+        "description": "СИПАТТАМА",
+        "descriptionPlaceHolder": "Сипаттама",
+        "successAlert": "Рахмет, біз сіздің хабарламаңызды алдық.",
+        "failedAlert": "Хабар жіберілмеді."
+      },
+      "version": "Нұсқа"
+    },
+    "media": {
+      "audio": "Аудио",
+      "autoplay": "Авто ойнату",
+      "storage": "Сақтау орны",
+      "downloadWifi": "Тек Wi-fi арқылы жүктеңіз",
+      "deleteCache": "Кэшті жою"
+    },
+    "notifications": {
+      "notifications": "Хабарландырулар",
+      "groupInvitation": "Топтық шақыру",
+      "devotions": "Арнауларға шақыру",
+      "file": "Файлды тасымалдауды растау"
+    }
+  },
+  "inviteUsers": { "header": "Пайдаланушыларды шақырыңыз" },
+  "playlist": {
+    "header": "Ойнату тізімі",
+    "audioFileLabel": "Дыбыстық файл",
+    "audioFilesLabel": "Аудио файлдар"
+  },
+  "collection": { "header": "Жинақ", "audioFilesLabel": "Аудио файлдар" },
+  "modal": {
+    "close": "жабық",
+    "addToPlaylist": { "title": "Ойнату тізіміне қосу", "button": "Ойнату тізімін жасаңыз" },
+    "startDevotion": { "title": "Берілісті бастаңыз" },
+    "createPlaylist": {
+      "title": "Жаңа ойнату тізімін жасаңыз",
+      "button": "Ойнату тізімін жасаңыз",
+      "inputPlaceholder": "Ойнату тізімінің атауын енгізіңіз",
+      "success": "Ойнату тізіміне қосылды"
+    },
+    "login": "Берілгендікті бастау үшін сізге кіру керек"
+  },
+  "options": {
+    "shared": {
+      "share": "Бөлісу",
+      "report": "Есеп мазмұны",
+      "shareOthers": "Басқалармен бөлісу",
+      "copy": "Сілтемені көшіру",
+      "more": "Көбірек"
+    },
+    "audio": {
+      "download": "Жүктеу",
+      "addFavorite": "Таңдаулыларға қосу",
+      "addPlaylist": "Ойнату тізіміне қосу",
+      "removeFavorite": "Таңдаулылардан алып тастаңыз",
+      "removePlaylist": "Ойнату тізімінен алып тастаңыз",
+      "removeDownload": "Жүктеулерден алып тастаңыз"
+    },
+    "playlist": { "edit": "Өңдеу", "delete": "Ойнату тізімін жою" },
+    "startDevotion": "Берілісті бастаңыз"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Ойнату тізіміне қосылды",
+      "delete": "Ойнату тізімінен жойылды",
+      "create": "Ойнату тізімі жасалды",
+      "destroy": "Ойнату тізімі жойылды"
+    },
+    "favorites": { "add": "Таңдаулыларға қосылды", "remove": "Таңдаулылардан жойылды" },
+    "downloads": { "remove": "Жүктеулерден жойылды" }
+  },
+  "buttons": { "loop": "Ілмек", "shuffle": "Араластыру" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Іздеу ..." },
+    "notification": {
+      "success": "Жетістік! Электрондық пошта сіздің есептік жазбаңызға жіберіледі."
+    },
+    "button": { "sending": "Жіберіліп жатыр..." },
+    "modalSelector": { "cancel": "Бас тарту" },
+    "loading": "Жүктелуде"
+  },
+  "bible": {
+    "header": "Інжіл",
+    "oldTestament": "Ескі өсиет",
+    "newTestament": "Жаңа өсиет",
+    "popularBooks": "Танымал кітаптар"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Іздеу",
+    "cancelButton": "ТОҚТАТУ",
+    "searchResults": "Іздеу нәтижелері",
+    "filterButton": "Сүзгі",
+    "teachings": { "title": "Оқыту" },
+    "bible": { "title": "Інжіл" }
+  },
+  "addToPlaylistsModal": { "title": "Ойнату тізіміне қосу", "button": "Ойнату тізімін жасаңыз" },
+  "createPlaylistModal": {
+    "title": "Жаңа ойнату тізімін жасаңыз",
+    "button": "Ойнату тізімін жасаңыз",
+    "inputPlaceholder": "Ойнату тізімінің атауын енгізіңіз"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Ойнату тізіміне қосылды",
+      "remove": "Ойнату тізімінен жойылды",
+      "create": "Ойнату тізімі жасалды",
+      "delete": "Ойнату тізімі жойылды"
+    },
+    "favorites": { "add": "Таңдаулыларға қосылды", "remove": "Таңдаулылардан жойылды" },
+    "downloads": { "remove": "Жүктеулерден жойылды" },
+    "facebook": { "loginError": "Кіру қатемен аяқталды" },
+    "google": { "loginError": "Кіру қатемен аяқталды" }
+  },
+  "playlists": { "trackLabel": "Жол", "tracksLabel": "Жолдар" },
+  "mediaList": { "tracksLabel": "Жолдар", "remove": "Жою" },
+  "tutorialPage": { "done": "Дайын", "skip": "Өткізіп жіберу" },
+  "loginModal": { "login": "Кіру" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "WhatsApp" },
+  "downloadModal": { "downloading": "Жүктеу", "complete": "Жүктеу аяқталды" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "Інжілді зерттеңіз",
+      "subtitle1": "Бізбен бірге бүкіл Киелі кітапты аралап шығыңыз немесе өзіңіздің жеке сапарыңызды бастаңыз.",
+      "title2": "Тыңдаңыз және айналысыңыз",
+      "subtitle2": "Медиа ойнатқыш THRU арқылы BIBLE мазмұнына оңай сүңгуге мүмкіндік береді.",
+      "title3": "Оқытуды ашыңыз",
+      "subtitle3": "Інжілмен бұрын-соңды болмаған Інжілмен айналысыңыз және Інжіл мен оқытудың мазмұнына сілтеме жасаңыз.",
+      "title4": "Інжілді талқыла",
+      "subtitle4": "Киелі кітаптағы ілімдер мен тақырыптарды басқалармен бірге зерттеу үшін топқа қосылыңыз.",
+      "title5": "Жүктеу және бөлісу",
+      "subtitle5": "Жолда Құдай Сөзін тыңдаудан рахат алыңыз және оны достарыңызбен бөлісіңіз.",
+      "title6": "Сақтау және жасау",
+      "subtitle6": "Өзіңіздің сүйікті ілімдеріңіз бен Киелі кітап тармақтарын сақтаңыз немесе тапсырыс бойынша ойнату тізімін жасаңыз.",
+      "title7": "Топтық арнаулар",
+      "subtitle7": "Күнделікті адалдықпен басқалардан жігерленіп, шабыттаныңыз."
+    },
+    "registerPage": {
+      "noThanks": "Жоқ Рақмет",
+      "haveAccount": "Есептік жазбаңыз бар ма?",
+      "createAccount": "Менің тіркелгімді жасаңыз",
+      "title1": "Басқалармен талқылау",
+      "subtitle1": "Өзіңізге ұнайтын тақырыптар мен Інжіл өлеңдерін басқалармен талқылаңыз.",
+      "title2": "Ойнату тізімдерін сақтау және синхрондау",
+      "subtitle2": "Сіздің сүйікті мазмұныңыздың тізімдерін бір жерде құрастырыңыз.",
+      "title3": "Таңдаулыларыңызды қараңыз",
+      "subtitle3": "Сақтап, қайта оралыңыз және сүйіктілеріңізге кейінірек барыңыз.",
+      "title4": "Қайта келуінмен",
+      "subtitle4": "Тіркелгі жасаңыз және біздің барлық мүмкіндіктерімізге қол жеткізіңіз."
+    }
+  },
+  "app": {
+    "close": "жабық",
+    "accept": "Қабылдау",
+    "reject": "Қабылдамау",
+    "constructionInProgress": "ҚҰРЫЛЫС ЖҮРУДЕ",
+    "downloadComplete": "Жүктеу аяқталды",
+    "downloading": "Жүктеу",
+    "downloadFailed": "Жүктеу сәтсіз аяқталды",
+    "sendAFile": "Біреу сізге файл жібергісі келеді"
+  },
+  "transferring": { "tryAgain": "қайтадан көріңіз", "close": "жабық" },
+  "checkDevice": {
+    "check": "Құрылғыны тексеріңіз",
+    "makeSure": "Досыңыздың құрылғысында Wifi-Direct қосулы екеніне көз жеткізіңіз.",
+    "continue": "Жалғастыру"
+  },
+  "connectToDevice": { "connect": "Құрылғыға қосылыңыз" },
+  "pairing": {
+    "connect": "Құрылғыға қосылыңыз",
+    "pairing": "Жұптау",
+    "success": "Сәтті жұптасты",
+    "failed": "Құрылғыны жұптастыру сәтсіз аяқталды",
+    "makeSure": "Сіздің досыңыздың құрылғысында (Wifi-Direct) қосулы екеніне көз жеткізіңіз.",
+    "continue": "Жалғастыру",
+    "tryAgain": "Қайтадан көріңіз"
+  },
+  "selectNetworkType": {
+    "connect": "Құрылғыға қосылыңыз",
+    "share": "Wifi Direct арқылы бөлісу",
+    "send": "Файлды wifi direct арқылы жіберу керек пе?",
+    "continue": "Жалғастыру"
+  }
+}

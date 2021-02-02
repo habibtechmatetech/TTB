@@ -1,0 +1,399 @@
+{
+  "selectLanguage": { "heading": "Mevcut dilinizi seçin", "mainAction": "Dil Seçin" },
+  "menu": {
+    "anonymousTitle": "Hesabınız",
+    "anonymousAction": "Oturum aç",
+    "editProfileAction": "Profili Düzenle",
+    "verifyProfileAction": "Profili doğrulayın",
+    "bibleSection": "Kutsal Kitap",
+    "teachingsSection": "Öğretiler",
+    "librarySection": "Benim kutuphanem",
+    "groupsSection": "Gruplar",
+    "donateSection": "Bağış yap",
+    "settingsSection": "Ayarlar",
+    "signOut": "Oturumu Kapat",
+    "modals": {
+      "verifyProfile": {
+        "title": "Doğrulanmadın",
+        "message": "Listeleriniz senkronize edilmeyecek ve grup oluşturamazsınız. Kaydı tamamlamak için lütfen e-postanızı kontrol edin.",
+        "firstButton": "Devam et",
+        "secondButton": "Yeni bir profil kaydedin"
+      }
+    }
+  },
+  "signIn": {
+    "header": "Oturum aç",
+    "emailPlaceholder": "E-posta adresiniz",
+    "passwordPlaceholder": "Şifreniz",
+    "forgotAction": "Parolanızı mı unuttunuz?",
+    "callToAction": "oturum aç",
+    "signInAlternatives": "Veya kullanarak oturum açın",
+    "noAccountAction": "Hesap yok? Bir tane yarat",
+    "notifications": {
+      "invalidCredentials": "Geçersiz kimlik bilgileri",
+      "inProgress": "Oturum açma işlemi zaten devam ediyor",
+      "notAvailable": "Play hizmetleri kullanılamıyor"
+    }
+  },
+  "signUp": {
+    "header": "Hesap oluştur",
+    "emailPlaceholder": "E-posta adresiniz",
+    "passwordPlaceholder": "Şifreniz",
+    "privateAction": "Hesabı Özel Yap",
+    "termsDisclaimer": {
+      "pre": "Kaydol'u tıklayarak okuduğunuzu ve kabul ettiğinizi belirtirsiniz",
+      "terms": "şartlar",
+      "post": "."
+    },
+    "callToAction": "kaydol",
+    "signUpAlternatives": "Veya kullanarak kaydolun",
+    "haveAnAccountAction": "Hesabın var mı?",
+    "notifications": {
+      "invalidUsername": "Kullanıcı adları 20 alfanümerik karakterle sınırlıdır (sayılar ve normal harfler)",
+      "invalidPassword": "Parola en az 3 karakter içermeli ve en az bir rakam veya özel karakter içeren büyük ve küçük harflerin birleşiminden oluşmalıdır"
+    },
+    "modals": {
+      "emailExists": {
+        "title": "Bir hesap oluşturulamıyor",
+        "message": "Bu e-posta adresi zaten var.",
+        "firstButton": "Oturum aç",
+        "secondButton": "Kapat"
+      },
+      "privateAccount": {
+        "title": "Özel hesap",
+        "message": "Hesabınızı özel yaparak, başkaları tarafından keşfedilmesini önlenmiş olursunuz.",
+        "firstButton": "Kabul etmek",
+        "secondButton": "Reddet"
+      },
+      "success": {
+        "title": "Hesap oluşturuldu!",
+        "message": "Hesabınız başarılı bir şekilde oluşturulmuştur. Hesabınızı onaylamak ve oturum açmak için gelen kutunuzu kontrol edin.",
+        "firstButton": "Oturum aç"
+      }
+    }
+  },
+  "forgotPassword": {
+    "header": "Şifreyi yenile",
+    "emailPlaceholder": "E-posta adresiniz",
+    "message": "Hesabınızın şifresini sıfırlamak için lütfen e-postanızı girin.",
+    "callToAction": "Şifreyi yenile",
+    "notifications": {
+      "success": "Gelen kutunuza bir e-posta gönderdik",
+      "emailNotFoundError": "E-posta bulunamadı",
+      "invalidEmailError": "Geçersiz e-posta formatı"
+    }
+  },
+  "finishAuthSetup": {
+    "header": "Kurulumu Bitir",
+    "message": "Girdiğiniz e-posta adresine bir e-posta gönderildi. Kaydı tamamlamak için lütfen e-posta ayrıntılarına bakın.",
+    "callToAction": "Şimdilik geç"
+  },
+  "teachings": {
+    "dailyText": "Bugünün Yayını",
+    "journeyTitle": "Yolculuğunuza Başlayın",
+    "journeySubtitle": "Baştan sona tüm öğretiler",
+    "journeyCardTitle": "İncil'de 215 Hafta Yolculuk",
+    "journeyCardSubtitle": "Zamanında dinle",
+    "tracksLabel": "Parçalar"
+  },
+  "teaching": {
+    "header": "Öğretiler",
+    "loading": "Yükleniyor...",
+    "player": {
+      "audioSpeed": "Ses Hızı",
+      "loading": "Yükleniyor",
+      "castingError": "Kullanılabilir Cihaz Yok"
+    },
+    "modals": {
+      "firstTime": { "firstButton": "Dinlemeye Devam Et", "secondButton": "Yolculuğunuza başlayın" }
+    }
+  },
+  "journey": {
+    "byDate": "Tarihe göre",
+    "bySeries": "Seriye göre",
+    "sections": { "tracksLabel": "Parçalar" }
+  },
+  "library": {
+    "header": "Benim kutuphanem",
+    "tabs": {
+      "downloads": "İndirilenler",
+      "favorites": "Favoriler",
+      "playlists": "Oynatma listeleri"
+    }
+  },
+  "groups": {
+    "header": "Gruplar",
+    "createGroup": {
+      "title": "yeni Grup Oluştur",
+      "groupNameLabel": "GRUP İSMİ",
+      "groupNameInputPlaceHolder": "İsim",
+      "descriptionLabel": "AÇIKLAMA",
+      "descriptionInputPlaceHolder": "Açıklama Ekle",
+      "inviteLabel": "Kullanıcıları Davet Et",
+      "inviteButton": "Yeni Kullanıcı Davet Edin",
+      "button": "Grup oluştur",
+      "invalidGroupName": "Geçerli bir ad girin",
+      "groupNameTooLong": "Grubun adı 25 karakterden fazla olmamalıdır"
+    },
+    "devotionNotStartAlert": "Bu grup için bir bağlılık başlamadı",
+    "membersLabel": "Üyeler",
+    "chatModalMemberSubtitleLabel": "üye",
+    "chatModalMembersSubtitleLabel": "üyeler",
+    "chat": {
+      "listeningToLabel": "Dinliyorum",
+      "loadingTrackLabel": "Parça yükleniyor ...",
+      "inputPlaceHolder": "Mesaj Yaz",
+      "deletePost": "Gönderiyi Sil",
+      "deleteMessage": "bir mesajı sildi"
+    },
+    "groupSettings": {
+      "participantsSection": "Katılımcılar",
+      "viewAll": "Hepsini gör",
+      "invite": "Yeni Kullanıcı Davet Edin",
+      "endDevotion": "Son Grup Bağlılığı",
+      "deleteGroup": "Grubu Sil",
+      "leaveGroup": "Gruptan ayrıl"
+    },
+    "userDirectory": {
+      "header": "Kullanıcı Dizini",
+      "remove": "Kaldırmak",
+      "anonymous": "Anonim",
+      "send": "Gönder"
+    },
+    "inviteUser": { "placeHolder": "Arama", "send": "Gönder" }
+  },
+  "chat": {
+    "header": "Grup Kanalı",
+    "settings": {
+      "header": "Grup Ayarları",
+      "endDevotion": {
+        "alertTitle": "Bağlılığı Sonlandır",
+        "alertMessage": "Bu bağlılığı sona erdirmek istediğinizden emin misiniz?",
+        "alertCancel": "İptal etmek",
+        "alertConfirm": "Evet",
+        "endDevotionLabel": "bu bağlılığı sona erdirdi.",
+        "hasEnded": "Bu bağlılık sona erdi"
+      }
+    }
+  },
+  "startDevotion": {
+    "alertTitle": "Bağlılığı Başlatın",
+    "alertMessage": "% {Name} grubu ile bağlılığa başlamak istediğinizden emin misiniz?",
+    "alertCancel": "İptal etmek",
+    "alertConfirm": "Evet",
+    "devotionStartedLabel": "bir bağlılık başlattı."
+  },
+  "settings": {
+    "header": "Ayarlar",
+    "tabs": { "profile": "Profil", "media": "Medya", "notifications": "Bildirimler" },
+    "profile": {
+      "account": "Hesap",
+      "username": "Kullanıcı adı",
+      "email": "E-posta",
+      "editButton": "Düzenle",
+      "edit": {
+        "save": "Kayıt etmek",
+        "username": {
+          "header": "Kullanıcı adı",
+          "successAlert": "Değişikliğiniz kaydedildi.",
+          "failedAlert": "Değişiklik kaydedilemedi."
+        },
+        "email": {
+          "header": "E-posta",
+          "successAlert": "Değişikliğiniz kaydedildi.",
+          "failedAlert": "Değişiklik kaydedilemedi."
+        }
+      },
+      "languages": "Diller",
+      "signIn": "Oturum aç",
+      "signOut": "Hesaptan Çıkış Yapın",
+      "legal": "Yasal",
+      "termsConditions": "şartlar ve koşullar",
+      "privacyPolicy": "Gizlilik Politikası",
+      "support": "Destek",
+      "reportAProblem": "Problemi şikayet et",
+      "tutorial": "Öğretici",
+      "reportBug": {
+        "header": "Problemi şikayet et",
+        "send": "Gönder",
+        "subject": "KONU",
+        "subjectPlaceHolder": "Konu",
+        "description": "AÇIKLAMA",
+        "descriptionPlaceHolder": "Açıklama",
+        "successAlert": "Teşekkürler, mesajınızı aldık.",
+        "failedAlert": "Mesaj gönderilemedi."
+      },
+      "version": "Sürüm"
+    },
+    "media": {
+      "audio": "Ses",
+      "autoplay": "Otomatik Oynat Sesi",
+      "storage": "Depolama",
+      "downloadWifi": "Sadece Wi-fi ile İndir",
+      "deleteCache": "Önbelleği Sil"
+    },
+    "notifications": {
+      "notifications": "Bildirimler",
+      "groupInvitation": "Grup Daveti",
+      "devotions": "Adanmışlıklara Davet Et",
+      "file": "Dosya Aktarımı Onayı"
+    }
+  },
+  "inviteUsers": { "header": "Kullanıcıları Davet Et" },
+  "playlist": {
+    "header": "Oynatma listesi",
+    "audioFileLabel": "Ses dosyası",
+    "audioFilesLabel": "Ses dosyaları"
+  },
+  "collection": { "header": "Toplamak", "audioFilesLabel": "Ses dosyaları" },
+  "modal": {
+    "close": "kapat",
+    "addToPlaylist": { "title": "Oynatma listesine ekle", "button": "Oynatma listesi yarat" },
+    "startDevotion": { "title": "Bağlılığı Başlatın" },
+    "createPlaylist": {
+      "title": "Yeni Oynatma Listesi Oluşturun",
+      "button": "Oynatma listesi yarat",
+      "inputPlaceholder": "Oynatma Listesi Adını Girin",
+      "success": "Oynatma Listesine eklendi"
+    },
+    "login": "Bir bağlılık başlatmak için giriş yapmanız gerekiyor"
+  },
+  "options": {
+    "shared": {
+      "share": "Paylaş",
+      "report": "İçeriği bildir",
+      "shareOthers": "Başkalarıyla Paylaş",
+      "copy": "Bağlantıyı kopyala",
+      "more": "Daha"
+    },
+    "audio": {
+      "download": "İndir",
+      "addFavorite": "Favorilere ekle",
+      "addPlaylist": "Oynatma listesine ekle",
+      "removeFavorite": "Favorilerden çıkar",
+      "removePlaylist": "Oynatma Listesinden Kaldır",
+      "removeDownload": "İndirilenlerden Kaldır"
+    },
+    "playlist": { "edit": "Düzenle", "delete": "Oynatma Listesini Sil" },
+    "startDevotion": "Bağlılığı Başlatın"
+  },
+  "alerts": {
+    "playlists": {
+      "add": "Oynatma Listesine eklendi",
+      "delete": "Oynatma Listesinden Kaldırıldı",
+      "create": "Oluşturulan Oynatma Listesi",
+      "destroy": "Oynatma Listesi Silindi"
+    },
+    "favorites": { "add": "Favoriler'e eklendi", "remove": "Favorilerden kaldırıldı" },
+    "downloads": { "remove": "İndirmelerden Kaldırıldı" }
+  },
+  "buttons": { "loop": "Döngü", "shuffle": "Karıştır" },
+  "uiControls": {
+    "searchBox": { "placeholder": "Arama..." },
+    "notification": { "success": "Başarılı! Hesabınıza bir e-posta gönderilecektir." },
+    "button": { "sending": "Gönderiliyor ..." },
+    "modalSelector": { "cancel": "İptal etmek" },
+    "loading": "Yükleniyor"
+  },
+  "bible": {
+    "header": "Kutsal Kitap",
+    "oldTestament": "Eski Ahit",
+    "newTestament": "Yeni Ahit",
+    "popularBooks": "Popüler kitaplar"
+  },
+  "search": {
+    "searchBoxPlaceHolder": "Arama",
+    "cancelButton": "İPTAL ETMEK",
+    "searchResults": "Arama Sonuçları",
+    "filterButton": "Filtrele",
+    "teachings": { "title": "Öğretiler" },
+    "bible": { "title": "Kutsal Kitap" }
+  },
+  "addToPlaylistsModal": { "title": "Oynatma listesine ekle", "button": "Oynatma listesi yarat" },
+  "createPlaylistModal": {
+    "title": "Yeni Oynatma Listesi Oluşturun",
+    "button": "Oynatma listesi yarat",
+    "inputPlaceholder": "Oynatma Listesi Adını Girin"
+  },
+  "alert": {
+    "playlists": {
+      "add": "Oynatma Listesine eklendi",
+      "remove": "Oynatma Listesinden Kaldırıldı",
+      "create": "Oluşturulan Oynatma Listesi",
+      "delete": "Oynatma Listesi Silindi"
+    },
+    "favorites": { "add": "Favoriler'e eklendi", "remove": "Favorilerden kaldırıldı" },
+    "downloads": { "remove": "İndirmelerden Kaldırıldı" },
+    "facebook": { "loginError": "Giriş hatayla başarısız" },
+    "google": { "loginError": "Giriş hatayla başarısız" }
+  },
+  "playlists": { "trackLabel": "Izlemek", "tracksLabel": "Parçalar" },
+  "mediaList": { "tracksLabel": "Parçalar", "remove": "Kaldırmak" },
+  "tutorialPage": { "done": "Bitti", "skip": "Atla" },
+  "loginModal": { "login": "Oturum aç" },
+  "shareModal": { "facebook": "Facebook", "twitter": "Twitter", "whatsapp": "Naber" },
+  "downloadModal": { "downloading": "İndiriliyor", "complete": "İndirme tamamlandı" },
+  "onboarding": {
+    "tutorialPage": {
+      "title1": "İncil'i Keşfedin",
+      "subtitle1": "Bizimle Kutsal Kitabın tamamını dolaşın veya kendi yolculuğunuza başlayın.",
+      "title2": "Dinle ve Etkileşimde Bul",
+      "subtitle2": "Medya oynatıcı, KUTSAL KİTAP içeriğine kolaylıkla dalmanızı sağlar.",
+      "title3": "Öğretileri Keşfedin",
+      "subtitle3": "Kutsal Kitap ve Öğretme içeriğine çapraz referans vererek daha önce hiç olmadığı gibi Kutsal Kitapla meşgul olun.",
+      "title4": "İncil'i tartışın",
+      "subtitle4": "THRU the BIBLE öğretilerini ve konularını başkalarıyla birlikte çalışmak için bir gruba katılın.",
+      "title5": "İndir paylaş",
+      "subtitle5": "Hareket halindeyken Tanrı Sözünü dinlemenin keyfini çıkarın ve bunu arkadaşlarınızla paylaşın.",
+      "title6": "Kaydet ve Oluştur",
+      "subtitle6": "En sevdiğiniz öğretileri ve İncil ayetlerini kaydedin veya özel bir çalma listesi oluşturun.",
+      "title7": "Grup Bağışları",
+      "subtitle7": "Günlük grup adanmışlıkları ile başkalarından ilham alın ve ilham alın."
+    },
+    "registerPage": {
+      "noThanks": "Hayır teşekkürler",
+      "haveAccount": "Hesabın var mı?",
+      "createAccount": "Hesabımı oluşturmak",
+      "title1": "Başkalarıyla Tartışın",
+      "subtitle1": "En sevdiğiniz konuları ve İncil ayetlerini başkalarıyla tartışın.",
+      "title2": "Oynatma Listelerini Saklayın ve Senkronize Edin",
+      "subtitle2": "En sevdiğiniz içeriğin listelerini tek bir yerde oluşturun.",
+      "title3": "Favorilerinizi Görün",
+      "subtitle3": "Saklayın ve geri gelin ve favorilerinizi daha sonra ziyaret edin.",
+      "title4": "Tekrar hoşgeldiniz",
+      "subtitle4": "Bir hesap oluşturun ve tüm özelliklerimize erişin."
+    }
+  },
+  "app": {
+    "close": "kapat",
+    "accept": "Kabul etmek",
+    "reject": "Reddet",
+    "constructionInProgress": "YAPIM DEVAM ETMEKTE",
+    "downloadComplete": "İndirme tamamlandı",
+    "downloading": "İndiriliyor",
+    "downloadFailed": "Yükleme başarısız",
+    "sendAFile": "Birisi Size Dosya Göndermek İstiyor"
+  },
+  "transferring": { "tryAgain": "Tekrar deneyin", "close": "kapat" },
+  "checkDevice": {
+    "check": "Cihazınızı Kontrol Edin",
+    "makeSure": "Lütfen Wifi-Direct'in arkadaşınızın cihazında açık olduğundan ve kapsama alanında olduğundan emin olun.",
+    "continue": "Devam et"
+  },
+  "connectToDevice": { "connect": "Bir Cihaza Bağlanın" },
+  "pairing": {
+    "connect": "Bir Cihaza Bağlanın",
+    "pairing": "Eşleştirme",
+    "success": "Başarıyla Eşlendi",
+    "failed": "Cihaz Eşleştirme Başarısız",
+    "makeSure": "Lütfen (Wifi-Direct) arkadaşınızın cihazında açık olduğundan ve kapsama alanında olduğundan emin olun.",
+    "continue": "Devam et",
+    "tryAgain": "Tekrar deneyin"
+  },
+  "selectNetworkType": {
+    "connect": "Bir cihaza bağlanın",
+    "share": "Wifi Direct ile paylaşın",
+    "send": "Dosya doğrudan wifi üzerinden gönderilsin mi?",
+    "continue": "Devam et"
+  }
+}

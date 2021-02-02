@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Pause-btn</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Component-/-Audio-/-Player-/-Pause" transform="translate(-161.000000, -40.000000)">
+            <g id="Components-/-Audio-/-Player">
+                <g id="controllers" transform="translate(50.000000, 40.000000)">
+                    <g id="Pause-btn" transform="translate(111.000000, 0.000000)">
+                        <circle id="Oval" fill="#006FA1" opacity="0.400000006" cx="28" cy="28" r="28"></circle>
+                        <g id="Icons/music/pause/black" transform="translate(16.000000, 16.000000)" fill="#FFFFFF">
+                            <g id="pause" transform="translate(6.000000, 4.000000)">
+                                <path d="M-1,0 C-1,-0.55228475 -0.55228475,-1 0,-1 L4,-1 C4.55228475,-1 5,-0.55228475 5,0 L5,16 C5,16.5522847 4.55228475,17 4,17 L0,17 C-0.55228475,17 -1,16.5522847 -1,16 L-1,0 Z M1,1 L1,15 L3,15 L3,1 L1,1 Z" id="Rectangle"></path>
+                                <path d="M7,0 C7,-0.55228475 7.44771525,-1 8,-1 L12,-1 C12.5522847,-1 13,-0.55228475 13,0 L13,16 C13,16.5522847 12.5522847,17 12,17 L8,17 C7.44771525,17 7,16.5522847 7,16 L7,0 Z M9,1 L9,15 L11,15 L11,1 L9,1 Z" id="Rectangle"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
