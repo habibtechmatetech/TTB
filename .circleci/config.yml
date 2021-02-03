@@ -39,16 +39,6 @@ orbs:
           environment:
             JEST_JUNIT_OUTPUT: test-results/jest/junit.xml
 
-      - persist_to_workspace:              #Special step used to persist a temporary file to be used by another job in the workflow
-          root: .
-          paths:
-            - node_modules
-
-      - store_test_results:                #ui circleci  Test Summary
-          path: test-results
-
-      - store_artifacts:		
-          path: test-results
       
   deploy-job:
        docker:
