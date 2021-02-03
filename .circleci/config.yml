@@ -8,10 +8,6 @@ jobs:
       - image: 'circleci/node:lts'
     steps:
       - checkout
-        on_after_initialize:
-          default: 'yarn react-native run-android'
-          description: A custom command to run right after yarn install.
-          type: string
       - restore_cache:
           key: 'v1-yarn-{{ checksum "yarn.lock" }}'
       - run: yarn install
