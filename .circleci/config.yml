@@ -1,14 +1,52 @@
 version: 2.1
+docker:
+  - image: reactnativecommunity/react-native-android
+environment:
+  - _JAVA_OPTIONS: <<parameters.java_options>>
+  - GRADLE_OPTS: <<parameters.gradle_options>>
+parameters:
+  gradle_options:
+    default: >-
+      -Xmx2014m -Dorg.gradle.daemon=false
+      -Dorg.gradle.jvmargs="-XX:+UnlockExperimentalVMOptions
+      -XX:+HeapDumpOnOutOfMemoryError"
+    description: >-
+      Gradle command options. Note that setting this will override the default
+      options so you might need to supply those as well.
+    type: string
+  java_options:
+    default: >-
+      -Xmx1024m -XX:+UnlockExperimentalVMOptions
+      -XX:+UseCGroupMemoryLimitForHeap
+    description: >-
+      Java command options. Note that setting this will override the default
+      options so you might need to supply those as well.
+    type: string
+  resource_class:
+    default: medium
+    description: >-
+      Changes the resource class of the executor. Requires a support request to
+      enable the resource_class parameter.
+    type: string
+resource_class: <<parameters.resource_class>>
+orbs:
+  rn: react-native-community/react-native@4.4.2
 jobs:
-  build-job:
-    docker:
-      # specify the version you desire here
-      - image: circleci/node:10.13.0
-
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/mongo:3.4.4
+  analyse_js:
+    executor: rn/linux_js
+    steps:
+      - attach_workspace:
+          at: .  
+      - rn/yarn_install
+      - run: 
+          name: yarn test 
+          command: yarn test
+      - run:
+          name: yarn lint
+          command: yarn lint
+      - run: 
+          name: jestify
+          command: jestify
 
     working_directory: ~/TTB
     steps:
@@ -24,18 +62,6 @@ jobs:
       - run:
           name: yarn install
           command: yarn install
-      - run: 
-          name: yarn test 
-          command: yarn test
-      - run:
-          name: yarn lint
-          command: yarn lint
-      - run: 
-          name: jestify
-          command: jestify
-      
-      
-      
 
       - save_cache:
           key: yarn-v1-{{ checksum "yarn.lock" }}
@@ -50,36 +76,39 @@ jobs:
       # run tests!
       #- run: yarn run test:unit 
 
-  deploy-job:
-       docker:
-         - image: circleci/node:10.13.0
-       working_directory: ~/TTB 
-       steps:
-         - restore_cache:
-             keys:
-              - v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }} 
-         - run:
-             name: show directory 
-             command: pwd
-         - run:
-             name: Install Firebase
-             command: npm install --save-dev firebase-tools
-         - run:
-             name: look in directory
-             command: ls -ltr
-         - run:
-             name: Deploy main to Firebase
-             command: npm run firebase deploy -- --token=$FIREBASE_DEPLOY_TOKEN    
+  #deploy-job:
+  #     working_directory: ~/TTB 
+   #    steps:
+    #     - restore_cache:
+     #        keys:
+      #        - v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }} 
+       #  - run:
+        #     name: show directory 
+         #    command: pwd
+         #- run:
+           #  name: Install Firebase
+            # command: npm install --save-dev firebase-tools
+         #- run:
+          #   name: look in directory
+           #  command: ls -ltr
+         #- run:
+          #   name: Deploy main to Firebase
+           #  command: npm run firebase deploy -- --token=$FIREBASE_DEPLOY_TOKEN    
 
 workflows:
-  version: 2.1
-
-  -deploy:
+  test:
     jobs:
-      - build-job
-      - deploy-job:
+      - checkout_code
+      - analyse_js:
           requires:
-            - build-job
+            - checkout_code
+      - rn/android_build:
+          build_type: release
+          requires:
+            - analyse_js
+      - rn/android_test:
+          requires:
+            - rn/android_build
           filters:
             branches:
               only: main
