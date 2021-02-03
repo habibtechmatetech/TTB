@@ -1,75 +1,48 @@
 version: 2.1
-docker:
-  - image: reactnativecommunity/react-native-android
-environment:
-  - _JAVA_OPTIONS: <<parameters.java_options>>
-  - GRADLE_OPTS: <<parameters.gradle_options>>
-parameters:
-  gradle_options:
-    default: >-
-      -Xmx2014m -Dorg.gradle.daemon=false
-      -Dorg.gradle.jvmargs="-XX:+UnlockExperimentalVMOptions
-      -XX:+HeapDumpOnOutOfMemoryError"
-    description: >-
-      Gradle command options. Note that setting this will override the default
-      options so you might need to supply those as well.
-    type: string
-  java_options:
-    default: >-
-      -Xmx1024m -XX:+UnlockExperimentalVMOptions
-      -XX:+UseCGroupMemoryLimitForHeap
-    description: >-
-      Java command options. Note that setting this will override the default
-      options so you might need to supply those as well.
-    type: string
-  resource_class:
-    default: medium
-    description: >-
-      Changes the resource class of the executor. Requires a support request to
-      enable the resource_class parameter.
-    type: string
-resource_class: <<parameters.resource_class>>
-  jobs:
-    analyse_js:
-      executor: rn/linux_js
-      steps:
-        - attach_workspace:
-            at: .  
-        - rn/yarn_install
-        - run: 
-            name: yarn test 
-            command: yarn test
-        - run:
-            name: yarn lint
-            command: yarn lint
-        - run: 
-            name: jestify
-            command: jestify
-
-    working_directory: ~/TTB
+orbs:
+  firebase-deploy: azdevs/firebase-deploy@1.0.0
+  react-native: react-native-community/react-native@4.4.2
+jobs:
+  build:
+    docker:
+      - image: 'circleci/node:lts'
     steps:
       - checkout
-
-      # Download and cache dependencies
+        on_after_initialize:
+          default: 'yarn react-native run-android'
+          description: A custom command to run right after yarn install.
+          type: string
       - restore_cache:
-          key: yarn-v1-{{ checksum "yarn.lock" }}
-
-      - restore_cache:
-          key: node-v1-{{ checksum "package.json" }}
-
-      - run:
-          name: yarn install
-          command: yarn install
-
+          key: 'v1-yarn-{{ checksum "yarn.lock" }}'
+      - run: yarn install
       - save_cache:
-          key: yarn-v1-{{ checksum "yarn.lock" }}
+          key: 'v1-yarn-{{ checksum "yarn.lock" }}'
           paths:
-            - ~/.cache/yarn
-
-      - save_cache:
-          key: node-v1-{{ checksum "package.json" }}
+            - ./node_modules
+      - run: yarn build
+      - persist_to_workspace:
+          root: /tmp/workspace
           paths:
-            - node_modules
+            - dist
+            - firebase.json
+            - .firebaserc
+            - firestore.rules
+            - firestore.indexes.json
+  deploy:
+    docker:
+      - image: 'circleci/node:lts'
+    steps:
+      - attach_workspace:
+          at: /tmp/workspace
+      - firebase-deploy/deploy:
+          token: $FIREBASE_DEPLOY_TOKEN
+workflows:
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
 
       # run tests!
       #- run: yarn run test:unit 
@@ -93,21 +66,4 @@ resource_class: <<parameters.resource_class>>
           #   name: Deploy main to Firebase
            #  command: npm run firebase deploy -- --token=$FIREBASE_DEPLOY_TOKEN    
 
-workflows:
-  test:
-    jobs:
-      - checkout_code
-      - analyse_js:
-          requires:
-            - checkout_code
-      - rn/android_build:
-          build_type: release
-          requires:
-            - analyse_js
-      - rn/android_test:
-          requires:
-            - rn/android_build
-          filters:
-            branches:
-              only: main
 
