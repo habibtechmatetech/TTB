@@ -3,13 +3,13 @@ orbs:
   hook: shield/hook@2.1.1
   firebase-deploy: azdevs/firebase-deploy@1.0.0
   react-native: react-native-community/react-native@4.4.2
-  
+
 
   jobs:
     node:
       working_directory: ~/TTB
       docker:
-        - image: cimg/node:12.16
+        - image: circleci/node:10.8.0
     steps:
       - checkout
 
@@ -40,14 +40,14 @@ orbs:
             JEST_JUNIT_OUTPUT: test-results/jest/junit.xml
 
       - persist_to_workspace:              #Special step used to persist a temporary file to be used by another job in the workflow
-          root: ~/demo-react-native
+          root: .
           paths:
             - node_modules
 
       - store_test_results:                #ui circleci  Test Summary
           path: test-results
 
-      - store_artifacts:		 # Artifacts persist data after a job is completed and may be used for storage of the outputs of your build process
+      - store_artifacts:		
           path: test-results
       
   deploy-job:
