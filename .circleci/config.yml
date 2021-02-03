@@ -10,7 +10,7 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mongo:3.4.4
 
-    working_directory: ~/mobile1
+    working_directory: ~/TTB
     steps:
       - checkout
 
@@ -21,21 +21,29 @@ jobs:
       - restore_cache:
           key: node-v1-{{ checksum "package.json" }}
 
-      - run: yarn install
-      -run: yarn test
-      -run: lint
-      -run: jestify
+      - run:
+          name: yarn install
+          command: yarn install
+      - run: 
+          name: yarn test 
+          command: yarn test
+      - run:
+          name: yarn lint
+          command: yarn lint
+      - run: 
+          name: jestify
+          command: jestify
       
       
       
 
       - save_cache:
-          key: yarn-v1-{{ checksum "yarn.lock" }}-{{ arch }}
+          key: yarn-v1-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache/yarn
 
       - save_cache:
-          key: node-v1-{{ checksum "package.json" }}-{{ arch }}
+          key: node-v1-{{ checksum "package.json" }}
           paths:
             - node_modules
 
@@ -45,7 +53,7 @@ jobs:
   deploy-job:
        docker:
          - image: circleci/node:10.13.0
-       working_directory: ~/mobile1 
+       working_directory: ~/TTB 
        steps:
          - restore_cache:
              keys:
