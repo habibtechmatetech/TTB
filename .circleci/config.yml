@@ -1,65 +1,86 @@
 version: 2.1
 orbs:
+  hook: shield/hook@2.1.1
   firebase-deploy: azdevs/firebase-deploy@1.0.0
   react-native: react-native-community/react-native@4.4.2
-jobs:
-  build:
-    docker:
-      - image: 'circleci/node:lts'
+  
+
+  jobs:
+    node:
+      working_directory: ~/TTB
+      docker:
+        - image: cimg/node:12.16
     steps:
       - checkout
+
       - restore_cache:
-          key: 'v1-yarn-{{ checksum "yarn.lock" }}'
+          key: yarn-v1-{{ checksum "yarn.lock" }}-{{ arch }}
+
+      - restore_cache:
+          key: node-v1-{{ checksum "package.json" }}-{{ arch }}
+
       - run: yarn install
+
       - save_cache:
-          key: 'v1-yarn-{{ checksum "yarn.lock" }}'
+          key: yarn-v1-{{ checksum "yarn.lock" }}-{{ arch }}
           paths:
-            - ./node_modules
-      - run: yarn build
-      - persist_to_workspace:
-          root: /tmp/workspace
+            - ~/.cache/yarn
+
+      - save_cache:
+          key: node-v1-{{ checksum "package.json" }}-{{ arch }}
           paths:
-            - dist
-            - firebase.json
-            - .firebaserc
-            - firestore.rules
-            - firestore.indexes.json
-  deploy:
-    docker:
-      - image: 'circleci/node:lts'
-    steps:
-      - attach_workspace:
-          at: /tmp/workspace
-      - firebase-deploy/deploy:
-          token: $FIREBASE_DEPLOY_TOKEN
+            - node_modules
+      
+      - run:
+          name: jest tests
+          command: |
+            mkdir -p test-results/jest
+            yarn run test
+          environment:
+            JEST_JUNIT_OUTPUT: test-results/jest/junit.xml
+
+      - persist_to_workspace:              #Special step used to persist a temporary file to be used by another job in the workflow
+          root: ~/demo-react-native
+          paths:
+            - node_modules
+
+      - store_test_results:                #ui circleci  Test Summary
+          path: test-results
+
+      - store_artifacts:		 # Artifacts persist data after a job is completed and may be used for storage of the outputs of your build process
+          path: test-results
+      
+  deploy-job:
+       docker:
+         - image: circleci/node:10.8.0
+       working_directory: ~/android 
+       steps:
+         - restore_cache:
+             keys:
+              - v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }} 
+         - run:
+             name: show directory 
+             command: pwd
+         - run:
+             name: Install Firebase
+             command: npm install --save-dev firebase-tools
+         - run:
+             name: look in directory
+             command: ls -ltr
+         - run:
+             name: Deploy Master to Firebase
+             command: npm run firebase-deploy -- --token=$FIREBASE_DEPLOY_TOKEN    
+
 workflows:
-  build-and-deploy:
+  version: 2
+
+  -deploy:
     jobs:
-      - build
-      - deploy:
+      - build-job
+      - deploy-job:
           requires:
-            - build
-
-      # run tests!
-      #- run: yarn run test:unit 
-
-  #deploy-job:
-  #     working_directory: ~/TTB 
-   #    steps:
-    #     - restore_cache:
-     #        keys:
-      #        - v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }} 
-       #  - run:
-        #     name: show directory 
-         #    command: pwd
-         #- run:
-           #  name: Install Firebase
-            # command: npm install --save-dev firebase-tools
-         #- run:
-          #   name: look in directory
-           #  command: ls -ltr
-         #- run:
-          #   name: Deploy main to Firebase
-           #  command: npm run firebase deploy -- --token=$FIREBASE_DEPLOY_TOKEN    
-
-
+            - build-job
+          filters:
+            branches:
+              only: main
+            
