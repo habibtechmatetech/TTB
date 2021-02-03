@@ -1,15 +1,12 @@
 version: 2.1
 orbs:
-  hook: shield/hook@2.1.1
   firebase-deploy: azdevs/firebase-deploy@1.0.0
-  react-native: react-native-community/react-native@4.4.2
-
 
   jobs:
     node:
       working_directory: ~/TTB
       docker:
-        - image: circleci/node:10.8.0
+        - image: cimg/node:15.7.0
     steps:
       - checkout
 
@@ -34,16 +31,13 @@ orbs:
       - run:
           name: jest tests
           command: |
-            mkdir -p test-results/jest
             yarn run test
-          environment:
-            JEST_JUNIT_OUTPUT: test-results/jest/junit.xml
 
       
   deploy-job:
        docker:
-         - image: circleci/node:10.8.0
-       working_directory: ~/android 
+         - image: cimg/node:15.7.0
+       working_directory: ~/TTB
        steps:
          - restore_cache:
              keys:
