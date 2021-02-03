@@ -31,22 +31,22 @@ parameters:
 resource_class: <<parameters.resource_class>>
 orbs:
   rn: react-native-community/react-native@4.4.2
-jobs:
-  analyse_js:
-    executor: rn/linux_js
-    steps:
-      - attach_workspace:
-          at: .  
-      - rn/yarn_install
-      - run: 
-          name: yarn test 
-          command: yarn test
-      - run:
-          name: yarn lint
-          command: yarn lint
-      - run: 
-          name: jestify
-          command: jestify
+  jobs:
+    analyse_js:
+      executor: rn/linux_js
+      steps:
+        - attach_workspace:
+            at: .  
+        - rn/yarn_install
+        - run: 
+            name: yarn test 
+            command: yarn test
+        - run:
+            name: yarn lint
+            command: yarn lint
+        - run: 
+            name: jestify
+            command: jestify
 
     working_directory: ~/TTB
     steps:
