@@ -29,8 +29,6 @@ parameters:
       enable the resource_class parameter.
     type: string
 resource_class: <<parameters.resource_class>>
-orbs:
-  rn: react-native-community/react-native@4.4.2
   jobs:
     analyse_js:
       executor: rn/linux_js
