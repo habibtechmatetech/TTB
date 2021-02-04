@@ -2,8 +2,8 @@ version: 2.1
 jobs:
   build:
     docker:
-      #- image: node:11.10.1
-      - image: circleci/node:12.18
+      - image: node:11.10.1
+      #- image: circleci/node:12.18
 
     working_directory: ~/TTB
 
@@ -31,14 +31,14 @@ jobs:
           paths:
             - ~/.cache/yarn
       - run: yarn react-native-asset
-      - run: yarn add @segment/analytics-react-native
+      - run: yarn add @segment/analytics-react-native/src/bridge.ts:89:8
 
       - run: yarn react-native link
       #- run: yarn add @segment/analytics-react-native-firebase
       #- run: yarn add @react-native-firebase/app
 
       # run tests!
-      #- run: yarn test
+      - run: yarn test
 
       #- run: yarn build
       #- run: yarn react-native start
