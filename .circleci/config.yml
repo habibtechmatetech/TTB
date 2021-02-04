@@ -26,6 +26,7 @@ jobs:
       # run tests!
       #- run: yarn test
 
-      - run: yarn build
+      #- run: yarn build
+      - run: yarn react-native start
 
       - run: yarn netlify:deploy
