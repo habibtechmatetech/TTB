@@ -29,11 +29,11 @@ jobs:
       - save_cache:
           key: yarn-v1-{{ checksum "yarn.lock" }}
           paths:
-            - ~/.cache/yarn
+            - node_modules
       - run: yarn react-native-asset
-      - run: npm add @segment/analytics-react-native/
+      - run: yarn add @segment/analytics-react-native/
 
-      - run: npm react-native link
+      - run: yarn react-native link
       #- run: yarn add @segment/analytics-react-native-firebase
       #- run: yarn add @react-native-firebase/app
 
