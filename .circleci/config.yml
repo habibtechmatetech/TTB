@@ -30,6 +30,7 @@ jobs:
           paths:
             - ~/.cache/yarn
       - run: yarn add @segment/analytics-react-native
+      - run: yarn react-native link
       #- run: yarn add @segment/analytics-react-native-firebase
       #- run: yarn add @react-native-firebase/app
 
