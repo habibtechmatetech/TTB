@@ -15,6 +15,8 @@ jobs:
             - v1-dependencies-{{ checksum "package.json" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
+      - restore_cache:
+          key: yarn-v1-{{ checksum "yarn.lock" }}-{{ arch }}
 
       - run: yarn install
 
@@ -23,10 +25,17 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
+      - save_cache:
+          key: yarn-v1-{{ checksum "yarn.lock" }}-{{ arch }}
+          paths:
+            - ~/.cache/yarn
+
       # run tests!
       #- run: yarn test
 
       #- run: yarn build
       - run: yarn react-native start
+
+      - run: yarn react-native run-android
 
       - run: yarn netlify:deploy
