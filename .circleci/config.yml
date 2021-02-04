@@ -37,7 +37,7 @@ jobs:
       #- run: yarn add @react-native-firebase/app
 
       # run tests!
-      - run: yarn test
+      #- run: yarn test
 
       #- run: yarn build
       #- run: yarn react-native start
