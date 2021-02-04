@@ -1,10 +1,10 @@
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
       - image: node:11.10.1
 
-    working_directory: ~/repo
+    working_directory: ~/TTB
 
     steps:
       - checkout
@@ -16,7 +16,7 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
       - restore_cache:
-          key: yarn-v1-{{ checksum "yarn.lock" }}-{{ arch }}
+          key: yarn-v1-{{ checksum "yarn.lock" }}
 
       - run: yarn install
 
@@ -26,10 +26,12 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - save_cache:
-          key: yarn-v1-{{ checksum "yarn.lock" }}-{{ arch }}
+          key: yarn-v1-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache/yarn
       - run: yarn add @segment/analytics-react-native
+      #- run: yarn add @segment/analytics-react-native-firebase
+      #- run: yarn add @react-native-firebase/app
 
       # run tests!
       - run: yarn test
@@ -37,6 +39,6 @@ jobs:
       #- run: yarn build
       #- run: yarn react-native start
 
-      - run: yarn react-native run-android
+      - run: yarn react-native run-android --variant=DevDebug
 
-      - run: yarn netlify:deploy
+      #- run: yarn netlify:deploy
